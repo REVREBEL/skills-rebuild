@@ -7,6 +7,7 @@ Split retained skills only when they contain independently triggered jobs with d
 ## Preconditions
 
 - Inventory, taxonomy, destination, consolidation, and merge-decision artifacts exist and reconcile.
+- `.agents/skills` is the verified canonical task-workflow path.
 - Canonical owners for overlap clusters are established.
 - Candidate skills have been reviewed for true multi-job behavior rather than length alone.
 
@@ -14,13 +15,13 @@ Split retained skills only when they contain independently triggered jobs with d
 
 Read and follow:
 
-- `task-skills/SKILL.md`
-- `task-skills/skills-create-manage-update/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-review/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-library-restructure/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-writer/SKILL.md`
+- `.agents/skills/SKILL.md`
+- `.agents/skills/skills-create-manage-update/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-review/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-library-restructure/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-writer/SKILL.md`
 
-Use `skill-review` for split approval, `skill-library-restructure` for parent-child architecture and destination updates, and `skill-writer` for substantial source-backed child or router authoring. Use `task-skills/github-operations/SKILL.md` for repository operations and reviewable publication batches.
+Use `skill-review` for split approval, `skill-library-restructure` for parent-child architecture and destination updates, and `skill-writer` for substantial source-backed child or router authoring. Use `.agents/skills/github-operations/SKILL.md` for repository operations and reviewable publication batches.
 
 ## Work
 
@@ -59,10 +60,10 @@ The map must record original path, split decision, rationale, parent destination
 
 1. Begin only after Phase 06 is approved and merged into `main`.
 2. Create and complete this phase on `skills-rebuild/phase-07-splits` from the updated `main` branch.
-3. Use focused commits for individual split groups when needed, then review the complete phase diff.
-4. Commit the final phase checkpoint with: `skills-rebuild: complete phase 07 skill splits`.
+3. Review the final diff and confirm it contains only approved splits, router or child files created by those splits, mapping updates, and directly required supporting changes.
+4. Use focused intermediate commits for large split candidates when needed, then finish with the phase commit: `skills-rebuild: complete phase 07 skill splits`.
 5. Push the branch and open a draft pull request targeting `main`.
-6. The pull request must summarize approved and rejected splits, parent-child paths, artifact updates, validation evidence, reconciliation results, and unresolved candidates.
+6. The pull request must summarize candidates reviewed, approved and rejected splits, resulting paths, artifact locations, reconciliation evidence, and unresolved cases.
 7. Leave the pull request unmerged for review. Do not begin Phase 08 until this phase is approved and merged into `main`.
 
 ## Completion Gate
