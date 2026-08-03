@@ -1,111 +1,145 @@
 ---
 name: skill-check
-description: "Validate skills against the agentskills specification. Catches structural, semantic, and naming issues before users do."
-category: development
-risk: safe
-source: https://github.com/olgasafonova/SkillCheck-Free
-date_added: "2026-03-11"
-author: olgasafonova
-tags: [validation, linter, agentskills, skill-authoring, code-quality]
-tools: [claude, cursor, windsurf, codex-cli]
-license: MIT
-allowed-tools: Read Glob
+description: 'Validate a SKILL.md and its folder against the Agent Skills specification and repository conventions. Use when checking frontmatter, naming, discovery descriptions, structure, relative paths, bundled resources, trigger boundaries, or readiness before publishing or retaining a rebuilt skill.'
+compatibility: 'Read-only unless the user explicitly asks for repairs. Use the repository validator when available.'
+metadata:
+  category: agent-skills
+  type: validation
+  source: consolidated
 ---
 
-# SkillCheck
+# Skill Check
 
-## Overview
+Validate one skill package after creation, conversion, refinement, merge, or split.
 
-Validate SKILL.md files against the [agentskills specification](https://agentskills.io) and Anthropic best practices. Catches structural errors, semantic contradictions, naming anti-patterns, and quality gaps in a single read-only pass.
+## When to Use
 
-## When to Use This Skill
+Use this skill when:
 
-- Use when user says "check skill", "skillcheck", or "validate SKILL.md"
-- Use when reviewing a skill before publishing to a marketplace
-- Use when debugging why a skill doesn't trigger correctly
-- Use when onboarding a team to skill authoring standards
-- Do NOT use for anti-slop detection, security scanning, or token analysis; use [SkillCheck Pro](https://getskillcheck.com) for those
+- A new or rebuilt skill needs a final compliance check
+- A skill is not being discovered or triggered correctly
+- Folder and frontmatter names may not match
+- Relative links or bundled resources may be broken
+- A library needs a consistent validation pass
 
-## How It Works
+Do not use this skill for malware or supply-chain analysis; use `../skill-audit/SKILL.md`.
+Do not use it to decide whether a skill belongs in the library; use `../skill-review/SKILL.md`.
 
-### Step 1: Parse
+## Workflow
 
-Read the target SKILL.md file and extract YAML frontmatter.
+### 1. Resolve the Target
 
-### Step 2: Validate
+Identify the skill directory, `SKILL.md`, repository conventions, and any documented validator.
 
-Apply all Free tier checks in order:
+Read the complete `SKILL.md` and inventory bundled files.
 
-| Category | Checks | What it catches |
-|----------|--------|----------------|
-| Structure (1.x) | Name format, description WHAT+WHEN, allowed-tools, categories, XML injection | Malformed frontmatter, missing fields |
-| Body (2.x) | Line count, hardcoded paths, stale dates, empty sections, deprecated syntax, MCP tool qualification | Content quality issues |
-| Naming (3.x) | Vague terms, single-word names, gerund suggestions | Poor discoverability |
-| Semantic (4.x) | Contradictions, ambiguous terms, missing output format, wisdom/platitudes, misplaced triggers | Logical inconsistencies |
-| Quality (8.x) | Examples, error handling, triggers, output format, prerequisites, negative triggers | Strengths (positive patterns) |
+### 2. Validate Frontmatter
 
-### Step 3: Score
+Check:
 
-Calculate overall score (0-100). Penalties: critical = -20, warning = -5, suggestion = -1.
+- YAML parses correctly
+- Opening and closing delimiters are valid
+- `name` exists and matches the folder exactly
+- Name uses lowercase letters, numbers, and hyphens
+- `description` exists and fits specification limits
+- Description explains both what the skill does and when to use it
+- Optional fields are supported and purposeful
+- Declared tools and compatibility requirements match the body
 
-### Step 4: Report
+### 3. Validate Discovery and Boundaries
 
-Return structured results: score, grade (Excellent/Good/Needs Work/Poor), issue list with check IDs, line numbers, messages, and fix suggestions.
+Check whether:
 
-## Examples
+- Important trigger terms appear early in the description
+- The description uses realistic user language
+- Neighboring skills have distinguishable triggers
+- The skill states when not to use it where ambiguity is likely
+- The description does not promise unsupported capabilities
 
-### Example 1: Validating a skill
+### 4. Validate Structure
 
+Check:
+
+- The skill has one coherent primary job
+- Workflow steps are ordered and actionable
+- Prerequisites are explicit
+- Destructive actions have safeguards
+- Expected outputs are defined
+- Completion and verification checks exist
+- Long supporting detail uses progressive disclosure
+- Empty sections, placeholders, and duplicate instructions are removed
+
+### 5. Validate Bundled Resources
+
+For every referenced file:
+
+- Confirm the path exists with exact case
+- Confirm the file is used by the workflow
+- Confirm scripts have a clear entry point and input validation
+- Confirm templates contain no production secrets
+- Confirm assets are appropriate for repository limits
+- Confirm references do not contradict `SKILL.md`
+
+Flag orphaned files and unreferenced resources.
+
+### 6. Validate Environment Claims
+
+Check:
+
+- Referenced commands and tools are discoverable or declared prerequisites
+- Hardcoded paths are justified
+- Model-specific assumptions are intentional
+- Unsupported applications are not required accidentally
+- The skill does not claim network, repository, or filesystem access it may not have
+
+### 7. Run Available Validators
+
+Discover and run the repository-provided validation command when possible.
+
+Do not invent a validator command. Do not report a successful run unless it actually executed.
+
+### 8. Report Results
+
+Classify findings as:
+
+- **Critical**: Skill cannot load, referenced files are missing, or instructions are unsafe
+- **Warning**: Discovery, structure, dependency, or workflow problem likely to reduce reliability
+- **Suggestion**: Non-blocking clarity or maintainability improvement
+
+## Output Format
+
+```markdown
+## Skill Check: <name>
+
+### Result
+Pass | Pass with warnings | Fail
+
+### Critical
+- <location>: <issue> — <fix>
+
+### Warnings
+- <location>: <issue> — <fix>
+
+### Suggestions
+- <location>: <issue> — <fix>
+
+### Validator
+- Command:
+- Result:
+
+### Verified
+- Frontmatter
+- Name/folder match
+- Description triggers
+- Relative paths
+- Bundled resources
+- Workflow and completion checks
 ```
-User: check my skill at ~/.agents/skills/weekly-report/SKILL.md
 
-SkillCheck output:
-## weekly-report Check Results [FREE]
+## Completion Checks
 
-Score: 85/100 (Good)
-
-### Warnings (2)
-  - 1.2-desc-when (line 3): Description missing WHEN clause
-  - 4.5-desc-no-triggers (line 3): Description lacks triggering conditions
-
-### Suggestions (1)
-  - 3.4-gerund-naming (line 2): Skill name could use gerund form
-
-### Passed Checks: 28
-```
-
-### Example 2: Clean skill passes all checks
-
-```
-User: skillcheck ~/.agents/skills/processing-pdfs/SKILL.md
-
-Score: 100/100 (Excellent)
-All 31 checks passed. No issues found.
-```
-
-## Limitations
-
-- Read-only: does not modify any files
-- Free tier covers structural, semantic, and naming checks only
-- Anti-slop, security, WCAG, token, enterprise, and workflow checks require [SkillCheck Pro](https://getskillcheck.com)
-- Semantic checks (contradiction detection, wisdom/platitude) are heuristic with ~5% false positive rate
-- Does not validate referenced files or scripts; only checks SKILL.md content
-- Single-file validation; does not cross-check against other skills in the same directory
-
-## Best Practices
-
-- Run SkillCheck before submitting skills to any marketplace
-- Fix all critical and warning issues; suggestions are optional
-- Use the check ID (e.g., `1.2-desc-when`) to find the exact rule in the skill body
-- Re-run after fixes to confirm the score improved
-
-## Common Pitfalls
-
-- **Problem:** Score seems low due to many suggestions
-  **Solution:** Suggestions cap at -15 points total. Focus on warnings and criticals first.
-
-- **Problem:** False positive on ambiguous terms inside code blocks
-  **Solution:** SkillCheck skips code blocks and inline code. If you still see false positives, wrap the term in backticks.
-
-- **Problem:** Wisdom/platitude check flags legitimate instructions
-  **Solution:** Rephrase generic advice ("Remember that testing is important") as concrete directives ("Run tests before committing").
+- Full skill and bundled resources were inspected
+- Specification and repository rules were applied
+- Every finding includes a location and corrective action
+- Validator execution is reported truthfully
+- Final result is explicit
