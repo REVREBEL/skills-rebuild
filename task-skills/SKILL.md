@@ -1,7 +1,7 @@
 ---
 name: task-skills
-description: 'Route and coordinate the GitHub and Agent Skills workflows required to audit, classify, refactor, reorganize, validate, and publish a skills library. Use when rebuilding a skills repository, filtering application-specific skills, converting Claude-specific instructions, cataloging skills, merging or splitting skills, creating functional category routers, or publishing the rebuilt library through GitHub.'
-compatibility: 'Requires filesystem access to the target skills library and GitHub access for repository operations. Resolve the active source, quarantine, and rebuilt directories before making changes.'
+description: 'Coordinate the GitHub and Agent Skills workflows required to inventory, audit, classify, convert, reorganize, validate, and publish a skills library. Use when rebuilding a skills repository, filtering application-specific skills, converting model-specific instructions, merging or splitting skills, creating functional routers, or publishing the rebuilt library.'
+compatibility: 'Requires filesystem access to the target skills library and GitHub access for repository operations. Resolve source, quarantine, rebuilt, and task-skill paths before changes.'
 metadata:
   category: task-orchestration
   type: master-router
@@ -10,184 +10,170 @@ metadata:
 
 # Skills Library Rebuild Task Router
 
-Coordinate the complete skills-library cleanup and rebuild without collapsing the work into one oversized, difficult-to-verify operation.
+Coordinate the complete library rebuild as a sequence of reviewable phases.
 
-This is the top-level router for the task. It delegates execution to two functional skill groups:
+Delegate to:
 
-- [GitHub Operations](./github-operations/SKILL.md): repository inspection, branching, commits, pull requests, Actions, issues, and publication.
-- [Skills Create, Manage & Update](./skills-create-manage-update/SKILL.md): inventory, auditing, creation, conversion, refinement, consolidation, validation, and routing architecture.
+- [GitHub Operations](./github-operations/SKILL.md): branches, commits, pull requests, Actions, issues, and publication
+- [Skills Create, Manage & Update](./skills-create-manage-update/SKILL.md): inventory, audit, review, creation, conversion, restructuring, and validation
 
-## When to Use This Skill
+## When to Use
 
-Use this router when the work involves multiple stages of a skills-library rebuild, including:
+Use this router when the work spans several of these stages:
 
-- Reviewing a large source skills folder
+- Cataloging a large source skills folder
 - Comparing application-specific skills against an approved stack
-- Moving unsupported skills into a quarantine or `not-needed` folder
-- Identifying and converting Claude-specific instructions
-- Cataloging skill metadata and dependencies
-- Grouping skills by function
-- Detecting duplicates and overlapping triggers
-- Splitting oversized skills
-- Merging similar skills
-- Creating parent routers and child skill groups
+- Moving unsupported skills into quarantine
+- Converting Claude-specific or other provider-specific instructions
+- Grouping retained skills by function
+- Merging duplicates or splitting multi-function skills
+- Building parent routers and focused children
 - Validating and publishing the rebuilt library
 
-Do not use this router for a single isolated GitHub operation or a single standalone skill edit. Route those requests directly to the relevant child group.
+Use the child routers directly for one isolated GitHub operation or one standalone skill edit.
 
-## Required Directory Resolution
+## Required Path Resolution
 
-At the beginning of the task, resolve and record the actual paths for:
+At the beginning, resolve and record:
 
-- **Source library:** logically `agents/skills`
-- **Quarantine library:** logically `agents/not-needed`
-- **Rebuilt library:** logically `agents/skills-rebuild`
-- **Task skills:** `task-skills`
+- Source library, logically `agents/skills`
+- Quarantine library, logically `agents/not-needed`
+- Rebuilt library, logically `agents/skills-rebuild`
+- Task skills, logically `task-skills`
+- Repository, default branch, working branch, and starting commit
 
-The repository may place these folders beneath a project root such as `task-folder/`. Do not assume the physical prefix. Discover the paths and use them consistently.
+The physical paths may include another project prefix. Discover rather than assume.
 
-## Governing Principles
+## Governing Rules
 
-1. **Inventory before movement.** Create a minimal source inventory before relocating any skill.
-2. **Move, do not delete.** Unsupported or superseded skills go to quarantine with their supporting files intact.
-3. **One documented disposition per source skill.** Every original skill must be traceable to a final decision.
-4. **Separate classification from refactoring.** Decide what belongs before spending time rebuilding it.
-5. **Use functional boundaries.** Split or merge according to independent triggers and outcomes, not file length alone.
-6. **Keep parent routers thin.** Parent skills route; child skills execute.
-7. **Preserve provenance.** Record source paths for converted, merged, and split skills.
-8. **Work in reviewable batches.** Each phase should produce its own artifact, validation result, and Git commit.
-9. **Publish through a branch and pull request.** Do not make broad unreviewed changes directly on the default branch.
-10. **Verify the filesystem and repository state.** Never infer that moves, commits, pushes, or indexing succeeded.
+1. Inventory before movement.
+2. Use one documented primary disposition per source skill.
+3. Quarantine unsupported or unresolved sources instead of silently deleting them.
+4. Separate classification from refactoring.
+5. Group by functional job, not application name alone.
+6. Split by independent triggers or outcomes, not length alone.
+7. Merge only true workflow duplicates.
+8. Parent skills route; child skills execute.
+9. Preserve provenance and source-to-final traceability.
+10. Work on a branch in reviewable batches.
+11. Verify filesystem and repository state after every write phase.
+12. Do not claim validation, pushes, moves, or indexing succeeded without evidence.
 
-## Recommended Execution Phases
+## Execution Phases
 
 ### Phase 0: Establish the Baseline
 
-Use the [GitHub Operations router](./github-operations/SKILL.md) to:
+Use [GitHub Operations](./github-operations/SKILL.md) to:
 
-1. Confirm the repository and default branch.
-2. Inspect the working tree and current repository structure.
-3. Create a dedicated task branch.
-4. Record the starting commit SHA.
-5. Confirm the source, quarantine, rebuilt, and task-skill directories.
+1. Confirm repository and default branch
+2. Create a dedicated task branch
+3. Record the starting commit
+4. Resolve source, quarantine, rebuilt, and task-skill paths
+5. Inspect current repository structure
 
-**Output:** baseline record containing repository, branch, commit, and resolved paths.
+**Output:** baseline record.
 
 ### Phase 1: Build the Source Inventory
 
-Use the [Skills Create, Manage & Update router](./skills-create-manage-update/SKILL.md), beginning with:
-
-1. [Skill Scanner](./skills-create-manage-update/skill-scanner/SKILL.md)
-2. [Skill Audit](./skills-create-manage-update/skill-audit/SKILL.md)
+Use [Skill Inventory](./skills-create-manage-update/skill-inventory/SKILL.md).
 
 Capture at minimum:
 
 - Source path
-- Skill name
-- Description
-- Primary function
-- Application or framework dependencies
-- Model-specific dependencies
-- Supporting files
-- Approximate size
-- Initial disposition status
+- Folder and frontmatter names
+- Description and primary function
+- Application and framework dependencies
+- Model/provider dependencies
+- Referenced skills and bundled resources
+- Size and structural signals
+- Initial review status
 
 Do not perform broad moves during this phase.
 
-**Output:** complete source inventory and unresolved-review list.
+**Output:** complete inventory and unresolved-review list.
 
-### Phase 2: Apply the Application Compatibility Gate
+### Phase 2: Apply Compatibility and Safety Gates
 
-Compare every application-specific skill against the approved application-stack reference.
+Use [Skill Audit](./skills-create-manage-update/skill-audit/SKILL.md).
 
-Classify each skill as:
+Classify each application-specific or provider-specific skill as:
 
-- Approved application
-- Generalizable capability
-- Unsupported application
+- Approved and supported
+- Optional and replaceable
+- Generalizable
+- Unsupported and intrinsic
 - Ambiguous and requiring review
 
-Move unsupported skills to the quarantine directory only after their inventory row and reason are recorded.
+Record the decision before moving unsupported skills to quarantine.
 
-Use GitHub operations to commit the quarantine pass independently.
+Commit the quarantine pass independently.
 
-**Output:** application compatibility report, quarantine manifest, and verified file moves.
+**Output:** compatibility report, audit findings, and quarantine manifest.
 
-### Phase 3: Convert Model-Specific Skills
+### Phase 3: Assign Primary Dispositions
 
-Identify Claude-specific or other model-specific assumptions, including proprietary paths, commands, hooks, tool names, and prompt wrappers.
+Use [Skill Review](./skills-create-manage-update/skill-review/SKILL.md).
 
-For each affected skill, decide whether to:
+Assign every source skill exactly one primary disposition:
 
-- Generalize it
-- Convert it for Codex-compatible operation
-- Preserve a legitimate provider-specific integration
-- Move it to quarantine
+- Keep as-is
+- Refine
+- Convert
+- Split
+- Merge
+- Quarantine
+- Retire
 
-Use the skill authoring and improvement workflows routed by the [Skills Create, Manage & Update master](./skills-create-manage-update/SKILL.md).
+Resolve ambiguous and high-impact skills individually.
+
+**Output:** frozen decision map.
+
+### Phase 4: Convert Model-Specific Skills
+
+Use:
+
+- [Skill Review](./skills-create-manage-update/skill-review/SKILL.md) to decide whether conversion is viable
+- [Skill Improver](./skills-create-manage-update/skill-improver/SKILL.md) for targeted repairs
+- [Skill Writer](./skills-create-manage-update/skill-writer/SKILL.md) for substantial rewrites
+
+Search for provider-specific paths, hooks, slash commands, tool names, prompt wrappers, and identity assumptions.
+
+Retain provider-specific content only when it is legitimate, approved, and intrinsic to the skill's job.
 
 **Output:** conversion report and converted-skill batch.
 
-### Phase 4: Classify by Function
+### Phase 5: Rebuild by Function
 
-Assign every retained capability to a functional category.
+Use [Skill Library Restructure](./skills-create-manage-update/skill-library-restructure/SKILL.md).
 
-Possible categories may include:
+1. Design functional categories from retained capabilities
+2. Select canonical skills for overlap clusters
+3. Merge duplicated workflows
+4. Split independent jobs
+5. Build category routers and focused children
+6. Move superseded sources out of active discovery
+7. Reconcile every source path with its final destination
 
-- AI and agents
-- Automation and integrations
-- Data and analytics
-- Design and UX
-- Development
-- Documentation and knowledge management
-- Frontend and UI
-- GitHub and source control
-- Infrastructure and deployment
-- Marketing and SEO
-- Research
-- Testing and debugging
-- Writing and content
+Use [Skills Writing](./skills-create-manage-update/skills-writing/SKILL.md) only as a supporting pattern library.
+Use [Enhanced Template](./skills-create-manage-update/template-skill-enhanced/SKILL.md) only as a structural example.
 
-Create categories from the actual retained library. Do not create empty categories to satisfy a preconceived taxonomy.
+**Output:** complete router-based rebuilt library, merge map, and split map.
 
-**Output:** functional classification map.
+### Phase 6: Repair Canonical Skills
 
-### Phase 5: Detect Overlap and Scope Problems
-
-Review retained skills for:
-
-- Duplicate triggers
-- Equivalent workflows
-- Conflicting instructions
-- Overly broad skills
-- Tiny fragments that belong together
-- Parent skills containing child-level implementation detail
-- Missing routers
+Use [Skill Improver](./skills-create-manage-update/skill-improver/SKILL.md) for approved repairs.
 
 Use:
 
-- [Skill Review](./skills-create-manage-update/skill-review/SKILL.md)
-- [Skill Improver](./skills-create-manage-update/skill-improver/SKILL.md)
-- [Skill Optimizer](./skills-create-manage-update/skill-optimizer/SKILL.md)
+- [Skill Make Template](./skills-create-manage-update/skill-make-template/SKILL.md) for straightforward new skills
+- [Skill Writer](./skills-create-manage-update/skill-writer/SKILL.md) for complex source-backed authoring
+- [Skill Creator](./skills-create-manage-update/skill-creator/SKILL.md) only when benchmarks, graders, reports, or packaging are justified
 
-**Output:** merge map, split map, and refinement queue.
-
-### Phase 6: Rebuild the Functional Library
-
-Create the final category routers and focused child skills.
-
-Use:
-
-- [Skill Make Template](./skills-create-manage-update/skill-make-template/SKILL.md)
-- [Skill Writer](./skills-create-manage-update/skill-writer/SKILL.md)
-- [Skill Development](./skills-create-manage-update/skill-development/SKILL.md)
-- [Skill Check](./skills-create-manage-update/skill-check/SKILL.md)
-
-Write finalized skills only into the rebuilt directory.
-
-**Output:** complete router-based rebuilt library.
+**Output:** finalized canonical skills.
 
 ### Phase 7: Validate the Rebuilt Library
+
+Use [Skill Check](./skills-create-manage-update/skill-check/SKILL.md).
 
 Validate:
 
@@ -198,33 +184,35 @@ Validate:
 - Relative links
 - Parent-to-child routing
 - Trigger separation
-- Supporting-file references
+- Supporting-resource references
 - Application compatibility
-- Model-specific reference cleanup
+- Model-specific cleanup
 - Quarantine and provenance records
 
-Use the validation and review workflows in the [Skills Create, Manage & Update master](./skills-create-manage-update/SKILL.md).
+Use [Skill Optimizer](./skills-create-manage-update/skill-optimizer/SKILL.md) only when real usage data is available and behavior diagnostics are useful.
 
 **Output:** validation report and repair list with no silent omissions.
 
 ### Phase 8: Publish and Review
 
-Use the [GitHub Operations router](./github-operations/SKILL.md) to:
+Use [GitHub Operations](./github-operations/SKILL.md) to:
 
-1. Review the complete diff.
-2. Separate unrelated changes when needed.
-3. Commit with meaningful messages.
-4. Push the branch.
-5. Open a draft pull request.
-6. Confirm CI and validation results.
-7. Address review feedback.
-8. Merge only after the repository state is verified.
+1. Review the complete diff
+2. Separate unrelated changes when needed
+3. Commit with meaningful messages
+4. Push the branch
+5. Open a draft pull request
+6. Confirm CI and validation results
+7. Address review feedback
+8. Merge only after repository state is verified
 
-**Output:** reviewable pull request and final publication record.
+Use [Skill Manage](./skills-create-manage-update/skill-manage/SKILL.md) for final installation, synchronization, movement, or retirement operations.
+
+**Output:** reviewable pull request and publication record.
 
 ## Phase Boundary Rule
 
-Do not combine the entire rebuild into one commit or one unverified execution pass.
+Do not collapse the entire rebuild into one unverified pass.
 
 Each phase should end with:
 
@@ -240,11 +228,11 @@ The broader task is complete only when:
 
 - Every source skill appears in the inventory
 - Every source skill has one documented disposition
-- Unsupported skills are quarantined rather than deleted
-- Convertible model-specific skills are generalized or rebuilt
+- Unsupported skills are quarantined or retired traceably
+- Convertible provider-specific skills are generalized or rebuilt
 - Retained skills are grouped by function
-- Duplicate and oversized skills are resolved
+- Duplicate and multi-function skills are resolved
 - Parent routers link to every retained child
 - The rebuilt library validates
 - Audit reports reconcile with the filesystem
-- Repository changes are committed, pushed, reviewed, and verified
+- Repository changes are committed, reviewed, and verified
