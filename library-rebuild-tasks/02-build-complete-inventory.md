@@ -8,17 +8,18 @@ Catalog every source skill and bundled resource before assigning destinations or
 
 - `agents/skills-rebuild/_audit/baseline.md` exists and contains verified repository paths, starting SHA, and source skill count.
 - The resolved source library is available for complete traversal.
+- `.agents/skills` is the verified canonical task-workflow path.
 - No broad movement, merge, split, retirement, or rewrite is performed during this task.
 
 ## Canonical Task Skills
 
 Read and follow:
 
-- `task-skills/SKILL.md`
-- `task-skills/skills-create-manage-update/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-inventory/SKILL.md`
+- `.agents/skills/SKILL.md`
+- `.agents/skills/skills-create-manage-update/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-inventory/SKILL.md`
 
-Use `task-skills/github-operations/SKILL.md` only for repository reads, branch state, commits, and remote verification. Keep inventory ownership in `skill-inventory` until coverage and reconciliation are complete.
+Use `.agents/skills/github-operations/SKILL.md` only for repository reads, branch state, commits, and remote verification. Keep inventory ownership in `skill-inventory` until coverage and reconciliation are complete.
 
 ## Work
 
