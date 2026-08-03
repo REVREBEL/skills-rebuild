@@ -8,6 +8,7 @@ Test representative end-to-end use cases, correct routing or execution failures,
 
 - The final `agents/skills-rebuild` filesystem and audit records exist.
 - `validation-report.md`, `unresolved-items.md`, and `router-validation.md` reconcile with the filesystem.
+- `.agents/skills` is the verified canonical task-workflow path.
 - No unresolved item is marked as a blocking structural, compatibility, security, routing, or provenance failure.
 - Applicable rebuilt root and category routers are ready for pilot use.
 
@@ -15,12 +16,12 @@ Test representative end-to-end use cases, correct routing or execution failures,
 
 Read and follow:
 
-- `task-skills/SKILL.md`
-- `task-skills/skills-create-manage-update/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-check/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-improver/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-manage/SKILL.md`
-- `task-skills/github-operations/SKILL.md`
+- `.agents/skills/SKILL.md`
+- `.agents/skills/skills-create-manage-update/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-check/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-improver/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-manage/SKILL.md`
+- `.agents/skills/github-operations/SKILL.md`
 
 Use `skill-check` for retesting, `skill-improver` for approved defects found during pilots, `skill-manage` for final movement or synchronization, and the GitHub router for diff review, commits, pull requests, review feedback, merge, and remote verification. Use `skill-optimizer` only after the pilot produces real usage evidence and only for evidence-based performance or discovery optimization.
 
@@ -67,12 +68,12 @@ The pilot report must record each scenario, expected route, actual route, result
 
 1. Begin only after Phase 11 is approved and merged into `main`.
 2. Create and complete this phase on `skills-rebuild/phase-12-pilot-publish` from the updated `main` branch.
-3. Use focused commits for pilot corrections and final publication preparation, then review the complete phase diff.
-4. Commit the final phase checkpoint with: `skills-rebuild: complete phase 12 pilot and publication`.
-5. Push the branch and open a draft pull request targeting `main`.
-6. The pull request must summarize pilot scenarios, corrections, retest evidence, artifact paths, final reconciliation, validation status, and accepted limitations.
-7. Address review feedback on the same branch. Merge only after explicit approval, current checks, and repository policy are satisfied.
-8. After merge, verify the final target SHA and update `publication-record.md` with the confirmed result.
+3. Use focused repair commits for pilot defects, then review the final cumulative diff against the approved rebuilt-library scope.
+4. Finish with the phase commit: `skills-rebuild: complete phase 12 pilot and publication`.
+5. Push the branch and open or update a draft pull request targeting `main`.
+6. The pull request must summarize pilot scenarios, defects and retests, validation evidence, artifact paths, unresolved limitations, reconciliation status, and publication readiness.
+7. Leave the pull request unmerged until review, checks, approvals, and repository policy are satisfied. Merge only when explicitly authorized.
+8. After merge, verify the target branch and final SHA and record them in `publication-record.md`.
 
 ## Completion Gate
 
