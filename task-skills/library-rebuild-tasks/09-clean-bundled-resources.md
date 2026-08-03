@@ -4,65 +4,68 @@
 
 Ensure every bundled script, reference, asset, and template in the rebuilt library is necessary, correctly classified, safely usable, and linked from an active canonical skill.
 
-## Required Context
+## Preconditions
 
-Use:
+- Canonical functional batches are complete and their batch records exist.
+- Inventory, destination, consolidation, split, and provider-conversion records reconcile with the active rebuilt library.
+- Quarantined and retired sources are excluded except when tracing provenance or comparing suspected duplicates.
 
-- `agents/skills-rebuild/_audit/skills-inventory.csv`
-- `agents/skills-rebuild/_audit/destination-map.csv`
-- `agents/skills-rebuild/_audit/consolidation-map.md`
-- `agents/skills-rebuild/_audit/split-map.md`
-- Completed batch records under `agents/skills-rebuild/_audit/batches/`
-
-Review the rebuilt canonical library, not quarantined or retired sources, except when tracing provenance or comparing duplicate resources.
-
-Inspect for:
-
-- Unused or orphaned resources
-- Duplicate scripts with different names
-- Scripts with materially different behavior despite similar names
-- Broken relative paths
-- Missing referenced files
-- Stale API or platform documentation
-- Oversized examples that belong in references
-- Editable scaffolds stored as assets
-- Static files incorrectly stored as templates
-- Embedded credentials, tokens, private keys, internal URLs, or personal data
-- Generated files, caches, `__MACOSX`, `.DS_Store`, and `._*`
-
-Do not delete similarly named scripts without comparing their behavior.
-
-## Task Skills to Use
+## Canonical Task Skills
 
 Read and follow:
 
 - `task-skills/SKILL.md`
 - `task-skills/skills-create-manage-update/SKILL.md`
 - `task-skills/skills-create-manage-update/skill-audit/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-check/SKILL.md`
 - `task-skills/skills-create-manage-update/skill-improver/SKILL.md`
+- `task-skills/skills-create-manage-update/skill-check/SKILL.md`
 
-Use `task-skills/github-operations/SKILL.md` for repository history, diff review, commits, and publication.
+Use `skill-audit` for safety, dependency, secret, and compatibility findings; `skill-improver` for approved repairs; and `skill-check` for resource and path validation. Use `task-skills/github-operations/SKILL.md` for repository history, diff review, commits, and publication.
 
 ## Work
 
 1. Enumerate all bundled resources under active canonical skill folders.
-2. Map each resource to the skill and workflow that uses it.
-3. Compare suspected duplicates by content and behavior.
-4. Remove generated metadata and confirmed unused resources while preserving Git history.
-5. Move resources into the correct `scripts/`, `references/`, `assets/`, or `templates/` location.
-6. Repair every active relative reference.
-7. Review scripts for input validation, destructive behavior, secrets, hardcoded paths, and undeclared dependencies.
-8. Validate the final resource tree against active skills.
+2. Map every resource to the skill and workflow that uses it.
+3. Inspect for:
+   - Unused or orphaned resources
+   - Duplicate scripts with different names
+   - Similar scripts with materially different behavior
+   - Broken relative paths and missing files
+   - Stale API or platform documentation
+   - Oversized examples that belong in references
+   - Editable scaffolds stored as assets
+   - Static files stored as templates
+   - Credentials, tokens, private keys, internal URLs, or personal data
+   - Generated files, caches, `__MACOSX`, `.DS_Store`, and `._*`
+4. Compare suspected duplicate scripts by content and behavior before deciding.
+5. Remove confirmed generated or unused resources while preserving Git history.
+6. Move resources into the correct `scripts/`, `references/`, `assets/`, or `templates/` location.
+7. Repair every active relative reference.
+8. Review scripts for input validation, destructive behavior, hardcoded paths, and undeclared dependencies.
+9. Validate the final resource tree against active canonical skills.
 
-## Deliverable
+## Artifacts
 
 Create:
 
-`agents/skills-rebuild/_audit/resource-cleanup-report.md`
+- `agents/skills-rebuild/_audit/resource-cleanup-report.md`
 
-The report must list resources retained, moved, merged, removed, repaired, or deferred, including the owning skill and evidence for each decision.
+The report must list every reviewed resource, owning skill, original and final path, disposition, evidence, repair or movement performed, validation result, and deferred issue.
+
+## Reconciliation Requirements
+
+- Reconcile every active bundled resource to an owning skill or documented preservation reason.
+- Reconcile moved and removed resources to Git history and final filesystem state.
+- Confirm every active resource reference resolves from its owning `SKILL.md`.
+- Confirm resource counts in the cleanup report match the active resource tree.
+- Confirm no generated metadata, secret, or unsafe undeclared dependency remains.
 
 ## Completion Gate
 
-Complete only when every bundled resource is referenced by an active skill or preserved for a documented reason, all active paths resolve, no generated metadata remains, and no secret or unsafe hardcoded dependency is present.
+Complete only when:
+
+- All preconditions are satisfied.
+- The cleanup report exists with complete resource coverage.
+- Every active resource has an owner or documented preservation reason.
+- All active paths and references resolve.
+- Filesystem, batch records, inventory, and cleanup decisions reconcile.
