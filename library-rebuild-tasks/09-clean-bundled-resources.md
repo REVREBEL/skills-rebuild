@@ -8,19 +8,20 @@ Ensure every bundled script, reference, asset, and template in the rebuilt libra
 
 - Canonical functional batches are complete and their batch records exist.
 - Inventory, destination, consolidation, split, and provider-conversion records reconcile with the active rebuilt library.
+- `.agents/skills` is the verified canonical task-workflow path.
 - Quarantined and retired sources are excluded except when tracing provenance or comparing suspected duplicates.
 
 ## Canonical Task Skills
 
 Read and follow:
 
-- `task-skills/SKILL.md`
-- `task-skills/skills-create-manage-update/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-audit/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-improver/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-check/SKILL.md`
+- `.agents/skills/SKILL.md`
+- `.agents/skills/skills-create-manage-update/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-audit/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-improver/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-check/SKILL.md`
 
-Use `skill-audit` for safety, dependency, secret, and compatibility findings; `skill-improver` for approved repairs; and `skill-check` for resource and path validation. Use `task-skills/github-operations/SKILL.md` for repository history, diff review, commits, and publication.
+Use `skill-audit` for safety, dependency, secret, and compatibility findings; `skill-improver` for approved repairs; and `skill-check` for resource and path validation. Use `.agents/skills/github-operations/SKILL.md` for repository history, diff review, commits, and publication.
 
 ## Work
 
@@ -64,10 +65,10 @@ The report must list every reviewed resource, owning skill, original and final p
 
 1. Begin only after Phase 08 is approved and merged into `main`.
 2. Create and complete this phase on `skills-rebuild/phase-09-resource-cleanup` from the updated `main` branch.
-3. Review the final diff and confirm it contains only approved resource cleanup, repaired references, report updates, and directly required supporting changes.
+3. Review the final diff and confirm it contains only approved resource cleanup, reference repairs, the cleanup report, and directly required supporting changes.
 4. Commit the completed phase with: `skills-rebuild: complete phase 09 resource cleanup`.
 5. Push the branch and open a draft pull request targeting `main`.
-6. The pull request must summarize retained, moved, merged, repaired, and removed resources, artifact paths, validation evidence, reconciliation totals, and deferred items.
+6. The pull request must summarize resources reviewed, retained, moved, removed, repaired, or deferred, plus artifact paths, safety findings, validation, and reconciliation evidence.
 7. Leave the pull request unmerged for review. Do not begin Phase 10 until this phase is approved and merged into `main`.
 
 ## Completion Gate
