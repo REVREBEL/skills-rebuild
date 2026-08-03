@@ -24,6 +24,15 @@ Use when the user asks to:
 
 Use `pr-review` for code review and `actions-debugger` for failing checks.
 
+## Control and Handoff
+
+Keep control in `pr-merge-champion` while resolving merge policy, checking readiness, refreshing exact revision evidence, performing or queuing the authorized operation, and verifying the resulting state.
+
+- Use `github` as the operation layer for PR, review, ruleset, check, queue, auto-merge, and merge calls, then return here to continue the readiness and verification sequence.
+- Hand control back to `github` when the merge workflow is complete and the new request is only a separate repository query or metadata change.
+- Hand off to `actions-debugger` for a failing or stuck check, `pr-review` for unresolved code-review questions, or `publish-changes` when source changes are required. A changed head SHA invalidates earlier readiness evidence, so restart this workflow after remediation.
+- Stay here when the only blocker is a merge queue, pending authorized auto-merge, or a mergeability refresh. Do not duplicate the full publication workflow.
+
 ## Workflow
 
 ### 1. Resolve exact PR identity
