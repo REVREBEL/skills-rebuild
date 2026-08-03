@@ -24,6 +24,15 @@ Use when the user wants a complete route such as:
 
 Use `commit` for a local commit only. Use `pr-writer` when the branch already exists remotely and only the PR needs creation or editing.
 
+## Control and Handoff
+
+Keep control in `publish-changes` while the same completed change is moving through review, validation, branch preparation, commit, push, PR creation, and remote verification.
+
+- Use `github`, `create-branch`, `commit`, and `pr-writer` as delegated capabilities, then return here to continue the end-to-end workflow.
+- Hand control back to `github` when publication is complete and the new request is only a separate remote query or small metadata operation, such as reading PR state, adding a label, assigning someone, or posting a standalone comment.
+- Hand off to `actions-debugger` when a live check fails. Return here only when the failure has been resolved and publication-state verification must continue.
+- End this workflow and route to `pr-review` for an independent code review or `pr-merge-champion` for an authorized merge. Do not repeat branch, commit, push, or PR-creation steps that already succeeded.
+
 ## Workflow
 
 ### 1. Resolve repository policy and scope
