@@ -8,19 +8,20 @@ Determine which source skills meet the approved application and environment requ
 
 - `agents/skills-rebuild/_audit/baseline.md` exists and paths are verified.
 - `agents/skills-rebuild/_audit/skills-inventory.csv` and `inventory-summary.md` have complete reconciled coverage.
+- `.agents/skills` is the verified canonical task-workflow path.
 - The approved application list and target-agent capabilities are available.
 
 ## Canonical Task Skills
 
 Read and follow:
 
-- `task-skills/SKILL.md`
-- `task-skills/skills-create-manage-update/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-audit/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-review/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-manage/SKILL.md`
+- `.agents/skills/SKILL.md`
+- `.agents/skills/skills-create-manage-update/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-audit/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-review/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-manage/SKILL.md`
 
-Use `skill-audit` for application, environment, permission, and dependency evidence; `skill-review` for the disposition decision; and `skill-manage` for approved traceable movement. Use `task-skills/github-operations/SKILL.md` for branch, diff, commit, and remote verification without duplicating the compatibility workflow.
+Use `skill-audit` for application, environment, permission, and dependency evidence; `skill-review` for the disposition decision; and `skill-manage` for approved traceable movement. Use `.agents/skills/github-operations/SKILL.md` for branch, diff, commit, and remote verification without duplicating the compatibility workflow.
 
 ## Work
 
@@ -64,10 +65,10 @@ Update:
 
 1. Begin only after Phase 02 is approved and merged into `main`.
 2. Create and complete this phase on `skills-rebuild/phase-03-compatibility` from the updated `main` branch.
-3. Review the final diff and confirm it contains only compatibility decisions, approved quarantine moves, inventory updates, and directly required supporting changes.
+3. Review the final diff and confirm it contains only compatibility records, approved quarantine moves, inventory updates, and directly required supporting changes.
 4. Commit the completed phase with: `skills-rebuild: complete phase 03 compatibility gate`.
 5. Push the branch and open a draft pull request targeting `main`.
-6. The pull request must summarize classifications, moved-skill counts, artifact paths, reconciliation totals, validation evidence, and unresolved decisions.
+6. The pull request must summarize classifications, moved-skill counts, artifact paths, reconciliation totals, validation evidence, and unresolved manual reviews.
 7. Leave the pull request unmerged for review. Do not begin Phase 04 until this phase is approved and merged into `main`.
 
 ## Completion Gate

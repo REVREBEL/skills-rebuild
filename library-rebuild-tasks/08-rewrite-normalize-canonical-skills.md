@@ -7,6 +7,7 @@ Rewrite retained canonical skills in manageable functional batches so each skill
 ## Preconditions
 
 - Inventory, destination, consolidation, merge-decision, split, and provider-conversion artifacts exist and reconcile.
+- `.agents/skills` is the verified canonical task-workflow path.
 - Canonical owners and approved child structures are established.
 - One functional batch of approximately 10 to 20 related skills is selected.
 
@@ -14,14 +15,14 @@ Rewrite retained canonical skills in manageable functional batches so each skill
 
 Read and follow:
 
-- `task-skills/SKILL.md`
-- `task-skills/skills-create-manage-update/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-improver/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-writer/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-make-template/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-check/SKILL.md`
+- `.agents/skills/SKILL.md`
+- `.agents/skills/skills-create-manage-update/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-improver/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-writer/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-make-template/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-check/SKILL.md`
 
-Use `skill-improver` for approved repairs to existing canonical skills, `skill-writer` for substantial source-backed rewrites, `skill-make-template` for straightforward new skills, and `skill-check` for per-skill and per-batch validation. Use `task-skills/github-operations/SKILL.md` for branch, commit, pull-request, and review operations.
+Use `skill-improver` for approved repairs to existing canonical skills, `skill-writer` for substantial source-backed rewrites, `skill-make-template` for straightforward new skills, and `skill-check` for per-skill and per-batch validation. Use `.agents/skills/github-operations/SKILL.md` for branch, commit, pull-request, and review operations.
 
 ## Work
 
@@ -64,11 +65,12 @@ The batch record must list canonical skills completed, source paths incorporated
 
 1. Begin only after Phase 07 is approved and merged into `main`.
 2. Create and complete this phase on `skills-rebuild/phase-08-canonical-rewrites` from the updated `main` branch.
-3. Commit each validated functional batch separately using concise batch-specific messages.
-4. After all approved batches are complete, review the complete phase diff and commit the final checkpoint with: `skills-rebuild: complete phase 08 canonical rewrites`.
-5. Push the branch and open a draft pull request targeting `main`.
-6. The pull request must summarize completed batches, canonical paths, source provenance, validation evidence, artifact paths, reconciliation results, and unresolved items.
-7. Leave the pull request unmerged for review. Do not begin Phase 09 until this phase is approved and merged into `main`.
+3. Use focused commits for each validated functional batch.
+4. Before review, confirm the cumulative phase diff contains only approved canonical rewrites, batch records, resource adjustments required by those rewrites, and directly required mapping updates.
+5. Finish with the phase commit: `skills-rebuild: complete phase 08 canonical rewrites`.
+6. Push the branch and open a draft pull request targeting `main`.
+7. The pull request must summarize every completed batch, source paths incorporated, validation results, artifact locations, retired paths, reconciliation evidence, and unresolved items.
+8. Leave the pull request unmerged for review. Do not begin Phase 09 until this phase is approved and merged into `main`.
 
 ## Completion Gate
 
@@ -80,4 +82,4 @@ Complete a batch only when:
 - Sources, destinations, resources, retirements, and validation evidence reconcile.
 - The batch contains no silent overlap, missing provenance, or broken path.
 
-Complete the phase only when the phase branch is pushed and its draft pull request is open for review.
+Complete the phase only when all approved batches are represented in the pushed branch and its draft pull request is open for review.
