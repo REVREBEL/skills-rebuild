@@ -132,7 +132,7 @@ jobs:
           persist-credentials: false
 
       - name: Set up Node.js
-        uses: actions/setup-node@39370e397c6e8c3fb0b8f5ed8e01a33276ed84a0 # v4.1.0
+        uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
           node-version: '22'
           cache: npm
@@ -176,7 +176,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/setup-node@39370e397c6e8c3fb0b8f5ed8e01a33276ed84a0 # v4.1.0
+      - uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
           node-version: ${{ inputs.node-version }}
           cache: npm
