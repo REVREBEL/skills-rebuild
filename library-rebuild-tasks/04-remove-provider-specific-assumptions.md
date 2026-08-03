@@ -8,19 +8,20 @@ Convert retained skills to provider-neutral, capability-based workflows unless a
 
 - `agents/skills-rebuild/_audit/skills-inventory.csv` contains final compatibility classifications.
 - `agents/skills-rebuild/_audit/application-compatibility-report.md` and `moved-to-not-needed.csv` reconcile with the filesystem.
+- `.agents/skills` is the verified canonical task-workflow path.
 - Skills selected for conversion are retained, approved for conversion, or manually approved after ambiguity review.
 
 ## Canonical Task Skills
 
 Read and follow:
 
-- `task-skills/SKILL.md`
-- `task-skills/skills-create-manage-update/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-review/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-improver/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-writer/SKILL.md`
+- `.agents/skills/SKILL.md`
+- `.agents/skills/skills-create-manage-update/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-review/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-improver/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-writer/SKILL.md`
 
-Use `skill-review` to decide whether conversion preserves the skill's job, `skill-improver` for targeted repairs, and `skill-writer` for substantial source-backed rewrites. Use `task-skills/github-operations/SKILL.md` for repository operations without duplicating authoring or review work.
+Use `skill-review` to decide whether conversion preserves the skill's job, `skill-improver` for targeted repairs, and `skill-writer` for substantial source-backed rewrites. Use `.agents/skills/github-operations/SKILL.md` for repository operations without duplicating authoring or review work.
 
 ## Work
 
@@ -63,10 +64,10 @@ The conversion report must record source skill, original dependency, decision, c
 
 1. Begin only after Phase 03 is approved and merged into `main`.
 2. Create and complete this phase on `skills-rebuild/phase-04-provider-conversion` from the updated `main` branch.
-3. Review the final diff and confirm it contains only approved provider conversions, report and inventory updates, and directly required supporting changes.
+3. Review the final diff and confirm it contains only approved provider conversions, inventory updates, the conversion report, and directly required supporting changes.
 4. Commit the completed phase with: `skills-rebuild: complete phase 04 provider conversion`.
 5. Push the branch and open a draft pull request targeting `main`.
-6. The pull request must summarize converted skills, retained intrinsic dependencies, artifact paths, validation evidence, reconciliation totals, and unresolved blockers.
+6. The pull request must summarize converted skills, retained intrinsic dependencies, artifact paths, validation evidence, and unresolved blockers.
 7. Leave the pull request unmerged for review. Do not begin Phase 05 until this phase is approved and merged into `main`.
 
 ## Completion Gate
