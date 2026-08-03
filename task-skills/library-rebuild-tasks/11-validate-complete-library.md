@@ -63,6 +63,16 @@ The validation report must record each check, scope, method, status, evidence, a
 - Confirm every failure appears in the repair history or unresolved-items file.
 - Confirm no skipped or unavailable check is represented as passed.
 
+## Repository Checkpoint
+
+1. Begin only after Phase 10 is approved and merged into `main`.
+2. Create and complete this phase on `skills-rebuild/phase-11-validation` from the updated `main` branch.
+3. Review the final diff and confirm it contains only validation artifacts, approved validation repairs, and directly required supporting changes.
+4. Commit the completed phase with: `skills-rebuild: complete phase 11 validation`.
+5. Push the branch and open a draft pull request targeting `main`.
+6. The pull request must summarize validation scope, pass/fail/skip totals, repairs, artifact paths, reconciliation evidence, unavailable checks, and blocking or non-blocking unresolved items.
+7. Leave the pull request unmerged for review. Do not begin Phase 12 until this phase is approved and merged into `main`.
+
 ## Completion Gate
 
 Complete only when:
@@ -72,3 +82,4 @@ Complete only when:
 - Every validation failure is repaired or recorded with exact scope and impact.
 - All audit records reconcile with the final filesystem.
 - No silent source, skill, resource, router, or validation coverage gap remains.
+- The phase branch is pushed and its draft pull request is open for review.
