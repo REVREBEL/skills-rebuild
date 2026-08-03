@@ -24,6 +24,16 @@ Use when the user wants to:
 
 Do not use this skill merely to write a PR description. Use `pr-writer` for PR authoring.
 
+## Control and Handoff
+
+Keep control in `pr-review` while gathering review evidence, inspecting patches and source context, classifying findings, checking validation, and producing or submitting the review.
+
+- Use `github` as the operation layer for PR metadata, patches, review threads, comments, and check reads, then return here to continue the review.
+- Hand control back to `github` when the review is complete and the new request is only a separate metadata mutation, such as labeling, assigning, or posting a non-review comment.
+- Hand off to `actions-debugger` when a failed check needs root-cause diagnosis rather than review interpretation.
+- Hand off to the relevant implementation workflow when the user asks to fix findings. After the head SHA changes, begin a fresh `pr-review`; do not reuse conclusions from the previous revision.
+- Hand off to `pr-merge-champion` only after review findings and required checks are resolved. Do not merge from within this workflow.
+
 ## Review Principles
 
 - Findings are more valuable than broad summaries
