@@ -7,6 +7,7 @@ Design the destination category structure for retained skills based on the jobs 
 ## Preconditions
 
 - Baseline, inventory, compatibility, and provider-conversion artifacts exist and reconcile.
+- `.agents/skills` is the verified canonical task-workflow path.
 - Quarantined and retired skills are distinguishable from retained skills.
 - Every retained skill has a current source path and compatibility status.
 
@@ -14,12 +15,12 @@ Design the destination category structure for retained skills based on the jobs 
 
 Read and follow:
 
-- `task-skills/SKILL.md`
-- `task-skills/skills-create-manage-update/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-review/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-library-restructure/SKILL.md`
+- `.agents/skills/SKILL.md`
+- `.agents/skills/skills-create-manage-update/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-review/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-library-restructure/SKILL.md`
 
-Use `skill-review` for placement decisions and `skill-library-restructure` for category design and destination mapping. Use `task-skills/github-operations/SKILL.md` only for repository operations required to record and publish the taxonomy work.
+Use `skill-review` for placement decisions and `skill-library-restructure` for category design and destination mapping. Use `.agents/skills/github-operations/SKILL.md` only for repository operations required to record and publish the taxonomy work.
 
 ## Work
 
@@ -54,10 +55,10 @@ The destination map must record source path, compatibility status, proposed cate
 
 1. Begin only after Phase 04 is approved and merged into `main`.
 2. Create and complete this phase on `skills-rebuild/phase-05-taxonomy` from the updated `main` branch.
-3. Review the final diff and confirm it contains only taxonomy artifacts, destination decisions, and directly required supporting changes.
+3. Review the final diff and confirm it contains only taxonomy artifacts, destination mapping, and directly required supporting changes.
 4. Commit the completed phase with: `skills-rebuild: complete phase 05 functional taxonomy`.
 5. Push the branch and open a draft pull request targeting `main`.
-6. The pull request must summarize proposed categories, placement counts, artifact paths, reconciliation totals, routing ambiguities, and unresolved placements.
+6. The pull request must summarize category decisions, destination coverage, artifact paths, reconciliation totals, and unresolved placements.
 7. Leave the pull request unmerged for review. Do not begin Phase 06 until this phase is approved and merged into `main`.
 
 ## Completion Gate
