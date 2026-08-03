@@ -1,0 +1,1 @@
+This folder contains the set of original source skills from the 'agents/skills' folder that have been reviewed. The optimized version is then saved into the 'agents/skills-rebuild' folder while the original set is moved here.

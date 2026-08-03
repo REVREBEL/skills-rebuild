@@ -1,0 +1,1 @@
+This folder contains the set of optimized skills that have been reviewed, consolidated and restructured from the original skills found in the 'agents/skills' folder.
