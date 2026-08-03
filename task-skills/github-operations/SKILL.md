@@ -200,7 +200,7 @@ These two automation skills currently overlap and should be compared during the 
 
 #### [Security Review](./security-review/SKILL.md)
 
-Review GitHub Actions or repository workflows for permissions, secret handling, dependency, injection, and supply-chain risks.
+Review GitHub Actions or repository workflows for permissions, secret handling, dependency risks, injection risks, and supply-chain risks.
 
 ### Repository Presence, Discovery & Documentation
 
