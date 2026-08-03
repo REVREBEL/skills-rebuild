@@ -44,6 +44,18 @@ At the beginning, resolve and record:
 
 The task-skill path is fixed at `.agents/skills` so compatible IDEs and agents can discover the workflows. The source, quarantine, and rebuilt physical paths may include another project prefix and must be discovered rather than assumed.
 
+Absolute local paths may be resolved transiently to verify filesystem access. Do not commit them. Persist repository-relative paths from the project root, or use a neutral placeholder such as `<repo-root>/...` only when an absolute-path example is genuinely required.
+
+## Portability and Privacy Rule
+
+All committed artifacts, inventories, reports, pull-request descriptions, examples, logs, and comments created by this workflow must be portable and must not expose contributor-specific environment details.
+
+- Use repository-relative paths for files inside the project.
+- Do not commit home-directory paths, usernames, workstation names, mount points, drive letters, or other machine-specific prefixes.
+- Normalize transient local paths before writing artifacts or GitHub content.
+- Do not replace a portable path with an absolute path merely because the local path was verified.
+- Treat `/Users/<name>/...`, `/home/<name>/...`, Windows drive paths, UNC paths, and comparable environment-specific forms as validation failures unless explicitly approved and anonymized.
+
 ## Governing Rules
 
 1. Inventory before movement.
@@ -58,6 +70,7 @@ The task-skill path is fixed at `.agents/skills` so compatible IDEs and agents c
 10. Work on a branch in reviewable batches.
 11. Verify filesystem and repository state after every write phase.
 12. Do not claim validation, pushes, moves, or indexing succeeded without evidence.
+13. Keep committed paths portable and free of user-specific local environment details.
 
 ## Execution Phases
 
@@ -188,6 +201,7 @@ Validate:
 - Application compatibility
 - Model-specific cleanup
 - Quarantine and provenance records
+- Absence of user-specific absolute paths in committed artifacts
 
 Use [Skill Optimizer](./skills-create-manage-update/skill-optimizer/SKILL.md) only when real usage data is available and behavior diagnostics are useful.
 
@@ -235,4 +249,5 @@ The broader task is complete only when:
 - Parent routers link to every retained child
 - The rebuilt library validates
 - Audit reports reconcile with the filesystem
+- Committed artifacts contain no unapproved user-specific absolute paths
 - Repository changes are committed, reviewed, and verified
