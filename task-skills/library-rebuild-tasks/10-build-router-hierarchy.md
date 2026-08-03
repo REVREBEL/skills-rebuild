@@ -62,6 +62,16 @@ The validation record must include router paths, direct-child coverage, link che
 - Confirm no active child is omitted or linked from conflicting parents without an explicit design reason.
 - Confirm routers contain routing and shared policy rather than duplicated end-to-end child workflows.
 
+## Repository Checkpoint
+
+1. Begin only after Phase 09 is approved and merged into `main`.
+2. Create and complete this phase on `skills-rebuild/phase-10-router-hierarchy` from the updated `main` branch.
+3. Review the final diff and confirm it contains only root and category routers, router validation artifacts, and directly required supporting changes.
+4. Commit the completed phase with: `skills-rebuild: complete phase 10 router hierarchy`.
+5. Push the branch and open a draft pull request targeting `main`.
+6. The pull request must summarize router paths, active-child coverage, routing tests, artifact paths, reconciliation evidence, corrections, and unresolved ambiguities.
+7. Leave the pull request unmerged for review. Do not begin Phase 11 until this phase is approved and merged into `main`.
+
 ## Completion Gate
 
 Complete only when:
@@ -71,3 +81,4 @@ Complete only when:
 - Every active child has one reconciled parent assignment.
 - All links resolve and representative prompts reach the intended child.
 - Every routing ambiguity is corrected or explicitly documented.
+- The phase branch is pushed and its draft pull request is open for review.

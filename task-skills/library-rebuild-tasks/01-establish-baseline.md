@@ -50,6 +50,16 @@ The artifact must record repository identity, default and working branches, star
 - Verify the starting SHA and branch state through repository readback.
 - Confirm no source skill was moved, rewritten, or deleted during this task.
 
+## Repository Checkpoint
+
+1. Start from the current reviewed `main` branch.
+2. Create and complete this phase on `skills-rebuild/phase-01-baseline`.
+3. Review the final diff and confirm it contains only the baseline artifact and directly required supporting changes.
+4. Commit the completed phase with: `skills-rebuild: complete phase 01 baseline`.
+5. Push the branch and open a draft pull request targeting `main`.
+6. The pull request must summarize the artifact created, reconciliation performed, validation evidence, and unresolved items.
+7. Leave the pull request unmerged for review. Do not begin Phase 02 until this phase is approved and merged into `main`.
+
 ## Completion Gate
 
 Complete only when:
@@ -58,3 +68,4 @@ Complete only when:
 - `baseline.md` exists with every required field.
 - Repository, branch, revision, path, tree, and count evidence reconcile.
 - The baseline can identify the original location and rollback point for every source skill.
+- The phase branch is pushed and its draft pull request is open for review.

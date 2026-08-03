@@ -59,6 +59,16 @@ The conversion report must record source skill, original dependency, decision, c
 - Confirm every retained provider dependency is intrinsic and explicitly declared.
 - Confirm unconvertible cases are documented and not silently retained as compatible.
 
+## Repository Checkpoint
+
+1. Begin only after Phase 03 is approved and merged into `main`.
+2. Create and complete this phase on `skills-rebuild/phase-04-provider-conversion` from the updated `main` branch.
+3. Review the final diff and confirm it contains only approved provider conversions, report and inventory updates, and directly required supporting changes.
+4. Commit the completed phase with: `skills-rebuild: complete phase 04 provider conversion`.
+5. Push the branch and open a draft pull request targeting `main`.
+6. The pull request must summarize converted skills, retained intrinsic dependencies, artifact paths, validation evidence, reconciliation totals, and unresolved blockers.
+7. Leave the pull request unmerged for review. Do not begin Phase 05 until this phase is approved and merged into `main`.
+
 ## Completion Gate
 
 Complete only when:
@@ -68,3 +78,4 @@ Complete only when:
 - Every retained provider-specific skill has one documented decision.
 - Converted skills contain no undeclared provider behavior or unavailable-tool assumptions.
 - Filesystem, inventory, compatibility, and conversion records reconcile.
+- The phase branch is pushed and its draft pull request is open for review.
