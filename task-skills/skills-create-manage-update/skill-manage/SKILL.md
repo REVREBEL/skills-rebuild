@@ -1,200 +1,167 @@
 ---
-name: manage-skills
-description: Discover, list, create, edit, toggle, copy, move, and delete AI agent skills across 11 tools (Cursor, Claude, Agents, Windsurf, Copilot, Codex, Cline, Aider, Continue, Roo Code, Augment)
-risk: critical
-source: community
-source_repo: umutbozdag/agent-skills-manager
-source_type: community
+name: skill-manage
+description: 'Manage the lifecycle and filesystem placement of Agent Skills across supported project and global locations. Use when listing, locating, enabling, disabling, copying, moving, installing, synchronizing, backing up, or retiring skills for Agents, Cursor, Claude, GitHub Copilot, or Codex.'
+compatibility: 'Requires filesystem access. Network synchronization requires access to the upstream source. Destructive operations require explicit confirmation.'
+metadata:
+  category: agent-skills
+  type: lifecycle-management
+  source: consolidated
 ---
 
-# Manage AI Agent Skills
+# Skill Manage
 
-You can manage skills and rules for all major AI coding tools directly from the terminal. This skill teaches you the directory layout, file format, and operations for each tool.
+Manage existing skills safely without conflating lifecycle operations with skill authoring.
 
 ## When to Use
 
-Use this skill when the user wants to inspect, create, edit, enable, disable, copy, move, or delete local AI-agent skills or rule files across supported coding tools.
+Use this skill when the user wants to:
 
-## Supported Tools & Paths
+- Locate or list installed skills
+- Determine global versus project scope
+- Enable or disable a skill
+- Copy or move a skill between supported environments
+- Back up local customizations
+- Synchronize an installed skill with its source
+- Retire or remove a skill
+- Verify installation paths and duplicates
 
-### Directory-based tools (multiple skills)
+Use `../skill-make-template/SKILL.md` to create new skill content.
+Use `../skill-improver/SKILL.md` to repair skill instructions.
 
-Each skill lives in its own subdirectory with a `SKILL.md` file containing YAML frontmatter.
+## Supported Locations
 
-| Tool | Global Path | Project Path |
-|------|------------|--------------|
-| Agents | `~/.agents/skills/<name>/SKILL.md` | `.agents/skills/<name>/SKILL.md` |
+Discover actual paths instead of assuming every environment is installed.
+
+Common directory-based locations:
+
+| Environment | Global | Project |
+|---|---|---|
+| Agent Skills | `~/.agents/skills/<name>/SKILL.md` | `.agents/skills/<name>/SKILL.md` |
 | Cursor | `~/.cursor/skills/<name>/SKILL.md` | `.cursor/skills/<name>/SKILL.md` |
 | Claude | `~/.claude/skills/<name>/SKILL.md` | `.claude/skills/<name>/SKILL.md` |
-| Windsurf | `~/.windsurf/rules/<name>/<name>.md` | `.windsurf/rules/<name>/<name>.md` |
-| Cline | `~/.cline/rules/<name>/<name>.md` | `.cline/rules/<name>/<name>.md` |
-| Continue | `~/.continue/rules/<name>/<name>.md` | `.continue/rules/<name>/<name>.md` |
-| Roo Code | `~/.roo/rules/<name>/<name>.md` | `.roo/rules/<name>/<name>.md` |
+| Codex | `~/.codex/skills/<name>/SKILL.md` | `.codex/skills/<name>/SKILL.md` |
 
-### Single-file tools (one config file)
+GitHub Copilot may use repository instructions, custom agents, or environment-specific skill locations. Inspect the current configuration before writing.
 
-| Tool | Global Path | Project Path |
-|------|------------|--------------|
-| Copilot | `~/.github/copilot-instructions.md` | `.github/copilot-instructions.md` |
-| Codex | `~/.codex/AGENTS.md` | `.codex/AGENTS.md` |
-| Aider | `~/.aider.conf.yml` | `.aider.conf.yml` |
-| Augment | `~/augment-guidelines.md` | `augment-guidelines.md` |
+Do not edit tool-managed caches directly.
 
-### Cursor plugins (read-only)
+## Safety Rules
 
-Plugin skills are cached at `~/.cursor/plugins/cache/<org>/<plugin>/<version>/skills/<name>/SKILL.md`. These are managed by Cursor and should not be edited directly.
+- Inventory before changing files
+- Prefer reversible operations
+- Back up local modifications before synchronization
+- Use dry-run behavior when the available manager supports it
+- Confirm before deletion, overwrite, or bulk updates
+- Never replace a complete single-file configuration without preserving unrelated content
+- Re-read the destination after copy or move
+- Do not assume equivalent file formats between tools
 
-## Skill File Format
+## Workflow
 
-For directory-based tools (Agents, Cursor, Claude), skills use YAML frontmatter:
+### 1. Discover the Environment
+
+Determine:
+
+- Installed agent environments
+- Global and project skill paths
+- Repository root
+- Active skill sources
+- Duplicate names across locations
+- Disabled or archived skills
+
+### 2. Inventory the Target
+
+Record:
+
+- Name and path
+- Scope: global or project
+- Source or provenance
+- Modification status
+- Dependencies and reverse dependencies
+- Destination and collision risks
+
+### 3. Choose the Operation
+
+#### List or Search
+
+Use bounded filesystem discovery and content search. Report exact paths and scope.
+
+#### Enable or Disable
+
+Use the environment's supported mechanism. Prefer reversible renaming or configuration toggles over deletion.
+
+#### Copy
+
+Verify source and destination formats. Adapt only when required, and validate the copied result.
+
+#### Move
+
+Copy, verify, then remove the source. Preserve unrelated files and avoid overwriting collisions.
+
+#### Synchronize or Update
+
+1. Identify the upstream source and current version
+2. Compare local changes
+3. Back up local customizations
+4. Preview changes when possible
+5. Update one skill at a time
+6. Re-run validation
+
+Do not bulk-update a production library without reviewing the proposed changes.
+
+#### Retire or Delete
+
+1. Check dependencies and router links
+2. Confirm the requested target
+3. Preserve provenance in an inventory or changelog
+4. Move to quarantine when future review is possible
+5. Delete only with explicit confirmation
+
+### 4. Verify
+
+After any write operation, confirm:
+
+- Destination exists
+- Expected files are present
+- Folder and frontmatter names match
+- Relative links resolve
+- Routers reference the correct path
+- Source removal occurred only when intended
+- No unrelated configuration was changed
+
+## Output Format
 
 ```markdown
----
-name: skill-name
-description: Brief description of what this skill does
----
+## Skill Lifecycle Operation
 
-# Skill Name
+### Operation
+List | Enable | Disable | Copy | Move | Sync | Retire | Delete
 
-Skill instructions go here. The AI agent reads this content
-when the skill is activated.
+### Source
+- Path:
+- Scope:
+- Provenance:
+
+### Destination
+- Path:
+- Scope:
+
+### Changes
+1. ...
+
+### Verification
+- ...
+
+### Backups or Recovery
+- ...
 ```
 
-For Windsurf, Cline, Continue, and Roo Code, skills are plain `.md` files (frontmatter optional).
+## Completion Checks
 
-## Operations
-
-### List all skills
-
-```bash
-# List skills for a specific tool
-ls ~/.agents/skills/
-ls ~/.cursor/skills/
-ls ~/.claude/skills/
-ls ~/.windsurf/rules/
-ls ~/.cline/rules/
-ls ~/.continue/rules/
-ls ~/.roo/rules/
-
-# Count total skills across all tools
-echo "Agents: $(ls ~/.agents/skills/ 2>/dev/null | wc -l | tr -d ' ')"
-echo "Cursor: $(ls ~/.cursor/skills/ 2>/dev/null | wc -l | tr -d ' ')"
-echo "Claude: $(ls ~/.claude/skills/ 2>/dev/null | wc -l | tr -d ' ')"
-echo "Windsurf: $(ls ~/.windsurf/rules/ 2>/dev/null | wc -l | tr -d ' ')"
-echo "Cline: $(ls ~/.cline/rules/ 2>/dev/null | wc -l | tr -d ' ')"
-echo "Continue: $(ls ~/.continue/rules/ 2>/dev/null | wc -l | tr -d ' ')"
-echo "Roo: $(ls ~/.roo/rules/ 2>/dev/null | wc -l | tr -d ' ')"
-
-# Check single-file tools
-test -f ~/.github/copilot-instructions.md && echo "Copilot: exists" || echo "Copilot: not found"
-test -f ~/.codex/AGENTS.md && echo "Codex: exists" || echo "Codex: not found"
-test -f ~/.aider.conf.yml && echo "Aider: exists" || echo "Aider: not found"
-test -f ~/augment-guidelines.md && echo "Augment: exists" || echo "Augment: not found"
-```
-
-### Read a skill
-
-```bash
-cat ~/.cursor/skills/my-skill/SKILL.md
-```
-
-### Create a new skill
-
-```bash
-# For Agents/Cursor/Claude (SKILL.md format)
-mkdir -p ~/.agents/skills/my-new-skill
-cat > ~/.agents/skills/my-new-skill/SKILL.md << 'EOF'
----
-name: my-new-skill
-description: What this skill does
----
-
-# My New Skill
-
-Instructions for the agent go here.
-EOF
-
-# For Windsurf/Cline/Continue/Roo (plain .md format)
-mkdir -p ~/.windsurf/rules/my-new-rule
-cat > ~/.windsurf/rules/my-new-rule/my-new-rule.md << 'EOF'
-# My New Rule
-
-Instructions go here.
-EOF
-
-# For single-file tools
-cat > .github/copilot-instructions.md << 'EOF'
-Instructions for Copilot go here.
-EOF
-```
-
-### Enable / Disable a skill
-
-Disabling renames the file to `.disabled` so the tool ignores it but the content is preserved:
-
-```bash
-# Disable
-mv ~/.cursor/skills/my-skill/SKILL.md ~/.cursor/skills/my-skill/SKILL.md.disabled
-
-# Enable
-mv ~/.cursor/skills/my-skill/SKILL.md.disabled ~/.cursor/skills/my-skill/SKILL.md
-```
-
-### Copy a skill between tools
-
-```bash
-# Copy from Cursor to Claude
-cp -r ~/.cursor/skills/my-skill ~/.claude/skills/my-skill
-
-# Copy from Agents to Windsurf (adapt format)
-mkdir -p ~/.windsurf/rules/my-skill
-cp ~/.agents/skills/my-skill/SKILL.md ~/.windsurf/rules/my-skill/my-skill.md
-```
-
-### Move a skill
-
-```bash
-mv ~/.cursor/skills/my-skill ~/.agents/skills/my-skill
-```
-
-### Delete a skill
-
-```bash
-rm -rf ~/.cursor/skills/my-skill
-```
-
-### Copy a skill from global to project scope
-
-```bash
-cp -r ~/.cursor/skills/my-skill .cursor/skills/my-skill
-```
-
-### Search across all skills
-
-```bash
-# Search by name
-find ~/.agents/skills ~/.cursor/skills ~/.claude/skills ~/.windsurf/rules ~/.cline/rules ~/.continue/rules ~/.roo/rules -maxdepth 1 -type d 2>/dev/null | sort
-
-# Search by content
-grep -rl "search term" ~/.agents/skills/ ~/.cursor/skills/ ~/.claude/skills/ 2>/dev/null
-```
-
-### Find disabled skills
-
-```bash
-find ~/.agents/skills ~/.cursor/skills ~/.claude/skills -name "*.disabled" 2>/dev/null
-```
-
-## Guidelines
-
-- When the user asks to "manage skills", "list my skills", "create a skill", "copy a skill to X", or similar, use the paths and formats above.
-- Always confirm before deleting skills.
-- When copying between tools with different formats (e.g., Cursor SKILL.md to Windsurf plain .md), adapt the file naming accordingly.
-- Project-scoped skills override global skills of the same name.
-- For single-file tools (Copilot, Codex, Aider, Augment), editing means replacing the entire file content.
-- When creating skills, use kebab-case for directory names (e.g., `my-new-skill`).
-
-## Limitations
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+- Environment and paths were discovered
+- Target and scope were explicit
+- Collision and dependency risks were checked
+- Destructive actions received confirmation
+- Local customizations were protected
+- Destination was read back and validated
+- Router or inventory references were updated when necessary
