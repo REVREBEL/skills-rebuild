@@ -1,99 +1,115 @@
 ---
 name: create-issue-gate
-description: Use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution.
-risk: safe
-source: community
-date_added: "2026-03-12"
+description: 'Create or verify an issue-first execution gate with explicit, testable acceptance criteria before implementation begins. Use when the user or repository requires work to be tracked in GitHub and blocked until scope, non-goals, dependencies, and acceptance criteria are ready.'
+compatibility: 'Requires authenticated GitHub access to create or update issues. Repository labels and project fields are optional and must be discovered rather than assumed.'
+metadata:
+  category: github
+  type: issue-gate
+  source: consolidated
 ---
 
 # Create Issue Gate
 
-## Overview
-
-Create GitHub issues as the single tracking entrypoint for tasks, with a hard gate on acceptance criteria.
-
-Core rule: **no explicit, testable acceptance criteria from user => issue stays `draft` and execution is blocked.**
+Establish a durable GitHub issue as the source of truth before implementation when the workflow explicitly requires issue-first delivery.
 
 ## When to Use
-- You are starting a new implementation task and want a GitHub issue to be the required tracking entrypoint.
-- The work must be blocked until the user provides explicit, testable acceptance criteria.
-- You need to distinguish between `draft`, `ready`, and `blocked` work before execution begins.
 
-## Required Fields
+Use when:
 
-Every issue must include these sections:
-- Problem
-- Goal
-- Scope
-- Non-Goals
-- Acceptance Criteria
-- Dependencies/Blockers
-- Status (`draft` | `ready` | `blocked` | `done`)
+- repository policy requires an issue before code changes
+- the user requests issue-first planning
+- acceptance criteria must gate execution
+- work needs a traceable link across issue, branch, commits, and pull request
 
-## Acceptance Criteria Gate
+Do not impose this gate on repositories or users that do not require it.
 
-Acceptance criteria are valid only when they are testable and pass/fail checkable.
+## Readiness Criteria
 
-Examples:
-- valid: "CreateCheckoutLambda-dev returns an openable third-party payment checkout URL"
-- invalid: "fix checkout" / "improve UX" / "make it better"
+An issue is ready for execution only when it includes:
 
-If criteria are missing or non-testable:
-- still create the issue
-- set `Status: draft`
-- add `Execution Gate: blocked (missing valid acceptance criteria)`
-- do not move task to execution
+- problem or opportunity
+- intended outcome
+- in-scope work
+- non-goals
+- testable acceptance criteria
+- dependencies and blockers
+- relevant evidence or source links
 
-## Issue Creation Mode
+Acceptance criteria must be observable and pass/fail checkable.
 
-Default mode is direct GitHub creation using `gh issue create`.
+Weak:
 
-Use a body template like:
-
-```md
-## Problem
-<what is broken or missing>
-
-## Goal
-<what outcome is expected>
-
-## Scope
-- <in scope item>
-
-## Non-Goals
-- <out of scope item>
-
-## Acceptance Criteria
-- <explicit, testable criterion 1>
-
-## Dependencies/Blockers
-- <dependency or none>
-
-## Status
-draft|ready|blocked|done
-
-## Execution Gate
-allowed|blocked (<reason>)
+```text
+Improve the dashboard.
 ```
 
-## Status Rules
+Ready:
 
-- `draft`: missing/weak acceptance criteria or incomplete task definition
-- `ready`: acceptance criteria are explicit and testable
-- `blocked`: external dependency prevents progress
-- `done`: acceptance criteria verified with evidence
+```text
+When the user selects a source filter, every KPI and table updates to the same source without a page reload.
+```
 
-Never mark an issue `ready` without valid acceptance criteria.
+## Workflow
 
-## Handoff to Execution
+### 1. Resolve repository policy
 
-Execution workflows (for example `closed-loop-delivery`) may start only when:
-- issue status is `ready`
-- execution gate is `allowed`
+Inspect issue templates, labels, project fields, contribution guidance, and links required by branch or PR conventions.
 
-If issue is `draft`, stop and request user-provided acceptance criteria.
+### 2. Search for an existing issue
 
-## Limitations
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+Avoid creating duplicate tracking objects. When an issue already covers the work, evaluate and update that issue instead.
+
+### 3. Draft the gate issue
+
+Use the repository template when present. Otherwise include:
+
+```markdown
+## Problem
+
+## Goal
+
+## Scope
+
+## Non-Goals
+
+## Acceptance Criteria
+
+## Dependencies and Blockers
+
+## Evidence
+
+## Execution Readiness
+Not Ready | Ready | Blocked
+```
+
+GitHub issues do not have a universal draft state. Represent readiness in the body and use labels or project status only when the repository already supports them.
+
+### 4. Evaluate readiness
+
+Set:
+
+- **Not Ready:** missing or ambiguous criteria
+- **Ready:** explicit scope and testable criteria
+- **Blocked:** definition is ready but an external dependency prevents execution
+
+Do not invent acceptance criteria solely to advance the workflow. Record visible placeholders and obtain the missing decision when it materially affects the result.
+
+### 5. Create or update the issue
+
+Create the issue through GitHub MCP, the connected app, or `gh`. Apply the repository's supported labels and fields.
+
+### 6. Verify and hand off
+
+Read the issue back and record:
+
+- repository and issue number
+- readiness state
+- acceptance criteria
+- blockers
+- required branch or PR linkage
+
+Begin implementation only when the gate is Ready or the user explicitly overrides the issue-first policy within their authority.
+
+## Completion
+
+Return the issue URL, readiness decision, missing criteria or blockers, and the next permitted action.
