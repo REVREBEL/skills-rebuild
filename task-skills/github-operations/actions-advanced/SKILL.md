@@ -26,6 +26,16 @@ Use when the user wants to:
 
 Use `actions-debugger` for a failing run and `security-review` for an exploit-focused security assessment.
 
+## Control and Handoff
+
+Keep control in `actions-advanced` while designing, editing, validating, and documenting the workflow change.
+
+- Use `github` for repository reads and narrowly scoped workflow-file mutations, then return here to continue authoring and validation.
+- Hand control back to `github` when the workflow change is complete and the new request is only a separate repository query or metadata operation.
+- Hand off to `actions-debugger` when a published workflow run fails or stalls. Return here only when the diagnosis requires a workflow design change.
+- Hand off to `security-review` for an independent exploit-focused assessment of privileged or externally triggered workflows.
+- Use `publish-changes` when the workflow edits are ready to move through commit, push, PR creation, and remote verification. Do not duplicate that publication sequence here.
+
 ## Workflow
 
 ### 1. Inspect repository context
@@ -88,6 +98,104 @@ Use:
 - artifacts for handoff between isolated jobs
 - fail-fast behavior appropriate to the matrix
 - pinned runner images when reproducibility matters
+
+## Minimal Secure Patterns
+
+These examples demonstrate structure, not universal project commands. Confirm the repository's supported runtime and refresh the immutable action SHAs against its approved versions before copying them.
+
+### Typical Node.js CI
+
+```yaml
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@39370e397c6e8c3fb0b8f5ed8e01a33276ed84a0 # v4.1.0
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint --if-present
+
+      - name: Test
+        run: npm test
+```
+
+This pattern keeps the token read-only, prevents checkout from persisting credentials, cancels superseded runs, caches npm data through `setup-node`, and pins third-party actions to immutable commits.
+
+### Reusable Verification Workflow
+
+```yaml
+name: Reusable verification
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        description: Node.js version to test
+        required: false
+        default: '22'
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@39370e397c6e8c3fb0b8f5ed8e01a33276ed84a0 # v4.1.0
+        with:
+          node-version: ${{ inputs.node-version }}
+          cache: npm
+
+      - run: npm ci
+      - run: npm test
+```
+
+Call the reusable workflow from another workflow with a local path:
+
+```yaml
+jobs:
+  verify:
+    uses: ./.github/workflows/_verify.yml
+    with:
+      node-version: '22'
+```
+
+Do not pass secrets to a reusable workflow unless it genuinely requires them. Declare each required secret explicitly rather than using broad inheritance by default.
 
 ### 7. Validate locally and remotely
 
