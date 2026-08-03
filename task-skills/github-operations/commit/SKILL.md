@@ -1,124 +1,137 @@
 ---
-name: git-commit
-description: 'Execute git commit with conventional commit message analysis, intelligent staging, and message generation. Use when user asks to commit changes, create a git commit, or mentions "/commit". Supports: (1) Auto-detecting type and scope from changes, (2) Generating conventional commit messages from diff, (3) Interactive commit with optional type/scope/description overrides, (4) Intelligent file staging for logical grouping'
-license: MIT
-allowed-tools: Bash
+name: commit
+description: 'Review a Git working tree, stage one logical change set, and create a clear commit that follows repository conventions. Use when asked to commit changes, prepare a commit, write a commit message, or separate mixed work into reviewable commits.'
+compatibility: 'Requires a local Git repository and permission to modify the index and create commits.'
+metadata:
+  category: github
+  type: commit-operation
+  source: consolidated
 ---
 
-# Git Commit with Conventional Commits
+# Commit Changes
 
-## Overview
+Create a truthful, reviewable commit without including secrets or unrelated user work.
 
-Create standardized, semantic git commits using the Conventional Commits specification. Analyze the actual diff to determine appropriate type, scope, and message.
+## When to Use
 
-## Conventional Commit Format
+Use when the user asks to:
 
-```
-<type>[optional scope]: <description>
+- Commit current changes
+- Stage and commit selected files
+- Generate or improve a commit message
+- Split mixed changes into logical commits
+- Prepare committed work before a push or pull request
 
-[optional body]
-
-[optional footer(s)]
-```
-
-## Commit Types
-
-| Type       | Purpose                        |
-| ---------- | ------------------------------ |
-| `feat`     | New feature                    |
-| `fix`      | Bug fix                        |
-| `docs`     | Documentation only             |
-| `style`    | Formatting/style (no logic)    |
-| `refactor` | Code refactor (no feature/fix) |
-| `perf`     | Performance improvement        |
-| `test`     | Add/update tests               |
-| `build`    | Build system/dependencies      |
-| `ci`       | CI/config changes              |
-| `chore`    | Maintenance/misc               |
-| `revert`   | Revert commit                  |
-
-## Breaking Changes
-
-```
-# Exclamation mark after type/scope
-feat!: remove deprecated endpoint
-
-# BREAKING CHANGE footer
-feat: allow config to extend other configs
-
-BREAKING CHANGE: `extends` key behavior changed
-```
+This skill stops after local commit creation. Use `publish-changes` when the user also wants the branch pushed or a pull request opened.
 
 ## Workflow
 
-### 1. Analyze Diff
+### 1. Read repository policy
+
+Inspect applicable instructions, commit conventions, required hooks, and generated-file rules.
+
+### 2. Inspect all change states
 
 ```bash
-# If files are staged, use staged diff
-git diff --staged
-
-# If nothing staged, use working tree diff
+git status --short --branch
+git diff --stat
+git diff --cached --stat
 git diff
-
-# Also check status
-git status --porcelain
+git diff --cached
 ```
 
-### 2. Stage Files (if needed)
+Include untracked files in the review. Determine which files belong to the requested change.
 
-If nothing is staged or you want to group changes differently:
+### 3. Define one logical commit
+
+Separate unrelated concerns. A commit should represent one coherent behavior, fix, refactor, documentation change, or maintenance operation.
+
+Do not stage everything by default when the working tree contains unrelated work.
+
+### 4. Check for sensitive or generated content
+
+Before staging, reject or exclude:
+
+- `.env` files and credentials
+- private keys and certificates
+- access tokens or session cookies
+- local databases and dumps
+- temporary files and editor artifacts
+- generated files that repository policy says not to commit
+
+When a suspicious value appears in the diff, stop and surface it rather than committing it.
+
+### 5. Stage explicit paths
+
+Prefer explicit paths:
 
 ```bash
-# Stage specific files
-git add path/to/file1 path/to/file2
+git add -- path/to/file-a path/to/file-b
+```
 
-# Stage by pattern
-git add *.test.*
-git add src/components/*
+Use interactive staging when one file contains mixed concerns:
 
-# Interactive staging
+```bash
 git add -p
 ```
 
-**Never commit secrets** (.env, credentials.json, private keys).
-
-### 3. Generate Commit Message
-
-Analyze the diff to determine:
-
-- **Type**: What kind of change is this?
-- **Scope**: What area/module is affected?
-- **Description**: One-line summary of what changed (present tense, imperative mood, <72 chars)
-
-### 4. Execute Commit
+Review the staged diff after staging:
 
 ```bash
-# Single line
-git commit -m "<type>[scope]: <description>"
-
-# Multi-line with body/footer
-git commit -m "$(cat <<'EOF'
-<type>[scope]: <description>
-
-<optional body>
-
-<optional footer>
-EOF
-)"
+git diff --cached --check
+git diff --cached
 ```
 
-## Best Practices
+### 6. Run required validation
 
-- One logical change per commit
-- Present tense: "add" not "added"
-- Imperative mood: "fix bug" not "fixes bug"
-- Reference issues: `Closes #123`, `Refs #456`
-- Keep description under 72 characters
+Run repository-required checks appropriate to the staged change. Do not bypass hooks with `--no-verify` unless the user explicitly authorizes it and repository policy permits it.
 
-## Git Safety Protocol
+### 7. Write the message
 
-- NEVER update git config
-- NEVER run destructive commands (--force, hard reset) without explicit request
-- NEVER skip hooks (--no-verify) unless user asks
-- NEVER force push to main/master
-- If commit fails due to hooks, fix and create NEW commit (don't amend)
+Follow repository conventions. When none exist, use Conventional Commits:
+
+```text
+<type>(<optional-scope>): <imperative summary>
+```
+
+Common types:
+
+- `feat`
+- `fix`
+- `refactor`
+- `docs`
+- `test`
+- `ci`
+- `build`
+- `chore`
+- `revert`
+
+Keep the subject concise. Add a body when the reason, migration impact, risk, or breaking change is not obvious from the diff.
+
+### 8. Commit and verify
+
+```bash
+git commit -m "<message>"
+git show --stat --oneline --decorate HEAD
+git status --short --branch
+```
+
+Do not amend an existing commit unless explicitly requested and safe for the branch.
+
+## Safety Rules
+
+- Never update global or repository Git configuration unless requested
+- Never reset, clean, discard, or overwrite unrelated work
+- Never commit merge-conflict markers
+- Never claim validation passed unless it ran successfully
+- Never create an empty commit unless explicitly requested
+- Never rewrite published history without explicit authorization
+
+## Completion
+
+Report:
+
+- commit SHA and message
+- files included
+- validation run
+- remaining uncommitted changes

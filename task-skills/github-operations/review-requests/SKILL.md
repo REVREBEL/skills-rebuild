@@ -1,89 +1,97 @@
 ---
-name: gh-review-requests
-description: Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member. Use when asked to "find PRs I need to review", "show my review requests", "what needs my review", "fetch GitHub review requests", or "check team review queue".
-allowed-tools: Bash
-risk: safe
-source: community
+name: review-requests
+description: 'Find and triage GitHub pull requests awaiting review from the authenticated user, a named reviewer, or a team. Use when asked what needs review, to show pending review requests, build a review queue, or identify stale requested reviews.'
+compatibility: 'Requires authenticated GitHub access and permission to view the target repositories or organization teams.'
+metadata:
+  category: github
+  type: review-queue
+  source: consolidated
 ---
 
-# GitHub Review Requests
+# Pull Request Review Queue
 
-Fetch unread `review_requested` notifications for open (unmerged) PRs, filtered by a GitHub team.
-
-**Requires**: GitHub CLI (`gh`) authenticated.
+Build a current, deduplicated queue of pull requests that need review.
 
 ## When to Use
-- You need to find unread GitHub PR review requests for a specific team.
-- You want to check which open PRs currently need your review or a teammate's review.
-- You need a filtered review queue instead of manually browsing GitHub notifications.
 
-## Step 1: Identify the Team
+Use when the user asks:
 
-If the user has not specified a team, ask:
+- what PRs need my review?
+- show pending review requests
+- find PRs assigned to this team
+- identify stale or blocked reviews
+- summarize the current review queue
 
-> Which GitHub team should I filter by? (e.g. `streaming-platform`)
+Use `pr-review` to analyze one selected pull request.
 
-Accept either a team slug (`streaming-platform`) or a display name ("Streaming Platform") — convert to lowercase-hyphenated slug before passing to the script.
+## Workflow
 
-## Step 2: Run the Script
+### 1. Resolve the reviewer scope
 
-```bash
-uv run ${CLAUDE_SKILL_ROOT}/scripts/fetch_review_requests.py --org getsentry --teams <team-slug>
-```
+Identify one of:
 
-To filter by multiple teams, pass a comma-separated list:
+- authenticated user
+- named GitHub login
+- organization team slug
+- repository or organization scope
 
-```bash
-uv run ${CLAUDE_SKILL_ROOT}/scripts/fetch_review_requests.py --org getsentry --teams <team slugs>
-```
+Do not assume a hardcoded organization or team.
 
-### Script output
+### 2. Query current PR state
 
-```json
-{
-  "total": 3,
-  "prs": [
-    {
-      "notification_id": "12345",
-      "title": "feat(kafka): add workflow to restart a broker",
-      "url": "https://github.com/getsentry/ops/pull/19144",
-      "repo": "getsentry/ops",
-      "pr_number": 19144,
-      "author": "bmckerry",
-      "reasons": ["opened by: bmckerry"]
-    }
-  ]
-}
-```
+Prefer GitHub MCP or the connected GitHub app. When using `gh`, query review-request and PR data through supported search or API endpoints.
 
-`reasons` will contain one or both of:
-- `"review requested from: <Team Name>"` — the team is a requested reviewer
-- `"opened by: <login>"` — the PR author is a team member
+Include only pull requests that are:
 
-## Step 3: Present Results
+- open
+- not merged
+- currently requesting the user or team's review, or explicitly assigned for review by repository policy
 
-Display results as a markdown table with full URLs:
+Distinguish requested review from authored, mentioned, assigned, or merely subscribed PRs.
 
-| # | Title | URL | Reason |
-|---|-------|-----|--------|
-| 1 | feat(kafka): add workflow to restart a broker | https://github.com/getsentry/ops/pull/19144 | opened by: evanh |
+### 3. Gather useful triage context
 
-If `total` is 0, say: "No unread review requests found for that team."
+For each PR capture:
 
-## Fallback
+- repository and PR number
+- title and URL
+- author
+- requested reviewer or team
+- draft state
+- age and last update
+- changed-file or diff size when available
+- check status
+- existing review state
+- merge conflicts or blockers
 
-If the script fails, run manually:
+Paginate until the requested scope is complete.
 
-```bash
-gh api notifications --paginate
-```
+### 4. Rank the queue
 
-Then for each `review_requested` notification, check:
-- `gh api repos/{repo}/pulls/{number}` — skip if `state == "closed"` or `merged_at` is set
-- `gh api repos/{repo}/pulls/{number}/requested_reviewers` — check `teams[].name`
-- `gh api orgs/{org}/teams/{slug}/members` — check if author is a member
+Prioritize using transparent signals such as:
 
-## Limitations
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+1. security or production urgency
+2. explicit due date or release blocker
+3. ready-for-review with green checks
+4. oldest unanswered request
+5. smaller unblocked reviews before large or draft work
+
+Do not invent urgency from labels or titles without evidence.
+
+### 5. Present the queue
+
+Use a compact table or grouped summary. Flag:
+
+- draft PRs
+- failed or pending checks
+- stale requests
+- already reviewed but re-requested after new commits
+- PRs where the current head changed after the last review
+
+### 6. Verify selected items
+
+Before handing a PR to `pr-review`, refresh its current head SHA and review-request state.
+
+## Completion
+
+Return the total queue, ranking method, repository scope, and the top items with URLs and blockers. Say explicitly when no current review requests were found.

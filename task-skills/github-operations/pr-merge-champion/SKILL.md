@@ -1,116 +1,132 @@
 ---
 name: pr-merge-champion
-description: "Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and structured documentation."
-category: workflow
-risk: safe
-source: self
-source_type: self
-date_added: "2026-06-16"
-author: himanshu-2l
-tags: [git, github, pull-request, code-review, workflow]
-tools: [claude, cursor, gemini, antigravity]
+description: 'Verify that a GitHub pull request is ready, select an allowed merge strategy, perform an authorized merge, and confirm the target branch contains the expected result. Use when asked to merge, enable auto-merge, queue, or finalize an approved pull request.'
+compatibility: 'Requires authenticated GitHub write access and permission to merge the target pull request.'
+metadata:
+  category: github
+  type: pull-request-merge
+  source: consolidated
 ---
 
-# PR Merge Champion
+# Pull Request Merge
 
-## Overview
+Merge only when repository policy, current revision identity, required checks, and user authorization all align.
 
-A systematic playbook for preparing, reviewing, and documenting pull requests to ensure they are high-quality, free of common oversights, and optimized for instant maintainer approval and merging.
+## When to Use
 
-## When to Use This Skill
+Use when the user asks to:
 
-- Use when preparing to open a new pull request on GitHub or any Git hosting platform.
-- Use when self-auditing a feature or bug-fix branch for code cleanliness and consistency.
-- Use when trying to minimize review cycles and speed up the integration of your changes.
+- merge an approved pull request
+- enable auto-merge
+- add a PR to a merge queue
+- determine the exact blocker preventing merge
+- verify a recently merged PR
 
-## How It Works
+Use `pr-review` for code review and `actions-debugger` for failing checks.
 
-### Step 1: Pre-Flight Clean Up & Rebase
+## Control and Handoff
 
-Before presenting your code to reviewers, clean up any workspace noise and ensure your branch is up to date:
-1. Rebase your feature branch on top of the latest target branch (e.g., `main` or `master`) to resolve conflicts early.
-2. Clean up untracked, temp, or swap files from your repository.
-3. Run local linters, formatters, and compilers to ensure no stylistic or syntax errors exist.
+Keep control in `pr-merge-champion` while resolving merge policy, checking readiness, refreshing exact revision evidence, performing or queuing the authorized operation, and verifying the resulting state.
 
-### Step 2: Critical Self-Review
+- Use `github` as the operation layer for PR, review, ruleset, check, queue, auto-merge, and merge calls, then return here to continue the readiness and verification sequence.
+- Hand control back to `github` when the merge workflow is complete and the new request is only a separate repository query or metadata change.
+- Hand off to `actions-debugger` for a failing or stuck check, `pr-review` for unresolved code-review questions, or `publish-changes` when source changes are required. A changed head SHA invalidates earlier readiness evidence, so restart this workflow after remediation.
+- Stay here when the only blocker is a merge queue, pending authorized auto-merge, or a mergeability refresh. Do not duplicate the full publication workflow.
 
-Review your own diff line-by-line as if you were the reviewer. Look out for:
-1. Leftover debugging statements (e.g., `console.log`, `print`, breakpoints, or custom debug flags).
-2. Unnecessary changes, white-space only diffs, or commented-out code blocks.
-3. Incomplete `TODO` comments that should be resolved or turned into tracked issues.
-4. Correctness of error handling and edge cases.
+## Workflow
 
-### Step 3: Local Verification & Test Suite
+### 1. Resolve exact PR identity
 
-Verify that all changes work as expected:
-1. Run the project's automated test suite locally to verify no regressions are introduced.
-2. Check test coverage for any new code blocks you added.
-3. Manually test the critical paths and edge cases of your feature or bug fix.
+Read:
 
-### Step 4: Crafting the Pull Request Description
+- repository and PR number
+- base branch and full base SHA
+- head branch and full head SHA
+- draft state
+- author and fork identity
+- mergeability and merge-state status
 
-Write a high-signal, structured PR description. A great description tells the story of the changes:
-1. **Summary**: A concise explanation of the changes.
-2. **Context / Why**: Why this change is necessary and what problem it solves.
-3. **Verification**: Explicit details on how you tested it (test commands, screenshots, or step-by-step reproduction).
-4. **Checklist**: Conform to the repository's contributing guidelines and checklist requirements.
+All readiness evidence must correspond to the current head SHA.
 
-## Examples
+### 2. Read repository merge policy
 
-### Example 1: Creating a Clean PR Description
+Inspect:
 
-```markdown
-# Pull Request: Implement Rate Limiting on Authentication Endpoint
+- branch protection and rulesets
+- required checks
+- required approvals and code owners
+- unresolved-review-thread policy
+- merge queue or auto-merge requirements
+- allowed merge methods
+- repository-specific maintainer or release commands
 
-## Summary
-Introduces an IP-based rate limiter on the `/api/v1/auth/login` endpoint using Redis to prevent brute-force attacks.
+Do not replace a guarded repository command with a generic merge API.
 
-## Why
-We identified a high volume of login attempts targeting single accounts. This rate limiting window slows down attackers while keeping the system responsive for genuine users.
+### 3. Evaluate readiness
 
-## Verification
-- Ran unit tests: `npm run test tests/auth.test.js` (all green)
-- Manually verified using Postman: sending 15 requests in under 60 seconds returns `429 Too Many Requests`.
+Confirm:
 
-## Checklist
-- [x] Code follows the style guide
-- [x] Unit tests added/updated
-- [x] Documentation updated
-```
+- PR is open and not draft
+- required checks are successful and current
+- required approvals are present
+- no blocking change requests remain
+- required conversations are resolved
+- branch is mergeable or queued according to policy
+- issue, changelog, migration, or release requirements are satisfied
 
-### Example 2: Self-Review Clean Up Commands
+Pending and skipped are not equivalent to passed.
 
-Before committing, run these commands to inspect the diff for accidental additions:
+### 4. Recheck immediately before mutation
 
-```bash
-# Check the names of files changed to ensure no unwanted files are staged
-git status --porcelain
+Refresh the head SHA, base SHA, checks, reviews, and mergeability. Stop when any evidence changed or became stale.
 
-# Review the actual diff for any leftover print statements or debuggers
-git diff | grep -E "(console\.log|debugger|print\(|var_dump|binding\.pry)"
-```
+### 5. Select the merge path
 
-## Best Practices
+Use, in order:
 
-- ✅ **Keep PRs Small and Focused**: A PR with fewer than 200 lines of changes gets reviewed and merged significantly faster than a large one.
-- ✅ **Perform a Self-Review first**: Finding your own bugs and formatting issues first builds trust with the maintainers.
-- ✅ **Respect Repository Guidelines**: Check the project's `CONTRIBUTING.md` and pull request templates, and adhere to them strictly.
-- ❌ **Do Not Bundle Unrelated Changes**: Avoid sneaking refactoring or unrelated bug fixes into a feature PR. Create separate PRs instead.
-- ❌ **Do Not Ignore CI Failures**: Always fix failing tests, linters, or security scans on your branch before requesting a review.
+1. repository-required merge queue or maintainer command
+2. authorized auto-merge when required checks are still running
+3. allowed direct merge method after all gates pass
 
-## Limitations
+Choose squash, merge commit, or rebase according to repository policy. Do not impose a preferred strategy.
 
-- This skill does not replace project-specific CI/CD validation, automated testing, or domain-expert reviews.
-- It assumes a standard Git and GitHub-like environment, though the core principles apply to GitLab, Bitbucket, and other platforms.
+### 6. Merge or queue
 
-## Common Pitfalls
+Perform the exact authorized operation. Enabling auto-merge or adding to a queue is not the same as completing a merge.
 
-- **Problem:** A PR is left open for a long time due to minor formatting or style comments.
-  **Solution:** Always run the repository's local formatter (e.g., Prettier, ESLint, Black) before committing.
-- **Problem:** Merge conflicts occur immediately after opening the PR.
-  **Solution:** Pull the latest main branch and rebase or merge it into your branch daily.
+### 7. Verify the final state
 
-## Related Skills
+Read back:
 
-- `@pr-writer` - For Sentry-specific PR writing guidelines.
-- `@clean-code` - To ensure code quality before submitting.
+- PR state and merged timestamp
+- resulting merge commit SHA, when applicable
+- target branch head
+- queue or auto-merge state when not yet merged
+- post-merge checks, deployment, or release state only when requested
+
+Do not delete the source branch unless requested or repository policy handles it automatically.
+
+## Blocker Output
+
+When merge cannot proceed, report one exact blocker set, such as:
+
+- required check failing or pending
+- missing approval
+- unresolved requested changes
+- merge conflict
+- stale head SHA
+- permission failure
+- merge queue required
+- repository-specific release gate
+
+## Safety Rules
+
+- Never bypass branch protection, required reviews, or merge queues
+- Never dismiss reviews or resolve threads merely to make a merge pass
+- Never merge a different head SHA than the one reviewed
+- Never force-update branches during the merge workflow without explicit authorization
+- Never claim merge completion from an auto-merge enablement response
+
+## Completion
+
+Report the PR URL, reviewed head SHA, merge method or queue action, resulting target SHA, and any remaining post-merge work.
