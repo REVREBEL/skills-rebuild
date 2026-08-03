@@ -4,33 +4,13 @@
 
 Rewrite retained canonical skills in manageable functional batches so each skill is discoverable, executable, provider-appropriate, and structurally consistent.
 
-## Required Context
+## Preconditions
 
-Use:
+- Inventory, destination, consolidation, merge-decision, split, and provider-conversion artifacts exist and reconcile.
+- Canonical owners and approved child structures are established.
+- One functional batch of approximately 10 to 20 related skills is selected.
 
-- `agents/skills-rebuild/_audit/skills-inventory.csv`
-- `agents/skills-rebuild/_audit/destination-map.csv`
-- `agents/skills-rebuild/_audit/consolidation-map.md`
-- `agents/skills-rebuild/_audit/merge-decisions.csv`
-- `agents/skills-rebuild/_audit/split-map.md`
-- `agents/skills-rebuild/_audit/provider-conversion-report.md`
-
-Work by functional batch, normally 10 to 20 related skills, rather than alphabetically or across the entire library at once.
-
-Each canonical skill must have:
-
-- Folder and frontmatter `name` alignment
-- A discovery-focused description explaining what and when
-- Clear use and exclusion boundaries
-- Required inputs, tools, permissions, and compatibility
-- Ordered workflow
-- Safety and authorization rules
-- Handoff boundaries
-- Validation and completion requirements
-- Troubleshooting only when it supports execution
-- Progressive disclosure into `references/`, `scripts/`, `assets/`, or `templates/` when needed
-
-## Task Skills to Use
+## Canonical Task Skills
 
 Read and follow:
 
@@ -41,29 +21,51 @@ Read and follow:
 - `task-skills/skills-create-manage-update/skill-make-template/SKILL.md`
 - `task-skills/skills-create-manage-update/skill-check/SKILL.md`
 
-Use `skill-creator` only when benchmarks, graders, packaging, or evaluation assets are justified. Use `task-skills/github-operations/SKILL.md` for branch, commit, PR, and review operations.
+Use `skill-improver` for approved repairs to existing canonical skills, `skill-writer` for substantial source-backed rewrites, `skill-make-template` for straightforward new skills, and `skill-check` for per-skill and per-batch validation. Use `task-skills/github-operations/SKILL.md` for branch, commit, pull-request, and review operations.
 
 ## Work
 
-1. Select one functional batch from the approved destination map.
+1. Select one approved functional batch rather than working alphabetically or across the whole library.
 2. Rewrite or repair each canonical skill using the approved merge and split decisions.
-3. Preserve valid source provenance and unique instructions.
-4. Remove stale aliases, unsupported metadata, accidental provider assumptions, and broken references.
-5. Move long supporting content out of the main `SKILL.md` when progressive disclosure improves execution.
-6. Validate each skill before completing the batch.
-7. Reconcile the batch against destination, merge, split, and inventory records.
+3. Ensure each canonical skill has:
+   - Folder and frontmatter `name` alignment
+   - A discovery-focused description explaining what and when
+   - Clear use and exclusion boundaries
+   - Required inputs, tools, permissions, and compatibility
+   - Ordered workflow
+   - Safety and authorization rules
+   - Handoff boundaries
+   - Validation and completion requirements
+4. Preserve valid source provenance and unique instructions.
+5. Remove stale aliases, unsupported metadata, undeclared provider assumptions, and broken references.
+6. Use progressive disclosure through `references/`, `scripts/`, `assets/`, or `templates/` when supporting content would obscure the primary workflow.
+7. Validate each skill before completing the batch.
 8. Commit each validated functional batch separately.
 
-## Deliverable
+## Artifacts
 
-Create or update the canonical skill folders under the resolved `agents/skills-rebuild` path.
+Create or update canonical skill folders under the resolved `agents/skills-rebuild` path.
 
-For each completed batch, create:
+For each batch, create:
 
-`agents/skills-rebuild/_audit/batches/<batch-name>.md`
+- `agents/skills-rebuild/_audit/batches/<batch-name>.md`
 
-The batch record must list skills completed, source paths incorporated, validation performed, retired paths, and unresolved items.
+The batch record must list canonical skills completed, source paths incorporated, authoring workflow used, validation performed, resources created or moved, retired paths, and unresolved items.
+
+## Reconciliation Requirements
+
+- Reconcile every batch skill to the destination, merge, split, provider-conversion, and inventory records.
+- Reconcile every incorporated source path to one canonical destination.
+- Confirm every active reference and bundled resource exists.
+- Confirm trigger boundaries within the batch are distinguishable.
+- Confirm no unresolved overlap remains within the completed batch.
 
 ## Completion Gate
 
-Complete a batch only when every included skill validates, all referenced resources exist, trigger boundaries are distinguishable, provenance records reconcile, and no unresolved overlap remains within that batch.
+Complete a batch only when:
+
+- All preconditions are satisfied.
+- Canonical files and the batch record exist.
+- Every included skill passes `skill-check` or has an explicit unresolved validation item.
+- Sources, destinations, resources, retirements, and validation evidence reconcile.
+- The batch contains no silent overlap, missing provenance, or broken path.
