@@ -7,6 +7,7 @@ Validate the rebuilt skills library structurally, semantically, and operationall
 ## Preconditions
 
 - The rebuilt filesystem and all expected audit artifacts under `agents/skills-rebuild/_audit/` exist.
+- `.agents/skills` is the verified canonical task-workflow path.
 - Canonical skills, resources, and router hierarchy are complete enough for whole-library validation.
 - The repository-provided skill validator and other safe validation tools have been identified or recorded as unavailable.
 
@@ -14,13 +15,13 @@ Validate the rebuilt skills library structurally, semantically, and operationall
 
 Read and follow:
 
-- `task-skills/SKILL.md`
-- `task-skills/skills-create-manage-update/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-check/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-audit/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-review/SKILL.md`
+- `.agents/skills/SKILL.md`
+- `.agents/skills/skills-create-manage-update/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-check/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-audit/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-review/SKILL.md`
 
-Use `skill-check` for structural, semantic, link, and package validation; `skill-audit` for safety, compatibility, permissions, dependencies, and secrets; and `skill-review` for final disposition inconsistencies or unresolved ownership decisions. Use `task-skills/github-operations/SKILL.md` for repository diff, commit, CI, and publication-state validation.
+Use `skill-check` for structural, semantic, link, and package validation; `skill-audit` for safety, compatibility, permissions, dependencies, and secrets; and `skill-review` for final disposition inconsistencies or unresolved ownership decisions. Use `.agents/skills/github-operations/SKILL.md` for repository diff, commit, CI, and publication-state validation.
 
 ## Work
 
@@ -67,10 +68,10 @@ The validation report must record each check, scope, method, status, evidence, a
 
 1. Begin only after Phase 10 is approved and merged into `main`.
 2. Create and complete this phase on `skills-rebuild/phase-11-validation` from the updated `main` branch.
-3. Review the final diff and confirm it contains only validation artifacts, approved validation repairs, and directly required supporting changes.
-4. Commit the completed phase with: `skills-rebuild: complete phase 11 validation`.
+3. Review the final diff and confirm it contains only validation artifacts, approved repairs required to pass validation, and directly required reconciliation updates.
+4. Use focused repair commits when needed, then finish with the phase commit: `skills-rebuild: complete phase 11 validation`.
 5. Push the branch and open a draft pull request targeting `main`.
-6. The pull request must summarize validation scope, pass/fail/skip totals, repairs, artifact paths, reconciliation evidence, unavailable checks, and blocking or non-blocking unresolved items.
+6. The pull request must summarize checks run, pass/fail/skip counts, repairs made, artifact paths, reconciliation status, unavailable checks, and unresolved items with blocking status.
 7. Leave the pull request unmerged for review. Do not begin Phase 12 until this phase is approved and merged into `main`.
 
 ## Completion Gate
