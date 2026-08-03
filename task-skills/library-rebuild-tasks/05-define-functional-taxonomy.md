@@ -50,6 +50,16 @@ The destination map must record source path, compatibility status, proposed cate
 - Confirm category totals equal the retained skill population.
 - Confirm each category definition matches its assigned children and does not overlap another category without an explicit boundary.
 
+## Repository Checkpoint
+
+1. Begin only after Phase 04 is approved and merged into `main`.
+2. Create and complete this phase on `skills-rebuild/phase-05-taxonomy` from the updated `main` branch.
+3. Review the final diff and confirm it contains only taxonomy artifacts, destination decisions, and directly required supporting changes.
+4. Commit the completed phase with: `skills-rebuild: complete phase 05 functional taxonomy`.
+5. Push the branch and open a draft pull request targeting `main`.
+6. The pull request must summarize proposed categories, placement counts, artifact paths, reconciliation totals, routing ambiguities, and unresolved placements.
+7. Leave the pull request unmerged for review. Do not begin Phase 06 until this phase is approved and merged into `main`.
+
 ## Completion Gate
 
 Complete only when:
@@ -59,3 +69,4 @@ Complete only when:
 - Every retained skill has exactly one proposed functional home.
 - Every category has explicit inclusion and exclusion boundaries.
 - Counts reconcile and every unresolved placement is documented.
+- The phase branch is pushed and its draft pull request is open for review.
