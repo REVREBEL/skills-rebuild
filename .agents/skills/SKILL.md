@@ -39,10 +39,10 @@ At the beginning, resolve and record:
 - Source library, logically `agents/skills`
 - Quarantine library, logically `agents/not-needed`
 - Rebuilt library, logically `agents/skills-rebuild`
-- Task skills, logically `task-skills`
+- Task skills, canonically `.agents/skills`
 - Repository, default branch, working branch, and starting commit
 
-The physical paths may include another project prefix. Discover rather than assume.
+The task-skill path is fixed at `.agents/skills` so compatible IDEs and agents can discover the workflows. The source, quarantine, and rebuilt physical paths may include another project prefix and must be discovered rather than assumed.
 
 ## Governing Rules
 
