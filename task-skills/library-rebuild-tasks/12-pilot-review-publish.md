@@ -4,67 +4,72 @@
 
 Test representative end-to-end use cases, correct routing or execution failures, and publish the rebuilt library only after current validation evidence and repository review support the release.
 
-## Required Context
+## Preconditions
 
-Use:
+- The final `agents/skills-rebuild` filesystem and audit records exist.
+- `validation-report.md`, `unresolved-items.md`, and `router-validation.md` reconcile with the filesystem.
+- No unresolved item is marked as a blocking structural, compatibility, security, routing, or provenance failure.
+- Applicable rebuilt root and category routers are ready for pilot use.
 
-- The final `agents/skills-rebuild` filesystem
-- `agents/skills-rebuild/_audit/validation-report.md`
-- `agents/skills-rebuild/_audit/unresolved-items.md`
-- `agents/skills-rebuild/_audit/router-validation.md`
-- All completed batch and disposition records under `agents/skills-rebuild/_audit/`
-
-Do not publish while unresolved items include blocking structural, compatibility, security, routing, or provenance failures.
-
-Pilot representative scenarios that exercise different categories and handoffs, including:
-
-- Create a new skill
-- Find and review an existing skill
-- Publish a GitHub change
-- Debug a workflow failure
-- Analyze a dataset
-- Create or revise documentation
-- Perform a marketing or SEO task when those skills are retained
-- Route a hospitality-specific task when those skills are retained
-
-Use realistic prompts and record the selected router path, child skill, required tools, outcome, and any duplicated or missing steps.
-
-## Task Skills to Use
+## Canonical Task Skills
 
 Read and follow:
 
 - `task-skills/SKILL.md`
-- `task-skills/github-operations/SKILL.md`
 - `task-skills/skills-create-manage-update/SKILL.md`
 - `task-skills/skills-create-manage-update/skill-check/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-manage/SKILL.md`
 - `task-skills/skills-create-manage-update/skill-improver/SKILL.md`
+- `task-skills/skills-create-manage-update/skill-manage/SKILL.md`
+- `task-skills/github-operations/SKILL.md`
 
-Use the applicable rebuilt root and category routers during every pilot scenario. Use the GitHub operation children selected by the GitHub router for final diff review, commits, pull request creation, review feedback, merge, and remote verification.
+Use `skill-check` for retesting, `skill-improver` for approved defects found during pilots, `skill-manage` for final movement or synchronization, and the GitHub router for diff review, commits, pull requests, review feedback, merge, and remote verification. Use `skill-optimizer` only after the pilot produces real usage evidence and only for evidence-based performance or discovery optimization.
 
 ## Work
 
 1. Confirm no blocking unresolved item remains.
-2. Run the representative pilot scenarios against the rebuilt routers and child skills.
-3. Record routing, tool use, outputs, handoffs, failures, and duplicated steps.
+2. Run representative pilot scenarios against the rebuilt routers and children, including:
+   - Create a new skill
+   - Find and review an existing skill
+   - Publish a GitHub change
+   - Debug a workflow failure
+   - Analyze a dataset
+   - Create or revise documentation
+   - Perform a marketing or SEO task when retained
+   - Route a hospitality-specific task when retained
+3. Record the selected route, child skill, required tools, outcome, handoffs, and duplicated or missing steps.
 4. Correct discovery descriptions, router boundaries, broken handoffs, and execution defects found during the pilot.
 5. Rerun affected validation and pilot scenarios after every correction.
-6. Reconcile the final inventory and destination records with the published filesystem.
+6. Reconcile the final inventory and destination records with the publishable filesystem.
 7. Review the complete repository diff and exclude unrelated changes.
 8. Commit and push the final validated batches.
 9. Open or update a reviewable pull request with truthful validation and unresolved-item status.
 10. Address review feedback and merge only after current checks, approvals, and repository policy are satisfied.
 11. Verify the target branch and published library after merge.
 
-## Deliverables
+## Artifacts
 
 Create:
 
 - `agents/skills-rebuild/_audit/pilot-report.md`
 - `agents/skills-rebuild/_audit/publication-record.md`
 
-The pilot report must record each scenario, route selected, result, defects found, corrections, and retest outcome. The publication record must include branch, commits, pull request, review status, validation evidence, merge result, and final target SHA.
+The pilot report must record each scenario, expected route, actual route, result, defect, correction, retest result, and any accepted limitation. The publication record must include branch, commits, pull request, review state, validation evidence, unresolved-item status, merge result, target branch, and final target SHA.
+
+## Reconciliation Requirements
+
+- Reconcile every pilot scenario to the router path and active child used.
+- Reconcile every pilot defect to a correction, accepted limitation, or unresolved item.
+- Reconcile final inventory, destination, router, validation, and filesystem state before publication.
+- Reconcile published commits and pull-request head to the reviewed diff.
+- Reconcile the merge result and final target SHA through remote readback.
 
 ## Completion Gate
 
-Complete only when all pilot scenarios pass or have explicitly accepted limitations, blocking validation issues are resolved, audit records reconcile with the final filesystem, the reviewed changes are merged according to repository policy, and the published target state is verified.
+Complete only when:
+
+- All preconditions are satisfied.
+- Both pilot and publication artifacts exist with complete evidence.
+- All pilot scenarios pass or have explicitly accepted non-blocking limitations.
+- Blocking validation issues are resolved.
+- Audit records reconcile with the final filesystem.
+- Changes are merged according to repository policy and the published target state is verified.
