@@ -60,6 +60,16 @@ Update:
 - Confirm retained, moved, and unresolved counts equal the inventoried source count.
 - Confirm no source skill was silently deleted or omitted.
 
+## Repository Checkpoint
+
+1. Begin only after Phase 02 is approved and merged into `main`.
+2. Create and complete this phase on `skills-rebuild/phase-03-compatibility` from the updated `main` branch.
+3. Review the final diff and confirm it contains only compatibility decisions, approved quarantine moves, inventory updates, and directly required supporting changes.
+4. Commit the completed phase with: `skills-rebuild: complete phase 03 compatibility gate`.
+5. Push the branch and open a draft pull request targeting `main`.
+6. The pull request must summarize classifications, moved-skill counts, artifact paths, reconciliation totals, validation evidence, and unresolved decisions.
+7. Leave the pull request unmerged for review. Do not begin Phase 04 until this phase is approved and merged into `main`.
+
 ## Completion Gate
 
 Complete only when:
@@ -69,3 +79,4 @@ Complete only when:
 - Every inventoried skill has one evidence-backed compatibility classification.
 - Every moved skill reconciles with the quarantine manifest and filesystem.
 - The full source population is accounted for with no silent omissions.
+- The phase branch is pushed and its draft pull request is open for review.
