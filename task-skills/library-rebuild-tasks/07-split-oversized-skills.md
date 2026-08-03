@@ -55,6 +55,16 @@ The map must record original path, split decision, rationale, parent destination
 - Reconcile all new child paths with the destination map and inventory provenance.
 - Confirm parent routers link only to existing children and contain no duplicated end-to-end child workflow.
 
+## Repository Checkpoint
+
+1. Begin only after Phase 06 is approved and merged into `main`.
+2. Create and complete this phase on `skills-rebuild/phase-07-splits` from the updated `main` branch.
+3. Use focused commits for individual split groups when needed, then review the complete phase diff.
+4. Commit the final phase checkpoint with: `skills-rebuild: complete phase 07 skill splits`.
+5. Push the branch and open a draft pull request targeting `main`.
+6. The pull request must summarize approved and rejected splits, parent-child paths, artifact updates, validation evidence, reconciliation results, and unresolved candidates.
+7. Leave the pull request unmerged for review. Do not begin Phase 08 until this phase is approved and merged into `main`.
+
 ## Completion Gate
 
 Complete only when:
@@ -64,3 +74,4 @@ Complete only when:
 - Every approved child has a distinct trigger, job, and outcome.
 - Parent, child, reference, destination, and provenance records reconcile.
 - No content or resource disappears without a documented disposition.
+- The phase branch is pushed and its draft pull request is open for review.
