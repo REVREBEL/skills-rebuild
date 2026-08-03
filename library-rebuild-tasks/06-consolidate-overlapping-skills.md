@@ -7,6 +7,7 @@ Resolve retained skills that share substantially the same trigger, workflow, or 
 ## Preconditions
 
 - Inventory, compatibility, provider-conversion, taxonomy, and destination-map artifacts exist and reconcile.
+- `.agents/skills` is the verified canonical task-workflow path.
 - Retained skills are assigned to proposed functional destinations.
 - Overlap clusters are identified but not assumed to be duplicates by name alone.
 
@@ -14,13 +15,13 @@ Resolve retained skills that share substantially the same trigger, workflow, or 
 
 Read and follow:
 
-- `task-skills/SKILL.md`
-- `task-skills/skills-create-manage-update/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-review/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-library-restructure/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-improver/SKILL.md`
+- `.agents/skills/SKILL.md`
+- `.agents/skills/skills-create-manage-update/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-review/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-library-restructure/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-improver/SKILL.md`
 
-Use `skill-review` for canonical-owner and disposition decisions, `skill-library-restructure` for merge structure and routing consequences, and `skill-improver` for approved canonical repairs. Use `task-skills/github-operations/SKILL.md` for reviewable branches, diffs, commits, and publication.
+Use `skill-review` for canonical-owner and disposition decisions, `skill-library-restructure` for merge structure and routing consequences, and `skill-improver` for approved canonical repairs. Use `.agents/skills/github-operations/SKILL.md` for reviewable branches, diffs, commits, and publication.
 
 ## Work
 
@@ -68,10 +69,10 @@ The decision log must record cluster, source paths, canonical destination, decis
 
 1. Begin only after Phase 05 is approved and merged into `main`.
 2. Create and complete this phase on `skills-rebuild/phase-06-consolidation` from the updated `main` branch.
-3. Use focused commits for individual functional consolidation batches, then review the complete phase diff before publication.
-4. Commit the final phase checkpoint with: `skills-rebuild: complete phase 06 consolidation`.
+3. Review the final diff and confirm it contains only approved overlap-cluster consolidations, decision artifacts, provenance updates, and directly required supporting changes.
+4. Use focused intermediate commits for individual functional clusters when needed, then finish with the phase commit: `skills-rebuild: complete phase 06 consolidation`.
 5. Push the branch and open a draft pull request targeting `main`.
-6. The pull request must summarize each cluster decision, canonical destinations, retired paths, artifact paths, validation evidence, reconciliation totals, and deferred clusters.
+6. The pull request must summarize clusters reviewed, canonical owners selected, retired paths, artifact paths, reconciliation evidence, and deferred decisions.
 7. Leave the pull request unmerged for review. Do not begin Phase 07 until this phase is approved and merged into `main`.
 
 ## Completion Gate
