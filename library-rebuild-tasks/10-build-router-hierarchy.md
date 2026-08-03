@@ -7,6 +7,7 @@ Create the final root and category routers after canonical child skills are stab
 ## Preconditions
 
 - Functional taxonomy, destination, consolidation, split, batch, and resource-cleanup artifacts exist and reconcile.
+- `.agents/skills` is the verified canonical task-workflow path.
 - Canonical child skills are stable at their final paths.
 - Router construction is based on the actual rebuilt filesystem, not planned or nonexistent children.
 
@@ -14,13 +15,13 @@ Create the final root and category routers after canonical child skills are stab
 
 Read and follow:
 
-- `task-skills/SKILL.md`
-- `task-skills/skills-create-manage-update/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-library-restructure/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-writer/SKILL.md`
-- `task-skills/skills-create-manage-update/skill-check/SKILL.md`
+- `.agents/skills/SKILL.md`
+- `.agents/skills/skills-create-manage-update/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-library-restructure/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-writer/SKILL.md`
+- `.agents/skills/skills-create-manage-update/skill-check/SKILL.md`
 
-Use `skill-library-restructure` for hierarchy and parent-child ownership, `skill-writer` for substantial router authoring, and `skill-check` for link and routing validation. Use `task-skills/github-operations/SKILL.md` for repository writes, diff review, commits, and publication.
+Use `skill-library-restructure` for hierarchy and parent-child ownership, `skill-writer` for substantial router authoring, and `skill-check` for link and routing validation. Use `.agents/skills/github-operations/SKILL.md` for repository writes, diff review, commits, and publication.
 
 ## Work
 
@@ -66,10 +67,10 @@ The validation record must include router paths, direct-child coverage, link che
 
 1. Begin only after Phase 09 is approved and merged into `main`.
 2. Create and complete this phase on `skills-rebuild/phase-10-router-hierarchy` from the updated `main` branch.
-3. Review the final diff and confirm it contains only root and category routers, router validation artifacts, and directly required supporting changes.
+3. Review the final diff and confirm it contains only root and category routers, router validation, link corrections, and directly required mapping updates.
 4. Commit the completed phase with: `skills-rebuild: complete phase 10 router hierarchy`.
 5. Push the branch and open a draft pull request targeting `main`.
-6. The pull request must summarize router paths, active-child coverage, routing tests, artifact paths, reconciliation evidence, corrections, and unresolved ambiguities.
+6. The pull request must summarize router coverage, active parent-child relationships, routing tests, artifact paths, reconciliation evidence, and unresolved ambiguities.
 7. Leave the pull request unmerged for review. Do not begin Phase 11 until this phase is approved and merged into `main`.
 
 ## Completion Gate
