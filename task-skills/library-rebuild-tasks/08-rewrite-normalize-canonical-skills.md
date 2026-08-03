@@ -60,6 +60,16 @@ The batch record must list canonical skills completed, source paths incorporated
 - Confirm trigger boundaries within the batch are distinguishable.
 - Confirm no unresolved overlap remains within the completed batch.
 
+## Repository Checkpoint
+
+1. Begin only after Phase 07 is approved and merged into `main`.
+2. Create and complete this phase on `skills-rebuild/phase-08-canonical-rewrites` from the updated `main` branch.
+3. Commit each validated functional batch separately using concise batch-specific messages.
+4. After all approved batches are complete, review the complete phase diff and commit the final checkpoint with: `skills-rebuild: complete phase 08 canonical rewrites`.
+5. Push the branch and open a draft pull request targeting `main`.
+6. The pull request must summarize completed batches, canonical paths, source provenance, validation evidence, artifact paths, reconciliation results, and unresolved items.
+7. Leave the pull request unmerged for review. Do not begin Phase 09 until this phase is approved and merged into `main`.
+
 ## Completion Gate
 
 Complete a batch only when:
@@ -69,3 +79,5 @@ Complete a batch only when:
 - Every included skill passes `skill-check` or has an explicit unresolved validation item.
 - Sources, destinations, resources, retirements, and validation evidence reconcile.
 - The batch contains no silent overlap, missing provenance, or broken path.
+
+Complete the phase only when the phase branch is pushed and its draft pull request is open for review.
