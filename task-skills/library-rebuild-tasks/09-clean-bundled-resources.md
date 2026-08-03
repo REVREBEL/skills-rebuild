@@ -60,6 +60,16 @@ The report must list every reviewed resource, owning skill, original and final p
 - Confirm resource counts in the cleanup report match the active resource tree.
 - Confirm no generated metadata, secret, or unsafe undeclared dependency remains.
 
+## Repository Checkpoint
+
+1. Begin only after Phase 08 is approved and merged into `main`.
+2. Create and complete this phase on `skills-rebuild/phase-09-resource-cleanup` from the updated `main` branch.
+3. Review the final diff and confirm it contains only approved resource cleanup, repaired references, report updates, and directly required supporting changes.
+4. Commit the completed phase with: `skills-rebuild: complete phase 09 resource cleanup`.
+5. Push the branch and open a draft pull request targeting `main`.
+6. The pull request must summarize retained, moved, merged, repaired, and removed resources, artifact paths, validation evidence, reconciliation totals, and deferred items.
+7. Leave the pull request unmerged for review. Do not begin Phase 10 until this phase is approved and merged into `main`.
+
 ## Completion Gate
 
 Complete only when:
@@ -69,3 +79,4 @@ Complete only when:
 - Every active resource has an owner or documented preservation reason.
 - All active paths and references resolve.
 - Filesystem, batch records, inventory, and cleanup decisions reconcile.
+- The phase branch is pushed and its draft pull request is open for review.
