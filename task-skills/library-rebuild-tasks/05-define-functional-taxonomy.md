@@ -4,20 +4,13 @@
 
 Design the destination category structure for retained skills based on the jobs they perform, without moving or rewriting the full library during this task.
 
-## Required Context
+## Preconditions
 
-Use:
+- Baseline, inventory, compatibility, and provider-conversion artifacts exist and reconcile.
+- Quarantined and retired skills are distinguishable from retained skills.
+- Every retained skill has a current source path and compatibility status.
 
-- `agents/skills-rebuild/_audit/baseline.md`
-- `agents/skills-rebuild/_audit/skills-inventory.csv`
-- `agents/skills-rebuild/_audit/application-compatibility-report.md`
-- `agents/skills-rebuild/_audit/provider-conversion-report.md`
-
-Include only retained or approved-for-conversion skills. Exclude quarantined and retired sources from the active taxonomy.
-
-Group skills by functional outcome and trigger, not by source repository, model vendor, programming language, or application name alone. Keep the hierarchy shallow and create a category only when it has a coherent purpose and enough children to justify routing.
-
-## Task Skills to Use
+## Canonical Task Skills
 
 Read and follow:
 
@@ -26,28 +19,43 @@ Read and follow:
 - `task-skills/skills-create-manage-update/skill-review/SKILL.md`
 - `task-skills/skills-create-manage-update/skill-library-restructure/SKILL.md`
 
-Use `task-skills/github-operations/SKILL.md` only for repository operations required to record and publish the taxonomy work.
+Use `skill-review` for placement decisions and `skill-library-restructure` for category design and destination mapping. Use `task-skills/github-operations/SKILL.md` only for repository operations required to record and publish the taxonomy work.
 
 ## Work
 
-1. Review the retained capabilities and overlap clusters.
+1. Review retained capabilities and recorded overlap clusters.
 2. Propose a small set of functional top-level categories.
-3. Define the purpose, inclusion criteria, and exclusion boundaries for each category.
-4. Assign every retained source skill one proposed functional destination.
-5. Identify skills that should remain root-level meta-skills or routers.
-6. Flag ambiguous destinations for review.
-7. Identify category names that would create overlapping routing and revise them.
-8. Do not perform broad moves, merges, splits, or rewrites during this task.
+3. Define each category's purpose, inclusion criteria, and exclusion boundaries.
+4. Group skills by functional outcome and trigger, not source repository, model vendor, programming language, or application name alone.
+5. Assign every retained source skill one proposed functional destination.
+6. Identify root-level meta-skills and routers.
+7. Flag ambiguous destinations for review rather than forcing placement.
+8. Revise category names that create overlapping routing.
+9. Keep the hierarchy shallow and create a category only when its purpose and children justify routing.
+10. Do not perform broad moves, merges, splits, or rewrites during this task.
 
-## Deliverables
+## Artifacts
 
 Create:
 
 - `agents/skills-rebuild/_audit/functional-taxonomy.md`
 - `agents/skills-rebuild/_audit/destination-map.csv`
 
-The destination map must include source path, proposed category, proposed final path, routing role, and unresolved placement concerns.
+The destination map must record source path, compatibility status, proposed category, proposed final path, routing role, and unresolved placement concerns.
+
+## Reconciliation Requirements
+
+- Reconcile every retained inventory row to exactly one destination-map row.
+- Confirm quarantined and retired sources do not appear as active destinations.
+- Confirm category totals equal the retained skill population.
+- Confirm each category definition matches its assigned children and does not overlap another category without an explicit boundary.
 
 ## Completion Gate
 
-Complete only when every retained skill has one proposed functional home, every category has explicit boundaries, and unresolved placements are documented rather than silently assigned.
+Complete only when:
+
+- All preconditions are satisfied.
+- Both artifacts exist with the required contents.
+- Every retained skill has exactly one proposed functional home.
+- Every category has explicit inclusion and exclusion boundaries.
+- Counts reconcile and every unresolved placement is documented.
