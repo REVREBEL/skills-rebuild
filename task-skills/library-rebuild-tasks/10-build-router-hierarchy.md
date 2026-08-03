@@ -4,57 +4,44 @@
 
 Create the final root and category routers after canonical child skills are stable, ensuring each request can reach the narrowest correct workflow without duplicated execution.
 
-## Required Context
+## Preconditions
 
-Use:
+- Functional taxonomy, destination, consolidation, split, batch, and resource-cleanup artifacts exist and reconcile.
+- Canonical child skills are stable at their final paths.
+- Router construction is based on the actual rebuilt filesystem, not planned or nonexistent children.
 
-- `agents/skills-rebuild/_audit/functional-taxonomy.md`
-- `agents/skills-rebuild/_audit/destination-map.csv`
-- `agents/skills-rebuild/_audit/consolidation-map.md`
-- `agents/skills-rebuild/_audit/split-map.md`
-- Completed batch records under `agents/skills-rebuild/_audit/batches/`
-- `agents/skills-rebuild/_audit/resource-cleanup-report.md`
-
-Build routers from the actual final filesystem. Do not link to planned or nonexistent children.
-
-Each router must:
-
-- Define its functional domain
-- Explain when the router applies
-- Route to the narrowest active child
-- Distinguish overlapping child triggers
-- Explain control and handoff boundaries
-- List every active direct child
-- Contain shared safety rules only when they apply across the category
-- Avoid repeating complete child workflows
-
-Keep the hierarchy shallow unless an additional level is necessary to resolve a real routing problem.
-
-## Task Skills to Use
+## Canonical Task Skills
 
 Read and follow:
 
 - `task-skills/SKILL.md`
 - `task-skills/skills-create-manage-update/SKILL.md`
 - `task-skills/skills-create-manage-update/skill-library-restructure/SKILL.md`
-- `task-skills/skills-create-manage-update/skills-writing/SKILL.md`
-- `task-skills/skills-create-manage-update/template-skill-enhanced/SKILL.md`
+- `task-skills/skills-create-manage-update/skill-writer/SKILL.md`
 - `task-skills/skills-create-manage-update/skill-check/SKILL.md`
 
-Use `task-skills/github-operations/SKILL.md` for repository writes, diff review, commits, and publication.
+Use `skill-library-restructure` for hierarchy and parent-child ownership, `skill-writer` for substantial router authoring, and `skill-check` for link and routing validation. Use `task-skills/github-operations/SKILL.md` for repository writes, diff review, commits, and publication.
 
 ## Work
 
-1. Read the final category and child-skill tree.
+1. Read the final category and child-skill filesystem.
 2. Create or update the root `agents/skills-rebuild/SKILL.md` router.
 3. Create one router `SKILL.md` for each approved functional category.
-4. Add routing tables based on user goals and child outcomes.
-5. Add explicit handoff rules where a child delegates general operations or transitions to another workflow.
+4. Ensure each router:
+   - Defines its functional domain
+   - Explains when the router applies
+   - Routes to the narrowest active child
+   - Distinguishes overlapping child triggers
+   - Explains control and handoff boundaries
+   - Lists every active direct child
+   - Contains only shared rules that apply across the category
+   - Avoids repeating complete child workflows
+5. Keep the hierarchy shallow unless another level resolves a real routing problem.
 6. Remove stale links, aliases, and superseded child entries.
 7. Verify every direct router link and every child parent assignment.
-8. Test representative prompts against the routing hierarchy and record ambiguities for correction.
+8. Test representative prompts against the hierarchy and correct ambiguities.
 
-## Deliverable
+## Artifacts
 
 Create or update:
 
@@ -63,10 +50,24 @@ Create or update:
 
 Create:
 
-`agents/skills-rebuild/_audit/router-validation.md`
+- `agents/skills-rebuild/_audit/router-validation.md`
 
-The validation record must include link checks, active child coverage, representative routing tests, ambiguities found, and corrections made.
+The validation record must include router paths, direct-child coverage, link checks, representative prompts, expected and actual routes, ambiguities found, corrections made, and unresolved routing issues.
+
+## Reconciliation Requirements
+
+- Reconcile every active canonical child to exactly one appropriate direct parent.
+- Reconcile root and category indexes to the actual filesystem.
+- Confirm every router link resolves and every listed child is active.
+- Confirm no active child is omitted or linked from conflicting parents without an explicit design reason.
+- Confirm routers contain routing and shared policy rather than duplicated end-to-end child workflows.
 
 ## Completion Gate
 
-Complete only when every active canonical child is linked from exactly one appropriate parent, all links resolve, routing tests reach the intended child, and no router duplicates a child’s end-to-end workflow.
+Complete only when:
+
+- All preconditions are satisfied.
+- Root, category, and router-validation artifacts exist.
+- Every active child has one reconciled parent assignment.
+- All links resolve and representative prompts reach the intended child.
+- Every routing ambiguity is corrected or explicitly documented.
