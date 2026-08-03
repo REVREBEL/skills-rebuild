@@ -63,6 +63,17 @@ The pilot report must record each scenario, expected route, actual route, result
 - Reconcile published commits and pull-request head to the reviewed diff.
 - Reconcile the merge result and final target SHA through remote readback.
 
+## Repository Checkpoint
+
+1. Begin only after Phase 11 is approved and merged into `main`.
+2. Create and complete this phase on `skills-rebuild/phase-12-pilot-publish` from the updated `main` branch.
+3. Use focused commits for pilot corrections and final publication preparation, then review the complete phase diff.
+4. Commit the final phase checkpoint with: `skills-rebuild: complete phase 12 pilot and publication`.
+5. Push the branch and open a draft pull request targeting `main`.
+6. The pull request must summarize pilot scenarios, corrections, retest evidence, artifact paths, final reconciliation, validation status, and accepted limitations.
+7. Address review feedback on the same branch. Merge only after explicit approval, current checks, and repository policy are satisfied.
+8. After merge, verify the final target SHA and update `publication-record.md` with the confirmed result.
+
 ## Completion Gate
 
 Complete only when:
