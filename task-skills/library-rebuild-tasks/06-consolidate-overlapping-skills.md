@@ -64,6 +64,16 @@ The decision log must record cluster, source paths, canonical destination, decis
 - Confirm active routers and destination records contain no superseded paths.
 - Confirm retained, merged, retired, aliased, and deferred counts reconcile with the cluster population.
 
+## Repository Checkpoint
+
+1. Begin only after Phase 05 is approved and merged into `main`.
+2. Create and complete this phase on `skills-rebuild/phase-06-consolidation` from the updated `main` branch.
+3. Use focused commits for individual functional consolidation batches, then review the complete phase diff before publication.
+4. Commit the final phase checkpoint with: `skills-rebuild: complete phase 06 consolidation`.
+5. Push the branch and open a draft pull request targeting `main`.
+6. The pull request must summarize each cluster decision, canonical destinations, retired paths, artifact paths, validation evidence, reconciliation totals, and deferred clusters.
+7. Leave the pull request unmerged for review. Do not begin Phase 07 until this phase is approved and merged into `main`.
+
 ## Completion Gate
 
 Complete only when:
@@ -73,3 +83,4 @@ Complete only when:
 - Every duplicate workflow has one canonical active owner.
 - Unique retained material and provenance are traceable.
 - Filesystem, routers, destination map, and consolidation records reconcile.
+- The phase branch is pushed and its draft pull request is open for review.
