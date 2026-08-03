@@ -1,151 +1,151 @@
 ---
 name: template-skill-enhanced
-description: Enhanced skill template with progressive disclosure, bundled resources, and quality rubrics. Use when creating new skills that need structured tiers, reference files, validation rubrics, or advanced bundling patterns beyond the basic template.
-version: 1.0.0
-license: MIT
-tags:
-  - skill-creation
-  - template
-  - progressive-disclosure
-  - bundling
-keywords:
-  - create skill
-  - skill template
-  - template skill enhanced
+description: 'Provide a worked example of a complex Agent Skill package with progressive disclosure, references, examples, and a validation rubric. Use when an author needs a structural example for a multi-file skill after the skill architecture has already been chosen; do not use as the primary creation workflow.'
+compatibility: 'Reference template only. Replace all placeholders and validate against the active repository rules before use.'
+metadata:
+  category: agent-skills
+  type: example-template
+  source: consolidated
 ---
 
 # Enhanced Skill Template
 
-A production-ready skill template demonstrating progressive disclosure, bundled resource patterns, and quality validation. Use this template when creating skills that require tiered content loading, reference file organization, or structured quality scoring.
+Use this package as a structural example for complex skills that genuinely need bundled resources and measurable quality criteria.
 
-## When to Use This Skill
+## When to Use
 
-- Creating a new skill that needs **progressive disclosure** (tiered content loading)
-- Building skills with **bundled resources** (references, examples, validation rubrics)
-- Designing skills that exceed basic template complexity
-- Setting up skills with **quality targets** and scoring rubrics
-- Avoid using for simple, single-purpose skills — use `template-skill` instead
+Use this template when:
 
-## Workflow
+- A skill needs multiple references or examples
+- A validation rubric is materially useful
+- Progressive disclosure is required
+- A parent or complex workflow has already been justified
 
-### Step 1: Set Up Frontmatter
+Do not use it for a simple single-job skill. Use `../skill-make-template/SKILL.md`.
+Do not copy placeholder content into production.
 
-Define metadata with kebab-case name, quoted description including a "Use when" clause, version, and tags:
+## Included Resources
 
-```yaml
----
-name: my-new-skill
-description: "Clear description of what this skill does. Use when [specific trigger condition]."
-version: 1.0.0
-tags: [domain, category]
----
-```
+- `examples/basic.md`: annotated example structure
+- `references/README.md`: reference-organization guidance
+- `validation/rubric.yaml`: example quality rubric
 
-### Step 2: Write Core Principles (Tier 1 — Always Loaded)
+Treat these as examples. The target skill's requirements determine the final files and fields.
 
-The first section loads immediately on activation. Keep it under ~1000 tokens:
+## Adaptation Workflow
 
-```markdown
-## Core Principles
+### 1. Confirm Complexity Is Justified
 
-### Principle 1: Foundation Concept
-Explanation with a concise code example:
+Document why a normal `SKILL.md` is insufficient. Valid reasons include:
 
-\`\`\`python
-# Demonstrate the concept clearly
-def foundation_example(input_data):
-    validated = validate(input_data)
-    return transform(validated)
-\`\`\`
+- Several detailed reference domains
+- Reusable scripts or templates
+- Multiple output examples
+- A quality rubric used repeatedly
 
-**Key Points:**
-- Critical aspect that must be understood
-- Common misconception to avoid
-```
+### 2. Copy Only Needed Pieces
 
-### Step 3: Add Implementation Patterns (Tier 2 — Loaded When Needed)
+Start with:
 
-Detailed patterns for common scenarios (~1500 tokens):
-
-```markdown
-### Pattern: Descriptive Name
-
-**Problem**: What specific problem this solves
-**Solution**: High-level approach
-
-\`\`\`python
-def pattern_implementation(input_data):
-    validate(input_data)
-    result = transform(input_data)
-    return format_output(result)
-\`\`\`
-
-**Trade-offs**:
-| Aspect | Benefit | Cost |
-|--------|---------|------|
-| Performance | Fast execution | Higher memory |
-| Maintainability | Clear structure | More boilerplate |
-```
-
-### Step 4: Add Advanced Usage (Tier 3 — Complex Scenarios)
-
-Reserve for sophisticated implementations (~2000+ tokens). Include edge cases:
-
-| Scenario | Expected Behavior | Handling Strategy |
-|----------|-------------------|-------------------|
-| Empty input | Graceful failure | Return default or descriptive error |
-| Invalid format | Validation error | Clear error message with fix guidance |
-| Resource exhaustion | Graceful degradation | Backoff and retry logic |
-
-### Step 5: Organize Bundled Resources
-
-Create sibling directories for heavy content:
-
-```
-skills/my-new-skill/
-├── SKILL.md                          # Core skill (under token budget)
+```text
+<skill-name>/
+├── SKILL.md
 ├── references/
-│   ├── README.md                     # Guide to reference docs
-│   └── detailed-patterns.md          # Extended pattern documentation
 ├── examples/
-│   └── basic.md                      # Annotated usage example
 └── validation/
-    └── rubric.yaml                   # Quality scoring rubric
 ```
 
-### Step 6: Define Quality Targets
+Remove directories the target skill does not need. Add `scripts/`, `assets/`, or `templates/` only when justified.
 
-Set measurable quality criteria:
+### 3. Replace Frontmatter
+
+Ensure the name matches the folder and the description explains both what and when.
 
 ```yaml
-quality_targets:
-  clarity: ">= 4/5"
-  completeness: ">= 4/5"
-  accuracy: ">= 5/5"
-  usefulness: ">= 4/5"
+---
+name: <skill-name>
+description: '<Capability>. Use when <specific triggers and scenarios>.'
+---
 ```
 
-### Step 7: Validate the Skill
+Do not copy optional metadata automatically.
 
-```bash
-cortex skills validate my-new-skill
-cortex skills info my-new-skill --show-tokens
+### 4. Replace All Example Content
+
+Replace:
+
+- Placeholder names
+- Generic code
+- Example quality targets
+- Sample paths
+- Unsupported commands
+- References to unrelated tools or repositories
+
+### 5. Apply Progressive Disclosure
+
+Keep in `SKILL.md`:
+
+- Trigger boundary
+- Prerequisites
+- Core workflow
+- Safety constraints
+- Output format
+- Completion checks
+
+Move into bundled files:
+
+- Detailed examples
+- Schemas
+- Long platform guidance
+- Reusable templates
+- Evaluation rubrics
+
+### 6. Adapt the Rubric
+
+Use a rubric only when outputs can be evaluated consistently. Define observable criteria rather than vague qualities.
+
+Example:
+
+```yaml
+criteria:
+  trigger_precision:
+    target: pass
+    evidence: positive and negative trigger cases
+  path_integrity:
+    target: pass
+    evidence: all relative references resolve
+  workflow_completion:
+    target: pass
+    evidence: completion checks executed
 ```
 
-Ensure total token count stays within 500–8,000 tokens per CONTRIBUTING guidelines.
+### 7. Validate
 
-## Best Practices
+Use the repository's documented validator and `../skill-check/SKILL.md`.
 
-- **Progressive disclosure**: Keep Tier 1 concise — load detail on demand
-- **Bundled resources**: Move lengthy examples and deep-dives to `references/` or `examples/`
-- **Quality rubrics**: Define scoring criteria in `validation/rubric.yaml` so skill outputs can be evaluated consistently
-- **Token budget**: Core SKILL.md should stay under token limits; offload heavy content to sibling files
-- **Real examples**: Replace all placeholder content with domain-specific, working code
-- **Kebab-case naming**: Directories and skill names use lowercase hyphen-case
+Verify:
+
+- No placeholder content remains
+- Optional directories are used
+- Relative paths resolve
+- Rubric criteria match the actual skill
+- The main file remains focused
+- Trigger boundaries are distinct
 
 ## Anti-Patterns
 
-- **Placeholder content in production**: Shipping `[Pattern Name]` or `example_code_here()` — always fill in real content
-- **Monolithic skills**: Putting everything in SKILL.md instead of using bundled resources
-- **Missing "Use when" clause**: Description must include activation context
-- **Ignoring token budgets**: Skills over 8,000 tokens slow activation and may be truncated
+- Copying the whole template for a simple skill
+- Treating token volume as quality
+- Leaving generic example code in production
+- Inventing validator commands
+- Adding a rubric that no workflow uses
+- Duplicating the same guidance in `SKILL.md` and references
+
+## Completion Checks
+
+- Complex structure was justified
+- Only necessary template elements were copied
+- All placeholders and example assumptions were replaced
+- Progressive disclosure was applied
+- Rubric and examples support the target job
+- The resulting package was validated

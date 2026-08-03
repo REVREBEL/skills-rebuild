@@ -1,126 +1,102 @@
 ---
-name: writing-skills
-description: "Use when creating, updating, or improving agent skills."
-category: meta
-risk: unknown
-source: community
-date_added: "2026-02-27"
----
-
-# Writing Skills (Excellence)
-
-Dispatcher for skill creation excellence. Use the decision tree below to find the right template and standards.
-
-## ⚡ Quick Decision Tree
-
-### What do you need to do?
-
-1. **Create a NEW skill:**
-   - Is it simple (single file, <200 lines)? → [Tier 1 Architecture](references/tier-1-simple/README.md)
-   - Is it complex (multi-concept, 200-1000 lines)? → [Tier 2 Architecture](references/tier-2-expanded/README.md)
-   - Is it a massive platform (10+ products, AWS, Convex)? → [Tier 3 Architecture](references/tier-3-platform/README.md)
-
-2. **Improve an EXISTING skill:**
-   - Fix "it's too long" -> [Modularize (Tier 3)](references/templates/tier-3-platform.md)
-   - Fix "AI ignores rules" -> [Anti-Rationalization](references/anti-rationalization/README.md)
-   - Fix "users can't find it" -> [CSO (Search Optimization)](references/cso/README.md)
-
-3. **Verify Compliance:**
-   - Check metadata/naming -> [Standards](references/standards/README.md)
-   - Add tests -> [Testing Guide](references/testing/README.md)
-
-## 📚 Component Index
-
-| Component | Purpose |
-|-----------|---------|
-| **[CSO](references/cso/README.md)** | "SEO for LLMs". How to write descriptions that trigger. |
-| **[Standards](references/standards/README.md)** | File naming, YAML frontmatter, directory structure. |
-| **[Anti-Rationalization](references/anti-rationalization/README.md)**| How to write rules that agents won't ignore. |
-| **[Testing](references/testing/README.md)** | How to ensure your skill actually works. |
-
-## 🛠️ Templates
-
-- [Technique Skill](references/templates/technique.md) (How-to)
-- [Reference Skill](references/templates/reference.md) (Docs)
-- [Discipline Skill](references/templates/discipline.md) (Rules)
-- [Pattern Skill](references/templates/pattern.md) (Design Patterns)
-
-## When to Use
-- Creating a NEW skill from scratch
-- Improving an EXISTING skill that agents ignore
-- Debugging why a skill isn't being triggered
-- Standardizing skills across a team
-
-## How It Works
-
-1. **Identify goal** → Use decision tree above
-2. **Select template** → From `references/templates/`
-3. **Apply CSO** → Optimize description for discovery
-4. **Add anti-rationalization** → For discipline skills
-5. **Test** → RED-GREEN-REFACTOR cycle
-
-## Quick Example
-
-```yaml
----
-name: my-technique
-description: Use when [specific symptom occurs].
+name: skills-writing
+description: 'Reference advanced Agent Skill architecture, discovery optimization, anti-rationalization, testing, and tiered design patterns while authoring or restructuring complex skills. Use as a pattern library when skill-writer or skill-improver needs deeper guidance; do not use as the primary creation workflow.'
+compatibility: 'Reference-only. Some bundled material originated in provider-specific environments and must be adapted before reuse.'
 metadata:
-  category: technique
-  triggers: error-text, symptom, tool-name
+  category: agent-skills
+  type: pattern-library
+  source: consolidated-community
 ---
 
-# My Technique
+# Skills Writing Pattern Library
+
+Consult focused architecture and testing references without introducing another competing creation workflow.
 
 ## When to Use
-- [Symptom A]
-- [Error message]
-```
 
-## Common Mistakes
+Use this skill as supporting guidance when:
 
-| Mistake | Fix |
-|---------|-----|
-| Description summarizes workflow | Use "Use when..." triggers only |
-| No `metadata.triggers` | Add 3+ keywords |
-| Generic name ("helper") | Use gerund (`creating-skills`) |
-| Long monolithic SKILL.md | Split into `references/` |
+- A complex skill needs an architecture tier
+- Agents ignore or rationalize around important rules
+- Skill discovery descriptions need deeper optimization
+- A team needs metadata and structural standards
+- A skill needs behavior-focused testing guidance
+- `../skill-writer/SKILL.md` or `../skill-improver/SKILL.md` requires a specific pattern
 
-See [gotchas.md](gotchas.md) for more.
+Do not use this skill to scaffold a new skill directly. Use `../skill-make-template/SKILL.md`.
+Do not load every reference. Select only the material needed for the current decision.
 
-## ✅ Pre-Deploy Checklist
+## Reference Index
 
-Before deploying any skill:
+### Architecture Tiers
 
-- [ ] `name` field matches directory name exactly
-- [ ] `SKILL.md` filename is ALL CAPS
-- [ ] Description starts with "Use when..."
-- [ ] `metadata.triggers` has 3+ keywords
-- [ ] Total lines < 500 (use `references/` for more)
-- [ ] No `@` force-loading in cross-references
-- [ ] Tested with real scenarios
+- `references/tier-1-simple/README.md`: focused single-job skills
+- `references/tier-2-expanded/README.md`: skills with several supporting concepts or resources
+- `references/tier-3-platform/README.md`: parent routers and broad platform families
 
-## 🔗 Related Skills
+Choose a tier based on independent capabilities and context-loading needs, not prestige or word count.
 
-- **opencode-expert**: For OpenCode environment configuration
-- Use `/write-skill` command for guided skill creation
+### Discovery and Metadata
 
-## Examples
+- `references/cso/README.md`: description and trigger optimization
+- `references/standards/README.md`: naming, metadata, and folder conventions
+- `references/standards/metadata-standard.md`: detailed metadata guidance
 
-**Create a Tier 1 skill:**
-```bash
-mkdir -p ~/.config/opencode/skills/my-technique
-touch ~/.config/opencode/skills/my-technique/SKILL.md
-```
+Treat bundled metadata recommendations as proposals. The active Agent Skills specification and repository rules take precedence.
 
-**Create a Tier 2 skill:**
-```bash
-mkdir -p ~/.config/opencode/skills/my-skill/references/core
-touch ~/.config/opencode/skills/my-skill/{SKILL.md,gotchas.md}
-touch ~/.config/opencode/skills/my-skill/references/core/README.md
-```
+### Discipline and Rule Reliability
 
-## Limitations
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+- `references/anti-rationalization/README.md`: writing concrete rules agents are less likely to evade
+
+Use anti-rationalization patterns only for real safety, correctness, or process risks. Do not turn ordinary preferences into shrill mandatory language.
+
+### Testing
+
+- `references/testing/README.md`: behavior-oriented skill testing
+- `testing-skills-with-subagents.md`: delegation-based testing concepts
+
+Replace provider-specific subagent syntax with the active environment's supported delegation mechanism.
+
+### Templates
+
+- `references/templates/technique.md`
+- `references/templates/reference.md`
+- `references/templates/discipline.md`
+- `references/templates/pattern.md`
+- `references/templates/tier-3-platform.md`
+
+Templates are structural examples, not content authority. Remove placeholders and unsupported assumptions before use.
+
+### Additional Guidance
+
+- `examples.md`: representative patterns
+- `gotchas.md`: common failure modes
+- `persuasion-principles.md`: communication principles requiring careful use
+- `anthropic-best-practices.md`: provider-originated guidance that must be generalized unless the target is explicitly Claude-specific
+
+## Selection Workflow
+
+1. Define the current authoring or repair decision.
+2. Select one or two relevant references.
+3. Identify provider-specific or outdated assumptions.
+4. Extract the reusable principle.
+5. Adapt it to the active specification and environment.
+6. Apply it through `skill-writer` or `skill-improver`.
+7. Validate the resulting skill with `skill-check`.
+
+## Guardrails
+
+- Do not copy provider-specific paths, hooks, slash commands, or tool names accidentally
+- Do not require `metadata.triggers` unless the active specification or repository does
+- Do not force every skill into a tiered architecture
+- Do not add anti-rationalization language where ordinary clear instructions suffice
+- Do not use subagents unless delegation is available and useful
+- Do not let references contradict the parent workflow
+
+## Completion Checks
+
+- Only relevant references were loaded
+- Reusable principles were separated from platform-specific implementation
+- Active specification and repository rules took precedence
+- Applied guidance improved a concrete authoring decision
+- Resulting skill was validated independently
