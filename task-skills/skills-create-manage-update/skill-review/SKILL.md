@@ -1,67 +1,203 @@
 ---
-name: review-a-skill
-description: Use when evaluating whether a skill belongs in a library. Preview content, check frontmatter, validate structure, and decide whether to keep, curate, or remove.
-category: workflow
-version: 4.1.0
+name: skill-review
+description: 'Review one Agent Skill for purpose, relevance, quality, trigger clarity, size, overlap, dependencies, and library fit. Use when deciding whether to keep, refine, convert, split, merge, quarantine, or retire a skill after inventory and security audit.'
+compatibility: 'Read-only by default. Requires access to neighboring skills when overlap or dependency decisions are needed.'
+metadata:
+  category: agent-skills
+  type: disposition-review
+  source: consolidated
 ---
 
-# Review A Skill
+# Skill Review
 
-## Goal
+Evaluate one skill and assign a traceable primary disposition.
 
-Evaluate a single skill's quality, relevance, and safety before it enters or stays in a library.
+## When to Use
 
-## Guardrails
+Use this skill when:
 
-- Always use `--format json` for machine-readable output in automated pipelines.
-- Always use `--fields` to limit output size when inspecting catalog entries.
-- Always use `--dry-run` before curating or removing a skill.
-- Never remove a skill without first checking if other skills depend on it via `info --format json` dependencies.
+- Reviewing an ambiguous or high-impact skill individually
+- Deciding whether a skill belongs in a library
+- Comparing a skill with nearby or similarly triggered skills
+- Determining whether a long skill should be split
+- Determining whether similar skills should be merged
+- Reviewing whether model-specific instructions can be generalized
+
+Run `../skill-audit/SKILL.md` first when security or compatibility is unknown.
+Run `../skill-check/SKILL.md` after changes are completed.
+
+## Required Inputs
+
+Resolve:
+
+- Source path and current name
+- Intended audience and library purpose
+- Approved application stack
+- Neighboring or similarly triggered skills
+- Known dependencies and reverse dependencies
+- Existing audit findings
 
 ## Workflow
 
-1. Preview the skill content to check for quality and safety.
+### 1. Read the Complete Skill
 
-```bash
-npx ai-agent-skills preview <skill-name>
+Read `SKILL.md` and every referenced file. Record:
+
+- Claimed purpose
+- Actual instructions
+- Trigger phrases
+- Required inputs
+- Expected outputs
+- Tools and application dependencies
+- Supporting resources
+- Validation behavior
+
+### 2. Test Purpose and Relevance
+
+Ask:
+
+- Does the skill solve a recurring, useful job?
+- Does that job fit the target library?
+- Is the capability already covered elsewhere?
+- Is the skill current enough to retain?
+- Would a generic agent already perform this reliably without the skill?
+
+### 3. Review Trigger Quality
+
+Check whether:
+
+- The description explains what and when
+- Trigger phrases match realistic requests
+- The scope is neither vague nor overbroad
+- Negative boundaries are clear when needed
+- Another skill would trigger on the same request
+
+### 4. Review Workflow Quality
+
+Check:
+
+- Steps form a complete executable workflow
+- Prerequisites and permissions are explicit
+- Instructions are capability-based where possible
+- Failure handling and safeguards are present
+- Outputs and completion checks are defined
+- Repetition and narrative clutter are limited
+
+### 5. Review Size and Structure
+
+Split only when the skill contains independently triggered jobs or outputs.
+
+Move detail into references when it supports the same job but overloads the main file.
+
+Do not split solely because the file is long.
+
+### 6. Review Overlap
+
+Compare nearby skills by:
+
+- Trigger phrases
+- Required inputs
+- Expected outputs
+- Workflow stages
+- Supporting resources
+- Unique guidance
+
+Merge when skills perform the same natural job and unique content can be preserved cleanly.
+
+Do not merge merely because they share an application or broad topic.
+
+### 7. Review Model and Application Coupling
+
+Classify provider-specific content as:
+
+- Required and legitimate
+- Replaceable with capability-based language
+- A removable example
+- Fundamental and unsupported
+
+A converted skill must not retain accidental proprietary paths, hooks, commands, or tool names.
+
+### 8. Assign One Primary Disposition
+
+Choose exactly one:
+
+- **Keep as-is**
+- **Refine**
+- **Convert**
+- **Split**
+- **Merge**
+- **Quarantine**
+- **Retire**
+
+Secondary actions may support the primary disposition, but do not leave the decision ambiguous.
+
+## Decision Rules
+
+### Keep as-is
+
+Use when the skill is relevant, focused, current, distinct, and valid.
+
+### Refine
+
+Use when the core job is valuable but clarity, workflow, safety, or progressive disclosure needs repair.
+
+### Convert
+
+Use when the capability is useful but current implementation is tied unnecessarily to a provider, tool, or unsupported application.
+
+### Split
+
+Use when separate sections have independent triggers, prerequisites, or outcomes.
+
+### Merge
+
+Use when two or more skills perform the same job and can share one clear trigger boundary.
+
+### Quarantine
+
+Use when safety, provenance, or dependencies remain unresolved.
+
+### Retire
+
+Use when the skill is obsolete, fully superseded, intrinsically unsupported, or provides no meaningful unique value.
+
+## Output Format
+
+```markdown
+## Skill Review: <name>
+
+### Primary Disposition
+Keep as-is | Refine | Convert | Split | Merge | Quarantine | Retire
+
+### Rationale
+<concise evidence-based explanation>
+
+### Functional Profile
+- Purpose:
+- Triggers:
+- Inputs:
+- Outputs:
+- Dependencies:
+- Unique value:
+
+### Overlap
+- Related skills:
+- Shared behavior:
+- Unique behavior:
+
+### Required Actions
+1. ...
+
+### Final Destination
+<path or TBD>
 ```
 
-The preview command sanitizes content — if it flags sanitization, investigate before proceeding.
+## Completion Checks
 
-2. Inspect the catalog entry for metadata completeness.
-
-```bash
-npx ai-agent-skills info <skill-name> --format json --fields name,description,tags,collections,dependencies
-```
-
-3. Validate the skill's SKILL.md structure.
-
-```bash
-npx ai-agent-skills validate <skill-name>
-```
-
-4. If the skill needs curation (notes, collections, verification):
-
-```bash
-npx ai-agent-skills curate <skill-name> --notes "Reviewed: solid patterns" --verify --dry-run
-npx ai-agent-skills curate <skill-name> --notes "Reviewed: solid patterns" --verify
-```
-
-5. If the skill should be removed:
-
-```bash
-npx ai-agent-skills curate <skill-name> --remove --dry-run
-npx ai-agent-skills curate <skill-name> --remove --yes
-```
-
-## Decision Criteria
-
-- **Keep**: Clear description, valid frontmatter, useful to the library's audience, no injection patterns.
-- **Curate**: Needs better whyHere, collection placement, or verification status.
-- **Remove**: Duplicate, outdated, broken source, or contains suspicious content.
-
-## Gotchas
-
-- The `preview` command only works for vendored (house) skills. Upstream skills show description and whyHere only.
-- The `validate` command checks frontmatter structure but not content quality — that requires human or agent judgment.
-- Removing a skill that other skills depend on will break the dependency graph. Always check `dependencies.usedBy` first.
+- Complete skill and referenced files were read
+- Relevance and uniqueness were evaluated
+- Trigger and workflow quality were reviewed
+- Size and overlap were assessed functionally
+- Model/application coupling was classified
+- One primary disposition was assigned
+- Final destination or next action is explicit
