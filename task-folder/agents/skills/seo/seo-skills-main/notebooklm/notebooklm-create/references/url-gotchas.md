@@ -38,8 +38,8 @@ NotebookLM fetches the URL literally; `.md` suffix produces a 404 or wrong conte
 
 Reddit is tolerant of both forms, but prefer the `old.reddit.com` redirect target or the canonical `reddit.com` form with the trailing slug. Example:
 
-- ✅ `https://reddit.com/r/ClaudeCode/comments/1r9g45u/i_made_a_ghosttybased_terminal_with_vertical_tabs/`
-- ❌ `https://www.reddit.com/r/ClaudeCode/comments/1r9g45u/` (works but loses the slug — title may be less informative)
+- ✅ `https://reddit.com/r/the agent/comments/1r9g45u/i_made_a_ghosttybased_terminal_with_vertical_tabs/`
+- ❌ `https://www.reddit.com/r/the agent/comments/1r9g45u/` (works but loses the slug — title may be less informative)
 
 ### GitHub
 

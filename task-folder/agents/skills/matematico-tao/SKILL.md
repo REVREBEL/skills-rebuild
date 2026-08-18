@@ -581,7 +581,7 @@ C_n = Σ(i=1..n) X_i
 Onde X_i = custo da i-ésima chamada:
 X_i = (input_tokens_i × price_input + output_tokens_i × price_output) / 1000
 
-Para gpt-4o (2025): price_input=$0.0025/1K, price_output=$0.010/1K
+Para the active model (2025): price_input=$0.0025/1K, price_output=$0.010/1K
 X_i típico: 200 input tokens + 150 output tokens ≈ $0.0005 + $0.0015 = $0.002
 
 E[C_n] = n × E[X_i] = n × $0.002
@@ -602,7 +602,7 @@ Para n=1000 chamadas: E[C_1000] ≈ $2.00, P(> $5.00) < 10%
 Histórico de conversação em Auri: _conversationHistory.value = history + listOf(...)
 Crescimento: O(n) tokens por n turnos (sem truncamento)
 
-Para gpt-4o com max_context=128k tokens:
+Para the active model com max_context=128k tokens:
 Ponto de ruptura: n_max = 128000 / avg_tokens_per_turn ≈ 128000 / 350 ≈ 365 turnos
 
 Após 365 turnos: HTTP 400 "context_length_exceeded" — não tratado explicitamente

@@ -29,7 +29,7 @@ STEP 1: EXTRACT THE CORE SUBJECT
 Get the MAIN NOUN/PRODUCT/TOPIC:
 - "best nano banana prompting practices" → "nano banana"
 - "killer features of clawdbot" → "clawdbot"
-- "top Claude Code skills" → "Claude Code"
+- "top the agent skills" → "the agent"
 DO NOT include "best", "top", "tips", "practices", "features" in your search.
 
 STEP 2: SEARCH BROADLY

@@ -10,7 +10,7 @@ Skills are modular, declarative packages that teach any coding agent how to exec
 
 ## Skills ecosystem
 
-Skills are now a shared convention across most coding agents. The easiest way to install them is `add-skill` (https://github.com/vercel-labs/add-skill), which supports Codex, Claude Code, Cursor, OpenCode, Gemini CLI, and more.
+Skills are now a shared convention across most coding agents. The easiest way to install them is `add-skill` (https://github.com/vercel-labs/add-skill), which supports Codex, the agent, Cursor, OpenCode, Gemini CLI, and more.
 
 ## Install
 

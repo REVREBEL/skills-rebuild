@@ -83,7 +83,7 @@ agent = client.agents.create_version(
         tools=[{"type": "code_interpreter"}],
         environment_variables={
             "AZURE_AI_PROJECT_ENDPOINT": os.environ["AZURE_AI_PROJECT_ENDPOINT"],
-            "MODEL_NAME": "gpt-4o-mini"
+            "MODEL_NAME": "the active model-mini"
         }
     )
 )
@@ -200,7 +200,7 @@ Pass configuration to your container:
 ```python
 environment_variables={
     "AZURE_AI_PROJECT_ENDPOINT": os.environ["AZURE_AI_PROJECT_ENDPOINT"],
-    "MODEL_NAME": "gpt-4o-mini",
+    "MODEL_NAME": "the active model-mini",
     "LOG_LEVEL": "INFO",
     "CUSTOM_CONFIG": "value"
 }
@@ -246,7 +246,7 @@ def create_hosted_agent():
             ],
             environment_variables={
                 "AZURE_AI_PROJECT_ENDPOINT": os.environ["AZURE_AI_PROJECT_ENDPOINT"],
-                "MODEL_NAME": "gpt-4o-mini",
+                "MODEL_NAME": "the active model-mini",
                 "MAX_RETRIES": "3"
             }
         )

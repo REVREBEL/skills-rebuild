@@ -58,7 +58,7 @@ Use remote for parallel sub-agents (each gets its own isolated browser via a dis
 
 When supervising those sub-agents, after each check send the user one very short status line: what they are doing and whether they are on track.
 
-Claude Code cmux note: after Claude finishes, it may prefill a predicted next user message; that draft is Claude, not the user speaking.
+the agent cmux note: after Claude finishes, it may prefill a predicted next user message; that draft is Claude, not the user speaking.
 
 ```bash
 browser-harness -c '

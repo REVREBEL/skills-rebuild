@@ -4,6 +4,7 @@ description: "Professional code review with auto CHANGELOG generation, integrate
 risk: unknown
 source: community
 date_added: "2026-02-27"
+compatibility: 'Intrinsic platform/provider dependency: codex-review'
 ---
 
 # codex-review

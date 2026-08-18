@@ -7,7 +7,7 @@ from . import cache, http
 
 # OpenAI API
 OPENAI_MODELS_URL = "https://api.openai.com/v1/models"
-OPENAI_FALLBACK_MODELS = ["gpt-5.2", "gpt-5.1", "gpt-5", "gpt-4o"]
+OPENAI_FALLBACK_MODELS = ["gpt-5.2", "gpt-5.1", "gpt-5", "the active model"]
 
 # xAI API - Agent Tools API requires grok-4 family
 XAI_MODELS_URL = "https://api.x.ai/v1/models"
@@ -156,9 +156,9 @@ def get_models(
     """
     result = {"openai": None, "xai": None}
 
-    if config.get("OPENAI_API_KEY"):
+    if config.get("LLM_API_KEY"):
         result["openai"] = select_openai_model(
-            config["OPENAI_API_KEY"],
+            config["LLM_API_KEY"],
             config.get("OPENAI_MODEL_POLICY", "auto"),
             config.get("OPENAI_MODEL_PIN"),
             mock_openai_models,

@@ -35,7 +35,7 @@ If `$1` is provided, use it as the app URL.
 
 If no URL is provided:
 1. Check if a dev server is likely running by looking for `package.json` scripts
-2. Use `AskUserQuestion` to ask the user for the URL or offer to help start the dev server
+2. Use `clarifying question` to ask the user for the URL or offer to help start the dev server
 
 Common default URLs to suggest:
 - `http://localhost:3000` (Next.js, Create React App, Rails)
@@ -45,7 +45,7 @@ Common default URLs to suggest:
 
 ## Step 2: Gather Requirements
 
-Use `AskUserQuestion` with the following questions:
+Use `clarifying question` with the following questions:
 
 **Question 1: Screenshot count**
 - Header: "Count"
@@ -147,7 +147,7 @@ Create a comprehensive list of discovered features with:
 
 Present the discovered features to the user and ask them to confirm or modify the list.
 
-Use `AskUserQuestion`:
+Use `clarifying question`:
 - Header: "Features"
 - Question: "I found these features in your codebase. Which would you like to screenshot?"
 - Options: List 3-4 key features discovered, plus "Let me pick specific ones"

@@ -735,8 +735,8 @@ class LLMWithFallback:
 
 # Usage
 llm_client = LLMWithFallback(
-    primary="gpt-4-turbo",
-    fallbacks=["gpt-3.5-turbo", "claude-3-sonnet"]
+    primary="the active model-turbo",
+    fallbacks=["gpt-3.5-turbo", "a capable LLM-sonnet"]
 )
 ```
 

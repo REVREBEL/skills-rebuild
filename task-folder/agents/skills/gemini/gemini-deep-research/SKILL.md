@@ -12,6 +12,7 @@ tags: [research, gemini, google, reports]
 tools: [claude, cursor, gemini]
 license: "Apache-2.0"
 license_source: "https://github.com/sanjay3290/ai-skills/blob/main/LICENSE"
+compatibility: 'Intrinsic platform/provider dependency: gemini-deep-research'
 ---
 
 # Gemini Deep Research Skill

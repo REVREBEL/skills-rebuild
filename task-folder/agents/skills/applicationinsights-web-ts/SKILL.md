@@ -269,16 +269,16 @@ const agentSpan = startGenAiSpan("invoke_agent ResearchAssistant", {
   "gen_ai.provider.name": "azure.ai.openai",
   "gen_ai.agent.name": "ResearchAssistant",
   "gen_ai.agent.id": "asst_5j66UpCpwteGg4YSxUnt7lPY",
-  "gen_ai.request.model": "gpt-4o-mini",
+  "gen_ai.request.model": "the active model-mini",
   "server.address": "myresource.openai.azure.com"
 });
 
 try {
   // Nested chat completion span
-  const chat = startGenAiSpan("chat gpt-4o-mini", {
+  const chat = startGenAiSpan("chat the active model-mini", {
     "gen_ai.operation.name": "chat",
     "gen_ai.provider.name": "azure.ai.openai",
-    "gen_ai.request.model": "gpt-4o-mini"
+    "gen_ai.request.model": "the active model-mini"
   });
   const res = await callAzureOpenAi(/* ... */);
   chat.end(true, {

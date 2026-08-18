@@ -120,7 +120,7 @@ Return ONLY valid JSON:
 def search_web(topic: str, from_date: str, to_date: str, depth: str = "default") -> dict:
     """Search web using Claude's built-in WebSearch tool.
 
-    NOTE: This runs INSIDE Claude Code, so we use the WebSearch tool directly.
+    NOTE: This runs INSIDE the agent, so we use the WebSearch tool directly.
     No API key needed - uses Claude's session.
     """
     # Implementation uses Claude's web_search_20250305 tool
@@ -261,7 +261,7 @@ parser.add_argument(
 
 def get_available_sources(config: dict) -> str:
     """Determine available sources. WebSearch always available (no API key)."""
-    has_openai = bool(config.get('OPENAI_API_KEY'))
+    has_openai = bool(config.get('LLM_API_KEY'))
     has_xai = bool(config.get('XAI_API_KEY'))
 
     if has_openai and has_xai:
@@ -356,7 +356,7 @@ def test_websearch_weighting():
 
 ## Dependencies & Prerequisites
 
-- Claude Code's WebSearch tool (`web_search_20250305`) - already available
+- the agent's WebSearch tool (`web_search_20250305`) - already available
 - No new API keys required
 - Existing test infrastructure in `tests/`
 

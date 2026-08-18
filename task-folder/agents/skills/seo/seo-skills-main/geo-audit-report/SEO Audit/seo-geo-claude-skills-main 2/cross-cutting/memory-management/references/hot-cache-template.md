@@ -1,6 +1,6 @@
 # Hot cache template (`memory/hot-cache.md`)
 
-Use this template when initializing memory for a new SEO project. The HOT tier is the single file `memory/hot-cache.md` (auto-loaded every session via the SessionStart hook, hard limit 80 lines / 25KB). Do NOT place this content in the project root's CLAUDE.md.
+Use this template when initializing memory for a new SEO project. The HOT tier is the single file `memory/hot-cache.md` (auto-loaded every session via the SessionStart hook, hard limit 80 lines / 25KB). Do NOT place this content in the project root's AGENTS.md.
 
 ```markdown
 # [Project Name] - SEO Memory (hot cache)

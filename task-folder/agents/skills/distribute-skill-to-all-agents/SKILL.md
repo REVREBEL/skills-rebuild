@@ -28,7 +28,7 @@ The user has 4 agent skill locations on his MacBook. A skill must exist in each 
 | Agent | Skills Folder | Notes |
 |---|---|---|
 | Codex / OpenAI Agents | `~/.agents/skills/` | **Canonical** — author skills here first |
-| Claude Code | `~/.claude/skills/` | **Symlink → `~/.agents/skills/`** — writing to `.agents/skills` automatically covers Claude |
+| the agent | `~/.claude/skills/` | **Symlink → `~/.agents/skills/`** — writing to `.agents/skills` automatically covers Claude |
 | Pi Agent | `~/.pi/agent/skills/` | **Symlink → `~/.agents/skills/`** — auto-covered. (Path is `/agent/` nested — NOT `~/.pi/skills/`) |
 | Hermes Agent | `~/.hermes/skills/` | Independent copy — the only one needing a manual copy |
 

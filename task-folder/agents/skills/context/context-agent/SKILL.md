@@ -41,7 +41,7 @@ Agente de contexto para continuidade entre sessoes. Salva resumos, decisoes, tar
 
 ## How It Works
 
-Continuidade perfeita entre sessões do Claude Code. Captura, comprime e
+Continuidade perfeita entre sessões do the agent. Captura, comprime e
 restaura contexto automaticamente — tópicos, decisões, tarefas, erros,
 arquivos modificados e descobertas técnicas.
 
@@ -53,7 +53,7 @@ C:\Users\renat\skills\context-agent\
 ├── scripts/
 │   ├── config.py               # Paths e constantes
 │   ├── models.py               # Dataclasses
-│   ├── session_parser.py       # Parser JSONL do Claude Code
+│   ├── session_parser.py       # Parser JSONL do the agent
 │   ├── session_summary.py      # Gerador de resumos
 │   ├── active_context.py       # Gerencia ACTIVE_CONTEXT.md
 │   ├── project_registry.py     # Registro de projetos

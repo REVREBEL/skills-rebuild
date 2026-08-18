@@ -1728,7 +1728,7 @@ Why this breaks:
 Each screenshot is ~1500-3000 tokens. A task with 30 screenshots
 uses 45,000-90,000 tokens just for images - before any text.
 
-Claude's context window is finite. When full:
+the agent's context window is finite. When full:
 - Older context gets dropped
 - Agent loses memory of earlier steps
 - Task coherence decreases

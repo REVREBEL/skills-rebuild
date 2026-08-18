@@ -38,7 +38,7 @@ license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
 
 Keep sleeps SHORT: start at 3-5s, re-check, repeat. Don't `sleep 30`. Pi and Hermes (opus-4.8-fast) launch and respond within seconds; scale up only for genuinely heavy tasks. After every check, send the user a one-line status: what the agent is doing and whether it's on track.
 
-Claude Code note: after it finishes, it may prefill a predicted next user message — that draft is Claude, not the user.
+the agent note: after it finishes, it may prefill a predicted next user message — that draft is Claude, not the user.
 
 ## Remote VPS
 
@@ -50,13 +50,13 @@ All four use the portable SKILL.md standard; project skills win over global.
 
 - **Pi** (pi.dev, open-source TS): minimal read/write/edit/bash core, self-extends via TS extensions; true BYOK; best-in-class session branch/fork/resume. Skills: `~/.pi/agent/skills/`.
 - **Codex CLI** (OpenAI, Rust): fastest startup; kernel-level sandboxing; `codex exec` for CI; reads AGENTS.md. Skills: `~/.codex/skills/`.
-- **Claude Code** (Anthropic, TS): deepest Claude integration, `.claude/` conventions, live skill hot-reload. Skills: `~/.claude/skills/`.
+- **the agent** (Anthropic, TS): deepest Claude integration, `.claude/` conventions, live skill hot-reload. Skills: `~/.claude/skills/`.
 - **Hermes** (Nous Research, Python): persistent autonomous agent — cross-session memory, built-in scheduler, 40+ tools; can orchestrate the other CLIs as workers. Skills: `~/.hermes/skills/`.
 
 ## Driving interactive CLIs
 
 - Codex, Pi, OpenCode: need `pty=true`.
-- Claude Code: prefer `claude --print --permission-mode bypassPermissions` (no PTY).
+- the agent: prefer `claude --print --permission-mode bypassPermissions` (no PTY).
 
 ## Limitations
 

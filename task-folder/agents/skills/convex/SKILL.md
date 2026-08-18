@@ -336,7 +336,7 @@ export const generateEmbedding = action({
     const response = await fetch("https://api.openai.com/v1/embeddings", {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+        Authorization: `Bearer ${process.env.LLM_API_KEY}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
@@ -686,21 +686,21 @@ export const getFileUrl = query({
 
 ```bash
 # Set environment variables for your deployment
-npx convex env set OPENAI_API_KEY sk-...
+npx convex env set LLM_API_KEY sk-...
 npx convex env set SENDGRID_API_KEY SG...
 
 # List current env vars
 npx convex env list
 
 # Remove an env var
-npx convex env unset OPENAI_API_KEY
+npx convex env unset LLM_API_KEY
 ```
 
 Access in actions (NOT in queries or mutations):
 
 ```typescript
 // Only available in actions
-const apiKey = process.env.OPENAI_API_KEY;
+const apiKey = process.env.LLM_API_KEY;
 ```
 
 ## Deployment & CLI

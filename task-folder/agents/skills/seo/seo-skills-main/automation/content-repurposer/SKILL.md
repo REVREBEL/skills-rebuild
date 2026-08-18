@@ -35,7 +35,7 @@ metadata:
 
 ```bash
 pip install anthropic jinja2 click pyyaml
-# Requires ANTHROPIC_API_KEY environment variable
+# Requires LLM_API_KEY environment variable
 ```
 
 ## Commands

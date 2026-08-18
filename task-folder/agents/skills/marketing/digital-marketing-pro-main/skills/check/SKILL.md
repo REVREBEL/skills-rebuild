@@ -152,7 +152,7 @@ The skill follows this flow:
 3. **Build the eval-runner command.** Choose action: `run-quick` (default), `run-full` (with `--full`), `run-compliance` (with `--compliance`).
 4. **Execute via Bash.**
    ```
-   python ${CLAUDE_PLUGIN_ROOT}/scripts/eval-runner.py --action run-quick --file <input> [--brand <slug>] [--evidence <path>] [--schema <name>]
+   python ${SKILL_ROOT}/scripts/eval-runner.py --action run-quick --file <input> [--brand <slug>] [--evidence <path>] [--schema <name>]
    ```
 5. **Parse the JSON output.** Extract composite score, grade, dimension scores, alerts, auto-reject decision.
 6. **Format for the user.** Present the human-readable report shown above. Lead with the decision (PASS / WARN / BLOCKED).

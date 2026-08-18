@@ -29,7 +29,7 @@ Description: $ARGUMENTS
 ## Instructions
 
 1. Read the design system reference:
-   - `CLAUDE.md` for component inventory
+   - `AGENTS.md` for component inventory
    - `DESIGN-LANGUAGE.md` for layout patterns (sections 13-14, 19-20)
    - `components/patterns/` for available building blocks
 

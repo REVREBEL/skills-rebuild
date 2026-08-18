@@ -18,7 +18,7 @@ license_source: "https://github.com/sarveshtalele/linkedin-content-skill/blob/ma
 
 ## Overview
 
-A full LinkedIn content-creation suite for Claude Code that turns a topic and niche into
+A full LinkedIn content-creation suite for the agent that turns a topic and niche into
 publish-ready posts, multi-slide carousels, long-form newsletter editions, and 30-day content
 calendars — all wired through a personal reinforcement-learning memory system so every output
 improves as you give feedback.
@@ -61,7 +61,7 @@ The skill is self-contained. Install it from the Agentic Awesome Skills library:
 # Install via antigravity CLI (recommended)
 antigravity install linkedin-content-generator
 
-# Or copy manually into your Claude Code skills directory
+# Or copy manually into your the agent skills directory
 cp -r skills/linkedin-content-generator ~/.claude/skills/
 ```
 

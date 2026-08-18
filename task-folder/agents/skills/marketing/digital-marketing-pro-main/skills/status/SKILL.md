@@ -22,7 +22,7 @@ This skill prints a complete status snapshot for the active Digital Marketing Pr
 
 Heavy skill. **Grep before Read** any referenced file, then `Read` only matched ranges with `offset` + `limit`. List `${CLAUDE_PLUGIN_DATA}/<brand>/` before opening files. On re-invocation mid-session, skip files already in context.
 
-In v3.0 and earlier, the SessionStart hook ran `setup.py` automatically at every Claude Code session start to print a 15-line brand summary banner. v3.1 removed that hook because it fired globally across every project regardless of whether the user was doing marketing work. v3.2 introduces `/digital-marketing-pro:status` as the explicit replacement — a richer view, on demand.
+In v3.0 and earlier, the SessionStart hook ran `setup.py` automatically at every the agent session start to print a 15-line brand summary banner. v3.1 removed that hook because it fired globally across every project regardless of whether the user was doing marketing work. v3.2 introduces `/digital-marketing-pro:status` as the explicit replacement — a richer view, on demand.
 
 ## What it shows
 
@@ -92,7 +92,7 @@ Print only the requested section. Useful when you only need one piece of state.
 
 2. **Execute the script.**
    ```
-   python ${CLAUDE_PLUGIN_ROOT}/scripts/dm-status.py [--brand <slug>] [--json] [--quiet] [--section <name>]
+   python ${SKILL_ROOT}/scripts/dm-status.py [--brand <slug>] [--json] [--quiet] [--section <name>]
    ```
 
 3. **Pass through the formatted output to the user.** The script does the heavy lifting; the skill is a thin orchestration layer.

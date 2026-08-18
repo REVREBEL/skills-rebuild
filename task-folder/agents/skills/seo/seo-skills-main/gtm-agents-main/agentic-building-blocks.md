@@ -2,7 +2,7 @@
 
 Since introducing [Skills](https://www.anthropic.com/news/skills), there's been interest in understanding how the various components of Claude's agentic ecosystem work together. 
 
-Whether you're building sophisticated workflows in [Claude Code](https://www.claude.com/product/claude-code), creating enterprise solutions with the API, or maximizing your productivity on [Claude.ai](http://claude.ai/redirect/claudedotcom.v1.28d4c42e-0be5-4102-bb74-8ed5dbfd1c88), knowing which tool to reach for—and when—can transform how you work with Claude.
+Whether you're building sophisticated workflows in [the agent](https://www.claude.com/product/claude-code), creating enterprise solutions with the API, or maximizing your productivity on [Claude.ai](http://claude.ai/redirect/claudedotcom.v1.28d4c42e-0be5-4102-bb74-8ed5dbfd1c88), knowing which tool to reach for—and when—can transform how you work with Claude.
 
 This guide breaks down each building block, explains when to use what, and shows you how to combine them for powerful agentic workflows.
 
@@ -95,7 +95,7 @@ Available on all paid Claude plans, [Projects](https://support.claude.com/en/art
 
 ### **What are subagents?**
 
-[Subagents](https://docs.claude.com/en/docs/claude-code/sub-agents) are specialized AI assistants with their own context windows, custom system prompts, and specific tool permissions. Available in Claude Code and the Claude Agent SDK, subagents handle discrete tasks independently and return results to the main agent.
+[Subagents](https://docs.claude.com/en/docs/claude-code/sub-agents) are specialized AI assistants with their own context windows, custom system prompts, and specific tool permissions. Available in the agent and the Claude Agent SDK, subagents handle discrete tasks independently and return results to the main agent.
 
 **How subagents work:** Each subagent operates with its own configuration—you define what it does, how it approaches problems, and which tools it can access. Claude automatically delegates tasks to appropriate subagents based on their descriptions, or you can explicitly request a specific subagent.
 
@@ -211,7 +211,7 @@ Optimized search and retrieval strategy for Meridian Tech's Google Drive structu
 5. Cite sources with file names and dates
 ```
 
-**Step 4: Configure subagents (Claude Code/SDK only)**
+**Step 4: Configure subagents (the agent/SDK only)**
 
 Create specialized subagents:
 
@@ -260,7 +260,7 @@ Here's what happens:
 1.  **Project context loads**: Claude accesses your uploaded research documents and follows project instructions
 2.  **MCP connections activate**: Claude searches your Google Drive for recent competitor briefs and pulls GitHub data
 3.  **Skills engage**: The competitive-analysis Skill provides the analytical framework
-4.  **Subagents execute** (in Claude Code): The market-researcher gathers industry data while the technical-analyst reviews technical implementations
+4.  **Subagents execute** (in the agent): The market-researcher gathers industry data while the technical-analyst reviews technical implementations
 5.  **Prompts refine**: You provide conversational guidance: "Focus especially on enterprise customers in healthcare"
 
 **The result:** A comprehensive competitive analysis that draws from multiple data sources, follows your analytical framework, leverages specialized expertise, and maintains context throughout your research project.
@@ -271,7 +271,7 @@ Here's what happens:
 
 Skills use [progressive disclosure](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) to keep Claude efficient. When working on tasks, Claude first scans Skill metadata (descriptions and summaries) to identify relevant matches. If a Skill matches, Claude loads the full instructions. Finally, if the Skill includes executable code or reference files, those load only when needed.
 
-This architecture means you can have many Skills available without overwhelming Claude's context window. Claude accesses exactly what it needs, when it needs it.
+This architecture means you can have many Skills available without overwhelming the agent's context window. Claude accesses exactly what it needs, when it needs it.
 
 #### **Skills vs. subagents: when to use what**
 
@@ -301,7 +301,7 @@ This architecture means you can have many Skills available without overwhelming 
 
 #### **Can subagents use Skills?**
 
-Yes. In Claude Code and the Agent SDK, subagents can access and use Skills just like the main agent. This creates powerful combinations where specialized subagents leverage portable expertise.
+Yes. In the agent and the Agent SDK, subagents can access and use Skills just like the main agent. This creates powerful combinations where specialized subagents leverage portable expertise.
 
 For example, your python-developer subagent can use the pandas-analysis Skill to perform data transformations following your team's conventions, while your documentation-writer subagent uses the technical-writing skill to format API documentation consistently.
 
@@ -320,7 +320,7 @@ Ready to build with Skills? Here's how to start:
 *   Explore the Skills endpoint in [documentation](https://docs.anthropic.com)
 *   Check out our [skills cookbook](https://github.com/anthropics/claude-cookbooks/tree/main/skills)
 
-**Claude Code users:**
+**the agent users:**
 
 *   Install Skills via [plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces)
 *   Check out our [skills cookbook](https://github.com/anthropics/claude-cookbooks/tree/main/skills)  
@@ -598,9 +598,9 @@ Products
     
     [Claude](/product/overview)Claude
     
-*   Claude Code
+*   the agent
     
-    [Claude Code](/product/claude-code)Claude Code
+    [the agent](/product/claude-code)the agent
     
 *   Max plan
     

@@ -69,7 +69,7 @@ class MovieReview(BaseModel):
     recommended: bool
 
 agent = Agent(
-    'openai:gpt-4o',
+    'openai:the active model',
     result_type=MovieReview,
     system_prompt='You are a film critic. Return structured reviews.',
 )
@@ -135,7 +135,7 @@ class SupportResponse(BaseModel):
     escalate: bool
 
 support_agent = Agent(
-    'openai:gpt-4o-mini',
+    'openai:the active model-mini',
     deps_type=Deps,
     result_type=SupportResponse,
     system_prompt='You are a support agent. Use the tools to help customers.',
@@ -213,7 +213,7 @@ asyncio.run(stream_response())
 from pydantic_ai import Agent
 from pydantic_ai.messages import ModelMessagesTypeAdapter
 
-agent = Agent('openai:gpt-4o', system_prompt='You are a helpful assistant.')
+agent = Agent('openai:the active model', system_prompt='You are a helpful assistant.')
 
 # First turn
 result1 = agent.run_sync('My name is Alice.')
@@ -269,7 +269,7 @@ class StrictJson(BaseModel):
             raise ValueError('value must be positive')
         return v
 
-agent = Agent('openai:gpt-4o-mini', result_type=StrictJson)
+agent = Agent('openai:the active model-mini', result_type=StrictJson)
 
 @agent.result_validator
 async def validate_result(ctx, result: StrictJson) -> StrictJson:
@@ -293,7 +293,7 @@ class BlogPost(BaseModel):
     body: str
     meta_description: str
 
-researcher = Agent('openai:gpt-4o', result_type=ResearchSummary)
+researcher = Agent('openai:the active model', result_type=ResearchSummary)
 writer = Agent('anthropic:claude-sonnet-4-6', result_type=BlogPost)
 
 async def research_and_write(topic: str) -> BlogPost:
@@ -322,7 +322,7 @@ async def research_and_write(topic: str) -> BlogPost:
 
 ## Security & Safety Notes
 
-- Set API keys via environment variables (`OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, etc.) — never hardcode them.
+- Set API keys via environment variables (`LLM_API_KEY`, `LLM_API_KEY`, etc.) — never hardcode them.
 - Validate all tool inputs before passing to external systems — use Pydantic models or manual checks.
 - Tools that mutate data (write to DB, send emails, call payment APIs) should require explicit user confirmation before the agent invokes them in production.
 - Log `result.all_messages()` for audit trails when agents perform consequential actions.

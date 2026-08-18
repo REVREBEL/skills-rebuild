@@ -13,7 +13,7 @@ import { openai } from "@ai-sdk/openai";
 export class ChatAgent extends AIChatAgent<Env> {
   async onChatMessage(onFinish) {
     return this.streamText({
-      model: openai("gpt-4"),
+      model: openai("the active model"),
       messages: this.messages, // Auto-managed message history
       tools: {
         getWeather: {
@@ -117,7 +117,7 @@ conn.setState({userId:"123"}); conn.close(1000, "Goodbye");
 const r = await this.env.AI.run("@cf/meta/llama-3.1-8b-instruct", {prompt});
 
 // Manual streaming (prefer AIChatAgent)
-const stream = await client.chat.completions.create({model: "gpt-4", messages, stream: true});
+const stream = await client.chat.completions.create({model: "the active model", messages, stream: true});
 for await (const chunk of stream) conn.send(JSON.stringify({chunk: chunk.choices[0].delta.content}));
 ```
 
@@ -134,7 +134,7 @@ await this.mcp.registerServer("github", {
   auth: { type: "oauth", clientId: env.GITHUB_CLIENT_ID, clientSecret: env.GITHUB_CLIENT_SECRET }
 });
 const tools = await this.mcp.getAITools(["github"]);
-return this.streamText({ model: openai("gpt-4"), messages: this.messages, tools, onFinish });
+return this.streamText({ model: openai("the active model"), messages: this.messages, tools, onFinish });
 ```
 
 ## Task Queue
@@ -158,7 +158,7 @@ async destroy() { /* cleanup before agent destroyed */ }
 const r = await this.env.AI.run("@cf/meta/llama-3.1-8b-instruct", {prompt});
 
 // Manual streaming (prefer AIChatAgent for auto-streaming)
-const stream = await client.chat.completions.create({model: "gpt-4", messages, stream: true});
+const stream = await client.chat.completions.create({model: "the active model", messages, stream: true});
 for await (const chunk of stream) {
   if (chunk.choices[0]?.delta?.content) conn.send(JSON.stringify({chunk: chunk.choices[0].delta.content}));
 }

@@ -36,7 +36,7 @@
 
 ## Prerequisites
 
-- [ ] Claude Code installed
+- [ ] the agent installed
 - [ ] GTM Agents marketplace added
 - [ ] `customer-analytics` plugin installed
 - [ ] Customer data export (usage, engagement, support, billing)
@@ -84,7 +84,7 @@ CUST002,1200,6,3,45,8,3,90
 
 ### Step 2: Run Churn Prediction (3 minutes)
 
-1. Open Claude Code
+1. Open the agent
 2. Run:
    ```
    /customer-analytics:predict-churn

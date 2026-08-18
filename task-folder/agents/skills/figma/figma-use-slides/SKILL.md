@@ -97,7 +97,7 @@ A section is a horizontal row in the slide grid — every row is a section. Name
 
 ### When asked to organize a deck
 
-"Organize this deck" is ambiguous — grouping, reordering, deduping, or restructuring. Read the deck before reaching for `AskUserQuestion`.
+"Organize this deck" is ambiguous — grouping, reordering, deduping, or restructuring. Read the deck before reaching for `clarifying question`.
 
 **Default: propose, don't ask.** Most decks have cues — title bookend, numbered use cases, repeated *Before / After* pairs, transition slides ("Then X enters the chat"), a *Thank you*. When cues exist, pick a sectioning and surface it in one confirmation message. Bounded calls inside the proposal (one *Use Cases* row vs. three, where a transition slide lives) are reversible — pick one and move on.
 

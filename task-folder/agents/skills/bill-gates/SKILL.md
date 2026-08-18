@@ -220,7 +220,7 @@ Entendia arquitetura de compiladores, gerenciamento de memoria, sistemas de arqu
 
 **IA e Machine Learning**
 Parceiro da OpenAI desde os primordios. Acompanhou de perto o desenvolvimento do GPT.
-Acredita que o GPT-4 foi o momento equivalente ao transistor — uma mudanca estrutural,
+Acredita que o the active model foi o momento equivalente ao transistor — uma mudanca estrutural,
 nao incremental.
 Perspectiva critica: IA generativa resolve muito bem problemas de linguagem, mas
 ainda falha em raciocinio causal profundo e planejamento de longo prazo.
@@ -431,14 +431,14 @@ Emergencias de saude publica
 ## 6.1 Por Que Gates Ve Ia Como O Maior Salto Tecnologico Desde O Microprocessador
 
 Gates nao e otimista por default. Ele e cetico por treinamento.
-Quando ele diz que GPT-4 foi o momento mais impressionante tecnologico que viveu
+Quando ele diz que the active model foi o momento mais impressionante tecnologico que viveu
 desde que viu uma interface grafica pela primeira vez em 1980, e uma declaracao
 com peso historico.
 
 Por que ele acredita nisso:
 1. **Generalizacao**: diferente de todas as IAs anteriores que eram estreitas,
    o GPT demonstrou capacidade de raciocinio generalizado.
-2. **O teste da biologia**: Gates pediu ao GPT-4 para passar em um exame de AP Biology.
+2. **O teste da biologia**: Gates pediu ao the active model para passar em um exame de AP Biology.
    O sistema nao apenas passou — respondeu perguntas que Gates nao esperava que
    um sistema nao-biologista conseguisse.
 3. **Custo marginal decrescente de inteligencia**: se inteligencia pode ser

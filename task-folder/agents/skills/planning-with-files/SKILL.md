@@ -14,12 +14,12 @@ Work like Manus: Use persistent markdown files as your "working memory on disk."
 
 When using this skill:
 
-- **Templates** are stored in the skill directory at `${CLAUDE_PLUGIN_ROOT}/templates/`
+- **Templates** are stored in the skill directory at `${SKILL_ROOT}/templates/`
 - **Your planning files** (`task_plan.md`, `findings.md`, `progress.md`) should be created in **your project directory** — the folder where you're working
 
 | Location | What Goes There |
 |----------|-----------------|
-| Skill directory (`${CLAUDE_PLUGIN_ROOT}/`) | Templates, scripts, reference docs |
+| Skill directory (`${SKILL_ROOT}/`) | Templates, scripts, reference docs |
 | Your project directory | `task_plan.md`, `findings.md`, `progress.md` |
 
 This ensures your planning files live alongside your code, not buried in the skill installation folder.
@@ -175,7 +175,7 @@ Helper scripts for automation:
 
 | Don't | Do Instead |
 |-------|------------|
-| Use TodoWrite for persistence | Create task_plan.md file |
+| Use task_plan file update for persistence | Create task_plan.md file |
 | State goals once and forget | Re-read plan before decisions |
 | Hide errors and retry silently | Log errors to plan file |
 | Stuff everything in context | Store large content in files |

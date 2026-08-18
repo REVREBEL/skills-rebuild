@@ -1,4 +1,4 @@
-# CLAUDE.md - GTM Agents
+# AGENTS.md - GTM Agents
 
 ## Project Overview
 
@@ -316,7 +316,7 @@ Pre-commit hooks (Husky) run these automatically.
 
 ## Agent Skills Compliance
 
-This repository is migrating to the [Agent Skills](https://agentskills.io) open standard maintained by Anthropic. This enables interoperability with Claude Code, Cursor, VS Code, GitHub Copilot, OpenAI Codex, and other compatible agents.
+This repository is migrating to the [Agent Skills](https://agentskills.io) open standard maintained by Anthropic. This enables interoperability with the agent, Cursor, VS Code, GitHub Copilot, OpenAI Codex, and other compatible agents.
 
 ### Compliance Status
 
@@ -345,7 +345,7 @@ skill-name/
 name: skill-name                    # Required (must match directory)
 description: What it does...        # Required (max 1024 chars)
 license: Apache-2.0                 # Optional
-compatibility: Claude Code          # Optional
+compatibility: the agent          # Optional
 metadata:                           # Optional
   author: gtm-agents
   version: "1.0"

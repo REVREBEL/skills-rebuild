@@ -38,7 +38,7 @@ def get_config() -> Dict[str, Any]:
 
     # Environment variables override file
     config = {
-        'OPENAI_API_KEY': os.environ.get('OPENAI_API_KEY') or file_env.get('OPENAI_API_KEY'),
+        'LLM_API_KEY': os.environ.get('LLM_API_KEY') or file_env.get('LLM_API_KEY'),
         'XAI_API_KEY': os.environ.get('XAI_API_KEY') or file_env.get('XAI_API_KEY'),
         'OPENAI_MODEL_POLICY': os.environ.get('OPENAI_MODEL_POLICY') or file_env.get('OPENAI_MODEL_POLICY', 'auto'),
         'OPENAI_MODEL_PIN': os.environ.get('OPENAI_MODEL_PIN') or file_env.get('OPENAI_MODEL_PIN'),
@@ -59,7 +59,7 @@ def get_available_sources(config: Dict[str, Any]) -> str:
 
     Returns: 'both', 'reddit', 'x', or 'web' (fallback when no keys)
     """
-    has_openai = bool(config.get('OPENAI_API_KEY'))
+    has_openai = bool(config.get('LLM_API_KEY'))
     has_xai = bool(config.get('XAI_API_KEY'))
 
     if has_openai and has_xai:
@@ -77,7 +77,7 @@ def get_missing_keys(config: Dict[str, Any]) -> str:
 
     Returns: 'both', 'reddit', 'x', or 'none'
     """
-    has_openai = bool(config.get('OPENAI_API_KEY'))
+    has_openai = bool(config.get('LLM_API_KEY'))
     has_xai = bool(config.get('XAI_API_KEY'))
 
     if has_openai and has_xai:

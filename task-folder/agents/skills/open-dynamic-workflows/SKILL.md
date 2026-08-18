@@ -51,7 +51,7 @@ ODW is installed from source (clone the repo, then `npm install`). The CLI is
 
 ```bash
 # Configure your model provider (bring-your-own-model)
-export ANTHROPIC_API_KEY=...        # or an OpenAI-compatible / Ollama endpoint
+export LLM_API_KEY=...        # or an OpenAI-compatible / Ollama endpoint
 
 # One-time setup: generate ~/.odw/config.json
 npm run setup

@@ -1,6 +1,6 @@
 ---
 name: interface-design-system
-description: Design engineering skill for Claude Code that enforces consistent UI patterns through memory, craft principles, and systematic design tokens.
+description: Design engineering skill for the agent that enforces consistent UI patterns through memory, craft principles, and systematic design tokens.
 triggers:
   - "set up interface design system"
   - "create consistent UI components"
@@ -41,7 +41,7 @@ Interface Design prevents design drift across sessions by:
 # Select 'interface-design' from the menu
 ```
 
-Restart Claude Code after installation.
+Restart the agent after installation.
 
 ### Manual Method
 
@@ -52,7 +52,7 @@ cp -r .claude/* ~/.claude/
 cp -r .claude-plugin/* ~/.claude-plugin/
 ```
 
-Restart Claude Code.
+Restart the agent.
 
 ## Core Workflow
 

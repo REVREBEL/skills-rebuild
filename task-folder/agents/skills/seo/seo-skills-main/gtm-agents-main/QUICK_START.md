@@ -1,6 +1,6 @@
 # 🚀 Quick Start Guide for GTM Teams
 
-> **👋 Never used Claude Code before?** Check out our [Getting Started Guide](GETTING_STARTED.md) first! It walks you through installation, setup, and your first commands step-by-step.
+> **👋 Never used the agent before?** Check out our [Getting Started Guide](GETTING_STARTED.md) first! It walks you through installation, setup, and your first commands step-by-step.
 
 ## 5-Minute Setup
 

@@ -34,7 +34,7 @@ name: your-skill-name
 version: "1.0.0"
 description: 'Use when the user asks to "[trigger]". [What it does]. For [related task], see [other-skill].'
 license: Apache-2.0
-compatibility: "Claude Code and compatible agent-skill hosts"
+compatibility: "the agent and compatible agent-skill hosts"
 metadata:
   author: your-github-username
   version: "1.0.0"
@@ -65,7 +65,7 @@ After adding or updating a skill, keep these 5 files in sync:
 - `.claude-plugin/plugin.json` — skills array
 - `marketplace.json` (repo root) — must match plugin.json; copy to `.claude-plugin/marketplace.json` afterward
 - `README.md` — skills table
-- `CLAUDE.md` — category table
+- `AGENTS.md` — category table
 
 For release bumps, also sync README badges, localized README badges, and both marketplace files.
 

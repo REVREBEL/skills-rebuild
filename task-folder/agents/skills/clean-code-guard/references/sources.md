@@ -30,7 +30,7 @@ names instead of inline URLs so rule guidance stays readable.
 - **AI-Generated Code Considered Harmful**: https://arxiv.org/abs/2409.19182
 - **A Deep Dive Into LLM Code Generation Mistakes**: https://arxiv.org/abs/2411.01414
 - **Patterns for Reducing Friction in AI-Assisted Development, Fowler**: https://martinfowler.com/articles/reduce-friction-ai/
-- **Claude Code issue 6984, mock data generation bias**: https://github.com/anthropics/claude-code/issues/6984
+- **the agent issue 6984, mock data generation bias**: https://github.com/anthropics/claude-code/issues/6984
 - **Karpathy on exception suppression**: https://x.com/karpathy/status/1976077806443569355
 - **Code Needs Comments**: https://arxiv.org/html/2402.13013v1
 - **Evaluating the Code Quality of AI-Assisted Code Generation Tools (Copilot, CodeWhisperer, ChatGPT)**: https://arxiv.org/abs/2304.10778

@@ -1,7 +1,7 @@
 ---
 name: humanise
 description: Identifies and removes AI writing patterns to make text sound natural and human-written. Use when user says "humanise this", "make this sound less AI", "this reads like a robot wrote it", "de-AI this text", "remove AI patterns", "make this more natural", "clean up this AI-generated text". Detects and fixes 29 patterns based on Wikipedia's "Signs of AI writing" guide - inflated language, promotional tone, AI vocabulary, em dash overuse, filler phrases, sycophantic tone, placeholder text, formulaic structure, thematic breaks. Do NOT use for grammar-only proofreading, spell checking, or rewriting text that is already clearly human-written.
-allowed-tools: Read, Write, Edit, Grep, Glob, AskUserQuestion
+allowed-tools: Read, Write, Edit, Grep, Glob, clarifying question
 ---
 
 # Humaniser: Remove AI Writing Patterns

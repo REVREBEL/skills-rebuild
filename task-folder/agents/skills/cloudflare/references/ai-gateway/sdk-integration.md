@@ -13,20 +13,20 @@ const gateway = createAiGateway({
   apiKey: process.env.CF_API_TOKEN // Optional for auth gateways
 });
 
-const openai = createOpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const openai = createOpenAI({ apiKey: process.env.LLM_API_KEY });
 
 // Single model
 const { text } = await generateText({
-  model: gateway(openai('gpt-4o')),
+  model: gateway(openai('the active model')),
   prompt: 'Hello'
 });
 
 // Automatic fallback array
 const { text } = await generateText({
   model: gateway([
-    openai('gpt-4o'),
+    openai('the active model'),
     anthropic('claude-sonnet-4-5'),
-    openai('gpt-4o-mini')
+    openai('the active model-mini')
   ]),
   prompt: 'Complex task'
 });
@@ -35,7 +35,7 @@ const { text } = await generateText({
 ### Options
 
 ```typescript
-model: gateway(openai('gpt-4o'), {
+model: gateway(openai('the active model'), {
   cacheKey: 'my-key',
   cacheTtl: 3600,
   metadata: { userId: 'u123', team: 'eng' }, // Max 5 entries
@@ -47,20 +47,20 @@ model: gateway(openai('gpt-4o'), {
 
 ```typescript
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.LLM_API_KEY,
   baseURL: `https://gateway.ai.cloudflare.com/v1/${accountId}/${gatewayId}/openai`,
   defaultHeaders: { 'cf-aig-authorization': `Bearer ${cfToken}` }
 });
 
 // Unified API - switch providers via model name
-model: 'openai/gpt-4o'  // or 'anthropic/claude-sonnet-4-5'
+model: 'openai/the active model'  // or 'anthropic/claude-sonnet-4-5'
 ```
 
 ## Anthropic SDK
 
 ```typescript
 const client = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY,
+  apiKey: process.env.LLM_API_KEY,
   baseURL: `https://gateway.ai.cloudflare.com/v1/${accountId}/${gatewayId}/anthropic`,
   defaultHeaders: { 'cf-aig-authorization': `Bearer ${cfToken}` }
 });
@@ -101,7 +101,7 @@ curl https://gateway.ai.cloudflare.com/v1/{account}/{gateway}/openai/chat/comple
   -H "Authorization: Bearer $OPENAI_KEY" \
   -H "cf-aig-authorization: Bearer $CF_TOKEN" \
   -H "cf-aig-metadata: {\"userId\":\"123\"}" \
-  -d '{"model":"gpt-4o","messages":[...]}'
+  -d '{"model":"the active model","messages":[...]}'
 ```
 
 ## Headers Reference

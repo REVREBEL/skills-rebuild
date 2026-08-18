@@ -30,7 +30,7 @@ This knowledge is persisted as **plain Markdown files** in `.lore/` at the proje
 
 The skill uses a **two-tier trigger model**:
 
-**Tier 1 — Loading the skill.** Load this skill when the user explicitly invokes `lore`, names a subcommand, references `.lore/`, or asks to record, recall, audit, sync, or compress project memory about decisions, architecture, conventions, or monorepo scopes. Generic phrases like "init", "compress", "audit", or "query" alone are not enough — they may map to the agent's native commands or unrelated tasks (Claude Code's `/init`, `/compact`, security audits, SQL queries, etc.).
+**Tier 1 — Loading the skill.** Load this skill when the user explicitly invokes `lore`, names a subcommand, references `.lore/`, or asks to record, recall, audit, sync, or compress project memory about decisions, architecture, conventions, or monorepo scopes. Generic phrases like "init", "compress", "audit", or "query" alone are not enough — they may map to the agent's native commands or unrelated tasks (the agent's `/init`, `/compact`, security audits, SQL queries, etc.).
 
 | User says (examples) | Command |
 |---|---|
@@ -39,7 +39,7 @@ The skill uses a **two-tier trigger model**:
 | "lore query" / "query lore" / "what's the project convention" | `query` |
 | "lore audit" / "check lore" / "is memory still accurate" | `audit` |
 | "lore compress" / "compress lore" / "summarize lore" | `compress` |
-| "lore mirror" / "update CLAUDE.md" / "refresh mirror" | `mirror` |
+| "lore mirror" / "update AGENTS.md" / "refresh mirror" | `mirror` |
 
 **Tier 2 — Internal proposals (after the skill is loaded).** Once the skill is loaded for this session, certain commands may proactively propose themselves based on internal thresholds. These proposals still require user acceptance — the skill never mutates files silently.
 
@@ -61,7 +61,7 @@ Detailed specifications live in `references/`. Load these on demand.
 | `references/audit-template.md` | Running `audit` — report format and severity definitions |
 | `references/monorepo-detection.md` | During `init` — detecting scope boundaries from workspace config |
 | `references/stale-new-markers.md` | During `sync` — full marking convention and user reply semantics |
-| `references/platform-mirrors.md` | Platform file mapping (CLAUDE.md / .cursorrules / etc.), two-section file structure |
+| `references/platform-mirrors.md` | Platform file mapping (AGENTS.md / .cursorrules / etc.), two-section file structure |
 | `references/config.md` | `.lore/.config.json` schema and field semantics |
 | `references/history-command.md` | Running `history` — full spec, dispatch rules, error table |
 | `references/compatibility.md` | Versioning policy: `.config.json#schema_version`, migration tools, deprecation workflow |
@@ -109,7 +109,7 @@ Each entry is a Markdown bullet (≤ 2 lines), with a layer prefix, a determinis
 
 ## Platform mirror
 
-The canonical store is `.lore/*`. Agents that expect a single config file at the project root (`CLAUDE.md` for Claude Code, `.cursorrules` for Cursor, `.clinerules` for Cline, `AGENTS.md` for Aider, etc.) read a synced projection of that store.
+The canonical store is `.lore/*`. Agents that expect a single config file at the project root (`AGENTS.md` for the agent, `.cursorrules` for Cursor, `.clinerules` for Cline, `AGENTS.md` for Aider, etc.) read a synced projection of that store.
 
 **A mirror is a synced projection, not a strict derivative.** It contains two sections: a Skill-managed `## Lore` section (rewritten on mirror regeneration) and a user-editable `## My notes` section (preserved verbatim). Both sections are legitimate mirror content. The user can write personal preferences, temporary instructions, or any project-specific note in the My notes section; the Skill never touches it.
 
@@ -146,18 +146,18 @@ Several agents have built-in commands with similar names. lore does **not** repl
 
 | Agent command | What it does | lore equivalent |
 |---|---|---|
-| Claude Code `/init` | One-shot project scan → generates `CLAUDE.md` | `lore init` (creates `.lore/` + mirror files) |
-| Claude Code `/compact` | Compresses the current conversation context | `lore compress` (regenerates `SUMMARY.md` from entries) |
-| Cursor `/init` (if present) | Project bootstrap | Same as Claude Code `/init` |
+| the agent `/init` | One-shot project scan → generates `AGENTS.md` | `lore init` (creates `.lore/` + mirror files) |
+| the agent `/compact` | Compresses the current conversation context | `lore compress` (regenerates `SUMMARY.md` from entries) |
+| Cursor `/init` (if present) | Project bootstrap | Same as the agent `/init` |
 
 **How they interact:**
 
-- If the user runs `lore init` and a non-lore `CLAUDE.md` exists, the init takeover check (step 0 in `init`) handles integration.
-- If the user runs the agent's native `/init` on a project that already has `.lore/`, the skill should ask whether the user wants to take over the existing `CLAUDE.md` or leave it alone.
+- If the user runs `lore init` and a non-lore `AGENTS.md` exists, the init takeover check (step 0 in `init`) handles integration.
+- If the user runs the agent's native `/init` on a project that already has `.lore/`, the skill should ask whether the user wants to take over the existing `AGENTS.md` or leave it alone.
 - If both `lore sync` and `/compact` are available, they do unrelated work — run them independently.
 - If the user's intent is ambiguous (e.g. they say "init" without "lore"), defer to the agent's native `/init`. Do not silently invoke `lore init`.
 
-To disable Claude Code's automatic `/init` on a project where `lore` is in use, set `"initHintShown": true` in `.claude/settings.json` (see Claude Code docs for current options).
+To disable the agent's automatic `/init` on a project where `lore` is in use, set `"initHintShown": true` in `.claude/settings.json` (see the agent docs for current options).
 
 ## Examples
 
@@ -257,7 +257,7 @@ If any of these are true, the skill appends a `[COMPRESS NOTICE]` to the sync pr
 
 **Conversation context is opt-in.** The skill does **not** automatically mine chat messages for memory updates. It only extracts from conversation when the user explicitly says things like "note this down" / "remember this" / "this is important". Reason: chat context is high-noise, and silent extraction creates false entries.
 
-**Mirror update triggers.** Platform mirrors (`CLAUDE.md`, `.cursorrules`, etc.) are regenerated on only three occasions, not on every `sync`:
+**Mirror update triggers.** Platform mirrors (`AGENTS.md`, `.cursorrules`, etc.) are regenerated on only three occasions, not on every `sync`:
 
 1. `init` completion — first time the mirror is created or restructured
 2. `compress` completion — `SUMMARY.md` changed, so mirrors reflect the new digest
@@ -425,7 +425,7 @@ For a user-facing explanation of each workflow (when to use it, frequency, examp
 - **Don't trust the agent's word over its own audit.** If an entry claims `react@18` and the code says `react@16`, the code wins for the audit, but the entry needs an update, not a silent fix.
 - **Don't mine conversation for memory unless explicitly asked.** Chat is high-noise; silent extraction corrupts the memory bank.
 - **Don't compress without preserving detail.** `compress` writes `SUMMARY.md` but never deletes or edits the underlying entry files.
-- **Don't trigger on the agent's native `/init` or `/compact` calls.** lore only fires when the user explicitly says `lore <command>`. Bare "init" / "compress" / "initialize" is the agent's native command — defer to it. If the user later wants to integrate a native-init `CLAUDE.md` with lore, point them at `lore init` step 0.
+- **Don't trigger on the agent's native `/init` or `/compact` calls.** lore only fires when the user explicitly says `lore <command>`. Bare "init" / "compress" / "initialize" is the agent's native command — defer to it. If the user later wants to integrate a native-init `AGENTS.md` with lore, point them at `lore init` step 0.
 
 ## Limitations
 

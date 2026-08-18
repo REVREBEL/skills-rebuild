@@ -22,7 +22,7 @@ This command helps you work with GitHub issues using the `gh` CLI.
 
 ### Step 1: Determine Action
 
-Use AskUserQuestion to ask what the user wants to do:
+Use clarifying question to ask what the user wants to do:
 
 **Question:**
 - question: "What would you like to do with GitHub issues?"
@@ -42,7 +42,7 @@ Use AskUserQuestion to ask what the user wants to do:
 
 ### Step 2a: Get Issue Title
 
-Use AskUserQuestion to get the issue title:
+Use clarifying question to get the issue title:
 
 **Question:**
 - question: "What's a short, scannable title for this issue? Keep it brief (5-10 words max) - details go in the body. (Use 'Other' to type your title)"
@@ -62,7 +62,7 @@ If the user provides a long title, help them shorten it and move the details to 
 
 ### Step 3a: Get Issue Body
 
-Use AskUserQuestion to gather the issue body content:
+Use clarifying question to gather the issue body content:
 
 **Question 1 - Issue type context:**
 - question: "What type of issue is this?"
@@ -95,7 +95,7 @@ The user will select "Other" here to provide their full description.
 - The more detail here, the better - unlike the title which should be brief
 
 **Question 3 - For bugs, ask about reproduction:**
-If issue type is "Bug", use AskUserQuestion:
+If issue type is "Bug", use clarifying question:
 
 - question: "Can you provide steps to reproduce this bug? (Use 'Other' to type steps)"
 - header: "Repro steps"
@@ -107,7 +107,7 @@ If issue type is "Bug", use AskUserQuestion:
     description: "The bug is intermittent or hard to reproduce"
 
 **Question 4 - Expected vs actual behavior (for bugs):**
-If issue type is "Bug", use AskUserQuestion:
+If issue type is "Bug", use clarifying question:
 
 - question: "What did you expect to happen vs what actually happened? (Use 'Other' to describe)"
 - header: "Behavior"
@@ -118,7 +118,7 @@ If issue type is "Bug", use AskUserQuestion:
 
 ### Step 4a: Get Labels (Optional)
 
-Use AskUserQuestion to select labels:
+Use clarifying question to select labels:
 
 - question: "Which labels should we add? (if any)"
 - header: "Labels"
@@ -180,7 +180,7 @@ Report the issue URL back to the user.
 
 ### Step 2b: Filter Options
 
-Use AskUserQuestion to determine filtering:
+Use clarifying question to determine filtering:
 
 - question: "How would you like to filter issues?"
 - header: "Filter"
@@ -195,7 +195,7 @@ Use AskUserQuestion to determine filtering:
   - label: "With specific label"
     description: "Filter by a label"
 
-If "With specific label" selected, use AskUserQuestion:
+If "With specific label" selected, use clarifying question:
 
 - question: "Which label to filter by? (Use 'Other' for custom label)"
 - header: "Label"
@@ -224,7 +224,7 @@ Display the results in a clean format.
 
 ### Step 2c: Get Issue Number
 
-Use AskUserQuestion:
+Use clarifying question:
 
 - question: "Which issue number would you like to view? (Use 'Other' to enter the number)"
 - header: "Issue #"

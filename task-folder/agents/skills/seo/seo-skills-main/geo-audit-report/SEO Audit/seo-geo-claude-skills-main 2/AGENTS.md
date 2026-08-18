@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Guidelines for AI agents working in this repository. For full runtime context, see [CLAUDE.md](CLAUDE.md).
+Guidelines for AI agents working in this repository. For full runtime context, see [AGENTS.md](AGENTS.md).
 
 ## Repository Overview
 
@@ -8,7 +8,7 @@ Guidelines for AI agents working in this repository. For full runtime context, s
 - **Repository**: https://github.com/aaron-he-zhu/seo-geo-claude-skills
 - **Author**: Aaron He Zhu | **License**: Apache 2.0
 - **Specs**: [Agent Skills](https://agentskills.io/specification.md)
-Content-first repository: skills and commands are Markdown; Claude Code hooks use a small Bash runner; `scripts/connectors/` holds zero-dependency Python-stdlib data helpers (no pip deps). Primary directories: `research/`, `build/`, `optimize/`, `monitor/`, `cross-cutting/`, `commands/`, `references/`, `scripts/connectors/`.
+Content-first repository: skills and commands are Markdown; the agent hooks use a small Bash runner; `scripts/connectors/` holds zero-dependency Python-stdlib data helpers (no pip deps). Primary directories: `research/`, `build/`, `optimize/`, `monitor/`, `cross-cutting/`, `commands/`, `references/`, `scripts/connectors/`.
 
 Install instructions live in [README.md](README.md). Keep this file focused on authoring and maintenance rules.
 
@@ -39,7 +39,7 @@ Start with `Use when the user asks to "..."`, then one sentence on function, the
 
 ## Quality Frameworks
 
-See [CLAUDE.md § Quality Frameworks](CLAUDE.md) for details. Summary:
+See [AGENTS.md § Quality Frameworks](AGENTS.md) for details. Summary:
 - **CORE-EEAT** (80 items, 8 dimensions): content quality. [Full reference](references/core-eeat-benchmark.md)
 - **CITE** (40 items, 4 dimensions): domain authority. [Full reference](references/cite-domain-rating.md)
 - Veto items: CORE-EEAT (T04, C01, R10) · CITE (T03, T05, T09)
@@ -50,13 +50,13 @@ Skills use `~~category` placeholders. See [CONNECTORS.md](CONNECTORS.md). Every 
 
 ## Inter-Skill Handoff
 
-See [CLAUDE.md § Inter-Skill Handoff](CLAUDE.md). Key fields: objective, findings, evidence, open loops, keyword, content type, scores (CORE-EEAT/CITE), priority items, URL.
+See [AGENTS.md § Inter-Skill Handoff](AGENTS.md). Key fields: objective, findings, evidence, open loops, keyword, content type, scores (CORE-EEAT/CITE), priority items, URL.
 
 ## Git Workflow
 
 - **Branch naming**: `feature/skill-name`, `fix/skill-name`, `docs/description`
 - **Conventional Commits**: `feat:`, `fix:`, `docs:`
-- **After skill changes**: update tracking files (VERSIONS.md, `.claude-plugin/plugin.json`, marketplace.json, README.md, CLAUDE.md). For release bumps, also sync localized README badges and marketplace mirrors.
+- **After skill changes**: update tracking files (VERSIONS.md, `.claude-plugin/plugin.json`, marketplace.json, README.md, AGENTS.md). For release bumps, also sync localized README badges and marketplace mirrors.
 - **Use `references/` for detail** — keep `SKILL.md` focused. Auditor-class skills inline the protocol runbook directly in their `SKILL.md` body.
 - **Validate**: `./scripts/validate-skill.sh <category>/<skill-name>` before release PRs.
 

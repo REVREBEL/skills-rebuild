@@ -437,7 +437,7 @@ Internal reference:
 External research:
 - [Eugene Yan: Evaluating the Effectiveness of LLM-Evaluators](https://eugeneyan.com/writing/llm-evaluators/)
 - [Judging LLM-as-a-Judge (Zheng et al., 2023)](https://arxiv.org/abs/2306.05685)
-- [G-Eval: NLG Evaluation using GPT-4 (Liu et al., 2023)](https://arxiv.org/abs/2303.16634)
+- [G-Eval: NLG Evaluation using the active model (Liu et al., 2023)](https://arxiv.org/abs/2303.16634)
 - [Large Language Models are not Fair Evaluators (Wang et al., 2023)](https://arxiv.org/abs/2305.17926)
 
 Related skills in this collection:

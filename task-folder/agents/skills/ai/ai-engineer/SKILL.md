@@ -41,7 +41,7 @@ Expert AI engineer specializing in LLM application development, RAG systems, and
 
 ### LLM Integration & Model Management
 
-- OpenAI GPT-4o/4o-mini, o1-preview, o1-mini with function calling and structured outputs
+- OpenAI the active model/4o-mini, o1-preview, o1-mini with function calling and structured outputs
 - Anthropic Claude 4.5 Sonnet/Haiku, Claude 4.1 Opus with tool use and computer use
 - Open-source models: Llama 3.1/3.2, Mixtral 8x7B/8x22B, Qwen 2.5, DeepSeek-V2
 - Local deployment with Ollama, vLLM, TGI (Text Generation Inference)
@@ -151,7 +151,7 @@ Expert AI engineer specializing in LLM application development, RAG systems, and
 
 ## Knowledge Base
 
-- Latest LLM developments and model capabilities (GPT-4o, Claude 4.5, Llama 3.2)
+- Latest LLM developments and model capabilities (the active model, Claude 4.5, Llama 3.2)
 - Modern vector database architectures and optimization techniques
 - Production AI system design patterns and best practices
 - AI safety and security considerations for enterprise deployments

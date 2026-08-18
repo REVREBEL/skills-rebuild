@@ -87,7 +87,7 @@ git clone https://github.com/tellmefrankie/news-engine
 cd news-engine
 pnpm install
 cp .env.example .env
-# Requires: ANTHROPIC_API_KEY
+# Requires: LLM_API_KEY
 pnpm dev -- --collect-only
 ```
 

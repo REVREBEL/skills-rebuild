@@ -42,7 +42,7 @@ For each query, test on all 6 platforms and record:
 | Platform | ChatGPT / Perplexity / **Google AI Mode** / Google AI Overview / Gemini / Copilot |
 | Query | Exact query text |
 | Date tested | For tracking changes over time |
-| Model version | e.g., GPT-4, Gemini Pro |
+| Model version | e.g., the active model, Gemini Pro |
 | Brand mentioned? | Yes / No |
 | Mention type | Cited, Recommended, Referenced, Mentioned, Absent, Misrepresented |
 | Exact text | Copy the AI-generated text mentioning (or not mentioning) the brand |

@@ -29,7 +29,7 @@ Description: $ARGUMENTS
 ## Instructions
 
 1. First, read the design system seed for context:
-   - Read `CLAUDE.md` for component conventions
+   - Read `AGENTS.md` for component conventions
    - Read `css/theme.css` for available design tokens
    - Read `components/ui/button.tsx` as a reference pattern
 

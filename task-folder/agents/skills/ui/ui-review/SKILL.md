@@ -64,7 +64,7 @@ Review the file: **$ARGUMENTS**
 
 ### 6. Typography
 - [ ] Uses the Pretendard/Inter font stack
-- [ ] Font sizes from the 14-step scale (10-48px, see CLAUDE.md)
+- [ ] Font sizes from the 14-step scale (10-48px, see AGENTS.md)
 - [ ] Proper font weights (400, 500, 600, 700)
 - [ ] Display text (36-48px): `leading-none` + `tracking-[-0.02em]`
 - [ ] Heading text (18-24px): `leading-snug` + `tracking-[-0.01em]`

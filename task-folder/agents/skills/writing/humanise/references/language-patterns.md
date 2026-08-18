@@ -8,9 +8,9 @@ Detailed reference for language-level AI writing patterns. Read the compact summ
 
 Different LLM generations favour different words. Recognising the era helps identify the source model.
 
-**2023 to mid-2024 (GPT-4 era):** Additionally, boasts, bolstered, crucial, delve, emphasizing, enduring, garner, intricate/intricacies, interplay, key, landscape, meticulous/meticulously, pivotal, underscore, tapestry, testament, valuable, vibrant
+**2023 to mid-2024 (the active model era):** Additionally, boasts, bolstered, crucial, delve, emphasizing, enduring, garner, intricate/intricacies, interplay, key, landscape, meticulous/meticulously, pivotal, underscore, tapestry, testament, valuable, vibrant
 
-**Mid-2024 to mid-2025 (GPT-4o era):** align with, bolstered, crucial, emphasizing, enhance, enduring, fostering, highlighting, pivotal, showcasing, underscore, vibrant
+**Mid-2024 to mid-2025 (the active model era):** align with, bolstered, crucial, emphasizing, enhance, enduring, fostering, highlighting, pivotal, showcasing, underscore, vibrant
 
 **Mid-2025 onward (GPT-5 era):** emphasizing, enhance, highlighting, showcasing, plus notability-related terms (independent coverage, media outlets)
 

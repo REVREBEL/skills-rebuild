@@ -26,13 +26,13 @@
       "owned_by": "openai"
     },
     {
-      "id": "gpt-4o",
+      "id": "the active model",
       "object": "model",
       "created": 1683158400,
       "owned_by": "openai"
     },
     {
-      "id": "gpt-4-turbo",
+      "id": "the active model-turbo",
       "object": "model",
       "created": 1680566400,
       "owned_by": "openai"

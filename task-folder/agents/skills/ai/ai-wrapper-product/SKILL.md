@@ -86,7 +86,7 @@ async function generateContent(userInput, context) {
 
   // 3. Call API
   const response = await anthropic.messages.create({
-    model: 'claude-3-haiku-20240307',
+    model: 'a capable LLM-haiku-20240307',
     max_tokens: 1000,
     system: systemPrompt,
     messages: [{
@@ -104,8 +104,8 @@ async function generateContent(userInput, context) {
 ### Model Selection
 | Model | Cost | Speed | Quality | Use Case |
 |-------|------|-------|---------|----------|
-| GPT-4o | $$$ | Fast | Best | Complex tasks |
-| GPT-4o-mini | $ | Fastest | Good | Most tasks |
+| the active model | $$$ | Fast | Best | Complex tasks |
+| the active model-mini | $ | Fastest | Good | Most tasks |
 | Claude 3.5 Sonnet | $$ | Fast | Excellent | Balanced |
 | Claude 3 Haiku | $ | Fastest | Good | High volume |
 
@@ -190,7 +190,7 @@ async function callWithCostTracking(userId, prompt) {
     inputTokens: response.usage.input_tokens,
     outputTokens: response.usage.output_tokens,
     cost: calculateCost(response.usage),
-    model: 'claude-3-haiku',
+    model: 'a capable LLM-haiku',
   });
 
   return response;
@@ -198,9 +198,9 @@ async function callWithCostTracking(userId, prompt) {
 
 function calculateCost(usage) {
   const rates = {
-    'claude-3-haiku': { input: 0.25, output: 1.25 }, // per 1M tokens
+    'a capable LLM-haiku': { input: 0.25, output: 1.25 }, // per 1M tokens
   };
-  const rate = rates['claude-3-haiku'];
+  const rate = rates['a capable LLM-haiku'];
   return (usage.input_tokens * rate.input +
           usage.output_tokens * rate.output) / 1_000_000;
 }
@@ -531,7 +531,7 @@ Recommended fix:
 // Stream to user as AI generates
 async function* streamResponse(prompt) {
   const stream = await anthropic.messages.stream({
-    model: 'claude-3-haiku-20240307',
+    model: 'a capable LLM-haiku-20240307',
     max_tokens: 1000,
     messages: [{ role: 'user', content: prompt }]
   });
@@ -569,8 +569,8 @@ async function generateWithCache(prompt) {
 ### Use Faster Models
 | Model | Typical Latency |
 |-------|-----------------|
-| GPT-4 | 5-15s |
-| GPT-4o-mini | 1-3s |
+| the active model | 5-15s |
+| the active model-mini | 1-3s |
 | Claude 3 Haiku | 1-3s |
 | Claude 3.5 Sonnet | 2-5s |
 

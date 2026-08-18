@@ -44,7 +44,7 @@ async function requestWithRetry(fn, maxRetries = 3) {
 | Rate limit scope | Per-gateway, not per-user (use dynamic routing for per-user) |
 | Log delay | 30-60 seconds normal |
 | Streaming + caching | **Incompatible** |
-| Model name (unified API) | Prefix required: `openai/gpt-4o`, not `gpt-4o` |
+| Model name (unified API) | Prefix required: `openai/the active model`, not `the active model` |
 
 ## Cache Not Working
 

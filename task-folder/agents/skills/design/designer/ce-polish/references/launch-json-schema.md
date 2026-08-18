@@ -1,6 +1,6 @@
 # `.claude/launch.json` schema
 
-Polish reads `.claude/launch.json` at the repo root to resolve the dev-server start command. The schema is a subset of VS Code's `launch.json` format — chosen because Claude Code, Cursor, and VS Code all understand it and because users often already have one for editor integration.
+Polish reads `.claude/launch.json` at the repo root to resolve the dev-server start command. The schema is a subset of VS Code's `launch.json` format — chosen because the agent, Cursor, and VS Code all understand it and because users often already have one for editor integration.
 
 ## Top-level shape
 
@@ -169,8 +169,8 @@ Polish does not use `type`, `request`, `console`, `stopOnEntry`, or any of the o
 
 ## Cross-IDE notes
 
-`.claude/launch.json` is not yet a fully unified standard across Claude Code, Cursor, VS Code, and Codex. Polish leads with `.claude/launch.json` because:
-- Claude Code, Cursor, and VS Code can all read it as a launch config
+`.claude/launch.json` is not yet a fully unified standard across the agent, Cursor, VS Code, and Codex. Polish leads with `.claude/launch.json` because:
+- the agent, Cursor, and VS Code can all read it as a launch config
 - It sits at a clean repo-root trust boundary (user-authored, not auto-detected)
 - Users who prefer `.vscode/launch.json` can symlink or mirror the two files manually
 

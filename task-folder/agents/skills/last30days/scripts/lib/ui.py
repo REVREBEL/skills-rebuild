@@ -7,7 +7,7 @@ import threading
 import random
 from typing import Optional
 
-# Check if we're in a real terminal (not captured by Claude Code)
+# Check if we're in a real terminal (not captured by the agent)
 IS_TTY = sys.stderr.isatty()
 
 # ANSI color codes
@@ -87,7 +87,7 @@ PROMO_MESSAGE = f"""
 {Colors.DIM}Right now you're using web search only. Add API keys to unlock:{Colors.RESET}
 
   {Colors.YELLOW}🟠 Reddit{Colors.RESET} - Real upvotes, comments, and community insights
-     └─ Add OPENAI_API_KEY (uses OpenAI's web_search for Reddit)
+     └─ Add LLM_API_KEY (uses OpenAI's web_search for Reddit)
 
   {Colors.CYAN}🔵 X (Twitter){Colors.RESET} - Real-time posts, likes, reposts from creators
      └─ Add XAI_API_KEY (uses xAI's live X search)
@@ -103,7 +103,7 @@ PROMO_MESSAGE_PLAIN = """
 Right now you're using web search only. Add API keys to unlock:
 
   🟠 Reddit - Real upvotes, comments, and community insights
-     └─ Add OPENAI_API_KEY (uses OpenAI's web_search for Reddit)
+     └─ Add LLM_API_KEY (uses OpenAI's web_search for Reddit)
 
   🔵 X (Twitter) - Real-time posts, likes, reposts from creators
      └─ Add XAI_API_KEY (uses xAI's live X search)
@@ -115,7 +115,7 @@ Setup: Edit ~/.config/last30days/.env
 # Shorter promo for single missing key
 PROMO_SINGLE_KEY = {
     "reddit": f"""
-{Colors.DIM}💡 Tip: Add {Colors.YELLOW}OPENAI_API_KEY{Colors.RESET}{Colors.DIM} to ~/.config/last30days/.env for Reddit data with real engagement metrics!{Colors.RESET}
+{Colors.DIM}💡 Tip: Add {Colors.YELLOW}LLM_API_KEY{Colors.RESET}{Colors.DIM} to ~/.config/last30days/.env for Reddit data with real engagement metrics!{Colors.RESET}
 """,
     "x": f"""
 {Colors.DIM}💡 Tip: Add {Colors.CYAN}XAI_API_KEY{Colors.RESET}{Colors.DIM} to ~/.config/last30days/.env for X/Twitter data with real likes & reposts!{Colors.RESET}
@@ -123,7 +123,7 @@ PROMO_SINGLE_KEY = {
 }
 
 PROMO_SINGLE_KEY_PLAIN = {
-    "reddit": "\n💡 Tip: Add OPENAI_API_KEY to ~/.config/last30days/.env for Reddit data with real engagement metrics!\n",
+    "reddit": "\n💡 Tip: Add LLM_API_KEY to ~/.config/last30days/.env for Reddit data with real engagement metrics!\n",
     "x": "\n💡 Tip: Add XAI_API_KEY to ~/.config/last30days/.env for X/Twitter data with real likes & reposts!\n",
 }
 
@@ -158,7 +158,7 @@ class Spinner:
             self.thread = threading.Thread(target=self._spin, daemon=True)
             self.thread.start()
         else:
-            # Not a TTY (Claude Code) - just print once
+            # Not a TTY (the agent) - just print once
             if not self.shown_static:
                 sys.stderr.write(f"⏳ {self.message}\n")
                 sys.stderr.flush()

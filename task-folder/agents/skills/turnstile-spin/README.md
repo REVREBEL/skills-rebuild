@@ -22,7 +22,7 @@ This is a mirror of the canonical docs page at [`developers.cloudflare.com/turns
 Agents that load skill bundles from `github.com/cloudflare/skills` will pick this up automatically. For agents that load skills out of a local directory:
 
 ```sh
-# Claude Code
+# the agent
 mkdir -p .claude/skills/turnstile-spin && \
   curl -sSL https://developers.cloudflare.com/turnstile/spin.md \
   -o .claude/skills/turnstile-spin/SKILL.md

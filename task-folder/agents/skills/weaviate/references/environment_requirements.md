@@ -11,7 +11,7 @@ Use this reference when building apps that connect to Weaviate and require exter
 
 | Provider | Environment Variable(s) | Header(s) sent to Weaviate |
 |----------|--------------------------|-----------------------------|
-| Anthropic | `ANTHROPIC_API_KEY` | `X-Anthropic-Api-Key` |
+| Anthropic | `LLM_API_KEY` | `X-Anthropic-Api-Key` |
 | Anyscale | `ANYSCALE_API_KEY` | `X-Anyscale-Api-Key` |
 | AWS | `AWS_ACCESS_KEY`, `AWS_SECRET_KEY` | `X-Aws-Access-Key`, `X-Aws-Secret-Key` |
 | Cohere | `COHERE_API_KEY` | `X-Cohere-Api-Key` |
@@ -23,7 +23,7 @@ Use this reference when building apps that connect to Weaviate and require exter
 | Jina AI | `JINAAI_API_KEY` | `X-JinaAI-Api-Key` |
 | Mistral | `MISTRAL_API_KEY` | `X-Mistral-Api-Key` |
 | NVIDIA | `NVIDIA_API_KEY` | `X-Nvidia-Api-Key` |
-| OpenAI | `OPENAI_API_KEY` | `X-OpenAI-Api-Key` |
+| OpenAI | `LLM_API_KEY` | `X-OpenAI-Api-Key` |
 | Azure OpenAI | `AZURE_API_KEY` | `X-Azure-Api-Key` |
 | Voyage AI | `VOYAGE_API_KEY` | `X-Voyage-Api-Key` |
 | xAI | `XAI_API_KEY` | `X-Xai-Api-Key` |
@@ -31,7 +31,7 @@ Use this reference when building apps that connect to Weaviate and require exter
 ## Usage Notes
 
 - Provider keys are not forwarded automatically. Set `WEAVIATE_PROVIDER_KEYS`
-  to a comma-separated allowlist, for example `OPENAI_API_KEY,COHERE_API_KEY`.
+  to a comma-separated allowlist, for example `LLM_API_KEY,COHERE_API_KEY`.
 - Set only the provider keys your collection configuration actually uses.
 - If multiple providers are configured, include only those corresponding
   headers.

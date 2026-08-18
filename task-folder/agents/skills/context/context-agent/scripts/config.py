@@ -18,7 +18,7 @@ ACTIVE_CONTEXT_PATH = DATA_DIR / "ACTIVE_CONTEXT.md"
 PROJECT_REGISTRY_PATH = DATA_DIR / "PROJECT_REGISTRY.md"
 DB_PATH = DATA_DIR / "context.db"
 
-# ── Claude Code session logs ────────────────────────────────────────
+# ── the agent session logs ────────────────────────────────────────
 CLAUDE_PROJECTS_DIR = Path(r"C:\Users\renat\.claude\projects")
 CLAUDE_SESSION_DIR = CLAUDE_PROJECTS_DIR / "C--Users-renat-skills"
 MEMORY_DIR = CLAUDE_SESSION_DIR / "memory"

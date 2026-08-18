@@ -30,7 +30,7 @@ hits clear limits. | Examples: Good: Company docs in vector store, retrieved at 
 Show progress. Pre-compute when possible. Cache aggressively. | Examples: Good: Streaming response with typing indicator, cached embeddings | Bad: Spinner for 15 seconds, then wall of text appears
 - Cost is a feature | Description: LLM API costs add up fast. At scale, inefficient prompts bankrupt you.
 Measure cost per query. Use smaller models where possible. Cache
-everything cacheable. | Examples: Good: GPT-4 for complex tasks, GPT-3.5 for simple ones, cached embeddings | Bad: GPT-4 for everything, no caching, verbose prompts
+everything cacheable. | Examples: Good: the active model for complex tasks, GPT-3.5 for simple ones, cached embeddings | Bad: the active model for everything, no caching, verbose prompts
 
 ## Patterns
 
@@ -49,7 +49,7 @@ const schema = z.object({
 });
 
 const response = await openai.chat.completions.create({
-  model: 'gpt-4',
+  model: 'the active model',
   messages: [{ role: 'user', content: prompt }],
   response_format: { type: 'json_object' }
 });
@@ -63,7 +63,7 @@ Stream LLM responses to show progress and reduce perceived latency
 **When to use**: User-facing chat or generation features
 
 const stream = await openai.chat.completions.create({
-  model: 'gpt-4',
+  model: 'the active model',
   messages,
   stream: true
 });
@@ -188,7 +188,7 @@ const ResponseSchema = z.object({
 
 async function queryLLM(prompt: string) {
   const response = await openai.chat.completions.create({
-    model: 'gpt-4',
+    model: 'the active model',
     messages: [{ role: 'user', content: prompt }],
     response_format: { type: 'json_object' },
   });
@@ -276,7 +276,7 @@ Recommended fix:
 ```typescript
 import { encoding_for_model } from 'tiktoken';
 
-const enc = encoding_for_model('gpt-4');
+const enc = encoding_for_model('the active model');
 
 function countTokens(text: string): number {
   return enc.encode(text).length;
@@ -331,7 +331,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
 
   const response = await openai.chat.completions.create({
-    model: 'gpt-4',
+    model: 'the active model',
     messages,
     stream: true,
   });
@@ -366,7 +366,7 @@ Symptoms:
 - No rate limiting per user
 
 Why this breaks:
-LLM costs add up fast. GPT-4 is $30-60 per million tokens. Without
+LLM costs add up fast. the active model is $30-60 per million tokens. Without
 tracking, you won't know until the bill arrives. At scale, this is
 existential.
 
@@ -381,7 +381,7 @@ async function queryWithCostTracking(prompt: string, userId: string) {
   const usage = response.usage;
   await db.llmUsage.create({
     userId,
-    model: 'gpt-4',
+    model: 'the active model',
     inputTokens: usage.prompt_tokens,
     outputTokens: usage.completion_tokens,
     cost: calculateCost(usage),

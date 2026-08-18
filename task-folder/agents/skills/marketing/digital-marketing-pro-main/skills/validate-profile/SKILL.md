@@ -78,7 +78,7 @@ For every entry in `target_jurisdictions`, confirm `skills/context-engine/compli
 For each backend referenced in `tracking.backend`, `integrations.crm`, `integrations.email`, `integrations.cms`, `integrations.analytics`, `integrations.social`, run the matching health probe via `scripts/connector-status.py`:
 
 ```bash
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/connector-status.py \
+python3 ${SKILL_ROOT}/scripts/connector-status.py \
     --brand "{brand}" \
     --connectors "{comma-separated list inferred from profile}" \
     --probe-only --no-secrets
@@ -112,7 +112,7 @@ fi
 ### Step 6 — Model-curator currency
 
 ```bash
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/resolve_model.py --registry-age
+python3 ${SKILL_ROOT}/scripts/resolve_model.py --registry-age
 ```
 
 If the registry is more than **90 days** old, WARN: `"model_registry.json is {N} days old — frontier models change every ~6 weeks. Run scripts/refresh_models.py to check drift."` (Do not block — the curator auto-falls-forward on deprecated ids, so an older registry is degraded, not broken.)

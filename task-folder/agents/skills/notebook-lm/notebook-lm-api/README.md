@@ -1,15 +1,15 @@
 <div align="center">
 
-# NotebookLM Claude Code Skill
+# NotebookLM the agent Skill
 
-**Let [Claude Code](https://github.com/anthropics/claude-code) chat directly with NotebookLM for source-grounded answers based exclusively on your uploaded documents**
+**Let [the agent](https://github.com/anthropics/claude-code) chat directly with NotebookLM for source-grounded answers based exclusively on your uploaded documents**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://www.anthropic.com/news/skills)
+[![the agent Skill](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://www.anthropic.com/news/skills)
 [![Based on](https://img.shields.io/badge/Based%20on-NotebookLM%20MCP-green.svg)](https://github.com/PleasePrompto/notebooklm-mcp)
 [![GitHub](https://img.shields.io/github/stars/PleasePrompto/notebooklm-skill?style=social)](https://github.com/PleasePrompto/notebooklm-skill)
 
-> Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations - answers only from your uploaded documents.
+> Use this skill to query your Google NotebookLM notebooks directly from the agent for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations - answers only from your uploaded documents.
 
 [Installation](#installation) • [Quick Start](#quick-start) • [Why NotebookLM](#why-notebooklm-not-local-rag) • [How It Works](#how-it-works) • [MCP Alternative](https://github.com/PleasePrompto/notebooklm-mcp)
 
@@ -17,17 +17,17 @@
 
 ---
 
-## ⚠️ Important: Local Claude Code Only
+## ⚠️ Important: Local the agent Only
 
-**This skill works ONLY with local [Claude Code](https://github.com/anthropics/claude-code) installations, NOT in the web UI.**
+**This skill works ONLY with local [the agent](https://github.com/anthropics/claude-code) installations, NOT in the web UI.**
 
-The web UI runs skills in a sandbox without network access, which this skill requires for browser automation. You must use [Claude Code](https://github.com/anthropics/claude-code) locally on your machine.
+The web UI runs skills in a sandbox without network access, which this skill requires for browser automation. You must use [the agent](https://github.com/anthropics/claude-code) locally on your machine.
 
 ---
 
 ## The Problem
 
-When you tell [Claude Code](https://github.com/anthropics/claude-code) to "search through my local documentation", here's what happens:
+When you tell [the agent](https://github.com/anthropics/claude-code) to "search through my local documentation", here's what happens:
 - **Massive token consumption**: Searching through documentation means reading multiple files repeatedly
 - **Inaccurate retrieval**: Searches for keywords, misses context and connections between docs
 - **Hallucinations**: When it can't find something, it invents plausible-sounding APIs
@@ -35,7 +35,7 @@ When you tell [Claude Code](https://github.com/anthropics/claude-code) to "searc
 
 ## The Solution
 
-This Claude Code Skill lets [Claude Code](https://github.com/anthropics/claude-code) chat directly with [**NotebookLM**](https://notebooklm.google/) — Google's **source-grounded knowledge base** powered by Gemini 2.5 that provides intelligent, synthesized answers exclusively from your uploaded documents.
+This the agent Skill lets [the agent](https://github.com/anthropics/claude-code) chat directly with [**NotebookLM**](https://notebooklm.google/) — Google's **source-grounded knowledge base** powered by Gemini 2.5 that provides intelligent, synthesized answers exclusively from your uploaded documents.
 
 ```
 Your Task → Claude asks NotebookLM → Gemini synthesizes answer → Claude writes correct code
@@ -76,7 +76,7 @@ mkdir -p ~/.claude/skills
 cd ~/.claude/skills
 git clone https://github.com/PleasePrompto/notebooklm-skill notebooklm
 
-# 3. That's it! Open Claude Code and say:
+# 3. That's it! Open the agent and say:
 "What are my skills?"
 ```
 
@@ -94,7 +94,7 @@ When you first use the skill, it automatically:
 
 ### 1. Check your skills
 
-Say in Claude Code:
+Say in the agent:
 ```
 "What skills do I have?"
 ```
@@ -144,7 +144,7 @@ Claude automatically selects the right notebook and gets the answer directly fro
 
 ## How It Works
 
-This is a **Claude Code Skill** - a local folder containing instructions and scripts that Claude Code can use when needed. Unlike the [MCP server version](https://github.com/PleasePrompto/notebooklm-mcp), this runs directly in Claude Code without needing a separate server.
+This is a **the agent Skill** - a local folder containing instructions and scripts that the agent can use when needed. Unlike the [MCP server version](https://github.com/PleasePrompto/notebooklm-mcp), this runs directly in the agent without needing a separate server.
 
 ### Key Differences from MCP Server
 
@@ -153,7 +153,7 @@ This is a **Claude Code Skill** - a local folder containing instructions and scr
 | **Protocol** | Claude Skills | Model Context Protocol |
 | **Installation** | Clone to `~/.claude/skills` | `claude mcp add ...` |
 | **Sessions** | Fresh browser each question | Persistent chat sessions |
-| **Compatibility** | Claude Code only (local) | Claude Code, Codex, Cursor, etc. |
+| **Compatibility** | the agent only (local) | the agent, Codex, Cursor, etc. |
 | **Language** | Python | TypeScript |
 | **Distribution** | Git clone | npm package |
 
@@ -295,7 +295,7 @@ For multi-step research, Claude automatically asks follow-up questions when need
 ## Limitations
 
 ### Skill-Specific
-- **Local Claude Code only** - Does not work in web UI (sandbox restrictions)
+- **Local the agent only** - Does not work in web UI (sandbox restrictions)
 - **No session persistence** - Each question is independent
 - **No follow-up context** - Can't reference "the previous answer"
 
@@ -315,7 +315,7 @@ The web UI runs skills in a sandbox without network access. Browser automation r
 This is a simpler, Python-based implementation that runs directly as a Claude Skill. The MCP server is more feature-rich with persistent sessions and works with multiple tools (Codex, Cursor, etc.).
 
 **Can I use both this skill and the MCP server?**
-Yes! They serve different purposes. Use the skill for quick Claude Code integration, use the MCP server for persistent sessions and multi-tool support.
+Yes! They serve different purposes. Use the skill for quick the agent integration, use the MCP server for persistent sessions and multi-tool support.
 
 **What if Chrome crashes?**
 Run: `"Clear NotebookLM browser data"` and try again.
@@ -360,7 +360,7 @@ This tool automates browser interactions with NotebookLM to make your workflow m
 While I've built in humanization features (realistic typing speeds, natural delays, mouse movements) to make the automation behave more naturally, I can't guarantee Google won't detect or flag automated usage. I recommend using a dedicated Google account for automation rather than your primary account—think of it like web scraping: probably fine, but better safe than sorry!
 
 **About CLI tools and AI agents:**
-CLI tools like Claude Code, Codex, and similar AI-powered assistants are incredibly powerful, but they can make mistakes. Please use them with care and awareness:
+CLI tools like the agent, Codex, and similar AI-powered assistants are incredibly powerful, but they can make mistakes. Please use them with care and awareness:
 - Always review changes before committing or deploying
 - Test in safe environments first
 - Keep backups of important work
@@ -374,15 +374,15 @@ That said, if you run into problems or have questions, feel free to open an issu
 
 ## Credits
 
-This skill is inspired by my [**NotebookLM MCP Server**](https://github.com/PleasePrompto/notebooklm-mcp) and provides an alternative implementation as a Claude Code Skill:
+This skill is inspired by my [**NotebookLM MCP Server**](https://github.com/PleasePrompto/notebooklm-mcp) and provides an alternative implementation as a the agent Skill:
 - Both use Patchright for browser automation (TypeScript for MCP, Python for Skill)
-- Skill version runs directly in Claude Code without MCP protocol
+- Skill version runs directly in the agent without MCP protocol
 - Stateless design optimized for skill architecture
 
 If you need:
 - **Persistent sessions** → Use the [MCP Server](https://github.com/PleasePrompto/notebooklm-mcp)
 - **Multiple tool support** (Codex, Cursor) → Use the [MCP Server](https://github.com/PleasePrompto/notebooklm-mcp)
-- **Quick Claude Code integration** → Use this skill
+- **Quick the agent integration** → Use this skill
 
 ---
 
@@ -392,21 +392,21 @@ If you need:
 
 **With this skill**: Claude researches directly → Gets answers instantly → Writes correct code
 
-Stop the copy-paste dance. Start getting accurate, grounded answers directly in Claude Code.
+Stop the copy-paste dance. Start getting accurate, grounded answers directly in the agent.
 
 ```bash
 # Get started in 30 seconds
 cd ~/.claude/skills
 git clone https://github.com/PleasePrompto/notebooklm-skill notebooklm
-# Open Claude Code: "What are my skills?"
+# Open the agent: "What are my skills?"
 ```
 
 ---
 
 <div align="center">
 
-Built as a Claude Code Skill adaptation of my [NotebookLM MCP Server](https://github.com/PleasePrompto/notebooklm-mcp)
+Built as a the agent Skill adaptation of my [NotebookLM MCP Server](https://github.com/PleasePrompto/notebooklm-mcp)
 
-For source-grounded, document-based research directly in Claude Code
+For source-grounded, document-based research directly in the agent
 
 </div>

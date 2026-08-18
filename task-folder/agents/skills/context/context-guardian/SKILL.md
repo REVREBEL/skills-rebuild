@@ -42,14 +42,14 @@ Guardiao de contexto que preserva dados criticos antes da compactacao automatica
 ## How It Works
 
 Sistema de integridade de contexto que protege projetos tecnicoss complexos contra
-perda de informacao durante compactacao automatica do Claude Code. Enquanto o
+perda de informacao durante compactacao automatica do the agent. Enquanto o
 `context-agent` atua APOS as sessoes (save/load), o context-guardian atua DURANTE
 a sessao, detectando quando a compactacao esta proxima e executando protocolos de
 preservacao com verificacao redundante.
 
 ## Por Que Isto Existe
 
-O Claude Code compacta automaticamente mensagens antigas quando o contexto se
+O the agent compacta automaticamente mensagens antigas quando o contexto se
 aproxima do limite da janela. Essa compactacao e heuristica — ela resume mensagens
 para liberar espaco, mas inevitavelmente perde detalhes. Para projetos simples,
 isso funciona bem. Mas para projetos tecnicos pesados (como ecossistemas com 21+

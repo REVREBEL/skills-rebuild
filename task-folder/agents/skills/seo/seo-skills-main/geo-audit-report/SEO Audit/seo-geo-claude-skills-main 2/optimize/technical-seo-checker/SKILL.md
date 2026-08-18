@@ -3,7 +3,7 @@ name: technical-seo-checker
 description: 'Use when the user asks to "check technical SEO"; audits crawlability, indexing, Core Web Vitals, robots.txt, sitemaps, canonicals, redirects, and migrations. Not for on-page tags or content — use on-page-seo-auditor. 技术SEO/网站速度'
 version: "9.9.10"
 license: Apache-2.0
-compatibility: "Claude Code and compatible agent-skill hosts"
+compatibility: "the agent and compatible agent-skill hosts"
 homepage: "https://github.com/aaron-he-zhu/seo-geo-claude-skills"
 when_to_use: "Use when checking technical SEO health: site speed, Core Web Vitals, indexing, crawlability, robots.txt, sitemaps, canonical tags, 技术SEO, 网站速度, 核心网页指标, 索引问题, or Google找不到页面."
 argument-hint: "<URL or domain>"

@@ -30,7 +30,7 @@ This skill enables makepad-skills to self-improve continuously during developmen
 
 ## Hooks-Based Auto-Triggering
 
-For reliable automatic triggering, use Claude Code hooks. Install with `--with-hooks`:
+For reliable automatic triggering, use the agent hooks. Install with `--with-hooks`:
 
 ```bash
 # Install makepad-skills with hooks enabled

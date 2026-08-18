@@ -64,15 +64,15 @@ When design-thinking identifies a need for visual assets (logos, icons, hero ima
 
 When design work involves running an LLM (generative assets, VLM analysis, layout critique, prompt generation, etc.):
 
-- **Before running:** state which model will be used and the estimated cost (e.g., "gpt-4o-mini · ~$0.005/image" or "FLUX v1 · ~$0.006 per gen").
+- **Before running:** state which model will be used and the estimated cost (e.g., "the active model-mini · ~$0.005/image" or "FLUX v1 · ~$0.006 per gen").
 - **After results:** annotate the output with the model used, actual cost if different from estimate, and any key params (seed, prompt, settings). Cost goes *visible to the user* (in the message, contact sheet header, or asset caption), not buried in logs.
 - **Why:** the user is deciding whether the cost-to-quality trade-off is worth it. Unlabeled or hidden costs hide the most important lever. This rule mirrors `media-attribution-rule` for generative assets and extends it to any LLM operation in the design workflow.
 
 **Examples:**
-- "Running gpt-4o-mini layout critique on 8 designs · est. ~$0.04 total" (before).
+- "Running the active model-mini layout critique on 8 designs · est. ~$0.04 total" (before).
 - Contact sheet header: "FLUX v1 · $0.48 total (6 gen × $0.08)" (after).
 - Asset caption: "hero_banner_flux-dev_seed3891.jpg" (seeds enable reproducibility).
-- Uncertainty slider result: "VLM triage on 46,978 images · gpt-4o-mini · ~$9.40" (before); "✓ Completed: 12,447 images classified · gpt-4o-mini · $7.62" (after).
+- Uncertainty slider result: "VLM triage on 46,978 images · the active model-mini · ~$9.40" (before); "✓ Completed: 12,447 images classified · the active model-mini · $7.62" (after).
 
 ## Algorithm / model explainers — show the equation, annotate the terms
 

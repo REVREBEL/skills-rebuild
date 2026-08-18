@@ -208,7 +208,7 @@ crew = Crew(
     agents=[researcher, analyst, writer],
     tasks=[research_task, analysis_task, writing_task],
     process=Process.hierarchical,
-    manager_llm=ChatOpenAI(model="gpt-4o"),  # Manager model
+    manager_llm=ChatOpenAI(model="the active model"),  # Manager model
     verbose=True
 )
 
@@ -233,7 +233,7 @@ crew = Crew(
     tasks=[research, write, review],
     process=Process.sequential,
     planning=True,  # Enable planning
-    planning_llm=ChatOpenAI(model="gpt-4o")  # Planner model
+    planning_llm=ChatOpenAI(model="the active model")  # Planner model
 )
 
 # With planning enabled:

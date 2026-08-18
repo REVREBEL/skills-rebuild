@@ -367,7 +367,7 @@ Metricas customizadas publicadas:
 | Integracao smart home | Alta | Maxima | Media | Alta | Baixa |
 | Personalidade consistente | Alta | Media | Media | Media | Alta |
 | Hardware proprio | Usa Echo | Echo | HomePod | Nest | App only |
-| Modelo base | Claude Opus 4 | Alexa LLM | Apple LLM | Gemini | GPT-4o |
+| Modelo base | Claude Opus 4 | Alexa LLM | Apple LLM | Gemini | the active model |
 | Privacidade | Alta | Media | Maxima | Baixa | Media |
 | Preco | R\/usr/bin/bash-99/mes | Gratis | Gratis | Gratis | R /mes |
 | Disponivel no Brasil | Sim | Sim | Sim | Sim | Sim |

@@ -8,6 +8,7 @@ source_type: official
 date_added: 2026-07-01
 license: Apache-2.0
 license_source: https://github.com/google-gemini/gemini-skills/blob/main/LICENSE
+compatibility: 'Intrinsic platform/provider dependency: gemini-omni-flash-api'
 ---
 
 # Gemini Omni Flash Skill

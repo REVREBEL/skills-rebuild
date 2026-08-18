@@ -1,5 +1,5 @@
 ---
-name: internal-comms-anthropic
+name: internal-comms-guidelines
 description: "To write internal communications, use this skill for:"
 risk: unknown
 source: community

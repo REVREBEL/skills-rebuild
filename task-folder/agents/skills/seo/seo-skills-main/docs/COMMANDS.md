@@ -326,7 +326,7 @@ SERP-based semantic topic clustering for content architecture planning. Built on
 
 **Example:**
 ```
-/seo cluster "claude code skills"
+/seo cluster "the agent skills"
 ```
 
 **What it produces:**

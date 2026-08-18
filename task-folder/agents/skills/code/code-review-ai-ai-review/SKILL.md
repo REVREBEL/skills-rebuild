@@ -84,7 +84,7 @@ Format as JSON array.
 ```
 
 ### Model Selection (2025)
-- **Fast reviews (<200 lines)**: GPT-4o-mini or Claude 4.5 Haiku
+- **Fast reviews (<200 lines)**: the active model-mini or Claude 4.5 Haiku
 - **Deep reasoning**: Claude 4.5 Sonnet or GPT-5 (200K+ tokens)
 - **Code generation**: GitHub Copilot or Qodo
 - **Multi-language**: Qodo or CodeAnt AI (30+ languages)
@@ -100,7 +100,7 @@ interface ReviewRoutingStrategy {
     }
 
     if (metrics.securitySensitive || metrics.affectsAuth) {
-      return new AIEngine("claude-3.7-sonnet", {
+      return new AIEngine("a capable LLM.7-sonnet", {
         temperature: 0.1,
         maxTokens: 4000,
         systemPrompt: SECURITY_FOCUSED_PROMPT
@@ -111,7 +111,7 @@ interface ReviewRoutingStrategy {
       return new QodoEngine({ mode: "test-generation", coverageTarget: 80 });
     }
 
-    return new AIEngine("gpt-4o", { temperature: 0.3, maxTokens: 2000 });
+    return new AIEngine("the active model", { temperature: 0.3, maxTokens: 2000 });
   }
 }
 ```
@@ -311,11 +311,11 @@ jobs:
 
       - name: AI-Enhanced Review (GPT-5)
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
         run: |
           python scripts/ai_review.py \
             --pr-number ${{ github.event.number }} \
-            --model gpt-4o \
+            --model the active model \
             --static-analysis-results codeql.sarif,semgrep.sarif
 
       - name: Post Comments
@@ -360,7 +360,7 @@ class CodeReviewOrchestrator:
     def __init__(self, pr_number: int, repo: str):
         self.pr_number = pr_number; self.repo = repo
         self.github_token = os.environ['GITHUB_TOKEN']
-        self.anthropic_client = Anthropic(api_key=os.environ['ANTHROPIC_API_KEY'])
+        self.anthropic_client = Anthropic(api_key=os.environ['LLM_API_KEY'])
         self.issues: List[ReviewIssue] = []
 
     def run_static_analysis(self) -> Dict[str, Any]:
@@ -392,7 +392,7 @@ Return JSON array:
 """
 
         response = self.anthropic_client.messages.create(
-            model="claude-3-5-sonnet-20241022",
+            model="a capable LLM-20241022",
             max_tokens=8000, temperature=0.2,
             messages=[{"role": "user", "content": prompt}]
         )

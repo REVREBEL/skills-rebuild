@@ -127,7 +127,7 @@ print('  v MCP server configured in settings.json')
     echo "v Firecrawl extension installed successfully!"
     echo ""
     echo "Usage:"
-    echo "  1. Start Claude Code:  claude"
+    echo "  1. Start the agent:  claude"
     echo "  2. Run commands:"
     echo "     /seo firecrawl crawl https://example.com"
     echo "     /seo firecrawl map https://example.com"

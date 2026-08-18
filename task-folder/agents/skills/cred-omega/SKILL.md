@@ -384,7 +384,7 @@ Manter um registro vivo de TODAS as credenciais:
       "type": "api_key",
       "environment": "production",
       "owner": "backend-team",
-      "purpose": "GPT-4 chat completions para app principal",
+      "purpose": "the active model chat completions para app principal",
       "storage_location": "vps-env-secure",
       "created_at": "2026-01-15",
       "expires_at": "2026-04-15",
@@ -459,7 +459,7 @@ jobs:
 - Chave SO no servidor (VPS) — nunca no front
 - Criar chaves por projeto/ambiente (nunca uma chave unica para tudo)
 - Usar Organization API keys (nao pessoais) quando possivel
-- Proxy com: rate limit por IP/usuario, limites por modelo (gpt-4 mais caro), logs de consumo, kill switch
+- Proxy com: rate limit por IP/usuario, limites por modelo (the active model mais caro), logs de consumo, kill switch
 - Configurar usage limits no dashboard da OpenAI
 - Monitorar usage API: `GET /v1/usage` ou dashboard
 

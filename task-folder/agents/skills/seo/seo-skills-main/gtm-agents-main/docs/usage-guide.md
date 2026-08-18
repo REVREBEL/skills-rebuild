@@ -44,11 +44,11 @@
   --segment enterprise \
   --goal pipeline
 ```
-# GTM Claude Code Plugins - Usage Guide
+# GTM the agent Plugins - Usage Guide
 
 ## Getting Started
 
-Welcome to the GTM (Go-To-Market) Claude Code plugin marketplace! This guide will help you leverage AI agents to automate and enhance your sales, marketing, and growth operations.
+Welcome to the GTM (Go-To-Market) the agent plugin marketplace! This guide will help you leverage AI agents to automate and enhance your sales, marketing, and growth operations.
 
 ## Installation
 

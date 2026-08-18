@@ -37,19 +37,19 @@ const gateway = createAiGateway({
 });
 
 const openai = createOpenAI({ 
-  apiKey: process.env.OPENAI_API_KEY 
+  apiKey: process.env.LLM_API_KEY 
 });
 
 // Single model
 const { text } = await generateText({
-  model: gateway(openai('gpt-4o')),
+  model: gateway(openai('the active model')),
   prompt: 'Hello'
 });
 
 // Automatic fallback array
 const { text } = await generateText({
   model: gateway([
-    openai('gpt-4o'),              // Try first
+    openai('the active model'),              // Try first
     anthropic('claude-sonnet-4-5'), // Fallback
   ]),
   prompt: 'Hello'
@@ -66,7 +66,7 @@ Drop-in replacement for OpenAI API with multi-provider support.
 import OpenAI from 'openai';
 
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.LLM_API_KEY,
   baseURL: `https://gateway.ai.cloudflare.com/v1/${accountId}/${gatewayId}/compat`,
   defaultHeaders: {
     'cf-aig-authorization': `Bearer ${cfToken}` // For authenticated gateways
@@ -75,7 +75,7 @@ const client = new OpenAI({
 
 // Switch providers by changing model format: {provider}/{model}
 const response = await client.chat.completions.create({
-  model: 'openai/gpt-4o', // or 'anthropic/claude-sonnet-4-5'
+  model: 'openai/the active model', // or 'anthropic/claude-sonnet-4-5'
   messages: [{ role: 'user', content: 'Hello!' }]
 });
 ```

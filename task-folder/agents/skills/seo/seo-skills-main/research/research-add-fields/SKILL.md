@@ -1,7 +1,7 @@
 ---
 name: research-add-fields
 user-invocable: true
-allowed-tools: Read, Write, Glob, Task, AskUserQuestion
+allowed-tools: Read, Write, Glob, Task, clarifying question
 description: Append new field definitions to an in-progress research outline's `fields.yaml` — either from user-supplied input or from a web-search agent that proposes common dimensions in the domain. Use mid-`/research-outline` when you've realised the schema is missing dimensions (e.g. pricing, performance, ecosystem, governance) before running `/research-deep`, so deep agents fill the new fields on first pass instead of needing a re-run.
 ---
 
@@ -29,7 +29,7 @@ Reachable any time after `/research-outline` has produced `fields.yaml`, but mos
 
 ### Step 2 — Pick a supplement source
 
-`AskUserQuestion` with two options:
+`clarifying question` with two options:
 
 - **A. Direct input** — user dictates field names, descriptions, and categories.
 - **B. Web search** — launch a research subagent via the `Task` tool (`subagent_type: general-purpose`) to propose common fields in the topic's domain.
@@ -37,7 +37,7 @@ Reachable any time after `/research-outline` has produced `fields.yaml`, but mos
 ### Step 3 — Display and confirm
 
 - Show the candidate field list back to the user (whether from A or B).
-- `AskUserQuestion` for each candidate: keep / drop / edit.
+- `clarifying question` for each candidate: keep / drop / edit.
 - For each kept field, capture: `category` (must match an existing `field_categories[].category` or be a new one), `detail_level` (`brief | moderate | detailed`), `required` (default `false`).
 
 ### Step 4 — Save update

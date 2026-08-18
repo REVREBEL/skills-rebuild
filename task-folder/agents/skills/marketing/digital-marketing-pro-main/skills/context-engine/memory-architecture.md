@@ -20,7 +20,7 @@ The plugin uses a **5-layer memory architecture**. Each layer serves a different
 
 ## Layer 1: Session Context (Always Available)
 
-**Source:** Claude Code auto-memory at `~/.claude/projects/` + `insights.json` at `~/.claude-marketing/brands/{slug}/insights.json`
+**Source:** the agent auto-memory at `~/.claude/projects/` + `insights.json` at `~/.claude-marketing/brands/{slug}/insights.json`
 
 **Persistence:** Per-session (auto-memory survives across sessions, insights.json is permanent)
 

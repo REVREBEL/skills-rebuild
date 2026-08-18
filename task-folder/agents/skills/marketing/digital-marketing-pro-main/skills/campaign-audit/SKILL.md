@@ -74,33 +74,33 @@ For each in-scope channel, call the relevant data-pull script with `--read-only`
 
 ```bash
 # Paid search
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
     --channel google_ads --action inventory --read-only
 
 # Paid social
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
     --channel meta_ads --action inventory --read-only
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
     --channel linkedin_ads --action inventory --read-only
 
 # Email
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
     --channel email --action automations --read-only
 
 # Organic + SEO
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/seo-executor.py --brand "{brand}" --action audit-current
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/seo-executor.py --brand "{brand}" --action audit-current
+python3 ${SKILL_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
     --channel organic_social --action cadence
 
 # AEO / GEO (unless --quick)
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/ai-visibility-checker.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/ai-visibility-checker.py --brand "{brand}" \
     --mode api --competitors "{auto-from-profile or --competitors arg}"
 
 # CRM + automation health
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/crm-sync.py --brand "{brand}" --action audit-workflows
+python3 ${SKILL_ROOT}/scripts/crm-sync.py --brand "{brand}" --action audit-workflows
 
 # Web analytics health
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
     --channel ga4_health --action diagnostic
 ```
 

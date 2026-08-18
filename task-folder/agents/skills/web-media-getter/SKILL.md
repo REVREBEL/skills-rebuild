@@ -98,7 +98,7 @@ not single shots. So:
   (token-based read; full originals would need OAuth — previews suffice for SFX).
 - **`audio-judge.py <file> "<target>"`** — sends the clip to OpenAI `gpt-audio`
   (audio-native) and returns JSON `{heard, score, matches, suggestion}`, enabling a
-  generate/fetch → judge → iterate loop. Auto-sources a real `sk-` `OPENAI_API_KEY`
+  generate/fetch → judge → iterate loop. Auto-sources a real `sk-` `LLM_API_KEY`
   from `.env` (ignores a local `lm-studio` stub env var). Pads sub-2s clips so the
   speech-tuned model doesn't refuse. **Caveat:** it reliably *describes* audio and
   filters obvious mismatches, but it is NOT a trustworthy judge of subjective qualities

@@ -213,7 +213,7 @@ confidence_score = (
 When standard providers fail:
 ```python
 def ai_research(company):
-    # Use GPT-4 for web research
+    # Use the active model for web research
     prompt = f"Research {company} and find key contacts, technology stack, recent news"
     results = gpt4_research(prompt)
     

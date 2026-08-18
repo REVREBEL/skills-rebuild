@@ -97,7 +97,7 @@
       "plugin": "email-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "account-based-blueprint",
@@ -107,7 +107,7 @@
       "plugin": "manufacturing-sales",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "account-health-framework",
@@ -117,7 +117,7 @@
       "plugin": "account-management",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true
     },
     {
@@ -128,7 +128,7 @@
       "plugin": "abm-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true
     },
     {
@@ -139,7 +139,7 @@
       "plugin": "customer-analytics",
       "category": "analytics",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "adoption-playbook",
@@ -149,7 +149,7 @@
       "plugin": "customer-success",
       "category": "customer-success",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "advocacy-programs",
@@ -159,7 +159,7 @@
       "plugin": "customer-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "advocacy-roster-system",
@@ -169,7 +169,7 @@
       "plugin": "voice-of-customer",
       "category": "research",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "advocate-sourcing",
@@ -179,7 +179,7 @@
       "plugin": "customer-advocacy-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "algorithmic-art",
@@ -189,7 +189,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_references": true
     },
     {
@@ -200,7 +200,7 @@
       "plugin": "technical-writing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "artifacts-builder",
@@ -210,7 +210,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_scripts": true
     },
     {
@@ -221,7 +221,7 @@
       "plugin": "partner-co-marketing-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "asset-tracking",
@@ -231,7 +231,7 @@
       "plugin": "content-pipeline-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "attribution",
@@ -241,7 +241,7 @@
       "plugin": "partner-co-marketing-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "attribution-playbook",
@@ -251,7 +251,7 @@
       "plugin": "marketing-analytics",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "battlecard-library",
@@ -261,7 +261,7 @@
       "plugin": "competitive-intelligence",
       "category": "research",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "battlecard-system",
@@ -271,7 +271,7 @@
       "plugin": "sales-enablement",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "board-readiness-kit",
@@ -281,7 +281,7 @@
       "plugin": "b2b-saas",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "brand-governance",
@@ -291,7 +291,7 @@
       "plugin": "design-creative",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "brand-governance-os",
@@ -301,7 +301,7 @@
       "plugin": "brand-strategy",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true
     },
     {
@@ -312,7 +312,7 @@
       "plugin": "social-scheduler-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "brand-guidelines",
@@ -322,7 +322,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true,
       "has_references": true
     },
@@ -334,7 +334,7 @@
       "plugin": "brand-strategy",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "brand-narrative-playbook",
@@ -344,7 +344,7 @@
       "plugin": "brand-strategy",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_references": true
     },
     {
@@ -355,7 +355,7 @@
       "plugin": "brand-strategy",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true
     },
     {
@@ -366,7 +366,7 @@
       "plugin": "paid-media",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "cadence-design",
@@ -376,7 +376,7 @@
       "plugin": "email-sequence-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "calendar-governance",
@@ -386,7 +386,7 @@
       "plugin": "social-scheduler-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "call-analysis-framework",
@@ -396,7 +396,7 @@
       "plugin": "sales-calls",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "call-brief-framework",
@@ -406,7 +406,7 @@
       "plugin": "sales-calls",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "call-highlights",
@@ -416,7 +416,7 @@
       "plugin": "sales-coaching",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "call-review-kit",
@@ -426,7 +426,7 @@
       "plugin": "sales-calls",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "campaign-architecture",
@@ -436,7 +436,7 @@
       "plugin": "paid-media",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "campaign-planning",
@@ -446,7 +446,7 @@
       "plugin": "campaign-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "canvas-design",
@@ -456,7 +456,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_references": true
     },
     {
@@ -467,7 +467,7 @@
       "plugin": "sales-operations",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "case-studies",
@@ -477,7 +477,7 @@
       "plugin": "content-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "champion-engagement-system",
@@ -487,7 +487,7 @@
       "plugin": "community-building",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_references": true
     },
     {
@@ -498,7 +498,7 @@
       "plugin": "campaign-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "channel-pacing-guardrails",
@@ -508,7 +508,7 @@
       "plugin": "marketing-analytics",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "channel-roadmap-kit",
@@ -518,7 +518,7 @@
       "plugin": "social-media-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "clinical-proof-library",
@@ -528,7 +528,7 @@
       "plugin": "healthcare-marketing",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "closed-loop-community-playbook",
@@ -538,7 +538,7 @@
       "plugin": "community-building",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "closed-loop-playbook",
@@ -548,7 +548,7 @@
       "plugin": "voice-of-customer",
       "category": "research",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "co-branding",
@@ -558,7 +558,7 @@
       "plugin": "partner-co-marketing-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "co-marketing-governance",
@@ -568,7 +568,7 @@
       "plugin": "partnership-development",
       "category": "partnerships",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "coaching-framework",
@@ -578,7 +578,7 @@
       "plugin": "sales-coaching",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "cohort-analysis",
@@ -588,7 +588,7 @@
       "plugin": "revenue-analytics",
       "category": "analytics",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "cold-email-personalization",
@@ -598,7 +598,7 @@
       "plugin": "copywriting",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true
     },
     {
@@ -609,7 +609,7 @@
       "plugin": "sales-prospecting",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "community-advocacy-toolkit",
@@ -619,7 +619,7 @@
       "plugin": "edtech-growth",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "community-engagement",
@@ -629,7 +629,7 @@
       "plugin": "social-media",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "community-insight-taxonomy",
@@ -639,7 +639,7 @@
       "plugin": "community-building",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "community-kpi-dashboard",
@@ -649,7 +649,7 @@
       "plugin": "community-building",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "community-ops",
@@ -659,7 +659,7 @@
       "plugin": "community-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "community-program-matrix",
@@ -669,7 +669,7 @@
       "plugin": "community-building",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "community-sentiment-dashboard",
@@ -679,7 +679,7 @@
       "plugin": "social-media-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "comp-mechanics",
@@ -689,7 +689,7 @@
       "plugin": "sales-operations",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "competitive-intel",
@@ -699,7 +699,7 @@
       "plugin": "product-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "compliance-briefing-kit",
@@ -709,7 +709,7 @@
       "plugin": "healthcare-marketing",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "compliance-statement-library",
@@ -719,7 +719,7 @@
       "plugin": "financial-services",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "content-variants",
@@ -729,7 +729,7 @@
       "plugin": "personalization-engine",
       "category": "personalization",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "conversion-diagnostic-kit",
@@ -739,7 +739,7 @@
       "plugin": "e-commerce",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "creative-brief-framework",
@@ -749,7 +749,7 @@
       "plugin": "design-creative",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "creative-iteration-playbook",
@@ -759,7 +759,7 @@
       "plugin": "social-media-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "creative-qa-checklist",
@@ -769,7 +769,7 @@
       "plugin": "design-creative",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "creative-variants",
@@ -779,7 +779,7 @@
       "plugin": "paid-media",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "crisis-playbooks",
@@ -789,7 +789,7 @@
       "plugin": "pr-communications",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "crm-hygiene",
@@ -799,7 +799,7 @@
       "plugin": "sales-pipeline",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "curriculum-alignment-kit",
@@ -809,7 +809,7 @@
       "plugin": "edtech-growth",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "customer-feedback-taxonomy",
@@ -819,7 +819,7 @@
       "plugin": "voice-of-customer",
       "category": "research",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "customer-insights",
@@ -829,7 +829,7 @@
       "plugin": "customer-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "customer-trust-dashboard",
@@ -839,7 +839,7 @@
       "plugin": "financial-services",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "cxo-briefing-kit",
@@ -849,7 +849,7 @@
       "plugin": "enterprise-sales",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "dashboard-playbook",
@@ -859,7 +859,7 @@
       "plugin": "business-intelligence",
       "category": "analytics",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "data-contract-framework",
@@ -869,7 +869,7 @@
       "plugin": "business-intelligence",
       "category": "analytics",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "data-governance",
@@ -879,7 +879,7 @@
       "plugin": "marketing-automation",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "data-sourcing",
@@ -889,7 +889,7 @@
       "plugin": "data-enrichment-master",
       "category": "data",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_scripts": true,
       "has_references": true
     },
@@ -901,7 +901,7 @@
       "plugin": "renewal-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "deal-health-dashboard",
@@ -911,7 +911,7 @@
       "plugin": "manufacturing-sales",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "deal-quality-model",
@@ -921,7 +921,7 @@
       "plugin": "revenue-analytics",
       "category": "analytics",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "deal-review",
@@ -931,7 +931,7 @@
       "plugin": "sales-pipeline",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "decision-trees",
@@ -941,7 +941,7 @@
       "plugin": "personalization-engine",
       "category": "personalization",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "deliverability-ops",
@@ -951,7 +951,7 @@
       "plugin": "email-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "diagnostics",
@@ -961,7 +961,7 @@
       "plugin": "seo-workflow-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "discovery-calls",
@@ -971,7 +971,7 @@
       "plugin": "sales-prospecting",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true,
       "has_references": true
     },
@@ -983,7 +983,7 @@
       "plugin": "video-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "distribution-checklist",
@@ -993,7 +993,7 @@
       "plugin": "content-pipeline-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "doc-requirements-matrix",
@@ -1003,7 +1003,7 @@
       "plugin": "technical-writing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "docx",
@@ -1013,7 +1013,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_scripts": true
     },
     {
@@ -1024,7 +1024,7 @@
       "plugin": "email-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "editorial-calendar",
@@ -1034,7 +1034,7 @@
       "plugin": "content-pipeline-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "editorial-ops",
@@ -1044,7 +1044,7 @@
       "plugin": "content-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true
     },
     {
@@ -1055,7 +1055,7 @@
       "plugin": "pricing-strategy",
       "category": "growth",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "enablement-kit",
@@ -1065,7 +1065,7 @@
       "plugin": "design-creative",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "enablement-kit",
@@ -1075,7 +1075,7 @@
       "plugin": "pricing-strategy",
       "category": "growth",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "enablement-kit",
@@ -1085,7 +1085,7 @@
       "plugin": "sales-handoff-orchestration",
       "category": "general",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "engagement-analytics",
@@ -1095,7 +1095,7 @@
       "plugin": "webinar-automation",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "enrollment-persona-playbook",
@@ -1105,7 +1105,7 @@
       "plugin": "edtech-growth",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "escalation",
@@ -1115,7 +1115,7 @@
       "plugin": "community-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "escalation-framework",
@@ -1125,7 +1125,7 @@
       "plugin": "renewal-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "event-briefs",
@@ -1135,7 +1135,7 @@
       "plugin": "event-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "exec-briefing",
@@ -1145,7 +1145,7 @@
       "plugin": "account-management",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "exec-briefing-kit",
@@ -1155,7 +1155,7 @@
       "plugin": "revenue-analytics",
       "category": "analytics",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "exec-dashboard-blueprint",
@@ -1165,7 +1165,7 @@
       "plugin": "marketing-analytics",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "executive-briefing-kit",
@@ -1175,7 +1175,7 @@
       "plugin": "competitive-intelligence",
       "category": "research",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "executive-briefs",
@@ -1185,7 +1185,7 @@
       "plugin": "revenue-forecasting-pipeline",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "executive-ebr-kit",
@@ -1195,7 +1195,7 @@
       "plugin": "customer-success",
       "category": "customer-success",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "executive-kpi-briefings",
@@ -1205,7 +1205,7 @@
       "plugin": "business-intelligence",
       "category": "analytics",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "expansion-playbook",
@@ -1215,7 +1215,7 @@
       "plugin": "account-management",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "expansion-plays",
@@ -1225,7 +1225,7 @@
       "plugin": "customer-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "experience-system-blueprint",
@@ -1235,7 +1235,7 @@
       "plugin": "brand-strategy",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "experiment-design-kit",
@@ -1245,7 +1245,7 @@
       "plugin": "growth-experiments",
       "category": "growth",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "field-playbooks",
@@ -1255,7 +1255,7 @@
       "plugin": "event-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "financial-product-blueprint",
@@ -1265,7 +1265,7 @@
       "plugin": "financial-services",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "firmographic-analysis",
@@ -1275,7 +1275,7 @@
       "plugin": "data-enrichment-master",
       "category": "data",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "forecast-discipline",
@@ -1285,7 +1285,7 @@
       "plugin": "sales-pipeline",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "forecast-modeling",
@@ -1295,7 +1295,7 @@
       "plugin": "revenue-forecasting-pipeline",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "fraud-detection",
@@ -1305,7 +1305,7 @@
       "plugin": "referral-program-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "frontend-design",
@@ -1315,7 +1315,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "governance",
@@ -1325,7 +1325,7 @@
       "plugin": "customer-journey-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "governance",
@@ -1335,7 +1335,7 @@
       "plugin": "personalization-engine",
       "category": "personalization",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "guardrail-scorecard",
@@ -1345,7 +1345,7 @@
       "plugin": "growth-experiments",
       "category": "growth",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "hypothesis-library",
@@ -1355,7 +1355,7 @@
       "plugin": "growth-experiments",
       "category": "growth",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "identity-resolution",
@@ -1365,7 +1365,7 @@
       "plugin": "data-signal-enrichment",
       "category": "data",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "in-app-messaging-kit",
@@ -1375,7 +1375,7 @@
       "plugin": "product-led-growth",
       "category": "growth",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "incentive-design",
@@ -1385,7 +1385,7 @@
       "plugin": "referral-program-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "insight-synthesis",
@@ -1395,7 +1395,7 @@
       "plugin": "customer-feedback-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "insights-repository-kit",
@@ -1405,7 +1405,7 @@
       "plugin": "market-research",
       "category": "research",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "instrumentation",
@@ -1415,7 +1415,7 @@
       "plugin": "analytics-pipeline-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "internal-comms",
@@ -1425,7 +1425,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "joint-solution-blueprint",
@@ -1435,7 +1435,7 @@
       "plugin": "partnership-development",
       "category": "partnerships",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "journey-mapping",
@@ -1445,7 +1445,7 @@
       "plugin": "customer-journey-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "keyword-research",
@@ -1455,7 +1455,7 @@
       "plugin": "seo",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "keyword-strategy",
@@ -1465,7 +1465,7 @@
       "plugin": "seo-workflow-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "land-adopt-expand-blueprint",
@@ -1475,7 +1475,7 @@
       "plugin": "b2b-saas",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "launch-plays",
@@ -1485,7 +1485,7 @@
       "plugin": "product-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "launch-tiering",
@@ -1495,7 +1495,7 @@
       "plugin": "product-launch-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "lead-qualification",
@@ -1505,7 +1505,7 @@
       "plugin": "sales-prospecting",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "lifecycle-cadence",
@@ -1515,7 +1515,7 @@
       "plugin": "lead-nurture-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "lifecycle-mapping",
@@ -1525,7 +1525,7 @@
       "plugin": "marketing-automation",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "loyalty-modeling",
@@ -1535,7 +1535,7 @@
       "plugin": "loyalty-lifecycle-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "market-scenario-modeler",
@@ -1545,7 +1545,7 @@
       "plugin": "market-research",
       "category": "research",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "market-signal-tracker",
@@ -1555,7 +1555,7 @@
       "plugin": "competitive-intelligence",
       "category": "research",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "mcp-builder",
@@ -1565,7 +1565,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_scripts": true
     },
     {
@@ -1576,7 +1576,7 @@
       "plugin": "sales-calls",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "media-database",
@@ -1586,7 +1586,7 @@
       "plugin": "pr-communications",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "member-insights",
@@ -1596,7 +1596,7 @@
       "plugin": "loyalty-lifecycle-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "merchandising-blueprint",
@@ -1606,7 +1606,7 @@
       "plugin": "e-commerce",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "message-architecture",
@@ -1616,7 +1616,7 @@
       "plugin": "copywriting",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "messaging-framework",
@@ -1626,7 +1626,7 @@
       "plugin": "sales-enablement",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "messaging-frameworks",
@@ -1636,7 +1636,7 @@
       "plugin": "pr-communications",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "metric-governance-kit",
@@ -1646,7 +1646,7 @@
       "plugin": "business-intelligence",
       "category": "analytics",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_references": true
     },
     {
@@ -1657,7 +1657,7 @@
       "plugin": "community-building",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "mood-board-builder",
@@ -1667,7 +1667,7 @@
       "plugin": "design-creative",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "notion-knowledge-capture",
@@ -1677,7 +1677,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "notion-meeting-intelligence",
@@ -1687,7 +1687,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "notion-research-documentation",
@@ -1697,17 +1697,17 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "notion-spec-to-implementation",
-      "description": "Turns product or tech specs into concrete Notion tasks that Claude code can implement. Breaks down spec pages into detailed implementation plans with clear tasks, acceptance criteria, and progress tracking to guide development from requirements to completion.",
+      "description": "Turns product or tech specs into concrete Notion tasks that the agent can implement. Breaks down spec pages into detailed implementation plans with clear tasks, acceptance criteria, and progress tracking to guide development from requirements to completion.",
       "path": "examples/skills/notion-spec-to-implementation",
       "location": "examples/skills/notion-spec-to-implementation/SKILL.md",
       "plugin": "examples",
       "category": "examples",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "nurture-testing",
@@ -1717,7 +1717,7 @@
       "plugin": "lead-nurture-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "objection-handling",
@@ -1727,7 +1727,7 @@
       "plugin": "sales-prospecting",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "offer-testing",
@@ -1737,7 +1737,7 @@
       "plugin": "copywriting",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "on-page",
@@ -1747,7 +1747,7 @@
       "plugin": "seo",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "onboarding-blueprint",
@@ -1757,7 +1757,7 @@
       "plugin": "product-led-growth",
       "category": "growth",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "outbound-plays",
@@ -1767,7 +1767,7 @@
       "plugin": "intent-signal-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "packaging-framework",
@@ -1777,7 +1777,7 @@
       "plugin": "pricing-strategy",
       "category": "growth",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "participant-operations-hub",
@@ -1787,7 +1787,7 @@
       "plugin": "market-research",
       "category": "research",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "partner-ecosystem-map",
@@ -1797,7 +1797,7 @@
       "plugin": "partnership-development",
       "category": "partnerships",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "partner-integration-kit",
@@ -1807,7 +1807,7 @@
       "plugin": "manufacturing-sales",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "partner-ops",
@@ -1817,7 +1817,7 @@
       "plugin": "referral-program-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "partner-revenue-desk",
@@ -1827,7 +1827,7 @@
       "plugin": "partnership-development",
       "category": "partnerships",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "patient-journey-mapping",
@@ -1837,7 +1837,7 @@
       "plugin": "healthcare-marketing",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "pdf",
@@ -1847,7 +1847,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_scripts": true
     },
     {
@@ -1858,7 +1858,7 @@
       "plugin": "social-scheduler-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "performance-tracking",
@@ -1868,7 +1868,7 @@
       "plugin": "campaign-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "persona-intel",
@@ -1878,7 +1878,7 @@
       "plugin": "sales-calls",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "personalization",
@@ -1888,7 +1888,7 @@
       "plugin": "abm-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true
     },
     {
@@ -1899,7 +1899,7 @@
       "plugin": "lead-nurture-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "platform-frameworks",
@@ -1909,7 +1909,7 @@
       "plugin": "social-media",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "positioning",
@@ -1919,7 +1919,7 @@
       "plugin": "product-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "pptx",
@@ -1929,7 +1929,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_scripts": true
     },
     {
@@ -1940,7 +1940,7 @@
       "plugin": "product-led-growth",
       "category": "growth",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "pricing-governance",
@@ -1950,7 +1950,7 @@
       "plugin": "pricing-strategy",
       "category": "growth",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "procurement-playbook",
@@ -1960,7 +1960,7 @@
       "plugin": "enterprise-sales",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "production-ops",
@@ -1970,7 +1970,7 @@
       "plugin": "video-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "production-playbook",
@@ -1980,7 +1980,7 @@
       "plugin": "design-creative",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "program-ops",
@@ -1990,7 +1990,7 @@
       "plugin": "event-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "provider-scorecard",
@@ -2000,7 +2000,7 @@
       "plugin": "data-signal-enrichment",
       "category": "data",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "publishing-process",
@@ -2010,7 +2010,7 @@
       "plugin": "seo-workflow-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "pursuit-governance",
@@ -2020,7 +2020,7 @@
       "plugin": "enterprise-sales",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "qa-gates",
@@ -2030,7 +2030,7 @@
       "plugin": "email-sequence-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "quality-gates",
@@ -2040,7 +2040,7 @@
       "plugin": "analytics-pipeline-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true
     },
     {
@@ -2051,7 +2051,7 @@
       "plugin": "technical-writing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "quota-health",
@@ -2061,7 +2061,7 @@
       "plugin": "sales-operations",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "reference-ops",
@@ -2071,7 +2071,7 @@
       "plugin": "customer-advocacy-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "registration-ops",
@@ -2081,7 +2081,7 @@
       "plugin": "webinar-automation",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "regulator-briefing-playbook",
@@ -2091,7 +2091,7 @@
       "plugin": "financial-services",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "regulatory-review-checklist",
@@ -2101,7 +2101,7 @@
       "plugin": "healthcare-marketing",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "reinforcement-drills",
@@ -2111,7 +2111,7 @@
       "plugin": "sales-coaching",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "reinforcement-loop",
@@ -2121,7 +2121,7 @@
       "plugin": "sales-enablement",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "renewal-playbooks",
@@ -2131,7 +2131,7 @@
       "plugin": "renewal-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "research-brief-blueprint",
@@ -2141,7 +2141,7 @@
       "plugin": "market-research",
       "category": "research",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "retention-dashboard",
@@ -2151,7 +2151,7 @@
       "plugin": "customer-analytics",
       "category": "analytics",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "retention-ltv-playbook",
@@ -2161,7 +2161,7 @@
       "plugin": "e-commerce",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "revenue-health-dashboard",
@@ -2171,7 +2171,7 @@
       "plugin": "revenue-analytics",
       "category": "analytics",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "reward-ops",
@@ -2181,7 +2181,7 @@
       "plugin": "loyalty-lifecycle-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "risk-playbooks",
@@ -2191,7 +2191,7 @@
       "plugin": "product-launch-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "risk-register",
@@ -2201,7 +2201,7 @@
       "plugin": "enterprise-sales",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "risk-scoring-framework",
@@ -2211,7 +2211,7 @@
       "plugin": "customer-success",
       "category": "customer-success",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "roe-governance",
@@ -2221,7 +2221,7 @@
       "plugin": "sales-operations",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "roi-benchmark-library",
@@ -2231,7 +2231,7 @@
       "plugin": "marketing-analytics",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "routing-logic",
@@ -2241,7 +2241,7 @@
       "plugin": "sales-handoff-orchestration",
       "category": "general",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "save-play-library",
@@ -2251,7 +2251,7 @@
       "plugin": "customer-analytics",
       "category": "analytics",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "scriptwriting",
@@ -2261,7 +2261,7 @@
       "plugin": "video-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "segmentation",
@@ -2271,7 +2271,7 @@
       "plugin": "email-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true
     },
     {
@@ -2282,7 +2282,7 @@
       "plugin": "customer-analytics",
       "category": "analytics",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "sentiment-analysis",
@@ -2292,7 +2292,7 @@
       "plugin": "community-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "sentiment-feedback-loop",
@@ -2302,7 +2302,7 @@
       "plugin": "customer-success",
       "category": "customer-success",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "seo-writing",
@@ -2312,7 +2312,7 @@
       "plugin": "content-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "signal-correlation-workbench",
@@ -2322,7 +2322,7 @@
       "plugin": "voice-of-customer",
       "category": "research",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "signal-intel",
@@ -2332,7 +2332,7 @@
       "plugin": "abm-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "signal-scoring",
@@ -2342,7 +2342,7 @@
       "plugin": "intent-signal-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "signal-taxonomy",
@@ -2352,7 +2352,7 @@
       "plugin": "data-signal-enrichment",
       "category": "data",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "site-performance-watch",
@@ -2362,7 +2362,7 @@
       "plugin": "e-commerce",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "skill-creator",
@@ -2372,7 +2372,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_scripts": true
     },
     {
@@ -2383,7 +2383,7 @@
       "plugin": "sales-handoff-orchestration",
       "category": "general",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "slack-gif-creator",
@@ -2393,7 +2393,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "social-calendar-system",
@@ -2403,7 +2403,7 @@
       "plugin": "social-media-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "social-selling",
@@ -2413,7 +2413,7 @@
       "plugin": "sales-prospecting",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true,
       "has_references": true
     },
@@ -2425,7 +2425,7 @@
       "plugin": "customer-feedback-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "storytelling",
@@ -2435,7 +2435,7 @@
       "plugin": "content-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "storytelling",
@@ -2445,7 +2445,7 @@
       "plugin": "customer-advocacy-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "student-success-scorecard",
@@ -2455,7 +2455,7 @@
       "plugin": "edtech-growth",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "success-planning-framework",
@@ -2465,7 +2465,7 @@
       "plugin": "account-management",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_assets": true
     },
     {
@@ -2476,7 +2476,7 @@
       "plugin": "intent-signal-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "survey-design",
@@ -2486,7 +2486,7 @@
       "plugin": "customer-feedback-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "technical-bid-library",
@@ -2496,7 +2496,7 @@
       "plugin": "manufacturing-sales",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "technical-seo",
@@ -2506,7 +2506,7 @@
       "plugin": "seo",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "territory-optimization",
@@ -2516,7 +2516,7 @@
       "plugin": "sales-operations",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "theme-factory",
@@ -2526,7 +2526,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "thought-leadership",
@@ -2536,7 +2536,7 @@
       "plugin": "content-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "trend-research",
@@ -2546,7 +2546,7 @@
       "plugin": "social-media",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "usage-health-scorecard",
@@ -2556,7 +2556,7 @@
       "plugin": "product-led-growth",
       "category": "growth",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "usage-to-value-map",
@@ -2566,7 +2566,7 @@
       "plugin": "b2b-saas",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "validation-rulebook",
@@ -2576,7 +2576,7 @@
       "plugin": "data-signal-enrichment",
       "category": "data",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "value-messaging",
@@ -2586,7 +2586,7 @@
       "plugin": "pricing-strategy",
       "category": "growth",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "value-story-framework",
@@ -2596,7 +2596,7 @@
       "plugin": "enterprise-sales",
       "category": "sales",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "variance-analysis",
@@ -2606,7 +2606,7 @@
       "plugin": "revenue-forecasting-pipeline",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "versioning-dashboard",
@@ -2616,7 +2616,7 @@
       "plugin": "technical-writing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "vertical-solution-templates",
@@ -2626,7 +2626,7 @@
       "plugin": "b2b-saas",
       "category": "industry",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "visualization-patterns",
@@ -2636,7 +2636,7 @@
       "plugin": "analytics-pipeline-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "voice-guidelines",
@@ -2646,7 +2646,7 @@
       "plugin": "copywriting",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "voice-of-customer",
@@ -2656,7 +2656,7 @@
       "plugin": "customer-journey-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "war-room-ops",
@@ -2666,7 +2666,7 @@
       "plugin": "product-launch-orchestration",
       "category": "orchestration",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "waterfall-blueprint",
@@ -2676,7 +2676,7 @@
       "plugin": "data-signal-enrichment",
       "category": "data",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "webapp-testing",
@@ -2686,7 +2686,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)",
+      "compatibility": "the agent (or similar products)",
       "has_scripts": true
     },
     {
@@ -2697,7 +2697,7 @@
       "plugin": "webinar-automation",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "webinars",
@@ -2707,7 +2707,7 @@
       "plugin": "content-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "whitepapers",
@@ -2717,7 +2717,7 @@
       "plugin": "content-marketing",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "win-loss-dataset",
@@ -2727,7 +2727,7 @@
       "plugin": "competitive-intelligence",
       "category": "research",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "workflow-testing",
@@ -2737,7 +2737,7 @@
       "plugin": "marketing-automation",
       "category": "marketing",
       "license": "Apache-2.0",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     },
     {
       "name": "xlsx",
@@ -2747,7 +2747,7 @@
       "plugin": "examples",
       "category": "examples",
       "license": "Complete terms in LICENSE.txt",
-      "compatibility": "Claude Code (or similar products)"
+      "compatibility": "the agent (or similar products)"
     }
   ]
 }

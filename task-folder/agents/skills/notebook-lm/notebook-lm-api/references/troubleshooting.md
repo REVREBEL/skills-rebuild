@@ -364,7 +364,7 @@ ls -la ~/.claude/skills/notebooklm/data/
 ### Common questions
 
 **Q: Why doesn't this work in Claude web UI?**
-A: Web UI has no network access. Use local Claude Code.
+A: Web UI has no network access. Use local the agent.
 
 **Q: Can I use multiple Google accounts?**
 A: Yes, use `run.py auth_manager.py reauth` to switch.
