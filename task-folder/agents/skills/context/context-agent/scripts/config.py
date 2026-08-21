@@ -6,7 +6,7 @@ Todos os paths, constantes e limites usados pelos demais módulos.
 from pathlib import Path
 
 # ── Raízes ──────────────────────────────────────────────────────────
-SKILLS_ROOT = Path(r"C:\Users\renat\skills")
+SKILLS_ROOT = Path(r"{USER_HOME}\skills")
 CONTEXT_AGENT_ROOT = SKILLS_ROOT / "context-agent"
 
 # ── Dados do agente ─────────────────────────────────────────────────
@@ -19,7 +19,7 @@ PROJECT_REGISTRY_PATH = DATA_DIR / "PROJECT_REGISTRY.md"
 DB_PATH = DATA_DIR / "context.db"
 
 # ── Claude Code session logs ────────────────────────────────────────
-CLAUDE_PROJECTS_DIR = Path(r"C:\Users\renat\.claude\projects")
+CLAUDE_PROJECTS_DIR = Path(r"{USER_HOME}\.claude\projects")
 CLAUDE_SESSION_DIR = CLAUDE_PROJECTS_DIR / "C--Users-renat-skills"
 MEMORY_DIR = CLAUDE_SESSION_DIR / "memory"
 MEMORY_MD_PATH = MEMORY_DIR / "MEMORY.md"

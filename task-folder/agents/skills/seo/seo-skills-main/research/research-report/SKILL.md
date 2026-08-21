@@ -1,7 +1,7 @@
 ---
 name: research-report
 user-invocable: true
-allowed-tools: Read, Write, Glob, Bash, AskUserQuestion
+allowed-tools: Read, Write, Glob, Bash, AskUser
 description: Summarise a completed deep-research run into a single markdown report — full coverage of every defined field, automatic skipping of uncertain values, and a navigable table of contents with user-chosen summary columns. Generates a fresh `generate_report.py` per run (against a stable spec) and executes it. Use after `/research-deep` finishes when you want a readable artifact for sharing, archiving, or comparing items across the chosen schema.
 ---
 
@@ -36,9 +36,9 @@ Reads the JSON files produced by `/research-deep` and emits a single markdown re
 - `valuation`
 - `release_date`
 
-`AskUserQuestion`: "Which of these summary fields do you want next to each item in the TOC?" — present the dynamic list of fields you actually found in this run's JSON files.
+`AskUser`: "Which of these summary fields do you want next to each item in the TOC?" — present the dynamic list of fields you actually found in this run's JSON files.
 
-> **AskUserQuestion has a hard cap of four options per question.** If you found more than four candidates, either ask twice (covering different field groups), or pick the four most informative-looking candidates yourself and ask the user to confirm or override.
+> **AskUser has a hard cap of four options per question.** If you found more than four candidates, either ask twice (covering different field groups), or pick the four most informative-looking candidates yourself and ask the user to confirm or override.
 
 ### Step 3 — Generate the report script
 
@@ -58,7 +58,7 @@ Run `python {topic}/generate_report.py`. Check the resulting `{topic}/report.md`
 ## Gotchas
 
 - **The `CATEGORY_MAPPING` lives in two places**: in the generated `generate_report.py` and in `~/.claude/skills/research-outline/validate_json.py`. They must agree, or the report will skip categories the validator just accepted. If you add a new category in `fields.yaml`, update both files (see `references/report-generation-spec.md` for the canonical mapping).
-- **`AskUserQuestion` caps at four options**. If Step 2 turns up more than four summary-field candidates, you need to either chunk the question into multiple rounds or pre-filter the list yourself before asking. Don't silently truncate to four — the user needs to know what was left off.
+- **`AskUser` caps at four options**. If Step 2 turns up more than four summary-field candidates, you need to either chunk the question into multiple rounds or pre-filter the list yourself before asking. Don't silently truncate to four — the user needs to know what was left off.
 - **`[uncertain]` in a value and presence in the `uncertain` array are both skip-triggers**, and either alone is enough. Don't AND them.
 - **Anchor slugs are markdown's auto-slug, not your own slugifier.** Make sure your TOC link `#xxx` matches what the markdown renderer derives from your `## Item Name` header — lowercase, spaces → hyphens, most punctuation stripped. If item names have unusual characters, render the section with a known-safe heading text.
 - **Empty `output_dir`** means `/research-deep` either hasn't run or hasn't completed any items. Don't generate an empty report — surface the state to the user.

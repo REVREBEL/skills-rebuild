@@ -76,4 +76,4 @@ All JSON data files — machine-readable exports, reconnaissance inventories, an
 - Finding JSON files live in `{OUTPUT_DIR}/findings/finding-NNN/`
 - All JSON must be valid and parseable
 - See `formats/reconnaissance.md` for detailed reconnaissance schemas
-- See CLAUDE.md for the canonical `OUTPUT_DIR` directory structure
+- See AGENTS.md for the canonical `OUTPUT_DIR` directory structure

@@ -261,7 +261,7 @@ parser.add_argument(
 
 def get_available_sources(config: dict) -> str:
     """Determine available sources. WebSearch always available (no API key)."""
-    has_openai = bool(config.get('OPENAI_API_KEY'))
+    has_openai = bool(config.get('LLM_API_KEY'))
     has_xai = bool(config.get('XAI_API_KEY'))
 
     if has_openai and has_xai:

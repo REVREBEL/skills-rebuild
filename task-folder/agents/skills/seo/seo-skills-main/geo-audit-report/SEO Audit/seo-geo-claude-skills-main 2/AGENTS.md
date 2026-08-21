@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Guidelines for AI agents working in this repository. For full runtime context, see [CLAUDE.md](CLAUDE.md).
+Guidelines for AI agents working in this repository. For full runtime context, see [AGENTS.md](AGENTS.md).
 
 ## Repository Overview
 
@@ -39,7 +39,7 @@ Start with `Use when the user asks to "..."`, then one sentence on function, the
 
 ## Quality Frameworks
 
-See [CLAUDE.md § Quality Frameworks](CLAUDE.md) for details. Summary:
+See [AGENTS.md § Quality Frameworks](AGENTS.md) for details. Summary:
 - **CORE-EEAT** (80 items, 8 dimensions): content quality. [Full reference](references/core-eeat-benchmark.md)
 - **CITE** (40 items, 4 dimensions): domain authority. [Full reference](references/cite-domain-rating.md)
 - Veto items: CORE-EEAT (T04, C01, R10) · CITE (T03, T05, T09)
@@ -50,7 +50,7 @@ Skills use `~~category` placeholders. See [CONNECTORS.md](CONNECTORS.md). Every 
 
 ## Inter-Skill Handoff
 
-See [CLAUDE.md § Inter-Skill Handoff](CLAUDE.md). Key fields: objective, findings, evidence, open loops, keyword, content type, scores (CORE-EEAT/CITE), priority items, URL.
+See [AGENTS.md § Inter-Skill Handoff](AGENTS.md). Key fields: objective, findings, evidence, open loops, keyword, content type, scores (CORE-EEAT/CITE), priority items, URL.
 
 ## Git Workflow
 

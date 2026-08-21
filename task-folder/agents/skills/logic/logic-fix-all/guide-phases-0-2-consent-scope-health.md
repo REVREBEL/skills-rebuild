@@ -12,7 +12,7 @@
 Scope:    ENTIRE repository, not just recent commits or staged changes.
           Includes runtime-affecting files: source code, runtime
           config (.json/.yaml/.toml/.ini), constraint files
-          (CLAUDE.md, .logic-lens.yaml, AGENTS.md, etc.), and
+          (AGENTS.md, .logic-lens.yaml, AGENTS.md, etc.), and
           behavioral documentation (README, ARCHITECTURE, ADRs).
           Auto-excludes .git, build artifacts, dependency caches,
           binary assets; respects .gitignore and .logic-lens.yaml

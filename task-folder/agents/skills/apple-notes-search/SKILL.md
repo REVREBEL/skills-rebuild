@@ -115,7 +115,7 @@ which writes a grounded answer with inline `[n]` citations back to source notes.
   half-life at 70% weight; normal queries keep relevance primary (90-day half-life, 10%).
 - **Synthesis is the only cloud-capable part.** It needs an LLM: local via LM Studio /
   Ollama (`SYNTH_BASE_URL=http://localhost:1234/v1 SYNTH_MODEL=<model> OPENAI_API_KEY=local`,
-  notes stay on-device) or real OpenAI (funded `OPENAI_API_KEY`, defaults to `gpt-4o-mini`).
+  notes stay on-device) or real OpenAI (funded `LLM_API_KEY`, defaults to `gpt-4o-mini`).
   Everything else — embeddings, search, BM25, clustering, bridges, entities — is on-device.
 
 ## Limitations

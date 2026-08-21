@@ -46,7 +46,7 @@ EarLLM One is a multi-module Android app (Kotlin + Jetpack Compose) that capture
 
 ## Project Location
 
-`C:\Users\renat\earbudllm`
+`{USER_HOME}\earbudllm`
 
 ## Module Dependency Graph
 

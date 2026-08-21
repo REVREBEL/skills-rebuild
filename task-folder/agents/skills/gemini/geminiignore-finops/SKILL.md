@@ -12,6 +12,7 @@ tags: [finops, context-management, token-optimization, geminiignore]
 tools: [gemini, claude, cursor]
 license: "MIT"
 license_source: "https://github.com/iradoweck/antigravity-awesome-skills/blob/main/LICENSE"
+compatibility: 'Intrinsic platform/provider dependency: geminiignore-finops'
 ---
 
 # GeminiIgnore FinOps Setup & Optimization

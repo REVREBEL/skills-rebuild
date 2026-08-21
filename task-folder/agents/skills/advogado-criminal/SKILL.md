@@ -916,7 +916,7 @@ Skill baseada em conhecimento (knowledge-only). Nao requer instalacao de depende
 
 ## Verificar Se A Skill Esta Registrada:
 
-python C:\Users\renat\skills\agent-orchestrator\scripts\scan_registry.py
+python {USER_HOME}\skills\agent-orchestrator\scripts\scan_registry.py
 ```
 
 ---

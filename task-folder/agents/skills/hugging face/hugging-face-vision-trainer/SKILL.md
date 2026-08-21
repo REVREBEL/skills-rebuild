@@ -144,10 +144,10 @@ Run the dataset inspector BEFORE spending GPU time. See "Dataset Validation" sec
 
 **Step 3: Ask user preferences**
 
-ALWAYS use the AskUserQuestion tool with option-style format:
+ALWAYS use the AskUser tool with option-style format:
 
 ```python
-AskUserQuestion({
+AskUser({
     "questions": [
         {
             "question": "Do you want to run a quick test with a subset of the data first?",

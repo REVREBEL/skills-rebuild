@@ -90,7 +90,7 @@ Include:
 
 This section defines operational behavior:
 
-- **Reads**: user-provided inputs and tool data specific to this skill. (All skills implicitly read prior project state from `CLAUDE.md` and the State Model when available — do not repeat that global read in each skill's Reads line.)
+- **Reads**: user-provided inputs and tool data specific to this skill. (All skills implicitly read prior project state from `AGENTS.md` and the State Model when available — do not repeat that global read in each skill's Reads line.)
 - **Writes**: the main user-facing deliverable plus a reusable handoff summary
 - **Promotes**: stable facts, blockers, and decisions worth storing for future work
 - **Done when**: 2-3 checkable conditions confirming the deliverable is complete (the skill's verifiable success criteria)

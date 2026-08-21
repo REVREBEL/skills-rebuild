@@ -311,7 +311,7 @@ jobs:
 
       - name: AI-Enhanced Review (GPT-5)
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
         run: |
           python scripts/ai_review.py \
             --pr-number ${{ github.event.number }} \

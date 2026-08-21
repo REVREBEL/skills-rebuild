@@ -26,7 +26,7 @@ id = "my-gateway"
 
 ```bash
 wrangler secret put CF_API_TOKEN
-wrangler secret put OPENAI_API_KEY  # If not using BYOK
+wrangler secret put LLM_API_KEY  # If not using BYOK
 ```
 
 ## Authentication
@@ -55,7 +55,7 @@ Supports: OpenAI, Anthropic, Google AI Studio
 **3. Request Headers** - pass provider key per request:
 ```typescript
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.LLM_API_KEY,
   baseURL: `https://gateway.ai.cloudflare.com/v1/${accountId}/${gatewayId}/openai`,
   defaultHeaders: { 'cf-aig-authorization': `Bearer ${cfToken}` }
 });
@@ -96,7 +96,7 @@ from openai import OpenAI
 import os
 
 client = OpenAI(
-    api_key=os.environ.get("OPENAI_API_KEY"),
+    api_key=os.environ.get("LLM_API_KEY"),
     base_url=f"https://gateway.ai.cloudflare.com/v1/{os.environ['CF_ACCOUNT_ID']}/{os.environ['GATEWAY_ID']}/openai",
     default_headers={"cf-aig-authorization": f"Bearer {os.environ['CF_API_TOKEN']}"}
 )

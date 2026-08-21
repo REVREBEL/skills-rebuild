@@ -230,7 +230,7 @@ Create `skills/index.json` for discovery:
 
 ### Phase 4: Documentation Updates (Priority: MEDIUM)
 
-#### 4.1 Update CLAUDE.md
+#### 4.1 Update AGENTS.md
 
 Add Agent Skills compliance section:
 
@@ -256,7 +256,7 @@ Each skill follows the Agent Skills specification:
 ```
 
 **Tasks:**
-- [ ] Update CLAUDE.md with compliance section
+- [ ] Update AGENTS.md with compliance section
 - [ ] Update README.md
 - [ ] Update CONTRIBUTING.md with skill authoring guidelines
 - [ ] Create `docs/agent-skills-compliance.md`
@@ -348,7 +348,7 @@ Monitor for potential future standards:
 ### Medium-term (Months 2-3) - IN PROGRESS
 
 - [ ] Decide on repository restructure - **Recommendation: Keep current structure**
-- [x] Update documentation - **CLAUDE.md, CONTRIBUTING.md updated**
+- [x] Update documentation - **AGENTS.md, CONTRIBUTING.md updated**
 - [x] Update templates - **`templates/skill.md` updated**
 - [ ] Create skills index - **Optional, can be generated from marketplace.json**
 - [ ] Add to CI/CD - **Pre-commit hooks added, GitHub Actions pending**

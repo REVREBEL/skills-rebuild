@@ -29,4 +29,3 @@ uv run scripts/get_collection.py --name "Articles"
 ```bash
 uv run scripts/get_collection.py --name "Products" --json
 ```
-

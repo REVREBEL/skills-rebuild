@@ -322,7 +322,7 @@ async def research_and_write(topic: str) -> BlogPost:
 
 ## Security & Safety Notes
 
-- Set API keys via environment variables (`OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, etc.) — never hardcode them.
+- Set API keys via environment variables (`LLM_API_KEY`, `LLM_API_KEY`, etc.) — never hardcode them.
 - Validate all tool inputs before passing to external systems — use Pydantic models or manual checks.
 - Tools that mutate data (write to DB, send emails, call payment APIs) should require explicit user confirmation before the agent invokes them in production.
 - Log `result.all_messages()` for audit trails when agents perform consequential actions.

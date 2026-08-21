@@ -21,7 +21,7 @@ For each entry point, up to the 20-file cap:
 1. **Read the file.** Use `Read` (or `Glob` first for a dir/glob, then `Read` on selected files).
 2. **Extract imports.** Collect static import paths (TS/JS `import`, Ruby `require`/`require_relative`, Python `import`, Go `import`, etc.). Resolve to in-repo paths where possible.
 3. **Follow 1 level of imports** into the same repo. Do NOT chase transitively (depth > 1). External package imports are noted but not opened.
-4. **Read adjacent architecture docs.** For each file, walk up the directory tree to the repo root looking for `CLAUDE.md`, `README.md`, `ARCHITECTURE.md`, `DESIGN.md`. Read any found. This provides architectural context.
+4. **Read adjacent architecture docs.** For each file, walk up the directory tree to the repo root looking for `AGENTS.md`, `README.md`, `ARCHITECTURE.md`, `DESIGN.md`. Read any found. This provides architectural context.
 5. **Extract OWNERSHIP / OWNERS file** if present in any ancestor directory (Figma repo has these). Capture the team name.
 
 ### Cap
@@ -44,7 +44,7 @@ The grounding phase produces a structured object consumed by interview + content
 {
   "files_read": [
     { "path": "share/mermaid/src/processors/edge_routing.ts", "kind": "source" },
-    { "path": "share/mermaid/CLAUDE.md", "kind": "doc" },
+    { "path": "share/mermaid/AGENTS.md", "kind": "doc" },
     // ...
   ],
   "services": [
@@ -57,8 +57,8 @@ The grounding phase produces a structured object consumed by interview + content
     { "path": "share/mermaid/src/processors/edge_routing.ts", "purpose": "Routes connectors around nodes in architecture diagrams" }
   ],
   "architecture_notes": [
-    "From share/mermaid/CLAUDE.md: Use bazel test //share/mermaid:test to validate",
-    "From repo root CLAUDE.md: PR titles follow 'domain: Description' format"
+    "From share/mermaid/AGENTS.md: Use bazel test //share/mermaid:test to validate",
+    "From repo root AGENTS.md: PR titles follow 'domain: Description' format"
   ],
   "ownership": "share/mermaid owned by: (team name if found in OWNERS file)",
   "expansion_truncated": false,
@@ -69,10 +69,10 @@ The grounding phase produces a structured object consumed by interview + content
 ### Field guidance
 
 - **`files_read`** — exhaustive list for transparency in the content-plan printout. User can spot wrong branches.
-- **`services`** — inferred from directory names, `services.yaml`, or explicit mentions in CLAUDE.md. If none found, leave empty. Do NOT invent.
+- **`services`** — inferred from directory names, `services.yaml`, or explicit mentions in AGENTS.md. If none found, leave empty. Do NOT invent.
 - **`external_deps`** — packages the code imports from third-party sources. Names + roles only.
 - **`key_modules`** — a short list of the most important files encountered (≤8). Use judgment based on file size, how many others import them, and whether they're named in architecture docs.
-- **`architecture_notes`** — verbatim quotes or close paraphrases from CLAUDE.md / ARCHITECTURE.md. Prefer quotes with attribution so the user can trace back.
+- **`architecture_notes`** — verbatim quotes or close paraphrases from AGENTS.md / ARCHITECTURE.md. Prefer quotes with attribution so the user can trace back.
 - **`ownership`** — team name if discoverable.
 
 ## How the content-shape phase uses this

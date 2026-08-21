@@ -152,9 +152,9 @@ These rules define how to translate Figma inputs into code for this project and 
 - [Add any performance considerations]
 ```
 
-### Step 4: Save Rules to CLAUDE.md
+### Step 4: Save Rules to AGENTS.md
 
-Guide the user to save the generated rules to the `CLAUDE.md` file in their project root:
+Guide the user to save the generated rules to the `AGENTS.md` file in their project root:
 
 ```markdown
 # MCP Servers
@@ -299,7 +299,7 @@ User says: "Create design system rules for my React project"
 - DO NOT install new icon libraries
 ```
 
-4. Save to `CLAUDE.md` in project root
+4. Save to `AGENTS.md` in project root
 5. Test with a simple button implementation
 
 **Result:** Claude now consistently follows the project's conventions when implementing Figma designs.
@@ -345,7 +345,7 @@ User says: "Set up Figma rules for my Vue app"
 - Scoped styles with CSS modules
 ```
 
-4. Save to `CLAUDE.md` in project root
+4. Save to `AGENTS.md` in project root
 5. Validate with a card component
 
 **Result:** Claude now correctly translates Figma designs to Vue components using the project's design token system.
@@ -399,7 +399,7 @@ User says: "Generate rules for our design system library"
 6. Update documentation
 ```
 
-4. Save to `CLAUDE.md` and share with team
+4. Save to `AGENTS.md` and share with team
 5. Add to team documentation
 
 **Result:** Entire team follows consistent patterns when adding components from Figma to the design system.

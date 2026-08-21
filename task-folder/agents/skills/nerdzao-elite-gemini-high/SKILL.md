@@ -4,6 +4,7 @@ description: "Modo Elite Coder + UX Pixel-Perfect otimizado especificamente para
 risk: safe
 source: community
 date_added: "2026-02-27"
+compatibility: 'Intrinsic platform/provider dependency: nerdzao-elite-gemini-high'
 ---
 
 # @nerdzao-elite-gemini-high

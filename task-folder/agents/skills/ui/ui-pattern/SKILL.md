@@ -50,7 +50,7 @@ Description: $ARGUMENTS
 ## Instructions
 
 1. Read the design system reference:
-   - `CLAUDE.md` for conventions
+   - `AGENTS.md` for conventions
    - `components/ui/` for available primitives
    - `components/patterns/` for existing patterns
 

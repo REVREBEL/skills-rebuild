@@ -3,7 +3,7 @@ name: competitor-analysis
 description: "Research competitors with Browserbase discovery, enrichment lanes, screenshots, matrices, and HTML reports."
 license: MIT
 compatibility: Requires the browse CLI (npm install -g browse) and BROWSERBASE_API_KEY env var
-allowed-tools: Bash Agent AskUserQuestion
+allowed-tools: Bash Agent AskUser
 metadata:
   author: browserbase
   version: "0.2.0"
@@ -70,7 +70,7 @@ Follow these 8 steps in order. Do not skip or reorder.
 2. **Depth Mode + Seed Input** — Choose depth, accept optional seed competitor URLs
 3. **Discovery (3 parallel waves)** — Wave A (alternatives), Wave B (precise category), Wave C (comparison-page graph via "X vs Y" title parsing)
 4. **Gate** — `scripts/gate_candidates.mjs` fetches each candidate's hero text (via `browse cloud fetch`) and drops wrong-category URLs
-5. **Confirm enrichment set with the user** — Present PASS / UNKNOWN / rejected-brand-matches via `AskUserQuestion`. User ticks the real ones, adds any the discovery missed. Skipping this step is wasteful because enrichment is expensive (25 subagents × depth budget) and the gate is imperfect (JS-heavy homepages, Cloudflare challenges, semantic-variant taglines)
+5. **Confirm enrichment set with the user** — Present PASS / UNKNOWN / rejected-brand-matches via `AskUser`. User ticks the real ones, adds any the discovery missed. Skipping this step is wasteful because enrichment is expensive (25 subagents × depth budget) and the gate is imperfect (JS-heavy homepages, Cloudflare challenges, semantic-variant taglines)
 6. **Deep Enrichment (5 subagents per competitor in deep/deeper modes)** — Marketing, Discussion, Social, News, Technical — each lane a separate subagent writing to `partials/`; then `merge_partials.mjs` consolidates. In deep/deeper modes, **Step 5d** adds a 6th Battle Card synthesis lane AFTER Step 5c fact-check completes — produces per-competitor Landmines / Objection Handlers / Talk Tracks grounded in cited evidence.
 7. **Screenshots** — `capture_screenshots.mjs` via the `browse` CLI captures a 1280×800 homepage hero per competitor
 8. **HTML Report** — Overview + per-competitor (with embedded hero screenshot + Battle Card card) + matrix + mentions views
@@ -129,7 +129,7 @@ Process:
 
 ## Step 2: Depth Mode + Seed Input
 
-Ask clarifying questions via `AskUserQuestion` with checkboxes:
+Ask clarifying questions via `AskUser` with checkboxes:
 - **Known competitors?** Text area for URLs/names (optional — discovery will find more).
 - **Depth mode?**
   - `quick` — marketing surface only, many competitors, ~2-3 tool calls each
@@ -220,7 +220,7 @@ The user almost always has domain knowledge the skill lacks. Ask them.
 
 2. Present the buckets to the user, one table per bucket, with URL + title + reason (for rejects).
 
-3. Use `AskUserQuestion` with a checkbox list of all candidates across the three buckets, plus a free-text "add more" field. The prompt should be explicit:
+3. Use `AskUser` with a checkbox list of all candidates across the three buckets, plus a free-text "add more" field. The prompt should be explicit:
    > "Here are the gate's picks plus a few it was unsure about. Tick the ones that are real competitors in your space, and paste any URLs I missed (comma-separated). Enrichment will run on ONLY the ticked set."
 
 4. Write the confirmed set to `/tmp/competitor_enrichment_set.txt` (one URL per line). This is the input for Step 5 — not `/tmp/competitor_passed.txt`.

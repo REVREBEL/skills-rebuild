@@ -105,39 +105,39 @@ Each platform action is dispatched via the relevant script:
 
 ```bash
 # CRM Campaign object
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/crm-sync.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/crm-sync.py --brand "{brand}" \
     --action create-campaign --plan ~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json
 
 # Landing page check
 curl -sS -o /dev/null -w "%{http_code}" "{landing_url}"
 
 # Email automation enable (idempotent — skips if already enabled)
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
     --action enable-automation --automation-id "{id}" --platform "{klaviyo|hubspot|...}"
 
 # Paid-ads activation (delegates to launch-ad-campaign for the paid-only subset)
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
     --action launch-ads --plan ~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json
 # (this internally calls the launch-ad-campaign workflow for Google/Meta/LinkedIn/TikTok)
 
 # Organic social scheduling
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
     --action schedule-posts --plan ~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json
 
 # Influencer notification
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
     --action notify-influencers --plan ~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json
 
 # PR send
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
     --action pr-send --plan ~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json
 
 # Internal kickoff
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
     --action internal-kickoff --plan ~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json
 
 # Day-1 monitoring
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
+python3 ${SKILL_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
     --action arm-watchdog --campaign-id "{campaign_id}" --kpis "{kpi list}"
 ```
 
@@ -146,7 +146,7 @@ If any action fails:
 1. Update `launch-state.json` with `status: paused_at_step_{N}` and the error.
 2. Do NOT proceed to subsequent steps. Subsequent steps depend on this one.
 3. Print the failure with a literal remediation command and the exact resume command:
-   `python3 ${CLAUDE_PLUGIN_ROOT}/scripts/execution-tracker.py --action resume-launch --campaign-id "{campaign_id}" --from-step {N}`
+   `python3 ${SKILL_ROOT}/scripts/execution-tracker.py --action resume-launch --campaign-id "{campaign_id}" --from-step {N}`
 4. Do NOT auto-retry. Day-1 failures often mean a misconfiguration that retries will only amplify (duplicate campaigns, doubled emails, etc.). Human decision required.
 
 ### Step 4 — Write the launch record

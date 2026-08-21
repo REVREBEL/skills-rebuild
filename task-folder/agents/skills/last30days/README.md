@@ -15,7 +15,7 @@ git clone https://github.com/mvanhorn/last30days-skill.git ~/.claude/skills/last
 # Add your API keys
 mkdir -p ~/.config/last30days
 cat > ~/.config/last30days/.env << 'EOF'
-OPENAI_API_KEY=sk-...
+LLM_API_KEY=sk-...
 XAI_API_KEY=xai-...
 EOF
 chmod 600 ~/.config/last30days/.env
@@ -285,7 +285,7 @@ This example shows /last30days learning **AI image generation prompting patterns
 
 **Marketer skill stack** (from @vibecode_edu): Slack, Email Knowledge, Nano-Banana, Notion, Skill Creator, Twitter post, Typefully
 
-**Key insight from Reddit:** Keep CLAUDE.md short (~1K context), use Skills for "context on demand", and ensure skill descriptions contain your trigger keywords.
+**Key insight from Reddit:** Keep AGENTS.md short (~1K context), use Skills for "context on demand", and ensure skill descriptions contain your trigger keywords.
 
 **Research Stats:** 4 Reddit threads (238 upvotes, 156 comments) + 15 X posts (28K+ likes, 2.8K reposts) from r/ClaudeCode, r/ClaudeAI, @Remotion, @milesdeutscher
 

@@ -38,7 +38,7 @@ Parse the first word of $ARGUMENTS to determine the subcommand:
 - `status [name]` → Show current status and suggest next step
 - (empty or unrecognized) → Show usage help
 
-If the feature name is not provided in arguments, you MUST use AskUserQuestion to prompt for it.
+If the feature name is not provided in arguments, you MUST use AskUser to prompt for it.
 
 ---
 
@@ -63,7 +63,7 @@ Example workflow:
   /build phase 1 chat-interface
 ```
 
-Then use AskUserQuestion to ask what they'd like to do:
+Then use AskUser to ask what they'd like to do:
 
 - question: "What would you like to do?"
 - header: "Action"
@@ -82,7 +82,7 @@ Then use AskUserQuestion to ask what they'd like to do:
 
 ### Step 1: Get Feature Name
 
-If feature name not in arguments, use AskUserQuestion:
+If feature name not in arguments, use AskUser:
 
 - question: "What's a short identifier for this feature? (lowercase, hyphens ok - e.g., 'chat-interface', 'user-auth', 'data-export'). Use 'Other' to type it."
 - header: "Feature name"
@@ -95,7 +95,7 @@ If feature name not in arguments, use AskUserQuestion:
 
 Check if `docs/{name}/RESEARCH.md` already exists.
 
-If it exists, use AskUserQuestion:
+If it exists, use AskUser:
 
 - question: "A RESEARCH.md already exists for this feature. What would you like to do?"
 - header: "Existing doc"
@@ -112,7 +112,7 @@ If "Skip" selected, suggest running `/build implementation {name}` and exit.
 
 ### Step 3: Gather Feature Context
 
-Use AskUserQuestion to understand the feature:
+Use AskUser to understand the feature:
 
 - question: "Describe the feature you want to build. What problem does it solve? What should it do? (Use 'Other' to describe)"
 - header: "Description"
@@ -123,7 +123,7 @@ Use AskUserQuestion to understand the feature:
 
 ### Step 4: Research Scope
 
-Use AskUserQuestion:
+Use AskUser:
 
 - question: "What aspects should the research focus on?"
 - header: "Focus areas"
@@ -145,7 +145,7 @@ Now conduct DEEP research on the feature:
 1. **Codebase exploration**: Understand existing patterns, similar features, relevant code
 2. **Web search**: Research best practices, similar implementations, relevant APIs
 3. **Technical deep-dive**: Explore specific technologies, libraries, frameworks
-4. **Use AskUserQuestion FREQUENTLY**: Validate assumptions, clarify requirements, get input on decisions
+4. **Use AskUser FREQUENTLY**: Validate assumptions, clarify requirements, get input on decisions
 
 Research should cover:
 - Problem definition and user needs
@@ -218,7 +218,7 @@ After writing the research doc, inform the user:
 
 ### Step 1: Get Feature Name
 
-If feature name not in arguments, use AskUserQuestion to prompt for it (same as research phase).
+If feature name not in arguments, use AskUser to prompt for it (same as research phase).
 
 ### Step 2: Verify Research Exists
 
@@ -233,7 +233,7 @@ If it does NOT exist:
 
 Check if `docs/{name}/IMPLEMENTATION.md` already exists.
 
-If it exists, use AskUserQuestion:
+If it exists, use AskUser:
 
 - question: "An IMPLEMENTATION.md already exists. What would you like to do?"
 - header: "Existing doc"
@@ -265,7 +265,7 @@ Break the research into practical implementation phases. Each phase should:
 - Build on previous phases
 - Have clear success criteria
 
-Use AskUserQuestion to validate phase breakdown:
+Use AskUser to validate phase breakdown:
 
 - question: "How granular should the implementation phases be?"
 - header: "Phase size"
@@ -285,7 +285,7 @@ For each phase you're planning, do targeted research:
 - Review relevant code in the codebase
 - Identify dependencies between phases
 
-Use AskUserQuestion for any uncertainties about phase ordering or scope.
+Use AskUser for any uncertainties about phase ordering or scope.
 
 ### Step 7: Write Implementation Document
 
@@ -359,7 +359,7 @@ After writing the implementation doc, inform the user:
 
 ### Step 1: Get Feature Name
 
-If feature name not in arguments, use AskUserQuestion to prompt for it.
+If feature name not in arguments, use AskUser to prompt for it.
 
 ### Step 2: Verify Implementation Doc Exists
 
@@ -374,7 +374,7 @@ If it does NOT exist:
 
 Check if `docs/{name}/PROGRESS.md` already exists.
 
-If it exists, use AskUserQuestion:
+If it exists, use AskUser:
 
 - question: "A PROGRESS.md already exists. What would you like to do?"
 - header: "Existing doc"
@@ -473,11 +473,11 @@ Parse arguments to extract:
 - Phase number (if provided)
 - Feature name (if provided)
 
-If neither provided, prompt for both using AskUserQuestion.
+If neither provided, prompt for both using AskUser.
 
 ### Step 2: Get Feature Name
 
-If feature name not determined, use AskUserQuestion to prompt for it.
+If feature name not determined, use AskUser to prompt for it.
 
 ### Step 3: Verify All Docs Exist
 
@@ -494,7 +494,7 @@ If phase number not in arguments:
 
 Read `docs/{name}/IMPLEMENTATION.md` to extract available phases.
 
-Use AskUserQuestion to let user select:
+Use AskUser to let user select:
 
 - question: "Which phase would you like to work on?"
 - header: "Phase"
@@ -514,14 +514,14 @@ Before starting implementation:
 
 1. **Web search** for specific implementation details relevant to this phase
 2. **Codebase exploration** for relevant existing code
-3. **Use AskUserQuestion** to clarify any ambiguities about the phase requirements
+3. **Use AskUser** to clarify any ambiguities about the phase requirements
 
 ### Step 7: Execute Phase Work
 
 Begin implementing the phase:
 
 1. Work through each task in the phase
-2. Use AskUserQuestion frequently for implementation decisions
+2. Use AskUser frequently for implementation decisions
 3. Follow the "Always Works" philosophy - test as you go
 4. Document decisions in PROGRESS.md as you make them
 
@@ -566,7 +566,7 @@ Consider:
 
 ### Step 1: Get Feature Name
 
-If feature name not in arguments, use AskUserQuestion to prompt for it.
+If feature name not in arguments, use AskUser to prompt for it.
 
 ### Step 2: Check Which Docs Exist
 
@@ -604,9 +604,9 @@ If all phases complete:
 
 ## Important Guidelines
 
-### Use AskUserQuestion Liberally
+### Use AskUser Liberally
 
-Throughout all phases, use AskUserQuestion whenever:
+Throughout all phases, use AskUser whenever:
 - There's ambiguity in requirements
 - Multiple approaches are possible
 - You need to validate an assumption
@@ -638,7 +638,7 @@ A key purpose of this workflow is preventing scope creep:
 - Each phase should have clear boundaries
 - If new requirements emerge, note them for future phases
 - Don't expand the current phase's scope mid-implementation
-- Use AskUserQuestion to validate if something is in/out of scope
+- Use AskUser to validate if something is in/out of scope
 
 ### Always Works Philosophy
 

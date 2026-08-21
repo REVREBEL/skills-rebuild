@@ -43,4 +43,3 @@ With named vector:
 ```bash
 uv run scripts/semantic_search.py --query "abstract art" --collection "Artworks" --target-vector "description_vector"
 ```
-

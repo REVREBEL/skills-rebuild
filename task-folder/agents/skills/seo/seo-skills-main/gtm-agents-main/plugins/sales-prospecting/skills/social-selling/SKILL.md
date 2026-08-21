@@ -29,4 +29,3 @@ description: Use when engaging prospects through LinkedIn, communities, and soci
 - Alternate public cues (comments, reposts) with private DMs to avoid feeling pushy.
 - Tie every outreach to proof (mutual connections, customer stories) to earn trust.
 - Move hot threads to email/call quickly and log outcomes for attribution.
-

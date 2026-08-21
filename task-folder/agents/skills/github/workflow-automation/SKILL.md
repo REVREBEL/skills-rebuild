@@ -99,7 +99,7 @@ jobs:
               event: 'COMMENT'
             });
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
 ```
 
 ### 1.2 Review Comment Patterns

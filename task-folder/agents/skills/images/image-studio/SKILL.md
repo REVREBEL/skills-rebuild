@@ -300,11 +300,11 @@ Se ambos falham:
 
 ```
 ai-studio-image:
-  Scripts: C:\Users\renat\skills\ai-studio-image\
+  Scripts: {USER_HOME}\skills\ai-studio-image\
   Gerar: python generate.py [--template T] [--prompt P]
 
 stability-ai:
-  Scripts: C:\Users\renat\skills\stability-ai\
+  Scripts: {USER_HOME}\skills\stability-ai\
   Gerar: python generate.py [MODE] --prompt P --style S
 ```
 

@@ -13,6 +13,7 @@ tools: [claude, codex]
 license: "MIT"
 license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
 disable-model-invocation: true
+compatibility: 'Intrinsic platform/provider dependency: codex-subagent'
 ---
 
 # Codex CLI as a Subagent

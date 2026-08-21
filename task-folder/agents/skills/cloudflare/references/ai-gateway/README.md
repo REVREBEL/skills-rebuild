@@ -37,7 +37,7 @@ const gateway = createAiGateway({
 });
 
 const openai = createOpenAI({ 
-  apiKey: process.env.OPENAI_API_KEY 
+  apiKey: process.env.LLM_API_KEY 
 });
 
 // Single model
@@ -66,7 +66,7 @@ Drop-in replacement for OpenAI API with multi-provider support.
 import OpenAI from 'openai';
 
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.LLM_API_KEY,
   baseURL: `https://gateway.ai.cloudflare.com/v1/${accountId}/${gatewayId}/compat`,
   defaultHeaders: {
     'cf-aig-authorization': `Bearer ${cfToken}` // For authenticated gateways

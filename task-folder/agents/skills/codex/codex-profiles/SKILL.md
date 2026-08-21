@@ -12,6 +12,7 @@ tags: [codex, codex-cli, profiles, code-home, account-isolation, desktop]
 tools: [codex]
 license: "MIT"
 license_source: "https://github.com/Ducksss/codex-profiles/blob/main/LICENSE"
+compatibility: 'Intrinsic platform/provider dependency: codex-profiles'
 ---
 
 # Codex Profiles

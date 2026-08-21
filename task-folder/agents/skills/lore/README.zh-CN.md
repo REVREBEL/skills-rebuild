@@ -34,7 +34,7 @@ git clone git@github.com:TheaDust/lore.git <你的-agent-skills-目录>
 
 - **每个新会话都要重新解释项目。** "我们用 Next.js App Router，不是 Pages。用 Zustand，不是 Redux。不要提交密钥。"
 - **决策被遗忘。** "为什么选 X 不选 Y？" → "我不记得了，问问团队吧。"
-- **智能体之间互相矛盾。** Cursor 读 `.cursorrules`，Claude Code 读 `CLAUDE.md`，两个文件逐渐漂移。
+- **智能体之间互相矛盾。** Cursor 读 `.cursorrules`，Claude Code 读 `AGENTS.md`，两个文件逐渐漂移。
 - **新成员上手需要数周。** 新成员 / 新 agent 都得从零学项目约定。
 
 lore 维护一个单一事实源（`.lore/`），并把它投影到你的 agent 已经读取的配置文件里。它追踪**为什么**做某个决策，而不只是代码**做了什么**，并把这个历史跨 session、跨工具保留下来。
@@ -54,11 +54,11 @@ lore sync
 
 # 3. 大量改动后，刷新 agent 可见的摘要
 lore compress
-# 重新生成 SUMMARY.md，更新 CLAUDE.md / .cursorrules 等
+# 重新生成 SUMMARY.md，更新 AGENTS.md / .cursorrules 等
 
 # 4. 强制刷新 mirror（比如手动编辑了 .lore/ 之后）
 lore mirror
-# 用当前状态重写 CLAUDE.md 等平台文件
+# 用当前状态重写 AGENTS.md 等平台文件
 ```
 
 另外三个只读命令：
@@ -101,7 +101,7 @@ lore history --json                 # 机器可读
 
 每个回答都精确引用 `[file#ID]`，你可以 `cat` 那个 entry，或跑 `lore history <ID>` 看决策为什么存在。
 
-### `CLAUDE.md` 长什么样
+### `AGENTS.md` 长什么样
 
 `lore` 每次会话成本保持平——发小索引而非完整 memory：
 
@@ -219,7 +219,7 @@ lore 的事实源是 `.lore/*`，但它会投影到 agent 已经读取的配置�
 
 | 平台 | 文件 | 自动检测？ |
 |---|---|---|
-| Claude Code | `CLAUDE.md` | ✅ |
+| Claude Code | `AGENTS.md` | ✅ |
 | Cursor | `.cursorrules` (或 `.cursor/rules/*.mdc`) | ✅ |
 | Cline | `.clinerules` | ✅ |
 | Aider / Codex / OpenCode | `AGENTS.md` (或 `CONVENTIONS.md`) | ✅ |
@@ -248,7 +248,7 @@ lore 的 token 模型有 5 个组件；只有 mirror 文件是 per-session，其
 
 | 组件 | 何时加载 | 典型大小 | per-session？ |
 |---|---|---|---|
-| **Mirror 文件**（CLAUDE.md / AGENTS.md 等） | 每次会话启动 | ~500 字节（index mode） | 是 |
+| **Mirror 文件**（AGENTS.md / AGENTS.md 等） | 每次会话启动 | ~500 字节（index mode） | 是 |
 | **SKILL.md**（lore 自身规范） | 每次用户说 `lore <cmd>` | ~10 KB | 否，per-invocation |
 | **`.lore/SUMMARY.md`** | agent 按需读，作为目录 | 1–30 KB | 否，on demand |
 | **`scopes/<scope>/{ARCH,DEC,CON}.md`** | agent 只读相关 scope | 1–5 KB each | 否，on demand |
@@ -256,7 +256,7 @@ lore 的 token 模型有 5 个组件；只有 mirror 文件是 per-session，其
 
 ### Mirror 是 constant-cost
 
-`CLAUDE.md` 等平台文件 agent 每次会话都自动加载。lore 通过只输出索引（~500 字节）而不是项目摘要来保持这个成本稳定。这是唯一随会话数线性增长的项。
+`AGENTS.md` 等平台文件 agent 每次会话都自动加载。lore 通过只输出索引（~500 字节）而不是项目摘要来保持这个成本稳定。这是唯一随会话数线性增长的项。
 
 | 项目规模 | Mirror 大小 | 每次会话成本 |
 |---|---|---|
@@ -281,7 +281,7 @@ lore 的 token 模型有 5 个组件；只有 mirror 文件是 per-session，其
 
 **Ambient** 知识 = agent 会话启动时已经在上下文里，无需 fetch。**On-demand** 知识 = agent 主动读时才有（`cat [file#ID]`、`lore query <term>`）。
 
-lore 的 mirror 文件（`CLAUDE.md`、`AGENTS.md` 等）是 ambient —— agent 每个 session 自动看到。`.lore/` 下所有内容是 on-demand：`SUMMARY.md` 当目录，entry 按需 fetch。
+lore 的 mirror 文件（`AGENTS.md`、`AGENTS.md` 等）是 ambient —— agent 每个 session 自动看到。`.lore/` 下所有内容是 on-demand：`SUMMARY.md` 当目录，entry 按需 fetch。
 
 默认是 on-demand。如果你倾向把整个 `SUMMARY.md` 倒进 `CLAUDE.md`（真 ambient），可行但**不推荐** —— 用「会话启动开销」换「零 fetch」。详见 [`references/platform-mirrors.md`](references/platform-mirrors.md)。
 
@@ -310,7 +310,7 @@ python scripts/history.py DEC-2026-02-03-7c19             # 展示某 entry 的 
   "auto_mirror": false,
   "sync_updates_mirror": false,
   "sync_trust": "medium",
-  "mirror_targets": ["CLAUDE.md"], // optional — auto-detected if absent
+  "mirror_targets": ["AGENTS.md"], // optional — auto-detected if absent
   "mirror_mode": "index",
   "compress_thresholds": { "max_entries": 500, "max_days_since_compress": 30 },
   "sync_thresholds": { "min_lines_changed": 50, "min_directories_changed": 2 }
@@ -351,10 +351,10 @@ A: 那些是扁平的规则列表。lore 是结构化的（架构 / 决策 / 约
 A: 不会。lore 是纯文件 I/O。调用 lore 的 agent 做语义工作（扫描代码、决定提取什么、分类变更）；lore 提供文件布局、ID 方案、标记规则和验证脚本。
 
 **Q: agent 原生的 `/init` 或 `/compact` 呢？**
-A: 它们用途不同。`/init` 是一次性项目扫描 → `CLAUDE.md`。`/compact` 压缩对话上下文。lore 的 `init` 和 `compress` 管长期项目知识，不是会话上下文。如果你在已经有非 lore `CLAUDE.md` 的项目上跑 `lore init`，接管检测（init step 0）会处理集成。
+A: 它们用途不同。`/init` 是一次性项目扫描 → `AGENTS.md`。`/compact` 压缩对话上下文。lore 的 `init` 和 `compress` 管长期项目知识，不是会话上下文。如果你在已经有非 lore `AGENTS.md` 的项目上跑 `lore init`，接管检测（init step 0）会处理集成。
 
 **Q: `sync` 和 `mirror` 有什么区别？**
-A: `sync` 根据代码改动更新 `.lore/`（feature / refactor 后）；`mirror` 把当前 `.lore/` 重新生成到 agent 端文件（`CLAUDE.md`、`.cursorrules` 等）。`sync` **故意不**更新 mirror —— mirror 文件该是人工合并的，不该每次 commit 都重生成，否则 `git log` 会变难读。需要 agent 视图跟上时，显式跑 `mirror`（或 `compress`）。
+A: `sync` 根据代码改动更新 `.lore/`（feature / refactor 后）；`mirror` 把当前 `.lore/` 重新生成到 agent 端文件（`AGENTS.md`、`.cursorrules` 等）。`sync` **故意不**更新 mirror —— mirror 文件该是人工合并的，不该每次 commit 都重生成，否则 `git log` 会变难读。需要 agent 视图跟上时，显式跑 `mirror`（或 `compress`）。
 
 **Q: 跟 ADR（Architecture Decision Records）有什么区别？**
 A: ADR 是文档（每个决策一个 markdown 文件）。lore 是结构化项目记忆 —— 一条事实一个 entry，带稳定 ID 和 `#added` / `#verified` / `#stale` 标记。lore 的 `DEC` 层能替代 `docs/adr/`（一条 DEC entry 对应一个决策），但 lore 还覆盖 `ARCH`（架构）和 `CON`（约定）同仓库存储，并能用 `compress` / `mirror` 生成 agent 视图。可以**替代** ADR，也可以**共存**（一条 DEC entry 指向已有 ADR 文档）。

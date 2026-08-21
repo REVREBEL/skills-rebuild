@@ -31,7 +31,7 @@ interface Env {
   DB?: D1Database;                      // D1 database
   KV?: KVNamespace;                     // KV storage
   R2?: R2Bucket;                        // R2 bucket
-  OPENAI_API_KEY?: string;              // Secrets
+  LLM_API_KEY?: string;              // Secrets
   GITHUB_CLIENT_ID?: string;            // MCP OAuth credentials
   GITHUB_CLIENT_SECRET?: string;
   QUEUE?: Queue;                        // Queues
@@ -50,7 +50,7 @@ npx wrangler dev
 npx wrangler deploy
 
 # Set secrets
-npx wrangler secret put OPENAI_API_KEY
+npx wrangler secret put LLM_API_KEY
 ```
 
 ## Agent Routing

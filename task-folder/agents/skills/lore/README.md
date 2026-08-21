@@ -34,7 +34,7 @@ When you work on a project across multiple AI tools (Claude Code, Cursor, Cline,
 
 - **Every new session re-explains the project.** "We're using Next.js App Router, not Pages. Use Zustand, not Redux. Don't commit secrets."
 - **Decisions are forgotten.** "Why did we pick X over Y?" → "I don't remember, let me ask the team."
-- **Agents disagree with each other.** Cursor follows `.cursorrules`, Claude Code follows `CLAUDE.md`, but the two files drift apart.
+- **Agents disagree with each other.** Cursor follows `.cursorrules`, Claude Code follows `AGENTS.md`, but the two files drift apart.
 - **Onboarding takes weeks.** New members / new agents need to learn the conventions from scratch.
 
 lore maintains a single source of truth (`.lore/`) and projects it into whatever config files your agents already read. It tracks *why* decisions were made, not just *what* the code does, and keeps that history across sessions and tools.
@@ -54,11 +54,11 @@ lore sync
 
 # 3. After many changes, refresh the agent-facing summary
 lore compress
-# Regenerates SUMMARY.md and updates CLAUDE.md / .cursorrules / etc.
+# Regenerates SUMMARY.md and updates AGENTS.md / .cursorrules / etc.
 
 # 4. Force a mirror refresh (e.g. after hand-editing .lore/)
 lore mirror
-# Rewrites CLAUDE.md and other platform files from current state
+# Rewrites AGENTS.md and other platform files from current state
 ```
 
 Three read-only commands round out the toolkit:
@@ -101,7 +101,7 @@ Found 6 entries matching 'auth':
 
 Every answer cites the exact `[file#ID]` so you can `cat` the entry or run `lore history <ID>` to see why the decision exists.
 
-### What `CLAUDE.md` looks like
+### What `AGENTS.md` looks like
 
 `lore` keeps per-session cost flat by emitting a small index, not the full memory:
 
@@ -219,7 +219,7 @@ lore's canonical store is `.lore/*`, but it projects into the config files agent
 
 | Platform | File | Auto-detected? |
 |---|---|---|
-| Claude Code | `CLAUDE.md` | ✅ |
+| Claude Code | `AGENTS.md` | ✅ |
 | Cursor | `.cursorrules` (or `.cursor/rules/*.mdc`) | ✅ |
 | Cline | `.clinerules` | ✅ |
 | Aider / Codex / OpenCode | `AGENTS.md` (or `CONVENTIONS.md`) | ✅ |
@@ -248,7 +248,7 @@ lore's token model has five components. Only the mirror file is per-session; eve
 
 | Component | Loaded when | Typical size | Per-session? |
 |---|---|---|---|
-| **Mirror file** (CLAUDE.md, AGENTS.md, etc.) | Every session start | ~500 bytes (index mode) | yes |
+| **Mirror file** (AGENTS.md, AGENTS.md, etc.) | Every session start | ~500 bytes (index mode) | yes |
 | **SKILL.md** (the lore spec itself) | Every `lore <cmd>` invocation | ~10 KB | no, per-invocation |
 | **`.lore/SUMMARY.md`** | Agent reads on demand as the table of contents | 1–30 KB | no, on demand |
 | **`scopes/<scope>/{ARCH,DEC,CON}.md`** | Agent reads only the relevant scope | 1–5 KB each | no, on demand |
@@ -256,7 +256,7 @@ lore's token model has five components. Only the mirror file is per-session; eve
 
 ### The mirror is constant-cost
 
-`CLAUDE.md` and equivalent platform files are loaded by your agent on **every session**. lore keeps this cost flat by emitting an index (~500 bytes) rather than the project digest content. This is the only line item that scales with session count.
+`AGENTS.md` and equivalent platform files are loaded by your agent on **every session**. lore keeps this cost flat by emitting an index (~500 bytes) rather than the project digest content. This is the only line item that scales with session count.
 
 | Project size | Mirror size | Per-session context cost |
 |---|---|---|
@@ -281,7 +281,7 @@ Every time you say `lore sync` or `lore query`, the agent loads `SKILL.md` (~10 
 
 **Ambient** knowledge is already in the agent's context at session start — no fetch needed. **On-demand** knowledge is read only when the agent asks (`cat [file#ID]`, `lore query <term>`).
 
-lore's mirror file (`CLAUDE.md`, `AGENTS.md`, etc.) is ambient — the agent sees it every session. Everything under `.lore/` is on-demand: `SUMMARY.md` is the table of contents, and entries are fetched when the agent actually needs them.
+lore's mirror file (`AGENTS.md`, `AGENTS.md`, etc.) is ambient — the agent sees it every session. Everything under `.lore/` is on-demand: `SUMMARY.md` is the table of contents, and entries are fetched when the agent actually needs them.
 
 Default is on-demand. If you'd rather dump the full `SUMMARY.md` into `CLAUDE.md` every session (true ambient), that works but isn't recommended — it trades session-start cost for zero fetch. See [`references/platform-mirrors.md`](references/platform-mirrors.md) for the index template.
 
@@ -310,7 +310,7 @@ All scripts are cross-platform Python 3.6+ with no third-party dependencies. See
   "auto_mirror": false,
   "sync_updates_mirror": false,
   "sync_trust": "medium",
-  "mirror_targets": ["CLAUDE.md"], // optional — auto-detected if absent
+  "mirror_targets": ["AGENTS.md"], // optional — auto-detected if absent
   "mirror_mode": "index",
   "compress_thresholds": { "max_entries": 500, "max_days_since_compress": 30 },
   "sync_thresholds": { "min_lines_changed": 50, "min_directories_changed": 2 }
@@ -351,10 +351,10 @@ A: Those are flat lists of rules. lore is structured (architecture / decisions /
 A: No. lore is pure file I/O. The agent invoking lore does the semantic work (scanning code, deciding what to extract, classifying changes); lore provides the file layout, the ID scheme, the markers, and the verification scripts.
 
 **Q: What about the agent's native `/init` or `/compact` commands?**
-A: They serve different purposes. `/init` is a one-shot project scan → `CLAUDE.md`. `/compact` compresses conversation context. lore `init` and `compress` manage long-term project knowledge, not session context. If you run `lore init` on a project that already has a non-lore `CLAUDE.md`, the takeover check (init step 0) handles integration.
+A: They serve different purposes. `/init` is a one-shot project scan → `AGENTS.md`. `/compact` compresses conversation context. lore `init` and `compress` manage long-term project knowledge, not session context. If you run `lore init` on a project that already has a non-lore `AGENTS.md`, the takeover check (init step 0) handles integration.
 
 **Q: What's the difference between `sync` and `mirror`?**
-A: `sync` updates `.lore/` from code changes (run after a feature or refactor). `mirror` updates agent-facing files (`CLAUDE.md`, `.cursorrules`, etc.) from current `.lore/`. `sync` deliberately does **not** update mirrors — mirror files should be human-merged, not regenerated on every commit, so `git log` stays readable. Run `mirror` (or `compress`) explicitly when you want agent-facing files to catch up.
+A: `sync` updates `.lore/` from code changes (run after a feature or refactor). `mirror` updates agent-facing files (`AGENTS.md`, `.cursorrules`, etc.) from current `.lore/`. `sync` deliberately does **not** update mirrors — mirror files should be human-merged, not regenerated on every commit, so `git log` stays readable. Run `mirror` (or `compress`) explicitly when you want agent-facing files to catch up.
 
 **Q: How is lore different from ADRs (Architecture Decision Records)?**
 A: ADRs are documents — one markdown file per decision. lore is structured project memory: one fact per entry, with a stable ID and `#added` / `#verified` / `#stale` markers. The `DEC` layer can replace `docs/adr/` (one DEC entry per decision), but lore also covers `ARCH` (architecture) and `CON` (conventions) in the same store, plus generates agent-facing summaries via `compress` / `mirror`. Use lore **instead of** ADRs, or **alongside** them (one DEC entry pointing to the existing ADR document).

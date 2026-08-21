@@ -134,5 +134,5 @@ done
 
 - unslop reads from stdin and writes to stdout — no file system side effects by default
 - `--deterministic` mode is local and does not make LLM API calls
-- Default LLM mode may use `ANTHROPIC_API_KEY` or the Claude CLI; use `--deterministic` for sensitive local files and CI gates
+- Default LLM mode may use `LLM_API_KEY` or the Claude CLI; use `--deterministic` for sensitive local files and CI gates
 - Safe to run in CI pipelines and commit hooks when pinned to deterministic mode

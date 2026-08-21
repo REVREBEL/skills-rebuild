@@ -4,7 +4,7 @@
 > **OpenAI Codex CLI**, **Cline**, **Aider**, and any other agent harness that
 > reads project-root agent instructions.
 >
-> Claude Code users: see `CLAUDE.md` instead.
+> Claude Code users: see `AGENTS.md` instead.
 
 ## Cross-platform portability (v2.0.0)
 

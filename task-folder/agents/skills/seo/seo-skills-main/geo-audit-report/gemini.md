@@ -27,7 +27,7 @@ https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html
 
 - A markdown file at project root loaded into every session's context.
 - Used for project-wide instructions, coding standards, and conventions.
-- Equivalent to Claude Code's CLAUDE.md.
+- Equivalent to Claude Code's AGENTS.md.
 
 ## Custom commands (TOML format)
 

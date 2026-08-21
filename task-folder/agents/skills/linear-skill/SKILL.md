@@ -1,8 +1,8 @@
 ---
-name: linear-claude-skill
+name: linear-skill
 description: "Manage Linear issues, projects, and teams"
 risk: safe
-source: "https://github.com/wrsmith108/linear-claude-skill"
+source: "https://github.com/wrsmith108/linear-skill"
 date_added: "2026-02-27"
 ---
 
@@ -50,7 +50,7 @@ linear issues list
 
 ## 🔐 Security: Varlock Integration
 
-**CRITICAL**: Never expose API keys in terminal output or Claude's context.
+**CRITICAL**: Never expose API keys in terminal output or the agent's context.
 
 ### Safe Commands (Always Use)
 
@@ -68,7 +68,7 @@ cat .env.schema | grep LINEAR
 ### Unsafe Commands (NEVER Use)
 
 ```bash
-# ❌ NEVER - exposes key to Claude's context
+# ❌ NEVER - exposes key to the agent's context
 linear config show
 echo $LINEAR_API_KEY
 printenv | grep LINEAR
@@ -131,10 +131,10 @@ read -rsp "Linear API key: " LINEAR_API_KEY
 echo
 export LINEAR_API_KEY
 
-# Option B: Add to Claude Code environment
+# Option B: Add to the agent environment
 printf 'LINEAR_API_KEY=%s\n' "$LINEAR_API_KEY" >> ~/.claude/.env
 
-# Then reload your shell or restart Claude Code
+# Then reload your shell or restart the agent
 ```
 
 ### 3. Test Connection

@@ -320,7 +320,7 @@ async def reflection_node(state: AgentState) -> AgentState:
 
 - Never expose API keys in generated code. All secrets must use environment variables:
   ```python
-  OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")   # ✅ correct
+  LLM_API_KEY = os.getenv("LLM_API_KEY")   # ✅ correct
   leaked_openai_token = "[redacted API key]"       # ❌ never do this
   ```
 - Always validate and sanitize user inputs before injecting them into agent prompts — treat all user input as untrusted.

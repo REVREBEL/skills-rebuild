@@ -1,6 +1,6 @@
 ---
 name: ai-md
-description: "Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance."
+description: "Convert human-written AGENTS.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance."
 risk: safe
 source: community
 date_added: "2026-03-11"
@@ -10,14 +10,14 @@ date_added: "2026-03-11"
 
 ## When to Use This Skill
 
-- Use when your CLAUDE.md is long but AI still ignores your rules
+- Use when your AGENTS.md is long but AI still ignores your rules
 - Use when token usage is too high from verbose system instructions
 - Use when you want to optimize any LLM system prompt for compliance
 - Use when migrating rules between AI tools (Claude, Codex, Gemini, Grok)
 
 ## What Is AI.MD?
 
-AI.MD is a methodology for converting human-written `CLAUDE.md` (or any LLM system instructions)
+AI.MD is a methodology for converting human-written `AGENTS.md` (or any LLM system instructions)
 into a structured-label format that AI models follow more reliably, using fewer tokens.
 
 **The paradox we proved:** Adding more rules in natural language DECREASES compliance.
@@ -99,13 +99,13 @@ across all models. The label `new-api:` raised Codex T5 from ❌→✅ on first 
 
 ---
 
-## The Conversion Process: What Happens When You Give Me a CLAUDE.md
+## The Conversion Process: What Happens When You Give Me a AGENTS.md
 
 Here's the exact mental model I use when converting natural language instructions to AI.MD format.
 
 ### Phase 1: UNDERSTAND — Read Like a Compiler, Not a Human
 
-I read the CLAUDE.md **as if I'm building a state machine**, not reading a document.
+I read the AGENTS.md **as if I'm building a state machine**, not reading a document.
 
 For each sentence, I ask:
 1. **Is this a TRIGGER?** (What input activates this behavior?)
@@ -398,7 +398,7 @@ claude_md=$(wc -c < ~/.claude/CLAUDE.md 2>/dev/null || echo 0)
 rules=$(cat ~/.claude/rules/*.md 2>/dev/null | wc -c || echo 0)
 total=$((claude_md + rules))
 tokens=$((total / 4))
-echo "CLAUDE.md:     $claude_md bytes"
+echo "AGENTS.md:     $claude_md bytes"
 echo "rules/*.md:    $rules bytes"
 echo "Total:         $total bytes ≈ $tokens tokens/turn"
 echo "50-turn session: ≈ $((tokens * 50)) tokens on instructions alone"
@@ -485,7 +485,7 @@ how system evolves over time
 
 | Don't | Do Instead | Why |
 |-------|------------|-----|
-| Human prose in CLAUDE.md | Structured labels | Prose requires inference; labels are direct |
+| Human prose in AGENTS.md | Structured labels | Prose requires inference; labels are direct |
 | Multiple rules on one line | One concept per line | Attention splits across dense lines |
 | Parenthetical explanations | Remove them | AI needs "what" not "why" |
 | Same rule in 3 places | Single source + cross-ref | Duplicates can diverge and confuse |
@@ -499,7 +499,7 @@ how system evolves over time
 
 ## Real-World Results
 
-Tested 2026-03, washinmura.jp CLAUDE.md, 5 rounds, 4 models:
+Tested 2026-03, washinmura.jp AGENTS.md, 5 rounds, 4 models:
 
 | Round | Change | Codex (GPT-5.3) | Gemini 2.5 Pro | Claude Opus 4.6 |
 |-------|--------|-----------------|----------------|-----------------|
@@ -514,7 +514,7 @@ Key findings:
 3. **Cross-model consistency**: Format that works for one model works for all (except Grok)
 4. **Semantic anchoring**: The `new-api:` label fix was the single most impactful change
 
-**The uncomfortable truth: Your beautiful, carefully-written CLAUDE.md
+**The uncomfortable truth: Your beautiful, carefully-written AGENTS.md
 might be HURTING your AI's performance. Structure > Prose. Always.**
 
 ## Limitations

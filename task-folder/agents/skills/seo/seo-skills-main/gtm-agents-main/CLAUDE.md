@@ -1,4 +1,4 @@
-# CLAUDE.md - GTM Agents
+# AGENTS.md - GTM Agents
 
 ## Project Overview
 

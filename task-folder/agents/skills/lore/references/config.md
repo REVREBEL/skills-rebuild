@@ -10,7 +10,7 @@
   "auto_mirror": true | false,
   "sync_updates_mirror": true | false,
   "sync_trust": "high" | "medium" | "low",
-  "mirror_targets": ["CLAUDE.md"], // optional — auto-detected if absent
+  "mirror_targets": ["AGENTS.md"], // optional — auto-detected if absent
   "mirror_mode": "index",
   "compress_thresholds": {
     "max_entries": 500,

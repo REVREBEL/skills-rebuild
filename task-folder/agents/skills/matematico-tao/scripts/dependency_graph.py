@@ -6,8 +6,8 @@ de grafos: componentes, ciclos, centralidade, instabilidade.
 
 Uso:
   python dependency_graph.py [path] [--format dot|json|text] [--output FILE]
-  python dependency_graph.py C:/Users/renat/earbudllm
-  python dependency_graph.py C:/Users/renat/earbudllm --format dot --output deps.dot
+  python dependency_graph.py C:{USER_HOME}/earbudllm
+  python dependency_graph.py C:{USER_HOME}/earbudllm --format dot --output deps.dot
 """
 
 import os
@@ -510,7 +510,7 @@ def main():
         description='Prof. Euler — Análise de Grafos de Dependências'
     )
     parser.add_argument('path', nargs='?',
-                        default=r'C:\Users\renat\earbudllm',
+                        default=r'{USER_HOME}\earbudllm',
                         help='Caminho raiz do projeto')
     parser.add_argument('--format', '-f', choices=['text', 'json', 'dot'],
                         default='text', help='Formato de saída')

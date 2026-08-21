@@ -70,7 +70,7 @@ All integrations optional (see [CONNECTORS.md](https://github.com/aaron-he-zhu/s
 ## Decision Gates
 
 **Stop and ask the user when:**
-- No target keywords are provided and none can be inferred from `CLAUDE.md` or prior monitoring records — offer: (1) supply a keyword list, (2) track the domain's top known terms, (3) cancel.
+- No target keywords are provided and none can be inferred from `AGENTS.md` or prior monitoring records — offer: (1) supply a keyword list, (2) track the domain's top known terms, (3) cancel.
 
 **Continue silently (never stop for):**
 - No prior baseline exists — record the current run as the baseline, label all positions as the first snapshot, and proceed (do not invent a "previous" position).
