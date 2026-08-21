@@ -12,7 +12,7 @@
 
 A long-term knowledge base for software projects, maintained by AI agents. Captures the kind of context that normally lives only in the original developer's head — architecture, decisions, conventions — and persists it as plain Markdown files that any agent can consume.
 
-> **lore is a SKILL, not a CLI tool.** It is a Markdown spec ([`SKILL.md`](SKILL.md)) that AI coding agents — the agent, Cursor, OpenCode, Cline, Aider, GitHub Copilot — read to gain long-term project memory. You do not `npm install` or `pip install` lore; you give your agent the URL and ask it to install the skill. From then on, phrases like `lore init` and `lore sync` are commands you say to your agent, **not** commands you type in a terminal. There is no `lore` binary on your `PATH`.
+> **lore is a SKILL, not a CLI tool.** It is a Markdown spec ([`SKILL.md`](SKILL.md)) that AI coding agents — Claude Code, Cursor, OpenCode, Cline, Aider, GitHub Copilot — read to gain long-term project memory. You do not `npm install` or `pip install` lore; you give your agent the URL and ask it to install the skill. From then on, phrases like `lore init` and `lore sync` are commands you say to your agent, **not** commands you type in a terminal. There is no `lore` binary on your `PATH`.
 
 ## Installation
 
@@ -24,17 +24,17 @@ Or, simpler — tell your agent:
 
 > Install https://github.com/TheaDust/lore as a skill.
 
-Each agent host loads skills from its own directory (`~/.claude/skills/` for the agent, `<project>/.claude/skills/` for project-scoped, etc.). Your agent knows its own skills directory and can clone the repo into the right place.
+Each agent host loads skills from its own directory (`~/.claude/skills/` for Claude Code, `<project>/.claude/skills/` for project-scoped, etc.). Your agent knows its own skills directory and can clone the repo into the right place.
 
 > Looking for a specific doc? Jump to: [Quick start](#quick-start) · [What it looks like](#what-this-looks-like) · [What lives in `.lore/`](#what-lives-in-lore) · [Seven workflows](#seven-workflows) · [Platform mirrors](#platform-mirrors) · [Configuration](#configuration) · [Upgrading](#upgrading) · [FAQ](#faq). Full reference docs live in [`references/`](references/). **Want plain-language "when to use each workflow"?** See [`WORKFLOWS.md`](WORKFLOWS.md) (also in [中文](WORKFLOWS.zh-CN.md)).
 
 ## What it solves
 
-When you work on a project across multiple AI tools (the agent, Cursor, Cline, GitHub Copilot, Aider, LangGraph agents, DeepAgents) and across many sessions, context gets lost:
+When you work on a project across multiple AI tools (Claude Code, Cursor, Cline, GitHub Copilot, Aider, LangGraph agents, DeepAgents) and across many sessions, context gets lost:
 
 - **Every new session re-explains the project.** "We're using Next.js App Router, not Pages. Use Zustand, not Redux. Don't commit secrets."
 - **Decisions are forgotten.** "Why did we pick X over Y?" → "I don't remember, let me ask the team."
-- **Agents disagree with each other.** Cursor follows `.cursorrules`, the agent follows `AGENTS.md`, but the two files drift apart.
+- **Agents disagree with each other.** Cursor follows `.cursorrules`, Claude Code follows `AGENTS.md`, but the two files drift apart.
 - **Onboarding takes weeks.** New members / new agents need to learn the conventions from scratch.
 
 lore maintains a single source of truth (`.lore/`) and projects it into whatever config files your agents already read. It tracks *why* decisions were made, not just *what* the code does, and keeps that history across sessions and tools.
@@ -190,7 +190,7 @@ For the full format spec (ID generation, tags, splitting rules), see [`reference
 | `query` | Read-only; answers from memory with entry IDs | nothing | [SKILL.md](SKILL.md#query--answer-from-memory) |
 | `audit` | Read-only; checks memory vs. current code; writes report | `.lore/audit/*` only | [`references/audit-template.md`](references/audit-template.md) |
 | `compress` | Generates `SUMMARY.md` from current entries | `SUMMARY.md` + platform mirrors | [`references/summary-template.md`](references/summary-template.md) |
-| `mirror` | Force-regenerate platform mirrors (with content dedup) | `AGENTS.md`, `.cursorrules`, etc. | [`references/platform-mirrors.md`](references/platform-mirrors.md) |
+| `mirror` | Force-regenerate platform mirrors (with content dedup) | `CLAUDE.md`, `.cursorrules`, etc. | [`references/platform-mirrors.md`](references/platform-mirrors.md) |
 | `history` | Read-only; lists git commits related to an entry / file / scope | nothing | [`references/history-command.md`](references/history-command.md) |
 
 For a plain-language explanation of each workflow (when you'd actually use each one, with real scenarios), see [`WORKFLOWS.md`](WORKFLOWS.md) (中文版: [`WORKFLOWS.zh-CN.md`](WORKFLOWS.zh-CN.md)).
@@ -219,7 +219,7 @@ lore's canonical store is `.lore/*`, but it projects into the config files agent
 
 | Platform | File | Auto-detected? |
 |---|---|---|
-| the agent | `AGENTS.md` | ✅ |
+| Claude Code | `AGENTS.md` | ✅ |
 | Cursor | `.cursorrules` (or `.cursor/rules/*.mdc`) | ✅ |
 | Cline | `.clinerules` | ✅ |
 | Aider / Codex / OpenCode | `AGENTS.md` (or `CONVENTIONS.md`) | ✅ |
@@ -283,7 +283,7 @@ Every time you say `lore sync` or `lore query`, the agent loads `SKILL.md` (~10 
 
 lore's mirror file (`AGENTS.md`, `AGENTS.md`, etc.) is ambient — the agent sees it every session. Everything under `.lore/` is on-demand: `SUMMARY.md` is the table of contents, and entries are fetched when the agent actually needs them.
 
-Default is on-demand. If you'd rather dump the full `SUMMARY.md` into `AGENTS.md` every session (true ambient), that works but isn't recommended — it trades session-start cost for zero fetch. See [`references/platform-mirrors.md`](references/platform-mirrors.md) for the index template.
+Default is on-demand. If you'd rather dump the full `SUMMARY.md` into `CLAUDE.md` every session (true ambient), that works but isn't recommended — it trades session-start cost for zero fetch. See [`references/platform-mirrors.md`](references/platform-mirrors.md) for the index template.
 
 ## Scripts
 

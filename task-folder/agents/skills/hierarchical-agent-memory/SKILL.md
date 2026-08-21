@@ -12,7 +12,7 @@ Scoped memory system that gives AI coding agents a cheat sheet for each director
 
 ## When to Use This Skill
 
-- Use when you want to reduce input token costs across the agent sessions
+- Use when you want to reduce input token costs across Claude Code sessions
 - Use when your project has 3+ directories and the agent keeps re-reading the same files
 - Use when you want directory-scoped context instead of one monolithic AGENTS.md
 - Use when you want a dashboard to visualize token savings, session history, and context health

@@ -339,7 +339,7 @@ Simple, affordable text-to-speech built into the OpenAI API.
 
 **Best for:** Quick voiceovers, cost-effective at scale, simple integration
 **API:** OpenAI API (same SDK as GPT/DALL-E)
-**Pricing:** $15/million chars (standard), $30/million chars (HD); ~$0.015/min with the active model-mini-tts
+**Pricing:** $15/million chars (standard), $30/million chars (HD); ~$0.015/min with gpt-4o-mini-tts
 
 **Capabilities:**
 - 13 built-in voices (no custom cloning)

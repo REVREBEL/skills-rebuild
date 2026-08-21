@@ -73,7 +73,7 @@ class TestRenderCompact(unittest.TestCase):
 class TestRenderContextSnippet(unittest.TestCase):
     def test_renders_snippet(self):
         report = schema.Report(
-            topic="the agent Skills",
+            topic="Claude Code Skills",
             range_from="2026-01-01",
             range_to="2026-01-31",
             generated_at="2026-01-31T12:00:00Z",
@@ -82,7 +82,7 @@ class TestRenderContextSnippet(unittest.TestCase):
 
         result = render.render_context_snippet(report)
 
-        self.assertIn("the agent Skills", result)
+        self.assertIn("Claude Code Skills", result)
         self.assertIn("Last 30 Days", result)
 
 

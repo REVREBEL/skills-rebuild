@@ -71,8 +71,8 @@ class TestFindDuplicates(unittest.TestCase):
 
     def test_finds_duplicates(self):
         items = [
-            schema.RedditItem(id="R1", title="Best practices for the agent skills", url="", subreddit=""),
-            schema.RedditItem(id="R2", title="Best practices for the agent skills guide", url="", subreddit=""),
+            schema.RedditItem(id="R1", title="Best practices for Claude Code skills", url="", subreddit=""),
+            schema.RedditItem(id="R2", title="Best practices for Claude Code skills guide", url="", subreddit=""),
         ]
         result = dedupe.find_duplicates(items, threshold=0.7)
         self.assertEqual(len(result), 1)

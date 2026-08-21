@@ -4,12 +4,12 @@
 > **OpenAI Codex CLI**, **Cline**, **Aider**, and any other agent harness that
 > reads project-root agent instructions.
 >
-> the agent users: see `AGENTS.md` instead.
+> Claude Code users: see `AGENTS.md` instead.
 
 ## Cross-platform portability (v2.0.0)
 
 Every skill in `skills/*/SKILL.md` is authored to a portable subset of the
-the agent skill spec. Validate compatibility with your harness via:
+Claude Code skill spec. Validate compatibility with your harness via:
 
 ```bash
 python scripts/portability_check.py
@@ -34,10 +34,10 @@ descriptive comments) that other harnesses may ignore but do not reject.
 
 ### Tool-name compatibility
 
-Where claude-seo skills mention the agent tools (`Read`, `Write`, `Edit`,
+Where claude-seo skills mention Claude Code tools (`Read`, `Write`, `Edit`,
 `Bash`, `Glob`, `Grep`, `WebFetch`), each harness typically has an equivalent:
 
-| the agent | Codex | Cline | Aider | Cursor / Antigravity |
+| Claude Code | Codex | Cline | Aider | Cursor / Antigravity |
 |---|---|---|---|---|
 | Read       | read_file        | read_file       | (inline)        | read |
 | Write      | write_file       | write_file      | /add then edit  | write |

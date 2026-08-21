@@ -38,14 +38,14 @@ headers: {
 
 **Multi-model fallback:**
 ```
-Start → the active model → On error: Claude → On error: Llama
+Start → GPT-4 → On error: Claude → On error: Llama
 ```
 
 **Tiered access:**
 ```
-Conditional: tier == 'enterprise' → the active model (no limit)
-Conditional: tier == 'pro' → Rate Limit 1000/hr → the active model
-Conditional: tier == 'free' → Rate Limit 10/hr → the active model-mini
+Conditional: tier == 'enterprise' → GPT-4 (no limit)
+Conditional: tier == 'pro' → Rate Limit 1000/hr → GPT-4o
+Conditional: tier == 'free' → Rate Limit 10/hr → GPT-4o-mini
 ```
 
 **Gradual rollout:**
@@ -56,8 +56,8 @@ Percentage: 10% → New model, 90% → Old model
 **Cost-based fallback:**
 ```
 Budget Limit: $100/day per teamId
-  < 80%: the active model
-  >= 80%: the active model-mini
+  < 80%: GPT-4
+  >= 80%: GPT-4o-mini
   >= 100%: Error
 ```
 

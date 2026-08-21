@@ -1,6 +1,6 @@
 ---
 name: context-kit
-description: "Evaluate, adapt, and safely install Context Kit personal context artifacts for the agent or adjacent agent workflows."
+description: "Evaluate, adapt, and safely install Context Kit personal context artifacts for Claude Code or adjacent agent workflows."
 category: productivity
 risk: critical
 source: community
@@ -18,7 +18,7 @@ tools: [claude, codex, cursor, gemini]
 
 Use this skill when the user wants to:
 
-- Set up durable personal context files for the agent or another coding agent
+- Set up durable personal context files for Claude Code or another coding agent
 - Compare Context Kit's Personal Context Artifact pattern with an existing memory or project-notes system
 - Adapt a context template structure without copying private details into the chat
 - Review whether a one-line installer or downloaded skill pack is appropriate before running it
@@ -27,7 +27,7 @@ Use this skill when the user wants to:
 ## Overview
 
 Context Kit is an external project that organizes personal context into Markdown artifacts and companion
-the agent skills. This skill helps the user decide what to adopt, where to store it, and how to avoid
+Claude Code skills. This skill helps the user decide what to adopt, where to store it, and how to avoid
 turning a useful context system into a pile of sensitive data.
 
 Treat every personal context file as private by default. These files may contain identity details, family
@@ -59,7 +59,7 @@ user explicitly approves the exact subset.
    memory, open-loop tracking, daily briefings, or handoff summaries.
 2. Inspect the upstream project and installer before running anything.
 3. Choose a storage location:
-   - the agent default: `~/.claude/context/` and `~/.claude/skills/`
+   - Claude Code default: `~/.claude/context/` and `~/.claude/skills/`
    - Project-local context: `.agent/context/` or another ignored directory
    - Portable setup: a private notes repo with explicit sync rules
 4. Create a minimal starter set before filling everything:

@@ -67,10 +67,10 @@ jobs:
         with:
           script: |
             const { Anthropic } = require('@anthropic-ai/sdk');
-            const client = new Anthropic({ apiKey: process.env.LLM_API_KEY });
+            const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
             const response = await client.messages.create({
-              model: "a capable LLM-sonnet-20240229",
+              model: "claude-3-sonnet-20240229",
               max_tokens: 4096,
               messages: [{
                 role: "user",

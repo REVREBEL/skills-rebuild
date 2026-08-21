@@ -33,7 +33,7 @@ import { openai } from "@ai-sdk/openai";
 export class ChatAgent extends AIChatAgent<Env> {
   async onChatMessage(onFinish) {
     return this.streamText({
-      model: openai("the active model"),
+      model: openai("gpt-4"),
       messages: this.messages,
       onFinish,
     });

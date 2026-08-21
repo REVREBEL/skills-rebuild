@@ -3,7 +3,7 @@ name: competitor-analysis
 description: 'Use when the user asks to "analyze competitors" or "竞品分析"; benchmarks competitor keywords, content, backlinks, AI citations, and traffic share into strengths, weaknesses, and an action plan. Not for a pairwise topic-coverage gap map — use content-gap-analysis. 竞品分析/竞争对手'
 version: "9.9.10"
 license: Apache-2.0
-compatibility: "the agent and compatible agent-skill hosts"
+compatibility: "Claude Code and compatible agent-skill hosts"
 homepage: "https://github.com/aaron-he-zhu/seo-geo-claude-skills"
 when_to_use: "Use when analyzing competitor SEO strategy, comparing domains, benchmarking against competitors, or finding competitor keywords and content gaps."
 argument-hint: "<competitor URL or domain>"
@@ -74,7 +74,7 @@ Optional integrations: ~~SEO tool, ~~analytics, ~~AI monitor. Without tools, ask
 
 **Stop and ask** — when the competitor set cannot be established:
 
-1. No competitors named and none inferable from `AGENTS.md`, prior research, or the user's niche → ask the user to name 2-5 competitors, OR offer to infer them from a target keyword via [serp-analysis](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/serp-analysis/SKILL.md) first.
+1. No competitors named and none inferable from `CLAUDE.md`, prior research, or the user's niche → ask the user to name 2-5 competitors, OR offer to infer them from a target keyword via [serp-analysis](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/serp-analysis/SKILL.md) first.
 
 **Continue silently** — do not stop for: which 3-5 of a longer list to deep-dive (pick the closest direct competitors and note the rest); missing your-own-site metrics (benchmark competitors against each other and mark your row N/A); missing optional tool data (label Estimated and proceed).
 

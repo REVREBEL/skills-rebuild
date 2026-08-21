@@ -13,7 +13,7 @@ import { z } from "zod";
 export class ChatAgent extends AIChatAgent<Env> {
   async onChatMessage(onFinish) {
     return this.streamText({
-      model: openai("the active model"),
+      model: openai("gpt-4"),
       messages: this.messages, // Auto-managed
       tools: {
         getWeather: tool({
@@ -66,7 +66,7 @@ Server defines tool, client executes:
 export class ChatAgent extends AIChatAgent<Env> {
   async onChatMessage(onFinish) {
     return this.streamText({
-      model: openai("the active model"),
+      model: openai("gpt-4"),
       messages: this.messages,
       tools: {
         confirmAction: tool({
@@ -147,7 +147,7 @@ export class EmailAgent extends Agent<Env> {
     this.sql`INSERT INTO emails (from_addr, subject, body) VALUES (${from}, ${subject}, ${text})`;
     
     const { text: summary } = await generateText({
-      model: openai("the active model-mini"), prompt: `Summarize: ${subject}\n\n${text}`
+      model: openai("gpt-4o-mini"), prompt: `Summarize: ${subject}\n\n${text}`
     });
     
     this.connections.forEach(c => c.send(JSON.stringify({type: "new_email", from, summary})));

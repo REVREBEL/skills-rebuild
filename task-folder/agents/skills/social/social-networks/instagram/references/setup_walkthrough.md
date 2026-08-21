@@ -66,7 +66,7 @@ Em modo de desenvolvimento, apenas testers podem usar o app:
 Com App ID e App Secret em mãos:
 
 ```bash
-python C:\Users\renat\skills\instagram\scripts\auth.py --setup
+python {USER_HOME}\skills\instagram\scripts\auth.py --setup
 ```
 
 O script vai:
@@ -95,13 +95,13 @@ O script vai:
 
 ```bash
 # Verificar token e conta
-python C:\Users\renat\skills\instagram\scripts\auth.py --status
+python {USER_HOME}\skills\instagram\scripts\auth.py --status
 
 # Testar leitura de perfil
-python C:\Users\renat\skills\instagram\scripts\profile.py --view
+python {USER_HOME}\skills\instagram\scripts\profile.py --view
 
 # Testar listagem de mídia
-python C:\Users\renat\skills\instagram\scripts\media.py --list --limit 3
+python {USER_HOME}\skills\instagram\scripts\media.py --list --limit 3
 ```
 
 ## Troubleshooting
@@ -121,7 +121,7 @@ python C:\Users\renat\skills\instagram\scripts\media.py --list --limit 3
 
 ### Token expirado
 ```bash
-python C:\Users\renat\skills\instagram\scripts\auth.py --refresh
+python {USER_HOME}\skills\instagram\scripts\auth.py --refresh
 ```
 O token longo dura 60 dias e é renovado automaticamente quando faltam 7 dias.
 

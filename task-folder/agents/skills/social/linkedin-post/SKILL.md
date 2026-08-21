@@ -96,7 +96,7 @@ Before finalizing, check:
 - Google vous adore. ChatGPT vous ignore.
 
 **Surprising Data:**
-- 23% de visibilité sur the active model. 67% sur Perplexity.
+- 23% de visibilité sur GPT-4. 67% sur Perplexity.
 - 1 entreprise sur 10 apparaît dans les réponses ChatGPT.
 
 **Question:**
@@ -165,7 +165,7 @@ Vous avez déjà vérifié si ChatGPT recommande votre marque ?
 
 If user provides audit data, use real numbers:
 - Global score
-- Scores by model (the active model, Claude, Perplexity, Gemini)
+- Scores by model (GPT-4o, Claude, Perplexity, Gemini)
 - Mention rates
 - Recommendations
 

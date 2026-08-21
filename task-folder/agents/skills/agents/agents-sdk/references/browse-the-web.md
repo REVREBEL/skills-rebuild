@@ -28,7 +28,7 @@ export class MyAgent extends AIChatAgent<Env> {
     });
 
     const result = streamText({
-      model: openai("the active model"),
+      model: openai("gpt-4o"),
       messages: await convertToModelMessages(this.messages),
       tools: { ...myTools, ...browserTools },
       onFinish

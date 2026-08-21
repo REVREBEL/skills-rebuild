@@ -36,7 +36,7 @@
 
 ## Prerequisites
 
-- [ ] the agent installed
+- [ ] Claude Code installed
 - [ ] GTM Agents marketplace added
 - [ ] `content-marketing` plugin installed
 - [ ] Content topic or theme identified
@@ -66,7 +66,7 @@ Pick a theme or topic cluster for the month. Examples:
 
 ### Step 2: Generate Your Content Calendar (5 minutes)
 
-1. Open the agent
+1. Open Claude Code
 2. Run:
    ```
    /content-marketing:content-pipeline

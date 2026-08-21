@@ -3,7 +3,7 @@
 ## Getting Started
 
 ### What is Claude GTM Agents?
-Claude GTM Agents is a free, open-source collection of 67 specialized plugins for the agent that help sales, marketing, and growth teams automate their daily work. Think of it as having 92 AI assistants ready to help with tasks like finding leads, writing emails, creating content, and analyzing data.
+Claude GTM Agents is a free, open-source collection of 67 specialized plugins for Claude Code that help sales, marketing, and growth teams automate their daily work. Think of it as having 92 AI assistants ready to help with tasks like finding leads, writing emails, creating content, and analyzing data.
 
 ### Do I need to know how to code?
 **No!** Claude GTM Agents is designed for business users with zero coding experience. You simply type what you want to do in plain English, and the AI agents do the work for you.
@@ -11,11 +11,11 @@ Claude GTM Agents is a free, open-source collection of 67 specialized plugins fo
 ### How much does it cost?
 **It's completely free!** Claude GTM Agents is open-source (MIT licensed), which means you can use it forever without paying anything. If you find it valuable, you can optionally [support the project](https://buymeacoffee.com/gtmagents).
 
-### What's the difference between the agent and Claude GTM Agents?
-- **the agent** is the platform (like a web browser)
-- **Claude GTM Agents** is a plugin marketplace you add to the agent (like browser extensions)
+### What's the difference between Claude Code and Claude GTM Agents?
+- **Claude Code** is the platform (like a web browser)
+- **Claude GTM Agents** is a plugin marketplace you add to Claude Code (like browser extensions)
 
-Think of it this way: the agent is your car, and GTM Agents are the specialized tools in your trunk.
+Think of it this way: Claude Code is your car, and GTM Agents are the specialized tools in your trunk.
 
 ### How long does it take to get started?
 Most users are up and running in **10-15 minutes**. Follow our [Getting Started Guide](GETTING_STARTED.md) for step-by-step instructions.
@@ -24,7 +24,7 @@ Most users are up and running in **10-15 minutes**. Follow our [Getting Started 
 
 ## Installation & Setup
 
-### How do I install the agent?
+### How do I install Claude Code?
 1. Visit [code.claude.com](https://code.claude.com)
 2. Download for your operating system (Windows, macOS, or Linux)
 3. Run the installer
@@ -33,8 +33,8 @@ Most users are up and running in **10-15 minutes**. Follow our [Getting Started 
 See our [Getting Started Guide](GETTING_STARTED.md) for detailed instructions.
 
 ### How do I add the GTM Agents marketplace?
-Once the agent is installed:
-1. Open the agent
+Once Claude Code is installed:
+1. Open Claude Code
 2. Type: `/plugin marketplace add gtmagents/gtm-agents`
 3. Press Enter
 
@@ -137,7 +137,7 @@ This shows all available commands and examples.
 ## Troubleshooting
 
 ### The plugin isn't working. What should I check?
-1. **Is the agent running?** Make sure it's open
+1. **Is Claude Code running?** Make sure it's open
 2. **Is the plugin installed?** Type `/plugin` to see installed plugins
 3. **Is the command correct?** Check spelling and syntax
 4. **Do you have internet?** Plugins need connectivity
@@ -161,7 +161,7 @@ This shows all available commands and examples.
 - Solution: Wait a few minutes and try again
 
 ### How do I update plugins?
-Plugins update automatically when you restart the agent. To force an update:
+Plugins update automatically when you restart Claude Code. To force an update:
 ```
 /plugin update [plugin-name]
 ```
@@ -204,7 +204,7 @@ Data is processed in real-time and not permanently stored by the plugins. Any ex
 Most commands complete in **5-30 seconds**. Complex workflows may take 1-2 minutes.
 
 ### Are there usage limits?
-Limits depend on your the agent subscription:
+Limits depend on your Claude Code subscription:
 - **Free tier**: Generous limits for personal use
 - **Pro tier**: Higher limits for power users
 - **Team/Enterprise**: Custom limits
@@ -237,7 +237,7 @@ Yes! Most plugins support export to:
 Many plugins support integrations. Check the plugin documentation for specific tools.
 
 ### How do I save my work?
-Results are automatically saved in your the agent workspace. You can also:
+Results are automatically saved in your Claude Code workspace. You can also:
 - Export to CSV
 - Copy to clipboard
 - Save to files
@@ -254,8 +254,8 @@ Results are automatically saved in your the agent workspace. You can also:
 - Share with your team
 - No hidden fees or trials
 
-### Do I need a the agent subscription?
-You need access to the agent, which has:
+### Do I need a Claude Code subscription?
+You need access to Claude Code, which has:
 - **Free tier**: Available to everyone
 - **Pro tier**: $20/month for higher limits
 - **Team tier**: Custom pricing

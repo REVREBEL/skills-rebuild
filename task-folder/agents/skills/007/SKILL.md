@@ -136,7 +136,7 @@ Antes de qualquer analise, mapear completamente o sistema:
 
 Para automacao, executar:
 ```bash
-python C:\Users\renat\skills\007\scripts\surface_mapper.py --target <caminho>
+python {USER_HOME}\skills\007\scripts\surface_mapper.py --target <caminho>
 ```
 Gera mapa JSON da superficie de ataque.
 
@@ -178,9 +178,9 @@ Process for Attack Simulation and Threat Analysis em 7 estagios:
 
 Para automacao:
 ```bash
-python C:\Users\renat\skills\007\scripts\threat_modeler.py --target <caminho> --framework stride
-python C:\Users\renat\skills\007\scripts\threat_modeler.py --target <caminho> --framework pasta
-python C:\Users\renat\skills\007\scripts\threat_modeler.py --target <caminho> --framework both
+python {USER_HOME}\skills\007\scripts\threat_modeler.py --target <caminho> --framework stride
+python {USER_HOME}\skills\007\scripts\threat_modeler.py --target <caminho> --framework pasta
+python {USER_HOME}\skills\007\scripts\threat_modeler.py --target <caminho> --framework both
 ```
 
 ## Fase 3: Checklist Tecnico De Seguranca
@@ -296,9 +296,9 @@ Para cada ameaca identificada, propor defesas concretas:
 
 Para automacao de hardening:
 ```bash
-python C:\Users\renat\skills\007\scripts\hardening_advisor.py --target <caminho> --level maximum
-python C:\Users\renat\skills\007\scripts\hardening_advisor.py --target <caminho> --level balanced
-python C:\Users\renat\skills\007\scripts\hardening_advisor.py --target <caminho> --level minimum
+python {USER_HOME}\skills\007\scripts\hardening_advisor.py --target <caminho> --level maximum
+python {USER_HOME}\skills\007\scripts\hardening_advisor.py --target <caminho> --level balanced
+python {USER_HOME}\skills\007\scripts\hardening_advisor.py --target <caminho> --level minimum
 ```
 
 ## Fase 6: Veredito Final
@@ -330,7 +330,7 @@ Cada dominio recebe uma nota de 0-100:
 
 Para automacao:
 ```bash
-python C:\Users\renat\skills\007\scripts\score_calculator.py --target <caminho>
+python {USER_HOME}\skills\007\scripts\score_calculator.py --target <caminho>
 ```
 
 ## Formato De Resposta
@@ -567,43 +567,43 @@ TEMPO DE RESPOSTA: URGENTE
 
 ## Scan Rapido De Seguranca (Automatizado)
 
-python C:\Users\renat\skills\007\scripts\quick_scan.py --target <caminho>
+python {USER_HOME}\skills\007\scripts\quick_scan.py --target <caminho>
 
 ## Auditoria Completa
 
-python C:\Users\renat\skills\007\scripts\full_audit.py --target <caminho>
+python {USER_HOME}\skills\007\scripts\full_audit.py --target <caminho>
 
 ## Threat Modeling Automatizado
 
-python C:\Users\renat\skills\007\scripts\threat_modeler.py --target <caminho> --framework both
+python {USER_HOME}\skills\007\scripts\threat_modeler.py --target <caminho> --framework both
 
 ## Checklist Tecnico
 
-python C:\Users\renat\skills\007\scripts\security_checklist.py --target <caminho>
+python {USER_HOME}\skills\007\scripts\security_checklist.py --target <caminho>
 
 ## Scoring De Seguranca
 
-python C:\Users\renat\skills\007\scripts\score_calculator.py --target <caminho>
+python {USER_HOME}\skills\007\scripts\score_calculator.py --target <caminho>
 
 ## Mapa De Superficie De Ataque
 
-python C:\Users\renat\skills\007\scripts\surface_mapper.py --target <caminho>
+python {USER_HOME}\skills\007\scripts\surface_mapper.py --target <caminho>
 
 ## Advisor De Hardening
 
-python C:\Users\renat\skills\007\scripts\hardening_advisor.py --target <caminho>
+python {USER_HOME}\skills\007\scripts\hardening_advisor.py --target <caminho>
 
 ## Scan De Segredos
 
-python C:\Users\renat\skills\007\scripts\scanners\secrets_scanner.py --target <caminho>
+python {USER_HOME}\skills\007\scripts\scanners\secrets_scanner.py --target <caminho>
 
 ## Scan De Dependencias
 
-python C:\Users\renat\skills\007\scripts\scanners\dependency_scanner.py --target <caminho>
+python {USER_HOME}\skills\007\scripts\scanners\dependency_scanner.py --target <caminho>
 
 ## Scan De Injection Patterns
 
-python C:\Users\renat\skills\007\scripts\scanners\injection_scanner.py --target <caminho>
+python {USER_HOME}\skills\007\scripts\scanners\injection_scanner.py --target <caminho>
 ```
 
 ## Referencias

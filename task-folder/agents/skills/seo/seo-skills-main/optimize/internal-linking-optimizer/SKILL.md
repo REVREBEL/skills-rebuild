@@ -3,7 +3,7 @@ name: internal-linking-optimizer
 description: 'Use when the user asks to "fix internal linking" or "find orphan pages"; maps link architecture, authority flow, anchor text, and crawl depth, then delivers a prioritized source/target/anchor plan. Not for external backlinks — use backlink-analyzer. 内链优化/站内架构'
 version: "9.9.10"
 license: Apache-2.0
-compatibility: "the agent and compatible agent-skill hosts"
+compatibility: "Claude Code and compatible agent-skill hosts"
 homepage: "https://github.com/aaron-he-zhu/seo-geo-claude-skills"
 when_to_use: "Use when improving internal link structure, anchor text distribution, orphan pages, or site architecture."
 argument-hint: "<URL or sitemap>"

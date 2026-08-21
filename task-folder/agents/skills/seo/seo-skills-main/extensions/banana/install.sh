@@ -154,7 +154,7 @@ print('  ✓ nanobanana-mcp configured in settings.json')
     echo "✓ Banana Image Generation extension installed successfully!"
     echo ""
     echo "Usage:"
-    echo "  1. Start the agent:  claude"
+    echo "  1. Start Claude Code:  claude"
     echo "  2. Run commands:"
     echo "     /seo image-gen og \"Professional SaaS dashboard\""
     echo "     /seo image-gen hero \"Dramatic sunset over city skyline\""

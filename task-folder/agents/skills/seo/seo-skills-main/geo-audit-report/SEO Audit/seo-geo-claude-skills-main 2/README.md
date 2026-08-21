@@ -6,19 +6,19 @@
 [![Version](https://img.shields.io/badge/version-9.9.10-orange)](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/VERSIONS.md)
 [![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/aaron-he-zhu/seo-geo-claude-skills)](https://github.com/aaron-he-zhu/seo-geo-claude-skills/commits/main)
-[![the agent](https://img.shields.io/badge/Claude%20Code-compatible-purple)](https://claude.ai/download)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-purple)](https://claude.ai/download)
 
 [English](README.md) | [中文](docs/README.zh.md)
 
-Claude Skills and Commands for Search Engine Optimization (SEO) and Generative Engine Optimization (GEO). Skill content is zero-dependency Markdown; the agent hooks use a small Bash runner. Content quality uses [CORE-EEAT](https://github.com/aaron-he-zhu/core-eeat-content-benchmark) (80 items); domain trust uses [CITE](https://github.com/aaron-he-zhu/cite-domain-rating) (40 items).
+Claude Skills and Commands for Search Engine Optimization (SEO) and Generative Engine Optimization (GEO). Skill content is zero-dependency Markdown; Claude Code hooks use a small Bash runner. Content quality uses [CORE-EEAT](https://github.com/aaron-he-zhu/core-eeat-content-benchmark) (80 items); domain trust uses [CITE](https://github.com/aaron-he-zhu/cite-domain-rating) (40 items).
 
 ## Quick Start
 
-Install with the agent, any Agent Skills-compatible host, or a plain `git clone`:
+Install with Claude Code, any Agent Skills-compatible host, or a plain `git clone`:
 
 | Tool | Install |
 |------|---------|
-| the agent | `/plugin marketplace add aaron-he-zhu/seo-geo-claude-skills` |
+| Claude Code | `/plugin marketplace add aaron-he-zhu/seo-geo-claude-skills` |
 | skills.sh / generic Agent Skills hosts | `npx skills add aaron-he-zhu/seo-geo-claude-skills` |
 | Any host | `git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills` |
 

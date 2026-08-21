@@ -3,7 +3,7 @@
 _Last updated: 2025-11-18_
 
 ## Overview
-GTM teams should always have four foundational MCP tools ready: **Serena**, **Context7**, **Sequential Thinking**, and **Playwright**. This guide explains how to configure them so revenue teams can run audits, pull current documentation, reason through complex programs, and QA digital experiences without leaving the agent.
+GTM teams should always have four foundational MCP tools ready: **Serena**, **Context7**, **Sequential Thinking**, and **Playwright**. This guide explains how to configure them so revenue teams can run audits, pull current documentation, reason through complex programs, and QA digital experiences without leaving Claude Code.
 
 Use this document whenever you:
 - Spin up a fresh GTM workspace and need deterministic tooling.

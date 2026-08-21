@@ -229,7 +229,7 @@ The script handles framework detection, packaging, and deployment. It waits for 
 
 ## Agent-Specific Notes
 
-### the agent / terminal-based agents
+### Claude Code / terminal-based agents
 
 You have full shell access. Do NOT use the `/mnt/skills/` path. Follow the decision flow above using the CLI directly.
 

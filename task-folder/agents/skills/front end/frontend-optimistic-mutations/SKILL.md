@@ -16,7 +16,7 @@ license_source: https://github.com/stareezy-1/frontend-architecture-skill/blob/m
 Use this skill when you need a portable, framework-agnostic discipline for the write path of any React or React Native app using a query/cache layer. Codifies the optimistic-update lifecycle (cancel in-flight queries → snapshot every affected cache → patch instantly → roll back verbatim on error → invalidate on...
 
 
-> Portable skill — readable by the agent, OpenCode, Codex, Cursor, Windsurf, and others.
+> Portable skill — readable by Claude Code, OpenCode, Codex, Cursor, Windsurf, and others.
 > This skill describes the **discipline of the write path** — optimistic updates, rollback,
 > idempotency, cache coherence — not a UI library or a styling system. It builds directly on the
 > **frontend-data-contracts** skill (writes go through the typed client) and the

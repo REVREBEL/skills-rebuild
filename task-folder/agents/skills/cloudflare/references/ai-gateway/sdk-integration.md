@@ -17,16 +17,16 @@ const openai = createOpenAI({ apiKey: process.env.LLM_API_KEY });
 
 // Single model
 const { text } = await generateText({
-  model: gateway(openai('the active model')),
+  model: gateway(openai('gpt-4o')),
   prompt: 'Hello'
 });
 
 // Automatic fallback array
 const { text } = await generateText({
   model: gateway([
-    openai('the active model'),
+    openai('gpt-4o'),
     anthropic('claude-sonnet-4-5'),
-    openai('the active model-mini')
+    openai('gpt-4o-mini')
   ]),
   prompt: 'Complex task'
 });
@@ -35,7 +35,7 @@ const { text } = await generateText({
 ### Options
 
 ```typescript
-model: gateway(openai('the active model'), {
+model: gateway(openai('gpt-4o'), {
   cacheKey: 'my-key',
   cacheTtl: 3600,
   metadata: { userId: 'u123', team: 'eng' }, // Max 5 entries
@@ -53,7 +53,7 @@ const client = new OpenAI({
 });
 
 // Unified API - switch providers via model name
-model: 'openai/the active model'  // or 'anthropic/claude-sonnet-4-5'
+model: 'openai/gpt-4o'  // or 'anthropic/claude-sonnet-4-5'
 ```
 
 ## Anthropic SDK
@@ -101,7 +101,7 @@ curl https://gateway.ai.cloudflare.com/v1/{account}/{gateway}/openai/chat/comple
   -H "Authorization: Bearer $OPENAI_KEY" \
   -H "cf-aig-authorization: Bearer $CF_TOKEN" \
   -H "cf-aig-metadata: {\"userId\":\"123\"}" \
-  -d '{"model":"the active model","messages":[...]}'
+  -d '{"model":"gpt-4o","messages":[...]}'
 ```
 
 ## Headers Reference

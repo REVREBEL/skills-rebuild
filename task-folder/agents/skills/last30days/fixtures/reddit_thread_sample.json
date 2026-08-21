@@ -6,13 +6,13 @@
         {
           "kind": "t3",
           "data": {
-            "title": "Best practices for the agent skills - comprehensive guide",
+            "title": "Best practices for Claude Code skills - comprehensive guide",
             "score": 847,
             "num_comments": 156,
             "upvote_ratio": 0.94,
             "created_utc": 1705363200,
             "permalink": "/r/ClaudeAI/comments/abc123/best_practices_for_claude_code_skills/",
-            "selftext": "After building 20+ skills for the agent, here are my key learnings..."
+            "selftext": "After building 20+ skills for Claude Code, here are my key learnings..."
           }
         }
       ]

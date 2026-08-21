@@ -61,7 +61,7 @@ confirmações antes de ações públicas).
 ## Localização
 
 ```
-C:\Users\renat\skills\instagram\
+{USER_HOME}\skills\instagram\
 ├── SKILL.md
 ├── scripts/
 │   ├── requirements.txt
@@ -104,7 +104,7 @@ C:\Users\renat\skills\instagram\
 ## Instalação (Uma Vez)
 
 ```bash
-pip install -r C:\Users\renat\skills\instagram\scripts\requirements.txt
+pip install -r {USER_HOME}\skills\instagram\scripts\requirements.txt
 ```
 
 ## Configuração Inicial
@@ -113,15 +113,15 @@ pip install -r C:\Users\renat\skills\instagram\scripts\requirements.txt
 
 ## 1. Verificar Tipo De Conta Instagram
 
-python C:\Users\renat\skills\instagram\scripts\account_setup.py --check
+python {USER_HOME}\skills\instagram\scripts\account_setup.py --check
 
 ## 2. Configurar Oauth (Abre Browser Para Autorização)
 
-python C:\Users\renat\skills\instagram\scripts\auth.py --setup
+python {USER_HOME}\skills\instagram\scripts\auth.py --setup
 
 ## 3. Verificar Se Está Tudo Funcionando
 
-python C:\Users\renat\skills\instagram\scripts\profile.py --view
+python {USER_HOME}\skills\instagram\scripts\profile.py --view
 ```
 
 Se a conta for pessoal, o script `account_setup.py --guide` dá instruções de migração
@@ -129,164 +129,164 @@ para Business ou Creator.
 
 ## Foto (Aceita Arquivo Local — Faz Upload Automático Via Imgur)
 
-python C:\Users\renat\skills\instagram\scripts\publish.py --type photo --image caminho/foto.jpg --caption "Texto do post"
+python {USER_HOME}\skills\instagram\scripts\publish.py --type photo --image caminho/foto.jpg --caption "Texto do post"
 
 ## Vídeo
 
-python C:\Users\renat\skills\instagram\scripts\publish.py --type video --video caminho/video.mp4 --caption "Meu vídeo"
+python {USER_HOME}\skills\instagram\scripts\publish.py --type video --video caminho/video.mp4 --caption "Meu vídeo"
 
 ## Reel
 
-python C:\Users\renat\skills\instagram\scripts\publish.py --type reel --video caminho/reel.mp4 --caption "Novo reel!"
+python {USER_HOME}\skills\instagram\scripts\publish.py --type reel --video caminho/reel.mp4 --caption "Novo reel!"
 
 ## Story
 
-python C:\Users\renat\skills\instagram\scripts\publish.py --type story --image caminho/story.jpg
+python {USER_HOME}\skills\instagram\scripts\publish.py --type story --image caminho/story.jpg
 
 ## Carrossel (2-10 Imagens)
 
-python C:\Users\renat\skills\instagram\scripts\publish.py --type carousel --images img1.jpg img2.jpg img3.jpg --caption "Carrossel"
+python {USER_HOME}\skills\instagram\scripts\publish.py --type carousel --images img1.jpg img2.jpg img3.jpg --caption "Carrossel"
 
 ## Criar Como Rascunho (Não Publica Imediatamente)
 
-python C:\Users\renat\skills\instagram\scripts\publish.py --type photo --image foto.jpg --caption "Texto" --draft
+python {USER_HOME}\skills\instagram\scripts\publish.py --type photo --image foto.jpg --caption "Texto" --draft
 
 ## Aprovar Rascunho Para Publicação
 
-python C:\Users\renat\skills\instagram\scripts\publish.py --approve --id 5
+python {USER_HOME}\skills\instagram\scripts\publish.py --approve --id 5
 ```
 
 ## Agendar Publicação Futura
 
-python C:\Users\renat\skills\instagram\scripts\schedule.py --type photo --image foto.jpg --caption "Post agendado" --at "2026-03-01T10:00"
+python {USER_HOME}\skills\instagram\scripts\schedule.py --type photo --image foto.jpg --caption "Post agendado" --at "2026-03-01T10:00"
 
 ## Listar Posts Agendados
 
-python C:\Users\renat\skills\instagram\scripts\schedule.py --list
+python {USER_HOME}\skills\instagram\scripts\schedule.py --list
 
 ## Processar Posts Prontos Para Publicar
 
-python C:\Users\renat\skills\instagram\scripts\schedule.py --process
+python {USER_HOME}\skills\instagram\scripts\schedule.py --process
 
 ## Cancelar Agendamento
 
-python C:\Users\renat\skills\instagram\scripts\schedule.py --cancel --id 5
+python {USER_HOME}\skills\instagram\scripts\schedule.py --cancel --id 5
 ```
 
 ## Listar Comentários De Um Post
 
-python C:\Users\renat\skills\instagram\scripts\comments.py --list --media-id 12345
+python {USER_HOME}\skills\instagram\scripts\comments.py --list --media-id 12345
 
 ## Responder A Um Comentário
 
-python C:\Users\renat\skills\instagram\scripts\comments.py --reply --comment-id 67890 --text "Obrigado!"
+python {USER_HOME}\skills\instagram\scripts\comments.py --reply --comment-id 67890 --text "Obrigado!"
 
 ## Deletar Comentário
 
-python C:\Users\renat\skills\instagram\scripts\comments.py --delete --comment-id 67890
+python {USER_HOME}\skills\instagram\scripts\comments.py --delete --comment-id 67890
 
 ## Ver Menções
 
-python C:\Users\renat\skills\instagram\scripts\comments.py --mentions
+python {USER_HOME}\skills\instagram\scripts\comments.py --mentions
 
 ## Comentários Não Respondidos
 
-python C:\Users\renat\skills\instagram\scripts\comments.py --unreplied
+python {USER_HOME}\skills\instagram\scripts\comments.py --unreplied
 ```
 
 ## Enviar Dm
 
-python C:\Users\renat\skills\instagram\scripts\messages.py --send --user-id 12345 --text "Olá!"
+python {USER_HOME}\skills\instagram\scripts\messages.py --send --user-id 12345 --text "Olá!"
 
 ## Listar Conversas
 
-python C:\Users\renat\skills\instagram\scripts\messages.py --conversations
+python {USER_HOME}\skills\instagram\scripts\messages.py --conversations
 
 ## Ver Mensagens De Uma Conversa
 
-python C:\Users\renat\skills\instagram\scripts\messages.py --thread --conversation-id 12345
+python {USER_HOME}\skills\instagram\scripts\messages.py --thread --conversation-id 12345
 ```
 
 ## Métricas De Um Post Específico
 
-python C:\Users\renat\skills\instagram\scripts\insights.py --media --media-id 12345
+python {USER_HOME}\skills\instagram\scripts\insights.py --media --media-id 12345
 
 ## Métricas Da Conta (Últimos 7 Dias)
 
-python C:\Users\renat\skills\instagram\scripts\insights.py --user --period day --since 7
+python {USER_HOME}\skills\instagram\scripts\insights.py --user --period day --since 7
 
 ## Buscar E Salvar Insights De Todos Os Posts Recentes
 
-python C:\Users\renat\skills\instagram\scripts\insights.py --fetch-all --limit 20
+python {USER_HOME}\skills\instagram\scripts\insights.py --fetch-all --limit 20
 ```
 
 ## Melhores Horários Para Postar (Baseado Nos Seus Dados)
 
-python C:\Users\renat\skills\instagram\scripts\analyze.py --best-times
+python {USER_HOME}\skills\instagram\scripts\analyze.py --best-times
 
 ## Top Posts Por Engajamento
 
-python C:\Users\renat\skills\instagram\scripts\analyze.py --top-posts --limit 10
+python {USER_HOME}\skills\instagram\scripts\analyze.py --top-posts --limit 10
 
 ## Tendências De Crescimento
 
-python C:\Users\renat\skills\instagram\scripts\analyze.py --growth --period 30
+python {USER_HOME}\skills\instagram\scripts\analyze.py --growth --period 30
 ```
 
 ## Buscar Posts Recentes Com Uma Hashtag
 
-python C:\Users\renat\skills\instagram\scripts\hashtags.py --search "artificialintelligence" --limit 25
+python {USER_HOME}\skills\instagram\scripts\hashtags.py --search "artificialintelligence" --limit 25
 
 ## Top Posts De Uma Hashtag
 
-python C:\Users\renat\skills\instagram\scripts\hashtags.py --top "tecnologia"
+python {USER_HOME}\skills\instagram\scripts\hashtags.py --top "tecnologia"
 
 ## Info Da Hashtag (Contagem De Posts)
 
-python C:\Users\renat\skills\instagram\scripts\hashtags.py --info "marketing"
+python {USER_HOME}\skills\instagram\scripts\hashtags.py --info "marketing"
 ```
 
 ## Criar Template
 
-python C:\Users\renat\skills\instagram\scripts\templates.py --create --name "promo" --caption "Nova promoção: {produto}! {desconto}% OFF" --hashtags "#oferta,#desconto,#promoção"
+python {USER_HOME}\skills\instagram\scripts\templates.py --create --name "promo" --caption "Nova promoção: {produto}! {desconto}% OFF" --hashtags "#oferta,#desconto,#promoção"
 
 ## Listar Templates
 
-python C:\Users\renat\skills\instagram\scripts\templates.py --list
+python {USER_HOME}\skills\instagram\scripts\templates.py --list
 
 ## Usar Template Em Um Post
 
-python C:\Users\renat\skills\instagram\scripts\publish.py --type photo --image foto.jpg --template promo --vars produto="Tênis" desconto=30
+python {USER_HOME}\skills\instagram\scripts\publish.py --type photo --image foto.jpg --template promo --vars produto="Tênis" desconto=30
 ```
 
 ## Ver Perfil
 
-python C:\Users\renat\skills\instagram\scripts\profile.py --view
+python {USER_HOME}\skills\instagram\scripts\profile.py --view
 
 ## Listar Posts Recentes
 
-python C:\Users\renat\skills\instagram\scripts\media.py --list --limit 10
+python {USER_HOME}\skills\instagram\scripts\media.py --list --limit 10
 
 ## Detalhes De Um Post
 
-python C:\Users\renat\skills\instagram\scripts\media.py --details --media-id 12345
+python {USER_HOME}\skills\instagram\scripts\media.py --details --media-id 12345
 ```
 
 ## Exportar Analytics Para Csv
 
-python C:\Users\renat\skills\instagram\scripts\export.py --type insights --format csv
+python {USER_HOME}\skills\instagram\scripts\export.py --type insights --format csv
 
 ## Exportar Comentários
 
-python C:\Users\renat\skills\instagram\scripts\export.py --type comments --format json
+python {USER_HOME}\skills\instagram\scripts\export.py --type comments --format json
 
 ## Exportar Tudo
 
-python C:\Users\renat\skills\instagram\scripts\export.py --type all --format csv
+python {USER_HOME}\skills\instagram\scripts\export.py --type all --format csv
 
 ## Iniciar Dashboard Web
 
-python C:\Users\renat\skills\instagram\scripts\serve_api.py
+python {USER_HOME}\skills\instagram\scripts\serve_api.py
 
 ## Acesse: Http://Localhost:8000/Dashboard
 
@@ -294,15 +294,15 @@ python C:\Users\renat\skills\instagram\scripts\serve_api.py
 
 ## Status Da Autenticação
 
-python C:\Users\renat\skills\instagram\scripts\auth.py --status
+python {USER_HOME}\skills\instagram\scripts\auth.py --status
 
 ## Sync Completo (Busca Perfil + Mídia + Insights + Comentários)
 
-python C:\Users\renat\skills\instagram\scripts\run_all.py
+python {USER_HOME}\skills\instagram\scripts\run_all.py
 
 ## Sync Parcial
 
-python C:\Users\renat\skills\instagram\scripts\run_all.py --only media insights
+python {USER_HOME}\skills\instagram\scripts\run_all.py --only media insights
 ```
 
 ## Rate Limits
@@ -330,7 +330,7 @@ O script retorna os detalhes da ação e pede confirmação antes de executar.
 
 Todas as ações que modificam dados são logadas no banco SQLite (`action_log` table):
 - Timestamp, ação, parâmetros, resultado, status de confirmação
-- Consultar via: `python C:\Users\renat\skills\instagram\scripts\db.py`
+- Consultar via: `python {USER_HOME}\skills\instagram\scripts\db.py`
 
 ## Token Auto-Refresh
 
@@ -350,38 +350,38 @@ Coisas que a Instagram Graph API **não permite**:
 ## "Quero Publicar Uma Foto"
 
 ```bash
-python C:\Users\renat\skills\instagram\scripts\publish.py --type photo --image foto.jpg --caption "Texto"
+python {USER_HOME}\skills\instagram\scripts\publish.py --type photo --image foto.jpg --caption "Texto"
 ```
 
 ## "Me Mostra Meus Analytics"
 
 ```bash
-python C:\Users\renat\skills\instagram\scripts\run_all.py --only insights
-python C:\Users\renat\skills\instagram\scripts\analyze.py --summary
+python {USER_HOME}\skills\instagram\scripts\run_all.py --only insights
+python {USER_HOME}\skills\instagram\scripts\analyze.py --summary
 ```
 
 ## "Qual O Melhor Horário Para Postar?"
 
 ```bash
-python C:\Users\renat\skills\instagram\scripts\analyze.py --best-times
+python {USER_HOME}\skills\instagram\scripts\analyze.py --best-times
 ```
 
 ## "Responde Esse Comentário"
 
 ```bash
-python C:\Users\renat\skills\instagram\scripts\comments.py --reply --comment-id ID --text "Resposta"
+python {USER_HOME}\skills\instagram\scripts\comments.py --reply --comment-id ID --text "Resposta"
 ```
 
 ## "Sincroniza Tudo"
 
 ```bash
-python C:\Users\renat\skills\instagram\scripts\run_all.py
+python {USER_HOME}\skills\instagram\scripts\run_all.py
 ```
 
 ## "Abre O Dashboard"
 
 ```bash
-python C:\Users\renat\skills\instagram\scripts\serve_api.py
+python {USER_HOME}\skills\instagram\scripts\serve_api.py
 ```
 
 ## Referências

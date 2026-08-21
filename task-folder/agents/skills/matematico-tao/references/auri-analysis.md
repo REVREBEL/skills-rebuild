@@ -3,7 +3,7 @@
 ## Visão Geral do Sistema
 
 **Projeto**: Auri v2.5.0 (EarLLM One)
-**Localização**: `C:\Users\renat\earbudllm`
+**Localização**: `{USER_HOME}\earbudllm`
 **Tipo**: Android app multi-módulo (Kotlin + Jetpack Compose)
 **Função**: Pipeline de voz → STT → LLM → TTS via Bluetooth earbuds
 

@@ -39,7 +39,7 @@ class TestIsMainlineOpenAIModel(unittest.TestCase):
         self.assertFalse(models.is_mainline_openai_model("gpt-5-mini"))
 
     def test_gpt4_is_not_mainline(self):
-        self.assertFalse(models.is_mainline_openai_model("the active model"))
+        self.assertFalse(models.is_mainline_openai_model("gpt-4"))
 
 
 class TestSelectOpenAIModel(unittest.TestCase):
@@ -113,7 +113,7 @@ class TestGetModels(unittest.TestCase):
         self.assertIsNone(result["xai"])
 
     def test_openai_key_only(self):
-        config = {"LLM_API_KEY": "sk-test"}
+        config = {"OPENAI_API_KEY": "sk-test"}
         mock_models = [{"id": "gpt-5.2", "created": 1704067200}]
         result = models.get_models(config, mock_openai_models=mock_models)
         self.assertEqual(result["openai"], "gpt-5.2")
@@ -121,7 +121,7 @@ class TestGetModels(unittest.TestCase):
 
     def test_both_keys(self):
         config = {
-            "LLM_API_KEY": "sk-test",
+            "OPENAI_API_KEY": "sk-test",
             "XAI_API_KEY": "xai-test",
         }
         mock_openai = [{"id": "gpt-5.2", "created": 1704067200}]

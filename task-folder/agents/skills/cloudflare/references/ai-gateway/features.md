@@ -76,7 +76,7 @@ Or via API: set `model`, `input_cost`, `output_cost`.
 
 | Provider | Unified API | Notes |
 |----------|-------------|-------|
-| OpenAI | `openai/the active model` | Full support |
+| OpenAI | `openai/gpt-4o` | Full support |
 | Anthropic | `anthropic/claude-sonnet-4-5` | Full support |
 | Google AI | `google-ai-studio/gemini-2.0-flash` | Full support |
 | Workers AI | `workersai/@cf/meta/llama-3` | Native |

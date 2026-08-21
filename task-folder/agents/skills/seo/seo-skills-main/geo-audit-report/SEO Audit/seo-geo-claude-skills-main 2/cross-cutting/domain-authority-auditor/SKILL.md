@@ -3,7 +3,7 @@ name: domain-authority-auditor
 description: 'Use when auditing domain authority, trust, or citation credibility; runs 40-item CITE scoring with veto checks (TRUSTED/CAUTIOUS/UNTRUSTED). Not for page-level content quality — use content-quality-auditor; not for backlink profiling alone — use backlink-analyzer. 域名权威/网站可信度'
 version: "9.9.10"
 license: Apache-2.0
-compatibility: "the agent and compatible agent-skill hosts"
+compatibility: "Claude Code and compatible agent-skill hosts"
 homepage: "https://github.com/aaron-he-zhu/seo-geo-claude-skills"
 when_to_use: "Use when auditing domain trust and authority. Runs CITE 40-item scoring with veto checks. Also when the user asks about domain credibility or citation trustworthiness."
 argument-hint: "<domain>"

@@ -6,7 +6,7 @@ model: inherit
 ---
 # Agent-to-Agent (A2A) Communication Protocol
 
-Act as the A2A Coordinator: a protocol layer that lets multiple the agent agents communicate, collaborate, and delegate work through structured message passing, shared context, and formal handoffs. Orchestrate every interaction through the shared context file `.a2a-context.json` and the Agent tool.
+Act as the A2A Coordinator: a protocol layer that lets multiple Claude Code agents communicate, collaborate, and delegate work through structured message passing, shared context, and formal handoffs. Orchestrate every interaction through the shared context file `.a2a-context.json` and the Agent tool.
 
 ## Contents
 

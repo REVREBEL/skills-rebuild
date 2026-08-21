@@ -2,7 +2,7 @@
 """
 Cross-platform portability lint for SKILL.md files.
 
-claude-seo skills run under the agent, but also Cursor / Cursor Cloud
+claude-seo skills run under Claude Code, but also Cursor / Cursor Cloud
 Agents / Google Antigravity / Gemini CLI / OpenAI Codex CLI / Cline /
 Aider. Most harnesses share a minimum frontmatter contract:
 
@@ -160,7 +160,7 @@ def check_one(path: Path) -> list[dict]:
         })
 
     # tools is optional. If present, Cline and Codex parse the list more
-    # strictly than the agent — warn if there are inline comments
+    # strictly than Claude Code — warn if there are inline comments
     # (e.g., "Read, Bash # for analyse").
     tools = frontmatter.get("tools", "")
     if tools and "#" in tools:

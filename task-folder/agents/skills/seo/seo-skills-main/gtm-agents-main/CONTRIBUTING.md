@@ -21,10 +21,10 @@ This project adheres to a Code of Conduct that all contributors are expected to 
 
 ### Prerequisites
 
-- the agent (latest version recommended)
+- Claude Code (latest version recommended)
 - Git
 - Python 3.8+ (for validation scripts)
-- Basic understanding of the agent plugin system
+- Basic understanding of Claude Code plugin system
 - Familiarity with GTM (Go-To-Market) concepts
 
 ### Repository Structure
@@ -124,7 +124,7 @@ python scripts/scaffold_asset.py skill plugins/your-plugin/skills/example-skill 
 
 ### Skill Guidelines (Agent Skills Compliant)
 
-Skills follow the [Agent Skills](https://agentskills.io) open standard for portability across the agent, Cursor, VS Code, GitHub Copilot, and other compatible agents.
+Skills follow the [Agent Skills](https://agentskills.io) open standard for portability across Claude Code, Cursor, VS Code, GitHub Copilot, and other compatible agents.
 
 #### Required Structure
 
@@ -143,7 +143,7 @@ skill-name/
 name: skill-name                    # Required (must match directory name)
 description: What it does...        # Required (max 1024 chars)
 license: Apache-2.0                 # Recommended
-compatibility: the agent          # Recommended
+compatibility: Claude Code          # Recommended
 metadata:                           # Recommended
   author: gtm-agents
   version: "1.0"
@@ -239,7 +239,7 @@ pre-commit run --all-files
 
 ### Testing
 
-- Test your plugin/agent/skill in the agent
+- Test your plugin/agent/skill in Claude Code
 - Verify activation criteria work as expected
 - Test edge cases and error conditions
 - Document any manual testing performed
@@ -260,7 +260,7 @@ pre-commit run --all-files
 
 3. **Test thoroughly**
    - Run validation scripts
-   - Test in the agent
+   - Test in Claude Code
    - Verify no regressions
 
 4. **Update documentation**
@@ -294,7 +294,7 @@ pre-commit run --all-files
    - [ ] Documentation updated
    - [ ] CHANGELOG.md updated
    - [ ] Examples added/updated if needed
-   - [ ] Tested in the agent
+   - [ ] Tested in Claude Code
    - [ ] No breaking changes (or clearly documented)
 
 ### Review Process

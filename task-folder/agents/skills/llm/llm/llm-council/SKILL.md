@@ -1,7 +1,7 @@
 ---
 name: llm-council
 description: "Run Fireworks-hosted open-weight model councils that compare responses and synthesize a final answer."
-allowed-tools: Read, Write, Bash, clarifying question
+allowed-tools: Read, Write, Bash, AskUser
 category: "ai-agents"
 risk: "safe"
 source: "official"
@@ -40,7 +40,7 @@ All inference runs through **Fireworks AI** using open-weight models. The speed 
 
 ## CRITICAL RULES
 
-1. **ALWAYS use clarifying question** to let the user select council models (multiselect) and the Chairman model
+1. **ALWAYS use AskUser** to let the user select council models (multiselect) and the Chairman model
 2. **ALWAYS save raw responses to files** - never summarize or truncate API outputs
 3. **ALWAYS show full transparency** - display all individual responses, all rankings, AND the final synthesis
 4. **NEVER skip the ranking phase** - it is essential to the council deliberation process
@@ -64,7 +64,7 @@ echo "FIREWORKS_API_KEY is set."
 
 ## Available Models
 
-Present these options to the user via clarifying question (multiselect):
+Present these options to the user via AskUser (multiselect):
 
 | Model | Fireworks ID | Provider |
 |-------|-------------|----------|
@@ -80,14 +80,14 @@ Present these options to the user via clarifying question (multiselect):
 
 ### Step 1: Gather User Input
 
-Use clarifying question to get:
+Use AskUser to get:
 1. The query/question for the council (or accept it from the conversation)
 2. Which models to include (multiselect, recommend 3-5 models)
 3. Which model should be the Chairman (single select)
 
-Note: clarifying question supports max 4 options per question. Since there are 7 models, split model selection across two questions, or show the most popular 4 and let the user type "Other" for the rest. A good default is to show 4 models in the first question and note the others are available via "Other". Rotate which models are shown based on variety.
+Note: AskUser supports max 4 options per question. Since there are 7 models, split model selection across two questions, or show the most popular 4 and let the user type "Other" for the rest. A good default is to show 4 models in the first question and note the others are available via "Other". Rotate which models are shown based on variety.
 
-Example clarifying question for model selection (show 4, mention others):
+Example AskUser for model selection (show 4, mention others):
 ```
 question: "Which models should participate in the LLM Council? (Also available via Other: Llama 4 Maverick, Qwen3 235B, GLM 5)"
 header: "Models"
@@ -103,7 +103,7 @@ options:
     description: "DeepSeek's proven reasoning model"
 ```
 
-Example clarifying question for chairman:
+Example AskUser for chairman:
 ```
 question: "Which model should be the Chairman (synthesizes the final answer)?"
 header: "Chairman"

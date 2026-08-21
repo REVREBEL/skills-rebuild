@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Post-edit schema validation hook for the agent.
+"""Post-edit schema validation hook for Claude Code.
 
 Validates JSON-LD schema after file edits. Returns exit code 2 to block
 if critical validation errors found.

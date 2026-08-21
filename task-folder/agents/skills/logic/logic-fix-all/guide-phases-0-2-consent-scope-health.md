@@ -84,7 +84,7 @@ Decision (first match wins):
 1c. Classify every non-excluded file into exactly one bucket:
 - **Source code:** files whose extension matches a language the project uses (inferred from markers in 1b).
 - **Runtime config:** `.json`, `.yaml/.yml`, `.toml`, `.ini`, `.conf`, `*.config.js/ts` — verify by grepping the codebase for the filename before classifying.
-- **Constraint files:** `AGENTS.md` at every level, `.logic-lens.yaml`, `AGENTS.md`, `GEMINI.md`, schema files (`*.schema.json`, `openapi.yaml`, `*.proto`, `*.graphql`).
+- **Constraint files:** `CLAUDE.md` at every level, `.logic-lens.yaml`, `AGENTS.md`, `GEMINI.md`, schema files (`*.schema.json`, `openapi.yaml`, `*.proto`, `*.graphql`).
 - **Behavioral docs:** `README.md`, `CONTRIBUTING.md`, `ARCHITECTURE.md`, `docs/**/*.md` describing runtime behavior, `.env.example`. Skip changelogs, licenses, marketing copy, `.editorconfig`.
 
 1d. Classify each file by risk tier:

@@ -221,13 +221,13 @@ Inputs required: …
 Ask if missing: …
 Tools / refs loaded: …
 Do: (3–6 action bullets)
-Checkpoint: (Research → self-check; Confirm → clarifying question; Write → screenshot + clarifying question)
+Checkpoint: (Research → self-check; Confirm → AskUser; Write → screenshot + AskUser)
 ```
 
 Three step types:
 - **Research** — read-only; checkpoint = self-check list.
-- **Confirm** — no board writes, user decision gate; checkpoint = `clarifying question`.
-- **Write** — creates/mutates FigJam; checkpoint = screenshot + `clarifying question`.
+- **Confirm** — no board writes, user decision gate; checkpoint = `AskUser`.
+- **Write** — creates/mutates FigJam; checkpoint = screenshot + `AskUser`.
 
 ---
 
@@ -263,7 +263,7 @@ Three step types:
 
 **Tools / refs loaded**
 - [`section-catalog.md`](references/section-catalog.md).
-- `clarifying question`.
+- `AskUser`.
 
 **Do**
 1. For each section in the catalog, decide if there is *real content* for it from Step 1. Skip catalog entries that would be empty or padding.
@@ -273,9 +273,9 @@ Three step types:
    - **Why suggested** (which PRD facts or tech-context items justify it)
    - **Default block shape** (from the catalog)
 3. Print all cards to chat.
-4. Fire `clarifying question` with a multiSelect question **per batch of ≤4 candidates** (max 4 questions per call, 4 options each → up to 16 candidates per call). Each option's label is the section title; description is the 1-line summary.
+4. Fire `AskUser` with a multiSelect question **per batch of ≤4 candidates** (max 4 questions per call, 4 options each → up to 16 candidates per call). Each option's label is the section title; description is the 1-line summary.
 
-**Checkpoint (clarifying question)**
+**Checkpoint (AskUser)**
 - The multiSelect questions above. User ticks the sections they want. Store the selected set as `approved_sections`.
 - If zero sections selected → stop with a clean exit message. No file is created.
 
@@ -306,17 +306,17 @@ Three step types:
 - Gap lists from Step 3.
 
 **Tools / refs loaded**
-- `clarifying question`.
+- `AskUser`.
 - [`section-catalog.md`](references/section-catalog.md).
 - Block reference(s) for the section's default shape (e.g. `blocks/table.md` for Dependencies).
 
 **Do**, per section (one at a time, or small batch if trivial):
-1. Fill the gap list — free-text prompt for prose; `clarifying question` for bounded choices.
+1. Fill the gap list — free-text prompt for prose; `AskUser` for bounded choices.
 2. Propose:
    - **Content**: the concrete bullets / rows / stickies that will appear.
    - **Block shape**: the rendering block (body paragraph / table / multi-column / sticky column / …). Default from `section-catalog.md`; offer alternative shapes where sensible (e.g. "As a table, or as a multi-column layout?").
 3. Show a short preview — section title + first line of body + block type summary.
-4. Fire `clarifying question`: "Use this content + shape? [Yes / Edit / Skip this section]."
+4. Fire `AskUser`: "Use this content + shape? [Yes / Edit / Skip this section]."
 5. Edit → accept free-text amendments, re-show, re-ask. Skip → mark the section as `skipped`; do not write it to the board.
 
 **Checkpoint**
@@ -335,10 +335,10 @@ Three step types:
 - `use_figma` (once).
 - `figma-use` (already in context from Step 5 onward).
 - `figma-use-figjam` (re-loaded for the probe).
-- `clarifying question`.
+- `AskUser`.
 
 **Do**
-1. Resolve `planKey`: call `whoami`. If one plan → use it. If multiple → `clarifying question` which team.
+1. Resolve `planKey`: call `whoami`. If one plan → use it. If multiple → `AskUser` which team.
 2. Call `create_new_file` with `{ planKey, fileName: "<project title>", editorType: "figjam" }`. Capture `file_key` + `file_url`.
 3. Run the first-run probe (`use_figma`):
 
@@ -355,9 +355,9 @@ return {
 
 Expect `editorType === "figjam"` and empty page. If not, halt and report.
 
-**Checkpoint (probe output + clarifying question)**
+**Checkpoint (probe output + AskUser)**
 - Print probe return + `file_url`.
-- clarifying question: "File created at `<file_url>` — proceed to skeleton? [Yes / Cancel]." Cancel = stop, leave empty file.
+- AskUser: "File created at `<file_url>` — proceed to skeleton? [Yes / Cancel]." Cancel = stop, leave empty file.
 
 ---
 
@@ -379,8 +379,8 @@ Expect `editorType === "figjam"` and empty page. If not, halt and report.
 4. Return all created node IDs: `{ createdNodeIds: { metadataStrip: {...}, sections: { <slug>: "<id>", ... } }, status: "skeleton-complete" }`. (The `slug` is internal, used to look up palette + drive Step 7 fills. It is never written to `section.name`.)
 5. Take an inline screenshot at `await figma.currentPage.screenshot({ scale: 0.3 })`.
 
-**Checkpoint (screenshot + clarifying question)**
-- clarifying question: "Skeleton looks right? [Yes / Fix / Cancel]." Fix = targeted fix script; Cancel = stop.
+**Checkpoint (screenshot + AskUser)**
+- AskUser: "Skeleton looks right? [Yes / Fix / Cancel]." Fix = targeted fix script; Cancel = stop.
 
 ---
 
@@ -410,8 +410,8 @@ Expect `editorType === "figjam"` and empty page. If not, halt and report.
 6. `await section.screenshot()` inline.
 7. `return { mutatedNodeIds: [...], sectionHeight, screenshotIncluded: true }`.
 
-**Checkpoint (screenshot + clarifying question)**
-- Per section: clarifying question: "Section `<name>` done? [Yes / Edit this section / Skip rest]." Edit = targeted fix; Skip rest = exit fill loop (user will finalize manually).
+**Checkpoint (screenshot + AskUser)**
+- Per section: AskUser: "Section `<name>` done? [Yes / Edit this section / Skip rest]." Edit = targeted fix; Skip rest = exit fill loop (user will finalize manually).
 
 **After all left-column fills**: run the re-stack pass (single `use_figma`) to fix cumulative Y based on actual resized heights:
 
@@ -448,8 +448,8 @@ return { mutatedNodeIds: leftColumnSectionIdsInOrder };
 
 **Failure handling**: if `generate_diagram` fails, leave a text placeholder in the section reading `"Diagram generation failed: <message>. Regenerate manually."` Continue to the next diagram.
 
-**Checkpoint (screenshot + clarifying question)**
-- Per diagram: clarifying question: "Diagram `<name>` looks right? [Yes / Regenerate / Skip]."
+**Checkpoint (screenshot + AskUser)**
+- Per diagram: AskUser: "Diagram `<name>` looks right? [Yes / Regenerate / Skip]."
 
 ---
 
@@ -474,8 +474,8 @@ Sections: <N text + N diagram>
 Files referenced during grounding: <count>
 ```
 
-**Checkpoint (screenshot + clarifying question)**
-- clarifying question: "Done, or tweak? [Done / Tweak]." Tweak = targeted fix script on user's request, not regeneration.
+**Checkpoint (screenshot + AskUser)**
+- AskUser: "Done, or tweak? [Done / Tweak]." Tweak = targeted fix script on user's request, not regeneration.
 
 ---
 
@@ -486,7 +486,7 @@ Files referenced during grounding: <count>
 - Use `hex/255` notation for all palette colors (see `foundation/palette.md`).
 - **STRICT: section backgrounds use the `ARCH_PALE` palette, NOT the FigJam standard SECTION palette.** ARCH_PALE colors (`#EBFFEE`, `#F8F5FF`, `#F5FBFF`, `#FFF7F0`, etc.) visually pair with the architecture-diagram subgraph wrappers that `generate_diagram` produces. The FigJam SECTION palette (`#CDF4D3`, `#C2E5FF`, `#DCCCFF`, `#FFE0C2`) is too saturated and causes visible color clash next to diagrams. See `foundation/palette.md`.
 - **STRICT: `section.name = ""` on every project-plan section (left-column, right-column, and nested children).** The user-facing title is rendered as the H2 text node *inside* the section, NOT via FigJam's section title-bar label. The reference board uses empty section names; setting a non-empty `name` produces a duplicate label that visually clutters the board.
-- Read, edit, or cancel at every Confirm/Write checkpoint — never write past an unanswered clarifying question.
+- Read, edit, or cancel at every Confirm/Write checkpoint — never write past an unanswered AskUser.
 - If a `use_figma` script errors: atomic — no changes made. Read the error, fix, retry.
 
 ## Trigger phrases

@@ -206,7 +206,7 @@ $response = wp_ai_client_prompt('Summarize this content.')
 
 // With model preference (tries first available in list)
 $response = wp_ai_client_prompt('Summarize this content.')
-    ->using_model_preference('the active model', 'a capable LLM-opus', 'gemini-2-pro')
+    ->using_model_preference('gpt-4', 'claude-3-opus', 'gemini-2-pro')
     ->generate_text();
 
 // For JSON structured output

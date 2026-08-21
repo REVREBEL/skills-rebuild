@@ -4,16 +4,16 @@
 
 - **Python 3.10+** with pip
 - **Git** for cloning the repository
-- **the agent CLI** installed and configured
+- **Claude Code CLI** installed and configured
 
 Optional:
 - **Playwright** for screenshot capabilities
 
 ## Quick Install
 
-### Plugin Install (the agent 1.0.33+)
+### Plugin Install (Claude Code 1.0.33+)
 
-The recommended path. Inside the agent:
+The recommended path. Inside Claude Code:
 
 ```
 /plugin marketplace add AgriciDaniel/claude-seo
@@ -43,7 +43,7 @@ git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git
 powershell -ExecutionPolicy Bypass -File claude-seo\install.ps1
 ```
 
-The Windows path uses `git clone` rather than `irm | iex` because the agent's own security guardrails flag piped remote-script execution. Inspect `install.ps1` before running.
+The Windows path uses `git clone` rather than `irm | iex` because Claude Code's own security guardrails flag piped remote-script execution. Inspect `install.ps1` before running.
 
 ## Manual Installation
 
@@ -93,7 +93,7 @@ The installer copies files to:
 
 ## Verify Installation
 
-1. Start the agent:
+1. Start Claude Code:
 
 ```bash
 claude

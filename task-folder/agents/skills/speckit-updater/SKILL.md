@@ -22,7 +22,7 @@ When the user invokes `/speckit-updater`, you should:
 
 1. **Run the update orchestrator script** without any flags (conversational mode):
    ```powershell
-   pwsh -NoProfile -Command "& 'C:\Users\bobby\.claude\skills\speckit-updater\scripts\update-wrapper.ps1'"
+   pwsh -NoProfile -Command "& '{USER_HOME}\.claude\skills\speckit-updater\scripts\update-wrapper.ps1'"
    ```
 
 2. **Parse the output** for markers:
@@ -51,7 +51,7 @@ When the user invokes `/speckit-updater`, you should:
 
 5. **Execute approved action** by re-running with `-Proceed` flag:
    ```powershell
-   pwsh -NoProfile -Command "& 'C:\Users\bobby\.claude\skills\speckit-updater\scripts\update-wrapper.ps1' -Proceed"
+   pwsh -NoProfile -Command "& '{USER_HOME}\.claude\skills\speckit-updater\scripts\update-wrapper.ps1' -Proceed"
    ```
 
 **Special cases:**
@@ -66,7 +66,7 @@ When the user invokes `/speckit-updater`, you should:
 Updates SpecKit templates, commands, and scripts while preserving customizations.
 
 **Usage:**
-- `/speckit-updater` - Interactive update/install with conversational approval workflow (recommended for the agent)
+- `/speckit-updater` - Interactive update/install with conversational approval workflow (recommended for Claude Code)
 - `/speckit-updater -Proceed` - Proceed with update/install after approval (used by Claude after user confirms)
 - `/speckit-updater -CheckOnly` - Check for updates without applying
 - `/speckit-updater -Version v0.0.72` - Update to specific version
@@ -76,7 +76,7 @@ Updates SpecKit templates, commands, and scripts while preserving customizations
 
 **Fresh Installation (No .specify/ directory):**
 - First invocation shows installation offer with `[PROMPT_FOR_INSTALL]` marker
-- the agent presents natural question to user (e.g., "Would you like me to install SpecKit?")
+- Claude Code presents natural question to user (e.g., "Would you like me to install SpecKit?")
 - User approves via conversational response (e.g., "yes", "proceed", "install it")
 - Claude re-invokes with `-Proceed` flag automatically (implementation detail hidden from user)
 - Script creates `.specify/` structure, downloads templates, creates manifest

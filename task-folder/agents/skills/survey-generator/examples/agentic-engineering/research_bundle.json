@@ -878,7 +878,7 @@
       "year": "2024",
       "title": "WebRL",
       "venue": "arXiv:2411.02337",
-      "summary": "Self-evolving online curriculum RL framework that lifts Llama-3.1-8B web success from 4.8% to 42.4% and GLM4-9B from 6.1% to 43%, surpassing the active model-Turbo and the active model web agents."
+      "summary": "Self-evolving online curriculum RL framework that lifts Llama-3.1-8B web success from 4.8% to 42.4% and GLM4-9B from 6.1% to 43%, surpassing GPT-4-Turbo and GPT-4o web agents."
     },
     {
       "key": "AgentFold",
@@ -958,7 +958,7 @@
       "year": "2026",
       "title": "Claudini",
       "venue": "arXiv:2603.24511",
-      "summary": "Autoresearch pipeline powered by the agent that autonomously discovers novel adversarial attack algorithms for LLMs, outperforming 30+ existing methods and reaching 100% attack success on Meta-SecAlign-70B."
+      "summary": "Autoresearch pipeline powered by Claude Code that autonomously discovers novel adversarial attack algorithms for LLMs, outperforming 30+ existing methods and reaching 100% attack success on Meta-SecAlign-70B."
     },
     {
       "key": "AgenticMisalign",
@@ -1038,7 +1038,7 @@
       "year": "2025",
       "title": "Open Deep Search",
       "venue": "arXiv:2503.20201",
-      "summary": "Open-source search AI framework with an Open Search Tool and code-based Open Reasoning Agent that, using DeepSeek-R1, scores 88.3% SimpleQA and 75.3% FRAMES, beating the active model Search Preview."
+      "summary": "Open-source search AI framework with an Open Search Tool and code-based Open Reasoning Agent that, using DeepSeek-R1, scores 88.3% SimpleQA and 75.3% FRAMES, beating GPT-4o Search Preview."
     },
     {
       "key": "SFRDeepResearch",

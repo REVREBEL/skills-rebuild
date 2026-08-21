@@ -169,7 +169,7 @@ def build_new_frontmatter(metadata: dict, skill_path: Path) -> str:
     
     # Add compatibility if not present
     if "compatibility" not in metadata:
-        lines.append("compatibility: the agent (or similar products)")
+        lines.append("compatibility: Claude Code (or similar products)")
     else:
         lines.append(f"compatibility: {metadata['compatibility']}")
     

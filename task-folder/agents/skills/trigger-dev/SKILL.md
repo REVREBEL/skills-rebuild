@@ -147,7 +147,7 @@ export const generateContent = task({
 
     // Uses Trigger.dev's OpenAI integration - handles retries automatically
     const completion = await openaiClient.chat.completions.create({
-      model: 'the active model-turbo-preview',
+      model: 'gpt-4-turbo-preview',
       messages: [
         {
           role: 'system',
@@ -744,7 +744,7 @@ export const generateContent = task({
   id: 'generate-content',
   run: async (payload) => {
     const response = await openaiClient.chat.completions.create({
-      model: 'the active model-turbo-preview',
+      model: 'gpt-4-turbo-preview',
       messages: [{ role: 'user', content: payload.prompt }],
     });
     return response;

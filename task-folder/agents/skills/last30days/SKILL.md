@@ -13,7 +13,7 @@ Research ANY topic across Reddit, X, and the web. Surface what people are actual
 Use cases:
 
 - **Prompting**: "photorealistic people in Nano Banana Pro", "Midjourney prompts", "ChatGPT image generation" → learn techniques, get copy-paste prompts
-- **Recommendations**: "best the agent skills", "top AI tools" → get a LIST of specific things people mention
+- **Recommendations**: "best Claude Code skills", "top AI tools" → get a LIST of specific things people mention
 - **News**: "what's happening with OpenAI", "latest AI announcements" → current events and updates
 - **General**: any topic you're curious about → understand what the community is saying
 
@@ -21,7 +21,7 @@ Use cases:
 
 Before doing anything, parse the user's input for:
 
-1. **TOPIC**: What they want to learn about (e.g., "web app mockups", "the agent skills", "image generation")
+1. **TOPIC**: What they want to learn about (e.g., "web app mockups", "Claude Code skills", "image generation")
 2. **TARGET TOOL** (if specified): Where they'll use the prompts (e.g., "Nano Banana Pro", "ChatGPT", "Midjourney")
 3. **QUERY TYPE**: What kind of research they want:
    - **PROMPTING** - "X prompts", "prompting for X", "X best practices" → User wants to learn techniques and get copy-paste prompts
@@ -150,7 +150,7 @@ For ALL query types:
 
 - **USE THE USER'S EXACT TERMINOLOGY** - don't substitute or add tech names based on your knowledge
   - If user says "ChatGPT image prompting", search for "ChatGPT image prompting"
-  - Do NOT add "DALL-E", "the active model", or other terms you think are related
+  - Do NOT add "DALL-E", "GPT-4o", or other terms you think are related
   - Your knowledge may be outdated - trust the user's terminology
 - EXCLUDE reddit.com, x.com, twitter.com (covered by script)
 - INCLUDE: blogs, tutorials, docs, news, GitHub repos
@@ -189,11 +189,11 @@ The Judge Agent must:
 
 Read the research output carefully. Pay attention to:
 
-- **Exact product/tool names** mentioned (e.g., if research mentions "ClawdBot" or "@clawdbot", that's a DIFFERENT product than "the agent" - don't conflate them)
+- **Exact product/tool names** mentioned (e.g., if research mentions "ClawdBot" or "@clawdbot", that's a DIFFERENT product than "Claude Code" - don't conflate them)
 - **Specific quotes and insights** from the sources - use THESE, not generic knowledge
 - **What the sources actually say**, not what you assume the topic is about
 
-**ANTI-PATTERN TO AVOID**: If user asks about "clawdbot skills" and research returns ClawdBot content (self-hosted AI agent), do NOT synthesize this as "the agent skills" just because both involve "skills". Read what the research actually says.
+**ANTI-PATTERN TO AVOID**: If user asks about "clawdbot skills" and research returns ClawdBot content (self-hosted AI agent), do NOT synthesize this as "Claude Code skills" just because both involve "skills". Read what the research actually says.
 
 ### If QUERY_TYPE = RECOMMENDATIONS
 
@@ -206,11 +206,11 @@ When user asks "best X" or "top X", they want a LIST of specific things:
 - Note which sources recommend each (Reddit thread, X post, blog)
 - List them by popularity/mention count
 
-**BAD synthesis for "best the agent skills":**
+**BAD synthesis for "best Claude Code skills":**
 
 > "Skills are powerful. Keep them under 500 lines. Use progressive disclosure."
 
-**GOOD synthesis for "best the agent skills":**
+**GOOD synthesis for "best Claude Code skills":**
 
 > "Most mentioned skills: /commit (5 mentions), remotion skill (4x), git-worktree (3x), /pr (3x). The Remotion announcement got 16K likes on X."
 
@@ -296,7 +296,7 @@ Share your vision for what you want to create and I'll write a thoughtful prompt
 
 **Use real numbers from the research output.** The patterns should be actual insights from the research, not generic advice.
 
-**SELF-CHECK before displaying**: Re-read your "What I learned" section. Does it match what the research ACTUALLY says? If the research was about ClawdBot (a self-hosted AI agent), your summary should be about ClawdBot, not the agent. If you catch yourself projecting your own knowledge instead of the research, rewrite it.
+**SELF-CHECK before displaying**: Re-read your "What I learned" section. Does it match what the research ACTUALLY says? If the research was about ClawdBot (a self-hosted AI agent), your summary should be about ClawdBot, not Claude Code. If you catch yourself projecting your own knowledge instead of the research, rewrite it.
 
 **IF TARGET_TOOL is still unknown after showing results**, ask NOW (not before research):
 

@@ -1,5 +1,5 @@
 """
-Parser dos logs JSONL do the agent.
+Parser dos logs JSONL do Claude Code.
 Lê arquivos de sessão e extrai informações estruturadas.
 """
 

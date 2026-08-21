@@ -8,7 +8,7 @@
 
 [English](../README.md) | **中文**
 
-面向搜索引擎优化（SEO）和生成式引擎优化（GEO）的 Claude 技能与命令集。技能内容为零依赖 Markdown；the agent hooks 使用轻量 Bash runner。安装入口见下方“快速开始”。内容质量使用 CORE-EEAT（80 项），域名权威使用 CITE（40 项）。
+面向搜索引擎优化（SEO）和生成式引擎优化（GEO）的 Claude 技能与命令集。技能内容为零依赖 Markdown；Claude Code hooks 使用轻量 Bash runner。安装入口见下方“快速开始”。内容质量使用 CORE-EEAT（80 项），域名权威使用 CITE（40 项）。
 
 ## 快速开始
 
@@ -16,7 +16,7 @@
 
 | 工具 | 安装 |
 |------|------|
-| the agent | `/plugin marketplace add aaron-he-zhu/seo-geo-claude-skills` |
+| Claude Code | `/plugin marketplace add aaron-he-zhu/seo-geo-claude-skills` |
 | skills.sh / 通用 Agent Skills 宿主 | `npx skills add aaron-he-zhu/seo-geo-claude-skills` |
 | 任意宿主 | `git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills` |
 

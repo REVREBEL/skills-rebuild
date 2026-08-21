@@ -49,7 +49,7 @@ Start the dev server in the background, log output to a temp file. Probe `http:/
 
 ### 1.4 Open in browser
 
-Load `references/ide-detection.md` for the env-var probe table. Open the browser using the IDE's mechanism (the agent → `open`, Cursor → Cursor browser, VS Code → Simple Browser).
+Load `references/ide-detection.md` for the env-var probe table. Open the browser using the IDE's mechanism (Claude Code → `open`, Cursor → Cursor browser, VS Code → Simple Browser).
 
 Tell the user:
 ```

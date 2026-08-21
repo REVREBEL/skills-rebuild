@@ -19,7 +19,7 @@ ranking or citation lever in any claude-seo report.
 ## Where it does matter
 
 `llms.txt` is increasingly consumed by **AI coding agents** (Cursor,
-Continue, Cline, the agent) when loading per-library documentation.
+Continue, Cline, Claude Code) when loading per-library documentation.
 Mintlify auto-generates `/llms.txt` and `/llms-full.txt` for thousands
 of developer-docs sites. For a developer-tooling site, publishing
 `llms.txt` is a net win — it helps agents quote the docs accurately.

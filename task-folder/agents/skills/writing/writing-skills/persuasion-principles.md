@@ -33,7 +33,7 @@ LLMs respond to the same persuasion principles as humans. Understanding this psy
 **How it works in skills:**
 - Require announcements: "Announce skill usage"
 - Force explicit choices: "Choose A, B, or C"
-- Use tracking: task_plan file update for checklists
+- Use tracking: Write for checklists
 
 **When to use:**
 - Ensuring skills are actually followed
@@ -80,8 +80,8 @@ LLMs respond to the same persuasion principles as humans. Understanding this psy
 
 **Example:**
 ```markdown
-✅ Checklists without task_plan file update tracking = steps get skipped. Every time.
-❌ Some people find task_plan file update helpful for checklists.
+✅ Checklists without Write tracking = steps get skipped. Every time.
+❌ Some people find Write helpful for checklists.
 ```
 
 ### 5. Unity

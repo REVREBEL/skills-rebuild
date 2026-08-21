@@ -34,7 +34,7 @@ name: your-skill-name
 version: "1.0.0"
 description: 'Use when the user asks to "[trigger]". [What it does]. For [related task], see [other-skill].'
 license: Apache-2.0
-compatibility: "the agent and compatible agent-skill hosts"
+compatibility: "Claude Code and compatible agent-skill hosts"
 metadata:
   author: your-github-username
   version: "1.0.0"

@@ -83,11 +83,11 @@ Note: Wiki section 9 ("Vague See Also sections") appears to have been removed fr
 
 ## AI Vocabulary Era Breakdown (as of 2026-06-02, unchanged since 2026-05-15)
 
-### 2023 to mid-2024 (the active model era)
+### 2023 to mid-2024 (GPT-4 era)
 
 Additionally, boasts, bolstered, crucial, delve, emphasizing, enduring, garner, intricate/intricacies, interplay, key, landscape, meticulous/meticulously, pivotal, underscore, tapestry, testament, valuable, vibrant
 
-### Mid-2024 to mid-2025 (the active model era)
+### Mid-2024 to mid-2025 (GPT-4o era)
 
 align with, bolstered, crucial, emphasizing, enhance, enduring, fostering, highlighting, pivotal, showcasing, underscore, vibrant
 
@@ -117,7 +117,7 @@ When AI chatbots respond to AI-detection allegations, they characteristically us
 1. **Copula avoidance: "maintains" and "refers to" added** - Wikipedia's words-to-watch box now lists *maintains* alongside *boasts/features/offers*, and documents *refers to* as a lead-sentence dodge (writing "X refers to..." as though the article were about the term, not the subject). Added both to language-patterns.md Pattern #8.
 2. **"Historical indicators" is now a formal article section** - Wikipedia split the older-model tells into a dedicated section: didactic disclaimers, section summaries (both already in skill), plus **prompt refusal** ("as an AI language model", "I'm sorry, I can't..."), abrupt cut-offs, and outdated access-date parameters. Added Prompt refusal to filler-patterns.md historical section. Abrupt cut-offs and access-date are citation/Wikipedia-specific and not added.
 3. **"Ineffective indicators" section expanded** - Wikipedia now spells out weak signals that produce false positives: perfect grammar, formal/"fancy" prose, transition words in isolation, letter-like formatting alone, mixed casual/formal register, unsourced content, and (bizarre or correct) wikitext. Added a concise "Ineffective indicators" block to SKILL.md "When NOT to Use" so the humaniser doesn't strip voice from genuinely human text. Paired with the "Signs of human writing" note: text predating ChatGPT's 30 Nov 2022 launch can be ruled out outright.
-4. **No changes** to AI vocabulary word lists or era breakdowns (the active model / the active model / GPT-5) - the 2026-05-15 sync remains current, "robust" still listed.
+4. **No changes** to AI vocabulary word lists or era breakdowns (GPT-4 / GPT-4o / GPT-5) - the 2026-05-15 sync remains current, "robust" still listed.
 5. **Update method note** - the WebFetch summariser was found to paraphrase and drop sections unreliably; the digest's "How to Update" now points at raw wikitext (`action=raw`) as the source of truth.
 6. **New Wikipedia-only sections (NOT added to skill)** - the article keeps growing Wikipedia-specific material: Markup (Markdown/wikitext artifacts, turn0search0, oaicite, grok_card, attributableIndex), Citations (broken links, invalid DOI/ISBN, page-less book cites, utm_source tags), and a large "Indicators of AI-written comments" tree (canned good-faith/adherence boilerplate, calls to focus on content, wikilawyering, WP:PRESERVE invocation, non-existent shortcuts, declined-draft confusion). All Wikipedia-process-specific.
 
@@ -150,8 +150,8 @@ When AI chatbots respond to AI-detection allegations, they characteristically us
 
 ## Changes from 2026-03-03 to 2026-03-23
 
-1. **AI vocabulary the active model era expanded**: Added boasts, bolstered, crucial, emphasizing, key, landscape, meticulously
-2. **AI vocabulary the active model era reshuffled**: Added bolstered, enduring, pivotal, underscore, vibrant; removed key/landscape (moved to the active model era)
+1. **AI vocabulary GPT-4 era expanded**: Added boasts, bolstered, crucial, emphasizing, key, landscape, meticulously
+2. **AI vocabulary GPT-4o era reshuffled**: Added bolstered, enduring, pivotal, underscore, vibrant; removed key/landscape (moved to GPT-4 era)
 3. **Superficial analyses**: Added "valuable insights" and "align/resonate with" to words to watch
 4. **Notability**: Added "music/business/tech outlets" and "profiled in" to words to watch
 5. **Promotional language**: Added "featuring" and "diverse array" to words to watch

@@ -134,7 +134,7 @@ def text_to_infographic(prompt, output_path, provider="openai",
                 api_version=os.environ.get("AZURE_OPENAI_API_VERSION", "2024-02-01"),
             )
         else:
-            client = OpenAI(api_key=os.environ["LLM_API_KEY"])
+            client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
         result = client.images.generate(model=model_or_deployment, prompt=prompt, size=size)
         output.write_bytes(base64.b64decode(result.data[0].b64_json))
         manifest["status"] = "ok"

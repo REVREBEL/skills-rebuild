@@ -44,4 +44,3 @@ Search specific properties with named vector:
 ```bash
 uv run scripts/hybrid_search.py --query "renewable energy" --collection "Papers" --properties "title,abstract" --target-vector "title_vector"
 ```
-

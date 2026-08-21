@@ -142,7 +142,7 @@ agent. It auto-triggers on remote or rented-GPU deploy / train / monitor tasks â
 name. Keep the folder named `remote-gpu-trainer`; the standard requires the directory name to match the
 skill's `name:` field.
 
-**the agent**
+**Claude Code**
 
 ```bash
 git clone https://github.com/Hanyuyuan6/remote-gpu-trainer.git ~/.claude/skills/remote-gpu-trainer

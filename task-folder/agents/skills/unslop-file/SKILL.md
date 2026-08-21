@@ -1,6 +1,6 @@
 ---
 name: unslop-file
-description: "Humanize natural-language memory files (AGENTS.md, todos, preferences, docs) by removing AI-isms and adding burstiness while preserving every code block, URL, path, command, and heading exactly. Two modes: --deterministic (fast, regex-based, no API) and LLM (default, calls Claude for..."
+description: "Humanize natural-language memory files (CLAUDE.md, todos, preferences, docs) by removing AI-isms and adding burstiness while preserving every code block, URL, path, command, and heading exactly. Two modes: --deterministic (fast, regex-based, no API) and LLM (default, calls Claude for..."
 risk: unknown
 source: https://github.com/MohamedAbdallah-14/unslop/tree/main/plugins/unslop/skills/unslop-file
 source_repo: MohamedAbdallah-14/unslop
@@ -13,12 +13,12 @@ license_source: https://github.com/MohamedAbdallah-14/unslop/blob/main/LICENSE
 # Unslop Humanize
 ## When to Use
 
-Use this skill when you need humanize natural-language memory files (AGENTS.md, todos, preferences, docs) by removing AI-isms and adding burstiness while preserving every code block, URL, path, command, and heading exactly. Two modes: --deterministic (fast, regex-based, no API) and LLM (default, calls Claude for...
+Use this skill when you need humanize natural-language memory files (CLAUDE.md, todos, preferences, docs) by removing AI-isms and adding burstiness while preserving every code block, URL, path, command, and heading exactly. Two modes: --deterministic (fast, regex-based, no API) and LLM (default, calls Claude for...
 
 
 ## Purpose
 
-Rewrite natural-language memory files (AGENTS.md, AGENTS.md, todos, preferences, docs) so they sound human-written: no sycophancy, no stock vocab, no five-paragraph essay shape, no tricolon padding. Everything technical stays exact: code blocks, inline code, URLs, file paths, commands, headings, tables.
+Rewrite natural-language memory files (CLAUDE.md, AGENTS.md, todos, preferences, docs) so they sound human-written: no sycophancy, no stock vocab, no five-paragraph essay shape, no tricolon padding. Everything technical stays exact: code blocks, inline code, URLs, file paths, commands, headings, tables.
 
 Two modes:
 

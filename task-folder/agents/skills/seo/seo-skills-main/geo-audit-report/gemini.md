@@ -21,13 +21,13 @@ https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html
 - User-level config: `~/.gemini/settings.json`
 - Project-level config: `.gemini/settings.json`
 - Project-level takes precedence over user-level for most settings.
-- GEMINI.md context file lives at project root (similar to AGENTS.md).
+- GEMINI.md context file lives at project root (similar to CLAUDE.md).
 
 ## GEMINI.md context file
 
 - A markdown file at project root loaded into every session's context.
 - Used for project-wide instructions, coding standards, and conventions.
-- Equivalent to the agent's AGENTS.md.
+- Equivalent to Claude Code's AGENTS.md.
 
 ## Custom commands (TOML format)
 
@@ -62,7 +62,7 @@ User request: {{args}}
 - `SKILL.md` uses YAML frontmatter with `name` and `description` fields.
 - Gemini activates skills on demand via `activate_skill` tool based on description matching.
 - The `description` field is critical — Gemini uses it to decide when to activate the skill.
-- Format is identical to the agent's SKILL.md standard.
+- Format is identical to Claude Code's SKILL.md standard.
 - Example:
 
 ```yaml
@@ -107,7 +107,7 @@ You are a ruthless Security Auditor.
 ## MCP server configuration
 
 - MCP servers are configured in `settings.json` under the `mcpServers` key.
-- Same MCP protocol as the agent; different config location.
+- Same MCP protocol as Claude Code; different config location.
 - Supports `command`, `args`, `env` for stdio transport.
 - Supports `url`, `headers` for HTTP/SSE transport.
 - Additional Gemini-specific fields: `cwd`, `timeout`, `trust`, `includeTools`, `excludeTools`.
@@ -130,7 +130,7 @@ You are a ruthless Security Auditor.
 ## Hooks
 
 - Gemini supports hooks: `BeforeTool`, `AfterTool`, `SessionStart`, etc.
-- Hooks use a different format from the agent hooks (matchers-based).
+- Hooks use a different format from Claude Code hooks (matchers-based).
 - Not converted by the plugin converter — a warning is emitted.
 
 ## Extensions

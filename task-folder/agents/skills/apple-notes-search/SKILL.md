@@ -68,14 +68,14 @@ Disk Access. Steps, in order:
    server cannot read NoteStore.sqlite and every call fails with a permissions error.
    (`bun install`'s postinstall tries to open this pane automatically.)
 4. **Register the MCP server** (pick the user's client):
-   - the agent: `claude mcp add apple-notes -- bun /absolute/path/to/mcp-apple-notes/index.ts --stdio`
+   - Claude Code: `claude mcp add apple-notes -- bun /absolute/path/to/mcp-apple-notes/index.ts --stdio`
    - Claude Desktop: add to `claude_desktop_config.json`:
      ```json
      { "mcpServers": { "apple-notes": {
          "command": "/Users/<you>/.bun/bin/bun",
          "args": ["/Users/<you>/mcp-apple-notes/index.ts", "--stdio"] } } }
      ```
-   - As a the agent plugin (bundles this skill too): `/plugin marketplace add connerkward/ckw-skills` then `/plugin install apple-notes@connerkward`.
+   - As a Claude Code plugin (bundles this skill too): `/plugin marketplace add connerkward/ckw-skills` then `/plugin install apple-notes@connerkward`.
 5. **Restart the client**, then tell the user to ask **"Index my Apple Notes"** (or call
    `index-notes`). First index of ~1,800 notes takes a few seconds.
 
@@ -114,8 +114,8 @@ which writes a grounded answer with inline `[n]` citations back to source notes.
 - **Temporal queries** (`recent`, `latest`, `today`) auto-shift to a 1-day recency
   half-life at 70% weight; normal queries keep relevance primary (90-day half-life, 10%).
 - **Synthesis is the only cloud-capable part.** It needs an LLM: local via LM Studio /
-  Ollama (`SYNTH_BASE_URL=http://localhost:1234/v1 SYNTH_MODEL=<model> LLM_API_KEY=local`,
-  notes stay on-device) or real OpenAI (funded `LLM_API_KEY`, defaults to `the active model-mini`).
+  Ollama (`SYNTH_BASE_URL=http://localhost:1234/v1 SYNTH_MODEL=<model> OPENAI_API_KEY=local`,
+  notes stay on-device) or real OpenAI (funded `LLM_API_KEY`, defaults to `gpt-4o-mini`).
   Everything else — embeddings, search, BM25, clustering, bridges, entities — is on-device.
 
 ## Limitations

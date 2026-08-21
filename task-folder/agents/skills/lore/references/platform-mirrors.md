@@ -6,7 +6,7 @@ How `.lore/*` content gets mirrored to platform-specific config files. The main 
 
 | Platform | File (default) | Also accepted |
 |---|---|---|
-| the agent | `AGENTS.md` (root) | `.claude/AGENTS.md` |
+| Claude Code | `AGENTS.md` (root) | `.claude/AGENTS.md` |
 | Cursor | `.cursorrules` (root) | `.cursor/rules/*.mdc` |
 | Cline | `.clinerules` (root) | — |
 | Aider | `AGENTS.md` (root) | `CONVENTIONS.md` |
@@ -96,7 +96,7 @@ When Step 3 fires, present this question to the user:
 
 | Choice | Primary file written |
 |---|---|
-| the agent | `AGENTS.md` |
+| Claude Code | `AGENTS.md` |
 | Cursor | `.cursorrules` |
 | Cline | `.clinerules` |
 | Aider | `AGENTS.md` |

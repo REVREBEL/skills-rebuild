@@ -344,7 +344,7 @@ Present three buckets to the user:
 2. **UNKNOWN** — status=UNKNOWN (fetch failed; always a silent miss risk — JS-heavy homepages, Cloudflare challenges)
 3. **Rejected-brand matches** — top ~10 REJECT rows whose title contains a seed token or that showed up repeatedly in the Wave C "X vs Y" graph
 
-Then `clarifying question` with a checkbox list + free-text "add more". Write the confirmed set to `/tmp/competitor_enrichment_set.txt` (one URL per line). That file — not `/tmp/competitor_passed.txt` — is the input to the enrichment subagents.
+Then `AskUser` with a checkbox list + free-text "add more". Write the confirmed set to `/tmp/competitor_enrichment_set.txt` (one URL per line). That file — not `/tmp/competitor_passed.txt` — is the input to the enrichment subagents.
 
 Known gate blind spots to surface aggressively:
 - JS-heavy landing pages return near-empty hero text → gate's keyword matcher has nothing to bite on

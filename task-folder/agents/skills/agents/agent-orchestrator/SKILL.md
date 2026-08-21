@@ -104,7 +104,7 @@ agent-orchestrator/data/registry.json
 ## Locais De Busca
 
 O scanner procura SKILL.md em:
-1. `.claude/skills/*/` (skills registradas no the agent)
+1. `.claude/skills/*/` (skills registradas no Claude Code)
 2. `*/` (skills standalone no top-level)
 3. `*/*\` (skills em subpastas, ate profundidade 3)
 
@@ -259,7 +259,7 @@ description: "Descricao com keywords de ativacao..."
 ```
 3. **Pronto!** O auto-discovery detecta automaticamente na proxima solicitacao.
 
-Opcionalmente, para discovery nativo do the agent:
+Opcionalmente, para discovery nativo do Claude Code:
 4. Copiar o SKILL.md para `.claude/skills/<nome>/SKILL.md`
 
 ## Tags De Capacidade Explicitas (Opcional)

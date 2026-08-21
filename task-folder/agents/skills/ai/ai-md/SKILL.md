@@ -394,7 +394,7 @@ about what it should actually DO.
 
 ```bash
 echo "=== Current Token Burn ==="
-claude_md=$(wc -c < ~/.claude/AGENTS.md 2>/dev/null || echo 0)
+claude_md=$(wc -c < ~/.claude/CLAUDE.md 2>/dev/null || echo 0)
 rules=$(cat ~/.claude/rules/*.md 2>/dev/null | wc -c || echo 0)
 total=$((claude_md + rules))
 tokens=$((total / 4))
@@ -410,7 +410,7 @@ Then: Read all auto-loaded files. Identify redundancy, prose overhead, and dupli
 
 ### Stage 2: DISTILL — Convert with Safety Net
 
-1. **Backup**: `cp ~/.claude/AGENTS.md ~/.claude/AGENTS.md.bak-pre-distill`
+1. **Backup**: `cp ~/.claude/CLAUDE.md ~/.claude/CLAUDE.md.bak-pre-distill`
 2. **Phase 1-5**: Run the full conversion process above
 3. **Phase 6**: Run multi-model test (minimum 2 models, 8 questions)
 4. **Report**: Show before/after scores
@@ -422,8 +422,8 @@ Before: {old} bytes ({old_score} compliance)
 After:  {new} bytes ({new_score} compliance)
 Saved:  {percent}% bytes, +{delta} compliance points
 
-Backup: ~/.claude/AGENTS.md.bak-pre-distill
-Restore: cp ~/.claude/AGENTS.md.bak-pre-distill ~/.claude/AGENTS.md
+Backup: ~/.claude/CLAUDE.md.bak-pre-distill
+Restore: cp ~/.claude/CLAUDE.md.bak-pre-distill ~/.claude/CLAUDE.md
 ```
 
 ---

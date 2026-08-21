@@ -33,7 +33,7 @@ Two parallel subagents dispatched:
 
 **Community agent** produced `community_content.md` (14.9 KB). Key findings:
 - Hacker News Show HN (`id=47079718`) — 198 points, 77 comments, strongly positive
-- 3 active Reddit threads (r/the agent, r/tmux, r/SaasDevelopers)
+- 3 active Reddit threads (r/ClaudeCode, r/tmux, r/SaasDevelopers)
 - GitHub Discussion #681 (session persistence gap) — most cited critical feedback
 - **Quora: no cmux threads exist** — confirmed absent
 - Discord server exists (`discord.gg/xsgFEVrWCZ`) — content captured indirectly from GitHub Discussions
@@ -57,7 +57,7 @@ Pre-flight `notebook_list` confirmed no existing `cmux`-named notebooks.
 4. `www.cmux.dev/` ✅
 5. `cmux.com/docs/getting-started` ✅
 6. `news.ycombinator.com/item?id=47079718` ✅
-7. `reddit.com/r/the agent/comments/1r9g45u/...` ✅
+7. `reddit.com/r/ClaudeCode/comments/1r9g45u/...` ✅
 8. `reddit.com/r/tmux/comments/1s2rnln/...` ✅
 9. `reddit.com/r/SaasDevelopers/comments/1sfecai/...` ✅
 10. `github.com/ComposioHQ/agent-orchestrator/discussions/526` ✅
@@ -109,7 +109,7 @@ Dispatched in async-first order, all with `confirm=true`:
   "origin_story": "Austin Wang and Lawrence Chen built it after frustration with generic 'Claude is waiting for your input' notifications",
   "implications": "cmux is a terminal substrate, not an orchestrator",
   "key_concepts_list": "libghostty, OSC 9/99/777, claude-teams, Ghostty config, vertical tabs, notification rings, remote workspaces, AGPL",
-  "expected_queries": "cmux, terminal for the agent, parallel AI agents macOS"
+  "expected_queries": "cmux, terminal for Claude Code, parallel AI agents macOS"
 }
 ```
 

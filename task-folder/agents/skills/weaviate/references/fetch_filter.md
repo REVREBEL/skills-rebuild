@@ -85,4 +85,3 @@ Select specific properties:
 ```bash
 uv run scripts/fetch_filter.py "Products" --properties "name,price" --limit 5
 ```
-

@@ -36,7 +36,7 @@
 
 ## Prerequisites
 
-- [ ] the agent installed
+- [ ] Claude Code installed
 - [ ] GTM Agents marketplace added
 - [ ] `growth-experiments` plugin installed
 - [ ] Baseline metrics available
@@ -59,7 +59,7 @@ Be specific about the change you want to test:
 
 ### Step 2: Run Experiment Designer (3 minutes)
 
-1. Open the agent
+1. Open Claude Code
 2. Run:
    ```
    /growth-experiments:design-experiment

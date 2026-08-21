@@ -1,7 +1,7 @@
 ---
 name: survey-generator
 description: "Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering."
-allowed-tools: Read, Write, Bash, WebFetch, clarifying question
+allowed-tools: Read, Write, Bash, WebFetch, AskUser
 category: "research"
 risk: "safe"
 source: "official"
@@ -54,7 +54,7 @@ Optional:
 - `bibliography_size`: target bibliography size. Default 20 for a quick survey. Use 40 to 50 for a comprehensive survey, 80 to 100 for an exhaustive one. Section length and token budget scale with this.
 - `section_count`: number of sections, default 6 to 10.
 
-If the user has not provided these, use clarifying question to collect them before proceeding.
+If the user has not provided these, use AskUser to collect them before proceeding.
 
 ## Requirements
 

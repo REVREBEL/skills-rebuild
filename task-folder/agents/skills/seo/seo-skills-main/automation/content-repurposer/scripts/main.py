@@ -19,8 +19,8 @@ def check_anthropic():
     """Check if anthropic is installed and API key is set."""
     try:
         import anthropic  # noqa: F401
-        if not os.environ.get('LLM_API_KEY'):
-            return False, "LLM_API_KEY not set"
+        if not os.environ.get('ANTHROPIC_API_KEY'):
+            return False, "ANTHROPIC_API_KEY not set"
         return True, None
     except ImportError:
         return False, "anthropic not installed"
@@ -56,7 +56,7 @@ def cli():
         if "not installed" in error:
             click.echo("Run: pip install anthropic")
         else:
-            click.echo("Set: export LLM_API_KEY=your_key")
+            click.echo("Set: export ANTHROPIC_API_KEY=your_key")
         raise SystemExit(1)
 
 

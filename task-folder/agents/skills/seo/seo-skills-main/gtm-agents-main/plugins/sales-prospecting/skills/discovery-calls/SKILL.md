@@ -37,4 +37,3 @@ Next Actions:
 - Mirror the prospect’s vocabulary from research notes to build rapport fast.
 - Always confirm next steps live and send recap within 1 hour.
 - Tag recordings with chapters so AEs can jump to pain/impact moments.
-

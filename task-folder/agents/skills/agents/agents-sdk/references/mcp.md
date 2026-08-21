@@ -41,7 +41,7 @@ async onChatMessage() {
   };
 
   const result = streamText({
-    model: openai("the active model"),
+    model: openai("gpt-4o"),
     messages: await convertToModelMessages(this.messages),
     tools: allTools
   });

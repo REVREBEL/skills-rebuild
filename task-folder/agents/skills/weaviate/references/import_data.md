@@ -157,4 +157,3 @@ Import multiple CSV files into the same collection:
 ```bash
 uv run scripts/import.py jan.csv feb.csv mar.csv --collection "Articles"
 ```
-

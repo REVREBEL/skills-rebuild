@@ -128,9 +128,9 @@ Period: Last 100 events
 | Success Rate | 98% |
 
 ## Events by Model
-the active model          ████████████████████████████████████ 45
-the active model-mini     ██████████████████████ 28
-a capable LLM-5      ████████████████ 20
+gpt-4o          ████████████████████████████████████ 45
+gpt-4o-mini     ██████████████████████ 28
+claude-3-5      ████████████████ 20
 gpt-3.5-turbo   █████ 7
 
 ## Events by Agent
@@ -329,9 +329,9 @@ Restricted    █ 3
 ## High-Risk Events (Recent 5)
 | Time | Agent | Score | Model |
 |------|-------|-------|-------|
-| 10:23 | data-export | 8.5 | the active model |
-| 09:15 | chat-support | 7.2 | the active model |
-| 08:42 | code-assist | 7.0 | a capable LLM-5 |
+| 10:23 | data-export | 8.5 | gpt-4o |
+| 09:15 | chat-support | 7.2 | gpt-4o |
+| 08:42 | code-assist | 7.0 | claude-3-5 |
 ```
 
 ---
@@ -541,9 +541,9 @@ cat /tmp/events.json | jq -r '
 
 Example output:
 ```
-the active model           ████████████████████████████████████████ 45
-the active model-mini      █████████████████████████ 28
-a capable LLM-5       ██████████████████ 20
+gpt-4o           ████████████████████████████████████████ 45
+gpt-4o-mini      █████████████████████████ 28
+claude-3-5       ██████████████████ 20
 ```
 
 ### Percentage Bar

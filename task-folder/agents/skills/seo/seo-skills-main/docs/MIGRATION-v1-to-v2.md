@@ -69,7 +69,7 @@ but use exactly the same overall structure.
 | New | What it does |
 |---|---|
 | `python scripts/parasite_risk.py` | Site-reputation-abuse risk scanner per Nov 2024 Google policy |
-| `extensions/ahrefs/` | Official `@ahrefs/mcp` server wired into the agent |
+| `extensions/ahrefs/` | Official `@ahrefs/mcp` server wired into Claude Code |
 | `extensions/seranking/` | AI Share-of-Voice across ChatGPT/Gemini/Perplexity/AI Overviews/AI Mode |
 | `extensions/profound/` | Time-series LLM citation tracker |
 | `extensions/bing-webmaster/` | Bing Webmaster + IndexNow unified |

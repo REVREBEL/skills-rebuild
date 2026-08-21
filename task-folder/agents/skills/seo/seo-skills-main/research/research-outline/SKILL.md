@@ -1,7 +1,7 @@
 ---
 name: research-outline
 user-invocable: true
-allowed-tools: Read, Write, Task, clarifying question
+allowed-tools: Read, Write, Task, AskUser
 description: Bootstrap a structured research project on any topic — generate an initial items list and research-field schema from model knowledge, supplement with up-to-date web search, then emit `outline.yaml` + `fields.yaml` that drive the rest of the research pipeline. Use when starting academic research, benchmark comparisons, technology selection, competitive analysis, market scans, literature reviews, or any structured investigation that needs a typed schema before deep dives — even when the user just says "let's research X" without explicitly asking for an outline.
 ---
 
@@ -41,13 +41,13 @@ Based on the topic, use the model's existing knowledge to draft:
 - a main research-objects (items) list in the domain
 - a suggested research-field framework
 
-Show the draft as `{step1_output}`, then `clarifying question` to confirm:
+Show the draft as `{step1_output}`, then `AskUser` to confirm:
 - Need to add or remove items?
 - Does the field framework match what they want to learn?
 
 ### Step 2 — Web-search supplement
 
-`clarifying question` for the time range (e.g. last 6 months, since 2024, unlimited).
+`AskUser` for the time range (e.g. last 6 months, since 2024, unlimited).
 
 **Parameters captured at this point:**
 
@@ -126,7 +126,7 @@ Based on the following initial framework, supplement latest items and recommende
 
 ### Step 3 — Ask user for existing fields
 
-`clarifying question`: do you have an existing field-definitions file we should merge with? If yes, `Read` it and fold it into the field set.
+`AskUser`: do you have an existing field-definitions file we should merge with? If yes, `Read` it and fold it into the field set.
 
 ### Step 4 — Generate outline (two files)
 
@@ -141,8 +141,8 @@ items:
     category: <optional>
     description: <optional>
 execution:
-  batch_size: <parallel agents — confirm with clarifying question>
-  items_per_agent: <items per agent — confirm with clarifying question>
+  batch_size: <parallel agents — confirm with AskUser>
+  items_per_agent: <items per agent — confirm with AskUser>
   output_dir: ./results   # default
 ```
 

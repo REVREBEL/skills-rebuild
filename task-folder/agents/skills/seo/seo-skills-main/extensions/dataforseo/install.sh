@@ -160,7 +160,7 @@ print('  ✓ MCP server configured in settings.json')
     echo "✓ DataForSEO extension installed successfully!"
     echo ""
     echo "Usage:"
-    echo "  1. Start the agent:  claude"
+    echo "  1. Start Claude Code:  claude"
     echo "  2. Run commands:"
     echo "     /seo dataforseo serp best coffee shops"
     echo "     /seo dataforseo keywords seo tools"

@@ -16,7 +16,7 @@ license_source: https://github.com/stareezy-1/frontend-architecture-skill/blob/m
 Use this skill when you need a portable, framework-agnostic discipline for type safety at the network edge of any React or React Native app. Establishes one typed API client as the single fetch boundary, a parse-don't-validate rule that turns wire JSON into trusted domain types before it enters the app, a single...
 
 
-> Portable skill — readable by the agent, OpenCode, Codex, Cursor, Windsurf, and others.
+> Portable skill — readable by Claude Code, OpenCode, Codex, Cursor, Windsurf, and others.
 > This skill describes a **discipline at the network edge** — one client, one envelope, one error
 > type, validated types — not a state library or a styling system. It pairs with the
 > **frontend-architecture** skill (the client lives in `shared/api-client/`) and is the foundation

@@ -42,14 +42,14 @@ const openai = createOpenAI({
 
 // Single model
 const { text } = await generateText({
-  model: gateway(openai('the active model')),
+  model: gateway(openai('gpt-4o')),
   prompt: 'Hello'
 });
 
 // Automatic fallback array
 const { text } = await generateText({
   model: gateway([
-    openai('the active model'),              // Try first
+    openai('gpt-4o'),              // Try first
     anthropic('claude-sonnet-4-5'), // Fallback
   ]),
   prompt: 'Hello'
@@ -75,7 +75,7 @@ const client = new OpenAI({
 
 // Switch providers by changing model format: {provider}/{model}
 const response = await client.chat.completions.create({
-  model: 'openai/the active model', // or 'anthropic/claude-sonnet-4-5'
+  model: 'openai/gpt-4o', // or 'anthropic/claude-sonnet-4-5'
   messages: [{ role: 'user', content: 'Hello!' }]
 });
 ```

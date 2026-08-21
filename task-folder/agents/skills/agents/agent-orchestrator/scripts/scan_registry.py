@@ -6,7 +6,7 @@ Scans the skills ecosystem for SKILL.md files, parses metadata,
 and maintains a centralized registry (registry.json).
 
 Features:
-- Runs automatically on every request (called by AGENTS.md)
+- Runs automatically on every request (called by CLAUDE.md)
 - Ultra-fast via MD5 hash caching (~<100ms when nothing changed)
 - Auto-includes new skills, auto-removes deleted skills
 - Zero manual intervention required

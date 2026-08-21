@@ -2,7 +2,7 @@
 name: research-workflow
 description: "Guide agents through structured research including planning, multi-query execution, source analysis, and synthesis. Use for comprehensive topic research, deep investigation, or creating research reports. Keywords: research, investigate, deep dive, comprehensive, analysis, synthesis, report."
 license: MIT
-compatibility: Designed for the agent and similar products. Web search capability required.
+compatibility: Designed for Claude Code and similar products. Web search capability required.
 metadata:
   author: agent-skills
   version: "1.0"

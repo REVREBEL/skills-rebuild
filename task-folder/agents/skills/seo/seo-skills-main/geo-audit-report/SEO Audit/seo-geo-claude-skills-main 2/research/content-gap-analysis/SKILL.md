@@ -3,7 +3,7 @@ name: content-gap-analysis
 description: 'Use when the user asks to "find content gaps", "竞品写了什么", or "还应该写什么"; builds a competitor-relative coverage map of missing topics, keyword gaps, and editorial-calendar opportunities. Not for raw keyword demand discovery — use keyword-research. 内容缺口/选题规划'
 version: "9.9.10"
 license: Apache-2.0
-compatibility: "the agent and compatible agent-skill hosts"
+compatibility: "Claude Code and compatible agent-skill hosts"
 homepage: "https://github.com/aaron-he-zhu/seo-geo-claude-skills"
 when_to_use: "Use when finding content gaps between two domains, discovering missing topics, or identifying coverage holes versus competitors."
 argument-hint: "<your domain> <competitor domain>"
@@ -73,7 +73,7 @@ Optional integrations: ~~SEO tool, ~~search console, ~~analytics, ~~AI monitor. 
 
 **Stop and ask** — gap analysis is competitor-relative and cannot run on demand alone:
 
-1. No competitor domains given and none inferable from `AGENTS.md` or prior research → ask the user to name 1-3 competitors, OR offer to switch to [keyword-research](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/keyword-research/SKILL.md) for demand-side discovery instead.
+1. No competitor domains given and none inferable from `CLAUDE.md` or prior research → ask the user to name 1-3 competitors, OR offer to switch to [keyword-research](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/keyword-research/SKILL.md) for demand-side discovery instead.
 2. Your own domain/content inventory is unavailable and cannot be fetched → ask for the site URL or a content list, since "gap" requires knowing current coverage.
 
 **Continue silently** — do not stop for: which 3-5 named competitors to deep-dive (pick the closest); missing optional tool data (mark Estimated/N/A and proceed); ambiguous topic scope (analyze the full overlap and flag the broadest clusters).

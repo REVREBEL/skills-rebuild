@@ -1,7 +1,7 @@
 """Generate a survey-paper-style HTML artifact with Kimi K2.6 via Fireworks.
 
 The research collection and taxonomy (research_bundle.json) and the style spec
-extracted from the RAG survey (style_spec.json) are prepared by the the agent
+extracted from the RAG survey (style_spec.json) are prepared by the Claude Code
 agent. This script sends that bundle to Kimi K2.6 on Fireworks and writes the
 returned single-file HTML artifact to output/survey_v{N}.html.
 

@@ -1,7 +1,7 @@
 # Ahrefs extension setup
 
 Wires the official [`@ahrefs/mcp`](https://www.npmjs.com/package/@ahrefs/mcp)
-server into your the agent session so the `seo-ahrefs` skill can call
+server into your Claude Code session so the `seo-ahrefs` skill can call
 live Ahrefs data.
 
 ## Install
@@ -24,7 +24,7 @@ The installer:
 
 ## Verify
 
-Open a new the agent session and ask:
+Open a new Claude Code session and ask:
 
 ```
 /seo ahrefs metrics https://example.com

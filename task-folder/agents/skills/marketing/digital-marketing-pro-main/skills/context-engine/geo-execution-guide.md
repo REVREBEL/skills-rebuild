@@ -22,7 +22,7 @@ Reference knowledge for AI visibility monitoring, optimization execution, entity
 
 | Platform | Access Method | Notes |
 |---|---|---|
-| **ChatGPT** (OpenAI) | Web UI or API (`/v1/chat/completions`) | Test both the active model and the active model-mini. Web browsing mode vs. training data mode yield different results |
+| **ChatGPT** (OpenAI) | Web UI or API (`/v1/chat/completions`) | Test both GPT-4o and GPT-4o-mini. Web browsing mode vs. training data mode yield different results |
 | **Perplexity** | Web UI or API | Always cites sources with links. Pro mode uses multiple search passes. Test both default and Pro |
 | **Google AI Overviews** | Google Search (standard query) | Appears above organic results for qualifying queries. Not triggered for all queries. Test from incognito/logged-out |
 | **Gemini** (Google) | Web UI or API | Integrates Google Knowledge Graph data. Test with and without Google Search grounding |

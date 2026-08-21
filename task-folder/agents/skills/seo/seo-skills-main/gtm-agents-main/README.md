@@ -46,7 +46,7 @@ You're spending too much time on repetitive tasks:
 
 **3 simple steps:**
 
-1. **Install** (2 minutes) - Add the agent and the GTM Agents marketplace
+1. **Install** (2 minutes) - Add Claude Code and the GTM Agents marketplace
 2. **Describe** (30 seconds) - Tell it what you need in plain English
 3. **Get Results** (instantly) - Export to your CRM, publish, or take action
 
@@ -56,11 +56,11 @@ You're spending too much time on repetitive tasks:
 
 ## 🚀 Quick Start
 
-### New to the agent?
+### New to Claude Code?
 
 👉 **[Complete Beginner's Guide](GETTING_STARTED.md)** - Install and run your first command in 10-15 minutes
 
-### Already Have the agent?
+### Already Have Claude Code?
 
 👉 **[Quick Start Guide](QUICK_START.md)** - Add marketplace and start in 5 minutes
 
@@ -132,11 +132,11 @@ You're spending too much time on repetitive tasks:
 
 ## 📦 Installation
 
-> **📝 Note:** This assumes you already have the agent installed. **Never used the agent?** Go to the **[Complete Beginner's Guide](GETTING_STARTED.md)** instead.
+> **📝 Note:** This assumes you already have Claude Code installed. **Never used Claude Code?** Go to the **[Complete Beginner's Guide](GETTING_STARTED.md)** instead.
 
 ### Step 1: Add the Marketplace
 
-Add this marketplace to the agent:
+Add this marketplace to Claude Code:
 
 ```bash
 /plugin marketplace add gtmagents/gtm-agents
@@ -408,7 +408,7 @@ GTM Agents skills follow the [Agent Skills](https://agentskills.io) open standar
 
 | Tool | Status | How to Use |
 |------|--------|------------|
-| **the agent** | ✅ Native | Skills load automatically from `plugins/*/skills/` |
+| **Claude Code** | ✅ Native | Skills load automatically from `plugins/*/skills/` |
 | **OpenAI Codex** | ✅ Compatible | Copy skills to `.codex/skills/` directory |
 | **Cursor** | ✅ Compatible | Reference skills in `.cursorrules` or project context |
 | **VS Code Copilot** | ✅ Compatible | Add skills to workspace context |
@@ -464,7 +464,7 @@ $skill-installer gtm-agents/account-tiering
    I need to set up account tiers for our enterprise sales motion
    ```
 
-### Using Skills in the agent
+### Using Skills in Claude Code
 
 Skills are automatically discovered from `plugins/*/skills/`:
 
@@ -525,7 +525,7 @@ Or create manually with this template:
 name: skill-name
 description: Description that helps agents select this skill
 license: Apache-2.0
-compatibility: the agent (or similar products)
+compatibility: Claude Code (or similar products)
 metadata:
   author: your-name
   version: "1.0"
@@ -623,7 +623,7 @@ See [Architecture Documentation](docs/architecture.md) for detailed guidelines.
 ## 📚 Resources
 
 ### Documentation
-- [the agent Documentation](https://docs.claude.com/claude-code)
+- [Claude Code Documentation](https://docs.claude.com/claude-code)
 - [GTM Best Practices](docs/gtm-best-practices.md)
 - [Integration Guide](docs/integrations.md)
 

@@ -106,8 +106,8 @@ trace = langfuse.trace(
 
 # Log a generation (LLM call)
 generation = trace.generation(
-    name="the active model-response",
-    model="the active model",
+    name="gpt-4o-response",
+    model="gpt-4o",
     model_parameters={"temperature": 0.7},
     input={"messages": [{"role": "user", "content": "Hello"}]},
     metadata={"attempt": 1}
@@ -115,7 +115,7 @@ generation = trace.generation(
 
 # Make actual LLM call
 response = openai.chat.completions.create(
-    model="the active model",
+    model="gpt-4o",
     messages=[{"role": "user", "content": "Hello"}]
 )
 
@@ -150,7 +150,7 @@ from langfuse.openai import openai
 # All calls automatically traced
 
 response = openai.chat.completions.create(
-    model="the active model",
+    model="gpt-4o",
     messages=[{"role": "user", "content": "Hello"}],
     # Langfuse-specific parameters
     name="greeting",  # Trace name
@@ -162,7 +162,7 @@ response = openai.chat.completions.create(
 
 # Works with streaming
 stream = openai.chat.completions.create(
-    model="the active model",
+    model="gpt-4o",
     messages=[{"role": "user", "content": "Tell me a story"}],
     stream=True,
     name="story-generation"
@@ -179,7 +179,7 @@ async_client = AsyncOpenAI()
 
 async def main():
     response = await async_client.chat.completions.create(
-        model="the active model",
+        model="gpt-4o",
         messages=[{"role": "user", "content": "Hello"}],
         name="async-greeting"
     )
@@ -204,7 +204,7 @@ langfuse_handler = CallbackHandler(
 )
 
 # Use with any LangChain component
-llm = ChatOpenAI(model="the active model")
+llm = ChatOpenAI(model="gpt-4o")
 
 prompt = ChatPromptTemplate.from_messages([
     ("system", "You are a helpful assistant."),
@@ -259,7 +259,7 @@ compiled = prompt.compile(
 
 # Use with OpenAI
 response = openai.chat.completions.create(
-    model=prompt.config.get("model", "the active model"),
+    model=prompt.config.get("model", "gpt-4o"),
     messages=compiled,
     temperature=prompt.config.get("temperature", 0.7)
 )
@@ -268,7 +268,7 @@ response = openai.chat.completions.create(
 trace = langfuse.trace(name="support-chat")
 generation = trace.generation(
     name="response",
-    model="the active model",
+    model="gpt-4o",
     prompt=prompt  # Links to specific version
 )
 
@@ -280,7 +280,7 @@ langfuse.create_prompt(
         {"role": "user", "content": "{{user_message}}"}
     ],
     config={
-        "model": "the active model",
+        "model": "gpt-4o",
         "temperature": 0.7
     },
     labels=["production"]  # or ["staging", "development"]
@@ -330,7 +330,7 @@ def evaluate_response(question: str, response: str) -> float:
     """
 
     result = openai.chat.completions.create(
-        model="the active model-mini",  # Cheaper model for eval
+        model="gpt-4o-mini",  # Cheaper model for eval
         messages=[{"role": "user", "content": eval_prompt}]
     )
 
@@ -399,7 +399,7 @@ def get_context(message: str) -> str:
 @observe(as_type="generation")  # LLM generation span
 def generate_response(message: str, context: str) -> str:
     response = openai.chat.completions.create(
-        model="the active model",
+        model="gpt-4o",
         messages=[
             {"role": "system", "content": f"Context: {context}"},
             {"role": "user", "content": message}

@@ -19,7 +19,7 @@ head -5 ~/.claude/skills/seo/SKILL.md
 ```
 Should start with `---` followed by YAML.
 
-3. Restart the agent:
+3. Restart Claude Code:
 ```bash
 claude
 ```
@@ -180,11 +180,11 @@ cp /path/to/claude-seo/agents/*.md ~/.claude/agents/
 
 2. **GitHub Issues:** Report bugs at the repository
 
-3. **Logs:** Check the agent's output for error details
+3. **Logs:** Check Claude Code's output for error details
 
 ## Debug Mode
 
-To see detailed output, check the agent's internal logs or run scripts directly:
+To see detailed output, check Claude Code's internal logs or run scripts directly:
 
 ```bash
 # Test fetch

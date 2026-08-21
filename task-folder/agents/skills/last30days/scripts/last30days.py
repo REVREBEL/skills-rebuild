@@ -75,7 +75,7 @@ def _search_reddit(
     else:
         try:
             raw_openai = openai_reddit.search_reddit(
-                config["LLM_API_KEY"],
+                config["OPENAI_API_KEY"],
                 selected_models["openai"],
                 topic,
                 from_date,
@@ -98,7 +98,7 @@ def _search_reddit(
         if core.lower() != topic.lower():
             try:
                 retry_raw = openai_reddit.search_reddit(
-                    config["LLM_API_KEY"],
+                    config["OPENAI_API_KEY"],
                     selected_models["openai"],
                     core,
                     from_date, to_date,
@@ -381,7 +381,7 @@ def main():
         mock_xai_models = load_fixture("models_xai_sample.json").get("data", [])
         selected_models = models.get_models(
             {
-                "LLM_API_KEY": "mock",
+                "OPENAI_API_KEY": "mock",
                 "XAI_API_KEY": "mock",
                 **config,
             },

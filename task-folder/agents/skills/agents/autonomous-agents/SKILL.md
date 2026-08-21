@@ -110,7 +110,7 @@ Final Answer: the answer
 
 # Create the agent
 agent = create_react_agent(
-    llm=ChatOpenAI(model="the active model"),
+    llm=ChatOpenAI(model="gpt-4o"),
     tools=tools,
     prompt=react_prompt,
 )
@@ -322,8 +322,8 @@ def should_continue(state):
 ## Separate Evaluator (More Robust)
 """
 # Use different model for evaluation to avoid self-bias
-generator = ChatOpenAI(model="the active model")
-evaluator = ChatOpenAI(model="the active model-mini")  # Different perspective
+generator = ChatOpenAI(model="gpt-4o")
+evaluator = ChatOpenAI(model="gpt-4o-mini")  # Different perspective
 
 # Or use specialized evaluators
 from langchain.evaluation import load_evaluator

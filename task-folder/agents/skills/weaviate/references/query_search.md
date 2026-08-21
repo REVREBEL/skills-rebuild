@@ -35,4 +35,3 @@ JSON output:
 ```bash
 uv run scripts/query_search.py --query "products under $50" --collections "Products" --json
 ```
-

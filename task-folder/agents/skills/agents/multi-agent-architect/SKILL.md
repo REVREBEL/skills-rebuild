@@ -76,7 +76,7 @@ logger = logging.getLogger(__name__)
 
 async def research_node(state: AgentState) -> AgentState:
     logger.info("research_node: starting")
-    llm = ChatOpenAI(model="the active model")
+    llm = ChatOpenAI(model="gpt-4o")
     result = await llm.bind_tools(research_tools).ainvoke(state["user_goal"])
     state["context"]["research"] = result.content
     state["next_agent"] = "coder"
@@ -223,7 +223,7 @@ multi_agent_system/
 ```python
 # agents/research_agent.py
 async def research_node(state: AgentState) -> AgentState:
-    llm = ChatOpenAI(model="the active model").bind_tools([web_search, rag_search])
+    llm = ChatOpenAI(model="gpt-4o").bind_tools([web_search, rag_search])
     response = await llm.ainvoke(
         f"Research the following and return structured findings:\n{state['user_goal']}"
     )
@@ -233,7 +233,7 @@ async def research_node(state: AgentState) -> AgentState:
 
 # agents/coding_agent.py
 async def coding_node(state: AgentState) -> AgentState:
-    llm = ChatOpenAI(model="the active model").bind_tools([python_repl, github_tool])
+    llm = ChatOpenAI(model="gpt-4o").bind_tools([python_repl, github_tool])
     response = await llm.ainvoke(
         f"Given this research:\n{state['context']['research']}\n\nWrite production Python code."
     )
@@ -258,7 +258,7 @@ Context keys available: {context}
 
 async def supervisor_node(state: AgentState) -> AgentState:
     state["step_count"] += 1
-    llm = ChatOpenAI(model="the active model")
+    llm = ChatOpenAI(model="gpt-4o")
     decision = await llm.ainvoke(
         DELEGATION_PROMPT.format(
             goal=state["user_goal"],
@@ -277,7 +277,7 @@ async def supervisor_node(state: AgentState) -> AgentState:
 
 ```python
 async def reflection_node(state: AgentState) -> AgentState:
-    llm = ChatOpenAI(model="the active model")
+    llm = ChatOpenAI(model="gpt-4o")
     critique = await llm.ainvoke(
         f"Evaluate this output critically:\n{state['context'].get('code', '')}\n"
         "List any bugs, gaps, or improvements. Be concise."

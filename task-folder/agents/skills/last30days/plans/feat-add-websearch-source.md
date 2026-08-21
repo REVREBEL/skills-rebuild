@@ -120,7 +120,7 @@ Return ONLY valid JSON:
 def search_web(topic: str, from_date: str, to_date: str, depth: str = "default") -> dict:
     """Search web using Claude's built-in WebSearch tool.
 
-    NOTE: This runs INSIDE the agent, so we use the WebSearch tool directly.
+    NOTE: This runs INSIDE Claude Code, so we use the WebSearch tool directly.
     No API key needed - uses Claude's session.
     """
     # Implementation uses Claude's web_search_20250305 tool
@@ -356,7 +356,7 @@ def test_websearch_weighting():
 
 ## Dependencies & Prerequisites
 
-- the agent's WebSearch tool (`web_search_20250305`) - already available
+- Claude Code's WebSearch tool (`web_search_20250305`) - already available
 - No new API keys required
 - Existing test infrastructure in `tests/`
 

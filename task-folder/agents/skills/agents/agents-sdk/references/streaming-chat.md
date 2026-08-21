@@ -14,7 +14,7 @@ import { openai } from "@ai-sdk/openai";
 export class Chat extends AIChatAgent<Env> {
   async onChatMessage(onFinish, options) {
     const result = streamText({
-      model: openai("the active model"),
+      model: openai("gpt-4o"),
       system: "You are a helpful assistant.",
       messages: await convertToModelMessages(this.messages),
       abortSignal: options?.abortSignal,
@@ -44,7 +44,7 @@ const tools = {
 export class Chat extends AIChatAgent<Env> {
   async onChatMessage(onFinish, options) {
     const result = streamText({
-      model: openai("the active model"),
+      model: openai("gpt-4o"),
       messages: await convertToModelMessages(this.messages),
       tools,
       abortSignal: options?.abortSignal,
@@ -86,7 +86,7 @@ export class Chat extends AIChatAgent<Env> {
     const stream = createUIMessageStream({
       execute: async ({ writer }) => {
         const result = streamText({
-          model: openai("the active model"),
+          model: openai("gpt-4o"),
           messages: await convertToModelMessages(this.messages),
           onFinish
         });

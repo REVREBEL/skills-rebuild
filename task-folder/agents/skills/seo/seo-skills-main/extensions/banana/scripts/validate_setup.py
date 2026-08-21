@@ -3,7 +3,7 @@
 Validate that the Claude Banana MCP server is properly configured.
 
 Checks:
-1. the agent settings.json has the MCP entry
+1. Claude Code settings.json has the MCP entry
 2. API key is present
 3. Node.js/npx is available
 4. Output directory exists or can be created
@@ -38,7 +38,7 @@ def main() -> int:
 
     # 1. Settings file exists
     results.append(check(
-        "the agent settings.json exists",
+        "Claude Code settings.json exists",
         SETTINGS_PATH.exists(),
         str(SETTINGS_PATH),
     ))

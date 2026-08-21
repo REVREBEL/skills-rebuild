@@ -26,10 +26,10 @@ from weaviate.classes.init import AdditionalConfig, Timeout
 # Canonical environment variable to Weaviate header mapping.
 #
 # These values are never forwarded implicitly. Set WEAVIATE_PROVIDER_KEYS to a
-# comma-separated allowlist such as "LLM_API_KEY,COHERE_API_KEY" when a
+# comma-separated allowlist such as "OPENAI_API_KEY,COHERE_API_KEY" when a
 # specific vectorizer/integration requires a provider key.
 HEADER_PARTS = {
-    "LLM_API_KEY": ("X-", "Anthropic", "-Api-", "Key"),
+    "ANTHROPIC_API_KEY": ("X-", "Anthropic", "-Api-", "Key"),
     "ANYSCALE_API_KEY": ("X-", "Anyscale", "-Api-", "Key"),
     "AWS_ACCESS_KEY": ("X-", "Aws-", "Access-", "Key"),
     "AWS_SECRET_KEY": ("X-", "Aws-", "Secret-", "Key"),
@@ -42,7 +42,7 @@ HEADER_PARTS = {
     "JINAAI_API_KEY": ("X-", "JinaAI-", "Api-", "Key"),
     "MISTRAL_API_KEY": ("X-", "Mistral-", "Api-", "Key"),
     "NVIDIA_API_KEY": ("X-", "Nvidia-", "Api-", "Key"),
-    "LLM_API_KEY": ("X-", "OpenAI-", "Api-", "Key"),
+    "OPENAI_API_KEY": ("X-", "OpenAI-", "Api-", "Key"),
     "AZURE_API_KEY": ("X-", "Azure-", "Api-", "Key"),
     "VOYAGE_API_KEY": ("X-", "Voyage-", "Api-", "Key"),
     "XAI_API_KEY": ("X-", "Xai-", "Api-", "Key"),
@@ -140,7 +140,7 @@ def get_detected_providers() -> list[str]:
     Get list of selected API key environment variable names that are present.
 
     Returns:
-        List of env var names (e.g., ["LLM_API_KEY", "COHERE_API_KEY"])
+        List of env var names (e.g., ["OPENAI_API_KEY", "COHERE_API_KEY"])
     """
     _, detected_providers = _collect_headers_and_providers()
     return sorted(detected_providers)

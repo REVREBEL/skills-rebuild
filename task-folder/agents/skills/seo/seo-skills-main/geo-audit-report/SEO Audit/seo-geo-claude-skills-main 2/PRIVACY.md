@@ -2,7 +2,7 @@
 
 ## Overview
 
-The SEO & GEO Skills Library is a collection of markdown-based skill files that run locally within your the agent environment. This project does not collect, store, or transmit any user data by itself. When users invoke certain skills, those skills may fetch URLs or call connected MCP servers — the specifics are documented below.
+The SEO & GEO Skills Library is a collection of markdown-based skill files that run locally within your Claude Code environment. This project does not collect, store, or transmit any user data by itself. When users invoke certain skills, those skills may fetch URLs or call connected MCP servers — the specifics are documented below.
 
 ## Data Transmission (accurate as of 2026-04)
 

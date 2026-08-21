@@ -101,11 +101,11 @@ def test_marketplace_json_subagent_count_matches_plugin_json():
 
 
 def test_canonical_phrasing_in_user_visible_docs():
-    """README, AGENTS.md, AGENTS.md must reference the canonical sub-skills count."""
+    """README, CLAUDE.md, AGENTS.md must reference the canonical sub-skills count."""
     plugin = json.loads(PLUGIN_JSON.read_text())
     canonical_count = _extract_count(plugin["description"], "sub-skills")
     target_phrase = f"{canonical_count} sub-skills"
-    for filename in ["README.md", "AGENTS.md", "AGENTS.md"]:
+    for filename in ["README.md", "CLAUDE.md", "AGENTS.md"]:
         path = REPO_ROOT / filename
         head = "\n".join(path.read_text().splitlines()[:120])
         assert target_phrase in head, (
@@ -401,7 +401,7 @@ def test_reference_files_have_at_least_one_link():
     search_paths += list((REPO_ROOT / "skills").glob("*/SKILL.md"))
     search_paths += list((REPO_ROOT / "agents").glob("*.md"))
     search_paths += list((REPO_ROOT / "docs").glob("*.md"))
-    for doc in ("README.md", "CHANGELOG.md", "AGENTS.md",
+    for doc in ("README.md", "CHANGELOG.md", "CLAUDE.md",
                 "AGENTS.md", "CONTRIBUTING.md"):
         candidate = REPO_ROOT / doc
         if candidate.exists():
