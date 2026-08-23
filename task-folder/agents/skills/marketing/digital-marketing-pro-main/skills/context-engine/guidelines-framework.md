@@ -16,7 +16,7 @@ A brand profile captures **what** the brand is (identity, voice scores, channels
 
 ## Storage Structure
 
-Per-brand guidelines at `~/.claude-marketing/brands/{slug}/`:
+Per-brand guidelines at `~/.agents-marketing/brands/{slug}/`:
 
 ```
 guidelines/
@@ -29,7 +29,7 @@ guidelines/
 └── custom/               # Additional guideline files
 ```
 
-Per-brand templates at `~/.claude-marketing/brands/{slug}/`:
+Per-brand templates at `~/.agents-marketing/brands/{slug}/`:
 
 ```
 templates/
@@ -37,7 +37,7 @@ templates/
 └── *.md                  # Proposal, report, brief templates
 ```
 
-Agency-level SOPs at `~/.claude-marketing/`:
+Agency-level SOPs at `~/.agents-marketing/`:
 
 ```
 sops/

@@ -15,7 +15,7 @@
 ## MCP Server Configuration
 
 The installer configures this automatically. If you need to set it up manually,
-add to `~/.claude/settings.json`:
+add to `~/.agents/settings.json`:
 
 ```json
 {
@@ -35,20 +35,20 @@ add to `~/.claude/settings.json`:
 
 Run the validation script:
 ```bash
-python3 ~/.claude/skills/seo-image-gen/scripts/validate_setup.py
+python3 ~/.agents/skills/seo-image-gen/scripts/validate_setup.py
 ```
 
 Or check manually:
-1. `ls ~/.claude/skills/seo-image-gen/SKILL.md`:skill file exists
-2. `ls ~/.claude/agents/seo-image-gen.md`:agent file exists
-3. `grep nanobanana ~/.claude/settings.json`:MCP configured
+1. `ls ~/.agents/skills/seo-image-gen/SKILL.md`:skill file exists
+2. `ls ~/.agents/agents/seo-image-gen.md`:agent file exists
+3. `grep nanobanana ~/.agents/settings.json`:MCP configured
 
 ## Common Issues
 
 ### "MCP tools not available"
-- Restart Claude Code after installing the extension
+- Restart the agent after installing the extension
 - Verify your API key is valid at [aistudio.google.com](https://aistudio.google.com)
-- Check `~/.claude/settings.json` has the nanobanana-mcp entry
+- Check `~/.agents/settings.json` has the nanobanana-mcp entry
 
 ### "Rate limited (429)"
 - Free tier: ~10 requests/minute, ~500/day

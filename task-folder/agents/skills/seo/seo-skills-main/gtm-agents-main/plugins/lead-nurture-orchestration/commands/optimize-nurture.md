@@ -17,7 +17,7 @@ usage: /lead-nurture-orchestration:optimize-nurture --window 30d --kpis "activat
 > Based on GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Optimization usually runs **pipeline** (data → insights → experiments → action plan → governance). If insights and experiment analysis can proceed in parallel, log a **diamond** segment + merge gate.
-- **Plan schema**: Update `.claude/plans/plan-<timestamp>.json` with data sources, query/metric owners, experiment IDs, remediation tasks, risk guardrails, error handling, and success targets (activation %, pipeline lift, unsub ceiling).
+- **Plan schema**: Update `.agents/plans/plan-<timestamp>.json` with data sources, query/metric owners, experiment IDs, remediation tasks, risk guardrails, error handling, and success targets (activation %, pipeline lift, unsub ceiling).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` (Serena for pipeline diffs + data pulls, Context7 for platform docs, Sequential Thinking for retrospection, Playwright for QA of revised assets).
 - **Guardrails**: Define retry limit (default 2) for automation fixes; escalation ladder = Nurture Analytics Partner → Marketing Ops Partner → Revenue Operations if alerts breach thresholds.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before sharing to ensure agent coverage + deliverables are complete.
@@ -33,7 +33,7 @@ usage: /lead-nurture-orchestration:optimize-nurture --window 30d --kpis "activat
 - Optimization brief (insights, impact, recommended action, owner, due date).
 - Updated experiment tracker with verdicts and next tests.
 - Alert + SLA tracker for segments needing fast intervention.
-- Plan JSON entry stored/updated in `.claude/plans` for auditability.
+- Plan JSON entry stored/updated in `.agents/plans` for auditability.
 
 ## Agent/Skill Invocations
 - `nurture-analytics-partner` – leads analysis.

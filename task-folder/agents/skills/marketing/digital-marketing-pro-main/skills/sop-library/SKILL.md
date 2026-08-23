@@ -15,7 +15,7 @@ The user must provide (or will be prompted for):
 
 - **Action**: One of: `create`, `list`, `assign`, `check-compliance`, `update`, or `view`
 - **SOP category**: The operational area — content-production, paid-media, reporting, crm, seo, social-media, email-marketing, client-management, onboarding, or general
-- **Brand slug** (for assign/check-compliance): Which brand to assign the SOP to or check compliance against — must match a configured brand in `~/.claude-marketing/brands/`
+- **Brand slug** (for assign/check-compliance): Which brand to assign the SOP to or check compliance against — must match a configured brand in `~/.agents-marketing/brands/`
 - **SOP name** (for create/update/view): A descriptive name for the procedure (e.g., "Blog Post Publishing Checklist", "Monthly Reporting Workflow", "Paid Search Campaign Launch Protocol")
 - **SOP content** (for create/update): The procedure steps, checklists, responsible roles, approval requirements, and quality gates — or indicate "from template" to use the category default template
 - **Version notes** (for update): What changed and why — recorded in the version history log for audit trail and team communication
@@ -28,8 +28,8 @@ The user must provide (or will be prompted for):
 
 ## Process
 
-1. **Load brand context**: Read `~/.claude-marketing/brands/_active-brand.json` for the active slug, then load `~/.claude-marketing/brands/{slug}/profile.json`. Apply brand voice, compliance rules for target markets (`skills/context-engine/compliance-rules.md`), and industry context. Also check for guidelines at `~/.claude-marketing/brands/{slug}/guidelines/_manifest.json` — if present, load restrictions. Check for agency SOPs at `~/.claude-marketing/sops/`. If no brand exists, ask: "Set up a brand first (/digital-marketing-pro:brand-setup)?" — or proceed with defaults.
-2. **Check SOP storage**: Read the SOP library at `~/.claude-marketing/sops/`. Each SOP is stored as a JSON file with metadata (name, category, version, priority, created date, last updated, author, assigned brands, steps array, checklists, and version history)
+1. **Load brand context**: Read `~/.agents-marketing/brands/_active-brand.json` for the active slug, then load `~/.agents-marketing/brands/{slug}/profile.json`. Apply brand voice, compliance rules for target markets (`skills/context-engine/compliance-rules.md`), and industry context. Also check for guidelines at `~/.agents-marketing/brands/{slug}/guidelines/_manifest.json` — if present, load restrictions. Check for agency SOPs at `~/.agents-marketing/sops/`. If no brand exists, ask: "Set up a brand first (/digital-marketing-pro:brand-setup)?" — or proceed with defaults.
+2. **Check SOP storage**: Read the SOP library at `~/.agents-marketing/sops/`. Each SOP is stored as a JSON file with metadata (name, category, version, priority, created date, last updated, author, assigned brands, steps array, checklists, and version history)
 3. **For CREATE action**: Generate a new SOP from the specified category template. Include:
    - Objective statement and scope definition
    - Prerequisites and required platform access
@@ -37,11 +37,11 @@ The user must provide (or will be prompted for):
    - Quality checkpoints at key gates with pass/fail criteria
    - Approval requirements with escalation paths
    - Completion criteria and rollback procedure if applicable
-   - Save to `~/.claude-marketing/sops/{category}/{sop-slug}.json` with version 1.0
+   - Save to `~/.agents-marketing/sops/{category}/{sop-slug}.json` with version 1.0
 4. **For LIST action**: Enumerate all SOPs in the library organized by category. Show name, version, priority level, last updated date, number of steps, total estimated duration, and assignment count (how many brands use this SOP). Highlight any unassigned SOPs and any with compliance rates below 80%
-5. **For ASSIGN action**: Link the specified SOP to a brand by creating a reference at `~/.claude-marketing/brands/{slug}/sops/{sop-slug}.json` containing the SOP reference, assignment date, assigner, and any brand-specific overrides or additions to the standard steps
+5. **For ASSIGN action**: Link the specified SOP to a brand by creating a reference at `~/.agents-marketing/brands/{slug}/sops/{sop-slug}.json` containing the SOP reference, assignment date, assigner, and any brand-specific overrides or additions to the standard steps
 6. **For CHECK-COMPLIANCE action**: Compare the brand's recent executions (from `execution-tracker.py --brand {slug} --action list`) against the assigned SOP requirements. For each SOP step, determine pass/fail/not-applicable/skipped based on execution evidence. Calculate overall compliance percentage and identify patterns in recurring failures
-7. **For UPDATE action**: Load the existing SOP, create a versioned backup (append version number to filename in `~/.claude-marketing/sops/_archive/`), apply the updates, increment version number, record change notes with author in the version history array, and flag all affected brands for re-review
+7. **For UPDATE action**: Load the existing SOP, create a versioned backup (append version number to filename in `~/.agents-marketing/sops/_archive/`), apply the updates, increment version number, record change notes with author in the version history array, and flag all affected brands for re-review
 8. **For VIEW action**: Display the full SOP with all steps, checklists, metadata, assigned brands list, complete version history, and aggregate compliance status summary across all assigned brands
 9. **Validate SOP completeness**: For create and update actions, verify the SOP has all required sections — objective, scope, at least 5 procedure steps, responsible roles for each step, at least one approval gate, completion criteria, and estimated total duration. Flag any gaps before saving
 10. **Check for conflicts**: When assigning or updating, verify the SOP does not conflict with existing assigned SOPs for the same brand and category — flag overlapping steps, contradictory requirements, or redundant procedures

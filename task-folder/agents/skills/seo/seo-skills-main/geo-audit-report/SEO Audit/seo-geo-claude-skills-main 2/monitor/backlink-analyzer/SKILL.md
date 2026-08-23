@@ -3,7 +3,7 @@ name: backlink-analyzer
 description: 'Use when the user asks to "analyze backlinks" or "外链分析"; profiles external referring domains, anchor-text distribution, toxic links, and competitor link gaps. Not for internal links — use internal-linking-optimizer. 外链分析/反向链接'
 version: "9.9.10"
 license: Apache-2.0
-compatibility: "Claude Code and compatible agent-skill hosts"
+compatibility: "the agent and compatible agent-skill hosts"
 homepage: "https://github.com/aaron-he-zhu/seo-geo-claude-skills"
 when_to_use: "Use when analyzing backlink profiles, link quality, toxic links, referring domains, or anchor text distribution."
 argument-hint: "<domain or URL>"

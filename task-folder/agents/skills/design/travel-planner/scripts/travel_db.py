@@ -11,7 +11,7 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from typing import Dict, Any, List, Optional
 
-DB_DIR = Path.home() / ".claude" / "travel_planner"
+DB_DIR = Path.home() / ".agents" / "travel_planner"
 PREFERENCES_FILE = DB_DIR / "preferences.json"
 TRIPS_FILE = DB_DIR / "trips.json"
 

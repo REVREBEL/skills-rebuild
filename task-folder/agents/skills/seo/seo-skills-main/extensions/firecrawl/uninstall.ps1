@@ -3,8 +3,8 @@ $ErrorActionPreference = 'Stop'
 
 Write-Host "Removing Firecrawl extension..." -ForegroundColor Yellow
 
-$SkillDir = "$env:USERPROFILE\.claude\skills\seo-firecrawl"
-$SettingsFile = "$env:USERPROFILE\.claude\settings.json"
+$SkillDir = "$env:USERPROFILE\.agents\skills\seo-firecrawl"
+$SettingsFile = "$env:USERPROFILE\.agents\settings.json"
 
 if (Test-Path $SkillDir) {
     Remove-Item -Recurse -Force $SkillDir

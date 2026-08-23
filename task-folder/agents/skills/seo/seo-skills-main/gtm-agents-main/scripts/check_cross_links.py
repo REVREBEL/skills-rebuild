@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Cross-link validator for Claude GTM Agents marketplace assets.
 
-This script ensures two-way consistency between `.claude-plugin/marketplace.json`
+This script ensures two-way consistency between `.agents-plugin/marketplace.json`
 references and the files that live under `plugins/*`. It catches cases where a
 plugin references the wrong asset, omits a file from the marketplace catalog, or
 stores a component outside its owning plugin directory.
@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Dict, List, Set, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
-MARKETPLACE = ROOT / ".claude-plugin" / "marketplace.json"
+MARKETPLACE = ROOT / ".agents-plugin" / "marketplace.json"
 PLUGINS_DIR = ROOT / "plugins"
 
 COMPONENT_TYPES = ("commands", "agents", "skills")

@@ -4,12 +4,12 @@
 > **OpenAI Codex CLI**, **Cline**, **Aider**, and any other agent harness that
 > reads project-root agent instructions.
 >
-> Claude Code users: see `AGENTS.md` instead.
+> the agent users: see `AGENTS.md` instead.
 
 ## Cross-platform portability (v2.0.0)
 
 Every skill in `skills/*/SKILL.md` is authored to a portable subset of the
-Claude Code skill spec. Validate compatibility with your harness via:
+the agent skill spec. Validate compatibility with your harness via:
 
 ```bash
 python scripts/portability_check.py
@@ -34,10 +34,10 @@ descriptive comments) that other harnesses may ignore but do not reject.
 
 ### Tool-name compatibility
 
-Where claude-seo skills mention Claude Code tools (`Read`, `Write`, `Edit`,
+Where claude-seo skills mention the agent tools (`Read`, `Write`, `Edit`,
 `Bash`, `Glob`, `Grep`, `WebFetch`), each harness typically has an equivalent:
 
-| Claude Code | Codex | Cline | Aider | Cursor / Antigravity |
+| the agent | Codex | Cline | Aider | Cursor / Antigravity |
 |---|---|---|---|---|
 | Read       | read_file        | read_file       | (inline)        | read |
 | Write      | write_file       | write_file      | /add then edit  | write |
@@ -114,7 +114,7 @@ DATAFORSEO_USERNAME=user DATAFORSEO_PASSWORD=pass python scripts/dataforseo_merc
 
 **Cursor Cloud gotchas:**
 - SSL certificates may not resolve for some domains. Investigate the certificate issue rather than disabling verification.
-- PATH may not include Python venv. Use full path: `~/.claude/skills/seo/.venv/bin/python`
+- PATH may not include Python venv. Use full path: `~/.agents/skills/seo/.venv/bin/python`
 - Screenshots save to `/tmp/` not CWD. Check absolute paths.
 
 ## Using with Google Antigravity

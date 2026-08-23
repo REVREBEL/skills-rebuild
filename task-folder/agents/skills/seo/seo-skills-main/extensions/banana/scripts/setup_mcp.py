@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Setup script for Claude Banana MCP server in Claude Code.
+Setup script for Claude Banana MCP server in the agent.
 
-Configures @ycse/nanobanana-mcp in Claude Code's settings.json
+Configures @ycse/nanobanana-mcp in the agent's settings.json
 with the user's Google AI API key.
 
 Usage:
@@ -18,14 +18,14 @@ import sys
 import os
 from pathlib import Path
 
-SETTINGS_PATH = Path.home() / ".claude" / "settings.json"
+SETTINGS_PATH = Path.home() / ".agents" / "settings.json"
 MCP_NAME = "nanobanana-mcp"
 MCP_PACKAGE = "@ycse/nanobanana-mcp"
 DEFAULT_MODEL = "gemini-3.1-flash-image-preview"
 
 
 def load_settings() -> dict:
-    """Load Claude Code settings.json."""
+    """Load the agent settings.json."""
     if not SETTINGS_PATH.exists():
         return {}
     with open(SETTINGS_PATH, "r") as f:
@@ -33,7 +33,7 @@ def load_settings() -> dict:
 
 
 def save_settings(settings: dict) -> None:
-    """Save Claude Code settings.json."""
+    """Save the agent settings.json."""
     SETTINGS_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(SETTINGS_PATH, "w") as f:
         json.dump(settings, f, indent=2)
@@ -65,13 +65,13 @@ def remove_mcp() -> None:
         del servers[MCP_NAME]
         settings["mcpServers"] = servers
         save_settings(settings)
-        print(f"Removed '{MCP_NAME}' from Claude Code settings.")
+        print(f"Removed '{MCP_NAME}' from the agent settings.")
     else:
         print(f"'{MCP_NAME}' not found in settings.")
 
 
 def setup_mcp(api_key: str) -> None:
-    """Configure MCP server in Claude Code settings."""
+    """Configure MCP server in the agent settings."""
     if not api_key or not api_key.strip():
         print("Error: API key cannot be empty.")
         sys.exit(1)
@@ -95,7 +95,7 @@ def setup_mcp(api_key: str) -> None:
     print(f"\nMCP server '{MCP_NAME}' configured successfully!")
     print(f"  Package: {MCP_PACKAGE}")
     print(f"  Model:   {DEFAULT_MODEL}")
-    print(f"\nRestart Claude Code for changes to take effect.")
+    print(f"\nRestart the agent for changes to take effect.")
     print(f"Generated images will be saved to: ~/Documents/nanobanana_generated/")
 
 

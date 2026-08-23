@@ -17,7 +17,7 @@ usage: /intent-signal-orchestration:trigger-plays --playbook "executive-briefing
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Activation typically runs **pipeline** (eligibility → play assembly → channel execution → telemetry → monitoring). If channel execution fan-out is large, log a **fan-out** section with reconverge guardrail in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing playbook, account set, dependency graph (automation, sales, marketing), error handling, and success metrics (SLA adherence, reply/conversion lift, suppression integrity).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing playbook, account set, dependency graph (automation, sales, marketing), error handling, and success metrics (SLA adherence, reply/conversion lift, suppression integrity).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for playbook diffs, Context7 for SOPs/runbooks, Sequential Thinking for go/no-go reviews, Playwright for landing page or form QA.
 - **Guardrails**: Default retry limit = 2 for failed task pushes or syncs; escalation ladder = Automation Lead → Sales Ops/Marketing Ops → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before triggering to confirm dependencies, approvals, and suppression compliance.
@@ -33,7 +33,7 @@ usage: /intent-signal-orchestration:trigger-plays --playbook "executive-briefing
 - Activation manifest with account, persona, channel, owner, and scheduled date.
 - SLA dashboard snapshot plus webhook notifications for go-live.
 - Post-play measurement brief template for RevOps + GTM leads.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `automation-lead` – ensures executions honor routing/suppression rules.

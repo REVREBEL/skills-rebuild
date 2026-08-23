@@ -9,7 +9,7 @@ description: "Import agency SOPs. Use when: adding workflow definitions, approva
 
 Import and structure agency Standard Operating Procedures (SOPs) that apply across all clients. SOPs define **how work gets done** — approval workflows, content review steps, campaign launch checklists, escalation procedures, and quality gates.
 
-SOPs are stored at the agency level (`~/.claude-marketing/sops/`), not per-brand, so they apply consistently across all clients.
+SOPs are stored at the agency level (`~/.agents-marketing/sops/`), not per-brand, so they apply consistently across all clients.
 
 ## Input Required
 
@@ -23,7 +23,7 @@ If the user doesn't provide a name, infer it from the content.
 
 ## Process
 
-1. **Load brand context**: Read `~/.claude-marketing/brands/_active-brand.json` for the active slug, then load `~/.claude-marketing/brands/{slug}/profile.json`. Apply brand voice, compliance rules for target markets (`skills/context-engine/compliance-rules.md`), and industry context. **Also check for existing guidelines** at `~/.claude-marketing/brands/{slug}/guidelines/_manifest.json` — if present, load restrictions and relevant category files. Check for custom templates at `~/.claude-marketing/brands/{slug}/templates/`. Check for agency SOPs at `~/.claude-marketing/sops/`. If no brand exists, ask: "Set up a brand first (/digital-marketing-pro:brand-setup)?" — or proceed with defaults.
+1. **Load brand context**: Read `~/.agents-marketing/brands/_active-brand.json` for the active slug, then load `~/.agents-marketing/brands/{slug}/profile.json`. Apply brand voice, compliance rules for target markets (`skills/context-engine/compliance-rules.md`), and industry context. **Also check for existing guidelines** at `~/.agents-marketing/brands/{slug}/guidelines/_manifest.json` — if present, load restrictions and relevant category files. Check for custom templates at `~/.agents-marketing/brands/{slug}/templates/`. Check for agency SOPs at `~/.agents-marketing/sops/`. If no brand exists, ask: "Set up a brand first (/digital-marketing-pro:brand-setup)?" — or proceed with defaults.
 
 2. **Classify the SOP type**:
    - **Content workflow**: Review, approval, and publishing steps for content
@@ -48,7 +48,7 @@ If the user doesn't provide a name, infer it from the content.
 
 5. **Save the SOP**:
    - Save using `guidelines-manager.py --action save-sop --name {name} --content "{content}"`
-   - Or write directly to `~/.claude-marketing/sops/{name}.md`
+   - Or write directly to `~/.agents-marketing/sops/{name}.md`
    - Update the SOP manifest
 
 6. **Explain integration** — Tell the user how this SOP will be applied:
@@ -67,7 +67,7 @@ If the user doesn't provide a name, infer it from the content.
 
 **User**: "Before publishing any content, it needs to go through: 1. Writer creates draft, 2. Editor reviews for quality, 3. Brand manager checks voice alignment, 4. Legal reviews if it contains claims, 5. Client approves, 6. Publish"
 
-**Result**: Saves to `~/.claude-marketing/sops/content-approval.md`:
+**Result**: Saves to `~/.agents-marketing/sops/content-approval.md`:
 ```markdown
 # Content Approval Workflow
 
@@ -109,7 +109,7 @@ Applies to all content before publishing across all brands/clients.
 
 **User**: "Our agency has a crisis escalation process: minor issues go to account manager, major issues go to agency director, critical issues go to CEO within 1 hour"
 
-**Result**: Saves to `~/.claude-marketing/sops/crisis-escalation.md`:
+**Result**: Saves to `~/.agents-marketing/sops/crisis-escalation.md`:
 ```markdown
 # Crisis Escalation Procedure
 

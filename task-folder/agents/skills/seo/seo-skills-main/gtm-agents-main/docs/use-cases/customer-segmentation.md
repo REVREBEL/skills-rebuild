@@ -36,7 +36,7 @@
 
 ## Prerequisites
 
-- [ ] Claude Code installed
+- [ ] the agent installed
 - [ ] GTM Agents marketplace added
 - [ ] `customer-analytics` plugin installed
 - [ ] Customer data export (CSV from your database/CRM)
@@ -73,7 +73,7 @@ CUST002,2024-03-20,2400,2024-11-10,Pro,120,50
 
 ### Step 2: Run Customer Segmentation (5 minutes)
 
-1. Open Claude Code
+1. Open the agent
 2. Run:
    ```
    /customer-analytics:segment-customers

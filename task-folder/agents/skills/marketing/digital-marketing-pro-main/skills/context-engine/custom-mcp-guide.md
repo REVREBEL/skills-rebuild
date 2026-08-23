@@ -123,7 +123,7 @@ The `.mcp.json` file in the plugin root defines all MCP server configurations. C
 
 - **All credentials** go in `.env` at the project root — never in `.mcp.json`, never in scripts, never committed to git
 - **`.env` is gitignored** — verify this before any commit
-- **Agency mode:** Per-client credentials stored at `~/.claude-marketing/credentials/{profile-name}.json` (see Credential Profiles section below)
+- **Agency mode:** Per-client credentials stored at `~/.agents-marketing/credentials/{profile-name}.json` (see Credential Profiles section below)
 - **Rotation:** Rotate API keys quarterly. Use short-lived tokens (OAuth) where possible.
 
 ---
@@ -284,7 +284,7 @@ In agency mode, different clients use different credentials for the same service
 
 ### Profile Structure
 
-Stored at `~/.claude-marketing/credentials/{profile-name}.json`:
+Stored at `~/.agents-marketing/credentials/{profile-name}.json`:
 
 ```json
 {
@@ -315,7 +315,7 @@ Stored at `~/.claude-marketing/credentials/{profile-name}.json`:
 
 ### Security Rules for Profiles
 
-- [ ] Profile files are stored outside the plugin directory (in `~/.claude-marketing/`)
+- [ ] Profile files are stored outside the plugin directory (in `~/.agents-marketing/`)
 - [ ] Profile files are never committed to git
 - [ ] Each profile only contains credentials for services that client uses
 - [ ] API keys in profiles are encrypted at rest (if using `credential-manager.py` encryption feature)

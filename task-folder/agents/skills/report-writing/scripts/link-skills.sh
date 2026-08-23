@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # link-skills.sh — Interactive TUI for selectively symlinking skills
-# from claude-code-skills repo to ~/.claude/skills/
+# from claude-code-skills repo to ~/.agents/skills/
 #
 
 set -euo pipefail
@@ -11,7 +11,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SKILLS_SRC="$(cd "$SCRIPT_DIR/../skills" && pwd)" || {
     echo "Error: Cannot resolve skills directory"; exit 1
 }
-SKILLS_DST="$HOME/.claude/skills"
+SKILLS_DST="$HOME/.agents/skills"
 
 # ── Color support ──────────────────────────────────────────────────────
 if [ -t 1 ] && command -v tput >/dev/null 2>&1 && [ "$(tput colors 2>/dev/null || echo 0)" -ge 8 ]; then

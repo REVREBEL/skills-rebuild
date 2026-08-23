@@ -17,7 +17,7 @@ usage: /loyalty-lifecycle-orchestration:plan-loyalty --goal retention --tiers 3 
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Loyalty design generally follows a **diamond** (research ↔ modeling in parallel, converge into governance) or **pipeline** if run sequentially; document choice in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing tiers, benefit assumptions, financial guardrails, dependency graph (legal, finance, ops), error handling, and success criteria (retention, NRR, cost/point).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing tiers, benefit assumptions, financial guardrails, dependency graph (legal, finance, ops), error handling, and success criteria (retention, NRR, cost/point).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for catalog/tier diffs, Context7 for compliance docs, Sequential Thinking for scenario modeling, Playwright for testing redemption flows.
 - **Guardrails**: Default retry limit = 2 for data pulls or modeling errors; escalation ladder = Loyalty Strategist → Finance/Legal → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before publishing to ensure dependencies, approvals, and deliverables are logged.
@@ -33,7 +33,7 @@ usage: /loyalty-lifecycle-orchestration:plan-loyalty --goal retention --tiers 3 
 - Program blueprint deck/table (tiers, requirements, benefits, KPIs).
 - Lifecycle trigger matrix (event → loyalty action → channel → owner).
 - Financial model summary (cost, expected lift, break-even timeline).
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `loyalty-strategist` – leads architecture.

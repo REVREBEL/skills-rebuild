@@ -32,7 +32,7 @@ Heavy skill. **Grep before Read** any referenced file, then `Read` only matched 
 
 Before running this skill, verify:
 
-1. **Brand profile exists** at `~/.claude-marketing/brands/{brand-slug}/profile.json`. If not, run `/digital-marketing-pro:brand-setup` first.
+1. **Brand profile exists** at `~/.agents-marketing/brands/{brand-slug}/profile.json`. If not, run `/digital-marketing-pro:brand-setup` first.
 2. **Engagement is initialised** with state file `_engagement.json` present. If not, run `/digital-marketing-pro:engagement start` first.
 3. **Part 1 (Client Inputs) is completed**. Stone facts and Opinion hypotheses must be captured before Part 3 can begin.
 4. **Part 2 (External Research) is at least started**. Some Part 2 research may continue in parallel with Part 3, but the kickoff must have happened.
@@ -113,7 +113,7 @@ Read the spec section for 3.1 in [four-core-documents-spec.md](../context-engine
 
 - `part-01-client-inputs/stone-facts.json` — ground-truth facts
 - `part-02-external-research/` — unbiased external research (industry data, market context)
-- Brand profile at `~/.claude-marketing/brands/{slug}/profile.json`
+- Brand profile at `~/.agents-marketing/brands/{slug}/profile.json`
 - (Do NOT use Opinion hypotheses as ground truth — those are research questions, not facts)
 
 **Output:**

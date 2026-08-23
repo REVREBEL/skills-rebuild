@@ -1,6 +1,6 @@
 # Plugin Reference
 
-Definitive catalog generated from `.claude-plugin/marketplace.json`. Use this table to audit README promises versus actual assets before each release. Regenerate via `python scripts/validate_marketplace.py` + `python scripts/smoke_test_plugins.py` whenever components change.
+Definitive catalog generated from `.agents-plugin/marketplace.json`. Use this table to audit README promises versus actual assets before each release. Regenerate via `python scripts/validate_marketplace.py` + `python scripts/smoke_test_plugins.py` whenever components change.
 
 | Plugin | Category | Description | Agents | Commands | Skills |
 |--------|----------|-------------|--------|----------|--------|

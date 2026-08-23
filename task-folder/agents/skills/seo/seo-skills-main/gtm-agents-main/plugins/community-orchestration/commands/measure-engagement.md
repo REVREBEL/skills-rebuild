@@ -17,7 +17,7 @@ usage: /community-orchestration:measure-engagement --window 30d --detail full --
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Engagement measurement typically runs **pipeline** (data → diagnostics → sentiment → experiment readouts → actions). If diagnostics + experiment analysis can run in parallel, log a **diamond** segment with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing window, data feeds, task IDs, dependency graph (analytics, CRM, sentiment tools), error handling, and success metrics (engagement %, advocacy, risk volume).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing window, data feeds, task IDs, dependency graph (analytics, CRM, sentiment tools), error handling, and success metrics (engagement %, advocacy, risk volume).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for schema diffs, Context7 for platform documentation/conversation exports, Sequential Thinking for insights review cadence, Playwright for verifying dashboard/report embeds.
 - **Guardrails**: Default retry limit = 2 for failed data pulls or sentiment processing; escalation ladder = Community Analyst → Community Lead → CS/Product leadership.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm inputs, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /community-orchestration:measure-engagement --window 30d --detail full --
 - Community health dashboard snapshot with annotated insights.
 - Sentiment + risk report referencing `sentiment-analysis` findings.
 - Recommended action list with owners, deadlines, and expected impact.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `community-analyst` – leads data aggregation and insights.

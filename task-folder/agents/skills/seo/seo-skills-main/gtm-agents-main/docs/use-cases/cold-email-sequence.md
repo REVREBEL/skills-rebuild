@@ -35,7 +35,7 @@
 
 ## Prerequisites
 
-- [ ] Claude Code installed
+- [ ] the agent installed
 - [ ] GTM Agents marketplace added
 - [ ] `email-marketing` plugin installed
 - [ ] Target persona defined
@@ -59,7 +59,7 @@ Goal: Book a 30-minute demo
 
 ### Step 2: Run the Sequence Builder (1 minute)
 
-1. Open Claude Code
+1. Open the agent
 2. Run:
    ```
    /email-marketing:design-campaign

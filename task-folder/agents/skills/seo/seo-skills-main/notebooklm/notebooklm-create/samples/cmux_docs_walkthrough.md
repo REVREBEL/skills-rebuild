@@ -109,7 +109,7 @@ Dispatched in async-first order, all with `confirm=true`:
   "origin_story": "Austin Wang and Lawrence Chen built it after frustration with generic 'Claude is waiting for your input' notifications",
   "implications": "cmux is a terminal substrate, not an orchestrator",
   "key_concepts_list": "libghostty, OSC 9/99/777, claude-teams, Ghostty config, vertical tabs, notification rings, remote workspaces, AGPL",
-  "expected_queries": "cmux, terminal for Claude Code, parallel AI agents macOS"
+  "expected_queries": "cmux, terminal for the agent, parallel AI agents macOS"
 }
 ```
 

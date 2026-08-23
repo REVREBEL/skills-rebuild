@@ -3,7 +3,7 @@ name: rank-tracker
 description: 'Use when the user asks to "track rankings" or "查排名"; measures keyword and SERP-position deltas over time from provided exports or connected tools, including AI-response checks. Not for multi-metric stakeholder reports — use performance-reporter; not for setting alerts — use alert-manager. 排名追踪/SERP监控'
 version: "9.9.10"
 license: Apache-2.0
-compatibility: "Claude Code and compatible agent-skill hosts"
+compatibility: "the agent and compatible agent-skill hosts"
 homepage: "https://github.com/aaron-he-zhu/seo-geo-claude-skills"
 when_to_use: "Use when tracking keyword rankings, monitoring position changes, comparing ranking snapshots, or detecting ranking drops."
 argument-hint: "<domain> [keyword list]"

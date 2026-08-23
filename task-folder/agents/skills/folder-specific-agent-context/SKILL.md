@@ -1,6 +1,6 @@
 ---
 name: folder-specific-agent-context
-description: "Create folder-scoped AGENTS.md and AGENTS.md guidance for future agents working in that area."
+description: "Create folder-scoped AGENTS.md and optional CLAUDE.md compatibility guidance for future agents working in that area."
 category: development
 risk: critical
 source: community
@@ -15,14 +15,14 @@ license_source: "https://github.com/davidondrej/skills/blob/main/LICENSE"
 user-invocable: true
 ---
 
-# Folder AGENTS.md Creation
+# Folder AGENTS.md & CLAUDE.md Creation
 
 ## When to Use
 
 - Use when the user asks for folder-specific agent instructions or local context files.
-- Use when a subdirectory needs a AGENTS.md and AGENTS.md handoff for future agents.
+- Use when a subdirectory needs an AGENTS.md and optional CLAUDE.md handoff for future agents.
 
-Generate a focused `AGENTS.md` inside a target folder, plus an `AGENTS.md` symlink pointing at it. The file gives any future agent (the agent, Codex, etc.) the folder-specific context the global `AGENTS.md` doesn't cover.
+Generate a focused `AGENTS.md` inside a target folder, plus a `CLAUDE.md` symlink pointing at it for backward compatibility. The file gives any future agent (the agent, Codex, etc.) the folder-specific context the global `AGENTS.md` or `CLAUDE.md` doesn't cover.
 
 Background reference: `library/claude-code/agent-context-guidelines.md`.
 
@@ -67,11 +67,11 @@ Before writing the file, give the user a bullet list grouped by section — let 
 - **Cross-folder references:** use `@relative/path/file.md` import syntax, not prose mentions.
 - **Heavy reference docs:** annotate with `**Read when:**` triggers (e.g. "Read when: writing offer copy"). Prevents loading every session.
 
-### Step 6: Create the AGENTS.md symlink
+### Step 6: Create the CLAUDE.md symlink
 ```
-cd <folder> && ln -s AGENTS.md AGENTS.md
+cd <folder> && ln -s AGENTS.md CLAUDE.md
 ```
-Verify with `ls -la AGENTS.md AGENTS.md`.
+Verify with `ls -la AGENTS.md CLAUDE.md`.
 
 ### Step 7: Commit only when asked
 Do NOT stage or push unless the user says to. When they do: `git add -A`, commit with a `Day N:` style message, push.
@@ -87,7 +87,7 @@ Do NOT stage or push unless the user says to. When they do: `git add -A`, commit
 - **Never summarize or auto-shorten the file.** Context collapse degrades it. Grow deliberately, prune manually. If the user asks to trim, do it by hand.
 - **Maintenance loop.** When the user corrects the agent on something this file should have prevented, add the rule to the file immediately. Don't wait.
 - **No emojis unless the user uses them** (status markers ✅ 🟡 are the exception — they're already conventions).
-- **Symlink, not copy.** `AGENTS.md` must be a symlink so edits stay in sync.
+- **Symlink, not copy.** `CLAUDE.md` must be a symlink pointing to `AGENTS.md` so edits stay in sync.
 - **Flag gaps honestly.** If the user's edits introduce contradictions (e.g. "sell X" in one section and "never sell X" in another), call it out before they ask.
 
 ## Limitations

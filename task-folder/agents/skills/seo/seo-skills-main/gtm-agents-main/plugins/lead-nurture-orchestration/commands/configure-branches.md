@@ -17,7 +17,7 @@ usage: /lead-nurture-orchestration:configure-branches --journey "MM Onboarding" 
 > Lifted from GTM Agents orchestrator practices @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Most branching config is a **pipeline** continuation of design-nurture. If QA + personalization can run parallel, explicitly log a **diamond** segment and define merge points.
-- **Plan schema**: Update `.claude/plans/plan-<timestamp>.json` (or create if standalone) with branch IDs, step references, tokens, webhook payloads, QA scenarios, and error handling. Note dependencies (assets, webhooks) and success criteria (activation %, latency).
+- **Plan schema**: Update `.agents/plans/plan-<timestamp>.json` (or create if standalone) with branch IDs, step references, tokens, webhook payloads, QA scenarios, and error handling. Note dependencies (assets, webhooks) and success criteria (activation %, latency).
 - **Tool hooks**: Use `docs/gtm-essentials.md` stack—Serena for MAP diffs, Context7 for platform docs, Sequential Thinking for post-flight retro, Playwright for landing/app QA.
 - **Guardrails**: Default retry limit = 2 per failed automation. Escalate Marketing Ops Partner → Nurture Architect → RevOps if QA evidence fails or compliance issues appear.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before publishing to ensure agents, dependencies, and deliverables are confirmed.
@@ -33,7 +33,7 @@ usage: /lead-nurture-orchestration:configure-branches --journey "MM Onboarding" 
 - Implementation checklist with step-by-step instructions.
 - QA/evidence matrix (test profile, scenario, expected result, status).
 - Change log template + rollback notes.
-- Plan JSON entry stored/updated in `.claude/plans` for traceability.
+- Plan JSON entry stored/updated in `.agents/plans` for traceability.
 
 ## Agent/Skill Invocations
 - `marketing-ops-partner` – executes platform build.

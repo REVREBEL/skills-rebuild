@@ -34,7 +34,7 @@ name: your-skill-name
 version: "1.0.0"
 description: 'Use when the user asks to "[trigger]". [What it does]. For [related task], see [other-skill].'
 license: Apache-2.0
-compatibility: "Claude Code and compatible agent-skill hosts"
+compatibility: "the agent and compatible agent-skill hosts"
 metadata:
   author: your-github-username
   version: "1.0.0"
@@ -62,8 +62,8 @@ Auditor-class skills are the exception: they inline the authoritative auditor ru
 
 After adding or updating a skill, keep these 5 files in sync:
 - `VERSIONS.md` — version and date
-- `.claude-plugin/plugin.json` — skills array
-- `marketplace.json` (repo root) — must match plugin.json; copy to `.claude-plugin/marketplace.json` afterward
+- `.agents-plugin/plugin.json` — skills array
+- `marketplace.json` (repo root) — must match plugin.json; copy to `.agents-plugin/marketplace.json` afterward
 - `README.md` — skills table
 - `AGENTS.md` — category table
 
@@ -96,7 +96,7 @@ Before submitting a PR:
 - [ ] `allowed-tools: WebFetch` added if skill fetches live URLs
 - [ ] Includes validation checkpoints and at least one example
 - [ ] All tracking and release files updated; plugin.json and marketplace.json arrays identical
-- [ ] `.claude-plugin/marketplace.json` byte-identical to repo-root copy
+- [ ] `.agents-plugin/marketplace.json` byte-identical to repo-root copy
 
 ## Submitting
 

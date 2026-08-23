@@ -17,7 +17,7 @@ usage: /loyalty-lifecycle-orchestration:monitor-loyalty --window 30d --detail fu
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Monitoring typically runs **pipeline** (data → diagnostics → experiments → action plan). If diagnostics and experiment review can run in parallel, document a **diamond** segment with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing window, feeds, task IDs, dependency graph (BI, CRM, experimentation), error handling, and success metrics (retention, liability, engagement lift, alert remediation time).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing window, feeds, task IDs, dependency graph (BI, CRM, experimentation), error handling, and success metrics (retention, liability, engagement lift, alert remediation time).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for metric definition diffs, Context7 for SOPs/dashboards, Sequential Thinking for retro cadence, Playwright for verifying embedded dashboards.
 - **Guardrails**: Default retry limit = 2 for failed data pulls or chart renders; escalation ladder = Member Insights Analyst → Loyalty Strategist → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before distributing outputs to ensure dependencies + approvals captured.
@@ -33,7 +33,7 @@ usage: /loyalty-lifecycle-orchestration:monitor-loyalty --window 30d --detail fu
 - Dashboard snapshot with KPI trends and drilldowns.
 - Risk/Opportunity list referencing data points and owners.
 - Experiment readouts plus next-test suggestions.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `member-insights-analyst` – owns analysis + insights.

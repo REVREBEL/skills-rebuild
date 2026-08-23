@@ -98,9 +98,9 @@ Every improvement followed the same loop:
 
 The diagnosis step is critical. Each failure points to a specific gap: the agent doesn't know how to bypass a keyword filter, chain two vulnerabilities together, or extract a flag from an environment variable after getting code execution. The fix is always the same — write the missing technique into a skill file, then generalize it so it applies to any application with the same vulnerability class, not just the one that failed.
 
-### 2.3 Using Claude Code to Improve Its Own Skills
+### 2.3 Using the agent to Improve Its Own Skills
 
-The skill files live in `projects/pentest/.claude/skills/` — the same directory where Claude Code runs during benchmarks. To update them, we used Claude Code itself with the `/skill-update` command, which enforces structural constraints:
+The skill files live in `projects/pentest/.agents/skills/` — the same directory where the agent runs during benchmarks. To update them, we used the agent itself with the `/skill-update` command, which enforces structural constraints:
 
 - **SKILL.md** files (skill entry points): maximum 150 lines
 - **Reference files** (detailed techniques): maximum 200 lines
@@ -110,7 +110,7 @@ A typical update cycle looked like this:
 
 1. **Read the failed agent's output** — what did it try? Where did it get stuck?
 2. **Identify the missing technique** — not "the answer to this challenge" but "the general class of bypass the agent didn't know"
-3. **Open Claude Code in `projects/pentest/`** and use `/skill-update` to update the relevant skill file
+3. **Open the agent in `projects/pentest/`** and use `/skill-update` to update the relevant skill file
 4. **Write the technique in vulnerability-class vocabulary** — behavioral triggers ("when keyword filtering is detected"), not benchmark references ("for XBEN-006")
 5. **Verify the addition is general** — would a security professional recognize this as standard knowledge?
 
@@ -266,7 +266,7 @@ Phase 1: Reconnaissance Deepening
 
 ### 3.4 Skill File Structure and the /skill-update Tool
 
-Skill files follow a strict structure enforced by the `/skill-update` command in Claude Code:
+Skill files follow a strict structure enforced by the `/skill-update` command in the agent:
 
 ```
 skills/
@@ -289,7 +289,7 @@ When updating skills after a failure, `/skill-update` validates:
 
 ### 3.5 Knowledge Injection
 
-At runtime, all skill and agent markdown files are concatenated and injected via Claude Code's `--append-system-prompt` mechanism. The content is identical for every benchmark — cached at load time, with no per-challenge customization. Each benchmark runs as an isolated Docker Compose stack with a unique flag. The agent receives only a target URL:
+At runtime, all skill and agent markdown files are concatenated and injected via the agent's `--append-system-prompt` mechanism. The content is identical for every benchmark — cached at load time, with no per-challenge customization. Each benchmark runs as an isolated Docker Compose stack with a unique flag. The agent receives only a target URL:
 
 ```
 You are a security testing agent working on an authorized CTF challenge.
@@ -349,7 +349,7 @@ All configurations use identical infrastructure, timeout, and prompt — differi
 | Timeout | 3600 seconds per challenge |
 | Retries | None (single run per challenge) |
 | Infrastructure | Docker Desktop on macOS (Darwin 25.3.0, ARM64) |
-| Vanilla mode | No skills, no agent definitions, default Claude Code |
+| Vanilla mode | No skills, no agent definitions, default the agent |
 | **Skills mode** | **cwd: `projects/pentest/`, all 230 skill/agent files injected** |
 
 ### 4.3 Results

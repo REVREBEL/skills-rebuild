@@ -19,7 +19,7 @@ The skill does not mutate the product, the database, or any external system. Its
 
 ## Interaction Method
 
-Default to the platform's blocking question tool: `AskUser` in Claude Code (call `ToolSearch` with `select:AskUser` first if its schema isn't loaded), `request_user_input` in Codex, `ask_user` in Gemini, `ask_user` in Pi (requires the `pi-ask-user` extension). Fall back to numbered options in chat only when no blocking tool exists in the harness or the call errors (e.g., Codex edit modes) — not because a schema load is required. Never silently skip the question.
+Default to the platform's blocking question tool: `AskUser` in the agent (call `ToolSearch` with `select:AskUser` first if its schema isn't loaded), `request_user_input` in Codex, `ask_user` in Gemini, `ask_user` in Pi (requires the `pi-ask-user` extension). Fall back to numbered options in chat only when no blocking tool exists in the harness or the call errors (e.g., Codex edit modes) — not because a schema load is required. Never silently skip the question.
 
 Ask one question at a time. Reserve multi-select for first-run configuration only.
 
@@ -56,7 +56,7 @@ Apply a **15-minute trailing buffer** to the window's upper bound. Many analytic
 
 If the block above contains YAML key-value pairs, extract values for the `pulse_*` keys listed under "Config keys" below.
 If it shows `__NO_CONFIG__`, the file does not exist — treat this as a first run.
-If it shows an unresolved command string, read `.compound-engineering/config.local.yaml` from the repo root using the native file-read tool (e.g., Read in Claude Code, read_file in Codex). If the file does not exist, treat as first run.
+If it shows an unresolved command string, read `.compound-engineering/config.local.yaml` from the repo root using the native file-read tool (e.g., Read in the agent, read_file in Codex). If the file does not exist, treat as first run.
 
 **Config keys:**
 - `pulse_product_name` -- string, used in report titles. Required for routing: if unset, skill is unconfigured.

@@ -50,7 +50,7 @@ find . -name "DESIGN-LANGUAGE.md" -not -path "*/node_modules/*"
 find . -name "AGENTS.md" -not -path "*/node_modules/*"
 
 # Find skills (ss-* is current; ui-*/ux-* are legacy names to migrate from)
-find . -path "*/.claude/skills/ss-*" -o -path "*/.claude/skills/ui-*" -o -path "*/.claude/skills/ux-*" | head -20
+find . -path "*/.agents/skills/ss-*" -o -path "*/.agents/skills/ui-*" -o -path "*/.agents/skills/ux-*" | head -20
 
 # Find theme.css
 find . -name "theme.css" -not -path "*/node_modules/*"
@@ -85,7 +85,7 @@ fi
 Compare:
 - `engine/VERSION` (or `version.json`) vs the local copy — the source of truth
 - DESIGN-LANGUAGE.md rule count + Table of Contents
-- Skills present in `.claude/skills/` vs upstream (don't hardcode a count — list the diff)
+- Skills present in `.agents/skills/` vs upstream (don't hardcode a count — list the diff)
 - Whether `AGENTS.md`, `AGENTS.md`, and `.cursorrules` exist (ship all three)
 - New engine docs (VISUAL-CRAFT.md, APP-PLAYBOOKS.md, PAGE-TYPES.md)
 
@@ -116,7 +116,7 @@ Shall I proceed? (I'll ask before each ⚠️ item)
 For each update, in order:
 
 **Always safe (do without asking):**
-- Copy skills: `cp -r /tmp/styleseed/engine/.claude/skills/ .claude/skills/`
+- Copy skills: `cp -r /tmp/styleseed/engine/.agents/skills/ .agents/skills/`
 - Copy .cursorrules (if not exists): `cp /tmp/styleseed/engine/.cursorrules .cursorrules`
 
 **Ask before doing:**

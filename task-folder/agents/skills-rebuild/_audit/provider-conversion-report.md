@@ -23,9 +23,10 @@ Candidate Eligibility Breakdown:
 | :--- | :---: | :--- |
 | **Converted (Neutralized)** | **399** | Nonessential provider implementation assumptions (model locks, env vars, slash commands, `.claude` configs) neutralized via context-aware pipeline. |
 | **Retained (Intrinsic)** | **14** | Primary subject of the skill is intrinsically bound to the provider's API or brand styling (e.g. Gemini APIs, Codex profiles, Anthropic Brand Guidelines). |
-| **Reviewed - No Conversion Required** | **1,873** | Active and unresolved skills containing no technical provider coupling, plus Phase 03 quarantined folders skipped in this phase. |
+| **Reviewed - No Conversion Required** | **1,873** | Active and unresolved skills containing no technical provider coupling, which require no conversion. |
+| **Not In Scope / Phase 03 Quarantined** | **45** | Folders quarantined in Phase 03 and thus out of scope for conversion in Phase 04. |
 | **Requires Manual Review (Blockers)** | **0** | No remaining ambiguous coupling or blocked conversions. |
-| **TOTAL POPULATION** | **2,331** | **Sum matches the entire inventory population perfectly.** |
+| **TOTAL POPULATION** | **2,331** | **Sum matches the entire master inventory population perfectly (399 + 14 + 1873 + 45 = 2331).** |
 
 ---
 

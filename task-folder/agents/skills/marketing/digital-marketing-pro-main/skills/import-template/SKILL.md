@@ -23,7 +23,7 @@ If the user doesn't provide a name, infer it from the content structure.
 
 ## Process
 
-1. **Load brand context**: Read `~/.claude-marketing/brands/_active-brand.json` for the active slug, then load `~/.claude-marketing/brands/{slug}/profile.json`. Apply brand voice, compliance rules for target markets (`skills/context-engine/compliance-rules.md`), and industry context. **Also check for existing guidelines** at `~/.claude-marketing/brands/{slug}/guidelines/_manifest.json` — if present, load restrictions and relevant category files. Check for custom templates at `~/.claude-marketing/brands/{slug}/templates/`. Check for agency SOPs at `~/.claude-marketing/sops/`. If no brand exists, ask: "Set up a brand first (/digital-marketing-pro:brand-setup)?" — or proceed with defaults.
+1. **Load brand context**: Read `~/.agents-marketing/brands/_active-brand.json` for the active slug, then load `~/.agents-marketing/brands/{slug}/profile.json`. Apply brand voice, compliance rules for target markets (`skills/context-engine/compliance-rules.md`), and industry context. **Also check for existing guidelines** at `~/.agents-marketing/brands/{slug}/guidelines/_manifest.json` — if present, load restrictions and relevant category files. Check for custom templates at `~/.agents-marketing/brands/{slug}/templates/`. Check for agency SOPs at `~/.agents-marketing/sops/`. If no brand exists, ask: "Set up a brand first (/digital-marketing-pro:brand-setup)?" — or proceed with defaults.
 
 2. **Analyze the template structure**:
    - Identify section headings and hierarchy
@@ -50,7 +50,7 @@ If the user doesn't provide a name, infer it from the content structure.
 
 6. **Save the template**:
    - Save using `guidelines-manager.py --brand {slug} --action save-template --name {name}`
-   - Or write directly to `~/.claude-marketing/brands/{slug}/templates/{name}.md`
+   - Or write directly to `~/.agents-marketing/brands/{slug}/templates/{name}.md`
    - Update the template manifest with name and description
 
 7. **Confirm and explain usage**:
@@ -69,7 +69,7 @@ If the user doesn't provide a name, infer it from the content structure.
 
 **User**: "Our monthly performance reports should have these sections: Executive Summary (3 bullet max), Channel Performance (table with MTD vs target), Campaign Highlights (top 3 campaigns), Issues & Risks, Recommendations, Next Month Plan"
 
-**Result**: Saves to `~/.claude-marketing/brands/{slug}/templates/performance-report.md`:
+**Result**: Saves to `~/.agents-marketing/brands/{slug}/templates/performance-report.md`:
 ```markdown
 # Monthly Performance Report Template
 
@@ -110,7 +110,7 @@ If the user doesn't provide a name, infer it from the content structure.
 
 **User**: "Our proposals always follow this format: Cover page with client name and date, Situation Analysis, Objectives, Strategy, Tactical Plan by Channel, Budget Breakdown, Timeline, Team, Terms"
 
-**Result**: Saves to `~/.claude-marketing/brands/{slug}/templates/proposal.md`:
+**Result**: Saves to `~/.agents-marketing/brands/{slug}/templates/proposal.md`:
 ```markdown
 # Client Proposal Template
 

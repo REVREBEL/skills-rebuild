@@ -35,7 +35,7 @@
 
 ## Prerequisites
 
-- [ ] Claude Code installed
+- [ ] the agent installed
 - [ ] GTM Agents marketplace added
 - [ ] `social-media` plugin installed
 - [ ] Brand voice defined
@@ -75,7 +75,7 @@ Goal: Build thought leadership, generate leads
 
 ### Step 2: Generate Your Calendar (5 minutes)
 
-1. Open Claude Code
+1. Open the agent
 2. Run:
    ```
    /social-media:plan-calendar

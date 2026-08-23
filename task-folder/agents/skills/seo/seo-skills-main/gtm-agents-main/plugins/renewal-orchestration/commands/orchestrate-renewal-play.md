@@ -17,7 +17,7 @@ usage: /renewal-orchestration:orchestrate-renewal-play --account "ACME Corp" --t
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Renewal plays generally run **pipeline** (context → customization → tasks → enablement → governance). If enablement + task orchestration can run in parallel, log a **diamond** segment with merge gate.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing objective, risk tier, task IDs, parallel groups, dependency graph (exec sponsor, product, finance), error handling, and success metrics (renewal %, expansion, churn risk reduction).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing objective, risk tier, task IDs, parallel groups, dependency graph (exec sponsor, product, finance), error handling, and success metrics (renewal %, expansion, churn risk reduction).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for contract/CRM diffs, Context7 for product/legal docs, Sequential Thinking for retrospection, Playwright for portal/usage QA when required.
 - **Guardrails**: Default retry limit = 2 for missed checkpoints; escalation path = CSM → Renewal Director → CRO/Exec Sponsor, aligned with `escalation-framework` skill.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` checklist before execution to confirm agents, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /renewal-orchestration:orchestrate-renewal-play --account "ACME Corp" --t
 - Renewal playbook packet with timeline, responsibilities, and talking points.
 - Task and escalation list ready for import into CRM/project tools.
 - Status tracker with checkpoints mapped to `escalation-framework` requirements.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `cs-ops-partner` – ensures workflows + automations match governance rules.

@@ -17,7 +17,7 @@ usage: /partner-co-marketing-orchestration:co-plan-campaign --campaign "AI Launc
 > Based on GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Co-planning typically follows a **pipeline** (intake → messaging → channel → assets → governance). If channel and asset workstreams can run in parallel, log a **diamond** segment with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing objectives, partner roles, task IDs, dependencies (legal/compliance, asset repos, data sharing), error handling, and success metrics (pipeline, sourced revenue, lead targets).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing objectives, partner roles, task IDs, dependencies (legal/compliance, asset repos, data sharing), error handling, and success metrics (pipeline, sourced revenue, lead targets).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for asset template diffs, Context7 for partner/brand guidelines, Sequential Thinking for steering committee checkpoints, Playwright for QA of landing pages/microsites.
 - **Guardrails**: Default retry limit = 2 for approval delays or dependency blockers; escalation ladder = Partner Marketer → Partner Ops Lead → Exec Sponsors across companies.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm owners, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /partner-co-marketing-orchestration:co-plan-campaign --campaign "AI Launc
 - Joint campaign brief (objectives, audience, narrative, KPIs, timeline).
 - Asset + channel tracker with partner assignments and due dates.
 - Risk + dependency log for cross-org coordination.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `partner-marketer` – leads agenda and stakeholder alignment.

@@ -46,7 +46,7 @@ Structure context from most persistent to most transient:
 
 Create a rules file that persists across sessions. This is the highest-leverage context you can provide.
 
-**AGENTS.md** (for Claude Code):
+**AGENTS.md** (for the agent):
 ```markdown
 # Project: [Name]
 

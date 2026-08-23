@@ -193,10 +193,10 @@ if the API key is not configured, the skill will still generate email content as
 The `RESEND_API_KEY` environment variable must be set. Check for it by running:
 
 ```bash
-source ~/.claude/.env.global 2>/dev/null
+source ~/.agents/.env.global 2>/dev/null
 if [ -z "$RESEND_API_KEY" ]; then
   echo "RESEND_API_KEY is not set. Emails will be generated but not sent."
-  echo "To enable sending, add RESEND_API_KEY to ~/.claude/.env.global"
+  echo "To enable sending, add RESEND_API_KEY to ~/.agents/.env.global"
 else
   echo "RESEND_API_KEY is configured. Ready to send emails."
 fi
@@ -207,7 +207,7 @@ fi
 Use the Resend `/emails` endpoint to send an individual email from the sequence:
 
 ```bash
-source ~/.claude/.env.global 2>/dev/null
+source ~/.agents/.env.global 2>/dev/null
 curl -X POST https://api.resend.com/emails \
   -H "Authorization: Bearer ${RESEND_API_KEY}" \
   -H "Content-Type: application/json" \
@@ -228,7 +228,7 @@ To send multiple emails from a sequence at once, use the batch endpoint. This is
 sending the same email to multiple recipients or sending several sequence emails simultaneously:
 
 ```bash
-source ~/.claude/.env.global 2>/dev/null
+source ~/.agents/.env.global 2>/dev/null
 curl -X POST https://api.resend.com/emails/batch \
   -H "Authorization: Bearer ${RESEND_API_KEY}" \
   -H "Content-Type: application/json" \

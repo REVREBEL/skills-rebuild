@@ -5,10 +5,10 @@ set -euo pipefail
 # Wraps everything in main() to prevent partial execution on network failure
 
 main() {
-    SKILL_DIR="${HOME}/.claude/skills/seo-image-gen"
-    AGENT_DIR="${HOME}/.claude/agents"
-    SEO_SKILL_DIR="${HOME}/.claude/skills/seo"
-    SETTINGS_FILE="${HOME}/.claude/settings.json"
+    SKILL_DIR="${HOME}/.agents/skills/seo-image-gen"
+    AGENT_DIR="${HOME}/.agents/agents"
+    SEO_SKILL_DIR="${HOME}/.agents/skills/seo"
+    SETTINGS_FILE="${HOME}/.agents/settings.json"
 
     echo "════════════════════════════════════════"
     echo "║  Banana Image Gen - SEO Extension    ║"
@@ -154,7 +154,7 @@ print('  ✓ nanobanana-mcp configured in settings.json')
     echo "✓ Banana Image Generation extension installed successfully!"
     echo ""
     echo "Usage:"
-    echo "  1. Start Claude Code:  claude"
+    echo "  1. Start the agent:  claude"
     echo "  2. Run commands:"
     echo "     /seo image-gen og \"Professional SaaS dashboard\""
     echo "     /seo image-gen hero \"Dramatic sunset over city skyline\""

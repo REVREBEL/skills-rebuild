@@ -4,7 +4,7 @@ Total agents documented: 203
 
 Model mix: haiku: 95, opus: 28, sonnet: 80
 
-Definitive list generated from `.claude-plugin/marketplace.json` + agent frontmatter. Regenerate after any plugin changes to keep README parity evidence on file.
+Definitive list generated from `.agents-plugin/marketplace.json` + agent frontmatter. Regenerate after any plugin changes to keep README parity evidence on file.
 
 | Plugin | Agent | Model | Description | Path |
 |--------|-------|-------|-------------|------|

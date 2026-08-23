@@ -17,7 +17,7 @@ usage: /analytics-pipeline-orchestration:define-events --use_case "pipeline velo
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Instrumentation typically runs **pipeline** (requirements → catalog → governance → QA → change mgmt). If governance + QA can run parallel, log a **diamond** segment with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing objective, data sources, task IDs, dependencies, context passing (schemas, privacy notes), error handling, and success metrics (coverage %, defect ceiling).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing objective, data sources, task IDs, dependencies, context passing (schemas, privacy notes), error handling, and success metrics (coverage %, defect ceiling).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack (Serena for repo diffs, Context7 for platform/legal docs, Sequential Thinking for review flows, Playwright for front-end event QA when applicable).
 - **Guardrails**: Default retry limit = 2 for QA failures; escalation ladder = Analytics Data Strategist → Data Engineering Lead → RevOps.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm agents, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /analytics-pipeline-orchestration:define-events --use_case "pipeline velo
 - Instrumentation spec (event name, description, properties, source, owner, status).
 - Tracking plan (CSV/JSON/YAML) aligned with CDP or analytics tool requirements.
 - QA checklist + evidence plan (logs, dashboards, sample payloads).
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `analytics-data-strategist` – leads requirements + governance.

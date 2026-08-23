@@ -4,16 +4,16 @@
 
 - **Python 3.10+** with pip
 - **Git** for cloning the repository
-- **Claude Code CLI** installed and configured
+- **the agent CLI** installed and configured
 
 Optional:
 - **Playwright** for screenshot capabilities
 
 ## Quick Install
 
-### Plugin Install (Claude Code 1.0.33+)
+### Plugin Install (the agent 1.0.33+)
 
-The recommended path. Inside Claude Code:
+The recommended path. Inside the agent:
 
 ```
 /plugin marketplace add AgriciDaniel/claude-seo
@@ -43,7 +43,7 @@ git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git
 powershell -ExecutionPolicy Bypass -File claude-seo\install.ps1
 ```
 
-The Windows path uses `git clone` rather than `irm | iex` because Claude Code's own security guardrails flag piped remote-script execution. Inspect `install.ps1` before running.
+The Windows path uses `git clone` rather than `irm | iex` because the agent's own security guardrails flag piped remote-script execution. Inspect `install.ps1` before running.
 
 ## Manual Installation
 
@@ -62,14 +62,14 @@ cd claude-seo
 
 3. **Install Python dependencies** (if not done automatically)
 
-The installer creates a venv at `~/.claude/skills/seo/.venv/`. If that fails, install manually:
+The installer creates a venv at `~/.agents/skills/seo/.venv/`. If that fails, install manually:
 
 ```bash
 # Option A: Use the venv
-~/.claude/skills/seo/.venv/bin/pip install -r ~/.claude/skills/seo/requirements.txt
+~/.agents/skills/seo/.venv/bin/pip install -r ~/.agents/skills/seo/requirements.txt
 
 # Option B: User-level install
-pip install --user -r ~/.claude/skills/seo/requirements.txt
+pip install --user -r ~/.agents/skills/seo/requirements.txt
 ```
 
 4. **Install Playwright browsers** (optional, for visual analysis)
@@ -87,13 +87,13 @@ The installer copies files to:
 
 | Component | Path |
 |-----------|------|
-| Main skill | `~/.claude/skills/seo/` |
-| Sub-skills | `~/.claude/skills/seo-*/` |
-| Subagents | `~/.claude/agents/seo-*.md` |
+| Main skill | `~/.agents/skills/seo/` |
+| Sub-skills | `~/.agents/skills/seo-*/` |
+| Subagents | `~/.agents/agents/seo-*.md` |
 
 ## Verify Installation
 
-1. Start Claude Code:
+1. Start the agent:
 
 ```bash
 claude
@@ -123,7 +123,7 @@ git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git
 bash claude-seo/uninstall.sh
 ```
 
-`uninstall.sh` removes all installed sub-skills, sub-agents, and the plugin's MCP entries from `~/.claude/settings.json`. Do not maintain a hand-coded `rm` list. The shipped uninstaller is the canonical source.
+`uninstall.sh` removes all installed sub-skills, sub-agents, and the plugin's MCP entries from `~/.agents/settings.json`. Do not maintain a hand-coded `rm` list. The shipped uninstaller is the canonical source.
 
 ## Upgrading
 
@@ -144,7 +144,7 @@ curl -fsSL https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/instal
 Ensure the skill is installed in the correct location:
 
 ```bash
-ls ~/.claude/skills/seo/SKILL.md
+ls ~/.agents/skills/seo/SKILL.md
 ```
 
 If the file doesn't exist, re-run the installer.
@@ -170,5 +170,5 @@ playwright install chromium
 Make sure scripts are executable:
 
 ```bash
-chmod +x ~/.claude/skills/seo/scripts/*.py
+chmod +x ~/.agents/skills/seo/scripts/*.py
 ```

@@ -17,7 +17,7 @@ usage: /loyalty-lifecycle-orchestration:configure-rewards --program "Tiered Loya
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Reward configuration usually runs **pipeline** (catalog intake → fulfillment design → compliance QA → launch packet). If QA + compliance run in parallel, document a **diamond** block with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing catalog source, fulfillment automations, dependency graph (legal, finance, ops, vendors), error handling, and success metrics (SLA, redemption accuracy, fraud rate).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing catalog source, fulfillment automations, dependency graph (legal, finance, ops, vendors), error handling, and success metrics (SLA, redemption accuracy, fraud rate).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for catalog diffs, Context7 for compliance/billing SOPs, Sequential Thinking for QA retros, Playwright for redemption form testing.
 - **Guardrails**: Default retry limit = 2 for failed catalog loads or QA runs; escalation ladder = Reward Ops → Finance/Legal → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before launch to confirm dependencies + approvals.
@@ -33,7 +33,7 @@ usage: /loyalty-lifecycle-orchestration:configure-rewards --program "Tiered Loya
 - Reward configuration checklist with owner + status.
 - QA evidence (screenshots, logs, test cases) stored with catalog.
 - Fulfillment runbook (SLA, webhook IDs, contact points) for ops + support teams.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `reward-operations` – leads fulfillment + QA steps.

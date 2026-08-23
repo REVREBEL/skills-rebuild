@@ -2,14 +2,14 @@
 
 ## Overview
 
-Claude SEO follows Anthropic's official Claude Code skill specification with a modular, multi-skill architecture.
+Claude SEO follows Anthropic's official the agent skill specification with a modular, multi-skill architecture.
 
 ## Directory Structure
 
 The plugin ships 25 sub-skills (21 core + 1 orchestrator + 1 framework integration + 2 extension mirrors) and 18 sub-agents (15 core + 1 framework integration + 2 extension mirrors).
 
 ```
-~/.claude/plugins/.../claude-seo/
+~/.agents/plugins/.../claude-seo/
 ├── skills/
 │   ├── seo/                    # Main orchestrator
 │   │   ├── SKILL.md
@@ -271,5 +271,5 @@ extensions/
 3. Own `uninstall.sh` and `uninstall.ps1` that reverse installation
 4. Installs the sub-skill mirror to the plugin's skill directory
 5. Installs the sub-agent mirror to the plugin's agent directory
-6. Merges MCP config into `~/.claude/settings.json` non-destructively
+6. Merges MCP config into `~/.agents/settings.json` non-destructively
 7. MCP server versions are pinned (`@<version>`) for supply-chain stability

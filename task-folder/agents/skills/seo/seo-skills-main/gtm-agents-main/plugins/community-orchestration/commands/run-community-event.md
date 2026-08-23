@@ -18,7 +18,7 @@ usage: /community-orchestration:run-community-event --event "Product AMA" --date
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Live event orchestration generally runs **pipeline** (brief → run-of-show → moderation → promotion → follow-up). If moderation + promotion can run in parallel, document a **diamond** segment with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing event details, task IDs, dependency graph (hosts, ops, tooling, accessibility), error handling, and success metrics (attendance, engagement rate, CSAT/NPS).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing event details, task IDs, dependency graph (hosts, ops, tooling, accessibility), error handling, and success metrics (attendance, engagement rate, CSAT/NPS).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for script/asset diffs, Context7 for event SOPs, Sequential Thinking for pre/post-mortem cadence, Playwright for registration/stream QA if needed.
 - **Guardrails**: Default retry limit = 2 for tooling failures or host changes; escalation ladder = Community Lead → Marketing/CS leadership → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm owners, dependencies, deliverables.
@@ -34,7 +34,7 @@ usage: /community-orchestration:run-community-event --event "Product AMA" --date
 - Event runbook (agenda, host responsibilities, tech setup, contingency plan).
 - Moderation worksheet with escalation triggers and response templates.
 - Follow-up task list tied to owners and due dates.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `community-lead` – approves agenda + goals.

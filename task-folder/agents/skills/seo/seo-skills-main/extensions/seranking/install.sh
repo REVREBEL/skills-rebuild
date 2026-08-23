@@ -10,8 +10,8 @@
 set -euo pipefail
 
 main() {
-    SKILL_DIR="${HOME}/.claude/skills"
-    SETTINGS_JSON="${HOME}/.claude/settings.json"
+    SKILL_DIR="${HOME}/.agents/skills"
+    SETTINGS_JSON="${HOME}/.agents/settings.json"
 
     echo "════════════════════════════════════════"
     echo "║ Claude SEO — SE Ranking extension    ║"

@@ -17,7 +17,7 @@ usage: /referral-program-orchestration:optimize-referrals --window 30d --detail 
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Optimization review typically runs **pipeline** (data refresh → diagnostics → risk review → partner health → action plan). If diagnostics + risk review can run concurrently, note a **diamond** block with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing window, datasets, task IDs, dependency graph (BI, fraud, partner ops), error handling, and success metrics (conversion lift, fraud reduction, partner NPS).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing window, datasets, task IDs, dependency graph (BI, fraud, partner ops), error handling, and success metrics (conversion lift, fraud reduction, partner NPS).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for schema diffs, Context7 for referral SOPs/partner comms, Sequential Thinking for retro cadence, Playwright for offer flows or portal QA.
 - **Guardrails**: Default retry limit = 2 for failed data pulls or fraud model runs; escalation ladder = Referral Architect → Partner Ops → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before distributing recommendations to confirm dependencies and approvals.
@@ -33,7 +33,7 @@ usage: /referral-program-orchestration:optimize-referrals --window 30d --detail 
 - Performance dashboard snapshot with annotated insights.
 - Fraud/risk summary referencing `fraud-detection` skill outputs.
 - Optimization backlog with owners, ETA, and projected lift.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `referral-architect` – prioritizes experiments + approvals.

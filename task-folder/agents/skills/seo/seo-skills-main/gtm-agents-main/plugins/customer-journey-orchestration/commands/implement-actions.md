@@ -17,7 +17,7 @@ usage: /customer-journey-orchestration:implement-actions --initiative "Onboardin
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Implementation runs **pipeline** (plan → workstreams → change mgmt → measurement → governance). If workstreams can execute in parallel, document a **diamond** segment with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing initiative, timeline, task IDs, parallel groups, dependency graph (marketing, product, ops, enablement), error handling, and success metrics (KPI targets, VOC improvements).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing initiative, timeline, task IDs, parallel groups, dependency graph (marketing, product, ops, enablement), error handling, and success metrics (KPI targets, VOC improvements).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for instrumentation/config diffs, Context7 for SOPs, Sequential Thinking for retros, Playwright for experience QA if required.
 - **Guardrails**: Default retry limit = 2 for blocked workstreams; escalation ladder = Journey Ops Owner → CX Strategist → CCO/Product leadership.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm owners, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /customer-journey-orchestration:implement-actions --initiative "Onboardin
 - Initiative playbook (timeline, tasks, owners, KPIs, risks, communications plan).
 - Dashboard + tracker links for ongoing monitoring.
 - Post-implementation recap capturing results and learnings.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `journey-ops-owner` – coordinates execution and governance.

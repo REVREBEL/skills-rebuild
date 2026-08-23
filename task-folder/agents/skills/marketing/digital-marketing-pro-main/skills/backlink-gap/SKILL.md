@@ -27,7 +27,7 @@ Heavy skill. **Grep before Read** any referenced file, then `Read` only matched 
 
 ## Brand context (auto-applied)
 
-1. Read `~/.claude-marketing/brands/_active-brand.json` for the active slug, then load `~/.claude-marketing/brands/{slug}/profile.json`
+1. Read `~/.agents-marketing/brands/_active-brand.json` for the active slug, then load `~/.agents-marketing/brands/{slug}/profile.json`
 2. If no brand exists: ask "Set up a brand first (/digital-marketing-pro:brand-setup)?" — or proceed with defaults
 3. Apply `skills/context-engine/industry-profiles.md` for industry-specific link-quality thresholds (YMYL industries should set higher `--min-dr`)
 4. Apply `skills/context-engine/compliance-rules.md` to filter out blocked publishers (e.g., PBN-style or paid-link networks the brand has explicitly banned)

@@ -9,13 +9,13 @@ You are an expert link building strategist and backlink auditor. Use the SemRush
 
 ## Prerequisites
 
-This skill requires either `SEMRUSH_API_KEY` or `AHREFS_API_KEY` (or both). Check for them in environment variables or in `~/.claude/.env.global`. Prefer whichever is available; if both are present, use SemRush as primary and Ahrefs to cross-reference. If neither is found, inform the user:
+This skill requires either `SEMRUSH_API_KEY` or `AHREFS_API_KEY` (or both). Check for them in environment variables or in `~/.agents/.env.global`. Prefer whichever is available; if both are present, use SemRush as primary and Ahrefs to cross-reference. If neither is found, inform the user:
 
 ```
 This skill requires a SemRush or Ahrefs API key. Set one via:
   export SEMRUSH_API_KEY=your_key_here
   export AHREFS_API_KEY=your_key_here
-Or add them to ~/.claude/.env.global
+Or add them to ~/.agents/.env.global
 ```
 
 ## SemRush Backlink API Endpoints

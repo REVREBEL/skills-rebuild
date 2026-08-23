@@ -39,7 +39,7 @@ It is the **single-shot launch event**, not the planning or the optimisation.
 This skill REFUSES to proceed unless ALL of these pass. Print the failing items, do not start the launch.
 
 1. `/digital-marketing-pro:validate-profile --brand {brand}` returns `passed` or `passed_with_warnings`.
-2. A campaign plan exists at `~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json` (or the user provides `--plan-path`).
+2. A campaign plan exists at `~/.agents-marketing/{brand}/campaigns/{campaign_id}/plan.json` (or the user provides `--plan-path`).
 3. The plan's `status` field is `approved` (not `draft` / `in_review` / `rejected`).
 4. Every asset referenced in the plan exists at the path the plan claims it does (creative files, landing-page URLs respond 200, email templates exist in the email platform).
 5. Every connector required by the channels in scope is reachable (re-run a fast `connector-status.py --quick` probe).
@@ -79,7 +79,7 @@ Before touching any live system, print a dry-run preview of every action that's 
    11. Tracking — Wire UTM parameters across every link (cross-check against plan)
    12. Attribution — Confirm {attribution_model} active in GA4 + CRM
    13. Monitoring — Activate day-1 watchdog on {KPIs} via /digital-marketing-pro:performance-check
-   14. Documentation — Write launch record to ~/.claude-marketing/{brand}/campaigns/{campaign_id}/launch-record.json
+   14. Documentation — Write launch record to ~/.agents-marketing/{brand}/campaigns/{campaign_id}/launch-record.json
        and publish a user-visible copy to ~/Documents/DigitalMarketingPro/{brand}/campaigns/
 
    Estimated total wall-clock time: ~{N} minutes.
@@ -91,7 +91,7 @@ Before touching any live system, print a dry-run preview of every action that's 
 
 ### Step 3 — Execute in dependency order
 
-Run the actions sequentially. **After every action, write a state checkpoint** to `~/.claude-marketing/{brand}/campaigns/{campaign_id}/launch-state.json` so an interruption can be resumed. (Reuses the same pattern as ContentForge's `checkpoint-manager.py` — see `/contentforge:resume` for the analogous flow.)
+Run the actions sequentially. **After every action, write a state checkpoint** to `~/.agents-marketing/{brand}/campaigns/{campaign_id}/launch-state.json` so an interruption can be resumed. (Reuses the same pattern as ContentForge's `checkpoint-manager.py` — see `/contentforge:resume` for the analogous flow.)
 
 Key dependency rules:
 
@@ -106,7 +106,7 @@ Each platform action is dispatched via the relevant script:
 ```bash
 # CRM Campaign object
 python3 ${SKILL_ROOT}/scripts/crm-sync.py --brand "{brand}" \
-    --action create-campaign --plan ~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json
+    --action create-campaign --plan ~/.agents-marketing/{brand}/campaigns/{campaign_id}/plan.json
 
 # Landing page check
 curl -sS -o /dev/null -w "%{http_code}" "{landing_url}"
@@ -117,24 +117,24 @@ python3 ${SKILL_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
 
 # Paid-ads activation (delegates to launch-ad-campaign for the paid-only subset)
 python3 ${SKILL_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
-    --action launch-ads --plan ~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json
+    --action launch-ads --plan ~/.agents-marketing/{brand}/campaigns/{campaign_id}/plan.json
 # (this internally calls the launch-ad-campaign workflow for Google/Meta/LinkedIn/TikTok)
 
 # Organic social scheduling
 python3 ${SKILL_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
-    --action schedule-posts --plan ~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json
+    --action schedule-posts --plan ~/.agents-marketing/{brand}/campaigns/{campaign_id}/plan.json
 
 # Influencer notification
 python3 ${SKILL_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
-    --action notify-influencers --plan ~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json
+    --action notify-influencers --plan ~/.agents-marketing/{brand}/campaigns/{campaign_id}/plan.json
 
 # PR send
 python3 ${SKILL_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
-    --action pr-send --plan ~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json
+    --action pr-send --plan ~/.agents-marketing/{brand}/campaigns/{campaign_id}/plan.json
 
 # Internal kickoff
 python3 ${SKILL_ROOT}/scripts/execution-tracker.py --brand "{brand}" \
-    --action internal-kickoff --plan ~/.claude-marketing/{brand}/campaigns/{campaign_id}/plan.json
+    --action internal-kickoff --plan ~/.agents-marketing/{brand}/campaigns/{campaign_id}/plan.json
 
 # Day-1 monitoring
 python3 ${SKILL_ROOT}/scripts/performance-monitor.py --brand "{brand}" \
@@ -155,7 +155,7 @@ After every action succeeds, write the final launch record to two locations:
 
 ```bash
 # Internal (system-of-record)
-~/.claude-marketing/{brand}/campaigns/{campaign_id}/launch-record.json
+~/.agents-marketing/{brand}/campaigns/{campaign_id}/launch-record.json
 
 # User-visible
 ~/Documents/DigitalMarketingPro/{brand}/campaigns/{YYYY-MM-DD}-{campaign_name_slug}-launch.json
@@ -203,7 +203,7 @@ Print the launch summary in the conversation:
 
 - `--brand <slug>` — brand to launch for (else uses active brand)
 - `--campaign-id <id>` — campaign to launch (else, if a single approved plan exists for the brand, use it; otherwise prompt)
-- `--plan-path <path>` — explicit path to the plan JSON (overrides the default `~/.claude-marketing/{brand}/campaigns/{id}/plan.json` location)
+- `--plan-path <path>` — explicit path to the plan JSON (overrides the default `~/.agents-marketing/{brand}/campaigns/{id}/plan.json` location)
 - `--dry-run` — print the preview and exit without launching (alias for typing `dry-run-only` at the confirmation prompt)
 - `--resume-from-step <N>` — resume a paused launch from step N (looks up `launch-state.json`)
 - `--skip-internal-kickoff` — skip the Slack/email kickoff (use when the launch happens outside business hours and comms go later)

@@ -2,7 +2,7 @@
 
 Total skills documented: 243
 
-Source of truth generated from `.claude-plugin/marketplace.json` + skill frontmatter (progressive disclosure). Update whenever new skills are added to maintain parity with README + remediation checklist.
+Source of truth generated from `.agents-plugin/marketplace.json` + skill frontmatter (progressive disclosure). Update whenever new skills are added to maintain parity with README + remediation checklist.
 
 | Plugin | Skill | Description | Path |
 |--------|-------|-------------|------|

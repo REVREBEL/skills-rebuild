@@ -30,7 +30,7 @@ This knowledge is persisted as **plain Markdown files** in `.lore/` at the proje
 
 The skill uses a **two-tier trigger model**:
 
-**Tier 1 — Loading the skill.** Load this skill when the user explicitly invokes `lore`, names a subcommand, references `.lore/`, or asks to record, recall, audit, sync, or compress project memory about decisions, architecture, conventions, or monorepo scopes. Generic phrases like "init", "compress", "audit", or "query" alone are not enough — they may map to the agent's native commands or unrelated tasks (Claude Code's `/init`, `/compact`, security audits, SQL queries, etc.).
+**Tier 1 — Loading the skill.** Load this skill when the user explicitly invokes `lore`, names a subcommand, references `.lore/`, or asks to record, recall, audit, sync, or compress project memory about decisions, architecture, conventions, or monorepo scopes. Generic phrases like "init", "compress", "audit", or "query" alone are not enough — they may map to the agent's native commands or unrelated tasks (the agent's `/init`, `/compact`, security audits, SQL queries, etc.).
 
 | User says (examples) | Command |
 |---|---|
@@ -109,7 +109,7 @@ Each entry is a Markdown bullet (≤ 2 lines), with a layer prefix, a determinis
 
 ## Platform mirror
 
-The canonical store is `.lore/*`. Agents that expect a single config file at the project root (`AGENTS.md` for Claude Code, `.cursorrules` for Cursor, `.clinerules` for Cline, `AGENTS.md` for Aider, etc.) read a synced projection of that store.
+The canonical store is `.lore/*`. Agents that expect a single config file at the project root (`AGENTS.md` for the agent, `.cursorrules` for Cursor, `.clinerules` for Cline, `AGENTS.md` for Aider, etc.) read a synced projection of that store.
 
 **A mirror is a synced projection, not a strict derivative.** It contains two sections: a Skill-managed `## Lore` section (rewritten on mirror regeneration) and a user-editable `## My notes` section (preserved verbatim). Both sections are legitimate mirror content. The user can write personal preferences, temporary instructions, or any project-specific note in the My notes section; the Skill never touches it.
 
@@ -146,9 +146,9 @@ Several agents have built-in commands with similar names. lore does **not** repl
 
 | Agent command | What it does | lore equivalent |
 |---|---|---|
-| Claude Code `/init` | One-shot project scan → generates `AGENTS.md` | `lore init` (creates `.lore/` + mirror files) |
-| Claude Code `/compact` | Compresses the current conversation context | `lore compress` (regenerates `SUMMARY.md` from entries) |
-| Cursor `/init` (if present) | Project bootstrap | Same as Claude Code `/init` |
+| the agent `/init` | One-shot project scan → generates `AGENTS.md` | `lore init` (creates `.lore/` + mirror files) |
+| the agent `/compact` | Compresses the current conversation context | `lore compress` (regenerates `SUMMARY.md` from entries) |
+| Cursor `/init` (if present) | Project bootstrap | Same as the agent `/init` |
 
 **How they interact:**
 
@@ -157,7 +157,7 @@ Several agents have built-in commands with similar names. lore does **not** repl
 - If both `lore sync` and `/compact` are available, they do unrelated work — run them independently.
 - If the user's intent is ambiguous (e.g. they say "init" without "lore"), defer to the agent's native `/init`. Do not silently invoke `lore init`.
 
-To disable Claude Code's automatic `/init` on a project where `lore` is in use, set `"initHintShown": true` in `.claude/settings.json` (see Claude Code docs for current options).
+To disable the agent's automatic `/init` on a project where `lore` is in use, set `"initHintShown": true` in `.agents/settings.json` (see the agent docs for current options).
 
 ## Examples
 

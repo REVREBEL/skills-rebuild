@@ -1,6 +1,6 @@
 ---
 name: tokenwise
-description: "Measurement-driven model router for Claude Code. Routes Haiku/Sonnet/Opus per task class, logs every routed task with real $ numbers, and A/B tests cheaper tiers before you trust the savings."
+description: "Measurement-driven model router for the agent. Routes Haiku/Sonnet/Opus per task class, logs every routed task with real $ numbers, and A/B tests cheaper tiers before you trust the savings."
 category: developer-tools
 risk: critical
 source: community
@@ -22,13 +22,13 @@ plugin:
 
 ## Overview
 
-A Claude Code skill that auto-routes subtasks to the cheapest model that can handle them (Haiku for grunt work, Sonnet for scoped reasoning, Opus only for synthesis), then logs every routed task to a local NDJSON with real token + cost numbers. Includes an A/B test subcommand that runs the same task across multiple tiers and scores quality, so the routing decisions are verified against the user's real workload — not estimated.
+A the agent skill that auto-routes subtasks to the cheapest model that can handle them (Haiku for grunt work, Sonnet for scoped reasoning, Opus only for synthesis), then logs every routed task to a local NDJSON with real token + cost numbers. Includes an A/B test subcommand that runs the same task across multiple tiers and scores quality, so the routing decisions are verified against the user's real workload — not estimated.
 
-Anthropic's own bug tracker (Issue #27665) reports 93.8% of Max-subscriber Claude Code tokens flow to Opus. Existing routers (claude-router, wshobson, VoltAgent) either pin models statically or route by vibes-based heuristics with no measurement. TokenWise fills the measurement gap.
+Anthropic's own bug tracker (Issue #27665) reports 93.8% of Max-subscriber the agent tokens flow to Opus. Existing routers (claude-router, wshobson, VoltAgent) either pin models statically or route by vibes-based heuristics with no measurement. TokenWise fills the measurement gap.
 
 ## When to use
 
-- Cutting Claude Code token spend without sacrificing output quality
+- Cutting the agent token spend without sacrificing output quality
 - Validating whether Haiku/Sonnet is "good enough" for a specific task class before trusting auto-routing
 - Auditing where Opus tokens are actually being burned
 - Logging per-session cost data for finance or chargeback
@@ -62,7 +62,7 @@ Zero telemetry. All logs in `.tokenwise/log.ndjson` local to the project. Task d
 
 ## Install
 
-In any Claude Code session:
+In any the agent session:
 
 ```
 /plugin marketplace add CodeShuX/tokenwise
@@ -76,7 +76,7 @@ Then run `/tokenwise:install` and follow the guided prompts.
 - Token counts approximate to ±2% vs Anthropic billing
 - A/B test mode costs extra tokens (one task × N tiers) — intentional one-time validation
 - Anthropic-only by design (use LiteLLM or OpenRouter for cross-vendor)
-- Subagent `model:` param has known silent-fail bugs on some Claude Code builds — skill probes for this at install and refuses to configure if routing is broken
+- Subagent `model:` param has known silent-fail bugs on some the agent builds — skill probes for this at install and refuses to configure if routing is broken
 
 ## Source
 

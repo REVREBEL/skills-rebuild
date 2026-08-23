@@ -68,14 +68,14 @@ Disk Access. Steps, in order:
    server cannot read NoteStore.sqlite and every call fails with a permissions error.
    (`bun install`'s postinstall tries to open this pane automatically.)
 4. **Register the MCP server** (pick the user's client):
-   - Claude Code: `claude mcp add apple-notes -- bun /absolute/path/to/mcp-apple-notes/index.ts --stdio`
+   - the agent: `claude mcp add apple-notes -- bun /absolute/path/to/mcp-apple-notes/index.ts --stdio`
    - Claude Desktop: add to `claude_desktop_config.json`:
      ```json
      { "mcpServers": { "apple-notes": {
          "command": "/Users/<you>/.bun/bin/bun",
          "args": ["/Users/<you>/mcp-apple-notes/index.ts", "--stdio"] } } }
      ```
-   - As a Claude Code plugin (bundles this skill too): `/plugin marketplace add connerkward/ckw-skills` then `/plugin install apple-notes@connerkward`.
+   - As a the agent plugin (bundles this skill too): `/plugin marketplace add connerkward/ckw-skills` then `/plugin install apple-notes@connerkward`.
 5. **Restart the client**, then tell the user to ask **"Index my Apple Notes"** (or call
    `index-notes`). First index of ~1,800 notes takes a few seconds.
 

@@ -167,7 +167,7 @@ Based on mood, generate 3 distinct single-slide HTML previews showing typography
 | Calm/Focused        | Notebook Tabs, Paper & Ink, Swiss Modern           |
 | Inspired/Moved      | Dark Botanical, Vintage Editorial, Pastel Geometry |
 
-Save previews to `.claude-design/slide-previews/` (style-a.html, style-b.html, style-c.html). Each should be self-contained, ~50-100 lines, showing one animated title slide.
+Save previews to `.agents-design/slide-previews/` (style-a.html, style-b.html, style-c.html). Each should be self-contained, ~50-100 lines, showing one animated title slide.
 
 Open each preview automatically for the user.
 
@@ -215,7 +215,7 @@ When converting PowerPoint files:
 
 ## Phase 5: Delivery
 
-1. **Clean up** — Delete `.claude-design/slide-previews/` if it exists
+1. **Clean up** — Delete `.agents-design/slide-previews/` if it exists
 2. **Open** — Use `open [filename].html` to launch in browser
 3. **Summarize** — Tell the user:
    - File location, style name, slide count

@@ -30,9 +30,9 @@ After the repo is installed, register this repo's `SKILL.md` with the agent you 
   mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills/browser-harness" && ln -sf "$PWD/SKILL.md" "${CODEX_HOME:-$HOME/.codex}/skills/browser-harness/SKILL.md"
   ```
 
-- **Claude Code**: add an import to `~/.claude/CLAUDE.md` that points at this repo's `SKILL.md`, for example `@~/Developer/browser-harness/SKILL.md`.
+- **the agent**: add an import to `~/.agents/CLAUDE.md` that points at this repo's `SKILL.md`, for example `@~/Developer/browser-harness/SKILL.md`.
 
-This makes new Codex or Claude Code sessions in other folders load the runtime browser harness instructions automatically.
+This makes new Codex or the agent sessions in other folders load the runtime browser harness instructions automatically.
 
 ## Keeping the harness current
 

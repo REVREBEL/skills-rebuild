@@ -164,7 +164,7 @@ Guide the user to save the generated rules to the `AGENTS.md` file in their proj
 [Paste generated rules here]
 ```
 
-After saving, the rules will be automatically loaded by Claude Code and applied to all Figma implementation tasks.
+After saving, the rules will be automatically loaded by the agent and applied to all Figma implementation tasks.
 
 ### Step 5: Validate and Iterate
 

@@ -20,7 +20,7 @@ The plugin uses a **5-layer memory architecture**. Each layer serves a different
 
 ## Layer 1: Session Context (Always Available)
 
-**Source:** Claude Code auto-memory at `~/.claude/projects/` + `insights.json` at `~/.claude-marketing/brands/{slug}/insights.json`
+**Source:** the agent auto-memory at `~/.agents/projects/` + `insights.json` at `~/.agents-marketing/brands/{slug}/insights.json`
 
 **Persistence:** Per-session (auto-memory survives across sessions, insights.json is permanent)
 
@@ -230,7 +230,7 @@ The `/digital-marketing-pro:sync-memory` command synchronizes local data with re
 4. Stores via MCP calls to the configured memory layers (Layer 2, 3, and/or 4)
 5. Updates `_last_sync.json` with the current sync timestamp and entry hashes
 
-**Sync state file:** `~/.claude-marketing/brands/{slug}/_last_sync.json`
+**Sync state file:** `~/.agents-marketing/brands/{slug}/_last_sync.json`
 
 ```json
 {

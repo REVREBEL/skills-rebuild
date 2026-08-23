@@ -10,8 +10,8 @@ Follow these steps sequentially when onboarding a new client. Estimated total on
 
 | Step | Action | Command / Tool | Est. Time | Notes |
 |---|---|---|---|---|
-| 1 | **Create brand profile** | `/digital-marketing-pro:brand-setup` | 10-15 min | Walk through identity, voice, audiences, competitors, goals. Produces `profile.json` at `~/.claude-marketing/brands/{slug}/`. |
-| 2 | **Create credential profile** | `/digital-marketing-pro:credential-switch` | 5-10 min | Set up platform API keys and tokens. Stored at `~/.claude-marketing/credentials/{slug}.json`. Never share credentials across brands. |
+| 1 | **Create brand profile** | `/digital-marketing-pro:brand-setup` | 10-15 min | Walk through identity, voice, audiences, competitors, goals. Produces `profile.json` at `~/.agents-marketing/brands/{slug}/`. |
+| 2 | **Create credential profile** | `/digital-marketing-pro:credential-switch` | 5-10 min | Set up platform API keys and tokens. Stored at `~/.agents-marketing/credentials/{slug}.json`. Never share credentials across brands. |
 | 3 | **Connect CRM** | `/digital-marketing-pro:crm-sync` | 5-10 min | Link CRM (HubSpot, Salesforce, Pipedrive). Validate connection with a test query. Import initial contact counts. |
 | 4 | **Validate MCP connections** | Manual check | 5-10 min | Test each configured MCP server (analytics, ads, email, search console). Confirm data flows. Log any failed connections for follow-up. |
 | 5 | **Assign SOPs from library** | `/digital-marketing-pro:sop-library` | 5 min | Select applicable SOP templates per client's service package (content, paid media, reporting, CRM, SEO). Customize cadences. |
@@ -139,7 +139,7 @@ Escalation: [When to escalate and to whom]
 - [ ] Action items are specific, assigned, and time-bound
 - [ ] Brand voice applied (professional for client-facing, detailed for internal)
 - [ ] Delivery channel confirmed (correct Slack channel, correct email addresses)
-- [ ] Backup copy saved to `~/.claude-marketing/brands/{slug}/reports/`
+- [ ] Backup copy saved to `~/.agents-marketing/brands/{slug}/reports/`
 
 ---
 
@@ -172,8 +172,8 @@ Agencies can extract valuable patterns across their portfolio, but data isolatio
 
 | Component | Implementation | Details |
 |---|---|---|
-| **Storage location** | `~/.claude-marketing/credentials/{slug}.json` | Each brand has its own credential file. File permissions should be user-read-only (chmod 600 on Unix). |
-| **Active profile tracking** | `~/.claude-marketing/credentials/_active-profile.json` | Contains the slug of the currently active credential profile. Only one profile can be active at a time. |
+| **Storage location** | `~/.agents-marketing/credentials/{slug}.json` | Each brand has its own credential file. File permissions should be user-read-only (chmod 600 on Unix). |
+| **Active profile tracking** | `~/.agents-marketing/credentials/_active-profile.json` | Contains the slug of the currently active credential profile. Only one profile can be active at a time. |
 | **Profile switching** | `/digital-marketing-pro:credential-switch` or `setup.py --switch-credentials` | Switches the active credential profile. All subsequent MCP and API calls use the new profile's keys. |
 | **Env var loading** | Credentials loaded as environment variables at session start | Each profile maps to env vars: e.g., `SENDGRID_API_KEY`, `GOOGLE_ADS_CUSTOMER_ID`. |
 | **Cross-brand isolation** | Hard boundary | Credentials NEVER cross brand boundaries. A request for Brand A's data must use Brand A's credentials. Attempting to use Brand B's credentials for Brand A's operations is a system-level error. |

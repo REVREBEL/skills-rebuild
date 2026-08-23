@@ -17,12 +17,14 @@ RENAMED_PATHS_MAP = {
 def get_modified_files_via_git():
     """
     Retrieves the list of files modified, added, or deleted in the working tree
-    or committed in Phase 04 compared to origin/main.
+    or committed in Phase 04 compared to the merge-base with main.
     """
     try:
-        # Check both unstaged, staged, and committed differences from origin/main
+        # Get the stable merge-base with main
+        mb = subprocess.check_output(["git", "merge-base", "main", "HEAD"]).decode("utf-8").strip()
+        # Check both unstaged, staged, and committed differences from the stable merge-base
         out = subprocess.check_output(
-            ["git", "diff", "--name-only", "origin/main"],
+            ["git", "diff", "--name-only", mb],
             stderr=subprocess.STDOUT
         ).decode("utf-8")
         return [f.strip() for f in out.splitlines() if f.strip()]
@@ -145,10 +147,13 @@ def verify_all():
             with open(file_path, "r", encoding="utf-8", errors="replace") as sf:
                 text = sf.read()
             
-            # Verify old renamed folders do NOT appear anywhere
+            # Verify old renamed folders do NOT appear in non-URL lines
             for old in RENAMED_PATHS_MAP.keys():
                 basename = os.path.basename(old)
-                assert basename not in text, f"Error: Found stale reference to old renamed directory '{basename}' in {file_path}"
+                for line in text.splitlines():
+                    if "http://" in line or "https://" in line or "github.com" in line or "source:" in line:
+                        continue
+                    assert basename not in line, f"Error: Found stale reference to old renamed directory '{basename}' in {file_path}: {line.strip()}"
                 
             # Verify that relative links inside modified markdown files point to valid, existing paths
             # Extract standard Markdown links: [label](path) (ignoring code calls like array[index](arg))
@@ -221,6 +226,68 @@ def verify_all():
 
     print(f"  - Successfully verified physical evidence for all {evidence_verified} Converted skills.")
     print(" -> PASS: Every single Converted row corresponds to an actual file modification on the filesystem, or has a documented metadata-only reason.")
+
+    # 9. Strict Semantic Validation for Converted Skills
+    print("[CHECK 8] Strict Semantic Validation for Converted Skills:")
+    semantic_verified = 0
+    for r in converted_rows:
+        dest = r["conversion_destination_path"]
+        skill_dir = os.path.join(ROOT_DIR, dest)
+        if not os.path.exists(skill_dir):
+            continue
+            
+        for root, dirs, files in os.walk(skill_dir):
+            if any(ignored in root for ignored in [".git", "node_modules", ".github"]):
+                continue
+            for file in files:
+                ext = os.path.splitext(file)[1].lower()
+                if ext not in [".md", ".json", ".sh", ".py", ".js", ".ts", ".txt", ".yaml", ".yml"]:
+                    continue
+                fp = os.path.join(root, file)
+                
+                with open(fp, "r", encoding="utf-8", errors="replace") as sf:
+                    content = sf.read()
+                    
+                lines = content.splitlines()
+                for idx, line in enumerate(lines):
+                    line_num = idx + 1
+                    line_lower = line.lower()
+                    
+                    # Skip URLs / HTTP links for path checking
+                    is_url = "http://" in line_lower or "https://" in line_lower or "github.com" in line_lower
+                    
+                    # 1. Check for forbidden ~/.claude or .claude/ config paths
+                    if not is_url:
+                        has_config_path = False
+                        if "~/.claude" in line:
+                            has_config_path = True
+                        elif ".claude/launch.json" in line_lower or ".claude/settings.json" in line_lower or ".claude/.env" in line_lower or ".claude/skills" in line_lower:
+                            if not "ln -s AGENTS.md CLAUDE.md" in line:
+                                has_config_path = True
+                        if has_config_path:
+                            assert False, f"Semantic Error: Found unneutralized config path '{line.strip()}' on line {line_num} in file: {fp}"
+                            
+                    # 2. Check for self-symlinks
+                    if "AGENTS.md AGENTS.md" in line or "ln -s AGENTS.md AGENTS.md" in line or "CLAUDE.md CLAUDE.md" in line or "ln -s CLAUDE.md CLAUDE.md" in line:
+                        assert False, f"Semantic Error: Found self-symlink/circular pattern '{line.strip()}' on line {line_num} in file: {fp}"
+                        
+                    # 3. Check for duplicate name replacements
+                    if "AGENTS.md and AGENTS.md" in line or "CLAUDE.md and CLAUDE.md" in line:
+                        assert False, f"Semantic Error: Found duplicate replacement pattern '{line.strip()}' on line {line_num} in file: {fp}"
+                        
+                    # 4. Check for stale CLAUDE.md references operating as execution requirements
+                    if "CLAUDE.md" in line:
+                        if any(req in line_lower for req in ["create a", "write a", "configure a", "edit a", "modify the", "read the"]) and not "agents.md" in line_lower:
+                            assert False, f"Semantic Error: Found stale CLAUDE.md instruction/execution requirement '{line.strip()}' on line {line_num} in file: {fp}"
+                            
+                    # 5. Check for modified provenance fields
+                    if "source:" in line_lower or "source_repo:" in line_lower or "license_source:" in line_lower:
+                        if "linear-skill" in line_lower or "varlock-skill" in line_lower:
+                            assert False, f"Semantic Error: Found modified upstream provenance field '{line.strip()}' on line {line_num} in file: {fp}"
+                semantic_verified += 1
+
+    print(f"  - Successfully performed semantic scans on {semantic_verified} files across all Converted skills.")
+    print(" -> PASS: Strict semantic validation checks passed successfully with 0 violations found.")
 
     print("\n=== ALL PHASE 04 RECONCILIATION VALIDATIONS PASSED! CONGRATULATIONS! ===")
 

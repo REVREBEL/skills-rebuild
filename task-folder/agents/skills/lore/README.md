@@ -12,7 +12,7 @@
 
 A long-term knowledge base for software projects, maintained by AI agents. Captures the kind of context that normally lives only in the original developer's head — architecture, decisions, conventions — and persists it as plain Markdown files that any agent can consume.
 
-> **lore is a SKILL, not a CLI tool.** It is a Markdown spec ([`SKILL.md`](SKILL.md)) that AI coding agents — Claude Code, Cursor, OpenCode, Cline, Aider, GitHub Copilot — read to gain long-term project memory. You do not `npm install` or `pip install` lore; you give your agent the URL and ask it to install the skill. From then on, phrases like `lore init` and `lore sync` are commands you say to your agent, **not** commands you type in a terminal. There is no `lore` binary on your `PATH`.
+> **lore is a SKILL, not a CLI tool.** It is a Markdown spec ([`SKILL.md`](SKILL.md)) that AI coding agents — the agent, Cursor, OpenCode, Cline, Aider, GitHub Copilot — read to gain long-term project memory. You do not `npm install` or `pip install` lore; you give your agent the URL and ask it to install the skill. From then on, phrases like `lore init` and `lore sync` are commands you say to your agent, **not** commands you type in a terminal. There is no `lore` binary on your `PATH`.
 
 ## Installation
 
@@ -24,17 +24,17 @@ Or, simpler — tell your agent:
 
 > Install https://github.com/TheaDust/lore as a skill.
 
-Each agent host loads skills from its own directory (`~/.claude/skills/` for Claude Code, `<project>/.claude/skills/` for project-scoped, etc.). Your agent knows its own skills directory and can clone the repo into the right place.
+Each agent host loads skills from its own directory (`~/.agents/skills/` for the agent, `<project>/.agents/skills/` for project-scoped, etc.). Your agent knows its own skills directory and can clone the repo into the right place.
 
 > Looking for a specific doc? Jump to: [Quick start](#quick-start) · [What it looks like](#what-this-looks-like) · [What lives in `.lore/`](#what-lives-in-lore) · [Seven workflows](#seven-workflows) · [Platform mirrors](#platform-mirrors) · [Configuration](#configuration) · [Upgrading](#upgrading) · [FAQ](#faq). Full reference docs live in [`references/`](references/). **Want plain-language "when to use each workflow"?** See [`WORKFLOWS.md`](WORKFLOWS.md) (also in [中文](WORKFLOWS.zh-CN.md)).
 
 ## What it solves
 
-When you work on a project across multiple AI tools (Claude Code, Cursor, Cline, GitHub Copilot, Aider, LangGraph agents, DeepAgents) and across many sessions, context gets lost:
+When you work on a project across multiple AI tools (the agent, Cursor, Cline, GitHub Copilot, Aider, LangGraph agents, DeepAgents) and across many sessions, context gets lost:
 
 - **Every new session re-explains the project.** "We're using Next.js App Router, not Pages. Use Zustand, not Redux. Don't commit secrets."
 - **Decisions are forgotten.** "Why did we pick X over Y?" → "I don't remember, let me ask the team."
-- **Agents disagree with each other.** Cursor follows `.cursorrules`, Claude Code follows `AGENTS.md`, but the two files drift apart.
+- **Agents disagree with each other.** Cursor follows `.cursorrules`, the agent follows `AGENTS.md`, but the two files drift apart.
 - **Onboarding takes weeks.** New members / new agents need to learn the conventions from scratch.
 
 lore maintains a single source of truth (`.lore/`) and projects it into whatever config files your agents already read. It tracks *why* decisions were made, not just *what* the code does, and keeps that history across sessions and tools.
@@ -219,7 +219,7 @@ lore's canonical store is `.lore/*`, but it projects into the config files agent
 
 | Platform | File | Auto-detected? |
 |---|---|---|
-| Claude Code | `AGENTS.md` | ✅ |
+| the agent | `AGENTS.md` | ✅ |
 | Cursor | `.cursorrules` (or `.cursor/rules/*.mdc`) | ✅ |
 | Cline | `.clinerules` | ✅ |
 | Aider / Codex / OpenCode | `AGENTS.md` (or `CONVENTIONS.md`) | ✅ |

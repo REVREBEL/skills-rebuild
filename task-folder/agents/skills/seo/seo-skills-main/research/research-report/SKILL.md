@@ -57,7 +57,7 @@ Run `python {topic}/generate_report.py`. Check the resulting `{topic}/report.md`
 
 ## Gotchas
 
-- **The `CATEGORY_MAPPING` lives in two places**: in the generated `generate_report.py` and in `~/.claude/skills/research-outline/validate_json.py`. They must agree, or the report will skip categories the validator just accepted. If you add a new category in `fields.yaml`, update both files (see `references/report-generation-spec.md` for the canonical mapping).
+- **The `CATEGORY_MAPPING` lives in two places**: in the generated `generate_report.py` and in `~/.agents/skills/research-outline/validate_json.py`. They must agree, or the report will skip categories the validator just accepted. If you add a new category in `fields.yaml`, update both files (see `references/report-generation-spec.md` for the canonical mapping).
 - **`AskUser` caps at four options**. If Step 2 turns up more than four summary-field candidates, you need to either chunk the question into multiple rounds or pre-filter the list yourself before asking. Don't silently truncate to four — the user needs to know what was left off.
 - **`[uncertain]` in a value and presence in the `uncertain` array are both skip-triggers**, and either alone is enough. Don't AND them.
 - **Anchor slugs are markdown's auto-slug, not your own slugifier.** Make sure your TOC link `#xxx` matches what the markdown renderer derives from your `## Item Name` header — lowercase, spaces → hyphens, most punctuation stripped. If item names have unusual characters, render the section with a known-safe heading text.

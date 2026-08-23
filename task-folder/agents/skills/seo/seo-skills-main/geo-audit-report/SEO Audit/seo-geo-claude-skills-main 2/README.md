@@ -14,11 +14,11 @@ Claude Skills and Commands for Search Engine Optimization (SEO) and Generative E
 
 ## Quick Start
 
-Install with Claude Code, any Agent Skills-compatible host, or a plain `git clone`:
+Install with the agent, any Agent Skills-compatible host, or a plain `git clone`:
 
 | Tool | Install |
 |------|---------|
-| Claude Code | `/plugin marketplace add aaron-he-zhu/seo-geo-claude-skills` |
+| the agent | `/plugin marketplace add aaron-he-zhu/seo-geo-claude-skills` |
 | skills.sh / generic Agent Skills hosts | `npx skills add aaron-he-zhu/seo-geo-claude-skills` |
 | Any host | `git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills` |
 

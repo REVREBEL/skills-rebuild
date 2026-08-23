@@ -5,8 +5,8 @@ if (-not (Get-Command python -ErrorAction SilentlyContinue)) {
     throw "Python 3 is required."
 }
 
-$SkillDir = Join-Path $HOME ".claude/skills"
-$SettingsJson = Join-Path $HOME ".claude/settings.json"
+$SkillDir = Join-Path $HOME ".agents/skills"
+$SettingsJson = Join-Path $HOME ".agents/settings.json"
 
 if (-not (Test-Path (Join-Path $SkillDir "seo"))) {
     throw "claude-seo base plugin not installed."

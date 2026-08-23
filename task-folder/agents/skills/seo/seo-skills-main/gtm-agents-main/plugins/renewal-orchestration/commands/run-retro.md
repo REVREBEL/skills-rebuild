@@ -17,7 +17,7 @@ usage: /renewal-orchestration:run-retro --segment enterprise --window quarter --
 > Derived from GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Retros typically follow **pipeline** (data → analysis → insights → action planning → documentation). If insight synthesis + action planning can run in parallel (workshop mode), log a **diamond** segment with merge gate.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` with objective, scope, task IDs, parallel groups, dependencies (CS Ops, Product, Finance), error handling, and success metrics (closed-loop actions %, renewal uplift, blocker removal).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` with objective, scope, task IDs, parallel groups, dependencies (CS Ops, Product, Finance), error handling, and success metrics (closed-loop actions %, renewal uplift, blocker removal).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for pulling historical plan diffs, Context7 for product/support notes, Sequential Thinking for facilitation prompts, Playwright for verifying embedded dashboards if used.
 - **Guardrails**: Default retry limit = 2 for data pulls or workshop sync failures; escalation ladder = Renewal Director → CS Ops Partner → Exec Sponsor.
 - **Review**: Use `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm facilitation resources, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /renewal-orchestration:run-retro --segment enterprise --window quarter --
 - Retro report summarizing metrics, insights, and improvement themes.
 - Action tracker with owners, due dates, and success criteria.
 - Template slides + transcripts for sharing across CS, product, finance leadership.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `renewal-director` – sponsors session and finalizes recommendations.

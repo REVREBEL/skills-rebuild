@@ -44,11 +44,11 @@
   --segment enterprise \
   --goal pipeline
 ```
-# GTM Claude Code Plugins - Usage Guide
+# GTM the agent Plugins - Usage Guide
 
 ## Getting Started
 
-Welcome to the GTM (Go-To-Market) Claude Code plugin marketplace! This guide will help you leverage AI agents to automate and enhance your sales, marketing, and growth operations.
+Welcome to the GTM (Go-To-Market) the agent plugin marketplace! This guide will help you leverage AI agents to automate and enhance your sales, marketing, and growth operations.
 
 ## Installation
 
@@ -119,7 +119,7 @@ Multi-agent workflows for complex operations:
    - Document the pattern choice in the plan so reviewers understand the architecture.
 3. **Standard Plan Structure**
    - Include objective, complexity rating, strategy, stages with task IDs, parallelization block, context-passing details, error handling, and success criteria (see GTM Agents JSON example @puerto/plugins/orchestrator/README.md#283-325).
-   - Save plans under `.claude/plans/plan-<timestamp>.json` for auditing and reuse.
+   - Save plans under `.agents/plans/plan-<timestamp>.json` for auditing and reuse.
 4. **Bot + Tool Pairing**
    - Planner agent (Sonnet) designs the workflow.
    - Main Claude executes tasks, referencing the orchestration skill for coordination patterns.

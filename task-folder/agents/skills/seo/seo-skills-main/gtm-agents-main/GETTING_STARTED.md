@@ -1,12 +1,12 @@
 # 🎯 Getting Started with Claude GTM Agents
 
-**Welcome!** This guide will help you get up and running with Claude GTM Agents, even if you've never used Claude Code before.
+**Welcome!** This guide will help you get up and running with Claude GTM Agents, even if you've never used the agent before.
 
 ## 📋 Table of Contents
 
 - [Is This Guide For You?](#-is-this-guide-for-you)
 - [What You'll Need](#what-youll-need)
-- [Step 1: Install Claude Code](#step-1-install-claude-code)
+- [Step 1: Install the agent](#step-1-install-claude-code)
 - [Step 2: Set Up Your First Workspace](#step-2-set-up-your-first-workspace)
 - [Step 3: Add the GTM Agents Marketplace](#step-3-add-the-gtm-agents-marketplace)
 - [Step 4: Install Your First Plugins](#step-4-install-your-first-plugins)
@@ -24,13 +24,13 @@
 
 This guide is perfect if you:
 
-- ✅ Have **never used Claude Code** before
+- ✅ Have **never used the agent** before
 - ✅ Are **new to AI-powered tools** and want step-by-step instructions
 - ✅ Need help with **installation and basic setup**
 - ✅ Want to understand **what everything means** before diving in
 - ✅ Prefer **detailed explanations** over quick commands
 
-**Already have Claude Code installed?** Skip to the [Quick Start Guide](QUICK_START.md) instead.
+**Already have the agent installed?** Skip to the [Quick Start Guide](QUICK_START.md) instead.
 
 **Looking for advanced features?** Check out the [Usage Guide](docs/usage-guide.md).
 
@@ -41,7 +41,7 @@ This guide is perfect if you:
 Before you begin, make sure you have:
 
 - ✅ **A computer** running Windows, macOS, or Linux
-- ✅ **Internet connection** for downloading and using Claude Code
+- ✅ **Internet connection** for downloading and using the agent
 - ✅ **Claude account** (you can sign up at [claude.ai](https://claude.ai))
 - ✅ **10-15 minutes** to complete this setup
 
@@ -49,11 +49,11 @@ Before you begin, make sure you have:
 
 ---
 
-## Step 1: Install Claude Code
+## Step 1: Install the agent
 
-### What is Claude Code?
+### What is the agent?
 
-Claude Code is an AI-powered coding assistant that helps you automate tasks, generate content, and streamline your work. Think of it as having an expert assistant who knows everything about sales, marketing, and growth.
+the agent is an AI-powered coding assistant that helps you automate tasks, generate content, and streamline your work. Think of it as having an expert assistant who knows everything about sales, marketing, and growth.
 
 ### Installation Steps
 
@@ -91,7 +91,7 @@ npm install -g @anthropic-ai/claude-code
     ```bash
     cd /path/to/your/project
     ```
-2.  Run Claude Code:
+2.  Run the agent:
     ```bash
     claude
     ```
@@ -99,10 +99,10 @@ npm install -g @anthropic-ai/claude-code
     *   A Claude.ai account (Pro/Max subscription)
     *   Claude Console (API-key based)
 
-4.  After login you’ll see the Claude Code interface. To verify it’s working, try:
+4.  After login you’ll see the the agent interface. To verify it’s working, try:
 
     **Verify installation**
-    - You should see the Claude Code interface with a chat window
+    - You should see the the agent interface with a chat window
     - Type "Hello" to confirm Claude responds
 
 > **✨ Success!** If Claude responds to your message, you're ready to move on.
@@ -113,7 +113,7 @@ npm install -g @anthropic-ai/claude-code
 
 ### What is a Workspace?
 
-A workspace is like a project folder where Claude Code can access and manage files. For GTM Agents, you'll create a workspace to organize your sales, marketing, and growth work.
+A workspace is like a project folder where the agent can access and manage files. For GTM Agents, you'll create a workspace to organize your sales, marketing, and growth work.
 
 ### Creating Your Workspace
 
@@ -125,13 +125,13 @@ A workspace is like a project folder where Claude Code can access and manage fil
     - On **macOS**: Create a folder in your Documents called "GTM-Work"
     - On **Windows**: Create a folder in your Documents called "GTM-Work"
 
-2.  **Open the folder in Claude Code**
-    - In Claude Code, click **File → Open Folder** (or similar menu option)
+2.  **Open the folder in the agent**
+    - In the agent, click **File → Open Folder** (or similar menu option)
     - Navigate to your newly created `GTM-Work` folder
     - Click **Select Folder** or **Open**
 
 3.  **Confirm workspace is active**
-    - You should see your folder name in the Claude Code sidebar or title bar
+    - You should see your folder name in the the agent sidebar or title bar
     - The workspace is now ready for use
 
 > **💡 Tip:** You can create multiple workspaces for different projects (e.g., "Sales-Projects", "Marketing-Campaigns", etc.)
@@ -146,7 +146,7 @@ A marketplace is a collection of plugins (tools and agents) that you can install
 
 ### Adding the Marketplace
 
-1.  **Open the chat in Claude Code**
+1.  **Open the chat in the agent**
     - Make sure you're in your GTM-Work workspace
 
 2.  **Type the following command** in the chat:
@@ -252,7 +252,7 @@ If you work across multiple areas, install these versatile plugins:
 ### Installation Process
 
 1.  **Copy the command** for your role (from above)
-2.  **Paste it into Claude Code** chat, one line at a time
+2.  **Paste it into the agent** chat, one line at a time
 3.  **Press Enter** after each command
 4.  **Wait for confirmation** that each plugin is installed
 
@@ -408,7 +408,7 @@ Install more plugins as you need them:
 **Problem:** You installed plugins but can't use them.
 
 **Solution:**
-1.  Restart Claude Code
+1.  Restart the agent
 2.  Verify the workspace is open
 3.  Type `/plugin` to confirm installation
 
@@ -421,7 +421,7 @@ Install more plugins as you need them:
 **Solution:**
 1.  Check your internet connection
 2.  Verify you're signed into your Claude account
-3.  Try closing and reopening Claude Code
+3.  Try closing and reopening the agent
 
 ---
 
@@ -438,7 +438,7 @@ Install more plugins as you need them:
 
 Congratulations! You've successfully:
 
-- ✅ Installed Claude Code
+- ✅ Installed the agent
 - ✅ Set up your workspace
 - ✅ Added the GTM Agents marketplace
 - ✅ Installed your first plugins
@@ -549,7 +549,7 @@ A: No! These plugins are designed for business users. Just describe what you nee
 A: You'll need a Claude account (check [claude.ai](https://claude.ai) for pricing). The GTM Agents plugins themselves are open-source and free to use.
 
 **Q: Will this work on my computer?**
-A: Yes! Claude Code works on Windows, macOS, and Linux.
+A: Yes! the agent works on Windows, macOS, and Linux.
 
 **Q: How long does setup take?**
 A: About 10-15 minutes for first-time setup. After that, installing new plugins takes just seconds.
@@ -596,16 +596,16 @@ A: Ask Claude directly! Just describe your problem in the chat, and Claude will 
 ### Technical Questions
 
 **Q: Do I need an internet connection?**
-A: Yes, Claude Code requires an internet connection to work.
+A: Yes, the agent requires an internet connection to work.
 
 **Q: Can I use this offline?**
-A: No, Claude Code needs to connect to Claude's AI to function.
+A: No, the agent needs to connect to Claude's AI to function.
 
 **Q: What if I'm behind a corporate firewall?**
-A: You may need to work with your IT department to ensure Claude Code can connect to the internet.
+A: You may need to work with your IT department to ensure the agent can connect to the internet.
 
 **Q: Can I use this on multiple computers?**
-A: Yes! Just install Claude Code on each computer and sign in with the same account.
+A: Yes! Just install the agent on each computer and sign in with the same account.
 
 ---
 

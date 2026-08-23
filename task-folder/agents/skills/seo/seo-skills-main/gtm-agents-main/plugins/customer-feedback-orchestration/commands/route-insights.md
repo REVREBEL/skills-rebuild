@@ -17,7 +17,7 @@ usage: /customer-feedback-orchestration:route-insights --themes file://themes.js
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Insight routing generally runs **pipeline** (theme intake → owner mapping → action serialization → communications → feedback loop). If action serialization + comms can run in parallel, document a **diamond** block with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing theme set, DRIs, dependency graph (product, CS, marketing, exec), error handling, and success metrics (resolution rate, time-to-close, comms completion).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing theme set, DRIs, dependency graph (product, CS, marketing, exec), error handling, and success metrics (resolution rate, time-to-close, comms completion).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for workflow automation diffs, Context7 for past retros + roadmap docs, Sequential Thinking for follow-up cadence, Playwright for portal/comms QA if needed.
 - **Guardrails**: Default retry limit = 2 for task routing/comms failures; escalation ladder = Product Liaison → CX Leadership → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before publishing to confirm dependencies, approvals, deliverables.
@@ -33,7 +33,7 @@ usage: /customer-feedback-orchestration:route-insights --themes file://themes.js
 - Routing table (theme, owner, due date, metric, status).
 - Internal + external comms templates referencing impact and next steps.
 - Action tracker ready for import into chosen project tool.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `product-liaison` – ensures roadmap alignment and executive visibility.

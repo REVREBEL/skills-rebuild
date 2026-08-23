@@ -17,7 +17,7 @@ usage: /intent-signal-orchestration:prioritize-accounts --segment fintech --tier
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Prioritization typically runs **pipeline** (score refresh → segmentation → narrative → gap check → activation mapping); if segmentation + narrative analysis run in parallel, document a **diamond** block with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing segments, scoring weights, dependency graph (RevOps, sales, automation), error handling, and success metrics (coverage %, activation lift, SLA on follow-ups).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing segments, scoring weights, dependency graph (RevOps, sales, automation), error handling, and success metrics (coverage %, activation lift, SLA on follow-ups).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for scoring template diffs, Context7 for ICP documentation, Sequential Thinking for review cadence, Playwright for CRM view QA if applicable.
 - **Guardrails**: Default retry limit = 2 for scoring refresh failures; escalation ladder = Intent Analyst → Sales Ops → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before exporting lists to confirm dependencies + approvals.
@@ -33,7 +33,7 @@ usage: /intent-signal-orchestration:prioritize-accounts --segment fintech --tier
 - Tiered account list with score, recency, dominant topics, and recommended plays.
 - Coverage gap report (missing contacts, stale data, disqualified signals).
 - Export-ready CSV/JSON for CRM or engagement platforms.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `intent-analyst` – refreshes and validates scoring logic.

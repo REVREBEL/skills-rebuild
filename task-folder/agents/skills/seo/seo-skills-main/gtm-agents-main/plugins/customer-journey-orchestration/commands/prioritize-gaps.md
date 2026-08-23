@@ -17,7 +17,7 @@ usage: /customer-journey-orchestration:prioritize-gaps --persona "IT Director" -
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Gap prioritization generally runs **pipeline** (aggregation → scoring → owner mapping → roadmap → comms). If scoring + owner mapping can run in parallel (multiple pods), document a **diamond** segment with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` with persona/scope, task IDs, weighting criteria, parallel groups, dependency graph (ops, product, eng), error handling, and success metrics (gap closure %, CSAT uplift, time-to-fix).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` with persona/scope, task IDs, weighting criteria, parallel groups, dependency graph (ops, product, eng), error handling, and success metrics (gap closure %, CSAT uplift, time-to-fix).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for instrumentation diffs, Context7 for VOC/support docs, Sequential Thinking for decision tree prompts, Playwright for QA on prototype fixes if required.
 - **Guardrails**: Default retry limit = 2 for scoring/owner mapping failures; escalation path = Journey Ops Owner → CX Strategist → CCO/CS leadership.
 - **Review**: Use `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm facilitators, data sources, and deliverables.
@@ -33,7 +33,7 @@ usage: /customer-journey-orchestration:prioritize-gaps --persona "IT Director" -
 - Prioritized gap list with scores, owners, and proposed actions.
 - Portfolio view (quick wins vs strategic initiatives) with resource estimates.
 - Governance-ready backlog entry for each initiative.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `journey-ops-owner` – coordinates resourcing + timelines.

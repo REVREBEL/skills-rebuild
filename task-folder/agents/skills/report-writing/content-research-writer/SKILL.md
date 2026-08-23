@@ -43,7 +43,7 @@ Create your draft file:
 touch article-draft.md
 ```
 
-Open Claude Code from this directory and start writing.
+Open the agent from this directory and start writing.
 
 ### Basic Workflow
 

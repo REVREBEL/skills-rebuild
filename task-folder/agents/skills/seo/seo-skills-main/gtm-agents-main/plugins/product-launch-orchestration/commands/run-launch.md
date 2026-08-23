@@ -17,7 +17,7 @@ usage: /product-launch-orchestration:run-launch --product "AI Copilot" --window 
 > Inspired by GTM Agents orchestrator guidance @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Start with **pipeline** (timeline → comms → instrumentation → gates → command center). Use **diamond** when channel workstreams can run in parallel; note selection in plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` with objective, stages, parallel groups, agent assignments, context passing (e.g., feature readiness), error handling, and success criteria (launch KPIs).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` with objective, stages, parallel groups, agent assignments, context passing (e.g., feature readiness), error handling, and success criteria (launch KPIs).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` (Serena for doc/code patches, Context7 for platform docs, Sequential Thinking for retros, Playwright for pre-launch QA).
 - **Guardrails**: Define retry strategy (default 2 attempts) and escalation ladder (Launch Director → Product Marketing Lead → CSO) for failed gates.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` checklist before execution to confirm agents, dependencies, and deliverables.
@@ -33,7 +33,7 @@ usage: /product-launch-orchestration:run-launch --product "AI Copilot" --window 
 - Launch execution runbook (timeline, tasks, owners, dependencies).
 - Go/no-go checklist + approval matrix.
 - Monitoring plan with dashboard links and alert thresholds.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `launch-director` – orchestrates execution + governance.

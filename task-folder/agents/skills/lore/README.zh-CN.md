@@ -12,7 +12,7 @@
 
 一个由 AI 智能体维护的软件项目长期知识库。它捕获那些通常只存在于原始开发者脑中的上下文——架构、决策、约定——并以纯 Markdown 文件形式持久化，任何智能体都能消费。
 
-> **lore 是一个 SKILL，不是 CLI 工具。** 它是一份 Markdown 规范（[`SKILL.md`](SKILL.md)），AI 编程 agent（Claude Code、Cursor、OpenCode、Cline、Aider、GitHub Copilot）读取后获得长期项目记忆。你不需要 `npm install` 或 `pip install` `lore`；把仓库 URL 给 agent，让它装上即可。之后 `lore init`、`lore sync` 这些**短语是你对 agent 说的话**，不是终端命令——你的 `PATH` 上没有 `lore` 这个二进制。
+> **lore 是一个 SKILL，不是 CLI 工具。** 它是一份 Markdown 规范（[`SKILL.md`](SKILL.md)），AI 编程 agent（the agent、Cursor、OpenCode、Cline、Aider、GitHub Copilot）读取后获得长期项目记忆。你不需要 `npm install` 或 `pip install` `lore`；把仓库 URL 给 agent，让它装上即可。之后 `lore init`、`lore sync` 这些**短语是你对 agent 说的话**，不是终端命令——你的 `PATH` 上没有 `lore` 这个二进制。
 
 ## 安装
 
@@ -24,17 +24,17 @@ git clone git@github.com:TheaDust/lore.git <你的-agent-skills-目录>
 
 > 从 https://github.com/TheaDust/lore 安装 skill。
 
-每个 agent host 从自己的目录加载 skill（Claude Code 是 `~/.claude/skills/`，项目级是 `<project>/.claude/skills/`，等等）。你的 agent 知道自己的 skills 目录在哪，能把仓库克隆到正确的位置。
+每个 agent host 从自己的目录加载 skill（the agent 是 `~/.agents/skills/`，项目级是 `<project>/.agents/skills/`，等等）。你的 agent 知道自己的 skills 目录在哪，能把仓库克隆到正确的位置。
 
 > 找特定章节？跳到：[快速上手](#快速上手) · [实际长什么样](#实际长什么样) · [`.lore/` 目录结构](#lore-目录结构) · [七个工作流](#七个工作流) · [平台 Mirror](#平台-mirror) · [配置](#配置) · [升级](#升级) · [FAQ](#faq)。完整参考文档在 [`references/`](references/)。**想看每个工作流什么时候用的平实解释？** 见 [`WORKFLOWS.md`](WORKFLOWS.md) / [English](./WORKFLOWS.md)。
 
 ## 解决什么问题
 
-当你在多个 AI 工具（Claude Code、Cursor、Cline、GitHub Copilot、Aider、LangGraph agent、DeepAgents）和多个会话之间切换工作时，上下文会丢失：
+当你在多个 AI 工具（the agent、Cursor、Cline、GitHub Copilot、Aider、LangGraph agent、DeepAgents）和多个会话之间切换工作时，上下文会丢失：
 
 - **每个新会话都要重新解释项目。** "我们用 Next.js App Router，不是 Pages。用 Zustand，不是 Redux。不要提交密钥。"
 - **决策被遗忘。** "为什么选 X 不选 Y？" → "我不记得了，问问团队吧。"
-- **智能体之间互相矛盾。** Cursor 读 `.cursorrules`，Claude Code 读 `AGENTS.md`，两个文件逐渐漂移。
+- **智能体之间互相矛盾。** Cursor 读 `.cursorrules`，the agent 读 `AGENTS.md`，两个文件逐渐漂移。
 - **新成员上手需要数周。** 新成员 / 新 agent 都得从零学项目约定。
 
 lore 维护一个单一事实源（`.lore/`），并把它投影到你的 agent 已经读取的配置文件里。它追踪**为什么**做某个决策，而不只是代码**做了什么**，并把这个历史跨 session、跨工具保留下来。
@@ -219,7 +219,7 @@ lore 的事实源是 `.lore/*`，但它会投影到 agent 已经读取的配置�
 
 | 平台 | 文件 | 自动检测？ |
 |---|---|---|
-| Claude Code | `AGENTS.md` | ✅ |
+| the agent | `AGENTS.md` | ✅ |
 | Cursor | `.cursorrules` (或 `.cursor/rules/*.mdc`) | ✅ |
 | Cline | `.clinerules` | ✅ |
 | Aider / Codex / OpenCode | `AGENTS.md` (或 `CONVENTIONS.md`) | ✅ |

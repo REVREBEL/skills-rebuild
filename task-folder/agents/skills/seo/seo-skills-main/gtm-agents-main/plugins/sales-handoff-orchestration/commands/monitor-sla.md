@@ -17,7 +17,7 @@ usage: /sales-handoff-orchestration:monitor-sla --segment enterprise --window 7d
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: SLA monitoring usually follows a **pipeline** (aggregation → calculation → diagnostics → actions → alerts). If diagnostics + recommendations can run in parallel, log a **diamond** segment and merge gate.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` with objective, data sources, task IDs, dependencies (dashboards, alert channels), error handling, and success metrics (SLA %, response time, queue depth).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` with objective, data sources, task IDs, dependencies (dashboards, alert channels), error handling, and success metrics (SLA %, response time, queue depth).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for CRM automation diffs, Context7 for MAP/CRM field docs, Sequential Thinking for retro cadence, Playwright for form QA when routing fixes require front-end checks.
 - **Guardrails**: Default retry limit = 2 for failed data pulls/alerts; escalation ladder = RevOps Director → Sales Manager → CRO.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm agents, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /sales-handoff-orchestration:monitor-sla --segment enterprise --window 7d
 - SLA dashboard snapshot with compliance %, aging pipeline, at-risk cohorts.
 - Recommendation list with owners and due dates.
 - Optional incident ticket for severe breaches.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `revops-director` – reviews systemic issues and approves remediation.

@@ -17,7 +17,7 @@ usage: /content-pipeline-orchestration:manage-production --pillar "AI readiness"
 > Pulled from GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Production typically runs **pipeline** (tasks → owners → feedback → QA → packaging). Use **diamond** when localization or QA evidence can run parallel; document choice in the plan header.
-- **Plan schema**: Save or update `.claude/plans/plan-<timestamp>.json` with task IDs, asset references, tooling context, parallel groups, handoff requirements, error handling, and success criteria (on-time %, defect ceiling).
+- **Plan schema**: Save or update `.agents/plans/plan-<timestamp>.json` with task IDs, asset references, tooling context, parallel groups, handoff requirements, error handling, and success criteria (on-time %, defect ceiling).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack (Serena for CMS automation patches, Context7 for brand/legal standards, Sequential Thinking for retros, Playwright for accessibility/QA screens).
 - **Guardrails**: Default retry limit = 2 for failed QA; escalation ladder = Creative Producer → Editorial Director → Marketing Director.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm agents, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /content-pipeline-orchestration:manage-production --pillar "AI readiness"
 - Production tracker (task, owner, status, due date, dependencies, comments).
 - QA/evidence log template.
 - Asset handoff checklist with storage locations.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `creative-producer` – runs production board + QA.

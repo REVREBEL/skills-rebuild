@@ -21,17 +21,17 @@ This project adheres to a Code of Conduct that all contributors are expected to 
 
 ### Prerequisites
 
-- Claude Code (latest version recommended)
+- the agent (latest version recommended)
 - Git
 - Python 3.8+ (for validation scripts)
-- Basic understanding of Claude Code plugin system
+- Basic understanding of the agent plugin system
 - Familiarity with GTM (Go-To-Market) concepts
 
 ### Repository Structure
 
 ```
 gtm-agents/
-├── .claude-plugin/
+├── .agents-plugin/
 │   └── marketplace.json          # Plugin marketplace definition
 ├── plugins/
 │   └── [plugin-name]/
@@ -143,7 +143,7 @@ skill-name/
 name: skill-name                    # Required (must match directory name)
 description: What it does...        # Required (max 1024 chars)
 license: Apache-2.0                 # Recommended
-compatibility: Claude Code          # Recommended
+compatibility: the agent          # Recommended
 metadata:                           # Recommended
   author: gtm-agents
   version: "1.0"
@@ -239,7 +239,7 @@ pre-commit run --all-files
 
 ### Testing
 
-- Test your plugin/agent/skill in Claude Code
+- Test your plugin/agent/skill in the agent
 - Verify activation criteria work as expected
 - Test edge cases and error conditions
 - Document any manual testing performed
@@ -260,7 +260,7 @@ pre-commit run --all-files
 
 3. **Test thoroughly**
    - Run validation scripts
-   - Test in Claude Code
+   - Test in the agent
    - Verify no regressions
 
 4. **Update documentation**
@@ -294,7 +294,7 @@ pre-commit run --all-files
    - [ ] Documentation updated
    - [ ] CHANGELOG.md updated
    - [ ] Examples added/updated if needed
-   - [ ] Tested in Claude Code
+   - [ ] Tested in the agent
    - [ ] No breaking changes (or clearly documented)
 
 ### Review Process

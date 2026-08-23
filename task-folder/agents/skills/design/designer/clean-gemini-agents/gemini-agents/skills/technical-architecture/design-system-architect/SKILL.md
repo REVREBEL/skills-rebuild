@@ -441,7 +441,7 @@ Action: Build real token infrastructure with:
 `npm run build:tokens` → Open Storybook → Toggle dark mode → Verify all tokens resolve → Run contrast audit
 
 ## Context Protocol
-- Before: Read `.claude/context/session/state.json and .claude/context/knowledge/decisions/active.json`
+- Before: Read `.agents/context/session/state.json and .agents/context/knowledge/decisions/active.json`
 - During: Update `agent_decisions.design-system-architect` with decisions
 - After: Add to `tasks_completed`, save context
 - After implementation, invoke `code-quality-reviewer` subagent for validation

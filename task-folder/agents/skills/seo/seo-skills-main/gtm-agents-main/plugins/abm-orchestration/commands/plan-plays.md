@@ -17,7 +17,7 @@ usage: /abm-orchestration:plan-plays --tiering "T1:10,T2:40" --window 6w --objec
 > Derived from GTM Agents orchestrator model @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Start with a **diamond** pattern (strategy intake → parallel pod planning → consolidation) and switch to **pipeline** when play development must stay sequential. Record the chosen pattern in the plan header.
-- **Plan schema**: Every run saves `.claude/plans/plan-<timestamp>.json` including objective, stages, parallel groups, agent assignments, context handoffs, error handling, and success criteria.
+- **Plan schema**: Every run saves `.agents/plans/plan-<timestamp>.json` including objective, stages, parallel groups, agent assignments, context handoffs, error handling, and success criteria.
 - **Tool hooks**: Reference `docs/gtm-essentials.md` tools explicitly (Serena for CRM/MAP patches, Context7 for platform docs, Sequential Thinking for retros, Playwright for QA on assets/landing pages).
 - **Guardrails**: Define retry strategy (default 2 attempts) and escalation path (ABM Strategist → Sales Director) for any failed stage.
 - **Review**: Before execution, run the checklist in `docs/usage-guide.md#orchestration-best-practices-puerto-parity` to confirm agents, dependencies, and deliverables.
@@ -33,7 +33,7 @@ usage: /abm-orchestration:plan-plays --tiering "T1:10,T2:40" --window 6w --objec
 - Playbook table (tier, play, channel, owner, CTA, assets, SLAs).
 - Calendar/timeline highlighting waves, reviews, retros.
 - Risk + dependency log (asset gaps, approval needs, data requirements).
-- Plan JSON stored in `.claude/plans` with version history (update if owners/scope change).
+- Plan JSON stored in `.agents/plans` with version history (update if owners/scope change).
 
 ## Agent/Skill Invocations
 - `abm-strategist` – leads play selection + governance.

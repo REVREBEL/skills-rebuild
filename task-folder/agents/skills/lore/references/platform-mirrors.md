@@ -6,7 +6,7 @@ How `.lore/*` content gets mirrored to platform-specific config files. The main 
 
 | Platform | File (default) | Also accepted |
 |---|---|---|
-| Claude Code | `AGENTS.md` (root) | `.claude/AGENTS.md` |
+| the agent | `AGENTS.md` (root) | `.agents/AGENTS.md` |
 | Cursor | `.cursorrules` (root) | `.cursor/rules/*.mdc` |
 | Cline | `.clinerules` (root) | — |
 | Aider | `AGENTS.md` (root) | `CONVENTIONS.md` |
@@ -56,7 +56,7 @@ For each target:
 2. Parse path components without interpreting the value as a shell pattern. Reject any `..`
    component; normalize `.` and repeated separators only after that rejection.
 3. Require the normalized relative path to match this allowlist exactly:
-   `AGENTS.md`, `.claude/AGENTS.md`, `.cursorrules`, `.clinerules`, `AGENTS.md`,
+   `AGENTS.md`, `.agents/AGENTS.md`, `.cursorrules`, `.clinerules`, `AGENTS.md`,
    `CONVENTIONS.md`, `.windsurfrules`, `.github/copilot-instructions.md`, or
    `.continue/rules/lore.md`; or match `.cursor/rules/<name>.mdc`, where `<name>` is one
    non-empty filename segment (no nested directory).
@@ -77,7 +77,7 @@ The auto-detect step checks for the following paths at `repo_root`:
 
 ```
 AGENTS.md
-.claude/AGENTS.md
+.agents/AGENTS.md
 .cursorrules
 .clinerules
 AGENTS.md
@@ -96,7 +96,7 @@ When Step 3 fires, present this question to the user:
 
 | Choice | Primary file written |
 |---|---|
-| Claude Code | `AGENTS.md` |
+| the agent | `AGENTS.md` |
 | Cursor | `.cursorrules` |
 | Cline | `.clinerules` |
 | Aider | `AGENTS.md` |

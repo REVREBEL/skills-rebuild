@@ -17,7 +17,7 @@ usage: /intent-signal-orchestration:connect-signals --sources "bombora,g2,produc
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Signal connection typically runs **pipeline** (inventory → schema → pipelines → quality → activation). If schema mapping + pipeline provisioning run in parallel, document a **diamond** block with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing source inventory, auth, task IDs, dependency graph (data eng, security, RevOps), error handling, and success metrics (freshness, coverage %, SLA compliance).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing source inventory, auth, task IDs, dependency graph (data eng, security, RevOps), error handling, and success metrics (freshness, coverage %, SLA compliance).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for schema diffs, Context7 for API docs + vendor SLAs, Sequential Thinking for rollout reviews, Playwright for any UI-based connector QA.
 - **Guardrails**: Default retry limit = 2 for ingestion failures; escalation ladder = Data Engineer → Intent Analyst → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before handoff to confirm dependencies + approvals logged.
@@ -33,7 +33,7 @@ usage: /intent-signal-orchestration:connect-signals --sources "bombora,g2,produc
 - Connection manifest with sources, credentials owners, refresh cadence, and SLAs.
 - Warehouse schema doc plus sample queries for RevOps/data teams.
 - Monitoring dashboard setup instructions + webhook alerts.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `intent-analyst` – ensures topics + scoring fields align with GTM objectives.

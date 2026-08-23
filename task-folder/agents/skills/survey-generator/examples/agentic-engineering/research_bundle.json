@@ -958,7 +958,7 @@
       "year": "2026",
       "title": "Claudini",
       "venue": "arXiv:2603.24511",
-      "summary": "Autoresearch pipeline powered by Claude Code that autonomously discovers novel adversarial attack algorithms for LLMs, outperforming 30+ existing methods and reaching 100% attack success on Meta-SecAlign-70B."
+      "summary": "Autoresearch pipeline powered by the agent that autonomously discovers novel adversarial attack algorithms for LLMs, outperforming 30+ existing methods and reaching 100% attack success on Meta-SecAlign-70B."
     },
     {
       "key": "AgenticMisalign",

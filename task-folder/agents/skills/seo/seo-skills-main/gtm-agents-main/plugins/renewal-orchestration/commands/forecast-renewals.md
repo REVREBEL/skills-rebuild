@@ -17,7 +17,7 @@ usage: /renewal-orchestration:forecast-renewals --window 90d --segment enterpris
 > Based on GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Forecast builds usually run **pipeline** (data → segmentation → scenarios → commentary → packaging). If segmentation + scenario modeling can parallelize, note a **diamond** segment and merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing objective, filters, task IDs, parallel groups, dependency graph (CS Ops, Finance, Product), error handling, and success metrics (forecast accuracy, coverage %, confidence spread).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing objective, filters, task IDs, parallel groups, dependency graph (CS Ops, Finance, Product), error handling, and success metrics (forecast accuracy, coverage %, confidence spread).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for data model diffs, Context7 for product/support doc pulls, Sequential Thinking for scenario retros, Playwright for dashboard QA if embedded.
 - **Guardrails**: Default retry limit = 2 for failed data pulls or scenario jobs; escalation ladder = CS Ops Partner → Renewal Director → Finance lead.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` checklist before execution to confirm agents, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /renewal-orchestration:forecast-renewals --window 90d --segment enterpris
 - Renewal forecast table with ARR, NRR, churn %, and confidence per segment.
 - Commentary deck with drivers, blockers, and next steps.
 - Data extract for RevOps/finance to ingest into planning tools.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `renewal-director` – validates scenario assumptions and narratives.

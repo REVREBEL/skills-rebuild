@@ -2,7 +2,7 @@
 name: linear-skill
 description: "Manage Linear issues, projects, and teams"
 risk: safe
-source: "https://github.com/wrsmith108/linear-skill"
+source: "https://github.com/wrsmith108/linear-claude-skill"
 date_added: "2026-02-27"
 ---
 
@@ -107,7 +107,7 @@ cat .env
 Run the setup check to verify your configuration:
 
 ```bash
-npx tsx ~/.claude/skills/linear/scripts/setup.ts
+npx tsx {SKILL_DIR}/scripts/setup.ts
 ```
 
 This will check:
@@ -132,7 +132,7 @@ echo
 export LINEAR_API_KEY
 
 # Option B: Add to the agent environment
-printf 'LINEAR_API_KEY=%s\n' "$LINEAR_API_KEY" >> ~/.claude/.env
+printf 'LINEAR_API_KEY=%s\n' "$LINEAR_API_KEY" >> {AGENT_HOME}/.env
 
 # Then reload your shell or restart the agent
 ```
@@ -142,7 +142,7 @@ printf 'LINEAR_API_KEY=%s\n' "$LINEAR_API_KEY" >> ~/.claude/.env
 Verify everything works:
 
 ```bash
-npx tsx ~/.claude/skills/linear/scripts/query.ts "query { viewer { name } }"
+npx tsx {SKILL_DIR}/scripts/query.ts "query { viewer { name } }"
 ```
 
 You should see your name from Linear.
@@ -457,7 +457,7 @@ See **api.md** for complete documentation including:
 **Quick ad-hoc query:**
 
 ```bash
-npx tsx ~/.claude/skills/linear/scripts/query.ts "query { viewer { name } }"
+npx tsx {SKILL_DIR}/scripts/query.ts "query { viewer { name } }"
 ```
 
 ## Projects & Initiatives

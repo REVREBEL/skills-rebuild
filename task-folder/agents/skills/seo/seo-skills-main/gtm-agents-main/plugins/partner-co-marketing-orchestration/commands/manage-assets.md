@@ -17,7 +17,7 @@ usage: /partner-co-marketing-orchestration:manage-assets --campaign "AI Launch T
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Asset management typically runs **pipeline** (inventory → guardrails → approvals → versioning → distribution). If approvals across partners can run in parallel, document a **diamond** segment and merge gate in the plan.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing campaign, repositories, task IDs, partner owners, dependency graph (legal, translation, DAM), error handling, and success metrics (approval SLA, asset quality, localization coverage).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing campaign, repositories, task IDs, partner owners, dependency graph (legal, translation, DAM), error handling, and success metrics (approval SLA, asset quality, localization coverage).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for asset diff reviews, Context7 for partner brand/legal guidance, Sequential Thinking for cross-org approval cadences, Playwright for accessibility/landing page QA if needed.
 - **Guardrails**: Default retry limit = 2 for failed approvals/uploads; escalation ladder = Asset Manager → Partner Ops → Joint governance council.
 - **Review**: Use `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm owners, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /partner-co-marketing-orchestration:manage-assets --campaign "AI Launch T
 - Asset tracker (status, owner, reviewer, link, compliance notes).
 - Approval log referencing evidence + timestamps.
 - Distribution bundle with metadata sheet and partner instructions.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `co-marketing-asset-manager` – oversees production + routing.

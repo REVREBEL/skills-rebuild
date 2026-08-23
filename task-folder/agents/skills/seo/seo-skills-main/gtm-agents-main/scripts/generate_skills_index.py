@@ -183,7 +183,7 @@ def generate_skills_index(base_path: Path) -> dict:
     return {
         "version": "1.0",
         "specification": "https://agentskills.io/specification",
-        "generated_from": ".claude-plugin/marketplace.json",
+        "generated_from": ".agents-plugin/marketplace.json",
         "total_skills": len(skills_list),
         "categories": dict(sorted(categories.items())),
         "plugins": dict(sorted(plugins.items())),

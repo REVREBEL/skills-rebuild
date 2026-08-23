@@ -70,9 +70,7 @@ op item edit "<env-name>" --vault hypera \
 ### Access via CLI Tools
 
 ```bash
-cd ~/.claude/skills/1password-skill/tools
-# OR
-cd .claude/skills/1password-skill/tools
+cd {SKILL_DIR}/tools
 
 # List all environments
 bun run list --vault hypera

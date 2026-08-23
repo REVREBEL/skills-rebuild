@@ -14,7 +14,7 @@
 
 ```
 gtm-agents/
-├── .claude-plugin/
+├── .agents-plugin/
 │   └── marketplace.json          # Plugin marketplace definition (67 plugins)
 ├── plugins/                       # 67 GTM-focused plugins
 │   └── [plugin-name]/
@@ -345,7 +345,7 @@ skill-name/
 name: skill-name                    # Required (must match directory)
 description: What it does...        # Required (max 1024 chars)
 license: Apache-2.0                 # Optional
-compatibility: Claude Code          # Optional
+compatibility: the agent          # Optional
 metadata:                           # Optional
   author: gtm-agents
   version: "1.0"
@@ -411,7 +411,7 @@ See [Migration Plan](docs/MIGRATION_PLAN_AGENTSKILLS.md) for full compliance roa
 
 | Resource | Path |
 |----------|------|
-| Plugin definitions | `.claude-plugin/marketplace.json` |
+| Plugin definitions | `.agents-plugin/marketplace.json` |
 | Agent files | `plugins/[name]/agents/*.md` |
 | Skill files | `plugins/[name]/skills/*/SKILL.md` |
 | Command files | `plugins/[name]/commands/*.md` |

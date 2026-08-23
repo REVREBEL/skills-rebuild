@@ -16,7 +16,7 @@ license_source: "https://github.com/stareezy-1/frontend-architecture-skill/blob/
 
 # Frontend Lighthouse (portable performance gate)
 
-> Portable skill — readable by Claude Code, OpenCode, Codex, Cursor, Windsurf, and others.
+> Portable skill — readable by the agent, OpenCode, Codex, Cursor, Windsurf, and others.
 > This skill describes a **CI performance gate** — a Lighthouse CI config plus a workflow — not a
 > component library or a visual style. It pairs with the **frontend-seo** and
 > **frontend-architecture** skills: SEO writes the metadata, Lighthouse proves it ships fast.

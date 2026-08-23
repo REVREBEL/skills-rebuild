@@ -17,7 +17,7 @@ usage: /personalization-engine:monitor-personalization --initiative "PLG Onboard
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Monitoring usually runs **pipeline** (data aggregation → governance scan → experiment readout → issue detection → action plan). If governance + experiments review can run concurrently, capture a **diamond** block with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing initiative, data feeds, dependency graph (data eng, privacy, experimentation), error handling, and success metrics (lift %, incident response time, consent adherence).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing initiative, data feeds, dependency graph (data eng, privacy, experimentation), error handling, and success metrics (lift %, incident response time, consent adherence).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for schema diffs, Context7 for governance/experiment SOPs, Sequential Thinking for retro cadence, Playwright for experience QA evidence.
 - **Guardrails**: Default retry limit = 2 for failed data pulls or anomaly jobs; escalation ladder = Testing Lead → Personalization Architect → Data Privacy Lead.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before distribution to ensure dependencies + approvals are logged.
@@ -33,7 +33,7 @@ usage: /personalization-engine:monitor-personalization --initiative "PLG Onboard
 - Performance dashboard snapshot segmented by profile/channel/variant.
 - Governance checklist status with any violations or pending approvals.
 - Experiment memo with next steps + rollout guidance.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `testing-lead` – interprets experiments and recommends rollouts.

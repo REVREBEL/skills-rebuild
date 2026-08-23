@@ -17,7 +17,7 @@ usage: /sales-handoff-orchestration:run-standups --segment enterprise --hosts "r
 > Based on GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Standups typically run **pipeline** (data prep → agenda → discussion → broadcast → accountability). If discussion capture + broadcast can run in parallel (async mode), document a **diamond** segment with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing objective, schedule, task IDs, dependencies (dashboards, channels), error handling, and success metrics (response SLAs, blocker resolution %, queue depth).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing objective, schedule, task IDs, dependencies (dashboards, channels), error handling, and success metrics (response SLAs, blocker resolution %, queue depth).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for CRM report diffs, Context7 for platform docs, Sequential Thinking for retro notes, Playwright for verifying embedded dashboard links if needed.
 - **Guardrails**: Default retry limit = 2 for data fetch/broadcast failures; escalation ladder = Lifecycle Coordinator → Sales Manager → RevOps Director.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm hosts, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /sales-handoff-orchestration:run-standups --segment enterprise --hosts "r
 - Standup agenda doc (metrics snapshot, topics, owners).
 - Action log with due dates and linked dashboards.
 - Optional async update message for teams that cannot attend live.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `lifecycle-coordinator` – surfaces queue status + blockers.

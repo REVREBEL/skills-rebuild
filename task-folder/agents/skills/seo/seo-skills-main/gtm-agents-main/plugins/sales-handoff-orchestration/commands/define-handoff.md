@@ -17,7 +17,7 @@ usage: /sales-handoff-orchestration:define-handoff --segment enterprise --goal p
 > Derived from GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Handoff design usually follows a **pipeline** (intake → routing → SLA modeling → enablement → approvals). If routing + enablement prep can run in parallel, log a **diamond** segment with merge gate.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` with objective, tasks, dependencies (data, tooling), context passing (scoring configs), error handling, and success metrics (SLA %, acceptance rate, conversion lift).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` with objective, tasks, dependencies (data, tooling), context passing (scoring configs), error handling, and success metrics (SLA %, acceptance rate, conversion lift).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for CRM/MAP script diffs, Context7 for platform docs, Sequential Thinking for review cadence, Playwright for QA of lead forms/sequences.
 - **Guardrails**: Default retry limit = 2 for automation/build failures; escalation ladder = RevOps Director → Sales Manager → CRO.
 - **Review**: Use `docs/usage-guide.md#orchestration-best-practices-puerto-parity` checklist before execution to confirm agents, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /sales-handoff-orchestration:define-handoff --segment enterprise --goal p
 - Handoff design doc (routing matrix, SLA tables, escalation tree).
 - Data + tooling checklist (fields, integrations, automation flows) with owners.
 - Enablement kit request list with due dates.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `revops-director` – leads routing/SLA design.

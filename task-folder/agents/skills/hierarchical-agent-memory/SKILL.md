@@ -12,7 +12,7 @@ Scoped memory system that gives AI coding agents a cheat sheet for each director
 
 ## When to Use This Skill
 
-- Use when you want to reduce input token costs across Claude Code sessions
+- Use when you want to reduce input token costs across the agent sessions
 - Use when your project has 3+ directories and the agent keeps re-reading the same files
 - Use when you want directory-scoped context instead of one monolithic AGENTS.md
 - Use when you want a dashboard to visualize token savings, session history, and context health
@@ -122,7 +122,7 @@ Agent:
 
 - Token estimates use ~4 chars = 1 token approximation, not a real tokenizer
 - Baseline savings comparisons are estimates based on typical agent behavior
-- Dashboard requires Node.js 18+ and reads session data from `~/.claude/projects/`
+- Dashboard requires Node.js 18+ and reads session data from `~/.agents/projects/`
 - Context routing detection relies on AGENTS.md read order in session JSONL files
 - Does not auto-update subdirectory AGENTS.md content — you maintain those manually or via `ham audit`
 - Carbon estimates use regional grid averages, not real-time energy data

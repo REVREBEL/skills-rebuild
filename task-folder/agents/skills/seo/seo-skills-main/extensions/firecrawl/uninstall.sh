@@ -4,11 +4,11 @@ set -euo pipefail
 echo "Removing Firecrawl extension..."
 
 # Remove skill directory
-rm -rf "${HOME}/.claude/skills/seo-firecrawl"
+rm -rf "${HOME}/.agents/skills/seo-firecrawl"
 echo "v Removed skill files"
 
 # Remove MCP entry from settings.json
-SETTINGS_FILE="${HOME}/.claude/settings.json"
+SETTINGS_FILE="${HOME}/.agents/settings.json"
 if [ -f "${SETTINGS_FILE}" ]; then
     python3 -c "
 import json, os

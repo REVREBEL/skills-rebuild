@@ -1,7 +1,7 @@
 # Ahrefs extension setup
 
 Wires the official [`@ahrefs/mcp`](https://www.npmjs.com/package/@ahrefs/mcp)
-server into your Claude Code session so the `seo-ahrefs` skill can call
+server into your the agent session so the `seo-ahrefs` skill can call
 live Ahrefs data.
 
 ## Install
@@ -17,14 +17,14 @@ The installer:
 2. Prompts for your Ahrefs API token (input is hidden).
 3. Pre-warms the `@ahrefs/mcp` npm package via `npx --yes` so the first
    MCP call doesn't spend 10+ seconds downloading.
-4. Copies `skills/seo-ahrefs/SKILL.md` into `~/.claude/skills/seo-ahrefs/`.
-5. Atomically writes `mcpServers.ahrefs` into `~/.claude/settings.json`
+4. Copies `skills/seo-ahrefs/SKILL.md` into `~/.agents/skills/seo-ahrefs/`.
+5. Atomically writes `mcpServers.ahrefs` into `~/.agents/settings.json`
    with your token in the `env` block. The settings file is `chmod 0o600`
    after the merge (same hardening as the OAuth token).
 
 ## Verify
 
-Open a new Claude Code session and ask:
+Open a new the agent session and ask:
 
 ```
 /seo ahrefs metrics https://example.com

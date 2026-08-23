@@ -256,7 +256,7 @@ preview text, and A/B test recommendations regardless of whether Resend is confi
 ### Check for Resend API Key
 
 ```bash
-source ~/.claude/.env.global 2>/dev/null
+source ~/.agents/.env.global 2>/dev/null
 if [ -z "$RESEND_API_KEY" ]; then
   echo "RESEND_API_KEY is not set. A/B test emails will not be sent."
 else
@@ -270,7 +270,7 @@ Use the Resend batch endpoint to send the same email body with different subject
 different segments of your list. Split your recipient list into equal groups:
 
 ```bash
-source ~/.claude/.env.global 2>/dev/null
+source ~/.agents/.env.global 2>/dev/null
 curl -X POST https://api.resend.com/emails/batch \
   -H "Authorization: Bearer ${RESEND_API_KEY}" \
   -H "Content-Type: application/json" \

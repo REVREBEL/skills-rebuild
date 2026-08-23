@@ -48,7 +48,7 @@ Optional sections such as `What This Skill Does`, `Example`, `Tips for Success`,
 | `homepage` | URL | Optional | Skill homepage |
 | `class` | `auditor` | Optional (required for auditor-class) | Marks the skill as a protocol-layer auditor that inlines [auditor-runbook.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/references/auditor-runbook.md). |
 
-Note: `when_to_use` uses underscores (not hyphens). This matches Claude Code's internal parser. Place `allowed-tools` after `argument-hint` and before `metadata` for consistency.
+Note: `when_to_use` uses underscores (not hyphens). This matches the agent's internal parser. Place `allowed-tools` after `argument-hint` and before `metadata` for consistency.
 
 ## Description Standard
 
