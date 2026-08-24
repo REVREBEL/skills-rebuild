@@ -33,7 +33,7 @@ Use this skill when reviewing generated or changed test code before it ships. Ac
 
 These rules are universal, but their application is not. Before reviewing:
 
-1. Check the project's own agent instructions (AGENTS.md, AGENTS.md) and testing docs. Project-specific testing rules win over this skill when they conflict.
+1. Check the project's own agent instructions (AGENTS.md) and testing docs. Project-specific testing rules win over this skill when they conflict.
 2. Identify the test stack, then read the matching reference for concrete patterns:
    - Python / pytest → [references/pytest.md](references/pytest.md)
    - PHP / PHPUnit / Pest / WordPress → [references/phpunit.md](references/phpunit.md)

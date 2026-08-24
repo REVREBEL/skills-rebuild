@@ -248,7 +248,7 @@ lore 的 token 模型有 5 个组件；只有 mirror 文件是 per-session，其
 
 | 组件 | 何时加载 | 典型大小 | per-session？ |
 |---|---|---|---|
-| **Mirror 文件**（AGENTS.md / AGENTS.md 等） | 每次会话启动 | ~500 字节（index mode） | 是 |
+| **Mirror 文件**（AGENTS.md 等） | 每次会话启动 | ~500 字节（index mode） | 是 |
 | **SKILL.md**（lore 自身规范） | 每次用户说 `lore <cmd>` | ~10 KB | 否，per-invocation |
 | **`.lore/SUMMARY.md`** | agent 按需读，作为目录 | 1–30 KB | 否，on demand |
 | **`scopes/<scope>/{ARCH,DEC,CON}.md`** | agent 只读相关 scope | 1–5 KB each | 否，on demand |
@@ -281,7 +281,7 @@ lore 的 token 模型有 5 个组件；只有 mirror 文件是 per-session，其
 
 **Ambient** 知识 = agent 会话启动时已经在上下文里，无需 fetch。**On-demand** 知识 = agent 主动读时才有（`cat [file#ID]`、`lore query <term>`）。
 
-lore 的 mirror 文件（`AGENTS.md`、`AGENTS.md` 等）是 ambient —— agent 每个 session 自动看到。`.lore/` 下所有内容是 on-demand：`SUMMARY.md` 当目录，entry 按需 fetch。
+lore 的 mirror 文件（`AGENTS.md` 等）是 ambient —— agent 每个 session 自动看到。`.lore/` 下所有内容是 on-demand：`SUMMARY.md` 当目录，entry 按需 fetch。
 
 默认是 on-demand。如果你倾向把整个 `SUMMARY.md` 倒进 `CLAUDE.md`（真 ambient），可行但**不推荐** —— 用「会话启动开销」换「零 fetch」。详见 [`references/platform-mirrors.md`](references/platform-mirrors.md)。
 

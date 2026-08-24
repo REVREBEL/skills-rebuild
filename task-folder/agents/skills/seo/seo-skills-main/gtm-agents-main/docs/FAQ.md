@@ -254,7 +254,7 @@ Results are automatically saved in your the agent workspace. You can also:
 - Share with your team
 - No hidden fees or trials
 
-### Do I need a the agent subscription?
+### Do I need an agent subscription?
 You need access to the agent, which has:
 - **Free tier**: Available to everyone
 - **Pro tier**: $20/month for higher limits

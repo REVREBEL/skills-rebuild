@@ -20,12 +20,12 @@ lore has seven workflows. This document explains when to use each one, in plain 
 
 ## `init`
 
-**One-line**: Create `.lore/` and take over your existing `AGENTS.md` / `AGENTS.md`.
+**One-line**: Create `.lore/` and take over your existing `AGENTS.md`.
 
 **When you say it**: "lore init" — once per project, or when adding lore to a project that already has platform files.
 
 **What happens**:
-1. Agent scans for existing platform files (`AGENTS.md`, `AGENTS.md`, `.cursorrules`, etc.)
+1. Agent scans for existing platform files (`AGENTS.md`, `.cursorrules`, etc.)
 2. For each file found, asks you: take over / preserve / abort
 3. Detects monorepo structure (pnpm workspaces, Cargo workspace, etc.) and proposes scope list
 4. Writes initial `.lore/` draft (entries with `#added:<today>` + deterministic IDs)
@@ -153,7 +153,7 @@ The `[file#ID]` reference lets the agent `cat` the file for full text.
 
 ## `mirror`
 
-**One-line**: Regenerate platform files (`AGENTS.md`, `AGENTS.md`, etc.) from current `.lore/`.
+**One-line**: Regenerate platform files (`AGENTS.md`, etc.) from current `.lore/`.
 
 **When you say it**: "lore mirror" — after a batch of syncs, or to manually sync mirrors after editing `.lore/*.md`.
 
@@ -170,7 +170,7 @@ The `[file#ID]` reference lets the agent `cat` the file for full text.
 - "I edited `.lore/SUMMARY.md` manually — propagate to mirrors" → `lore mirror`
 - "Verify the mirror hasn't drifted" → `lore mirror` (no-op reports confirm)
 
-**Output**: Updated `AGENTS.md` / `AGENTS.md` / etc., or "No changes needed" if nothing changed.
+**Output**: Updated `AGENTS.md` / etc., or "No changes needed" if nothing changed.
 
 ---
 

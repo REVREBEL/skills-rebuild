@@ -153,7 +153,7 @@ Write-Host ""
 Write-Host "✓ DataForSEO extension installed successfully!" -ForegroundColor Green
 Write-Host ""
 Write-Host "Usage:" -ForegroundColor Cyan
-Write-Host "  1. Start the agent:  claude"
+Write-Host "  1. Start Claude Code: claude"
 Write-Host "  2. Run commands:"
 Write-Host "     /seo dataforseo serp best coffee shops"
 Write-Host "     /seo dataforseo keywords seo tools"

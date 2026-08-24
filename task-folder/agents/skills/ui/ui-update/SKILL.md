@@ -86,7 +86,7 @@ Compare:
 - `engine/VERSION` (or `version.json`) vs the local copy — the source of truth
 - DESIGN-LANGUAGE.md rule count + Table of Contents
 - Skills present in `.agents/skills/` vs upstream (don't hardcode a count — list the diff)
-- Whether `AGENTS.md`, `AGENTS.md`, and `.cursorrules` exist (ship all three)
+- Whether `AGENTS.md`, and `.cursorrules` exist (ship all three)
 - New engine docs (VISUAL-CRAFT.md, APP-PLAYBOOKS.md, PAGE-TYPES.md)
 
 ### Step 3: Report & Ask

@@ -21,7 +21,7 @@ Default: `3000`. Overrides follow the cascade in `references/dev-server-detectio
 1. `Procfile.dev` `web:` line may contain `-p <n>`
 2. `config/puma.rb` may bind to a non-default port
 3. `.env` / `.env.development` `PORT=<n>`
-4. `AGENTS.md` / `AGENTS.md` project instructions
+4. `AGENTS.md` project instructions
 
 ## Stub generation for `.agents/launch.json`
 

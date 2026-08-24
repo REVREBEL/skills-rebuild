@@ -248,7 +248,7 @@ lore's token model has five components. Only the mirror file is per-session; eve
 
 | Component | Loaded when | Typical size | Per-session? |
 |---|---|---|---|
-| **Mirror file** (AGENTS.md, AGENTS.md, etc.) | Every session start | ~500 bytes (index mode) | yes |
+| **Mirror file** (AGENTS.md, etc.) | Every session start | ~500 bytes (index mode) | yes |
 | **SKILL.md** (the lore spec itself) | Every `lore <cmd>` invocation | ~10 KB | no, per-invocation |
 | **`.lore/SUMMARY.md`** | Agent reads on demand as the table of contents | 1–30 KB | no, on demand |
 | **`scopes/<scope>/{ARCH,DEC,CON}.md`** | Agent reads only the relevant scope | 1–5 KB each | no, on demand |
@@ -281,7 +281,7 @@ Every time you say `lore sync` or `lore query`, the agent loads `SKILL.md` (~10 
 
 **Ambient** knowledge is already in the agent's context at session start — no fetch needed. **On-demand** knowledge is read only when the agent asks (`cat [file#ID]`, `lore query <term>`).
 
-lore's mirror file (`AGENTS.md`, `AGENTS.md`, etc.) is ambient — the agent sees it every session. Everything under `.lore/` is on-demand: `SUMMARY.md` is the table of contents, and entries are fetched when the agent actually needs them.
+lore's mirror file (`AGENTS.md`, etc.) is ambient — the agent sees it every session. Everything under `.lore/` is on-demand: `SUMMARY.md` is the table of contents, and entries are fetched when the agent actually needs them.
 
 Default is on-demand. If you'd rather dump the full `SUMMARY.md` into `CLAUDE.md` every session (true ambient), that works but isn't recommended — it trades session-start cost for zero fetch. See [`references/platform-mirrors.md`](references/platform-mirrors.md) for the index template.
 

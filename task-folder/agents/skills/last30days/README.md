@@ -347,7 +347,7 @@ This example shows how /last30days discovers **viral trends you didn't know exis
 **Generated Prompt:**
 
 ```
-Create a 50-second launch video for "/last30days" - a the agent skill that
+Create a 50-second launch video for "/last30days" - an agent skill that
 researches any topic across Reddit and X from the last 30 days, then writes
 copy-paste-ready prompts.
 
@@ -383,7 +383,7 @@ SCENE 5 (40-50s): Call to Action
 Zoom out slightly. Everything fades except the logo.
 Text animates in: "Research any topic. Get prompts that work."
 GitHub icon + "github.com/mvanhorn/last30days-skill"
-Tagline: "A the agent Skill"
+Tagline: "an agent Skill"
 
 STYLE NOTES:
 - Color palette: Deep purple (#1a1a2e), electric blue (#4361ee), white text

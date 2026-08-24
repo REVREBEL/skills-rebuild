@@ -250,7 +250,7 @@ sendEmail(request: EmailRequest)
 
 **Pattern.** Returning hardcoded success values, fixture data, or empty defaults instead of doing the actual work, then claiming the task is done.
 
-**Source.** Fowler, "Patterns for Reducing Friction" — names "declaring success despite failing tests" and "brute-force fixes." claude-code issue #6984 "Systematic Mock Data Generation Bias". Anthropic the agent best practices explicitly tell agents: no mock implementations.
+**Source.** Fowler, "Patterns for Reducing Friction" — names "declaring success despite failing tests" and "brute-force fixes." claude-code issue #6984 "Systematic Mock Data Generation Bias". Anthropic Claude best practices explicitly tell agents: no mock implementations.
 
 **Bad:**
 ```text

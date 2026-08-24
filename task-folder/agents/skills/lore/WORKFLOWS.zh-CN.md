@@ -20,12 +20,12 @@ lore 有七个工作流。本文用平实语言解释每个什么时候用。Age
 
 ## `init`
 
-**一句话**：建 `.lore/`，接管你已有的 `AGENTS.md` / `AGENTS.md`。
+**一句话**：建 `.lore/`，接管你已有的 `AGENTS.md`。
 
 **怎么用**：`lore init` —— 每个项目 1 次，或老项目第一次接入 lore。
 
 **agent 做什么**：
-1. 扫现有平台文件（`AGENTS.md`、`AGENTS.md`、`.cursorrules` 等）
+1. 扫现有平台文件（`AGENTS.md`、`.cursorrules` 等）
 2. 每个文件问你：接管 / 保留 / 中止
 3. 检测 monorepo 结构（pnpm workspaces、Cargo workspace 等），给 scope 列表
 4. 写初始 `.lore/draft/`（entry 带 `#added:<today>` + 确定性 ID）
@@ -153,7 +153,7 @@ lore 有七个工作流。本文用平实语言解释每个什么时候用。Age
 
 ## `mirror`
 
-**一句话**：从 `.lore/` 重新生成平台文件（`AGENTS.md`、`AGENTS.md` 等）。
+**一句话**：从 `.lore/` 重新生成平台文件（`AGENTS.md` 等）。
 
 **怎么用**：`lore mirror` —— 一批 sync 之后，或手动改过 `.lore/*.md` 想同步到 mirror。
 
@@ -170,7 +170,7 @@ lore 有七个工作流。本文用平实语言解释每个什么时候用。Age
 - 「我手动改过 `.lore/SUMMARY.md` —— 推到 mirror」 → `lore mirror`
 - 「验证 mirror 没漂移」 → `lore mirror`（无变化报告即确认）
 
-**输出**：更新过的 `AGENTS.md` / `AGENTS.md` 等，或「No changes needed」无变化报告。
+**输出**：更新过的 `AGENTS.md` 等，或「No changes needed」无变化报告。
 
 ---
 
