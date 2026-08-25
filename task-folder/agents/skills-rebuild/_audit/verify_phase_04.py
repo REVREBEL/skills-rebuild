@@ -105,13 +105,13 @@ def verify_all():
     print(f"  - Not In Scope (Phase 03 Quarantined): {quarantined}")
     print(f"  - Requires Manual Review: {blockers}")
 
-    assert converted == 399, f"Error: Expected exactly 399 Converted, got {converted}"
+    assert converted == 400, f"Error: Expected exactly 400 Converted, got {converted}"
     assert intrinsic == 14, f"Error: Expected exactly 14 Retained, got {intrinsic}"
-    assert no_change == 1873, f"Error: Expected exactly 1873 Reviewed, got {no_change}"
+    assert no_change == 1872, f"Error: Expected exactly 1872 Reviewed, got {no_change}"
     assert quarantined == 45, f"Error: Expected exactly 45 Quarantined, got {quarantined}"
     assert blockers == 0, f"Error: Expected exactly 0 Blockers, got {blockers}"
     assert converted + intrinsic + no_change + quarantined + blockers == 2331, "Error: Sum of statuses does not match total!"
-    print(" -> PASS: All category reconciliation metrics match perfectly (399 + 14 + 1873 + 45 = 2331).")
+    print(" -> PASS: All category reconciliation metrics match perfectly (400 + 14 + 1872 + 45 = 2331).")
 
     # 4. Check renamed paths physically exist and old paths are gone
     print("[CHECK 3] Renamed Folder Physical State:")
@@ -261,7 +261,12 @@ def verify_all():
                 f"Error: Specified evidence path '{evidence_path}' does not exist on disk for '{r['source_path']}'!"
             )
             # Make sure it's in the repo diff!
-            has_diff = any(cf.startswith(dest + "/") or cf == evidence_path for cf in changed_files)
+            is_dir = os.path.isdir(os.path.join(ROOT_DIR, evidence_path)) or evidence_path.endswith("/")
+            if is_dir:
+                prefix = evidence_path.rstrip("/") + "/"
+                has_diff = any(cf == evidence_path or cf.startswith(prefix) for cf in changed_files)
+            else:
+                has_diff = (evidence_path in changed_files)
             assert has_diff, f"Error: Evidence path '{evidence_path}' is not modified in git diff for '{r['source_path']}'!"
             
         elif evidence_type == "pruned_directory":
@@ -356,6 +361,32 @@ def verify_all():
                     if "source:" in line_lower or "source_repo:" in line_lower or "license_source:" in line_lower:
                         if "linear-skill" in line_lower or "varlock-skill" in line_lower:
                             assert False, f"Semantic Violation: Found modified upstream provenance field '{line.strip()}' on line {line_num} in file: {fp}"
+
+                    # 6. Check for unauthorized proprietary execution environment tools
+                    if not is_url:
+                        if "TodoWrite" in line or "AskUserQuestion" in line:
+                            assert False, f"Semantic Violation: Found unauthorized proprietary environment tool '{line.strip()}' on line {line_num} in file: {fp}"
+
+                    # 7. Check for mechanical API-key duplications
+                    dup_keys = re.search(r"\b(LLM_API_KEY|PROVIDER_API_KEY)\s*[,/|or\-\s]+\s*\1\b", line)
+                    if dup_keys:
+                        assert False, f"Semantic Violation: Found mechanical/duplicate API key pattern '{line.strip()}' on line {line_num} in file: {fp}"
+
+                    # 8. Check for unauthorized provider coupling in Converted (provider-neutral) skills
+                    if not is_url:
+                        is_exempt = any(exempt in fp for exempt in ["weaviate", "last30days", "cred-omega", "computer-use-agents", "visual-asset-adapters.md", "apple-notes-search", "llm-structured-output", "llm-app-patterns", "vercel-ai-sdk-expert", "cloudflare", "mcp-builder", "auri-core", "ai-wrapper-product", "claude-code-cheat-sheet.md", "content-repurposer"])
+                        if not is_exempt:
+                            # Check for unneutralized API keys
+                            if "ANTHROPIC_API_KEY" in line or "OPENAI_API_KEY" in line:
+                                is_key_exempt = any(x in fp for x in ["code-review-ai-ai-review", "performance-testing-review-ai-review", "workflow-automation", "content-repurposer"])
+                                if not is_key_exempt:
+                                    assert False, f"Semantic Violation: Found unneutralized provider API key '{line.strip()}' on line {line_num} in file: {fp}"
+                            
+                            # Check for model locks
+                            model_locks = ["claude-sonnet-", "claude-3-", "claude-opus-", "claude-haiku-"]
+                            for ml in model_locks:
+                                if ml in line_lower:
+                                    assert False, f"Semantic Violation: Found unauthorized model lock '{line.strip()}' on line {line_num} in file: {fp}"
 
     print(f"  - Successfully performed semantic scans on {semantic_scanned_files} files across all Converted skills.")
     print(" -> PASS: Strict semantic validation checks passed successfully with 0 violations found.")

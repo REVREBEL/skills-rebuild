@@ -1,6 +1,6 @@
 ---
 name: auri-core
-description: "Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805). Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise, roadmap 4 fases, GTM, north star WAC e analise competitiva."
+description: "Auri: assistente de voz inteligente (Alexa + modelo-inteligente). Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise, roadmap 4 fases, GTM, north star WAC e analise competitiva."
 risk: none
 source: community
 date_added: '2026-03-06'
@@ -22,7 +22,7 @@ tools:
 
 ## Overview
 
-Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805). Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise, roadmap 4 fases, GTM, north star WAC e analise competitiva.
+Auri: assistente de voz inteligente (Alexa + modelo-inteligente). Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise, roadmap 4 fases, GTM, north star WAC e analise competitiva.
 
 ## When to Use This Skill
 
@@ -163,8 +163,8 @@ StopIntent: tchau, ate mais, encerrar
 ### 3.6 Configuracao Lambda
 
 FunctionName: auri-core-handler | Runtime: python3.12 | Timeout: 15s | Memory: 512MB
-Env vars: ANTHROPIC_API_KEY_SECRET, DYNAMODB_TABLE=auri-user-memory, POLLY_VOICE=Vitoria
-          CLAUDE_MODEL=claude-opus-4-20250805, MAX_TOKENS_VOICE=300
+Env vars: PROVIDER_API_KEY_SECRET, DYNAMODB_TABLE=auri-user-memory, POLLY_VOICE=Vitoria
+          LLM_MODEL=frontier-voice-model, MAX_TOKENS_VOICE=300
 
 ---
 

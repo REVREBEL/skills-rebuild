@@ -343,4 +343,4 @@ Recommendation: [Next steps]
 
 ---
 
-*Orchestration Model: claude-sonnet-4 for strategy, claude-haiku-4-5 for execution*
+*Orchestration Model: llm-smart-model for strategy, llm-fast-model for execution*

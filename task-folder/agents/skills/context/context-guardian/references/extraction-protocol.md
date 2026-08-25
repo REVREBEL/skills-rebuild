@@ -118,7 +118,7 @@ nesta ordem, precedidas por um cabecalho:
 # Context Guardian Snapshot — YYYY-MM-DD HH:MM:SS
 **Sessao**: [identificador ou slug]
 **Projeto**: [nome do projeto]
-**Modelo**: [claude-opus-4-6 etc]
+**Modelo**: [llm-model-utilized etc]
 **Contexto consumido**: ~X% (estimativa)
 
 [Todas as secoes do Passo 1-8]

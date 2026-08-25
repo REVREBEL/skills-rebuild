@@ -205,4 +205,4 @@ Generate qualified leads based on ideal customer profile (ICP) criteria with enr
 
 ---
 
-*Execution model: claude-haiku-4-5 for data processing, claude-sonnet-4 for insights generation*
+*Execution model: llm-fast-model for data processing, llm-smart-model for insights generation*

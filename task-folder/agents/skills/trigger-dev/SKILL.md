@@ -438,7 +438,7 @@ npx trigger.dev@latest env push
 
 # Common missing vars:
 - DATABASE_URL
-- LLM_API_KEY / LLM_API_KEY
+- LLM_API_KEY
 - STRIPE_SECRET_KEY
 - Service API keys
 - Internal service URLs

@@ -332,4 +332,4 @@ CACHE_CONFIG = {
 
 ---
 
-*Execution model: claude-haiku-4-5 for provider routing, parallel processing for bulk operations*
+*Execution model: llm-fast-model for provider routing, parallel processing for bulk operations*

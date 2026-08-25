@@ -15,32 +15,75 @@ from typing import Optional
 import os
 
 
-def check_anthropic():
-    """Check if anthropic is installed and API key is set."""
-    try:
-        import anthropic  # noqa: F401
-        if not os.environ.get('ANTHROPIC_API_KEY'):
-            return False, "ANTHROPIC_API_KEY not set"
-        return True, None
-    except ImportError:
-        return False, "anthropic not installed"
-
-
-def get_client():
-    """Get Anthropic client."""
-    import anthropic
-    return anthropic.Anthropic()
-
-
-def call_claude(prompt: str, max_tokens: int = 4096) -> str:
-    """Call Claude API with prompt."""
-    client = get_client()
-    message = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=max_tokens,
-        messages=[{"role": "user", "content": prompt}]
+def check_environment():
+    """Check if a valid LLM API key and provider are configured."""
+    provider = os.environ.get('LLM_PROVIDER', '').lower()
+    
+    # Auto-detect provider based on available keys
+    if not provider:
+        if os.environ.get('OPENAI_API_KEY'):
+            provider = 'openai'
+        elif os.environ.get('ANTHROPIC_API_KEY'):
+            provider = 'anthropic'
+        elif os.environ.get('GEMINI_API_KEY'):
+            provider = 'gemini'
+        elif os.environ.get('LLM_API_KEY'):
+            provider = 'openai'  # Default to openai format for generic LLM_API_KEY
+            
+    if not provider:
+        provider = 'openai'
+        
+    api_key = (
+        os.environ.get('LLM_API_KEY') or
+        os.environ.get('OPENAI_API_KEY') or
+        os.environ.get('ANTHROPIC_API_KEY') or
+        os.environ.get('GEMINI_API_KEY')
     )
-    return message.content[0].text
+    if not api_key:
+        return False, "No LLM API key set. Please set LLM_API_KEY, OPENAI_API_KEY, ANTHROPIC_API_KEY, or GEMINI_API_KEY."
+        
+    return True, (provider, api_key)
+
+
+def call_llm(prompt: str, max_tokens: int = 4096) -> str:
+    """Call the configured LLM API with prompt."""
+    ok, env_info = check_environment()
+    if not ok:
+        raise ValueError(env_info)
+    provider, api_key = env_info
+    
+    if provider == 'openai':
+        import openai
+        model = os.environ.get('LLM_MODEL', 'gpt-4o-mini')
+        client = openai.OpenAI(api_key=api_key)
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=max_tokens
+        )
+        return response.choices[0].message.content
+        
+    elif provider == 'anthropic':
+        import anthropic
+        model = os.environ.get('LLM_MODEL', 'claude-3-5-sonnet-20241022')
+        client = anthropic.Anthropic(api_key=api_key)
+        message = client.messages.create(
+            model=model,
+            max_tokens=max_tokens,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        return message.content[0].text
+        
+    elif provider == 'gemini':
+        import google.generativeai as genai
+        model_name = os.environ.get('LLM_MODEL', 'gemini-1.5-flash')
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel(model_name)
+        response = model.generate_content(prompt)
+        return response.text
+        
+    else:
+        raise ValueError(f"Unsupported LLM provider: {provider}")
 
 
 FORMATS = ['twitter', 'linkedin', 'instagram', 'quotes', 'hooks', 'summary', 'newsletter']
@@ -50,13 +93,14 @@ STYLES = ['educational', 'inspirational', 'provocative', 'conversational', 'prof
 @click.group()
 def cli():
     """Content Repurposer - Transform content into multiple formats."""
-    ok, error = check_anthropic()
+    ok, error_or_info = check_environment()
     if not ok:
-        click.echo(f"Error: {error}")
-        if "not installed" in error:
-            click.echo("Run: pip install anthropic")
-        else:
-            click.echo("Set: export ANTHROPIC_API_KEY=your_key")
+        click.echo(f"Error: {error_or_info}")
+        click.echo("Please set one of the following:")
+        click.echo("  export LLM_API_KEY=your_key        (for default/OpenAI format)")
+        click.echo("  export OPENAI_API_KEY=your_key     (for OpenAI)")
+        click.echo("  export ANTHROPIC_API_KEY=your_key  (for Anthropic)")
+        click.echo("  export GEMINI_API_KEY=your_key     (for Gemini)")
         raise SystemExit(1)
 
 
@@ -230,7 +274,7 @@ Content:
 
 Output the thread in markdown, each tweet as a paragraph:"""
 
-    return call_claude(prompt)
+    return call_llm(prompt)
 
 
 def generate_linkedin(content: str, style: str) -> str:
@@ -251,7 +295,7 @@ Content:
 
 Output the LinkedIn post:"""
 
-    return call_claude(prompt)
+    return call_llm(prompt)
 
 
 def generate_instagram(content: str, style: str) -> str:
@@ -273,7 +317,7 @@ Content:
 
 Output as numbered slides:"""
 
-    return call_claude(prompt)
+    return call_llm(prompt)
 
 
 def generate_quotes(content: str, style: str, count: int) -> str:
@@ -295,7 +339,7 @@ Content:
 
 Output as numbered quotes:"""
 
-    return call_claude(prompt)
+    return call_llm(prompt)
 
 
 def generate_hooks(content: str, style: str, count: int) -> str:
@@ -316,7 +360,7 @@ Content:
 
 Output {count} numbered hooks, each on its own line:"""
 
-    return call_claude(prompt)
+    return call_llm(prompt)
 
 
 def generate_summary(content: str, style: str) -> str:
@@ -337,7 +381,7 @@ Content:
 
 Output the summary:"""
 
-    return call_claude(prompt)
+    return call_llm(prompt)
 
 
 def generate_newsletter(content: str, style: str) -> str:
@@ -359,7 +403,7 @@ Content:
 
 Output with subject line suggestion first, then content:"""
 
-    return call_claude(prompt)
+    return call_llm(prompt)
 
 
 if __name__ == "__main__":

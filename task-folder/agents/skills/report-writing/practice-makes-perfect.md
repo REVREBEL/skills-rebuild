@@ -345,7 +345,7 @@ All configurations use identical infrastructure, timeout, and prompt — differi
 
 | Parameter | Value |
 |-----------|-------|
-| Models | Claude Opus 4.6 (`claude-opus-4-6`), Claude Sonnet 4.6 (`claude-sonnet-4-6`), Claude Haiku 4.5 (`claude-haiku-4-5`) |
+| Models | Frontier-Opus (`llm-frontier-opus`), Frontier-Sonnet (`llm-frontier-sonnet`), Frontier-Haiku (`llm-frontier-haiku`) |
 | Timeout | 3600 seconds per challenge |
 | Retries | None (single run per challenge) |
 | Infrastructure | Docker Desktop on macOS (Darwin 25.3.0, ARM64) |

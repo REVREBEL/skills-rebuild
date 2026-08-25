@@ -52,10 +52,10 @@ LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt enginee
 
 ## Pipeline De Indexacao
 
-from anthropic import Anthropic
+    import openai
     import chromadb
 
-    client = Anthropic()
+    client = openai.OpenAI()
     chroma = chromadb.PersistentClient(path="./chroma_db")
 
     def chunk_text(text, chunk_size=500, overlap=50):
@@ -91,14 +91,14 @@ def rag_query(query, top_k=5, system=None):
 ---
 
 ".join(context_parts)
-        response = client.messages.create(
-            model="claude-opus-4-20250805", max_tokens=1024,
-            system=system or "Responda baseado no contexto.",
-            messages=[{"role": "user", "content": f"Contexto:
-{context}
-
-{query}"}])
-        return response.content[0].text
+        response = client.chat.completions.create(
+            model="gpt-4o-mini", max_tokens=1024,
+            messages=[
+                {"role": "system", "content": system or "Responda baseado no contexto."},
+                {"role": "user", "content": f"Contexto:\n{context}\n\n{query}"}
+            ]
+        )
+        return response.choices[0].message.content
 
 ---
 
@@ -178,12 +178,12 @@ class SemanticCache:
         def set_cache(self, query, embedding, response):
             self.cache[tuple(embedding)] = (response, query)
 
-## Estimativa De Custos Claude
+## Estimativa De Custos LLM
 
 PRICING = {
-        "claude-opus-4-20250805": {"input": 15.00, "output": 75.00},
-        "claude-sonnet-4-5": {"input": 3.00, "output": 15.00},
-        "claude-haiku-3-5": {"input": 0.80, "output": 4.00},
+        "llm-frontier-opus": {"input": 15.00, "output": 75.00},
+        "llm-frontier-sonnet": {"input": 3.00, "output": 15.00},
+        "llm-frontier-haiku": {"input": 0.80, "output": 4.00},
     }
 
     def estimate_monthly_cost(model, avg_input, avg_output, req_per_day):
@@ -196,8 +196,8 @@ PRICING = {
 
 ## Framework De Avaliacao
 
-from anthropic import Anthropic
-    client = Anthropic()
+    import openai
+    client = openai.OpenAI()
 
     def evaluate_response(question, expected, actual, criteria):
         criteria_text = "
@@ -217,12 +217,12 @@ Criterios:
 "
             "Nota 0-10 e justificativa para cada criterio. Formato JSON."
         )
-        response = client.messages.create(
-            model="claude-haiku-3-5", max_tokens=1024,
+        response = client.chat.completions.create(
+            model="gpt-4o-mini", max_tokens=1024,
             messages=[{"role": "user", "content": eval_prompt}]
         )
         import json
-        return json.loads(response.content[0].text)
+        return json.loads(response.choices[0].message.content)
 
     AURI_EVALS = [
         {

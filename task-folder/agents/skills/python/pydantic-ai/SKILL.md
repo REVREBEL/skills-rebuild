@@ -46,7 +46,7 @@ from pydantic_ai import Agent
 
 # Simple agent — returns a plain string
 agent = Agent(
-    'anthropic:claude-sonnet-4-6',
+    'openai:gpt-4o-mini',
     system_prompt='You are a helpful assistant. Be concise.',
 )
 
@@ -95,7 +95,7 @@ class WeatherReport(BaseModel):
     condition: str
 
 weather_agent = Agent(
-    'anthropic:claude-sonnet-4-6',
+    'openai:gpt-4o-mini',
     result_type=WeatherReport,
     system_prompt='Get current weather for the requested city.',
 )
@@ -195,7 +195,7 @@ with agent.override(model=FunctionModel(my_model)):
 import asyncio
 from pydantic_ai import Agent
 
-agent = Agent('anthropic:claude-sonnet-4-6')
+agent = Agent('openai:gpt-4o-mini')
 
 async def stream_response():
     async with agent.run_stream('Write a haiku about Python') as result:
@@ -240,7 +240,7 @@ class CodeReview(BaseModel):
     approved: bool
 
 code_review_agent = Agent(
-    'anthropic:claude-sonnet-4-6',
+    'openai:gpt-4o-mini',
     result_type=CodeReview,
     system_prompt="""
     You are a senior engineer performing code review.
@@ -294,7 +294,7 @@ class BlogPost(BaseModel):
     meta_description: str
 
 researcher = Agent('openai:gpt-4o', result_type=ResearchSummary)
-writer = Agent('anthropic:claude-sonnet-4-6', result_type=BlogPost)
+writer = Agent('openai:gpt-4o-mini', result_type=BlogPost)
 
 async def research_and_write(topic: str) -> BlogPost:
     # Stage 1: research
@@ -322,7 +322,7 @@ async def research_and_write(topic: str) -> BlogPost:
 
 ## Security & Safety Notes
 
-- Set API keys via environment variables (`LLM_API_KEY`, `LLM_API_KEY`, etc.) — never hardcode them.
+- Set API keys via environment variables (`LLM_API_KEY`, etc.) — never hardcode them.
 - Validate all tool inputs before passing to external systems — use Pydantic models or manual checks.
 - Tools that mutate data (write to DB, send emails, call payment APIs) should require explicit user confirmation before the agent invokes them in production.
 - Log `result.all_messages()` for audit trails when agents perform consequential actions.

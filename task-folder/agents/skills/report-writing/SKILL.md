@@ -130,7 +130,7 @@ Period: Last 100 events
 ## Events by Model
 gpt-4o          ████████████████████████████████████ 45
 gpt-4o-mini     ██████████████████████ 28
-claude-3-5      ████████████████ 20
+llm-smart-model ████████████████ 20
 gpt-3.5-turbo   █████ 7
 
 ## Events by Agent
@@ -331,7 +331,7 @@ Restricted    █ 3
 |------|-------|-------|-------|
 | 10:23 | data-export | 8.5 | gpt-4o |
 | 09:15 | chat-support | 7.2 | gpt-4o |
-| 08:42 | code-assist | 7.0 | claude-3-5 |
+| 08:42 | code-assist | 7.0 | llm-smart-model |
 ```
 
 ---
@@ -543,7 +543,7 @@ Example output:
 ```
 gpt-4o           ████████████████████████████████████████ 45
 gpt-4o-mini      █████████████████████████ 28
-claude-3-5       ██████████████████ 20
+llm-smart-model  ██████████████████ 20
 ```
 
 ### Percentage Bar

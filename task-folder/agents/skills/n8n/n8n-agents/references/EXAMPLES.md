@@ -43,7 +43,7 @@ A reusable agent sub-workflow: `chatInput` + `threadId` in, agent output out. Me
       "name": "AI Agent"
     },
     {
-      "parameters": { "model": "anthropic/claude-opus-4.6", "options": { "temperature": 0.1 } },
+      "parameters": { "model": "openai/gpt-4o-mini", "options": { "temperature": 0.1 } },
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
       "typeVersion": 1,
       "position": [-288, 192],
@@ -116,7 +116,7 @@ A reusable agent sub-workflow: `chatInput` + `threadId` in, agent output out. Me
       "name": "Structured Output Parser (Block Kit)"
     },
     {
-      "parameters": { "model": "anthropic/claude-sonnet-4.6", "options": { "temperature": 0 } },
+      "parameters": { "model": "openai/gpt-4o-mini", "options": { "temperature": 0 } },
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
       "typeVersion": 1,
       "position": [620, 336],
@@ -356,7 +356,7 @@ A specialist sub-agent called via `.toolWorkflow` from the core. It fetches its 
       "name": "AI Agent"
     },
     {
-      "parameters": { "model": "anthropic/claude-haiku-4.6", "options": { "temperature": 0.1 } },
+      "parameters": { "model": "openai/gpt-4o-mini", "options": { "temperature": 0.1 } },
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
       "typeVersion": 1,
       "position": [112, 256],
@@ -417,7 +417,7 @@ A specialist sub-agent called via `.toolWorkflow` from the core. It fetches its 
 What to notice:
 
 - **Fresh schema injection**: `Get a database` runs **before** the agent (on `main`), and its `properties` are templated into the system prompt with `.toJsonString()`. The sub-agent never operates on a stale schema, so it can't pick a select option that was renamed last week.
-- **Cheaper model** (`claude-haiku-4.6`) than the router — a focused single-domain agent doesn't need the orchestrator's model.
+- **Cheaper model** (`llm-fast-model`) than the router — a focused single-domain agent doesn't need the orchestrator's model.
 - **Stateless contract** restated in the system prompt — matching the tool description on the core side.
 - **`maxIterations: 15`** — fine for a focused sub-agent (vs 50 on the broad router).
 - The `Status|status` / `Type|select` key shape is Notion's `Name|type` convention; match the live schema.
