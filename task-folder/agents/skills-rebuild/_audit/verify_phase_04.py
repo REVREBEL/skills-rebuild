@@ -67,6 +67,53 @@ def link_existed_in_baseline(file_path, link_target, merge_base_sha):
     except Exception:
         return False
 
+def parse_frontmatter_compatibility(filepath):
+    if not os.path.exists(filepath):
+        return None
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+        if not lines or not lines[0].strip() == "---":
+            return None
+        
+        comp_lines = []
+        is_block_scalar = False
+        block_indent = None
+        
+        for line in lines[1:]:
+            trimmed = line.strip()
+            if trimmed == "---":
+                break
+                
+            if is_block_scalar:
+                if line.strip() == "":
+                    comp_lines.append("")
+                    continue
+                line_indent = len(line) - len(line.lstrip())
+                if block_indent is None:
+                    block_indent = line_indent
+                if line_indent >= block_indent:
+                    comp_lines.append(line.strip())
+                else:
+                    break
+                continue
+                
+            match = re.match(r"^compatibility\s*:\s*(.*)$", line, re.IGNORECASE)
+            if match:
+                val = match.group(1).strip()
+                if val in ("|", ">", "|-\n", ">-\n", "|-", ">-"):
+                    is_block_scalar = True
+                else:
+                    if (val.startswith('"') and val.endswith('"')) or (val.startswith("'") and val.endswith("'")):
+                        val = val[1:-1].strip()
+                    return val
+                    
+        if comp_lines:
+            return " ".join(comp_lines).strip()
+    except Exception:
+        pass
+    return None
+
 def verify_all():
     print("=== STARTING PHASE 04 RECONCILIATION VALIDATION ===")
     
@@ -397,6 +444,61 @@ def verify_all():
 
     print(f"  - Successfully performed semantic scans on {semantic_scanned_files} files across all Converted skills.")
     print(" -> PASS: Strict semantic validation checks passed successfully with 0 violations found.")
+
+    # 10. Check 9: Retained Compatibility and Frontmatter Reconciliation
+    print("[CHECK 9] Retained Compatibility and Frontmatter Reconciliation:")
+    REPORT_PATH = "task-folder/agents/skills-rebuild/_audit/provider-conversion-report.md"
+    assert os.path.exists(REPORT_PATH), f"Error: Report missing at {REPORT_PATH}"
+    with open(REPORT_PATH, "r", encoding="utf-8") as rf:
+        report_content = rf.read()
+    
+    assert "## 6. Per-Skill Conversion Ledger" in report_content, "Error: Per-Skill Conversion Ledger missing in report!"
+    ledger_section = report_content.split("## 6. Per-Skill Conversion Ledger")[1].strip()
+    
+    table_started = False
+    headers = []
+    reconciled_count = 0
+    
+    for line in ledger_section.splitlines():
+        if "|" in line:
+            parts = [p.strip() for p in line.split("|")[1:-1]]
+            if not parts:
+                continue
+            if "Source Skill" in parts:
+                headers = parts
+                table_started = True
+                continue
+            if table_started and parts[0].startswith(":---"):
+                continue
+                
+            if table_started:
+                row_dict = dict(zip(headers, parts))
+                src_skill = row_dict.get("Source Skill", "").replace("\\|", "|")
+                retained_comp = row_dict.get("Retained Compatibility Requirements", "")
+                
+                # Reconcile against physical file compatibility declaration
+                full_path = os.path.join(ROOT_DIR, src_skill)
+                fm_comp = None
+                if os.path.isdir(full_path):
+                    skill_md = os.path.join(full_path, "SKILL.md")
+                    if os.path.exists(skill_md):
+                        fm_comp = parse_frontmatter_compatibility(skill_md)
+                    else:
+                        for file in os.listdir(full_path):
+                            if file.endswith(".md"):
+                                fm_comp = parse_frontmatter_compatibility(os.path.join(full_path, file))
+                                if fm_comp:
+                                    break
+                
+                expected_fm_comp = fm_comp or "None"
+                assert retained_comp == expected_fm_comp, (
+                    f"Error: Ledger lists Retained Compatibility as '{retained_comp}' for '{src_skill}', "
+                    f"but its physical frontmatter compatibility is '{expected_fm_comp}'!"
+                )
+                reconciled_count += 1
+                
+    print(f"  - Successfully reconciled all {reconciled_count} ledger rows against physical compatibility: declarations.")
+    print(" -> PASS: Every non-None retained compatibility requirement reconciles to an explicit final compatibility: declaration.")
 
     print("\n=== ALL PHASE 04 RECONCILIATION VALIDATIONS PASSED! CONGRATULATIONS! ===")
 
