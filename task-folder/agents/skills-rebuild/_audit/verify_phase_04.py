@@ -148,11 +148,13 @@ def verify_all():
 
     print(f"  - Scanning {len(changed_files)} files for workstation path leakages (including skills-inventory.csv and .github)...")
     
-    # List of precise absolute path patterns (macOS case-sensitive, Windows case-insensitive)
     patterns = [
-        re.compile(r"/Users/(?!name/|user/|yourname|username|alice|bob|api/|v1/)[a-zA-Z0-9_][a-zA-Z0-9_\-\.]{1,}(?=/|$)"),
-        re.compile(r"C:\\Users\\[a-zA-Z0-9_][a-zA-Z0-9_\-\.]{1,}", re.IGNORECASE),
-        re.compile(r"file:///Users/(?!name|user|yourname|username|alice|bob)[a-zA-Z0-9_][a-zA-Z0-9_\-\.]{1,}")
+        re.compile(r"/Users/(?!name/|user/|agent/|vscode/|gitpod/|runner/|ubuntu/|opuser/|youruser/|yourname|username|alice|bob|api/|v1/)[a-zA-Z0-9_][a-zA-Z0-9_\-\.]{1,}(?=/|$)"),
+        re.compile(r"/home/(?!name/|user/|agent/|vscode/|gitpod/|runner/|ubuntu/|opuser/|youruser/|yourname|username|alice|bob|api/|v1/)[a-zA-Z0-9_][a-zA-Z0-9_\-\.]{1,}(?=/|$)"),
+        re.compile(r"[a-zA-Z]:\\Users\\(?!name\\|user\\|agent\\|vscode\\|gitpod\\|runner\\|ubuntu\\|opuser\\|youruser\\|yourname|username|alice|bob)[a-zA-Z0-9_][a-zA-Z0-9_\-\.]{1,}", re.IGNORECASE),
+        re.compile(r"file:///Users/(?!name|user|agent|vscode|gitpod|runner|ubuntu|opuser|youruser|yourname|username|alice|bob)[a-zA-Z0-9_][a-zA-Z0-9_\-\.]{1,}"),
+        re.compile(r"file:///home/(?!name|user|agent|vscode|gitpod|runner|ubuntu|opuser|youruser|yourname|username|alice|bob)[a-zA-Z0-9_][a-zA-Z0-9_\-\.]{1,}"),
+        re.compile(r"\\\\[a-zA-Z0-9_\-\.]{2,}\\[a-zA-Z0-9_\-\.\$]{1,}")
     ]
     
     portability_scanned = 0
