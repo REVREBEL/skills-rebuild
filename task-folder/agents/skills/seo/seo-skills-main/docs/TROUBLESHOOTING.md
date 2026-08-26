@@ -188,11 +188,11 @@ To see detailed output, check the agent's internal logs or run scripts directly:
 
 ```bash
 # Test fetch
-python3 ~/.claude/skills/seo/scripts/fetch_page.py https://example.com
+python3 ~/.agents/skills/seo/scripts/fetch_page.py https://example.com
 
 # Test parse
 python3 ~/.agents/skills/seo/scripts/parse_html.py page.html --json
 
 # Test screenshot
-python3 ~/.claude/skills/seo/scripts/capture_screenshot.py https://example.com
+python3 ~/.agents/skills/seo/scripts/capture_screenshot.py https://example.com
 ```
