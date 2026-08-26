@@ -29,7 +29,7 @@
   python scripts/smoke_test_plugins.py     # Smoke test passed for 67 plugin(s)
   ```
 - **Documentation QA** – Spot-checked key artifacts for parity:
-  - `docs/plugin-reference.md`, `docs/agent-reference.md`, and `docs/business-skills.md` regenerated from `.claude-plugin/marketplace.json` to confirm 67 plugins, 203 agents (Haiku/Sonnet mix), and 112 skills align with README promises.
+  - `docs/plugin-reference.md`, `docs/agent-reference.md`, and `docs/business-skills.md` regenerated from `.agents-plugin/marketplace.json` to confirm 67 plugins, 203 agents (Haiku/Sonnet mix), and 112 skills align with README promises.
   - `docs/usage-guide.md` verified for live command examples + orchestrator tables, ensuring progressive disclosure guidance remains current.
 - **Maintenance Cadence Confirmation** – Weekly validator/smoke cadence reaffirmed; monthly doc refresh scheduled for first business day of each month with cross-links to catalog tracker. Governance review set quarterly (next due 2026-02-15) per remediation plan Section 6.
 

@@ -23,9 +23,9 @@ Use `adaptive-scorer.py` to compute brand-specific weights before scoring conten
 
 ### 3. Campaign Memory
 Every campaign plan, performance snapshot, and marketing decision is saved to the brand's directory:
-- `~/.claude-marketing/brands/{slug}/campaigns/` — Campaign plans and results
-- `~/.claude-marketing/brands/{slug}/performance/` — Performance snapshots over time
-- `~/.claude-marketing/brands/{slug}/insights.json` — Marketing learnings and observations
+- `~/.agents-marketing/brands/{slug}/campaigns/` — Campaign plans and results
+- `~/.agents-marketing/brands/{slug}/performance/` — Performance snapshots over time
+- `~/.agents-marketing/brands/{slug}/insights.json` — Marketing learnings and observations
 
 Use `campaign-tracker.py` to save and retrieve campaign data.
 

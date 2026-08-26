@@ -40,4 +40,3 @@ description: Use when tailoring content formats, hooks, and publishing mechanics
 - Use A/B hooks every week to keep prospecting fresh while respecting each platform’s etiquette.
 
 ---
-

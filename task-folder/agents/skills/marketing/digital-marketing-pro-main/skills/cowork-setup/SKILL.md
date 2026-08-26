@@ -11,7 +11,7 @@ The one-time setup that makes Digital Marketing Pro persistent in Cowork by a te
 
 ## Why this skill exists
 
-Cowork is the friendliest Anthropic surface for marketers — agency teams, in-house marketers, growth ops — who don't live in a terminal. The natural team workflow is "everyone uses Cowork; brand state and outputs live in our shared Drive". But DMP's filesystem layer was designed for local Claude Code (writes to `~/.claude-marketing/` on the host machine). In Cowork that path is the per-session Linux sandbox — vanishes at session end, invisible to the team.
+Cowork is the friendliest Anthropic surface for marketers — agency teams, in-house marketers, growth ops — who don't live in a terminal. The natural team workflow is "everyone uses Cowork; brand state and outputs live in our shared Drive". But DMP's filesystem layer was designed for local the agent (writes to `~/.agents-marketing/` on the host machine). In Cowork that path is the per-session Linux sandbox — vanishes at session end, invisible to the team.
 
 **`${CLAUDE_PLUGIN_DATA}` does not help here either.** Anthropic's plugin docs describe it as the persistent per-plugin storage path. In Cowork it resolves to a session-scoped VM mount that disappears the same way (open: [claude-code#51398](https://github.com/anthropics/claude-code/issues/51398)). Every OAuth-backed MCP plugin hits the same wall.
 
@@ -31,7 +31,7 @@ Parse the JSON. Three branches:
 
 **`environment == "claude-code-windows"` / `"-mac"` / `"-linux"`** — Tell the user:
 
-> "You're running in local Claude Code, not Cowork. The Cowork-specific Drive routing isn't needed here — brand state at `~/.claude-marketing/` persists on your host as designed. If you ALSO want Drive backups for team sharing, you can run this skill anyway and it'll mirror state to Drive as a backup. Want to proceed?"
+> "You're running in local the agent, not Cowork. The Cowork-specific Drive routing isn't needed here — brand state at `~/.agents-marketing/` persists on your host as designed. If you ALSO want Drive backups for team sharing, you can run this skill anyway and it'll mirror state to Drive as a backup. Want to proceed?"
 
 Only proceed if the user confirms.
 
@@ -107,7 +107,7 @@ python scripts/drive-sync-state.py --action write-config --data '{
 }'
 ```
 
-The script writes to `~/.claude-marketing/_cowork-config.json` and adds a `configured_at` timestamp automatically.
+The script writes to `~/.agents-marketing/_cowork-config.json` and adds a `configured_at` timestamp automatically.
 
 Future Cowork sessions: every DMP operation (`brand-setup`, `status`, `seo-audit`, `campaign-plan`, etc.) reads this config first. If it exists AND the Drive folder still exists, all I/O routes to that root. If a different team picked a different folder name, their config lives at the same path but points elsewhere — no collision.
 
@@ -127,7 +127,7 @@ Digital Marketing Pro is now wired for Cowork team usage:
 Environment:           Cowork sandbox (Linux)
 Drive integration:     <name>
 Output root in Drive:  My Drive/<folder name> (link)
-Config saved at:       ~/.claude-marketing/_cowork-config.json
+Config saved at:       ~/.agents-marketing/_cowork-config.json
 
 What this means in practice:
 
@@ -155,7 +155,7 @@ If `--brand <name>` was passed, automatically launch `/digital-marketing-pro:bra
 
 ## How the Cowork-aware skills use this config
 
-When the routing is configured, brand-setup writes locally to `~/.claude-marketing/{brand}/profile.json` AND records a pending Drive upload via `drive-sync-state.py --action add-pending-upload`. The agent then reads the pending list and uses its Drive MCP to push the file to `<root>/_brands/{brand}/profile.json`. On a future Cowork session, the agent reverses this: it reads `_cowork-config.json`, sees the team's Drive root, downloads `<root>/_brands/{brand}/profile.json` to the local sandbox, and marks it `profile-mark-downloaded` so the local hash matches the Drive copy.
+When the routing is configured, brand-setup writes locally to `~/.agents-marketing/{brand}/profile.json` AND records a pending Drive upload via `drive-sync-state.py --action add-pending-upload`. The agent then reads the pending list and uses its Drive MCP to push the file to `<root>/_brands/{brand}/profile.json`. On a future Cowork session, the agent reverses this: it reads `_cowork-config.json`, sees the team's Drive root, downloads `<root>/_brands/{brand}/profile.json` to the local sandbox, and marks it `profile-mark-downloaded` so the local hash matches the Drive copy.
 
 Concretely: after every state-mutating DMP operation, the agent runs:
 
@@ -167,7 +167,7 @@ If `needs_upload: true`, the agent uses its Drive MCP to upload the file and the
 
 ## What this skill does NOT do
 
-- It does not change DMP's behavior in local Claude Code (where host filesystem is fine).
+- It does not change DMP's behavior in local the agent (where host filesystem is fine).
 - It does not migrate existing local-mode brands to Drive. To do that after the fact: re-run `/digital-marketing-pro:brand-setup "<brand>"` in Cowork after this skill finishes — the brand-setup skill will upload the local profile to Drive.
 - It does not create a service-account JSON. Cowork-mode uses the MCP path exclusively (no Google Cloud setup needed).
 - It does not check whether your Drive has enough space. Brand profiles + plans are tiny (<100KB typical), so this is rarely a concern, but flag it if you hit a quota error during a real run.

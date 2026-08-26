@@ -17,7 +17,7 @@ usage: /partner-co-marketing-orchestration:track-source --campaign "AI Launch To
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Tracking/reporting usually runs **pipeline** (gather → normalize → attribute → insights → reporting). If normalization + attribution can run in parallel (separate partners), log a **diamond** segment with merge gate.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` with campaign, data sources, task IDs, dependency graph (CRM, MAP, analytics), error handling, and success metrics (attribution confidence, SLA adherence, partner satisfaction).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` with campaign, data sources, task IDs, dependency graph (CRM, MAP, analytics), error handling, and success metrics (attribution confidence, SLA adherence, partner satisfaction).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for data model diffs, Context7 for partner taxonomy docs, Sequential Thinking for readout cadence, Playwright for dashboard QA if embedded.
 - **Guardrails**: Default retry limit = 2 for failed data pulls or reconciliation mismatches; escalation ladder = Co-marketing Analytics Lead → RevOps/Finance partners → Exec sponsors.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm agents, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /partner-co-marketing-orchestration:track-source --campaign "AI Launch To
 - Attribution dashboard snapshot with partner/source breakdown.
 - Revenue/pipeline contribution table vs targets.
 - Optimization action list referencing asset or channel adjustments.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `co-marketing-analytics-lead` – validates data + insights.

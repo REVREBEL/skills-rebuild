@@ -151,7 +151,7 @@ git clone https://github.com/Hanyuyuan6/remote-gpu-trainer.git ~/.claude/skills/
 **OpenAI Codex**
 
 ```bash
-git clone https://github.com/Hanyuyuan6/remote-gpu-trainer.git ~/.agents/skills/remote-gpu-trainer
+git clone https://github.com/Hanyuyuan6/remote-gpu-trainer.git ~/.codex/skills/remote-gpu-trainer
 ```
 
 **Cursor · Trae · Gemini CLI · VS Code / Copilot · Goose · Kiro · other compatible agents**

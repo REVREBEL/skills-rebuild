@@ -17,7 +17,7 @@ usage: /customer-journey-orchestration:map-journey --persona "IT Director" --sco
 > Based on GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Journey mapping typically runs **pipeline** (discovery → workshop → evidence → gaps → synthesis). If workshop activities can split (e.g., persona + channel subgroups), log a **diamond** segment with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing persona, scope, task IDs, parallel groups, dependency graph (research, CX ops, product), error handling, and success metrics (gap closure %, NPS uplift, time-to-resolution).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing persona, scope, task IDs, parallel groups, dependency graph (research, CX ops, product), error handling, and success metrics (gap closure %, NPS uplift, time-to-resolution).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for instrumentation diffs, Context7 for VOC/support docs, Sequential Thinking for facilitation prompts, Playwright for QA on journey prototypes if needed.
 - **Guardrails**: Default retry limit = 2 for evidence gaps or facilitation blockers; escalation ladder = CX Strategist → Journey Ops Owner → CCO/CS leadership.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm facilitators, dependencies, and deliverables.
@@ -33,7 +33,7 @@ usage: /customer-journey-orchestration:map-journey --persona "IT Director" --sco
 - Journey map (diagram + table) with stages, touchpoints, emotions, KPIs, and owners.
 - Gap log referencing supporting data and potential solutions.
 - Stakeholder recap with action items and next steps.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `cx-strategist` – leads facilitation and synthesis.

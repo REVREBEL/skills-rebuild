@@ -17,7 +17,7 @@ usage: /personalization-engine:configure-rules --initiative "PLG Onboarding" --e
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Rule configuration generally runs **pipeline** (pre-flight → decision build → variant mapping → QA → deployment). If decision build + variant prep happen in parallel, note a **diamond** block with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing initiative, environments, dependency graph (data eng, creative, QA, governance), error handling, and success metrics (latency, personalization lift, incident count).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing initiative, environments, dependency graph (data eng, creative, QA, governance), error handling, and success metrics (latency, personalization lift, incident count).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for rule diffing, Context7 for platform SOPs, Sequential Thinking for go/no-go reviews, Playwright for simulation/QA evidence capture.
 - **Guardrails**: Default retry limit = 2 for deployment/QA failures; escalation ladder = Personalization Architect → Data Privacy Lead → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before deployment to confirm dependencies + approvals.
@@ -33,7 +33,7 @@ usage: /personalization-engine:configure-rules --initiative "PLG Onboarding" --e
 - Deployment runbook with rule IDs, version numbers, and rollback plan.
 - QA evidence (simulation results, screenshots, payload logs).
 - Governance log including approvers, timestamps, and linked experiments.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `customer-data-engineer` – ensures data pipelines and environments are ready.

@@ -1,6 +1,6 @@
 """
 memory_manager.py — Reinforcement Learning Memory Manager for LinkedIn Content Skill.
-Resolves memory.md relative to this script's location (inside .claude/skills/scripts/).
+Resolves memory.md relative to this script's location (inside .agents/skills/scripts/).
 
 Commands:
   python memory_manager.py add   --id <id> --feedback <text> [--tags <tags>]

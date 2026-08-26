@@ -500,8 +500,8 @@ Would you like me to adjust anything in the itinerary?
 ## Technical Notes
 
 **Data Storage:**
-- Preferences: `~/.claude/travel_planner/preferences.json`
-- Trips: `~/.claude/travel_planner/trips.json`
+- Preferences: `~/.agents/travel_planner/preferences.json`
+- Trips: `~/.agents/travel_planner/trips.json`
 
 **CLI Commands:**
 ```bash

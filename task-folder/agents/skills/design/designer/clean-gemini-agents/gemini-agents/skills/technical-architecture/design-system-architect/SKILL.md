@@ -40,7 +40,7 @@ skills:
 hooks:
   PreToolUse:
     - matcher: "Bash"
-      command: "${CLAUDE_PLUGIN_ROOT}/hooks/bin/run-hook.mjs pretool/bash/dangerous-command-blocker"
+      command: "${SKILL_ROOT}/hooks/bin/run-hook.mjs pretool/bash/dangerous-command-blocker"
 mcpServers: [context7, stitch, storybook-mcp]
 taskTypes:
   - design
@@ -441,7 +441,7 @@ Action: Build real token infrastructure with:
 `npm run build:tokens` → Open Storybook → Toggle dark mode → Verify all tokens resolve → Run contrast audit
 
 ## Context Protocol
-- Before: Read `.claude/context/session/state.json and .claude/context/knowledge/decisions/active.json`
+- Before: Read `.agents/context/session/state.json and .agents/context/knowledge/decisions/active.json`
 - During: Update `agent_decisions.design-system-architect` with decisions
 - After: Add to `tasks_completed`, save context
 - After implementation, invoke `code-quality-reviewer` subagent for validation
@@ -456,6 +456,6 @@ Action: Build real token infrastructure with:
 
 ## Status Protocol
 
-Report using the standardized status protocol. Load: `Read("${CLAUDE_PLUGIN_ROOT}/agents/shared/status-protocol.md")`.
+Report using the standardized status protocol. Load: `Read("${SKILL_ROOT}/agents/shared/status-protocol.md")`.
 
 Your final output MUST include a `status` field: **DONE**, **DONE_WITH_CONCERNS**, **BLOCKED**, or **NEEDS_CONTEXT**. Never report DONE if you have concerns. Never silently produce work you are unsure about.

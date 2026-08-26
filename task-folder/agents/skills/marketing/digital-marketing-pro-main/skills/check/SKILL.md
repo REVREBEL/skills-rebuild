@@ -112,7 +112,7 @@ Validates the content matches the structural requirements of the named schema. A
 /digital-marketing-pro:check <file-path> --brand acme
 ```
 
-Scores the content against the brand voice profile at `~/.claude-marketing/brands/acme/profile.json`. Reports per-dimension breakdown (formality, energy, humor, authority) plus deviation from prefer/avoid word lists.
+Scores the content against the brand voice profile at `~/.agents-marketing/brands/acme/profile.json`. Reports per-dimension breakdown (formality, energy, humor, authority) plus deviation from prefer/avoid word lists.
 
 ## Output format
 
@@ -148,11 +148,11 @@ If any CRITICAL issue is found, decision = **BLOCKED** and the user is asked to 
 The skill follows this flow:
 
 1. **Resolve the input.** If the user passed a file path, read it. If they passed inline content, use it.
-2. **Resolve options.** If `--brand` not specified, attempt to load from active brand at `~/.claude-marketing/brands/_active-brand.json`. If `--schema` not specified, infer from content type if obvious (blog markdown → `blog_post`, etc.) or skip structure check.
+2. **Resolve options.** If `--brand` not specified, attempt to load from active brand at `~/.agents-marketing/brands/_active-brand.json`. If `--schema` not specified, infer from content type if obvious (blog markdown → `blog_post`, etc.) or skip structure check.
 3. **Build the eval-runner command.** Choose action: `run-quick` (default), `run-full` (with `--full`), `run-compliance` (with `--compliance`).
 4. **Execute via Bash.**
    ```
-   python ${CLAUDE_PLUGIN_ROOT}/scripts/eval-runner.py --action run-quick --file <input> [--brand <slug>] [--evidence <path>] [--schema <name>]
+   python ${SKILL_ROOT}/scripts/eval-runner.py --action run-quick --file <input> [--brand <slug>] [--evidence <path>] [--schema <name>]
    ```
 5. **Parse the JSON output.** Extract composite score, grade, dimension scores, alerts, auto-reject decision.
 6. **Format for the user.** Present the human-readable report shown above. Lead with the decision (PASS / WARN / BLOCKED).
@@ -262,7 +262,7 @@ Skill:
 1. **Never report PASS if there are CRITICAL issues.** Always BLOCKED.
 2. **Always report the composite score and grade.** Even if PASS, surface room for improvement.
 3. **Always include actionable suggestions.** Each issue must be paired with a fix recommendation.
-4. **Resolve the active brand if not specified.** Check `~/.claude-marketing/brands/_active-brand.json`. If no active brand, run without `--brand` (skip brand voice dimension).
+4. **Resolve the active brand if not specified.** Check `~/.agents-marketing/brands/_active-brand.json`. If no active brand, run without `--brand` (skip brand voice dimension).
 5. **Never modify the content.** This skill only reports — the user (or the agent that produced the content) makes the fix.
 6. **Surface skipped dimensions explicitly.** If the user did not provide `--evidence` or `--schema`, note that the corresponding dimensions were skipped.
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Lightweight smoke test for Claude GTM plugin assets.
 
-This script loads `.claude-plugin/marketplace.json`, iterates over every plugin,
+This script loads `.agents-plugin/marketplace.json`, iterates over every plugin,
 reads each referenced agent/command/skill file, and reports any missing or empty
 content. It is intentionally simple so it can be wired into CI alongside the
 existing schema validator.
@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Iterable, List, Tuple
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-MARKETPLACE_PATH = REPO_ROOT / ".claude-plugin" / "marketplace.json"
+MARKETPLACE_PATH = REPO_ROOT / ".agents-plugin" / "marketplace.json"
 
 
 def resolve_component_path(plugin_source: str, rel_path: str) -> Path:

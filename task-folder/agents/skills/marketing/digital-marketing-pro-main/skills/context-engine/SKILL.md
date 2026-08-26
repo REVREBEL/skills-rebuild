@@ -16,7 +16,7 @@ argument-hint: "[brand-slug]"
 ## Required Context
 
 This skill loads and manages:
-1. **Brand Profile** — identity, voice, audiences, competitors, goals (from `~/.claude-marketing/brands/`)
+1. **Brand Profile** — identity, voice, audiences, competitors, goals (from `~/.agents-marketing/brands/`)
 2. **Industry Profiles** — benchmarks, KPIs, channel effectiveness per industry (see `industry-profiles.md`)
 3. **Compliance Rules** — geographic privacy laws + industry regulations (see `compliance-rules.md`)
 4. **Platform Specs** — character limits, image sizes, algorithm signals per platform (see `platform-specs.md`)
@@ -26,8 +26,8 @@ This skill loads and manages:
 
 ### Loading a Brand
 
-1. Check `~/.claude-marketing/brands/_active-brand.json` for the currently active brand
-2. If active brand exists, load `~/.claude-marketing/brands/{slug}/profile.json`
+1. Check `~/.agents-marketing/brands/_active-brand.json` for the currently active brand
+2. If active brand exists, load `~/.agents-marketing/brands/{slug}/profile.json`
 3. If no active brand, prompt: "No active brand configured. Run /digital-marketing-pro:brand-setup to create one, or tell me about your brand and I'll help set it up."
 
 ### Brand Profile Schema
@@ -138,7 +138,7 @@ The brand voice scorer (`brand-voice-scorer.py`) automatically normalizes profil
 
 Campaign data, performance snapshots, and marketing insights persist across sessions:
 ```
-~/.claude-marketing/brands/{slug}/
+~/.agents-marketing/brands/{slug}/
 ├── campaigns/              # Campaign plans and post-mortems
 │   ├── _index.json         # Campaign index for quick lookup
 │   └── {id}.json           # Individual campaign data

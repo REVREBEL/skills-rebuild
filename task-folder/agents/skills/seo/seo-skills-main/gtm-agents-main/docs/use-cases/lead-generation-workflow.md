@@ -34,7 +34,7 @@
 
 ## Prerequisites
 
-- [ ] Claude Code installed
+- [ ] the agent installed
 - [ ] GTM Agents marketplace added
 - [ ] `sales-prospecting` plugin installed
 - [ ] Clear idea of your Ideal Customer Profile (ICP)
@@ -72,7 +72,7 @@ Selling to enterprise customers
 
 ### Step 2: Run the Lead Generation Command (1 minute)
 
-1. Open Claude Code
+1. Open the agent
 2. Type or paste:
    ```
    /sales-prospecting:generate-leads

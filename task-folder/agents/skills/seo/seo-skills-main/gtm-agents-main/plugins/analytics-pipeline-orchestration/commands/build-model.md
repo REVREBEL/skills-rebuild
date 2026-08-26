@@ -17,7 +17,7 @@ usage: /analytics-pipeline-orchestration:build-model --use_case "pipeline veloci
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Modeling often runs **pipeline** (spec → blueprint → testing → deployment → docs). If testing + deployment prep can parallelize, log a **diamond** segment with merge gate.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` with objective, data lineage, task IDs, parallel groups, dependency matrix, error handling, and success metrics (freshness %, defect ceiling, SLA adherence).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` with objective, data lineage, task IDs, parallel groups, dependency matrix, error handling, and success metrics (freshness %, defect ceiling, SLA adherence).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for repo diffs/dbt patches, Context7 for platform docs, Sequential Thinking for review cadences, Playwright for UI validations tied to modeled data.
 - **Guardrails**: Default retry limit = 2 for failed tests/deployments; escalation path = Analytics Modeling Lead → Data Engineering Lead → RevOps.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm agents, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /analytics-pipeline-orchestration:build-model --use_case "pipeline veloci
 - Modeling spec (diagram, SQL pseudocode, dependencies).
 - Test plan + configuration snippets.
 - Deployment checklist with monitoring hooks and rollback instructions.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `analytics-modeling-lead` – architects model + tests.

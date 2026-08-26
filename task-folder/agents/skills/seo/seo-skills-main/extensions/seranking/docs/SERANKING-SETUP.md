@@ -12,8 +12,8 @@ single largest "AI citation" coverage of any vendor in 2026.
 ```
 
 The installer prompts for an API key (hidden input), copies
-`SKILL.md` into `~/.claude/skills/seo-seranking/`, and writes
-`env.SERANKING_API_KEY` into `~/.claude/settings.json` with mode 0o600.
+`SKILL.md` into `~/.agents/skills/seo-seranking/`, and writes
+`env.SERANKING_API_KEY` into `~/.agents/settings.json` with mode 0o600.
 
 ## Get an API key
 

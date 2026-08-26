@@ -22,14 +22,14 @@ This is a mirror of the canonical docs page at [`developers.cloudflare.com/turns
 Agents that load skill bundles from `github.com/cloudflare/skills` will pick this up automatically. For agents that load skills out of a local directory:
 
 ```sh
-# Claude Code
-mkdir -p .claude/skills/turnstile-spin && \
+# the agent
+mkdir -p .agents/skills/turnstile-spin && \
   curl -sSL https://developers.cloudflare.com/turnstile/spin.md \
-  -o .claude/skills/turnstile-spin/SKILL.md
+  -o .agents/skills/turnstile-spin/SKILL.md
 
 # Or, install the whole skills bundle into a global location
 git clone https://github.com/cloudflare/skills ~/.config/cloudflare-skills
-ln -s ~/.config/cloudflare-skills/turnstile-spin ~/.claude/skills/turnstile-spin
+ln -s ~/.config/cloudflare-skills/turnstile-spin ~/.agents/skills/turnstile-spin
 ```
 
 For other agents, see the table in [`SKILL.md`](./SKILL.md#step-8--persist-the-skill).

@@ -134,7 +134,7 @@ import { openai } from '@trigger.dev/openai';
 // Configure OpenAI with Trigger.dev
 const openaiClient = openai.configure({
   id: 'openai',
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.LLM_API_KEY,
 });
 
 export const generateContent = task({
@@ -429,7 +429,7 @@ Recommended fix:
 ```bash
 # Create .env.trigger file
 DATABASE_URL=postgres://...
-OPENAI_API_KEY=sk-...
+LLM_API_KEY=sk-...
 STRIPE_SECRET_KEY=sk_live_...
 
 # Push to Trigger.dev
@@ -438,7 +438,7 @@ npx trigger.dev@latest env push
 
 # Common missing vars:
 - DATABASE_URL
-- OPENAI_API_KEY / ANTHROPIC_API_KEY
+- LLM_API_KEY
 - STRIPE_SECRET_KEY
 - Service API keys
 - Internal service URLs
@@ -736,7 +736,7 @@ import { openai } from '@trigger.dev/openai';
 
 const openaiClient = openai.configure({
   id: 'openai',
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.LLM_API_KEY,
 });
 
 // Now has automatic retries and rate limiting

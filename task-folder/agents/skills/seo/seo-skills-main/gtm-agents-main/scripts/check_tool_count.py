@@ -11,7 +11,7 @@ TARGET_TOOL_COUNT = 48
 
 
 def load_commands() -> list[str]:
-    marketplace = json.loads((ROOT / ".claude-plugin" / "marketplace.json").read_text())
+    marketplace = json.loads((ROOT / ".agents-plugin" / "marketplace.json").read_text())
     commands: set[str] = set()
     for plugin in marketplace.get("plugins", []):
         commands.update(plugin.get("commands", []))

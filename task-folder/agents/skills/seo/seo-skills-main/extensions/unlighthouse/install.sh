@@ -7,7 +7,7 @@
 set -euo pipefail
 
 main() {
-    SKILL_DIR="${HOME}/.claude/skills"
+    SKILL_DIR="${HOME}/.agents/skills"
 
     echo "════════════════════════════════════════"
     echo "║   Claude SEO — Unlighthouse           ║"

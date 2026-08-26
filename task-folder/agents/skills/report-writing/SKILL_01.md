@@ -25,7 +25,7 @@ metadata:
 
 # Olakai Developer Status Digest
 
-This skill fetches your Olakai Coding IQ status and formats it as a clean in-terminal digest — monitoring health, personal spend, and budget — without leaving Claude Code.
+This skill fetches your Olakai Coding IQ status and formats it as a clean in-terminal digest — monitoring health, personal spend, and budget — without leaving the agent.
 
 ## Step 1: Check prerequisites
 
@@ -94,7 +94,7 @@ Use today's month and year in the heading (e.g., `## Olakai Status — June 2026
   ### Monitoring
   - This workspace is not monitored.
   ```
-- `tool` display names: `claude-code` → "Claude Code", `codex` → "Codex CLI", `cursor` → "Cursor"
+- `tool` display names: `claude-code` → "the agent", `codex` → "Codex CLI", `cursor` → "Cursor"
 - If `backend.monitoring` is null (offline) or `backend` is null, omit the "Last activity" line.
 
 ### Personal Spend section (show only if `backend.identity.found = true`)
@@ -162,7 +162,7 @@ Collect all applicable items and append an `### Action Items` section at the end
 ## Olakai Status — June 2026
 
 ### Monitoring
-- Claude Code: ✓ configured (`/Users/alice/dev/my-project`)
+- the agent: ✓ configured (`/Users/alice/dev/my-project`)
 - Last activity: 2 hours ago — 14 sessions this month
 
 ### Personal Spend (June MTD)

@@ -23,7 +23,7 @@ If the user doesn't specify a category, analyze the content and route it to the 
 
 ## Process
 
-1. **Load brand context**: Read `~/.claude-marketing/brands/_active-brand.json` for the active slug, then load `~/.claude-marketing/brands/{slug}/profile.json`. Apply brand voice, compliance rules for target markets (`skills/context-engine/compliance-rules.md`), and industry context. **Also check for existing guidelines** at `~/.claude-marketing/brands/{slug}/guidelines/_manifest.json` — if present, load existing guidelines to merge with (not overwrite). If no brand exists, ask: "Set up a brand first (/digital-marketing-pro:brand-setup)?" — or proceed with defaults.
+1. **Load brand context**: Read `~/.agents-marketing/brands/_active-brand.json` for the active slug, then load `~/.agents-marketing/brands/{slug}/profile.json`. Apply brand voice, compliance rules for target markets (`skills/context-engine/compliance-rules.md`), and industry context. **Also check for existing guidelines** at `~/.agents-marketing/brands/{slug}/guidelines/_manifest.json` — if present, load existing guidelines to merge with (not overwrite). If no brand exists, ask: "Set up a brand first (/digital-marketing-pro:brand-setup)?" — or proceed with defaults.
 
 2. **Classify the content** — Determine which guideline category (or categories) the input belongs to:
    - Voice rules, writing style, tone → `voice-and-tone.md`
@@ -53,7 +53,7 @@ If the user doesn't specify a category, analyze the content and route it to the 
 
 6. **Save and confirm** — Write the structured guideline file:
    - Save using `guidelines-manager.py --brand {slug} --action save --category {category}`
-   - Or write directly to `~/.claude-marketing/brands/{slug}/guidelines/{file}`
+   - Or write directly to `~/.agents-marketing/brands/{slug}/guidelines/{file}`
    - Manifest is rebuilt automatically on save
    - Confirm: show the category, rule count, and a preview of what was saved
 

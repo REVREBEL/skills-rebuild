@@ -28,4 +28,3 @@ uv run scripts/list_collections.py
 ```bash
 uv run scripts/list_collections.py --json
 ```
-

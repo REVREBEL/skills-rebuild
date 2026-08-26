@@ -66,11 +66,11 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const { Anthropic } = require('@anthropic-ai/sdk');
-            const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+            const { OpenAI } = require('openai');
+            const client = new OpenAI({ apiKey: process.env.LLM_API_KEY || process.env.OPENAI_API_KEY || process.env.ANTHROPIC_API_KEY });
 
-            const response = await client.messages.create({
-              model: "claude-3-sonnet-20240229",
+            const response = await client.chat.completions.create({
+              model: process.env.LLM_MODEL || "gpt-4o-mini",
               max_tokens: 4096,
               messages: [{
                 role: "user",
@@ -99,7 +99,7 @@ jobs:
               event: 'COMMENT'
             });
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
 ```
 
 ### 1.2 Review Comment Patterns

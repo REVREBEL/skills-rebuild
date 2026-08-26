@@ -20,6 +20,7 @@ plugin:
     type: manual
     summary: "Optional external plugin/helper setup executes mutable third-party code; keep out of plugin-safe bundles."
     docs: SKILL.md
+compatibility: 'Intrinsic platform/provider dependency: codex-fable5'
 ---
 
 # Codex Fable5

@@ -1,7 +1,7 @@
 ---
 name: research-add-items
 user-invocable: true
-allowed-tools: Read, Write, Glob, Task, AskUserQuestion
+allowed-tools: Read, Write, Glob, Task, AskUser
 description: Append new items (research objects) to an in-progress research outline's `outline.yaml` — sourced from your direct input, a web-search agent, or both. Use mid-`/research-outline` when you've realised the items list is incomplete (a new competitor surfaced, an important historical entry was missed, a category needs broader coverage) before running `/research-deep`, so the new items are part of the parallel deep pass instead of needing a separate run.
 ---
 
@@ -29,16 +29,16 @@ Reachable any time after `/research-outline` has produced `outline.yaml`, but mo
 
 ### Step 2 — Gather candidates from two sources
 
-These two sources are gathered sequentially (`AskUserQuestion` blocks waiting on the user; web search can run in the background after). Do them in this order:
+These two sources are gathered sequentially (`AskUser` blocks waiting on the user; web search can run in the background after). Do them in this order:
 
-1. `AskUserQuestion`: "Which items do you want to add? Any specific names?" — capture whatever the user already has in mind.
-2. `AskUserQuestion`: "Should I also run a web-search agent for more candidates?" — if yes, launch a research subagent via the `Task` tool (`subagent_type: general-purpose`, `run_in_background: true`) seeded with the topic, the existing items list, and any items the user named in step 1 (so suggestions don't duplicate).
+1. `AskUser`: "Which items do you want to add? Any specific names?" — capture whatever the user already has in mind.
+2. `AskUser`: "Should I also run a web-search agent for more candidates?" — if yes, launch a research subagent via the `Task` tool (`subagent_type: general-purpose`, `run_in_background: true`) seeded with the topic, the existing items list, and any items the user named in step 1 (so suggestions don't duplicate).
 
 ### Step 3 — Merge, deduplicate, confirm
 
 - Combine the user-supplied items and the subagent's suggestions.
 - Deduplicate by case-insensitive name match against the existing `outline.yaml`.
-- Show the merged candidate list to the user. `AskUserQuestion` for which to accept.
+- Show the merged candidate list to the user. `AskUser` for which to accept.
 - For each accepted item, capture: `name` (required), `category` (optional), `description` (optional, short).
 
 ### Step 4 — Save update

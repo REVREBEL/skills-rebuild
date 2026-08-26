@@ -5,17 +5,17 @@ main() {
     echo "→ Uninstalling Banana Image Generation extension..."
 
     # Remove skill (includes copied scripts and references)
-    rm -rf "${HOME}/.claude/skills/seo-image-gen"
+    rm -rf "${HOME}/.agents/skills/seo-image-gen"
 
     # Remove agent
-    rm -f "${HOME}/.claude/agents/seo-image-gen.md"
+    rm -f "${HOME}/.agents/agents/seo-image-gen.md"
 
     # Ask before removing MCP server (user may use standalone banana skill)
-    SETTINGS_FILE="${HOME}/.claude/settings.json"
+    SETTINGS_FILE="${HOME}/.agents/settings.json"
     if [ -f "${SETTINGS_FILE}" ]; then
         # Check if standalone banana skill still exists
-        if [ -d "${HOME}/.claude/skills/banana" ]; then
-            echo "  ℹ  Standalone banana skill detected at ~/.claude/skills/banana/"
+        if [ -d "${HOME}/.agents/skills/banana" ]; then
+            echo "  ℹ  Standalone banana skill detected at ~/.agents/skills/banana/"
             echo "  ℹ  Keeping nanobanana-mcp in settings.json (used by standalone skill)"
         else
             # No standalone skill, safe to remove MCP
@@ -33,7 +33,7 @@ if 'mcpServers' in settings and 'nanobanana-mcp' in settings['mcpServers']:
     print('  ✓ Removed nanobanana-mcp from settings.json')
 else:
     print('  ✓ No nanobanana-mcp entry in settings.json')
-" 2>/dev/null || echo "  ⚠  Could not auto-remove MCP config. Remove 'nanobanana-mcp' from ~/.claude/settings.json manually."
+" 2>/dev/null || echo "  ⚠  Could not auto-remove MCP config. Remove 'nanobanana-mcp' from ~/.agents/settings.json manually."
         fi
     fi
 

@@ -2,8 +2,8 @@
 # Claude SEO — Ahrefs extension uninstaller.
 set -euo pipefail
 
-SKILL_DIR="${HOME}/.claude/skills/seo-ahrefs"
-SETTINGS_JSON="${HOME}/.claude/settings.json"
+SKILL_DIR="${HOME}/.agents/skills/seo-ahrefs"
+SETTINGS_JSON="${HOME}/.agents/settings.json"
 
 if [ -d "${SKILL_DIR}" ]; then
     rm -rf "${SKILL_DIR}"

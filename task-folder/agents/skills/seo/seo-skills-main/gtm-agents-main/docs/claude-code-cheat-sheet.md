@@ -1,6 +1,6 @@
-# Claude Code Cheat Sheet
+# the agent Cheat Sheet
 
-A comprehensive guide to setting up and using Claude Code efficiently.
+A comprehensive guide to setting up and using the agent efficiently.
 
 ---
 
@@ -10,7 +10,7 @@ A comprehensive guide to setting up and using Claude Code efficiently.
 
 ### Login Instructions:
 
-1. Open Claude Code in your terminal
+1. Open the agent in your terminal
 2. You'll be prompted to log in
 3. **Choose the authentication method attached to your Claude subscription plan** (not API)
    - If you have Claude Pro or Claude Max, use your Anthropic account login
@@ -21,9 +21,9 @@ A comprehensive guide to setting up and using Claude Code efficiently.
 
 ---
 
-## 1. Claude Code Setup
+## 1. the agent Setup
 
-Configure Claude Code for an optimal development experience. Follow these setup steps in order.
+Configure the agent for an optimal development experience. Follow these setup steps in order.
 
 ### Step 1: Shift+Enter Support (Essential First Step)
 
@@ -31,7 +31,7 @@ The most important setup - enables submitting messages to Claude with `SHIFT + E
 
 **Setup Instructions:**
 
-Run `/terminal-setup` in Claude Code, which will automatically configure your terminal settings.
+Run `/terminal-setup` in the agent, which will automatically configure your terminal settings.
 
 **Manual Setup Alternative:**
 1. Open Cursor/VS Code settings
@@ -44,7 +44,7 @@ Run `/terminal-setup` in Claude Code, which will automatically configure your te
 
 ### Step 2: Settings Customization
 
-Customize Claude Code behavior through `.claude/settings.json` in your project root.
+Customize the agent behavior through `.agents/settings.json` in your project root.
 
 **Common Settings:**
 
@@ -74,7 +74,7 @@ Customize Claude Code behavior through `.claude/settings.json` in your project r
 
 ### Step 3: MCP Server Configuration
 
-MCP (Model Context Protocol) servers extend Claude Code with specialized capabilities.
+MCP (Model Context Protocol) servers extend the agent with specialized capabilities.
 
 **What MCP Servers Provide:**
 - **Supabase**: Database operations, migrations, logs
@@ -201,7 +201,7 @@ Play a sound when Claude finishes responding (great for audio feedback).
 
 ## 2. Editor Setup (Cursor/VS Code)
 
-Master these shortcuts to keep your hands on the keyboard and navigate efficiently between editor, terminal, and Claude Code.
+Master these shortcuts to keep your hands on the keyboard and navigate efficiently between editor, terminal, and the agent.
 
 ### Terminal Management
 
@@ -233,7 +233,7 @@ Master these shortcuts to keep your hands on the keyboard and navigate efficient
 
 | Action | How To | Example Use |
 |--------|--------|-------------|
-| Drag & Drop Images | Hold `SHIFT` while dragging | Add screenshots to Claude Code conversations |
+| Drag & Drop Images | Hold `SHIFT` while dragging | Add screenshots to the agent conversations |
 
 ### Keyboard-First Workflow Tips
 
@@ -284,13 +284,13 @@ The terminal management shortcuts above require custom configuration in Cursor/V
 
 ---
 
-## 3. Claude Code Interface & Commands
+## 3. the agent Interface & Commands
 
-Efficient workflows for working with Claude Code during development.
+Efficient workflows for working with the agent during development.
 
 ### 3.1 Text Editing Shortcuts
 
-Text editing shortcuts for the Claude Code input field:
+Text editing shortcuts for the the agent input field:
 
 | Action | macOS | Windows/Linux | When to Use |
 |--------|-------|---------------|-------------|
@@ -303,7 +303,7 @@ Text editing shortcuts for the Claude Code input field:
 | Stop Current AI Run | `ESC` | `ESC` | Stop Claude from continuing current execution |
 | Revert to Previous Step | `ESC ESC` (double tap) | `ESC ESC` (double tap) | Undo Claude's last action and go back one step |
 
-### 3.2 Claude Code-Specific Panels
+### 3.2 the agent-Specific Panels
 
 | Action | Shortcut | When to Use |
 |--------|----------|-------------|
@@ -311,7 +311,7 @@ Text editing shortcuts for the Claude Code input field:
 | View Thinking | `CTRL + O` | Open Claude's reasoning and thought process |
 | Toggle Thinking Mode | `TAB` | Show/hide Claude's reasoning and thought process |
 
-### 3.3 Common Claude Code Commands
+### 3.3 Common the agent Commands
 
 Essential slash commands to know:
 
@@ -326,7 +326,7 @@ Essential slash commands to know:
 | `/cost` | Show usage and subscription info | Monitor your usage or verify you're on the right plan |
 | `/usage` | Show detailed usage statistics | View token usage across conversations and time periods |
 | `/rewind` | Undo the last assistant message and tool executions | When Claude makes a mistake or goes in the wrong direction |
-| `/resume` | Resume the last conversation | Continue where you left off after closing Claude Code |
+| `/resume` | Resume the last conversation | Continue where you left off after closing the agent |
 
 ### 3.4 Custom ShipKit Commands
 

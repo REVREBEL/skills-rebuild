@@ -50,11 +50,11 @@ def save_snapshot(project: str = "", phase: str = "", summary: str = "") -> str:
 **Projeto**: {project or 'nao especificado'}
 **Fase**: {phase or 'nao especificada'}
 **Resumo**: {summary or 'snapshot pre-compactacao'}
-**Modelo**: claude-opus-4-6
+**Modelo**: {os.environ.get('LLM_MODEL', 'frontier-model')}
 
 ---
 
-<!-- O Claude deve preencher as secoes abaixo seguindo references/extraction-protocol.md -->
+<!-- O Assistente deve preencher as secoes abaixo seguindo references/extraction-protocol.md -->
 
 ## Arquivos Tocados
 | Arquivo | Acao | Detalhes |

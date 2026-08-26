@@ -32,4 +32,3 @@ description: Use when designing filters, suppression logic, and personalization 
 - Keep segment definitions in a shared schema doc for consistency.
 - Use dashboards to monitor size changes week over week.
 - Pair segmentation with A/B testing to validate hypotheses.
-

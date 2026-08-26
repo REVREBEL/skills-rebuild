@@ -12,7 +12,7 @@ NC='\033[0m' # No Color
 #           and display library version from plugin.json and marketplace.json for reference
 if [ "$1" = "--status" ]; then
     REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-    PLUGIN_JSON="$REPO_ROOT/.claude-plugin/plugin.json"
+    PLUGIN_JSON="$REPO_ROOT/.agents-plugin/plugin.json"
     MARKETPLACE_JSON="$REPO_ROOT/marketplace.json"
 
     if [ ! -f "$PLUGIN_JSON" ]; then
@@ -65,7 +65,7 @@ if [ "$1" = "--status" ]; then
 
         printf "%-30s %-12s %-18s " "$skill_name" "${skill_ver:-—}" "${meta_ver:-—}"
         echo -e "$status"
-    done < <(find "$REPO_ROOT" -name "SKILL.md" -not -path "$REPO_ROOT/docs/*" -not -path "$REPO_ROOT/.claude/*" | sort)
+    done < <(find "$REPO_ROOT" -name "SKILL.md" -not -path "$REPO_ROOT/docs/*" -not -path "$REPO_ROOT/.agents/*" | sort)
 
     echo ""
     if [ "$SPLIT" -gt 0 ]; then

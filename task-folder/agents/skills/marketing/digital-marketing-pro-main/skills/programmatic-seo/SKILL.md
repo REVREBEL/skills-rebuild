@@ -23,7 +23,7 @@ The user must provide (or will be prompted for):
 
 ## Process
 
-1. **Load brand context**: Read `~/.claude-marketing/brands/_active-brand.json` for the active slug, then load `~/.claude-marketing/brands/{slug}/profile.json`. Apply industry context and compliance rules. Check for brand guidelines at `~/.claude-marketing/brands/{slug}/guidelines/_manifest.json`.
+1. **Load brand context**: Read `~/.agents-marketing/brands/_active-brand.json` for the active slug, then load `~/.agents-marketing/brands/{slug}/profile.json`. Apply industry context and compliance rules. Check for brand guidelines at `~/.agents-marketing/brands/{slug}/guidelines/_manifest.json`.
 2. **Data source assessment**: Evaluate the data powering programmatic pages — row count, column uniqueness, missing values, duplicate detection (>80% field overlap), data freshness
 3. **Template engine planning**: Design templates that produce genuinely unique pages — variable injection points, content blocks (static vs dynamic), conditional logic, supplementary content. Validate each page passes the "standalone value test"
 4. **URL pattern strategy**: Design URL hierarchy — lowercase hyphenated slugs, logical structure, uniqueness enforcement, under 100 characters, consistent trailing slash

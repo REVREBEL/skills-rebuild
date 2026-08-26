@@ -3,7 +3,7 @@
 Every engagement maintains a single Living Project Instruction File (LIF) at:
 
 ```
-~/.claude-marketing/brands/{brand-slug}/engagements/{engagement-id}/living-instruction-file.md
+~/.agents-marketing/brands/{brand-slug}/engagements/{engagement-id}/living-instruction-file.md
 ```
 
 This file is the single source of truth for **what is currently true about the engagement**. All skills read it before producing output. All updates land here when source documents change.
@@ -189,7 +189,7 @@ This means the LIF is the **first read** for any skill that consults engagement 
 
 ## File location and atomic updates
 
-- Path: `~/.claude-marketing/brands/{brand-slug}/engagements/{engagement-id}/living-instruction-file.md`
+- Path: `~/.agents-marketing/brands/{brand-slug}/engagements/{engagement-id}/living-instruction-file.md`
 - Updates are atomic: write to `.living-instruction-file.md.tmp`, then rename. Prevents partial writes corrupting the file.
 - A change log of LIF updates lives in `_engagement.json` under `lif_change_log` (so the LIF itself stays focused on current state, not its own history).
 

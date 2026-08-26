@@ -1,6 +1,6 @@
 """WebSearch module for last30days skill.
 
-NOTE: WebSearch uses Claude's built-in WebSearch tool, which runs INSIDE Claude Code.
+NOTE: WebSearch uses Claude's built-in WebSearch tool, which runs INSIDE the agent.
 Unlike Reddit/X which use external APIs, WebSearch results are obtained by Claude
 directly and passed to this module for normalization and scoring.
 

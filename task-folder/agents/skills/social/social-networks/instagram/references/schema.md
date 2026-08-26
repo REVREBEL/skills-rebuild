@@ -1,6 +1,6 @@
 # Schema do Banco SQLite — instagram.db
 
-Localização: `C:\Users\renat\skills\instagram\data\instagram.db`
+Localização: `{USER_HOME}\skills\instagram\data\instagram.db`
 Modo: WAL (Write-Ahead Logging) com foreign keys habilitadas.
 
 ## Diagrama ER

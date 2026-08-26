@@ -30,7 +30,7 @@ This skill enables makepad-skills to self-improve continuously during developmen
 
 ## Hooks-Based Auto-Triggering
 
-For reliable automatic triggering, use Claude Code hooks. Install with `--with-hooks`:
+For reliable automatic triggering, use the agent hooks. Install with `--with-hooks`:
 
 ```bash
 # Install makepad-skills with hooks enabled
@@ -41,7 +41,7 @@ cat "$tmpdir/makepad-skills-install.sh"  # review the full installer before exec
 bash "$tmpdir/makepad-skills-install.sh" --with-hooks
 ```
 
-This will install hooks to `.claude/hooks/` and configure `.claude/settings.json`:
+This will install hooks to `.agents/hooks/` and configure `.agents/settings.json`:
 
 ```json
 {
@@ -52,7 +52,7 @@ This will install hooks to `.claude/hooks/` and configure `.claude/settings.json
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/makepad-skill-router.sh"
+            "command": "bash .agents/hooks/makepad-skill-router.sh"
           }
         ]
       }
@@ -63,7 +63,7 @@ This will install hooks to `.claude/hooks/` and configure `.claude/settings.json
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/pre-tool.sh"
+            "command": "bash .agents/hooks/pre-tool.sh"
           }
         ]
       }
@@ -74,7 +74,7 @@ This will install hooks to `.claude/hooks/` and configure `.claude/settings.json
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/post-bash.sh"
+            "command": "bash .agents/hooks/post-bash.sh"
           }
         ]
       }

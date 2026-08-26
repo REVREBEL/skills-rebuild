@@ -27,7 +27,7 @@ Heavy skill. **Grep before Read** any referenced file, then `Read` only matched 
 
 ## Brand context (auto-applied)
 
-1. Read `~/.claude-marketing/brands/_active-brand.json` for the active slug, then load `~/.claude-marketing/brands/{slug}/profile.json`
+1. Read `~/.agents-marketing/brands/_active-brand.json` for the active slug, then load `~/.agents-marketing/brands/{slug}/profile.json`
 2. If no brand exists: ask "Set up a brand first (/digital-marketing-pro:brand-setup)?" — or proceed with defaults
 3. Apply industry-specific guidance from `skills/context-engine/industry-profiles.md`
 4. Apply `skills/context-engine/compliance-rules.md` to filter out banned terminology before clustering

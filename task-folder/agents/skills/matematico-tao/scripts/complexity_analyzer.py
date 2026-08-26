@@ -7,8 +7,8 @@ para projetos Kotlin/Android.
 
 Uso:
   python complexity_analyzer.py [path] [--module MODULE] [--threshold N]
-  python complexity_analyzer.py C:/Users/renat/earbudllm
-  python complexity_analyzer.py C:/Users/renat/earbudllm --module llm --threshold 10
+  python complexity_analyzer.py C:{USER_HOME}/earbudllm
+  python complexity_analyzer.py C:{USER_HOME}/earbudllm --module llm --threshold 10
 """
 
 import os
@@ -484,7 +484,7 @@ def main():
         description='Prof. Euler — Análise de Complexidade Matemática para Kotlin/Android'
     )
     parser.add_argument('path', nargs='?',
-                        default=r'C:\Users\renat\earbudllm',
+                        default=r'{USER_HOME}\earbudllm',
                         help='Caminho raiz do projeto')
     parser.add_argument('--module', '-m', help='Analisar apenas este módulo')
     parser.add_argument('--threshold', '-t', type=int, default=10,

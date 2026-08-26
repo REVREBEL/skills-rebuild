@@ -18,7 +18,7 @@ license_source: "https://github.com/sarveshtalele/linkedin-content-skill/blob/ma
 
 ## Overview
 
-A full LinkedIn content-creation suite for Claude Code that turns a topic and niche into
+A full LinkedIn content-creation suite for the agent that turns a topic and niche into
 publish-ready posts, multi-slide carousels, long-form newsletter editions, and 30-day content
 calendars — all wired through a personal reinforcement-learning memory system so every output
 improves as you give feedback.
@@ -61,8 +61,8 @@ The skill is self-contained. Install it from the Agentic Awesome Skills library:
 # Install via antigravity CLI (recommended)
 antigravity install linkedin-content-generator
 
-# Or copy manually into your Claude Code skills directory
-cp -r skills/linkedin-content-generator ~/.claude/skills/
+# Or copy manually into your the agent skills directory
+cp -r skills/linkedin-content-generator ~/.agents/skills/
 ```
 
 All six Python scripts and the default `memory.md` are bundled inside the
@@ -94,7 +94,7 @@ Claude generates publish-ready output
 
 ### Step 1: Set Up Your Niche (One-Time)
 
-Open `~/.claude/skills/linkedin-content-generator/scripts/memory.md` and update the
+Open `~/.agents/skills/linkedin-content-generator/scripts/memory.md` and update the
 **Primary Niche** field:
 
 ```markdown
@@ -407,13 +407,13 @@ optional; they are part of the prompt engineering that makes outputs platform-na
 ## Security & Safety Notes
 
 This skill uses the `Bash` allowed-tool to run Python scripts bundled at
-`~/.claude/skills/linkedin-content-generator/scripts/`. All scripts are read-only
+`~/.agents/skills/linkedin-content-generator/scripts/`. All scripts are read-only
 operations except `memory_manager.py`, which writes only to `memory.md` inside that
 same bundled `scripts/` directory.
 
 - No network requests are made by any script.
 - No credentials, tokens, or secrets are read, written, or logged.
-- No files outside `~/.claude/skills/linkedin-content-generator/scripts/` are modified.
+- No files outside `~/.agents/skills/linkedin-content-generator/scripts/` are modified.
 - The `clear` command in `memory_manager.py` overwrites only the bundled `memory.md`;
   it does not delete any other files.
 - All `--feedback` and `--id` arguments passed to `memory_manager.py` are written
@@ -424,8 +424,8 @@ All Bash commands in this skill are local Python invocations with no elevated pr
 required:
 
 ```bash
-# SKILL_SCRIPTS resolves to ~/.claude/skills/linkedin-content-generator/scripts
-SKILL_SCRIPTS="${HOME}/.claude/skills/linkedin-content-generator/scripts"
+# SKILL_SCRIPTS resolves to ~/.agents/skills/linkedin-content-generator/scripts
+SKILL_SCRIPTS="${HOME}/.agents/skills/linkedin-content-generator/scripts"
 python3 "${SKILL_SCRIPTS}/generate_post.py" --topic "..." --niche "..." --tone professional --style list-based
 python3 "${SKILL_SCRIPTS}/memory_manager.py" add --id "..." --feedback "..." --tags "..."
 python3 "${SKILL_SCRIPTS}/memory_manager.py" read
@@ -440,11 +440,11 @@ python3 "${SKILL_SCRIPTS}/memory_manager.py" clear
   **Solution:** Each script uses `sys.path.insert(0, SCRIPT_DIR)` to locate `utils.py`
   relative to itself, so they must be invoked with an absolute path — not from inside
   the `scripts/` directory. Use
-  `python3 "${HOME}/.claude/skills/linkedin-content-generator/scripts/generate_post.py" ...`.
+  `python3 "${HOME}/.agents/skills/linkedin-content-generator/scripts/generate_post.py" ...`.
 
 - **Problem:** Memory is not being applied to generated content.
   **Solution:** Check that `memory.md` exists at
-  `~/.claude/skills/linkedin-content-generator/scripts/memory.md`. Run `/show-memory`
+  `~/.agents/skills/linkedin-content-generator/scripts/memory.md`. Run `/show-memory`
   to confirm. If missing, run any generator command once — it auto-creates the file from
   the bundled template.
 
@@ -465,7 +465,7 @@ python3 "${SKILL_SCRIPTS}/memory_manager.py" clear
 
 - **Problem:** `python3` not found on Windows.
   **Solution:** Install Python 3.8+ from python.org and ensure it is on PATH, or run via
-  `py "%USERPROFILE%\.claude\skills\linkedin-content-generator\scripts\generate_post.py" ...`. On Windows without WSL, the `Bash` tool invocation
+  `py "%USERPROFILE%\.agents\skills\linkedin-content-generator\scripts\generate_post.py" ...`. On Windows without WSL, the `Bash` tool invocation
   may need adjustment in the SKILL.md `allowed-tools` context.
 
 ## Related Skills

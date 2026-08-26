@@ -104,7 +104,7 @@ Used when both systems hold authoritative data. The CRM has sales activity and d
 | Plugin → CRM | Marketing score, campaign membership, content engagement | Lead score updated from 45 to 82 |
 | CRM → Plugin | Deal stage changes, revenue data, sales feedback | Deal moved to "Closed Won" — attribute to campaign |
 
-**Conflict resolution:** Last-write-wins with audit trail. Every sync operation logs: field, old value, new value, source (plugin or CRM), timestamp. Audit log at `~/.claude-marketing/brands/{slug}/crm-sync-log.json`.
+**Conflict resolution:** Last-write-wins with audit trail. Every sync operation logs: field, old value, new value, source (plugin or CRM), timestamp. Audit log at `~/.agents-marketing/brands/{slug}/crm-sync-log.json`.
 
 ### Event-Triggered Sync
 

@@ -128,7 +128,7 @@ These define what the system can do WITHOUT human approval:
 
 ### Guardrail Configuration
 
-Guardrails are configurable per brand at `~/.claude-marketing/brands/{slug}/guardrails.json`:
+Guardrails are configurable per brand at `~/.agents-marketing/brands/{slug}/guardrails.json`:
 
 ```json
 {
@@ -214,7 +214,7 @@ Every auto-correction is logged with complete context for review and reversal.
 }
 ```
 
-Logs stored at `~/.claude-marketing/brands/{slug}/ops-log.json` and surfaced via `/digital-marketing-pro:campaign-status` and `/digital-marketing-pro:anomaly-scan` commands.
+Logs stored at `~/.agents-marketing/brands/{slug}/ops-log.json` and surfaced via `/digital-marketing-pro:campaign-status` and `/digital-marketing-pro:anomaly-scan` commands.
 
 ---
 

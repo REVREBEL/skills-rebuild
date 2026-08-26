@@ -101,7 +101,7 @@ Out of the entire numbered flow, only **Parts 5 and 8 produce client-facing deli
 
 ## The Engagement Directory Structure
 
-Every engagement lives at `~/.claude-marketing/brands/{brand-slug}/engagements/{engagement-id}/` with this canonical structure:
+Every engagement lives at `~/.agents-marketing/brands/{brand-slug}/engagements/{engagement-id}/` with this canonical structure:
 
 ```
 engagements/{engagement-id}/

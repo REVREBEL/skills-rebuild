@@ -15,8 +15,8 @@ import re
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-PLUGIN_JSON = REPO_ROOT / ".claude-plugin" / "plugin.json"
-MARKETPLACE_JSON = REPO_ROOT / ".claude-plugin" / "marketplace.json"
+PLUGIN_JSON = REPO_ROOT / ".agents-plugin" / "plugin.json"
+MARKETPLACE_JSON = REPO_ROOT / ".agents-plugin" / "marketplace.json"
 CITATION_CFF = REPO_ROOT / "CITATION.cff"
 
 

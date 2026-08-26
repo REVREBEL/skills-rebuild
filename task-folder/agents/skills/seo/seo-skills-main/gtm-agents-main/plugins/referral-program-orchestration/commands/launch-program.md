@@ -17,7 +17,7 @@ usage: /referral-program-orchestration:launch-program --program "Customer Advoca
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Launch orchestration usually runs **pipeline** (checklist → tooling → comms → enablement → go-live). If comms + enablement run in parallel, document a **diamond** segment with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing tasks, dependencies (legal, ops, partner), error handling, and success metrics (launch readiness %, tracking accuracy, response SLAs).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing tasks, dependencies (legal, ops, partner), error handling, and success metrics (launch readiness %, tracking accuracy, response SLAs).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for runbook diffs, Context7 for SOPs/assets, Sequential Thinking for launch reviews, Playwright for referral flows + tracking QA.
 - **Guardrails**: Default retry limit = 2 for QA/tooling failures; escalation ladder = Lifecycle Ops → Referral Architect → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before locking launch date to confirm dependencies + approvals.
@@ -33,7 +33,7 @@ usage: /referral-program-orchestration:launch-program --program "Customer Advoca
 - Launch runbook with tasks, owners, due dates, and status.
 - Comms kit (emails, social posts, landing pages) packaged for GTM teams.
 - Monitoring plan linking dashboards, alerts, and incident response steps.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `lifecycle-ops` – drives tooling + QA.

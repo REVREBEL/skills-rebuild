@@ -32,7 +32,7 @@ Use this skill when reviewing generated or changed documentation before it ships
 
 ## Adapt to the project first
 
-1. Read the project's agent instructions (CLAUDE.md, AGENTS.md) and any docs style guide. Project conventions win on conflict.
+1. Read the project's agent instructions (AGENTS.md) and any docs style guide. Project conventions win on conflict.
 2. Identify the docs surfaces that must move together: README, reference docs, docstrings, changelog, examples, config samples. A change to one usually owes a change to others (Rule 6).
 3. Note the documented version policy: which versions does the project support, and where are features version-tagged?
 

@@ -17,7 +17,7 @@ usage: /analytics-pipeline-orchestration:ship-dashboards --use_case "pipeline ve
 > Based on GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Dashboard launches typically run **pipeline** (requirements → visualization → publishing → enablement → monitoring). If publishing + enablement can proceed in parallel, log a **diamond** segment and merge gate.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` with objective, visualization stages, task IDs, parallel groups, dependency graph (models, permissions), error handling, and success metrics (adoption %, freshness, alert SLA).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` with objective, visualization stages, task IDs, parallel groups, dependency graph (models, permissions), error handling, and success metrics (adoption %, freshness, alert SLA).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for repo/LookML diffs, Context7 for BI platform docs, Sequential Thinking for rollout retros, Playwright for UI QA of embedded dashboards.
 - **Guardrails**: Default retry limit = 2 for failed publishes/alerts; escalation path = BI Publisher → Analytics Modeling Lead → RevOps/Exec sponsor.
 - **Review**: Use `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm agents, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /analytics-pipeline-orchestration:ship-dashboards --use_case "pipeline ve
 - Dashboard spec (wireframe, chart list, metrics dictionary).
 - Enablement kit (loom/video, doc, FAQ, adoption plan).
 - Monitoring + enhancement tracker.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `bi-publisher` – leads visualization + enablement.

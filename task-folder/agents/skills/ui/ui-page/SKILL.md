@@ -29,7 +29,7 @@ Description: $ARGUMENTS
 ## Instructions
 
 1. Read the design system reference:
-   - `CLAUDE.md` for file structure and conventions
+   - `AGENTS.md` for file structure and conventions
    - `components/patterns/page-shell.tsx` for page layout
    - `components/patterns/top-bar.tsx` for header pattern
    - `components/patterns/bottom-nav.tsx` for navigation

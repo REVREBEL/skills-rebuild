@@ -15,7 +15,7 @@ git clone https://github.com/mvanhorn/last30days-skill.git ~/.claude/skills/last
 # Add your API keys
 mkdir -p ~/.config/last30days
 cat > ~/.config/last30days/.env << 'EOF'
-OPENAI_API_KEY=sk-...
+LLM_API_KEY=sk-...
 XAI_API_KEY=xai-...
 EOF
 chmod 600 ~/.config/last30days/.env
@@ -261,7 +261,7 @@ This example shows /last30days learning **AI image generation prompting patterns
 
 ## Example: Top Claude Code Skills (Recommendations)
 
-**Query:** `/last30days top claude code skills`
+**Query:** `/last30days top Claude Code skills`
 
 **Research Output:**
 > The Claude Code skills ecosystem has exploded with marketplaces, curated lists, and viral skill announcements. The Remotion video skill got 17.3K likes on X. SkillsMP emerged as a marketplace with 60-87K+ skills. Multiple GitHub repos (awesome-claude-skills, Superpowers) are actively curated.
@@ -285,7 +285,7 @@ This example shows /last30days learning **AI image generation prompting patterns
 
 **Marketer skill stack** (from @vibecode_edu): Slack, Email Knowledge, Nano-Banana, Notion, Skill Creator, Twitter post, Typefully
 
-**Key insight from Reddit:** Keep CLAUDE.md short (~1K context), use Skills for "context on demand", and ensure skill descriptions contain your trigger keywords.
+**Key insight from Reddit:** Keep AGENTS.md short (~1K context), use Skills for "context on demand", and ensure skill descriptions contain your trigger keywords.
 
 **Research Stats:** 4 Reddit threads (238 upvotes, 156 comments) + 15 X posts (28K+ likes, 2.8K reposts) from r/ClaudeCode, r/ClaudeAI, @Remotion, @milesdeutscher
 
@@ -337,7 +337,7 @@ This example shows how /last30days discovers **viral trends you didn't know exis
 
 ## Example: Remotion Launch Video
 
-**Query:** `/last30days research best practices for beautiful remotion animation videos in claude code`
+**Query:** `/last30days research best practices for beautiful remotion animation videos in Claude Code`
 
 **Research Output:**
 > The Remotion + Claude Code combination has emerged as a powerful workflow. Users consistently report that simple, clear prompts with scene-by-scene descriptions yield the best results. Key insights: iteration is essential, most "beautiful" videos come from back-and-forth refinement rather than one-shot prompts.
@@ -347,7 +347,7 @@ This example shows how /last30days discovers **viral trends you didn't know exis
 **Generated Prompt:**
 
 ```
-Create a 50-second launch video for "/last30days" - a Claude Code skill that
+Create a 50-second launch video for "/last30days" - an agent skill that
 researches any topic across Reddit and X from the last 30 days, then writes
 copy-paste-ready prompts.
 
@@ -383,7 +383,7 @@ SCENE 5 (40-50s): Call to Action
 Zoom out slightly. Everything fades except the logo.
 Text animates in: "Research any topic. Get prompts that work."
 GitHub icon + "github.com/mvanhorn/last30days-skill"
-Tagline: "A Claude Code Skill"
+Tagline: "an agent Skill"
 
 STYLE NOTES:
 - Color palette: Deep purple (#1a1a2e), electric blue (#4361ee), white text

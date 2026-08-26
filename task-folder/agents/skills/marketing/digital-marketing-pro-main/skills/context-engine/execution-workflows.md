@@ -257,7 +257,7 @@ Use for: storing marketing insights, campaign learnings, content to brand memory
    - `date`: ISO 8601 timestamp
    - `confidence`: high | medium | low (for insights)
 3. **Deduplication** — Generate content hash. Check against existing entries. If duplicate detected, update the existing entry's metadata (timestamp, confidence) rather than creating a new entry.
-4. **Storage** — Write to appropriate location under `~/.claude-marketing/brands/{slug}/`:
+4. **Storage** — Write to appropriate location under `~/.agents-marketing/brands/{slug}/`:
    - Insights: `insights.json` (rolling buffer, max 200 entries, oldest evicted)
    - Campaigns: `campaigns/{id}.json`
    - Performance: `performance/{campaign}-{date}.json`

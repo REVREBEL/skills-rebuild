@@ -19,7 +19,7 @@ It will prompt for your API key and configure the MCP server.
 
 ## 3. Manual MCP Configuration
 
-If the installer fails, add this to `~/.claude/settings.json` manually:
+If the installer fails, add this to `~/.agents/settings.json` manually:
 
 ```json
 {
@@ -37,13 +37,13 @@ If the installer fails, add this to `~/.claude/settings.json` manually:
 
 ## 4. Verify Installation
 
-Start Claude Code and try:
+Start the agent and try:
 
 ```
 /seo firecrawl map https://example.com
 ```
 
-You should see a list of discovered URLs. If you get a "tool not available" error, restart Claude Code to reload MCP servers.
+You should see a list of discovered URLs. If you get a "tool not available" error, restart the agent to reload MCP servers.
 
 ## 5. Understanding Credits
 

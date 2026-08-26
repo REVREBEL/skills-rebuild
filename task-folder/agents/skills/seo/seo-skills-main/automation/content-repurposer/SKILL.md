@@ -34,8 +34,8 @@ metadata:
 ## Dependencies
 
 ```bash
-pip install anthropic jinja2 click pyyaml
-# Requires ANTHROPIC_API_KEY environment variable
+pip install openai anthropic google-generativeai jinja2 click pyyaml
+# Requires LLM_API_KEY, OPENAI_API_KEY, ANTHROPIC_API_KEY, or GEMINI_API_KEY environment variable
 ```
 
 ## Commands
@@ -167,7 +167,7 @@ python scripts/main.py quotes founder-interview.txt --count 10 --style inspirati
 ```yaml
 category: automation
 subcategory: content-automation
-dependencies: [anthropic, jinja2]
+dependencies: [openai, anthropic, google-generativeai, jinja2]
 difficulty: beginner
 time_saved: 8+ hours/week
 api_cost: ~$0.02-0.10 per repurpose

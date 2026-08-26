@@ -1,6 +1,6 @@
 ---
 name: browser-install
-description: Install browser-harness into the current agent and connect it to a browser with minimal prompting.
+description: Install browser-harness into your developer assistant and connect it to a browser with minimal prompting.
 ---
 
 # `browser-harness` installation
@@ -18,11 +18,11 @@ uv tool install -e .
 command -v browser-harness
 ```
 
-That keeps the command global while still pointing at the real repo checkout, so when the agent edits `agent-workspace/agent_helpers.py` the next `browser-harness` uses the new code immediately. Prefer a stable path like `~/Developer/browser-harness`, not `/tmp`.
+That keeps the command global while still pointing at the real repo checkout, so when the assistant edits `agent-workspace/agent_helpers.py` the next `browser-harness` uses the new code immediately. Prefer a stable path like `~/Developer/browser-harness`, not `/tmp`.
 
-## Make browser-harness global for the current agent
+## Make browser-harness global for your developer assistant
 
-After the repo is installed, register this repo's `SKILL.md` with the agent you are using:
+After the repo is installed, register this repo's `SKILL.md` with the developer assistant you are using:
 
 - **Codex**: add this file as a global skill at `$CODEX_HOME/skills/browser-harness/SKILL.md` (often `~/.codex/skills/browser-harness/SKILL.md`). A symlink to this repo's `SKILL.md` is fine.
 
@@ -82,7 +82,7 @@ Browser-harness can connect to any Chrome or Chromium-based browser on your comp
 
 Tell the harness which port you launched on by setting `BU_CDP_URL=http://127.0.0.1:9222` before running `browser-harness`.
 
-For most tasks where the agent acts on your behalf in your normal browser, use Way 1. For automation that runs without you watching, or any case where popup interruptions are unacceptable, use Way 2 or a cloud browser.
+For most tasks where the assistant acts on your behalf in your normal browser, use Way 1. For automation that runs without you watching, or any case where popup interruptions are unacceptable, use Way 2 or a cloud browser.
 
 [^1]: The conditions that cause Chrome to re-show the "Allow remote debugging?" popup on a subsequent attach (time elapsed since previous Allow, daemon restart, browser restart, new CDP session, version-dependent options like "Allow for N hours") are not fully characterized. Way 2 sidesteps this entirely.
 

@@ -60,7 +60,7 @@ Rules:
 
 ### Layer 5: Platform mirror files
 
-Mirror files (`CLAUDE.md`, `.cursorrules`, `AGENTS.md`, etc.) follow this contract:
+Mirror files (`AGENTS.md`, `.cursorrules`, `AGENTS.md`, etc.) follow this contract:
 
 ```markdown
 ## Lore (auto-managed)

@@ -4,7 +4,7 @@ description: 'Use when auditing content quality, E-E-A-T, or publish readiness; 
 version: "9.9.10"
 license: Apache-2.0
 allowed-tools: WebFetch
-compatibility: "Claude Code and compatible agent-skill hosts"
+compatibility: "the agent and compatible agent-skill hosts"
 homepage: "https://github.com/aaron-he-zhu/seo-geo-claude-skills"
 when_to_use: "Use when auditing content quality before publishing. Runs CORE-EEAT 80-item scoring with veto checks. Also when the user asks for E-E-A-T analysis or publish readiness."
 argument-hint: "<URL or paste content> [keyword]"

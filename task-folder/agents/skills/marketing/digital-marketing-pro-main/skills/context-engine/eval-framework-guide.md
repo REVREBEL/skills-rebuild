@@ -62,7 +62,7 @@ The eval-runner calls each script via subprocess, collects JSON output from each
 
 - **Subprocess isolation**: Each evaluator runs in its own process. A failure in one dimension does not block the others. The eval-runner captures errors and reports partial results.
 - **JSON-in, JSON-out**: Every script reads arguments from CLI flags and writes structured JSON to stdout. This makes them composable and testable.
-- **Brand-aware**: All scripts resolve the active brand from `~/.claude-marketing/brands/_active-brand.json` when no `--brand` flag is provided. This means eval config, quality history, and A/B tests are all scoped per brand.
+- **Brand-aware**: All scripts resolve the active brand from `~/.agents-marketing/brands/_active-brand.json` when no `--brand` flag is provided. This means eval config, quality history, and A/B tests are all scoped per brand.
 
 ---
 
@@ -235,7 +235,7 @@ Build your evidence file incrementally from real data sources:
 - Update evidence files quarterly -- stale evidence leads to false "unverified" results
 - Include the date for every evidence item so time-sensitive claims can be flagged when they expire
 - Mark expired claims explicitly (set `verified: false` with a note) rather than deleting them
-- Store evidence files at `~/.claude-marketing/brands/{slug}/evidence/` for persistence across sessions
+- Store evidence files at `~/.agents-marketing/brands/{slug}/evidence/` for persistence across sessions
 - Separate evidence by domain: `evidence-metrics.json`, `evidence-awards.json`, `evidence-customers.json`
 
 ---
@@ -293,7 +293,7 @@ The quality-tracker persists every eval result and computes rolling statistics. 
 - Baselines are computed as the **30-day rolling average** per content type per scoring dimension
 - A minimum of 5 evals is required before a baseline is established
 - Baselines update automatically every time a new eval is logged
-- Storage: `~/.claude-marketing/brands/{slug}/quality/evals/eval-{timestamp}.json`
+- Storage: `~/.agents-marketing/brands/{slug}/quality/evals/eval-{timestamp}.json`
 
 ### Regression Alerts
 

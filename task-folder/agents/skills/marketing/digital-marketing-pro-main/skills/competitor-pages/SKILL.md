@@ -46,7 +46,7 @@ The user must provide (or will be prompted for):
 
 ## Process
 
-1. **Load brand context**: Read `~/.claude-marketing/brands/_active-brand.json` for the active slug, then load `~/.claude-marketing/brands/{slug}/profile.json`. Apply brand voice and compliance rules. Check for brand guidelines — especially restrictions on competitor mentions.
+1. **Load brand context**: Read `~/.agents-marketing/brands/_active-brand.json` for the active slug, then load `~/.agents-marketing/brands/{slug}/profile.json`. Apply brand voice and compliance rules. Check for brand guidelines — especially restrictions on competitor mentions.
 2. **Research competitors**: Gather feature data, pricing, positioning from public sources. Verify all claims.
 3. **Generate comparison structure**: Feature matrix, content outline, section order
 4. **Apply schema markup**: Product, SoftwareApplication, AggregateRating, or ItemList JSON-LD depending on page type

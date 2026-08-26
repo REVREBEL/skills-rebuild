@@ -17,7 +17,7 @@ usage: /content-pipeline-orchestration:distribute-assets --pillar "AI readiness"
 > Mirrors GTM Agents orchestrator guidance @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Default to **pipeline** (mapping → prep → amplification → measurement → feedback). If channel prep + amplification can run in parallel, log a **diamond** with merge gate.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing objective, stages, task IDs, channel groupings, context passing (UTMs, assets), guardrails, and success metrics (engagement, pipeline, partner reach).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing objective, stages, task IDs, channel groupings, context passing (UTMs, assets), guardrails, and success metrics (engagement, pipeline, partner reach).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack (Serena for CMS/pixel patches, Context7 for platform docs, Sequential Thinking for retro cadence, Playwright for landing/social QA).
 - **Guardrails**: Set retry limit (default 2) for failed publishes; escalation ladder = Distribution Lead → Editorial Director → Marketing Director.
 - **Review**: Use `docs/usage-guide.md#orchestration-best-practices-puerto-parity` checklist before execution to confirm agents, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /content-pipeline-orchestration:distribute-assets --pillar "AI readiness"
 - Distribution calendar with timestamps, channels, owners, UTMs, and status.
 - Amplification checklist (partners, paid, internal enablement, ABM tie-ins).
 - Measurement + feedback plan.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `distribution-lead` – drives publishing + amplification.

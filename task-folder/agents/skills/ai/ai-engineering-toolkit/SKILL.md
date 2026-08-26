@@ -95,12 +95,12 @@ Result: 65 tests executed. 3 critical failures found: Base64-encoded instruction
 ## Installation
 
 ```bash
-# Via skill install command (Claude Code / WorkBuddy / Cursor)
+# Via skill install command (the agent / WorkBuddy / Cursor)
 /skill install -g viliawang-pm/ai-engineering-toolkit
 
 # Manual
 git clone https://github.com/viliawang-pm/ai-engineering-toolkit.git
-cp -r ai-engineering-toolkit/skills/* ~/.claude/skills/
+cp -r ai-engineering-toolkit/skills/* ~/.agents/skills/
 ```
 
 **Repository**: [github.com/viliawang-pm/ai-engineering-toolkit](https://github.com/viliawang-pm/ai-engineering-toolkit)

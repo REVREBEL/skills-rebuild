@@ -107,13 +107,13 @@ After collecting all information:
 When user says "switch to [brand name]":
 1. Run: `python3 scripts/setup.py --list-brands`
 2. Find matching brand
-3. Update `~/.claude-marketing/brands/_active-brand.json`
+3. Update `~/.agents-marketing/brands/_active-brand.json`
 4. Confirm: "Switched to [brand_name]."
 
 ## Updating a Brand
 
 When user wants to update specific fields:
-1. Load current profile from `~/.claude-marketing/brands/{slug}/profile.json`
+1. Load current profile from `~/.agents-marketing/brands/{slug}/profile.json`
 2. Ask about the specific field(s) to update
 3. Write updated profile back
 4. Confirm changes

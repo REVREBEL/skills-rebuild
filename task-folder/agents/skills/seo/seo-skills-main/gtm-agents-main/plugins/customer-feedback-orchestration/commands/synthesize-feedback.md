@@ -17,7 +17,7 @@ usage: /customer-feedback-orchestration:synthesize-feedback --window 60d --perso
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Feedback synthesis typically runs **pipeline** (aggregation → tagging → impact modeling → opportunity framing → narrative). If tagging + modeling can run in parallel, record a **diamond** block with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing window, data feeds, dependency graph (CS, product, research, analytics), error handling, and success metrics (theme confidence, coverage %, time-to-synthesize).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing window, data feeds, dependency graph (CS, product, research, analytics), error handling, and success metrics (theme confidence, coverage %, time-to-synthesize).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for taxonomy updates, Context7 for historic studies, Sequential Thinking for workshop prep, Playwright for dashboard QA when embedding outputs.
 - **Guardrails**: Default retry limit = 2 for data pulls/tagging jobs; escalation ladder = Research Lead → CX Leadership → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before workshops to confirm dependencies + deliverables.
@@ -33,7 +33,7 @@ usage: /customer-feedback-orchestration:synthesize-feedback --window 60d --perso
 - Theme matrix with impact, personas, confidence, and owner recommendations.
 - Quote bank + evidence appendix tied to each theme.
 - Action backlog seeds for `route-insights` command.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `cs-analyst` – leads data prep + scoring.

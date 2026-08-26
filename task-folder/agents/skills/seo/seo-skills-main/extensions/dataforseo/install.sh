@@ -5,10 +5,10 @@ set -euo pipefail
 # Wraps everything in main() to prevent partial execution on network failure
 
 main() {
-    SKILL_DIR="${HOME}/.claude/skills/seo-dataforseo"
-    AGENT_DIR="${HOME}/.claude/agents"
-    SEO_SKILL_DIR="${HOME}/.claude/skills/seo"
-    SETTINGS_FILE="${HOME}/.claude/settings.json"
+    SKILL_DIR="${HOME}/.agents/skills/seo-dataforseo"
+    AGENT_DIR="${HOME}/.agents/agents"
+    SEO_SKILL_DIR="${HOME}/.agents/skills/seo"
+    SETTINGS_FILE="${HOME}/.agents/settings.json"
 
     echo "════════════════════════════════════════"
     echo "║   DataForSEO Extension - Installer   ║"
@@ -16,8 +16,8 @@ main() {
     echo "════════════════════════════════════════"
     echo ""
 
-    # Support both traditional (curl|bash → ~/.claude/skills/seo) and marketplace
-    # (plugin install → ~/.claude/plugins/cache/.../skills/seo) installations.
+    # Support both traditional (curl|bash → ~/.agents/skills/seo) and marketplace
+    # (plugin install → ~/.agents/plugins/cache/.../skills/seo) installations.
     # Resolve early using BASH_SOURCE so it works even when run from the plugin cache.
     _EARLY_SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
     _PLUGIN_SEO_DIR="$(cd "${_EARLY_SCRIPT_DIR}/../.." 2>/dev/null && pwd)/skills/seo"
@@ -25,7 +25,7 @@ main() {
         SEO_SKILL_DIR="${_PLUGIN_SEO_DIR}"
     fi
     if [ ! -d "${SEO_SKILL_DIR}" ]; then
-        _GLOB_MATCH=$(ls -d "${HOME}/.claude/plugins/cache/agricidaniel-seo/claude-seo/"*/skills/seo 2>/dev/null | tail -n1 || true)
+        _GLOB_MATCH=$(ls -d "${HOME}/.agents/plugins/cache/agricidaniel-seo/claude-seo/"*/skills/seo 2>/dev/null | tail -n1 || true)
         [ -n "${_GLOB_MATCH}" ] && [ -d "${_GLOB_MATCH}" ] && SEO_SKILL_DIR="${_GLOB_MATCH}"
     fi
 
@@ -148,7 +148,7 @@ with open(settings_path, 'w') as f:
 print('  ✓ MCP server configured in settings.json')
 " || {
         echo "  ⚠  Could not auto-configure MCP server."
-        echo "  Add the dataforseo server manually to ~/.claude/settings.json"
+        echo "  Add the dataforseo server manually to ~/.agents/settings.json"
         echo "  See: extensions/dataforseo/docs/DATAFORSEO-SETUP.md"
     }
 
@@ -160,7 +160,7 @@ print('  ✓ MCP server configured in settings.json')
     echo "✓ DataForSEO extension installed successfully!"
     echo ""
     echo "Usage:"
-    echo "  1. Start Claude Code:  claude"
+    echo "  1. Start Claude Code: claude"
     echo "  2. Run commands:"
     echo "     /seo dataforseo serp best coffee shops"
     echo "     /seo dataforseo keywords seo tools"

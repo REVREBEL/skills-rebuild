@@ -18,7 +18,7 @@ usage: /customer-feedback-orchestration:run-survey --audience "admins" --goal ad
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Survey orchestration typically runs **pipeline** (brief → question design → sampling → monitoring → handoff). If question design + sampling prep run in parallel, note a **diamond** block with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing audience, goals, sampling logic, dependency graph (legal, CS, research ops), error handling, and success metrics (response rate, completion %, demographic balance).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing audience, goals, sampling logic, dependency graph (legal, CS, research ops), error handling, and success metrics (response rate, completion %, demographic balance).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for MAP automation diffs, Context7 for research SOPs + historic surveys, Sequential Thinking for pre/post-readouts, Playwright for survey QA.
 - **Guardrails**: Default retry limit = 2 for distribution/QA failures; escalation ladder = Research Lead → Customer Marketing → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before launch to confirm dependencies, approvals, deliverables.
@@ -34,7 +34,7 @@ usage: /customer-feedback-orchestration:run-survey --audience "admins" --goal ad
 - Survey plan (audience, sample, channels, incentive, timeline).
 - Question set with logic map and translation/localization notes.
 - Distribution checklist + automation steps for MAP/CS tooling.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `research-lead` – validates methodology and question quality.

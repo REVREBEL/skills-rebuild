@@ -1,4 +1,4 @@
-# SEO & GEO Skills Library — Claude Code Context
+# SEO & GEO Skills Library — the agent Context
 
 This plugin provides **20 skills and 5 commands** for Search Engine Optimization (SEO) and Generative Engine Optimization (GEO). All 20 skills follow one shared contract: trigger, quick start, skill contract, handoff summary, and next best skill. Skills are auto-loaded by context; commands are invoked with `/aaron:`. Current bundle version: `9.9.10` (see [VERSIONS.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/VERSIONS.md)).
 
@@ -58,14 +58,14 @@ Skills use `~~category` placeholders (e.g., `~~SEO tool`, `~~analytics`). Every 
 - `plugin.json` must include: `id` and `description` at top level. Commands are auto-discovered from `./commands/`; skills are listed as directory paths.
 - Keep each `SKILL.md` focused — move long detail into `references/` subdirectories. **Exception**: the protocol-layer auditor skills (`content-quality-auditor`, `domain-authority-auditor`) inline the authoritative Auditor Runbook (§1–5) directly in their body, because markdown-linked references do not load reliably at skill-activation time.
 - High-volume `references/` packs should prefer compact starter templates, step matrices, and checklists over long worked outlines. Keep canonical examples only where they materially improve execution quality.
-- After updating a skill, keep the tracking files in step: `VERSIONS.md`, `.claude-plugin/plugin.json`, the root `marketplace.json` and its `.claude-plugin/marketplace.json` mirror, `README.md`, and this `CLAUDE.md`.
+- After updating a skill, keep the tracking files in step: `VERSIONS.md`, `.agents-plugin/plugin.json`, the root `marketplace.json` and its `.agents-plugin/marketplace.json` mirror, `README.md`, and this `CLAUDE.md`.
 - Design philosophy: skills are content (Markdown). Allowed code: the bash validator (`scripts/validate-skill.sh`) and **zero-dependency Python-stdlib connector helpers** under `scripts/connectors/` that pull public/own data locally so skills don't need external tools (see [CONNECTORS.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/CONNECTORS.md)). No third-party / `pip` dependencies.
 - Keep the shared contract and state-model language consistent with `references/skill-contract.md` and `references/state-model.md`.
 - Branch naming: `feature/skill-name`, `fix/skill-name`, `docs/description`
 
 ## CLI Tools
 
-System PATH in Claude Code sessions is minimal (`/usr/bin:/bin:/usr/sbin:/sbin`). Tools installed via Homebrew or npm are NOT on PATH by default. Always use absolute paths:
+System PATH in the agent sessions is minimal (`/usr/bin:/bin:/usr/sbin:/sbin`). Tools installed via Homebrew or npm are NOT on PATH by default. Always use absolute paths:
 
 - **gh** (GitHub CLI): `/opt/homebrew/bin/gh`
 - **node**: `/usr/local/bin/node`

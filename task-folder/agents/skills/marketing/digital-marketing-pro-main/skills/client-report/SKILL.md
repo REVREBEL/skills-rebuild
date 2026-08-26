@@ -13,7 +13,7 @@ Generate a professional, white-labeled client report for a specific brand. Uses 
 
 The user must provide (or will be prompted for):
 
-- **Brand slug**: The brand this report covers — must match a configured brand in `~/.claude-marketing/brands/`
+- **Brand slug**: The brand this report covers — must match a configured brand in `~/.agents-marketing/brands/`
 - **Report type**: One of:
   - Weekly pulse: Quick KPI snapshot with 3-5 key metrics and brief commentary
   - Monthly review: Full performance analysis with channel breakdowns and recommendations
@@ -29,7 +29,7 @@ The user must provide (or will be prompted for):
 
 ## Process
 
-1. **Load brand context**: Read `~/.claude-marketing/brands/_active-brand.json` for the active slug, then load `~/.claude-marketing/brands/{slug}/profile.json`. Apply brand voice, compliance rules for target markets (`skills/context-engine/compliance-rules.md`), and industry context. Also check for guidelines at `~/.claude-marketing/brands/{slug}/guidelines/_manifest.json` — if present, load restrictions. Check for agency SOPs at `~/.claude-marketing/sops/`. If no brand exists, ask: "Set up a brand first (/digital-marketing-pro:brand-setup)?" — or proceed with defaults.
+1. **Load brand context**: Read `~/.agents-marketing/brands/_active-brand.json` for the active slug, then load `~/.agents-marketing/brands/{slug}/profile.json`. Apply brand voice, compliance rules for target markets (`skills/context-engine/compliance-rules.md`), and industry context. Also check for guidelines at `~/.agents-marketing/brands/{slug}/guidelines/_manifest.json` — if present, load restrictions. Check for agency SOPs at `~/.agents-marketing/sops/`. If no brand exists, ask: "Set up a brand first (/digital-marketing-pro:brand-setup)?" — or proceed with defaults.
 2. **Pull all metrics for the brand**: Query connected MCP servers and run `campaign-tracker.py --brand {slug} --action metrics` to gather performance data across all active channels for the specified date range
 3. **Gather campaign history and execution log**: Run `execution-tracker.py --brand {slug} --action list --period {date_range}` to compile all deliverables completed, campaigns launched, optimizations made, and tests concluded during the period
 4. **Calculate KPIs vs targets and vs comparison period**: Compute actuals against the brand's stated KPI targets from `profile.json` and against the selected comparison period — calculate deltas, percentage changes, trend direction, and statistical significance where sample sizes allow

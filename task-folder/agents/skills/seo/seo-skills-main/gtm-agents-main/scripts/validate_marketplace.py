@@ -8,7 +8,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-MARKETPLACE = ROOT / ".claude-plugin" / "marketplace.json"
+MARKETPLACE = ROOT / ".agents-plugin" / "marketplace.json"
 
 REQUIRED_PLUGIN_KEYS = {"name", "source", "description", "category", "version", "commands", "agents", "skills", "keywords"}
 REQUIRED_OWNER_KEYS = {"name", "email", "url"}

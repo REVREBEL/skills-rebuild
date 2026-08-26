@@ -17,7 +17,7 @@ usage: /lead-nurture-orchestration:design-nurture --goal pipeline --segments "mi
 > Derived from GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Most nurture builds follow a **pipeline** (brief → architecture → content → branching → measurement). Switch to **diamond** when content mapping and personalization work can run in parallel. Document the pattern in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` with objective, stages, task IDs, parallel groups, context passing (e.g., audience segments), error handling, and success criteria (activation, SQL lift, etc.).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` with objective, stages, task IDs, parallel groups, context passing (e.g., audience segments), error handling, and success criteria (activation, SQL lift, etc.).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` (Serena for MAP/CRM automation patches, Context7 for platform docs, Sequential Thinking for retros, Playwright for landing/in-app QA).
 - **Guardrails**: Set retry limits (default 2) and escalation flow (Nurture Architect → Marketing Ops Lead → RevOps) if automation validation fails.
 - **Review**: Use `docs/usage-guide.md#orchestration-best-practices-puerto-parity` checklist before execution to confirm agents, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /lead-nurture-orchestration:design-nurture --goal pipeline --segments "mi
 - Journey table (step, trigger, channel, asset, CTA, owner).
 - Mermaid-style diagram or pseudo-code for automation teams.
 - Asset + data requirements list with due dates and owners.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `nurture-architect` – leads design.

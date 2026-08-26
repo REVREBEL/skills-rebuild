@@ -7,9 +7,9 @@ Write-Host "  For Claude SEO" -ForegroundColor Cyan
 Write-Host "====================================" -ForegroundColor Cyan
 Write-Host ""
 
-$SkillDir = "$env:USERPROFILE\.claude\skills\seo-firecrawl"
-$SeoSkillDir = "$env:USERPROFILE\.claude\skills\seo"
-$SettingsFile = "$env:USERPROFILE\.claude\settings.json"
+$SkillDir = "$env:USERPROFILE\.agents\skills\seo-firecrawl"
+$SeoSkillDir = "$env:USERPROFILE\.agents\skills\seo"
+$SettingsFile = "$env:USERPROFILE\.agents\settings.json"
 
 # Check prerequisites
 if (-not (Test-Path $SeoSkillDir)) {

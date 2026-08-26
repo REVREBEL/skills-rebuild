@@ -211,7 +211,7 @@ Optimized search and retrieval strategy for Meridian Tech's Google Drive structu
 5. Cite sources with file names and dates
 ```
 
-**Step 4: Configure subagents (Claude Code/SDK only)**
+**Step 4: Configure subagents (the agent/SDK only)**
 
 Create specialized subagents:
 
@@ -260,7 +260,7 @@ Here's what happens:
 1.  **Project context loads**: Claude accesses your uploaded research documents and follows project instructions
 2.  **MCP connections activate**: Claude searches your Google Drive for recent competitor briefs and pulls GitHub data
 3.  **Skills engage**: The competitive-analysis Skill provides the analytical framework
-4.  **Subagents execute** (in Claude Code): The market-researcher gathers industry data while the technical-analyst reviews technical implementations
+4.  **Subagents execute** (in the agent): The market-researcher gathers industry data while the technical-analyst reviews technical implementations
 5.  **Prompts refine**: You provide conversational guidance: "Focus especially on enterprise customers in healthcare"
 
 **The result:** A comprehensive competitive analysis that draws from multiple data sources, follows your analytical framework, leverages specialized expertise, and maintains context throughout your research project.
@@ -301,7 +301,7 @@ This architecture means you can have many Skills available without overwhelming 
 
 #### **Can subagents use Skills?**
 
-Yes. In Claude Code and the Agent SDK, subagents can access and use Skills just like the main agent. This creates powerful combinations where specialized subagents leverage portable expertise.
+Yes. In the agent and the Agent SDK, subagents can access and use Skills just like the main agent. This creates powerful combinations where specialized subagents leverage portable expertise.
 
 For example, your python-developer subagent can use the pandas-analysis Skill to perform data transformations following your team's conventions, while your documentation-writer subagent uses the technical-writing skill to format API documentation consistently.
 
@@ -320,7 +320,7 @@ Ready to build with Skills? Here's how to start:
 *   Explore the Skills endpoint in [documentation](https://docs.anthropic.com)
 *   Check out our [skills cookbook](https://github.com/anthropics/claude-cookbooks/tree/main/skills)
 
-**Claude Code users:**
+**the agent users:**
 
 *   Install Skills via [plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces)
 *   Check out our [skills cookbook](https://github.com/anthropics/claude-cookbooks/tree/main/skills)  
@@ -598,9 +598,9 @@ Products
     
     [Claude](/product/overview)Claude
     
-*   Claude Code
+*   the agent
     
-    [Claude Code](/product/claude-code)Claude Code
+    [the agent](/product/claude-code)the agent
     
 *   Max plan
     

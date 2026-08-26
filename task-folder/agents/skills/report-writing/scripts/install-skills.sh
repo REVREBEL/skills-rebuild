@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-# Create ~/.claude/skills directory if it doesn't exist
-mkdir -p ~/.claude/skills
+# Create ~/.agents/skills directory if it doesn't exist
+mkdir -p ~/.agents/skills
 
 # Get the directory where this script is located
 SCRIPT_DIR="$(dirname "$0")"
@@ -20,10 +20,10 @@ fi
 for item in "$SKILLS_DIR"/*; do
     if [[ -e "$item" ]]; then
         item_name="$(basename "$item")"
-        target="$HOME/.claude/skills/$item_name"
+        target="$HOME/.agents/skills/$item_name"
 
         # Validate target path for safety
-        if [[ "$target" != "$HOME/.claude/skills/"* ]]; then
+        if [[ "$target" != "$HOME/.agents/skills/"* ]]; then
             echo "Error: Invalid target path $target"
             exit 1
         fi

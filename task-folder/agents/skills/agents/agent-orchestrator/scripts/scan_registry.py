@@ -37,7 +37,7 @@ HASHES_PATH = DATA_DIR / "registry_hashes.json"
 
 # Where to search for SKILL.md files
 SEARCH_PATHS = [
-    SKILLS_ROOT / ".claude" / "skills",   # registered skills
+    SKILLS_ROOT / ".agents" / "skills",   # registered skills
     SKILLS_ROOT,                           # top-level standalone
 ]
 MAX_DEPTH = 3  # max directory depth for SKILL.md search
@@ -278,8 +278,8 @@ def assess_status(skill_dir: Path) -> str:
 
 
 def is_registered(skill_dir: Path) -> bool:
-    """Check if skill is in .claude/skills/."""
-    claude_skills = SKILLS_ROOT / ".claude" / "skills"
+    """Check if skill is in .agents/skills/."""
+    claude_skills = SKILLS_ROOT / ".agents" / "skills"
     try:
         skill_dir.relative_to(claude_skills)
         return True
@@ -402,7 +402,7 @@ def scan(force: bool = False) -> dict:
         changed = True
 
     # Deduplicate by skill name (case-insensitive).
-    # When the same skill exists in both skills/ and .claude/skills/,
+    # When the same skill exists in both skills/ and .agents/skills/,
     # prefer the primary location (skills/) over the registered copy.
     if changed or not REGISTRY_PATH.exists():
         by_name = {}
@@ -413,7 +413,7 @@ def scan(force: bool = False) -> dict:
             if name not in by_name:
                 by_name[name] = entry
             else:
-                # Prefer the version NOT in .claude/skills/ (the primary source)
+                # Prefer the version NOT in .agents/skills/ (the primary source)
                 existing = by_name[name]
                 existing_is_registered = existing.get("registered", False)
                 new_is_registered = entry.get("registered", False)
@@ -463,7 +463,7 @@ def print_status(registry: dict):
     incomplete = [s for s in skills if s.get("status") == "incomplete"]
 
     if unregistered:
-        print(f"\n  [!] {len(unregistered)} skill(s) not registered in .claude/skills/:")
+        print(f"\n  [!] {len(unregistered)} skill(s) not registered in .agents/skills/:")
         for s in unregistered:
             print(f"      - {s['name']} ({s['location']})")
 

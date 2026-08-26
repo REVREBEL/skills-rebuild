@@ -5,10 +5,10 @@ set -euo pipefail
 # Wraps everything in main() to prevent partial execution on network failure
 
 main() {
-    SKILL_DIR="${HOME}/.claude/skills/seo-firecrawl"
-    AGENT_DIR="${HOME}/.claude/agents"
-    SEO_SKILL_DIR="${HOME}/.claude/skills/seo"
-    SETTINGS_FILE="${HOME}/.claude/settings.json"
+    SKILL_DIR="${HOME}/.agents/skills/seo-firecrawl"
+    AGENT_DIR="${HOME}/.agents/agents"
+    SEO_SKILL_DIR="${HOME}/.agents/skills/seo"
+    SETTINGS_FILE="${HOME}/.agents/settings.json"
 
     echo "════════════════════════════════════════"
     echo "║   Firecrawl Extension - Installer    ║"
@@ -115,7 +115,7 @@ with open(settings_path, 'w') as f:
 print('  v MCP server configured in settings.json')
 " || {
         echo "  Warning: Could not auto-configure MCP server."
-        echo "  Add the firecrawl-mcp server manually to ~/.claude/settings.json"
+        echo "  Add the firecrawl-mcp server manually to ~/.agents/settings.json"
         echo "  See: extensions/firecrawl/docs/FIRECRAWL-SETUP.md"
     }
 
@@ -127,7 +127,7 @@ print('  v MCP server configured in settings.json')
     echo "v Firecrawl extension installed successfully!"
     echo ""
     echo "Usage:"
-    echo "  1. Start Claude Code:  claude"
+    echo "  1. Start Claude Code: claude"
     echo "  2. Run commands:"
     echo "     /seo firecrawl crawl https://example.com"
     echo "     /seo firecrawl map https://example.com"

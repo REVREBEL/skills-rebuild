@@ -114,7 +114,7 @@ Use letter bands: 90+ A · 80-89 B · 70-79 C · 60-69 D · <60 F.
 
 ## Gate mode (use this as the Quality Gate before showing the user UI)
 
-The Quality Gate (CLAUDE.md / AGENTS.md) is `/ss-score` run as a loop, not a one-off:
+The Quality Gate (AGENTS.md) is `/ss-score` run as a loop, not a one-off:
 
 1. Score the just-generated UI.
 2. If **< 80**, apply the "fix first" list (use `/ss-review` to make the edits), then **re-score**.

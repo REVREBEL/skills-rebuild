@@ -106,8 +106,8 @@ one file on one commit:
 
 | File | `aimh` (private) | `origin` (public) |
 |---|---|---|
-| `.claude-plugin/marketplace.json` `name` | `ai-marketing-hub-claude-seo` | `agricidaniel-claude-seo` |
-| `.claude-plugin/marketplace.json` `owner.name` | `AI Marketing Hub` | `AgriciDaniel` |
+| `.agents-plugin/marketplace.json` `name` | `ai-marketing-hub-claude-seo` | `agricidaniel-claude-seo` |
+| `.agents-plugin/marketplace.json` `owner.name` | `AI Marketing Hub` | `AgriciDaniel` |
 
 Everything else (including `README.md`) is shared and public-first: the
 install block defaults to `AgriciDaniel/claude-seo`, with a Pro swap-note that

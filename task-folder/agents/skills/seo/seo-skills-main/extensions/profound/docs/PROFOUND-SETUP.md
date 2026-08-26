@@ -10,7 +10,7 @@ a time-series — the complement to SE Ranking's on-demand sampling.
 .\extensions\profound\install.ps1       # Windows
 ```
 
-Stores `PROFOUND_API_KEY` in `~/.claude/settings.json` env block, mode 0o600.
+Stores `PROFOUND_API_KEY` in `~/.agents/settings.json` env block, mode 0o600.
 
 ## Verify
 

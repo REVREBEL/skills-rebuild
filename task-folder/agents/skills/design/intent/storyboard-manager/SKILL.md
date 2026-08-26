@@ -300,7 +300,7 @@ Invoke the timeline tracker when:
 Execute the script from the project root:
 
 ```bash
-python3 .claude/skills/storyboard-manager/scripts/timeline_tracker.py . --output markdown
+python3 .agents/skills/storyboard-manager/scripts/timeline_tracker.py . --output markdown
 ```
 
 **Output format options:**
@@ -360,7 +360,7 @@ Invoke the consistency checker when:
 Execute the script from the project root:
 
 ```bash
-python3 .claude/skills/storyboard-manager/scripts/consistency_checker.py . --output markdown
+python3 .agents/skills/storyboard-manager/scripts/consistency_checker.py . --output markdown
 ```
 
 **Output format options:**
@@ -514,12 +514,12 @@ When stories have multiple perspectives:
 ### scripts/timeline_tracker.py
 Python script that analyzes markdown files to extract and organize timeline events. Tracks character appearances, identifies time markers, groups events chronologically, and flags consistency issues.
 
-**Usage:** Run from project root with `python3 .claude/skills/storyboard-manager/scripts/timeline_tracker.py .`
+**Usage:** Run from project root with `python3 .agents/skills/storyboard-manager/scripts/timeline_tracker.py .`
 
 ### scripts/consistency_checker.py
 Python script that detects inconsistencies in character details, physical descriptions, ages, names, and world-building facts across all story files. Outputs severity-ranked issues with file locations.
 
-**Usage:** Run from project root with `python3 .claude/skills/storyboard-manager/scripts/consistency_checker.py .`
+**Usage:** Run from project root with `python3 .agents/skills/storyboard-manager/scripts/consistency_checker.py .`
 
 ### references/character_development.md
 Comprehensive framework for creating multi-dimensional characters including core elements, backstory structure, arc types, relationship dynamics, voice development, and consistency guidelines.

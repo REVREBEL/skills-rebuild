@@ -53,10 +53,10 @@ interface ContextTier {
 }
 
 const TIERS: ContextTier[] = [
-    { maxTokens: 8000, strategy: 'full', model: 'claude-3-haiku' },
-    { maxTokens: 32000, strategy: 'full', model: 'claude-3-5-sonnet' },
-    { maxTokens: 100000, strategy: 'summarize', model: 'claude-3-5-sonnet' },
-    { maxTokens: Infinity, strategy: 'rag', model: 'claude-3-5-sonnet' }
+    { maxTokens: 8000, strategy: 'full', model: 'llm-fast-model' },
+    { maxTokens: 32000, strategy: 'full', model: 'llm-smart-model' },
+    { maxTokens: 100000, strategy: 'summarize', model: 'llm-smart-model' },
+    { maxTokens: Infinity, strategy: 'rag', model: 'llm-smart-model' }
 ];
 
 async function selectStrategy(messages: Message[]): ContextTier {

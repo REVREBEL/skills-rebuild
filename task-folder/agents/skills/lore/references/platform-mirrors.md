@@ -6,7 +6,7 @@ How `.lore/*` content gets mirrored to platform-specific config files. The main 
 
 | Platform | File (default) | Also accepted |
 |---|---|---|
-| Claude Code | `CLAUDE.md` (root) | `.claude/CLAUDE.md` |
+| the agent | `AGENTS.md` (root) | `.agents/AGENTS.md` |
 | Cursor | `.cursorrules` (root) | `.cursor/rules/*.mdc` |
 | Cline | `.clinerules` (root) | — |
 | Aider | `AGENTS.md` (root) | `CONVENTIONS.md` |
@@ -56,7 +56,7 @@ For each target:
 2. Parse path components without interpreting the value as a shell pattern. Reject any `..`
    component; normalize `.` and repeated separators only after that rejection.
 3. Require the normalized relative path to match this allowlist exactly:
-   `CLAUDE.md`, `.claude/CLAUDE.md`, `.cursorrules`, `.clinerules`, `AGENTS.md`,
+   `AGENTS.md`, `.agents/AGENTS.md`, `.cursorrules`, `.clinerules`, `AGENTS.md`,
    `CONVENTIONS.md`, `.windsurfrules`, `.github/copilot-instructions.md`, or
    `.continue/rules/lore.md`; or match `.cursor/rules/<name>.mdc`, where `<name>` is one
    non-empty filename segment (no nested directory).
@@ -66,8 +66,8 @@ For each target:
    parent symlink escapes the root. Perform this check again immediately before every read or
    write to reduce check/use races.
 
-Examples: accept `CLAUDE.md`, `.github/copilot-instructions.md`, and
-`.cursor/rules/lore.mdc`. Reject `/tmp/CLAUDE.md`, `../CLAUDE.md`,
+Examples: accept `AGENTS.md`, `.github/copilot-instructions.md`, and
+`.cursor/rules/lore.mdc`. Reject `/tmp/AGENTS.md`, `../AGENTS.md`,
 `.cursor/rules/nested/lore.mdc`, `notes.md`, and an allowlisted-looking path whose existing
 parent or file is a symlink outside the project.
 
@@ -76,8 +76,8 @@ parent or file is a symlink outside the project.
 The auto-detect step checks for the following paths at `repo_root`:
 
 ```
-CLAUDE.md
-.claude/CLAUDE.md
+AGENTS.md
+.agents/AGENTS.md
 .cursorrules
 .clinerules
 AGENTS.md
@@ -96,7 +96,7 @@ When Step 3 fires, present this question to the user:
 
 | Choice | Primary file written |
 |---|---|
-| Claude Code | `CLAUDE.md` |
+| the agent | `AGENTS.md` |
 | Cursor | `.cursorrules` |
 | Cline | `.clinerules` |
 | Aider | `AGENTS.md` |
@@ -229,7 +229,7 @@ For each generated mirror file, the section template is:
 
 ## What gets mirrored
 
-The mirror's Lore section is an **index** into `.lore/` — not a copy of its content. This keeps per-session token cost flat (~500 B regardless of project size) and aligns with how platform instruction files (`CLAUDE.md`, `.cursorrules`, etc.) are designed to be used: as small pointers that tell the agent where to find detail on demand.
+The mirror's Lore section is an **index** into `.lore/` — not a copy of its content. This keeps per-session token cost flat (~500 B regardless of project size) and aligns with how platform instruction files (`AGENTS.md`, `.cursorrules`, etc.) are designed to be used: as small pointers that tell the agent where to find detail on demand.
 
 The agent generating the mirror walks `.lore/` and emits the structure below. Sections appear only when their content exists (adaptive rendering).
 

@@ -3,15 +3,15 @@
 #
 # Wires the existing scripts/bing_webmaster.py and indexnow_submit.py into
 # a discoverable seo-bing skill and stores the Bing Webmaster Tools API
-# key + IndexNow host key in ~/.claude/settings.json.
+# key + IndexNow host key in ~/.agents/settings.json.
 #
 # Microsoft Copilot citations are fed by the Bing index, making this the
 # canonical extension for "AI search visibility outside Google".
 set -euo pipefail
 
 main() {
-    SKILL_DIR="${HOME}/.claude/skills"
-    SETTINGS_JSON="${HOME}/.claude/settings.json"
+    SKILL_DIR="${HOME}/.agents/skills"
+    SETTINGS_JSON="${HOME}/.agents/settings.json"
 
     echo "════════════════════════════════════════"
     echo "║ Claude SEO — Bing Webmaster + IndexNow║"

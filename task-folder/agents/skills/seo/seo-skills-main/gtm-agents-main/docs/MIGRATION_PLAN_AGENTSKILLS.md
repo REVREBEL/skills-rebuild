@@ -5,7 +5,7 @@
 This document outlines a comprehensive plan to migrate the **gtm-agents** repository to fully comply with the **Agent Skills** open standard (https://agentskills.io) maintained by Anthropic.
 
 **Current State:** gtm-agents has 67 plugins, 203 agents, 243 skills with a custom structure  
-**Target State:** Full compliance with Agent Skills specification for interoperability with Claude Code, Cursor, VS Code, GitHub Copilot, OpenAI Codex, and other compatible agents
+**Target State:** Full compliance with Agent Skills specification for interoperability with the agent, Cursor, VS Code, GitHub Copilot, OpenAI Codex, and other compatible agents
 
 ---
 
@@ -61,7 +61,7 @@ Update all `SKILL.md` files to include:
 name: skill-name                    # Required (must match directory)
 description: What it does...        # Required (max 1024 chars)
 license: Apache-2.0                 # Optional but recommended
-compatibility: Claude Code          # Optional
+compatibility: the agent          # Optional
 metadata:                           # Optional
   author: gtm-agents
   version: "1.0"
@@ -73,7 +73,7 @@ metadata:                           # Optional
 - [ ] Create script to validate all skill names match directory names
 - [ ] Create script to check description length (max 1024 chars)
 - [ ] Add `license: Apache-2.0` to all skills
-- [ ] Add `compatibility: Claude Code (or similar products)` to all skills
+- [ ] Add `compatibility: the agent (or similar products)` to all skills
 - [ ] Add `metadata` with author, version, category
 
 #### 1.2 Directory Structure Standardization
@@ -187,7 +187,7 @@ gtm-agents/
 │       ├── agents/                 # Custom agent definitions
 │       ├── commands/               # Custom command definitions
 │       └── skills -> ../../skills/[category]/  # Symlinks
-├── .claude-plugin/                 # Claude Code marketplace (KEEP)
+├── .agents-plugin/                 # the agent marketplace (KEEP)
 │   └── marketplace.json
 ├── workspace/                      # Agent working directory (KEEP)
 └── docs/
@@ -230,7 +230,7 @@ Create `skills/index.json` for discovery:
 
 ### Phase 4: Documentation Updates (Priority: MEDIUM)
 
-#### 4.1 Update CLAUDE.md
+#### 4.1 Update AGENTS.md
 
 Add Agent Skills compliance section:
 
@@ -256,7 +256,7 @@ Each skill follows the Agent Skills specification:
 ```
 
 **Tasks:**
-- [ ] Update CLAUDE.md with compliance section
+- [ ] Update AGENTS.md with compliance section
 - [ ] Update README.md
 - [ ] Update CONTRIBUTING.md with skill authoring guidelines
 - [ ] Create `docs/agent-skills-compliance.md`
@@ -270,7 +270,7 @@ Update `templates/skill.md`:
 name: {{skill-name}}
 description: {{description - max 1024 chars}}
 license: Apache-2.0
-compatibility: Claude Code (or similar products)
+compatibility: the agent (or similar products)
 metadata:
   author: gtm-agents
   version: "1.0"
@@ -340,7 +340,7 @@ Monitor for potential future standards:
 
 - [x] Fix all validation failures - **All skills already valid**
 - [x] Add license field to all skills - **Added `license: Apache-2.0`**
-- [x] Add compatibility field to all skills - **Added `compatibility: Claude Code (or similar products)`**
+- [x] Add compatibility field to all skills - **Added `compatibility: the agent (or similar products)`**
 - [x] Add metadata field to all skills - **Added author, version, category**
 - [x] Create validation script - **`scripts/validate_skills.py`**
 - [x] Add to pre-commit hooks - **`.pre-commit-config.yaml`**
@@ -348,7 +348,7 @@ Monitor for potential future standards:
 ### Medium-term (Months 2-3) - IN PROGRESS
 
 - [ ] Decide on repository restructure - **Recommendation: Keep current structure**
-- [x] Update documentation - **CLAUDE.md, CONTRIBUTING.md updated**
+- [x] Update documentation - **AGENTS.md, CONTRIBUTING.md updated**
 - [x] Update templates - **`templates/skill.md` updated**
 - [ ] Create skills index - **Optional, can be generated from marketplace.json**
 - [ ] Add to CI/CD - **Pre-commit hooks added, GitHub Actions pending**
@@ -438,7 +438,7 @@ description: Use when defining ABM tiers, scoring logic, and coverage rules.
 name: account-tiering
 description: Define ABM account tiers, scoring logic, and coverage rules. Use when establishing T1/T2/T3 definitions, auditing tier alignment, or planning coverage models.
 license: Apache-2.0
-compatibility: Claude Code (or similar products)
+compatibility: the agent (or similar products)
 metadata:
   author: gtm-agents
   version: "1.0"

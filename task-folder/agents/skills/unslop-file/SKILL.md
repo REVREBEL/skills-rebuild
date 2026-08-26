@@ -22,7 +22,7 @@ Rewrite natural-language memory files (CLAUDE.md, AGENTS.md, todos, preferences,
 
 Two modes:
 
-- **`--deterministic`** — fast regex pass that strips canonical AI-isms and tightens tricolons. No API call, no `ANTHROPIC_API_KEY` needed. Best for batch processing and CI.
+- **`--deterministic`** — fast regex pass that strips canonical AI-isms and tightens tricolons. No API call, no `LLM_API_KEY` needed. Best for batch processing and CI.
 - **LLM mode (default)** — calls Claude (via Anthropic SDK or `claude --print` CLI fallback) to do a full rewrite that engineers burstiness, restructures performative paragraphs, and matches voice. Slower but better quality.
 
 Humanized version overwrites the original. A `FILE.original.md` backup is written first. Re-run after editing the `.original.md` to regenerate.
@@ -32,7 +32,7 @@ Humanized version overwrites the original. A `FILE.original.md` backup is writte
 | Mode       | What runs                                                                                   | Use when…                                                    |
 | ---------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | `subtle`   | Stock vocab only.                                                                           | Structure is fine; you just want AI vocabulary gone.         |
-| `balanced` | (Default.) Sycophancy, hedging, transitions, stock vocab, authority tropes, signposting, performative balance, em-dash cap. | Everyday docs / READMEs / CLAUDE.md.                         |
+| `balanced` | (Default.) Sycophancy, hedging, transitions, stock vocab, authority tropes, signposting, performative balance, em-dash cap. | Everyday docs / READMEs / AGENTS.md.                         |
 | `full`     | Balanced + filler phrases + negative-parallelism tricolons + stronger LLM prompt.           | Marketing copy, release notes, slop-heavy LLM output.        |
 
 ### Two-pass audit

@@ -39,7 +39,7 @@ Removed non-user-facing maintenance and process scaffolding, and consolidated th
 - Controlled-evolution protocol (`/aaron:evolve`, EvolutionEvent, `evolution-*` references, `memory/evolution/`) and the GEO-drift feedback loop it fed: the `memory/geo-feedback/` records and the `/aaron:watch --geo-drift` mode are removed, so `/aaron:watch` now covers rankings and alerts only.
 - Wiki memory-compilation layer (Phase 1–3, 健康度 scoring, wiki-driven WARM→COLD retirement, `wiki-runbook.md`, recovery/rollback scripts). Plain HOT/WARM/COLD memory and `memory/archive/` are unchanged.
 - Maintainer commands `/aaron:guard` and `/aaron:skillify`; line-budget / "slimming" ceremony (350-line ceiling, `validate-slimming-guardrails.sh`, the `references/decisions/` ADRs); and the inline-runbook sha256 sync ceremony (the auditor runbook stays inlined — only the hash-drift check is gone).
-- Per-vendor distribution catering: `gemini-extension.json`, `qwen-extension.json`, `openclaw.plugin.json`, `.codebuddy-plugin/`, `marketplaces/`, the `distribution/` platform registry, and the ClawHub/OpenClaw publishing workflows. Distribution is now generic: one root `marketplace.json` plus its `.claude-plugin/` mirror.
+- Per-vendor distribution catering: `gemini-extension.json`, `qwen-extension.json`, `openclaw.plugin.json`, `.codebuddy-plugin/`, `marketplaces/`, the `distribution/` platform registry, and the ClawHub/OpenClaw publishing workflows. Distribution is now generic: one root `marketplace.json` plus its `.agents-plugin/` mirror.
 - Historical design proposals under `.docs/` and `references/proposal-*`.
 - `CITATION.cff` (citation-metadata ceremony) and `references/skill-resolver.md` (a derived routing index redundant with the skills' own descriptions) — neither referenced by any skill or command.
 
@@ -88,7 +88,7 @@ Final 9.x release consolidating the entire post-v9.0.0 development line into a s
 **Changed**:
 - Public command API: `/seo:*` → `/aaron:*` (breaking).
 - Skill `version` and `metadata.version` fields unified across all 20 skills.
-- Marketplace mirrors (`marketplace.json` ↔ `.claude-plugin/marketplace.json`) kept byte-identical via `.github/scripts/sync-skills.js`.
+- Marketplace mirrors (`marketplace.json` ↔ `.agents-plugin/marketplace.json`) kept byte-identical via `.github/scripts/sync-skills.js`.
 
 **Protected**: all 20 skills and 17 commands remain. No skill directories renamed, moved, or deleted. Existing skill GitHub URLs are stable.
 

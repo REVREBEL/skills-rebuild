@@ -17,7 +17,7 @@ usage: /referral-program-orchestration:design-referral --goal "pipeline" --audie
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Referral design typically uses a **diamond** (context ↔ mechanic modeling, converge into governance) or **pipeline**; document choice in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing goals, incentives, dependency graph (legal, finance, ops, partner), error handling, and success criteria (pipeline, CAC, fraud rates).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing goals, incentives, dependency graph (legal, finance, ops, partner), error handling, and success criteria (pipeline, CAC, fraud rates).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for charter diffs, Context7 for compliance + incentive benchmarks, Sequential Thinking for trade-off analysis, Playwright for prototype referral journeys.
 - **Guardrails**: Default retry limit = 2 for modeling or policy failures; escalation ladder = Referral Architect → Legal/Finance → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before sign-off to confirm dependencies, approvals, deliverables.
@@ -33,7 +33,7 @@ usage: /referral-program-orchestration:design-referral --goal "pipeline" --audie
 - Referral program charter (objective, mechanics, incentives, rules, KPIs).
 - Stakeholder alignment deck outlining responsibilities and approvals.
 - Risk log highlighting compliance/legal considerations.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `referral-architect` – leads program design and governance.

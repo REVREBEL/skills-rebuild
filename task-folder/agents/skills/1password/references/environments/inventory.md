@@ -70,9 +70,7 @@ op item edit "<env-name>" --vault hypera \
 ### Access via CLI Tools
 
 ```bash
-cd ~/.claude/skills/1password-skill/tools
-# OR
-cd .claude/skills/1password-skill/tools
+cd {SKILL_DIR}/tools
 
 # List all environments
 bun run list --vault hypera
@@ -110,7 +108,7 @@ op://hypera/<env-name>/variables/<KEY>
 Examples:
 - `op://hypera/hypera/variables/API_KEY`
 - `op://hypera/devops-team-pim/variables/AZURE_CLIENT_ID`
-- `op://hypera/Azure OpenAI-finops/variables/OPENAI_API_KEY`
+- `op://hypera/Azure OpenAI-finops/variables/LLM_API_KEY`
 
 ## Notes
 

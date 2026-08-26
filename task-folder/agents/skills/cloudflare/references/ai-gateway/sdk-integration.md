@@ -13,7 +13,7 @@ const gateway = createAiGateway({
   apiKey: process.env.CF_API_TOKEN // Optional for auth gateways
 });
 
-const openai = createOpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const openai = createOpenAI({ apiKey: process.env.LLM_API_KEY });
 
 // Single model
 const { text } = await generateText({
@@ -47,7 +47,7 @@ model: gateway(openai('gpt-4o'), {
 
 ```typescript
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.LLM_API_KEY,
   baseURL: `https://gateway.ai.cloudflare.com/v1/${accountId}/${gatewayId}/openai`,
   defaultHeaders: { 'cf-aig-authorization': `Bearer ${cfToken}` }
 });
@@ -60,7 +60,7 @@ model: 'openai/gpt-4o'  // or 'anthropic/claude-sonnet-4-5'
 
 ```typescript
 const client = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY,
+  apiKey: process.env.LLM_API_KEY,
   baseURL: `https://gateway.ai.cloudflare.com/v1/${accountId}/${gatewayId}/anthropic`,
   defaultHeaders: { 'cf-aig-authorization': `Bearer ${cfToken}` }
 });

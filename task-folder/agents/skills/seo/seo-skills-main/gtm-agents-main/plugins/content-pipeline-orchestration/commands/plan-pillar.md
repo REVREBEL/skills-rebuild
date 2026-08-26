@@ -17,7 +17,7 @@ usage: /content-pipeline-orchestration:plan-pillar --theme "AI readiness" --wind
 > Derived from GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Default to **pipeline** (brief → hero asset → derivatives → owners → distribution). Use **diamond** when creative pods and distribution prep can run in parallel; document the pattern in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` with objective, asset stages, task IDs, parallel groups, dependency graph, error handling, and success criteria (e.g., MQL, pipeline, share of voice).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` with objective, asset stages, task IDs, parallel groups, dependency graph, error handling, and success criteria (e.g., MQL, pipeline, share of voice).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack (Serena for CMS/landing updates, Context7 for brand/legal docs, Sequential Thinking for retros, Playwright for QA of landing pages).
 - **Guardrails**: Define retry strategy (default 2) and escalation ladder (Editorial Director → Creative Producer → Marketing Director) for missed approvals or QA issues.
 - **Review**: Before execution, run the checklist in `docs/usage-guide.md#orchestration-best-practices-puerto-parity` to confirm agents, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /content-pipeline-orchestration:plan-pillar --theme "AI readiness" --wind
 - Pillar blueprint table (asset, format, owner, due date, CTA, dependency).
 - Creative brief package template per asset.
 - Initial distribution + amplification notes.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `editorial-director` – leads strategy + calendar.

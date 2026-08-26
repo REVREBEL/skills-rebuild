@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
-SKILL_DIR="${HOME}/.claude/skills/seo-seranking"
-SETTINGS_JSON="${HOME}/.claude/settings.json"
+SKILL_DIR="${HOME}/.agents/skills/seo-seranking"
+SETTINGS_JSON="${HOME}/.agents/settings.json"
 [ -d "${SKILL_DIR}" ] && rm -rf "${SKILL_DIR}" && echo "✓ Removed ${SKILL_DIR}"
 if [ -f "${SETTINGS_JSON}" ]; then
   python3 - "${SETTINGS_JSON}" <<'PY'

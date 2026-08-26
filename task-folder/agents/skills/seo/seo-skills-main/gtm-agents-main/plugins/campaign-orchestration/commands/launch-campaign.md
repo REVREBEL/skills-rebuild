@@ -54,7 +54,7 @@ This orchestrator coordinates 8+ specialized agents to execute comprehensive mar
 > Based on GTM Agents's orchestrator guidance @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern Selection**: default to **pipeline** (Strategy → Creative → Channels → Optimization). Switch to **diamond/fan-out** when creative/analytics work can parallelize; note pattern choice in the plan header.
-- **Plan Schema**: every `/campaign-orchestration` run must emit a JSON plan saved under `.claude/plans/plan-<timestamp>.json` with objective, complexity, stages, task IDs, parallelization block, context-passing notes, error handling, and success criteria.
+- **Plan Schema**: every `/campaign-orchestration` run must emit a JSON plan saved under `.agents/plans/plan-<timestamp>.json` with objective, complexity, stages, task IDs, parallelization block, context-passing notes, error handling, and success criteria.
 - **Tool Hooks**: reference `docs/gtm-essentials.md` tools inside plan steps (Serena for code/landing-page patches, Context7 for doc lookups, Sequential Thinking for retros, Playwright for QA checkpoints).
 - **Guardrails & Escalation**: define retry strategy (immediate vs modified), max retries (default 2), and escalation path (Campaign Strategist → RevOps lead) for failures.
 - **Review Flow**: before execution, run the checklist from `docs/usage-guide.md#orchestration-best-practices-puerto-parity` (agent availability, dependency validation, deliverables alignment).
@@ -222,7 +222,7 @@ if (performance < target) {
 - Creative review before channel setup
 - Soft launch before full launch
 - Daily optimization cycles
-- Plan file updated when scope or owners change (keep `.claude/plans` log in sync).
+- Plan file updated when scope or owners change (keep `.agents/plans` log in sync).
 
 ## Resource Allocation
 
@@ -343,4 +343,4 @@ Recommendation: [Next steps]
 
 ---
 
-*Orchestration Model: claude-sonnet-4 for strategy, claude-haiku-4-5 for execution*
+*Orchestration Model: llm-smart-model for strategy, llm-fast-model for execution*

@@ -22,7 +22,7 @@ This skill prints a complete status snapshot for the active Digital Marketing Pr
 
 Heavy skill. **Grep before Read** any referenced file, then `Read` only matched ranges with `offset` + `limit`. List `${CLAUDE_PLUGIN_DATA}/<brand>/` before opening files. On re-invocation mid-session, skip files already in context.
 
-In v3.0 and earlier, the SessionStart hook ran `setup.py` automatically at every Claude Code session start to print a 15-line brand summary banner. v3.1 removed that hook because it fired globally across every project regardless of whether the user was doing marketing work. v3.2 introduces `/digital-marketing-pro:status` as the explicit replacement — a richer view, on demand.
+In v3.0 and earlier, the SessionStart hook ran `setup.py` automatically at every the agent session start to print a 15-line brand summary banner. v3.1 removed that hook because it fired globally across every project regardless of whether the user was doing marketing work. v3.2 introduces `/digital-marketing-pro:status` as the explicit replacement — a richer view, on demand.
 
 ## What it shows
 
@@ -44,7 +44,7 @@ The status snapshot has 5 sections:
 /digital-marketing-pro:status
 ```
 
-Full snapshot for the active brand. Reads from `~/.claude-marketing/brands/_active-brand.json` to find the active slug.
+Full snapshot for the active brand. Reads from `~/.agents-marketing/brands/_active-brand.json` to find the active slug.
 
 ### Specific brand
 
@@ -88,11 +88,11 @@ Print only the requested section. Useful when you only need one piece of state.
 
 ## How the skill operates
 
-1. **Resolve target brand.** If `--brand` provided, use it. Otherwise read `~/.claude-marketing/brands/_active-brand.json` for the active slug. If no active brand, instruct the user to run `/digital-marketing-pro:brand-setup` first.
+1. **Resolve target brand.** If `--brand` provided, use it. Otherwise read `~/.agents-marketing/brands/_active-brand.json` for the active slug. If no active brand, instruct the user to run `/digital-marketing-pro:brand-setup` first.
 
 2. **Execute the script.**
    ```
-   python ${CLAUDE_PLUGIN_ROOT}/scripts/dm-status.py [--brand <slug>] [--json] [--quiet] [--section <name>]
+   python ${SKILL_ROOT}/scripts/dm-status.py [--brand <slug>] [--json] [--quiet] [--section <name>]
    ```
 
 3. **Pass through the formatted output to the user.** The script does the heavy lifting; the skill is a thin orchestration layer.
@@ -199,7 +199,7 @@ User: /digital-marketing-pro:status
 Output:
 No active brand found.
 Pass --brand <slug> explicitly, or run /digital-marketing-pro:brand-setup to create one.
-Workspace: ~/.claude-marketing      # or $CLAUDE_PLUGIN_DATA/digital-marketing-pro if set
+Workspace: ~/.agents-marketing      # or $CLAUDE_PLUGIN_DATA/digital-marketing-pro if set
 ```
 
 ## Behaviour rules
@@ -207,7 +207,7 @@ Workspace: ~/.claude-marketing      # or $CLAUDE_PLUGIN_DATA/digital-marketing-p
 1. **Never modify state.** Read-only operation. Never write to brand profile, engagement state, or any persistent file.
 2. **Never error silently.** If a brand profile is missing or corrupt, the script reports the specific error in the output.
 3. **Surface health indicators after the snapshot.** If JSON output is requested or if the skill is parsing for downstream use, highlight: engagements with no update in 14+ days, pending re-run decisions, recent compliance violations, missing Python deps.
-4. **Respect CLAUDE_PLUGIN_DATA.** When the env var is set, the script reads from `$CLAUDE_PLUGIN_DATA/digital-marketing-pro/...` instead of `~/.claude-marketing/...`.
+4. **Respect CLAUDE_PLUGIN_DATA.** When the env var is set, the script reads from `$CLAUDE_PLUGIN_DATA/digital-marketing-pro/...` instead of `~/.agents-marketing/...`.
 5. **Fast.** The script reads only state files; never invokes other scripts; never makes network calls.
 
 ## What this skill does NOT do

@@ -17,7 +17,7 @@ usage: /community-orchestration:plan-community-calendar --window 8weeks --channe
 > Mirrors GTM Agents orchestrator blueprint @puerto/plugins/orchestrator/README.md#112-325.
 
 - **Pattern selection**: Community calendar planning typically runs **pipeline** (signals → themes → programming → resources → publishing). If programming segments (e.g., events vs async drops) run in parallel, capture a **diamond** segment with merge gate in the plan header.
-- **Plan schema**: Save `.claude/plans/plan-<timestamp>.json` capturing window, channels, task IDs, dependency graph (hosts, moderators, asset teams), error handling, and success metrics (attendance, engagement %, advocacy contributions).
+- **Plan schema**: Save `.agents/plans/plan-<timestamp>.json` capturing window, channels, task IDs, dependency graph (hosts, moderators, asset teams), error handling, and success metrics (attendance, engagement %, advocacy contributions).
 - **Tool hooks**: Reference `docs/gtm-essentials.md` stack—Serena for asset/promo diffs, Context7 for playbooks/guidelines, Sequential Thinking for governance/check-in cadence, Playwright for testing community microsites or forms if needed.
 - **Guardrails**: Default retry limit = 2 for resource shortages or tooling failures; escalation ladder = Community Lead → Marketing/CS leadership → Exec sponsor.
 - **Review**: Run `docs/usage-guide.md#orchestration-best-practices-puerto-parity` before execution to confirm owners, dependencies, deliverables.
@@ -33,7 +33,7 @@ usage: /community-orchestration:plan-community-calendar --window 8weeks --channe
 - Calendar table (date, theme, channel, format, owner, CTA, dependencies).
 - Asset + promotion checklist with due dates.
 - Risk log flagging capacity or approval gaps.
-- Plan JSON entry stored/updated in `.claude/plans` for audit trail.
+- Plan JSON entry stored/updated in `.agents/plans` for audit trail.
 
 ## Agent/Skill Invocations
 - `community-lead` – sets strategy and approvals.

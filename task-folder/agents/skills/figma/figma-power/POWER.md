@@ -79,7 +79,7 @@ User: "Connect this Figma button to my code: https://figma.com/design/kL9xQn2VwM
 
 User: "Create design system rules for my React project"
 
-→ Load `create-design-system-rules.md` steering, then follow the 5-step workflow to run the tool, analyze codebase, generate rules, save to CLAUDE.md, and validate.
+→ Load `create-design-system-rules.md` steering, then follow the 5-step workflow to run the tool, analyze codebase, generate rules, save to AGENTS.md, and validate.
 
 ## Troubleshooting
 

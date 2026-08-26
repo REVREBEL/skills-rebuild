@@ -100,7 +100,7 @@ interface ReviewRoutingStrategy {
     }
 
     if (metrics.securitySensitive || metrics.affectsAuth) {
-      return new AIEngine("claude-3.7-sonnet", {
+      return new AIEngine("frontier-model", {
         temperature: 0.1,
         maxTokens: 4000,
         systemPrompt: SECURITY_FOCUSED_PROMPT
@@ -111,7 +111,7 @@ interface ReviewRoutingStrategy {
       return new QodoEngine({ mode: "test-generation", coverageTarget: 80 });
     }
 
-    return new AIEngine("gpt-4o", { temperature: 0.3, maxTokens: 2000 });
+    return new AIEngine("standard-model", { temperature: 0.3, maxTokens: 2000 });
   }
 }
 ```
@@ -184,7 +184,7 @@ Check for:
 Provide: CWE identifier, CVSS score, exploit scenario, remediation code
 """
 
-findings = claude.analyze(security_analysis_prompt, temperature=0.1)
+findings = ai_client.analyze(security_analysis_prompt, temperature=0.1)
 ```
 
 **Secret Scanning**:
@@ -311,7 +311,7 @@ jobs:
 
       - name: AI-Enhanced Review (GPT-5)
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
         run: |
           python scripts/ai_review.py \
             --pr-number ${{ github.event.number }} \
@@ -348,7 +348,7 @@ jobs:
 import os, json, subprocess
 from dataclasses import dataclass
 from typing import List, Dict, Any
-from anthropic import Anthropic
+import openai
 
 @dataclass
 class ReviewIssue:
@@ -360,7 +360,12 @@ class CodeReviewOrchestrator:
     def __init__(self, pr_number: int, repo: str):
         self.pr_number = pr_number; self.repo = repo
         self.github_token = os.environ['GITHUB_TOKEN']
-        self.anthropic_client = Anthropic(api_key=os.environ['ANTHROPIC_API_KEY'])
+        self.ai_client = openai.OpenAI(
+            api_key=os.environ.get('LLM_API_KEY') or 
+                    os.environ.get('OPENAI_API_KEY') or 
+                    os.environ.get('ANTHROPIC_API_KEY') or 
+                    os.environ.get('GEMINI_API_KEY')
+        )
         self.issues: List[ReviewIssue] = []
 
     def run_static_analysis(self) -> Dict[str, Any]:
@@ -391,13 +396,13 @@ Return JSON array:
 }}]
 """
 
-        response = self.anthropic_client.messages.create(
-            model="claude-3-5-sonnet-20241022",
-            max_tokens=8000, temperature=0.2,
+        response = self.ai_client.chat.completions.create(
+            model=os.environ.get("LLM_MODEL", "gpt-4o-mini"),
+            max_tokens=4000, temperature=0.2,
             messages=[{"role": "user", "content": prompt}]
         )
 
-        content = response.content[0].text
+        content = response.choices[0].message.content
         if '```json' in content:
             content = content.split('```json')[1].split('```')[0]
 

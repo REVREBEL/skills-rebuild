@@ -69,7 +69,7 @@ Read {fields_path} to get all field definitions
 
 ## Validation
 After completing JSON output, run validation script to ensure complete field coverage:
-python ~/.claude/skills/research-outline/validate_json.py -f {fields_path} -j {output_path}
+python ~/.agents/skills/research-outline/validate_json.py -f {fields_path} -j {output_path}
 Task is complete only after validation passes.
 ```
 
@@ -95,7 +95,7 @@ Read {project_dir}/fields.yaml to get all field definitions
 
 ## Validation
 After completing JSON output, run validation script to ensure complete field coverage:
-python ~/.claude/skills/research-outline/validate_json.py -f {project_dir}/fields.yaml -j {project_dir}/results/github_copilot.json
+python ~/.agents/skills/research-outline/validate_json.py -f {project_dir}/fields.yaml -j {project_dir}/results/github_copilot.json
 Task is complete only after validation passes.
 ```
 
@@ -121,7 +121,7 @@ After all batches finish, output:
 
 ## Gotchas
 
-- **The validator path `~/.claude/skills/research-outline/validate_json.py` is install-coupled.** It assumes the `research-outline` skill is installed at `~/.claude/skills/research-outline/`, which is what `claude-code-skills/scripts/link-skills.sh` and `install-skills.sh` set up. If you copied the skill anywhere else (e.g. a project-local `.claude/skills/`), the validator path in the templated prompt will break and the subagent will hang at the validation step. Fix by either keeping the canonical install path, or replacing the validator path in the template above with the correct absolute path for your install before kicking off `/research-deep`.
+- **The validator path `~/.agents/skills/research-outline/validate_json.py` is install-coupled.** It assumes the `research-outline` skill is installed at `~/.agents/skills/research-outline/`, which is what `claude-code-skills/scripts/link-skills.sh` and `install-skills.sh` set up. If you copied the skill anywhere else (e.g. a project-local `.agents/skills/`), the validator path in the templated prompt will break and the subagent will hang at the validation step. Fix by either keeping the canonical install path, or replacing the validator path in the template above with the correct absolute path for your install before kicking off `/research-deep`.
 - **Background agents with task output disabled give you no early-warning if they go off the rails.** That's the deliberate tradeoff — token economy over verbosity. Spot-check the first batch's JSON before approving more.
 - **Resume relies purely on filename match.** A half-written JSON from a crashed run looks "done" to Step 2. If a previous run was interrupted, delete the corrupt JSONs before re-running.
 - **`{item_name_slug}` collisions silently overwrite.** Two items whose names slugify to the same string (e.g. `GPT-4` and `GPT 4`) will clobber each other. If you suspect collision, add a discriminator in the item's `category` field and slug them as `{category_slug}_{name_slug}` instead.

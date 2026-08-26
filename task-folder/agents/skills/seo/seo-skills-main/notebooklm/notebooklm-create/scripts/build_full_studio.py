@@ -18,7 +18,7 @@ Usage:
     --theme "native macOS terminal for parallel AI coding agents" \\
     --features "libghostty rendering,notification rings,claude-teams,remote workspaces" \\
     --comparison "tmux,Agent Orchestrator,T3 Code,OpenAI Symphony" \\
-    --audience "macOS developers running parallel Claude Code / Codex sessions"
+    --audience "macOS developers running parallel the agent / Codex sessions"
 """
 
 import argparse

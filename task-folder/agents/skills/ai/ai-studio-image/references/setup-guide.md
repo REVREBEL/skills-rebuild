@@ -11,7 +11,7 @@
 
 ### Opcao A: Arquivo .env (recomendado)
 
-Crie/edite `C:\Users\renat\skills\ai-studio-image\.env`:
+Crie/edite `{SKILL_DIR}/.env`:
 
 ```
 GEMINI_API_KEY=sua-api-key-principal
@@ -35,7 +35,7 @@ export GEMINI_API_KEY=sua-api-key
 ## 3. Instalar Dependencias
 
 ```bash
-pip install -r C:\Users\renat\skills\ai-studio-image\scripts\requirements.txt
+pip install -r {SKILL_DIR}/scripts\requirements.txt
 ```
 
 Ou manualmente:
@@ -47,10 +47,10 @@ pip install google-genai Pillow python-dotenv
 
 ```bash
 # Testar se tudo funciona
-python C:\Users\renat\skills\ai-studio-image\scripts\generate.py --list-models
+python {SKILL_DIR}/scripts\generate.py --list-models
 
 # Gerar primeira imagem
-python C:\Users\renat\skills\ai-studio-image\scripts\generate.py \
+python {SKILL_DIR}/scripts\generate.py \
   --prompt "pessoa jovem sorrindo em cafeteria" \
   --mode influencer \
   --format square

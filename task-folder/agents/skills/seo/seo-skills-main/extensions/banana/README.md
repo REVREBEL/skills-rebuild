@@ -9,7 +9,7 @@ banana Creative Director pipeline.
 > This extension wraps [Claude Banana](https://github.com/AgriciDaniel/banana-claude)
 > for SEO-specific use cases. Install the standalone skill for general-purpose image generation.
 
-- **Claude SEO** installed (`~/.claude/skills/seo/`)
+- **Claude SEO** installed (`~/.agents/skills/seo/`)
 - **Node.js 18+** with npx
 - **Google AI API key** (free at [aistudio.google.com/apikey](https://aistudio.google.com/apikey))
 - **ImageMagick** (optional, for post-processing)
@@ -24,7 +24,7 @@ The installer will:
 1. Verify Claude SEO is installed
 2. Prompt for your Google AI API key (if nanobanana-mcp not already configured)
 3. Install the `seo-image-gen` skill and agent
-4. Configure the MCP server in `~/.claude/settings.json`
+4. Configure the MCP server in `~/.agents/settings.json`
 
 ## Commands
 

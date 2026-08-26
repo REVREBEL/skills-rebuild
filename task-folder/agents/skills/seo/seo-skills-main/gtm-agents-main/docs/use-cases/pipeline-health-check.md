@@ -36,7 +36,7 @@
 
 ## Prerequisites
 
-- [ ] Claude Code installed
+- [ ] the agent installed
 - [ ] GTM Agents marketplace added
 - [ ] `sales-pipeline` plugin installed
 - [ ] Access to your CRM data (Salesforce, HubSpot, etc.)
@@ -64,7 +64,7 @@ Save as CSV file.
 
 ### Step 2: Run Pipeline Audit (3 minutes)
 
-1. Open Claude Code
+1. Open the agent
 2. Run:
    ```
    /sales-pipeline:audit-pipeline

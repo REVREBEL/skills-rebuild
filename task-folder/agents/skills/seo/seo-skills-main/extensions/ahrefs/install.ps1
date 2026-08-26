@@ -13,8 +13,8 @@ function Test-Cmd($name) {
 if (-not (Test-Cmd python)) { throw "Python 3 is required." }
 if (-not (Test-Cmd npx))    { throw "Node 18+ / npx is required." }
 
-$SkillDir = Join-Path $HOME ".claude/skills"
-$SettingsJson = Join-Path $HOME ".claude/settings.json"
+$SkillDir = Join-Path $HOME ".agents/skills"
+$SettingsJson = Join-Path $HOME ".agents/settings.json"
 
 if (-not (Test-Path (Join-Path $SkillDir "seo"))) {
     throw "claude-seo base plugin not installed."
@@ -58,4 +58,4 @@ print(f'Wrote mcpServers.ahrefs to {path}')
 $pyScript | python - $SettingsJson $Plain
 
 Write-Host ""
-Write-Host "Done. Open a new Claude Code session and run /seo ahrefs metrics <url>."
+Write-Host "Done. Open a new the agent session and run /seo ahrefs metrics <url>."

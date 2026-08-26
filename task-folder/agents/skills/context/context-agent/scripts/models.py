@@ -10,7 +10,7 @@ from typing import Optional
 
 @dataclass
 class SessionEntry:
-    """Uma entrada individual do log JSONL do Claude Code."""
+    """Uma entrada individual do log JSONL do the agent."""
     type: str                          # "user" | "assistant" | "queue-operation"
     timestamp: str                     # ISO 8601
     session_id: str
@@ -48,7 +48,7 @@ class ProjectInfo:
 
 @dataclass
 class SessionSummary:
-    """Resumo estruturado de uma sessão do Claude Code."""
+    """Resumo estruturado de uma sessão do the agent."""
     session_number: int
     session_id: str = ""
     slug: str = ""

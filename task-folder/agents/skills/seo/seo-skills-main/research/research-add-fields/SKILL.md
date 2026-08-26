@@ -1,7 +1,7 @@
 ---
 name: research-add-fields
 user-invocable: true
-allowed-tools: Read, Write, Glob, Task, AskUserQuestion
+allowed-tools: Read, Write, Glob, Task, AskUser
 description: Append new field definitions to an in-progress research outline's `fields.yaml` — either from user-supplied input or from a web-search agent that proposes common dimensions in the domain. Use mid-`/research-outline` when you've realised the schema is missing dimensions (e.g. pricing, performance, ecosystem, governance) before running `/research-deep`, so deep agents fill the new fields on first pass instead of needing a re-run.
 ---
 
@@ -29,7 +29,7 @@ Reachable any time after `/research-outline` has produced `fields.yaml`, but mos
 
 ### Step 2 — Pick a supplement source
 
-`AskUserQuestion` with two options:
+`AskUser` with two options:
 
 - **A. Direct input** — user dictates field names, descriptions, and categories.
 - **B. Web search** — launch a research subagent via the `Task` tool (`subagent_type: general-purpose`) to propose common fields in the topic's domain.
@@ -37,7 +37,7 @@ Reachable any time after `/research-outline` has produced `fields.yaml`, but mos
 ### Step 3 — Display and confirm
 
 - Show the candidate field list back to the user (whether from A or B).
-- `AskUserQuestion` for each candidate: keep / drop / edit.
+- `AskUser` for each candidate: keep / drop / edit.
 - For each kept field, capture: `category` (must match an existing `field_categories[].category` or be a new one), `detail_level` (`brief | moderate | detailed`), `required` (default `false`).
 
 ### Step 4 — Save update
@@ -65,4 +65,4 @@ Updated `{topic}/fields.yaml` — in-place modification, user confirms before sa
 - **Adding `required: true` retroactively breaks already-completed items.** If `/research-deep` already produced JSONs for some items and you add a new required field, those JSONs will fail validation. Either add the field as `required: false`, or plan to re-run `/research-deep` for the affected items.
 - **Category names are matched literally.** A new field whose `category` doesn't match an existing `field_categories[].category` creates a new top-level category in the schema. That's fine, but make sure it's intentional — a typo here is a silent split.
 - **The web-search subagent in option B operates outside the conversation context.** Hand it the topic and an explicit list of categories that already exist, so its proposals fit the schema rather than colliding with what's there.
-- **`fields.yaml` is also consumed by `~/.claude/skills/research-outline/validate_json.py`**. The schema this skill writes must stay compatible with that validator — same `field_categories[].fields[].name` / `required` shape, no exotic YAML constructs.
+- **`fields.yaml` is also consumed by `~/.agents/skills/research-outline/validate_json.py`**. The schema this skill writes must stay compatible with that validator — same `field_categories[].fields[].name` / `required` shape, no exotic YAML constructs.

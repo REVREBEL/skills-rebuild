@@ -7,7 +7,7 @@ import threading
 import random
 from typing import Optional
 
-# Check if we're in a real terminal (not captured by Claude Code)
+# Check if we're in a real terminal (not captured by the agent)
 IS_TTY = sys.stderr.isatty()
 
 # ANSI color codes
@@ -158,7 +158,7 @@ class Spinner:
             self.thread = threading.Thread(target=self._spin, daemon=True)
             self.thread.start()
         else:
-            # Not a TTY (Claude Code) - just print once
+            # Not a TTY (the agent) - just print once
             if not self.shown_static:
                 sys.stderr.write(f"⏳ {self.message}\n")
                 sys.stderr.flush()

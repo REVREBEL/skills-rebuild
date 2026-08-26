@@ -31,12 +31,12 @@ const dbCredential = "[redacted password]" // In source code
 
 #### ✅ ALWAYS Do This
 ```typescript
-const apiKey = process.env.OPENAI_API_KEY
+const apiKey = process.env.LLM_API_KEY
 const dbUrl = process.env.DATABASE_URL
 
 // Verify secrets exist
 if (!apiKey) {
-  throw new Error('OPENAI_API_KEY not configured')
+  throw new Error('LLM_API_KEY not configured')
 }
 ```
 

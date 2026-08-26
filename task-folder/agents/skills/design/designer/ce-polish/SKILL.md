@@ -17,7 +17,7 @@ Start the dev server, open the feature in a browser, and iterate. You use the fe
 
 ## Phase 1: Start the dev server
 
-### 1.1 Check for `.claude/launch.json`
+### 1.1 Check for `.agents/launch.json`
 
 Run `bash scripts/read-launch-json.sh`. If it finds a configuration, use it — the user already told us how to start the project.
 
@@ -49,7 +49,7 @@ Start the dev server in the background, log output to a temp file. Probe `http:/
 
 ### 1.4 Open in browser
 
-Load `references/ide-detection.md` for the env-var probe table. Open the browser using the IDE's mechanism (Claude Code → `open`, Cursor → Cursor browser, VS Code → Simple Browser).
+Load `references/ide-detection.md` for the env-var probe table. Open the browser using the IDE's mechanism (the agent → `open`, Cursor → Cursor browser, VS Code → Simple Browser).
 
 Tell the user:
 ```

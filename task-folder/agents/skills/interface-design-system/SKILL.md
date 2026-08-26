@@ -1,6 +1,6 @@
 ---
 name: interface-design-system
-description: Design engineering skill for Claude Code that enforces consistent UI patterns through memory, craft principles, and systematic design tokens.
+description: Design engineering skill for the agent that enforces consistent UI patterns through memory, craft principles, and systematic design tokens.
 triggers:
   - "set up interface design system"
   - "create consistent UI components"
@@ -41,18 +41,18 @@ Interface Design prevents design drift across sessions by:
 # Select 'interface-design' from the menu
 ```
 
-Restart Claude Code after installation.
+Restart the agent after installation.
 
 ### Manual Method
 
 ```bash
 git clone https://github.com/Dammyjay93/interface-design.git
 cd interface-design
-cp -r .claude/* ~/.claude/
-cp -r .claude-plugin/* ~/.claude-plugin/
+cp -r .agents/* ~/.agents/
+cp -r .agents-plugin/* ~/.agents-plugin/
 ```
 
-Restart Claude Code.
+Restart the agent.
 
 ## Core Workflow
 
@@ -674,7 +674,7 @@ mv .ds-engineer .interface-design
 
 # If values are scattered, manually create system.md:
 mkdir -p .interface-design
-cp ~/.claude/skills/interface-design/reference/examples/system-precision.md \
+cp ~/.agents/skills/interface-design/reference/examples/system-precision.md \
    .interface-design/system.md
 ```
 

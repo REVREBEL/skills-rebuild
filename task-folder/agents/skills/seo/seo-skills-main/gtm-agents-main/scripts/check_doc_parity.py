@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MARKETPLACE = ROOT / ".claude-plugin" / "marketplace.json"
+MARKETPLACE = ROOT / ".agents-plugin" / "marketplace.json"
 PLUGIN_DIR = ROOT / "plugins"
 AGENT_REFERENCE = ROOT / "docs" / "agent-reference.md"
 SKILL_REFERENCE = ROOT / "docs" / "business-skills.md"
