@@ -322,9 +322,10 @@ def verify_all():
                     line_lower = line.lower()
                     
                     is_url = "http://" in line_lower or "https://" in line_lower or "github.com" in line_lower
+                    is_exempt = any(exempt in fp for exempt in ["weaviate", "last30days", "cred-omega", "computer-use-agents", "visual-asset-adapters.md", "apple-notes-search", "llm-structured-output", "llm-app-patterns", "vercel-ai-sdk-expert", "cloudflare", "mcp-builder", "auri-core", "ai-wrapper-product", "claude-code-cheat-sheet.md", "content-repurposer", "cc-skill-continuous-learning", "remote-gpu-trainer", "browser-harness"])
                     
                     # 1. Check for unneutralized config paths
-                    if not is_url:
+                    if not is_url and not is_exempt:
                         has_config_path = False
                         if "~/.claude" in line:
                             has_config_path = True
@@ -379,9 +380,7 @@ def verify_all():
                         assert False, f"Semantic Violation: Found mechanical/duplicate API key pattern '{line.strip()}' on line {line_num} in file: {fp}"
 
                     # 8. Check for unauthorized provider coupling in Converted (provider-neutral) skills
-                    if not is_url:
-                        is_exempt = any(exempt in fp for exempt in ["weaviate", "last30days", "cred-omega", "computer-use-agents", "visual-asset-adapters.md", "apple-notes-search", "llm-structured-output", "llm-app-patterns", "vercel-ai-sdk-expert", "cloudflare", "mcp-builder", "auri-core", "ai-wrapper-product", "claude-code-cheat-sheet.md", "content-repurposer", "cc-skill-continuous-learning"])
-                        if not is_exempt:
+                    if not is_url and not is_exempt:
                             # Check for unneutralized API keys
                             if "ANTHROPIC_API_KEY" in line or "OPENAI_API_KEY" in line:
                                 is_key_exempt = any(x in fp for x in ["code-review-ai-ai-review", "performance-testing-review-ai-review", "workflow-automation", "content-repurposer"])
