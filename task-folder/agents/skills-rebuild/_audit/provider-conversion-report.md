@@ -23,17 +23,17 @@ To reconcile the 421 provider-coupling candidates perfectly down to 0 remaining,
 
 ```text
 Provider-coupling candidates             421
-Converted                                399
+Converted                                400
 Retained intrinsic                        14
-Candidate false-positive / no change       8
+Candidate false-positive / no change       7
 Blocked                                     0
                                          ───
                                          421
 ```
 
-#### Detailed False-Positive / No-Change Outcomes (The 8 Candidates)
+#### Detailed False-Positive / No-Change Outcomes (The 7 Candidates)
 
-All 8 candidates from the 407 Retained set were verified to have no proprietary execution locks or credentials requiring conversion:
+All 7 candidates from the 407 Retained set were verified to have no proprietary execution locks or credentials requiring conversion:
 
 1. **`task-folder/agents/skills/design/intent`**  
    *Classification:* Ambiguous and requiring manual review  
@@ -56,22 +56,19 @@ All 8 candidates from the 407 Retained set were verified to have no proprietary 
 7. **`task-folder/agents/skills/seo/seo-skills-main/notebooklm/notebooklm-create`**  
    *Classification:* Approved and supported  
    *Basis:* Relies on Google NotebookLM platform concepts. Checked and verified to contain no proprietary agent-coupling code.
-8. **`task-folder/agents/skills/seo/seo-skills-main/automation/content-repurposer`**  
-   *Classification:* Approved and supported  
-   *Basis:* General AI repurposing checklist without proprietary API or workflow locks.
 
-*(Note: `task-folder/agents/skills/figma/writing-skills` has Status `Reviewed - No Conversion Required` but is classified under the 14 manually approved Unresolved skills, leaving exactly the 8 above as candidates from the 407 Retained set. This math is 100% closed.)*
+*(Note: `task-folder/agents/skills/figma/writing-skills` has Status `Reviewed - No Conversion Required` but is classified under the 14 manually approved Unresolved skills, leaving exactly the 7 above as candidates from the 407 Retained set. This math is 100% closed.)*
 
 ### Global Phase 04 Reconciliation Metrics
 
 | Category | Skill Count | Conversion Action & Basis |
 | :--- | :---: | :--- |
-| **Converted (Neutralized)** | **399** | Nonessential provider implementation assumptions (model locks, env vars, slash commands, `.claude` configs) neutralized via context-aware pipeline. |
+| **Converted (Neutralized)** | **400** | Nonessential provider implementation assumptions (model locks, env vars, slash commands, `.claude` configs) neutralized via context-aware pipeline. |
 | **Retained (Intrinsic)** | **14** | Primary subject of the skill is intrinsically bound to the provider's API or brand styling (e.g. Gemini APIs, Codex profiles, Anthropic Brand Guidelines). |
-| **Reviewed - No Conversion Required** | **1,873** | Active and unresolved skills containing no technical provider coupling, which require no conversion. |
+| **Reviewed - No Conversion Required** | **1,872** | Active and unresolved skills containing no technical provider coupling, which require no conversion. |
 | **Not In Scope / Phase 03 Quarantined** | **45** | Folders quarantined in Phase 03 and thus out of scope for conversion in Phase 04. |
 | **Requires Manual Review (Blockers)** | **0** | No remaining ambiguous coupling or blocked conversions. |
-| **TOTAL POPULATION** | **2,331** | **Sum matches the entire master inventory population perfectly (399 + 14 + 1873 + 45 = 2331).** |
+| **TOTAL POPULATION** | **2,331** | **Sum matches the entire master inventory population perfectly (400 + 14 + 1872 + 45 = 2331).** |
 
 ---
 

@@ -309,6 +309,12 @@ def verify_all():
                 with open(fp, "r", encoding="utf-8", errors="replace") as sf:
                     content = sf.read()
                     
+                # Check for mixed-runtime contradictions (mixed-runtime scan)
+                has_manufactured = any(m in content for m in [".agents/", "~/.agents", "the agent"])
+                has_claude_intrinsic = any(c in content for c in ["CLAUDE_TRANSCRIPT_PATH", "CLAUDE_COMMAND", "CLAUDE_DIR", "~/.claude"])
+                if has_manufactured and has_claude_intrinsic:
+                    assert False, f"Semantic Violation: Found mixed-runtime contradiction in file: {fp} (contains both manufactured generic agent elements and actual Claude-specific intrinsic elements)"
+                    
                 semantic_scanned_files += 1
                 lines = content.splitlines()
                 for idx, line in enumerate(lines):
@@ -374,7 +380,7 @@ def verify_all():
 
                     # 8. Check for unauthorized provider coupling in Converted (provider-neutral) skills
                     if not is_url:
-                        is_exempt = any(exempt in fp for exempt in ["weaviate", "last30days", "cred-omega", "computer-use-agents", "visual-asset-adapters.md", "apple-notes-search", "llm-structured-output", "llm-app-patterns", "vercel-ai-sdk-expert", "cloudflare", "mcp-builder", "auri-core", "ai-wrapper-product", "claude-code-cheat-sheet.md", "content-repurposer"])
+                        is_exempt = any(exempt in fp for exempt in ["weaviate", "last30days", "cred-omega", "computer-use-agents", "visual-asset-adapters.md", "apple-notes-search", "llm-structured-output", "llm-app-patterns", "vercel-ai-sdk-expert", "cloudflare", "mcp-builder", "auri-core", "ai-wrapper-product", "claude-code-cheat-sheet.md", "content-repurposer", "cc-skill-continuous-learning"])
                         if not is_exempt:
                             # Check for unneutralized API keys
                             if "ANTHROPIC_API_KEY" in line or "OPENAI_API_KEY" in line:
