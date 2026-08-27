@@ -10,7 +10,7 @@ Ensures:
 4. Every active source path appears exactly once (1:1 bijection).
 5. No quarantined source path appears in destination-map.csv.
 6. Every mapped row maps to an allowed category and an allowed subcategory for that parent category.
-7. Every mapped row has a valid compatibility classification from the finite allowed set.
+7. Every mapped row has a valid compatibility classification and routing role from the finite allowed sets.
 8. Every mapped row reconciles columns: path category, subcategory, and slug match the row fields.
 9. Destination paths are globally unique.
 10. Destination paths are unique case-insensitively.
@@ -82,6 +82,11 @@ ALLOWED_COMPATIBILITY = {
     "Supported after conversion",
     "Ambiguous and requiring manual review",
     "Provider-specific but potentially reusable"
+}
+
+ALLOWED_ROUTING_ROLES = {
+    "child_skill",
+    "router_candidate"
 }
 
 ALLOWED_CONFIDENCE = {"high", "medium", "low"}
@@ -168,18 +173,28 @@ def verify_all():
     print(f"  - Verified 10 top-level categories and {total_subcats} active subcategories across all 2,286 rows.")
     print(" -> PASS: All categories and subcategories strictly adhere to parent-child hierarchy.")
 
-    # 7. Check 7: Finite Compatibility Classification Status Check
-    print("\n[CHECK 7] Finite Compatibility Status Field Check:")
+    # 7. Check 7: Finite Compatibility Status & Routing Role Field Check
+    print("\n[CHECK 7] Finite Compatibility Status & Routing Role Field Check:")
     compat_counts = Counter()
+    role_counts = Counter()
     for r in dest_rows:
         compat = r.get("compatibility_status", "")
+        role = r.get("routing_role", "")
         assert compat in ALLOWED_COMPATIBILITY, (
             f"Invalid compatibility_status '{compat}' for source '{r['source_path']}'! Must be in {ALLOWED_COMPATIBILITY}"
         )
+        assert role in ALLOWED_ROUTING_ROLES, (
+            f"Invalid routing_role '{role}' for source '{r['source_path']}'! Must be in {ALLOWED_ROUTING_ROLES}"
+        )
         compat_counts[compat] += 1
+        role_counts[role] += 1
+    print("  - Compatibility Classifications:")
     for compat_val, cnt in sorted(compat_counts.items()):
-        print(f"  - {compat_val}: {cnt}")
-    print(" -> PASS: Every row possesses an allowed compatibility status from the finite classification set.")
+        print(f"    * {compat_val}: {cnt}")
+    print("  - Routing Roles:")
+    for role_val, cnt in sorted(role_counts.items()):
+        print(f"    * {role_val}: {cnt}")
+    print(" -> PASS: Every row possesses an allowed compatibility status and valid routing role.")
 
     # 8. Check 8: Destination Path Presence & Column Reconciliation
     print("\n[CHECK 8] Destination Path Presence & Cross-Column Reconciliation:")
@@ -198,16 +213,19 @@ def verify_all():
         assert path_subcat == r["proposed_subcategory"], (
             f"Column mismatch in row '{r['source_path']}': path subcategory '{path_subcat}' != proposed_subcategory '{r['proposed_subcategory']}'"
         )
-    print(" -> PASS: 100% of destination paths are present and fully reconciled against category and subcategory columns.")
+        assert r.get("routing_role") in ALLOWED_ROUTING_ROLES, (
+            f"Missing or invalid routing_role in row '{r['source_path']}'"
+        )
+    print(" -> PASS: 100% of destination paths are present and fully reconciled against category, subcategory, and routing_role columns.")
 
-    # 9. Check 9: Destination paths are globally unique
+    # 9. Check 9: Global Destination Path Uniqueness (Exact):
     print("\n[CHECK 9] Global Destination Path Uniqueness (Exact):")
     final_paths = [r["proposed_final_path"] for r in dest_rows]
     assert len(final_paths) == len(set(final_paths)), "Duplicate proposed_final_path detected in destination-map.csv!"
     print(f"  - Verified all {len(final_paths)} destination paths are globally unique.")
     print(" -> PASS: Global destination path uniqueness confirmed (0 duplicates).")
 
-    # 10. Check 10: Destination paths are unique case-insensitively
+    # 10. Check 10: Case-Insensitive Destination Path Uniqueness:
     print("\n[CHECK 10] Case-Insensitive Destination Path Uniqueness:")
     final_paths_lower = [p.lower() for p in final_paths]
     assert len(final_paths_lower) == len(set(final_paths_lower)), "Case-insensitive duplicate proposed_final_path detected!"
