@@ -14,14 +14,14 @@ Ensures:
 8. Every mapped row reconciles columns: path category, subcategory, and slug match the row fields.
 9. Destination paths are globally unique.
 10. Destination paths are unique case-insensitively.
-11. Real router namespace validation: 55 routers (1 root, 10 cat, 44 subcat), zero collisions with skill destination paths or router directories.
+11. Real router namespace validation: 55 routers (1 root, 10 cat, 44 subcat), exact hierarchy and path formula verification, zero collisions with skill destinations.
 12. Target paths follow canonical naming conventions (standard depth, kebab-case).
 13. Category counts sum to exactly 2,286.
 14. Report reconciliation: parses functional-taxonomy.md and verifies all 10 category totals, 44 subcategory counts, percentages, router counts, and total row.
 15. Confidence values belong to allowed enum {'high', 'medium', 'low'}.
-16. Placement basis and concern verification for all confidence tiers (high: 1,852, medium: 434, low: 0).
+16. Placement basis and concern verification for all confidence tiers with strict distribution assertions (high: 1,852, medium: 434, low: 0).
 17. Zero workstation absolute path leaks in Phase 05 files (hardened multi-OS regex).
-18. Hard check: Git diff against merge-base proves ZERO modifications under task-folder/agents/skills/.
+18. Hard check: Git diff against merge-base (fail-closed) proves ZERO modifications under task-folder/agents/skills/.
 """
 
 import csv
@@ -97,7 +97,9 @@ ROUTER_MAP_PATH = "task-folder/agents/skills-rebuild/_audit/router-map.csv"
 TAXONOMY_REPORT_PATH = "task-folder/agents/skills-rebuild/_audit/functional-taxonomy.md"
 
 def get_git_output(cmd):
-    res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True)
+    if not isinstance(cmd, (list, tuple)) or not cmd or cmd[0] != "git":
+        raise ValueError(f"Invalid command invocation: {cmd}")
+    res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True, shell=False)
     return res.stdout.strip()
 
 def verify_all():
@@ -248,6 +250,41 @@ def verify_all():
     assert router_type_counts["category_router"] == 10, "Expected exactly 10 category_router"
     assert router_type_counts["subcategory_router"] == 44, "Expected exactly 44 subcategory_router"
 
+    # Exact Hierarchy & Path Verification for Router Map:
+    # 1. Root router check
+    root_rows = [r for r in router_rows if r["router_type"] == "root_router"]
+    assert len(root_rows) == 1, "Root router count must be exactly 1"
+    assert root_rows[0]["category"] == "root", f"Root router category must be 'root', got '{root_rows[0]['category']}'"
+    assert root_rows[0]["subcategory"] in ("None", "", None), f"Root router subcategory must be 'None', got '{root_rows[0]['subcategory']}'"
+    assert root_rows[0]["proposed_path"] == "task-folder/agents/skills/SKILL.md", (
+        f"Root router path invalid: '{root_rows[0]['proposed_path']}'"
+    )
+
+    # 2. Category router checks
+    cat_routers = {r["category"]: r for r in router_rows if r["router_type"] == "category_router"}
+    assert set(cat_routers.keys()) == ALLOWED_CATEGORIES, (
+        f"Category routers mismatch: missing {ALLOWED_CATEGORIES - set(cat_routers.keys())}, extra {set(cat_routers.keys()) - ALLOWED_CATEGORIES}"
+    )
+    for cat, r in cat_routers.items():
+        assert r["subcategory"] in ("None", "", None), f"Category router subcategory must be 'None' for {cat}"
+        expected_cat_path = f"task-folder/agents/skills/{cat}/SKILL.md"
+        assert r["proposed_path"] == expected_cat_path, (
+            f"Category router path mismatch for '{cat}': expected '{expected_cat_path}', got '{r['proposed_path']}'"
+        )
+
+    # 3. Subcategory router checks
+    subcat_routers = {(r["category"], r["subcategory"]): r for r in router_rows if r["router_type"] == "subcategory_router"}
+    expected_subcat_pairs = {(cat, subcat) for cat, subcats in ALLOWED_SUBCATEGORIES.items() for subcat in subcats}
+    assert set(subcat_routers.keys()) == expected_subcat_pairs, (
+        f"Subcategory routers mismatch: missing {expected_subcat_pairs - set(subcat_routers.keys())}, extra {set(subcat_routers.keys()) - expected_subcat_pairs}"
+    )
+    for (cat, subcat), r in subcat_routers.items():
+        expected_subcat_path = f"task-folder/agents/skills/{cat}/{subcat}/SKILL.md"
+        assert r["proposed_path"] == expected_subcat_path, (
+            f"Subcategory router path mismatch for '{cat}/{subcat}': expected '{expected_subcat_path}', got '{r['proposed_path']}'"
+        )
+
+    # 4. Router Path Uniqueness & Collision Detection
     router_paths = [r["proposed_path"] for r in router_rows]
     router_paths_lower = {p.lower() for p in router_paths}
     assert len(router_paths) == len(router_paths_lower) == 55, "Duplicate router paths detected!"
@@ -265,7 +302,7 @@ def verify_all():
         assert p_lower not in router_paths_lower, (
             f"Collision: Skill destination path '{p}' matches a planned router file path!"
         )
-    print(f"  - Verified 0 collisions across 55 router directories/files and {len(final_paths)} skill destinations.")
+    print(f"  - Verified exact hierarchy, exact paths, and 0 collisions across 55 router directories/files and {len(final_paths)} skill destinations.")
     print(" -> PASS: Router map structure verified and zero namespace collisions confirmed.")
 
     # 12. Check 12: Target paths follow canonical naming conventions
@@ -363,6 +400,10 @@ def verify_all():
                 f"Row '{r['source_path']}' with low confidence has no documented placement_concern!"
             )
 
+    assert conf_breakdown["high"] == 1852, f"Expected 1852 high-confidence rows, got {conf_breakdown['high']}"
+    assert conf_breakdown["medium"] == 434, f"Expected 434 medium-confidence rows, got {conf_breakdown['medium']}"
+    assert conf_breakdown["low"] == 0, f"Expected 0 low-confidence rows, got {conf_breakdown['low']}"
+
     print(f"  - Total Mapped Skills: {len(dest_rows)}")
     print(f"    * High Confidence: {conf_breakdown['high']} (100% contain explicit placement_basis)")
     print(f"    * Medium Confidence: {conf_breakdown['medium']} (100% contain placement_basis & documented concern)")
@@ -396,7 +437,7 @@ def verify_all():
         try:
             merge_base = get_git_output(["git", "merge-base", "HEAD", "origin/main"])
         except Exception:
-            merge_base = "9281ead3f64d8106d291e9ef7b3aa25f8971847a"
+            merge_base = get_git_output(["git", "merge-base", "HEAD", "main"])
         print(f"  - Using Merge-Base SHA: {merge_base}")
 
         git_status_diff = get_git_output(["git", "diff", "--name-only", merge_base])
