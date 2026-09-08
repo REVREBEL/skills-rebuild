@@ -17,8 +17,8 @@ All reports use the Transilience design system:
 
 | Format | File | Description |
 |--------|------|-------------|
-| Design System | [transilience-report-style/SKILL.md](transilience-report-style/SKILL.md) | Page config, typography, color palette, advisory card layout, ReportLab PDF generation |
-| Pentest Report | [transilience-report-style/pentest-report.md](transilience-report-style/pentest-report.md) | Pentest report structure, finding quality standard, severity calibration, compliance mapping |
+| Design System | [transilience-report-style](../../report-writing/formats/transilience-report-style/SKILL.md) | Page config, typography, color palette, advisory card layout, ReportLab PDF generation |
+| Pentest Report | [pentest-report](../../report-writing/formats/transilience-report-style/pentest-report.md) | Pentest report structure, finding quality standard, severity calibration, compliance mapping |
 
 ## Reconnaissance
 

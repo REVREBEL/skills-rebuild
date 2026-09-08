@@ -168,9 +168,9 @@ python scripts/main.py audit https://client-site.com \
 
 ## Related Skills
 
-- [schema-markup](../schema-markup/) - Fix structured data issues
+- [schema-markup](../../../../../schema-markup/) - Fix structured data issues
 - [image-batch](../../automation/image-batch/) - Optimize images for LCP
-- [link-checker](../link-checker/) - Find broken links
+- [link-checker](../../../../../link-checker/) - Find broken links
 
 ## Skill Metadata
 

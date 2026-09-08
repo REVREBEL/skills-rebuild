@@ -57,4 +57,4 @@ Branch by finding:
 - **High growth (>30% of rows)**: "Find amplification opportunities. Run `/digital-marketing-pro:content-engine` to brief follow-ups."
 - **High new (>15% of rows)**: "New SERP coverage — track and validate intent fit."
 
-For the full skill spec including classification rules, position-delta inversion, and Core Update timing guidance, see [skills/seo-drift/SKILL.md](../skills/seo-drift/SKILL.md).
+For the full skill spec including classification rules, position-delta inversion, and Core Update timing guidance, see [seo-drift](../../../../seo/seo-skills-main/skills/seo-drift/SKILL.md).
