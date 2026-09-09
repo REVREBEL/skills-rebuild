@@ -257,6 +257,6 @@ In the conversation, print:
 - [`campaign-plan`](../campaign-plan/SKILL.md) — what to do with the strategic gaps surfaced
 - [`launch-campaign`](../launch-campaign/SKILL.md) — what to do once the plan is approved
 - [`performance-check`](../performance-check/SKILL.md) — lighter metrics-only snapshot
-- [`competitor-analysis`](../competitor-analysis/SKILL.md) — pairs naturally with the AEO/GEO section
+- [`competitor-analysis`](../../../../marketing/competitor-analysis/SKILL.md) — pairs naturally with the AEO/GEO section
 - [`aeo-audit`](../aeo-audit/SKILL.md) — deeper AI-engine visibility audit if Section 5 raises concerns
 - `scripts/performance-monitor.py` — underlying data pulls
