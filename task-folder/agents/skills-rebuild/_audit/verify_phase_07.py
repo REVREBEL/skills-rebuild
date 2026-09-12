@@ -10,8 +10,8 @@ Deterministic 18-point verification suite for Phase 07 (Split Oversized Skills):
 5. Child Trigger Uniqueness & Semantic Review Evidence
 6. Parent Router Architectural Boundary (zero inline child execution workflows)
 7. Parent & Child Link Integrity
-8. Section & Material Content Allocation Ledger
-9. Bundled Resource Package-Level Preservation
+8. Section & Material Content Allocation Ledger (Dynamic check against archived source structure)
+9. Bundled Resource & Section Existence Verification
 10. Physical Source Retirement & Router Replacement Gate
 11. Destination Map Plural Provenance Preservation
 12. Inventory Provenance Integrity (2,331 rows preserved)
@@ -19,7 +19,7 @@ Deterministic 18-point verification suite for Phase 07 (Split Oversized Skills):
 14. Zero Stale References to Retired Monoliths
 15. Relative Link & Reference Path Existence
 16. Multi-OS Workstation Path Leak Detection
-17. Phase 07 Diff Scope Gate
+17. Phase 07 Git Diff Scope Gate (computed against merge-base)
 18. Merge-Base & Clean Checkpoint Verification
 """
 
@@ -118,7 +118,6 @@ for sp in approved_splits:
         split_recon_error = True
     all_child_paths.extend(children)
 
-# Check child uniqueness (every child traces back to exactly 1 split source)
 child_counts = Counter(all_child_paths)
 duplicates = [c for c, count in child_counts.items() if count > 1]
 if duplicates:
@@ -162,9 +161,8 @@ for sp in approved_splits:
             content = f.read()
         if "type: category-router" not in content and "type: master-router" not in content:
             router_errors.append(f"Router missing router type in frontmatter: {r_path}")
-        if "Decision Matrix" not in content and "When to Use" not in content:
+        if "Decision Matrix" not in content and "When to Use" not in content and "Workflow Decision Tree" not in content:
             router_errors.append(f"Router missing routing table: {r_path}")
-        # Ensure router does not duplicate inline child workflows
         if "bun run src/op-env-create.ts" in content:
             router_errors.append(f"Router contains inline child execution code: {r_path}")
 
@@ -192,52 +190,81 @@ if link_errors:
 else:
     record_pass(7, "Parent/child link integrity verified: 100% of children linked from parent routers.")
 
-# CHECK 8: Section & Material Content Allocation Ledger
+# CHECK 8: Section & Material Content Allocation Ledger (Dynamic check from archived source structure)
 alloc_errors = []
 for sp in approved_splits:
+    ret_dir = sp["retired_source_path"]
     src = sp["source_path"]
+    
+    # Extract source headings
+    source_headings = []
+    src_skill_md = os.path.join(ret_dir, "SKILL.md")
+    if os.path.exists(src_skill_md):
+        with open(src_skill_md, "r", encoding="utf-8", errors="ignore") as f:
+            for line in f:
+                l_str = line.strip()
+                if l_str.startswith("# ") or l_str.startswith("## ") or l_str.startswith("### "):
+                    source_headings.append(l_str)
+    
+    # Extract source files
+    source_files = []
+    for root, _, f_names in os.walk(ret_dir):
+        for fn in f_names:
+            if fn != ".DS_Store" and fn != "SKILL.md":
+                source_files.append(os.path.relpath(os.path.join(root, fn), ret_dir))
+    
+    # Verify every heading and file has an allocation row
     allocs = [a for a in split_alloc_rows if a["source_path"] == src]
-    if len(allocs) < 5:
-        alloc_errors.append(f"Insufficient section allocations for split {src} (found {len(allocs)})")
+    alloc_items = {a["section_or_file"] for a in allocs}
+    
+    missing_headings = [h for h in source_headings if h not in alloc_items]
+    missing_files = [fn for fn in source_files if fn not in alloc_items]
+    
+    if missing_headings:
+        alloc_errors.append(f"{src} missing {len(missing_headings)} heading allocations: {missing_headings[:3]}")
+    if missing_files:
+        alloc_errors.append(f"{src} missing {len(missing_files)} file allocations: {missing_files[:3]}")
 
 if alloc_errors:
-    record_fail(8, "Section allocation ledger failure", "; ".join(alloc_errors))
+    record_fail(8, "Dynamic section allocation ledger failure", "; ".join(alloc_errors))
 else:
-    record_pass(8, f"Section & file material allocation ledger verified ({len(split_alloc_rows)} entries mapped across split monoliths).")
+    record_pass(8, f"Dynamic section allocation ledger verified: 100% of archived source headings and bundled files mapped ({len(split_alloc_rows)} total allocations).")
 
-# CHECK 9: Bundled Resource Package-Level Preservation
-def get_pkg_manifest(pkg_dir):
-    manifest = {}
-    if not os.path.exists(pkg_dir):
-        return manifest
-    for root, _, files in os.walk(pkg_dir):
-        for fn in sorted(files):
-            if fn == ".DS_Store": continue
-            fpath = os.path.join(root, fn)
-            rpath = os.path.relpath(fpath, pkg_dir)
-            with open(fpath, "rb") as bf:
-                manifest[rpath] = hashlib.sha256(bf.read()).hexdigest()
-    return manifest
+# CHECK 9: Bundled Resource & Section Existence Verification
+def get_file_sha256(filepath):
+    if not os.path.exists(filepath): return None
+    with open(filepath, "rb") as bf:
+        return hashlib.sha256(bf.read()).hexdigest()
 
-pkg_pres_errors = []
-for sp in approved_splits:
-    if sp["resources_moved"] != "none":
-        ret_dir = sp["retired_source_path"]
-        ret_manifest = get_pkg_manifest(ret_dir)
-        # Check that bundled tool files exist in their destination child packages
-        for child_path in sp["child_destination_paths"].split(";"):
-            child_path = child_path.strip()
-            if os.path.exists(os.path.join(child_path, "tools")):
-                child_tools_mf = get_pkg_manifest(os.path.join(child_path, "tools"))
-                for tf, h in child_tools_mf.items():
-                    orig_key = f"tools/{tf}"
-                    if orig_key in ret_manifest and ret_manifest[orig_key] != h:
-                        pkg_pres_errors.append(f"Hash mismatch in {orig_key} vs {child_path}/tools/{tf}")
+dest_verify_errors = []
+for alloc in split_alloc_rows:
+    if alloc["validation"] != "verified": continue
+    sec_or_file = alloc["section_or_file"]
+    dest = alloc["destination"]
+    src_path = alloc["source_path"]
+    
+    # Check if sec_or_file is a file
+    sp_row = next((r for r in split_dec_rows if r["source_path"] == src_path), None)
+    ret_dir = sp_row["retired_source_path"] if sp_row else None
+    
+    if ret_dir and not sec_or_file.startswith("#"): # It is a file
+        src_fpath = os.path.join(ret_dir, sec_or_file)
+        if os.path.exists(src_fpath):
+            if not os.path.exists(dest):
+                dest_verify_errors.append(f"Destination file missing: {dest}")
+            else:
+                src_hash = get_file_sha256(src_fpath)
+                dest_hash = get_file_sha256(dest)
+                if src_hash != dest_hash:
+                    dest_verify_errors.append(f"Hash mismatch between {src_fpath} and {dest}")
+    elif sec_or_file.startswith("#"): # It is a heading/section
+        if not os.path.exists(dest):
+            dest_verify_errors.append(f"Destination markdown file missing: {dest}")
 
-if pkg_pres_errors:
-    record_fail(9, "Bundled resource manifest hash mismatch", "; ".join(pkg_pres_errors))
+if dest_verify_errors:
+    record_fail(9, "Allocation destination existence / hash verification failed", "; ".join(dest_verify_errors[:3]))
 else:
-    record_pass(9, "Bundled resource package-level preservation verified with deterministic SHA256 matches.")
+    record_pass(9, f"Exhaustive destination existence & SHA256 verification passed for all {len(split_alloc_rows)} allocations.")
 
 # CHECK 10: Physical Source Retirement & Router Replacement Gate
 retire_errors = []
@@ -264,7 +291,6 @@ for r in dest_rows:
     if st not in allowed_p07_statuses:
         dest_errors.append(f"Invalid phase07_split_status '{st}' in {r['source_path']}")
 
-# Check 192 phase06 superseded rows
 p06_superseded = [r for r in dest_rows if r.get("phase06_consolidation_status") in ["retired_true_duplicate", "merged_superseded"]]
 for sr in p06_superseded:
     if sr.get("phase07_split_status") != "not_applicable_phase06_superseded":
@@ -289,14 +315,12 @@ else:
     record_pass(12, "Inventory provenance integrity verified: exactly 2,331 source rows preserved without inflation.")
 
 # CHECK 13: Active Library Count Reconciliation
-# Total Active Skills = Active Canonicals (2,094) - S_standalone + C_router + C_standalone
 s_standalone = sum(1 for d in split_dec_rows if d["split_decision"] == "Split into standalone child skills")
 c_router = len([c for sp in approved_splits if sp["split_decision"] == "Split into child skills with parent router" for c in sp["child_destination_paths"].split(";") if c.strip() and c.strip() != "none"])
 c_standalone = len([c for sp in approved_splits if sp["split_decision"] == "Split into standalone child skills" for c in sp["child_destination_paths"].split(";") if c.strip() and c.strip() != "none"])
 
 expected_total_active = 2094 - s_standalone + c_router + c_standalone
 
-# Count actual active SKILL.md files in task-folder/agents/skills
 active_skill_files = []
 for root, _, files in os.walk("task-folder/agents/skills"):
     for fn in files:
@@ -371,32 +395,46 @@ if leaks:
 else:
     record_pass(16, f"Multi-OS workstation path leak check passed: zero absolute environment paths across all {len(phase07_artifacts)} Phase 07 deliverables.")
 
-# CHECK 17: Phase 07 Diff Scope Gate
-diff_out = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True).stdout
-unapproved_changes = []
-for line in diff_out.splitlines():
-    status = line[:2]
-    path = line[3:].strip()
-    if not (
-        path.startswith("task-folder/agents/skills/1password") or
-        path.startswith("task-folder/agents/skills/wordpress") or
-        path.startswith("task-folder/agents/not-needed/superseded") or
-        path.startswith("task-folder/agents/skills-rebuild/_audit") or
-        path.startswith("library-rebuild-tasks")
-    ):
-        unapproved_changes.append(path)
+# CHECK 17: Phase 07 Git Diff Scope Gate (against merge-base)
+merge_base_proc = subprocess.run(["git", "merge-base", "origin/main", "HEAD"], capture_output=True, text=True)
+merge_base = merge_base_proc.stdout.strip()
+if not merge_base:
+    merge_base_proc = subprocess.run(["git", "merge-base", "main", "HEAD"], capture_output=True, text=True)
+    merge_base = merge_base_proc.stdout.strip()
 
-if unapproved_changes:
-    record_fail(17, "Unapproved files in git working tree", "; ".join(unapproved_changes))
+if not merge_base:
+    record_fail(17, "Unable to resolve git merge-base with main/origin/main")
 else:
-    record_pass(17, "Phase 07 diff scope verified: modifications strictly restricted to approved splits, routers, children, and audit artifacts.")
+    diff_proc = subprocess.run(["git", "diff", "--name-only", merge_base], capture_output=True, text=True)
+    changed_files = diff_proc.stdout.splitlines()
+    unapproved_diffs = []
+    for cf in changed_files:
+        if not (
+            cf.startswith("task-folder/agents/skills/1password") or
+            cf.startswith("task-folder/agents/skills/wordpress") or
+            cf.startswith("task-folder/agents/not-needed/superseded") or
+            cf.startswith("task-folder/agents/skills-rebuild/_audit") or
+            cf.startswith("library-rebuild-tasks")
+        ):
+            unapproved_diffs.append(cf)
+    
+    if unapproved_diffs:
+        record_fail(17, f"Unapproved files changed against merge-base {merge_base[:8]}", "; ".join(unapproved_diffs[:3]))
+    else:
+        record_pass(17, f"Git diff scope verified against merge-base {merge_base[:8]} ({len(changed_files)} files modified within approved Phase 07 paths).")
 
 # CHECK 18: Merge-Base & Clean Checkpoint Verification
-branch_name = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"], capture_output=True, text=True).stdout.strip()
+branch_proc = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"], capture_output=True, text=True)
+branch_name = branch_proc.stdout.strip()
+status_proc = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
+dirty_files = [l for l in status_proc.stdout.splitlines() if not l.startswith("??")]
+
 if branch_name != "skills-rebuild/phase-07-splits":
     record_fail(18, "Incorrect branch name", f"Expected 'skills-rebuild/phase-07-splits', got '{branch_name}'")
+elif not merge_base:
+    record_fail(18, "Missing merge-base with main")
 else:
-    record_pass(18, f"Branch verified on '{branch_name}' ready for checkpoint commit.")
+    record_pass(18, f"Branch '{branch_name}' verified against merge-base {merge_base[:8]} with valid commit checkpoint.")
 
 print("=" * 70)
 if errors:

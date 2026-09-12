@@ -1,6 +1,6 @@
 ---
 name: wordpress-theme-development
-description: 'Build custom WordPress block themes and classic themes adhering to the WordPress template hierarchy and theme.json specifications. Use when authoring custom themes, block patterns, and template parts.'
+description: 'Build custom WordPress block themes and classic themes adhering to the WordPress template hierarchy, theme.json v3, PHP-only block registration, and Interactivity API. Use when authoring custom themes, block patterns, and template parts.'
 compatibility: 'Requires WordPress 6.0+ Full Site Editing (FSE).'
 metadata:
   category: development
@@ -10,15 +10,16 @@ metadata:
 
 # WordPress Theme Development
 
-Author custom WordPress block themes and hybrid themes following modern Full Site Editing (FSE) standards.
+Author custom WordPress block themes and hybrid themes following modern Full Site Editing (FSE) and WordPress 7.0 standards.
 
 ## When to Use
 
 - Creating custom block themes using `theme.json` styling configurations
 - Developing custom block patterns, template parts, and block variations
-- Implementing classic template hierarchies with modern PHP practices
+- Registering PHP-only blocks without JavaScript build steps
+- Implementing reactive frontend behavior using the Interactivity API
 
-## `theme.json` Configuration
+## Theme Structure & `theme.json` Configuration
 
 ```json
 {
@@ -38,6 +39,28 @@ Author custom WordPress block themes and hybrid themes following modern Full Sit
   }
 }
 ```
+
+## PHP-Only Block Registration (WordPress 7.0)
+
+```php
+add_action('init', function () {
+    register_block_type('custom/hero-banner', [
+        'render_callback' => 'custom_render_hero_banner',
+        'title'           => 'Hero Banner',
+        'category'        => 'text',
+        'icon'            => 'cover-image',
+    ]);
+});
+
+function custom_render_hero_banner($attributes, $content) {
+    return sprintf('<div class="hero-banner">%s</div>', esc_html($content));
+}
+```
+
+## Testing & Quality Gates
+
+- Validate theme schema with `wp theme status`.
+- Check styling across responsive viewports in FSE editor.
 
 ## Completion Evidence
 

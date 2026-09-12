@@ -1,4 +1,4 @@
-# Phase 07 Split Map & Audit Report
+# Phase 07 Split Map & Material Reconciliation Audit Report
 
 ## Executive Summary
 
@@ -6,23 +6,24 @@ Phase 07 systematically evaluated all **2,094 active canonical skills** retained
 - Skills were reviewed against the strict 6-point multi-job test (independent triggers, inputs, tools/runtimes, execution sequences, risk profiles, and completion evidence).
 - Singular jobs with extensive documentation were retained with supporting details organized into `references/`.
 - True multi-job monoliths were decomposed into focused child execution skills coordinated by thin parent category routers.
+- Every substantive source heading and bundled file from archived source packages was fully mapped to an active destination with zero loss.
 
 ---
 
 ## 1. Candidate Population & Screening Summary
 
-| Metric | Count | Reconciliation Status |
-|---|---|---|
-| Historical Baseline Source Skills | 2,331 | 100% accounted in `skills-inventory.csv` |
-| Retained Skills (Phase 06) | 2,286 | 100% accounted in `destination-map.csv` |
-| Phase 06 Superseded Skills | 192 | Marked `not_applicable_phase06_superseded` in `destination-map.csv` |
-| Phase 06 Active Canonical Skills | 2,094 | 100% screened in `split-decisions.csv` |
-| Flagged Candidates Evaluated | 458 | 100% deep reviewed / rationale recorded |
-| Approved Splits (with Parent Router) | 2 | `1password`, `wordpress` |
-| Standalone Splits | 0 | None approved |
-| Deferred for Manual Review | 1 | `computer-use-agents` |
-| Retained Singular (with References) | 54 | High-detail singular skills |
-| Retained Singular (without Modification) | 2037 | Cohesive single-job skills |
+| Ledger / Population | Count | Status | Notes |
+|---|---|---|---|
+| Historical Baseline Sources | 2,331 | Preserved | `skills-inventory.csv` immutable row count |
+| Phase 06 Retained Universe | 2,286 | Preserved | `destination-map.csv` row count |
+| Phase 06 Superseded Skills | 192 | Verified | Flagged `not_applicable_phase06_superseded` |
+| Active Canonical Skills Screened | 2,094 | 100% | Screened in `split-decisions.csv` |
+| Flagged Candidates Evaluated | 458 | 100% | Deep review & rationale recorded |
+| Approved Splits (with Parent Router) | 2 | Completed | `1password`, `wordpress` |
+| Standalone Splits | 0 | Completed | None approved |
+| Deferred for Manual Review | 1 | Completed | `computer-use-agents` |
+| Retained Singular (with References) | 54 | Completed | Large singular guides organized with `references/` |
+| Retained Singular (without Modification) | 2037 | Completed | Cohesive singular skills |
 
 ---
 
@@ -37,18 +38,18 @@ Phase 07 systematically evaluated all **2,094 active canonical skills** retained
   2. `task-folder/agents/skills/1password/1password-developer-environments`: Project environment variable management with Bun TypeScript CLI and Python SDK.
   3. `task-folder/agents/skills/1password/1password-kubernetes`: External Secrets Operator (ESO) and native 1Password Operator Kubernetes secret synchronization.
   4. `task-folder/agents/skills/1password/1password-service-accounts`: Headless CI/CD secret injection and service account token management.
-- **Resource Disposition**: Bundled `tools/` and `tools-python/` preserved with Developer Environments; `scripts/` and `templates/` mapped to Service Accounts and Kubernetes children.
+- **Resource Disposition**: Bundled `tools/` and `tools-python/` preserved with Developer Environments; `scripts/` and `templates/` mapped to Service Accounts, Kubernetes, and CLI children.
 
 ### B. WordPress Engineering
 - **Original Monolithic Source**: `task-folder/agents/skills/wordpress`
 - **Archived Monolith**: `task-folder/agents/not-needed/superseded/development/wordpress`
 - **Parent Router**: `task-folder/agents/skills/wordpress/SKILL.md` (Thin router with discipline switchboard & WPCS quality gates)
 - **Resulting Child Skills**:
-  1. `task-folder/agents/skills/wordpress/wordpress-core-admin`: Core setup, WP-CLI automation, and multisite administration.
-  2. `task-folder/agents/skills/wordpress/wordpress-theme-development`: Block theme authoring, `theme.json` styling, and template hierarchy.
-  3. `task-folder/agents/skills/wordpress/wordpress-plugin-development`: Custom plugins, hooks, custom post types, and REST API endpoints.
+  1. `task-folder/agents/skills/wordpress/wordpress-core-admin`: Core setup, WP-CLI automation, multisite administration, security hardening, testing, and deployment.
+  2. `task-folder/agents/skills/wordpress/wordpress-theme-development`: Block theme authoring, `theme.json` styling, template hierarchy, PHP block registration, and Interactivity API.
+  3. `task-folder/agents/skills/wordpress/wordpress-plugin-development`: Custom plugins, hooks, custom post types, REST API endpoints, AI Connectors, and Abilities API.
   4. `task-folder/agents/skills/wordpress/wordpress-woocommerce`: E-commerce catalog customization, checkout hooks, and order workflows.
-  5. `task-folder/agents/skills/wordpress/wordpress-performance-optimization`: Redis object caching, query tuning, and asset optimization.
+  5. `task-folder/agents/skills/wordpress/wordpress-performance-optimization`: Redis object caching, query tuning, asset optimization, and database transients.
 
 ---
 
@@ -63,7 +64,8 @@ Phase 07 systematically evaluated all **2,094 active canonical skills** retained
 ## 4. Section & File Content Allocation Ledger
 
 See `task-folder/agents/skills-rebuild/_audit/split-allocations.csv` for the itemized material accounting across every split monolith.
-- Total Mapped Sections / Files: 27
+- Total Mapped Headings & Files: 228
+- Allocation Coverage: 100% of archived source headings and bundled files accounted for.
 - Loss Rate: 0.0% (Zero undocumented losses).
 
 ---

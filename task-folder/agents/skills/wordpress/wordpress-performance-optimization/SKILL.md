@@ -15,14 +15,21 @@ Tune WordPress site speed, query performance, object caching, and Core Web Vital
 ## When to Use
 
 - Configuring Redis or Memcached persistent object caching
-- Profiling slow database queries with Query Monitor
-- Optimizing script enqueueing and critical CSS delivery
+- Profiling slow database queries with Query Monitor and indexing tables
+- Optimizing script enqueueing, CSS delivery, and image compression
+- Automating database transients and revision cleanup via WP-CLI
 
-## Optimization Techniques
+## Optimization Techniques & Performance Checklist
 
 1. **Persistent Object Caching**: Enable Redis cache drop-in (`wp-content/object-cache.php`).
-2. **Database Optimization**: Clean transients and revisions via `wp db optimize` and `wp transient delete --all`.
+2. **Database Optimization**: Clean transients and revisions:
+   ```bash
+   wp db optimize
+   wp transient delete --all
+   wp post delete $(wp post list --post_type='revision' --format=ids) --force
+   ```
 3. **Asset Deferral**: Defer non-critical JavaScript using `wp_enqueue_script` with `['strategy' => 'defer']`.
+4. **Query Indexing**: Add composite indices for custom post meta tables.
 
 ## Completion Evidence
 

@@ -8,24 +8,19 @@ metadata:
   source: custom
 ---
 
-# 1Password Router
+# 1Password
 
 Route secrets management tasks to the appropriate specialized 1Password child skill.
 
-## When to Use
+## Overview
 
-Use this router to navigate 1Password capabilities across development, environment management, and deployment pipelines:
+1Password provides centralized secrets management across local development workstations, developer project environments, Kubernetes clusters, and automated CI/CD pipelines.
 
-- Retrieving secrets, reading items, or injecting into configuration files -> [1Password CLI](./1password-cli/SKILL.md)
-- Managing project environment variables and Developer Environments via Bun/Python SDK -> [1Password Developer Environments](./1password-developer-environments/SKILL.md)
-- Syncing secrets to Kubernetes via External Secrets Operator or native 1Password Operator -> [1Password Kubernetes](./1password-kubernetes/SKILL.md)
-- Automating CI/CD pipelines using Service Account tokens -> [1Password Service Accounts](./1password-service-accounts/SKILL.md)
-
-## Workflow Decision Matrix
+## Workflow Decision Tree & Matrix
 
 | User Goal | Tool / Runtime | Specialized Child Skill |
 |---|---|---|
-| Retrieve single secret (`op read`), run commands with env vars (`op run`), manage items/vaults | `op` CLI | [1Password CLI](./1password-cli/SKILL.md) |
+| Retrieve single secret (`op read`), run commands with env vars (`op run`), manage items/vaults, configure shell plugins | `op` CLI | [1Password CLI](./1password-cli/SKILL.md) |
 | Manage project environment variables, sync `.env` files, bulk resolve via Python SDK/TypeScript CLI | Bun / Python SDK CLI | [1Password Developer Environments](./1password-developer-environments/SKILL.md) |
 | Inject secrets into Kubernetes pods, configure ExternalSecret or OnePasswordItem CRDs | K8s Operator / ESO | [1Password Kubernetes](./1password-kubernetes/SKILL.md) |
 | CI/CD pipeline automation (GitHub Actions, GitLab CI) with scoped service account tokens | Service Account Token | [1Password Service Accounts](./1password-service-accounts/SKILL.md) |
@@ -35,3 +30,4 @@ Use this router to navigate 1Password capabilities across development, environme
 - **Zero Credential Exposure**: Never log, print, or commit raw tokens or secrets.
 - **Principle of Least Privilege**: Grant service accounts access only to the specific vaults required.
 - **Environment Isolation**: Separate Production, Staging, and Development secrets into distinct vaults.
+- **Troubleshooting & Support**: Refer to individual child skills for service-specific troubleshooting, error codes, and health checks.

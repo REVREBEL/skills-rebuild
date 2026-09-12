@@ -14,17 +14,29 @@ Build and customize WooCommerce stores, checkout flows, and product data models.
 
 ## When to Use
 
-- Customizing product displays, pricing rules, and inventory management
-- Hooking into WooCommerce checkout steps and order processing
-- Creating custom cart discount rules and payment gateway integrations
+- Creating custom product types and custom product fields
+- Customizing checkout workflows, billing fields, and order processing
+- Integrating custom payment gateways and shipping calculators
+- Automating post-order webhook and inventory sync events
 
-## Checkout Action Hook Example
+## Custom Product Type Registration
+
+```php
+add_action('init', function () {
+    class WC_Product_Custom_Course extends WC_Product {
+        public function get_type() {
+            return 'custom_course';
+        }
+    }
+});
+```
+
+## Checkout Hook Integration
 
 ```php
 add_action('woocommerce_checkout_order_processed', 'custom_process_order', 10, 3);
 function custom_process_order($order_id, $posted_data, $order) {
-    // Custom post-checkout business logic
-    $order->add_order_note('Processed via custom automation integration.');
+    $order->add_order_note('Processed via custom automated inventory integration.');
 }
 ```
 
