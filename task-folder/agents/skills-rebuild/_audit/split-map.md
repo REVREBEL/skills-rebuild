@@ -3,7 +3,7 @@
 ## Executive Summary
 
 Phase 07 systematically evaluated all **2,094 active canonical skills** retained post-Phase 06 consolidation. In accordance with the hardened specification and canonical skill management standards:
-- Skills were reviewed against the strict 6-point multi-job test (independent triggers, inputs, tools/runtimes, execution sequences, risk profiles, and completion evidence).
+- Skills were reviewed against the strict 6-point multi-job test.
 - Singular jobs with extensive documentation were retained with supporting details organized into `references/`.
 - True multi-job monoliths were decomposed into focused child execution skills coordinated by thin parent category routers.
 - Every substantive source heading and bundled file from archived source packages was fully mapped to an active destination with zero loss.
@@ -32,18 +32,17 @@ Phase 07 systematically evaluated all **2,094 active canonical skills** retained
 ### A. 1Password Secrets Management
 - **Original Monolithic Source**: `task-folder/agents/skills/1password`
 - **Archived Monolith**: `task-folder/agents/not-needed/superseded/infrastructure-and-ops/1password`
-- **Parent Router**: `task-folder/agents/skills/1password/SKILL.md` (Thin router with decision matrix & shared security policies)
+- **Parent Router**: `task-folder/agents/skills/1password/SKILL.md`
 - **Resulting Child Skills**:
   1. `task-folder/agents/skills/1password/1password-cli`: Core `op` CLI operations, secret reading, injection, and vault management.
   2. `task-folder/agents/skills/1password/1password-developer-environments`: Project environment variable management with Bun TypeScript CLI and Python SDK.
   3. `task-folder/agents/skills/1password/1password-kubernetes`: External Secrets Operator (ESO) and native 1Password Operator Kubernetes secret synchronization.
   4. `task-folder/agents/skills/1password/1password-service-accounts`: Headless CI/CD secret injection and service account token management.
-- **Resource Disposition**: Bundled `tools/` and `tools-python/` preserved with Developer Environments; `scripts/` and `templates/` mapped to Service Accounts, Kubernetes, and CLI children.
 
 ### B. WordPress Engineering
 - **Original Monolithic Source**: `task-folder/agents/skills/wordpress`
 - **Archived Monolith**: `task-folder/agents/not-needed/superseded/development/wordpress`
-- **Parent Router**: `task-folder/agents/skills/wordpress/SKILL.md` (Thin router with discipline switchboard & WPCS quality gates)
+- **Parent Router**: `task-folder/agents/skills/wordpress/SKILL.md`
 - **Resulting Child Skills**:
   1. `task-folder/agents/skills/wordpress/wordpress-core-admin`: Core setup, WP-CLI automation, multisite administration, security hardening, testing, and deployment.
   2. `task-folder/agents/skills/wordpress/wordpress-theme-development`: Block theme authoring, `theme.json` styling, template hierarchy, PHP block registration, and Interactivity API.
@@ -53,24 +52,16 @@ Phase 07 systematically evaluated all **2,094 active canonical skills** retained
 
 ---
 
-## 3. Deferred Cases for Manual Review
-
-### Computer Use Agents (`computer-use-agents`)
-- **Status**: `deferred_manual_review`
-- **Rationale**: Monolith encompasses multi-modal vision modeling, GUI coordinate planning, OS-level window management, and security sandboxing. While large (2,166 lines), the boundary between GUI perception and OS execution requires manual architecture and security review before splitting. Skill remains active and untouched.
-
----
-
-## 4. Section & File Content Allocation Ledger
+## 3. Section & File Content Allocation Ledger
 
 See `task-folder/agents/skills-rebuild/_audit/split-allocations.csv` for the itemized material accounting across every split monolith.
-- Total Mapped Headings & Files: 228
+- Total Mapped Headings & Files: 176
 - Allocation Coverage: 100% of archived source headings and bundled files accounted for.
 - Loss Rate: 0.0% (Zero undocumented losses).
 
 ---
 
-## 5. Active Library Population Reconciliation
+## 4. Active Library Population Reconciliation
 
 - **Active Canonicals (Post-Phase 06)**: 2,094
 - **Monoliths Fully Removed for Standalone Splits ($S_{standalone}$)**: 0

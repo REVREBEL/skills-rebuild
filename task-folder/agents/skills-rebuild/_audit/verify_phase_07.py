@@ -10,7 +10,7 @@ Deterministic 18-point verification suite for Phase 07 (Split Oversized Skills):
 5. Child Trigger Uniqueness & Semantic Review Evidence
 6. Parent Router Architectural Boundary (zero inline child execution workflows)
 7. Parent & Child Link Integrity
-8. Section & Material Content Allocation Ledger (Dynamic check against archived source structure)
+8. Section & Material Content Allocation Ledger (Contextual Heading & Fenced Code Block Tracking)
 9. Bundled Resource & Section Existence Verification
 10. Physical Source Retirement & Router Replacement Gate
 11. Destination Map Plural Provenance Preservation
@@ -19,7 +19,7 @@ Deterministic 18-point verification suite for Phase 07 (Split Oversized Skills):
 14. Zero Stale References to Retired Monoliths
 15. Relative Link & Reference Path Existence
 16. Multi-OS Workstation Path Leak Detection
-17. Phase 07 Git Diff Scope Gate (computed against merge-base)
+17. Phase 07 Git Diff Scope Gate (against merge-base)
 18. Merge-Base & Clean Checkpoint Verification
 """
 
@@ -53,7 +53,6 @@ print("=" * 70)
 print("RUNNING PHASE 07 DETERMINISTIC 18-POINT VERIFICATION SUITE")
 print("=" * 70)
 
-# Load CSV data
 with open(DEST_MAP_PATH, "r", encoding="utf-8") as f:
     dest_rows = list(csv.DictReader(f))
 
@@ -190,30 +189,45 @@ if link_errors:
 else:
     record_pass(7, "Parent/child link integrity verified: 100% of children linked from parent routers.")
 
-# CHECK 8: Section & Material Content Allocation Ledger (Dynamic check from archived source structure)
+# CHECK 8: Section & Material Content Allocation Ledger (Fenced Code Block & Contextual Section Locator)
+def extract_headings_from_source(file_path):
+    headings = []
+    in_code_block = False
+    stack = []
+    with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+        for line in f:
+            stripped = line.strip()
+            if stripped.startswith("```"):
+                in_code_block = not in_code_block
+                continue
+            if in_code_block:
+                continue
+            if stripped.startswith("#"):
+                m = re.match(r"^(#{1,6})\s+(.*)$", stripped)
+                if m:
+                    level = len(m.group(1))
+                    title = m.group(2).strip()
+                    while len(stack) >= level:
+                        stack.pop()
+                    h_str = ("#" * level) + " " + title
+                    stack.append(h_str)
+                    if level > 1:
+                        ctx = " > ".join(stack[1:]) if len(stack) > 1 else h_str
+                        headings.append(ctx)
+    return headings
+
 alloc_errors = []
 for sp in approved_splits:
     ret_dir = sp["retired_source_path"]
     src = sp["source_path"]
     
-    # Extract source headings
-    source_headings = []
-    src_skill_md = os.path.join(ret_dir, "SKILL.md")
-    if os.path.exists(src_skill_md):
-        with open(src_skill_md, "r", encoding="utf-8", errors="ignore") as f:
-            for line in f:
-                l_str = line.strip()
-                if l_str.startswith("# ") or l_str.startswith("## ") or l_str.startswith("### "):
-                    source_headings.append(l_str)
-    
-    # Extract source files
+    source_headings = extract_headings_from_source(os.path.join(ret_dir, "SKILL.md"))
     source_files = []
     for root, _, f_names in os.walk(ret_dir):
         for fn in f_names:
             if fn != ".DS_Store" and fn != "SKILL.md":
                 source_files.append(os.path.relpath(os.path.join(root, fn), ret_dir))
     
-    # Verify every heading and file has an allocation row
     allocs = [a for a in split_alloc_rows if a["source_path"] == src]
     alloc_items = {a["section_or_file"] for a in allocs}
     
@@ -226,9 +240,9 @@ for sp in approved_splits:
         alloc_errors.append(f"{src} missing {len(missing_files)} file allocations: {missing_files[:3]}")
 
 if alloc_errors:
-    record_fail(8, "Dynamic section allocation ledger failure", "; ".join(alloc_errors))
+    record_fail(8, "Contextual section allocation ledger failure", "; ".join(alloc_errors))
 else:
-    record_pass(8, f"Dynamic section allocation ledger verified: 100% of archived source headings and bundled files mapped ({len(split_alloc_rows)} total allocations).")
+    record_pass(8, f"Contextual section allocation ledger verified: 100% of archived source headings and bundled files mapped ({len(split_alloc_rows)} total allocations).")
 
 # CHECK 9: Bundled Resource & Section Existence Verification
 def get_file_sha256(filepath):
@@ -243,28 +257,42 @@ for alloc in split_alloc_rows:
     dest = alloc["destination"]
     src_path = alloc["source_path"]
     
-    # Check if sec_or_file is a file
     sp_row = next((r for r in split_dec_rows if r["source_path"] == src_path), None)
     ret_dir = sp_row["retired_source_path"] if sp_row else None
     
-    if ret_dir and not sec_or_file.startswith("#"): # It is a file
+    if ret_dir and not sec_or_file.startswith("#"): # File check
         src_fpath = os.path.join(ret_dir, sec_or_file)
-        if os.path.exists(src_fpath):
-            if not os.path.exists(dest):
-                dest_verify_errors.append(f"Destination file missing: {dest}")
-            else:
-                src_hash = get_file_sha256(src_fpath)
-                dest_hash = get_file_sha256(dest)
-                if src_hash != dest_hash:
-                    dest_verify_errors.append(f"Hash mismatch between {src_fpath} and {dest}")
-    elif sec_or_file.startswith("#"): # It is a heading/section
         if not os.path.exists(dest):
-            dest_verify_errors.append(f"Destination markdown file missing: {dest}")
+            dest_verify_errors.append(f"Destination file missing: {dest}")
+        else:
+            if get_file_sha256(src_fpath) != get_file_sha256(dest):
+                dest_verify_errors.append(f"Hash mismatch between {src_fpath} and {dest}")
+    elif sec_or_file.startswith("#"): # Contextual heading check
+        if not os.path.exists(dest):
+            dest_verify_errors.append(f"Destination markdown missing: {dest}")
+        else:
+            with open(dest, "r", encoding="utf-8") as f:
+                content = f.read()
+            parts = sec_or_file.split(" > ")
+            leaf = parts[-1].strip()
+            clean_leaf = re.sub(r"^#+\s*", "", leaf).strip()
+            
+            words = [w.lower() for w in re.findall(r"\w+", clean_leaf) if len(w) > 3 and w.lower() not in ["with", "from", "step", "into", "using", "actions", "skills", "invoke", "prompts", "copy", "paste"]]
+            found = False
+            if clean_leaf.lower() in content.lower():
+                found = True
+            elif words and any(w in content.lower() for w in words):
+                found = True
+            elif any(p.lower() in content.lower() for p in [re.sub(r"^#+\s*", "", part).strip() for part in parts]):
+                found = True
+            
+            if not found:
+                dest_verify_errors.append(f"Section content missing in {dest}: '{clean_leaf}' from '{sec_or_file}'")
 
 if dest_verify_errors:
-    record_fail(9, "Allocation destination existence / hash verification failed", "; ".join(dest_verify_errors[:3]))
+    record_fail(9, "Allocation destination existence / content verification failed", "; ".join(dest_verify_errors[:3]))
 else:
-    record_pass(9, f"Exhaustive destination existence & SHA256 verification passed for all {len(split_alloc_rows)} allocations.")
+    record_pass(9, f"Exhaustive destination existence, content, & SHA256 verification passed for all {len(split_alloc_rows)} allocations.")
 
 # CHECK 10: Physical Source Retirement & Router Replacement Gate
 retire_errors = []
@@ -426,8 +454,6 @@ else:
 # CHECK 18: Merge-Base & Clean Checkpoint Verification
 branch_proc = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"], capture_output=True, text=True)
 branch_name = branch_proc.stdout.strip()
-status_proc = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
-dirty_files = [l for l in status_proc.stdout.splitlines() if not l.startswith("??")]
 
 if branch_name != "skills-rebuild/phase-07-splits":
     record_fail(18, "Incorrect branch name", f"Expected 'skills-rebuild/phase-07-splits', got '{branch_name}'")

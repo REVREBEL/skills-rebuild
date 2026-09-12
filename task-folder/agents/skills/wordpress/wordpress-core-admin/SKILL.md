@@ -14,43 +14,77 @@ Automate WordPress core installation, database configuration, multisite networks
 
 ## When to Use
 
-- Installing new WordPress sites or setting up local development environments (Phase 1)
+- Installing new WordPress sites or setting up local development environments
 - Managing multisite networks and site mappings
 - Automating database maintenance and options via WP-CLI
-- Hardening site security (Phase 6)
-- Running administrative integration tests (Phase 7)
-- Executing production deployments and database migrations (Phase 8)
+- Hardening site security
+- Running administrative integration tests
+- Executing production deployments and database migrations
 
-## Phase 1: WordPress Setup & Configuration
+## Phase 1: WordPress Setup
 
+### Skills to Invoke
+Use `wordpress-core-admin` for automated initialization.
+
+### Actions
+- Download core files and generate `wp-config.php`.
+- Install database schema and configure initial admin account.
+
+### WordPress 7.0 Configuration
 ```bash
-# Download and configure core
 wp core download
 wp config create --dbname=wp_db --dbuser=wp_user --dbpass=secret --dbhost=localhost
 wp core install --url=example.com --title="Production Site" --admin_user=admin --admin_email=admin@example.com
-
-# Configure multisite
 wp core multisite-convert --subdomains
 ```
 
+### Copy-Paste Prompts
+Prompt: `Initialize WordPress core with database wp_db and enable multisite subdomains.`
+
 ## Phase 6: Security Hardening
 
-- **File Permissions**: Set directories to `755` and files to `644`. `wp-config.php` set to `600` or `440`.
-- **Security Keys**: Generate unique salts via `wp config shuffle-salts`.
-- **XML-RPC & File Editing**: Add `define('DISALLOW_FILE_EDIT', true);` in `wp-config.php`.
-- **Database Prefix**: Use non-default table prefix (e.g. `wp_secure_`).
+### Skills to Invoke
+Use `wordpress-core-admin` for security hardening.
+
+### Actions
+- Configure file permissions (directories `755`, files `644`, `wp-config.php` `600`).
+- Rotate salts and disable file modifications.
+
+### WordPress 7.0 Security Considerations & Security Checklist
+- [x] Security salts rotated (`wp config shuffle-salts`)
+- [x] XML-RPC disabled
+- [x] File editing disabled (`DISALLOW_FILE_EDIT`)
+- [x] Custom table prefix configured (`wp_secure_`)
+
+### Copy-Paste Prompts
+Prompt: `Harden WordPress installation and verify file permissions.`
 
 ## Phase 7: Testing
 
-- Run WP-CLI automated test suite: `wp eval-file tests/run-health-check.php`.
-- Verify database integrity: `wp db check`.
+### Skills to Invoke
+Use `wordpress-core-admin` for testing.
 
-## Phase 8: Deployment & Database Migrations
+### Actions
+- Execute WP-CLI test runner and check database health.
 
+### WordPress 7.0 Testing Priorities
+- Verify database integrity with `wp db check`.
+- Run health check scripts with `wp eval-file`.
+
+### Copy-Paste Prompts
+Prompt: `Run complete WordPress core and database health checks.`
+
+## Phase 8: Deployment
+
+### Skills to Invoke
+Use `wordpress-core-admin` for deployment.
+
+### Actions
+- Export database and perform search-replace migration.
+
+### Copy-Paste Prompts
 ```bash
-# Database export & migration
 wp db export backup.sql
-wp search-replace 'https://dev.example.com' 'https://example.com' --all-tables --dry-run
 wp search-replace 'https://dev.example.com' 'https://example.com' --all-tables
 ```
 

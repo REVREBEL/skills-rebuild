@@ -19,8 +19,15 @@ Synchronize 1Password secrets with Kubernetes clusters using External Secrets Op
 - Configuring PushSecret (Kubernetes to 1Password)
 - Deploying the native 1Password Kubernetes Operator with `OnePasswordItem` CRDs and auto-restart annotations
 
-## Connect Server Setup & Deployment
+## Prerequisites
 
+- Active Kubernetes cluster (v1.24+)
+- `kubectl` and `helm` v3 installed
+- 1Password Connect credentials token (`1password-credentials.json`)
+
+## External Secrets Operator Integration
+
+### Connect Server Setup & Deploy Connect Server
 1. Create automation environment credentials: generates `1password-credentials.json` and access token.
 2. Create Kubernetes secrets:
    ```bash
@@ -33,15 +40,12 @@ Synchronize 1Password secrets with Kubernetes clusters using External Secrets Op
    helm install connect 1password/connect --set connect.credentials=op-credentials
    ```
 
-## External Secrets Operator (ESO) Integration
-
-### SecretStore & ExternalSecret
+### ClusterSecretStore Configuration & ExternalSecret Examples
 ```yaml
 apiVersion: external-secrets.io/v1beta1
-kind: SecretStore
+kind: ClusterSecretStore
 metadata:
   name: onepassword
-  namespace: default
 spec:
   provider:
     onepassword:
@@ -52,6 +56,7 @@ spec:
         secretRef:
           connectTokenSecretRef:
             name: op-connect-token
+            namespace: default
             key: token
 ---
 apiVersion: external-secrets.io/v1beta1
@@ -63,7 +68,7 @@ spec:
   refreshInterval: 1h
   secretStoreRef:
     name: onepassword
-    kind: SecretStore
+    kind: ClusterSecretStore
   target:
     name: app-secrets
   data:
@@ -73,9 +78,18 @@ spec:
         property: password
 ```
 
-## Native 1Password Operator & `OnePasswordItem`
+### PushSecret (Kubernetes to 1Password)
+Synchronize Kubernetes-generated secrets back to 1Password vaults using `PushSecret` CRDs.
 
-Deploy via Helm and create `OnePasswordItem` CRD:
+## 1Password Kubernetes Operator
+
+### Installation via Helm
+```bash
+helm repo add 1password https://1password.github.io/connect-helm-charts/
+helm install op-operator 1password/onepassword-operator
+```
+
+### OnePasswordItem CRD
 ```yaml
 apiVersion: onepassword.com/v1
 kind: OnePasswordItem

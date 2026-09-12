@@ -41,12 +41,12 @@ op vault get "<vault>"
 op document get "<doc-name>" --out-file ./secret.pem
 ```
 
-## Secret Retrieval Workflows
+## Secret Retrieval
 
 ### Secret Reference Format
 The canonical URI structure is: `op://<vault>/<item>/[section/]<field>`.
 
-### Direct Retrieval & JSON Output
+### Reading Secrets Directly
 ```bash
 # Read specific field
 op read "op://Development/Database/password"
@@ -55,7 +55,7 @@ op read "op://Development/Database/password"
 op item get "Database" --format json
 ```
 
-### Injecting Secrets into Commands (`op run`)
+### Injecting Secrets into Commands
 Use `.env.tpl` references:
 ```bash
 AWS_ACCESS_KEY_ID=op://Development/AWS/access_key_id
@@ -66,37 +66,63 @@ Execute with:
 op run --env-file=.env.tpl -- npm start
 ```
 
-### Injecting Secrets into Configuration Files (`op inject`)
+### Injecting Secrets into Files
 ```bash
 op inject -i config.tpl.yaml -o config.yaml
 ```
 
-## Item & Document Management
+## Item Management
 
-- **Creating Items**: Use `op item create --category login --title "API Key" --vault "Development"`.
-- **Editing Items**: Update fields with `op item edit "API Key" "password=new-secret"`.
-- **Document Management**: Securely download and store private keys and certificates with `op document get` and `op document create`.
+### Creating Items
+Create items from the CLI or item template JSON:
+```bash
+op item create --category login --title "Database Admin" --vault "Development"
+```
 
-## Shell Plugins & Git Workflow
+### Item Template (JSON)
+Export or apply item templates in standard 1Password JSON schema.
 
-### Shell Plugins Setup
-Initialize plugins for AWS, GitHub, Stripe, or Vercel:
+### Editing Items
+```bash
+op item edit "Database Admin" "password=new-secret-value"
+```
+
+## Shell Plugins
+
+### Available Plugins
+Plugins available for AWS, GitHub, Stripe, Vercel, and Fly.
+
+### Plugin Setup
 ```bash
 op plugin init aws
 op plugin init gh
 ```
 
-### Git Workflow & Credential Helper
-1. Initialize `gh` plugin: `op plugin init gh`.
-2. Configure Git credential helper:
-   ```bash
-   git config --global credential.helper ""
-   git config --global credential.https://github.com.helper "!gh auth git-credential"
-   ```
-3. Run helper script: `bash ./scripts/setup-gh-plugin.sh`.
+## Git Workflow with 1Password
 
-## Troubleshooting & Common Issues
+### Quick Setup & Manual Setup
+- **Step 1: Initialize the gh plugin**: `op plugin init gh`.
+- **Step 2: Configure git credential helper**:
+  ```bash
+  git config --global credential.helper ""
+  git config --global credential.https://github.com.helper "!gh auth git-credential"
+  ```
+- **Step 3: Add shell integration**: Add `source ~/.config/op/plugins.sh` to shell rc.
 
+### How It Works
+The Git credential helper intercepts HTTPS authorization requests and delegates authentication directly to the authenticated 1Password CLI session.
+
+### Multiple GitHub Accounts
+Use conditional includes in `~/.gitconfig` based on repository directory path.
+
+### Fixing Common Issues
+- **"Item not found in vault" error**: Run `op item list --vault "<vault>"` to find UUID.
+- **gh aliased to op plugin run**: Run `\gh` or execute full binary path to bypass alias.
+- **Git prompting for username/password**: Check credential helper configuration with `git config -l`.
+
+## Troubleshooting
+
+### Common Issues
 - **Session Expired**: Run `eval $(op signin)`.
 - **Item Not Found**: Check item ID with `op item list --vault "<vault>"`. Use item UUID instead of name for deterministic lookup.
 - **Broken Plugin Configuration**: Reset configuration with `op plugin init <plugin> --reset`.

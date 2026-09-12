@@ -19,7 +19,21 @@ Build and customize WooCommerce stores, checkout flows, and product data models.
 - Integrating custom payment gateways and shipping calculators
 - Automating post-order webhook and inventory sync events
 
-## Custom Product Type Registration
+## Phase 4: WooCommerce Integration
+
+### Skills to Invoke
+Use `wordpress-woocommerce` for store customizations.
+
+### Actions
+- Register custom product types and checkout action hooks.
+
+### WordPress 7.0 + WooCommerce Considerations
+Ensure compatibility with High-Performance Order Storage (HPOS) and block-based checkout.
+
+### Copy-Paste Prompts
+Prompt: `Register a custom course product type and add order processing hooks.`
+
+## WooCommerce Custom Product Type
 
 ```php
 add_action('init', function () {

@@ -19,8 +19,20 @@ Author robust, secure, and extensible custom WordPress plugins using standard ho
 - Integrating AI Connectors API and registering Abilities API
 - Implementing secure lifecycle hooks (`init`, `wp_enqueue_scripts`, `save_post`)
 
-## Custom Post Type & RTC-Compatible Meta
+## Phase 3: Plugin Development
 
+### Skills to Invoke
+Use `wordpress-plugin-development` for custom plugin authoring.
+
+### Actions
+- Register hooks, post types, and REST routes.
+- Integrate AI connectors and Abilities API.
+
+### WordPress 7.0 Plugin Considerations & Plugin Structure
+- Support RTC collaborative editing for post meta.
+- Provide declarative ability definitions for agentic workflows.
+
+### RTC-Compatible Post Meta Registration
 ```php
 add_action('init', function () {
     register_post_type('project', [
@@ -39,8 +51,25 @@ add_action('init', function () {
 });
 ```
 
-## Custom REST API Route Example
+### AI Connector Example
+```php
+add_action('wp_ai_connectors_init', function () {
+    wp_register_ai_connector('gemini-summarizer', [
+        'provider' => 'google',
+        'model'    => 'gemini-1.5-pro',
+    ]);
+});
+```
 
+### Copy-Paste Prompts
+Prompt: `Create a custom plugin with RTC-compatible custom post type and REST route.`
+
+## WordPress-Specific Workflows
+
+### Custom Post Type Development (RTC-Compatible)
+Documented in the registration example above.
+
+### Custom REST API Endpoint
 ```php
 add_action('rest_api_init', function () {
     register_rest_route('custom/v1', '/data', [
@@ -57,8 +86,10 @@ function custom_get_data_handler(WP_REST_Request $request) {
 }
 ```
 
-## AI Connectors & Abilities API (WordPress 7.0)
+### WordPress 7.0 AI Connector Usage
+Documented in AI connector registration.
 
+### Abilities API Registration
 ```php
 add_action('wp_abilities_init', function () {
     wp_register_ability('generate_summary', [

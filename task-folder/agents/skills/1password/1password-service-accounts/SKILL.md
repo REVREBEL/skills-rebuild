@@ -19,15 +19,27 @@ Automate secret access in CI/CD pipelines and automated environments using Servi
 - Configuring GitLab CI/CD, CircleCI, or Docker container secret injection
 - Managing service account token rotation and access policies
 
-## Creating & Provisioning Service Accounts
+## Service Accounts
 
+### Prerequisites
+- 1Password Developer or Business account
+- Administrative rights to create Service Accounts and issue access tokens
+
+### Creating Service Accounts
 1. Create a service account in 1Password Developer Settings with explicit vault access.
 2. Run setup script: `bash ./scripts/setup-service-account.sh`.
 3. Set token in target environment: `export OP_SERVICE_ACCOUNT_TOKEN="<token>"`.
 
-## CI/CD Integration Workflows
+### Using Service Accounts
+Service accounts automatically authenticate `op` CLI commands when `OP_SERVICE_ACCOUNT_TOKEN` is present in the environment.
 
-### GitHub Actions (`1password/load-secrets-action`)
+### Service Account Limitations
+- Service accounts cannot perform interactive operations requiring user biometric authorization.
+- Token scope is restricted strictly to explicitly authorized vaults.
+
+## CI/CD Integration
+
+### GitHub Actions
 ```yaml
 name: Deploy
 on: [push]
@@ -58,16 +70,11 @@ deploy:
 ### CircleCI
 Configure `OP_SERVICE_ACCOUNT_TOKEN` in Project Environment Variables and use the `1password` orb.
 
-## Limitations & Best Practices
-
-- **Token Security**: Treat `OP_SERVICE_ACCOUNT_TOKEN` as root-level secret for the assigned vaults. Never print or log token.
-- **Scoped Permissions**: Restrict service account access to only the minimum required vaults.
-- **Verification**: Run `bash ./scripts/sync-check.sh` to verify token validity and access permissions.
-
 ## Troubleshooting
 
 - **Token Invalid**: Verify `OP_SERVICE_ACCOUNT_TOKEN` matches 1Password Developer settings.
 - **Vault Access Denied**: Verify service account is granted read permissions on target vault.
+- **Diagnostics**: Run `bash ./scripts/sync-check.sh` to verify service account token status.
 
 ## Completion Evidence
 

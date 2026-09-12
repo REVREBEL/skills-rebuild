@@ -19,8 +19,16 @@ Author custom WordPress block themes and hybrid themes following modern Full Sit
 - Registering PHP-only blocks without JavaScript build steps
 - Implementing reactive frontend behavior using the Interactivity API
 
-## Theme Structure & `theme.json` Configuration
+## Phase 2: Theme Development
 
+### Skills to Invoke
+Use `wordpress-theme-development` for custom theme engineering.
+
+### Actions
+- Author `theme.json` styling definitions and color palettes.
+- Create block templates and template parts in HTML and PHP.
+
+### WordPress 7.0 Theme Considerations & Theme Structure
 ```json
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
@@ -39,6 +47,9 @@ Author custom WordPress block themes and hybrid themes following modern Full Sit
   }
 }
 ```
+
+### Copy-Paste Prompts
+Prompt: `Scaffold a block theme with theme.json v3 and custom hero template part.`
 
 ## PHP-Only Block Registration (WordPress 7.0)
 
