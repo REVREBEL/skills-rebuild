@@ -1,17 +1,10 @@
 ---
-name: bilig-workpaper
-description: Execute formula-backed spreadsheet calculations, verify computed cell readbacks, and persist WorkPaper JSON models using the @bilig/workpaper TypeScript API and MCP server when modeling business calculations without spreadsheet GUIs.
-risk: critical
-source: community
-date_added: "2026-05-21"
-tags:
-  - spreadsheets
-  - formulas
-  - mcp
-  - xlsx
-  - typescript
+name: "bilig-workpaper"
+description: "Execute formula-backed spreadsheet calculations, verify computed cell readbacks, and persist WorkPaper JSON models using the @bilig/workpaper TypeScript API and MCP server when modeling business calculations without spreadsheet GUIs. Use when working with bilig workpaper or related tasks in workflow-and-automation/tool-integration."
+source: "community_canonical"
+risk: "unknown"
+license: "not_declared_upstream"
 ---
-
 # Bilig WorkPaper
 
 Execute deterministic spreadsheet calculations and manage formula-backed workbooks programmatically via the Bilig WorkPaper runtime and MCP tools.

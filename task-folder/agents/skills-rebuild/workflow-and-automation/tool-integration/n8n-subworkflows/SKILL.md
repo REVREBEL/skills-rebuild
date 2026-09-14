@@ -1,16 +1,10 @@
 ---
-name: n8n-subworkflows
-description: Design, build, and integrate modular n8n subworkflows with typed inputs, item-by-item vs all-item execution modes, error delegation, and agent tool exposure when decomposing complex workflows or building reusable logic.
-risk: unknown
-source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-subworkflows
-source_repo: czlonkowski/n8n-skills
-source_type: community
-date_added: "2026-07-21"
-author: Romuald Czlonkowski
-license: MIT
-license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
+name: "n8n-subworkflows"
+description: "Design, build, and integrate modular n8n subworkflows with typed inputs, item-by-item vs all-item execution modes, error delegation, and agent tool exposure when decomposing complex workflows or building reusable logic. Use when working with n8n subworkflows or related tasks in workflow-and-automation/tool-integration."
+source: "community_canonical"
+risk: "unknown"
+license: "not_declared_upstream"
 ---
-
 # n8n Sub-workflows
 
 Build modular, reusable n8n sub-workflows with strict input typing, flexible execution modes, and clean parent-child error boundaries.

@@ -1,10 +1,10 @@
 ---
-name: n8n-mcp-tools-expert
-description: Utilize n8n-mcp server tools to discover node definitions, validate workflow configurations, search template libraries, and manage n8n workflows programmatically when operating in agent environments.
-risk: unknown
-source: community
+name: "n8n-mcp-tools-expert"
+description: "Utilize n8n-mcp server tools to discover node definitions, validate workflow configurations, search template libraries, and manage n8n workflows programmatically when operating in agent environments. Use when working with n8n mcp tools expert or related tasks in workflow-and-automation/tool-integration."
+source: "community_canonical"
+risk: "unknown"
+license: "not_declared_upstream"
 ---
-
 # n8n MCP Tools Expert
 
 Leverage Model Context Protocol (`n8n-mcp`) tools to discover, configure, validate, and manage n8n workflows programmatically.

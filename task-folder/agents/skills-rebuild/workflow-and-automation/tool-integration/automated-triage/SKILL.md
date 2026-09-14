@@ -1,15 +1,10 @@
 ---
-name: automated-triage
-description: Triage, assess, score, and troubleshoot Monte Carlo data reliability alerts interactively or via automated scheduled workflows using Monte Carlo MCP tools when investigating data freshness, volume, or schema incidents.
-risk: unknown
-source: https://github.com/monte-carlo-data/mc-agent-toolkit/tree/main/skills/automated-triage
-source_repo: monte-carlo-data/mc-agent-toolkit
-source_type: community
-date_added: "2026-07-01"
-license: Apache-2.0
-license_source: https://github.com/monte-carlo-data/mc-agent-toolkit/blob/main/LICENSE
+name: "automated-triage"
+description: "Triage, assess, score, and troubleshoot Monte Carlo data reliability alerts interactively or via automated scheduled workflows using Monte Carlo MCP tools when investigating data freshness, volume, or schema incidents. Use when working with automated triage or related tasks in workflow-and-automation/tool-integration."
+source: "community_canonical"
+risk: "unknown"
+license: "not_declared_upstream"
 ---
-
 # Monte Carlo Automated Triage
 
 Design, execute, and automate data reliability alert triage workflows using Monte Carlo Model Context Protocol (MCP) tools.

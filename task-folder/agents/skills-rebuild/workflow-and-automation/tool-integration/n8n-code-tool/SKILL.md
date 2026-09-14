@@ -1,16 +1,10 @@
 ---
-name: n8n-code-tool
-description: Author, validate, and secure custom code tools callable by AI agents in n8n, defining input JSON schemas, sandbox execution parameters, and output contracts when creating tools for LangChain and AI Agent nodes.
-risk: unknown
-source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-code-tool
-source_repo: czlonkowski/n8n-skills
-source_type: community
-date_added: "2026-07-21"
-author: Romuald Czlonkowski
-license: MIT
-license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
+name: "n8n-code-tool"
+description: "Author, validate, and secure custom code tools callable by AI agents in n8n, defining input JSON schemas, sandbox execution parameters, and output contracts when creating tools for LangChain and AI Agent nodes. Use when working with n8n code tool or related tasks in workflow-and-automation/tool-integration."
+source: "community_canonical"
+risk: "unknown"
+license: "not_declared_upstream"
 ---
-
 # n8n Custom Code Tool
 
 Design and implement secure, schema-constrained custom code tools for AI agents in n8n.

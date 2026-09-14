@@ -1,11 +1,10 @@
 ---
-name: mcp-builder-ms
-description: Design, build, and package Model Context Protocol (MCP) servers in Python (FastMCP) or TypeScript (MCP SDK v2) across stdio and streamable HTTP transports when exposing internal tools, data sources, and services to AI agents.
-risk: unknown
-source: community
-date_added: "2026-02-27"
+name: "mcp-builder-ms"
+description: "Design, build, and package Model Context Protocol (MCP) servers in Python (FastMCP) or TypeScript (MCP SDK v2) across stdio and streamable HTTP transports when exposing internal tools, data sources, and services to AI agents. Use when working with mcp builder ms or related tasks in workflow-and-automation/tool-integration."
+source: "community_canonical"
+risk: "unknown"
+license: "not_declared_upstream"
 ---
-
 # MCP Server Development Guide (v2 Protocol)
 
 Build robust, production-grade Model Context Protocol (MCP) servers implementing the 2026-07-28 protocol in Python (FastMCP) or TypeScript (`@modelcontextprotocol/server` v2).
