@@ -1,6 +1,6 @@
 ---
 name: "calendar-governance"
-description: "Use to enforce cadence rules, timezone coverage, and operational controls. Use when working with calendar governance or related tasks in marketing-and-seo/cro."
+description: "Use to enforce cadence rules, timezone coverage, and operational controls. Use when working with calendar governance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "geo-audit-report"
-description: "Create a GEO audit using Bright Data or DataForSEO and output a reusable dashboard-ready JSON, a static HTML report, and a Next.js template app that should be used by default. Use when working with geo audit report or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Create a GEO audit using Bright Data or DataForSEO and output a reusable dashboard-ready JSON, a static HTML report, and a Next.js template app that should be used by default. Use when working with geo audit report."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

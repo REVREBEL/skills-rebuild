@@ -1,6 +1,6 @@
 ---
 name: "pricing-strategy"
-description: "Design products around price using Madhavan Ramanujam's \\"Monetizing Innovation\\" methodology—determine willingness to pay before you build, not after. Use when: **Set pricing for a new product** before or during development; **Validate willingness to pay** before investing in features; **Structure pricing tiers** (Good-Better-Best) for different segments; **Choose the right monetization model** (subscription, usage-based, freemium, etc.); **Diagnose why a product isn't monetizing** as expected."
+description: "Design products around price using Madhavan Ramanujam's \\\"Monetizing Innovation\\\" methodology—determine willingness to pay before you build, not after. Use when: **Set pricing for a new product** before or during development; **Validate willingness to pay** before investing in features; **Structure pricing tiers** (Good-Better-Best) for different segments; **Choose the right monetization model** (subscription, usage-based, freemium, etc.); **Diagnose why a product isn't monetizing** as expected."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "codex-fable5"
-description: "Apply Fable-inspired discipline to Codex work: inspect first, track goals and findings, ground conclusions in evidence, verify before completion, and adapt Claude/Fable prompt guidance without identity or provider claims. Use when working with codex fable5 or related tasks in development/backend."
+description: "Apply Fable-inspired discipline to Codex work: inspect first, track goals and findings, ground conclusions in evidence, verify before completion, and adapt Claude/Fable prompt guidance without identity or provider claims. Use when working with codex fable5."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

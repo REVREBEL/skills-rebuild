@@ -1,6 +1,6 @@
 ---
 name: "crm-hygiene"
-description: "Use to enforce stage definitions, next-step requirements, and data completeness. Use when working with crm hygiene or related tasks in marketing-and-seo/cro."
+description: "Use to enforce stage definitions, next-step requirements, and data completeness. Use when working with crm hygiene."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

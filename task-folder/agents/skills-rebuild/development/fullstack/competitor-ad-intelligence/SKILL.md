@@ -1,6 +1,6 @@
 ---
 name: "competitor-ad-intelligence"
-description: "Research public competitor ads, analyze creative patterns and landing pages, and produce an evidence-labeled strategic teardown. Use when working with competitor ad intelligence or related tasks in development/fullstack."
+description: "Research public competitor ads, analyze creative patterns and landing pages, and produce an evidence-labeled strategic teardown. Use when working with competitor ad intelligence."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

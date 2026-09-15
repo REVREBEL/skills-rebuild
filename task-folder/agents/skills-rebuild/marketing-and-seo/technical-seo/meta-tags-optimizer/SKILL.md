@@ -1,6 +1,6 @@
 ---
 name: "meta-tags-optimizer"
-description: "Use when the user asks to \"optimize meta tags\"; improves titles, descriptions, Open Graph, Twitter cards, and CTR test variants. Not for JSON-LD structured data — use schema-markup-generator; not for body copy — use seo-content-writer. 标题优化/元描述/CTR."
+description: "Use when the user asks to \\"optimize meta tags\\"; improves titles, descriptions, Open Graph, Twitter cards, and CTR test variants. Not for JSON-LD structured data — use schema-markup-generator; not for body copy — use seo-content-writer. 标题优化/元描述/CTR."
 source: "community_canonical_converted_provider"
 risk: "unknown"
 license: "not_declared_upstream"

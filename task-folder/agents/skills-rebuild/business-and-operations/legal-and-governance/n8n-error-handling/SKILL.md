@@ -1,6 +1,6 @@
 ---
 name: "n8n-error-handling"
-description: "Design visible, structured, recoverable n8n failures using error outputs, retries, Error Trigger workflows, and HTTP error responses. Use when working with n8n error handling or related tasks in business-and-operations/legal-and-governance."
+description: "Configure error workflows, retry policies, and alert routing in n8n automation pipelines. Use when handling execution failures or building resilient n8n workflows."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

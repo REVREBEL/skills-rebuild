@@ -1,6 +1,6 @@
 ---
 name: "channel-pacing-guardrails"
-description: "Guardrail framework for monitoring spend, efficiency, and CAC thresholds. Use when working with channel pacing guardrails or related tasks in marketing-and-seo/on-page-seo."
+description: "Guardrail framework for monitoring spend, efficiency, and CAC thresholds. Use when working with channel pacing guardrails."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

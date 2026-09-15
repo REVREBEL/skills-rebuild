@@ -1,6 +1,6 @@
 ---
 name: "container-security-hardening"
-description: "Execute container-security-hardening tasks, workflows, and automated procedures. Use when working with container security hardening or related tasks in infrastructure-and-ops/containers-and-orchestration."
+description: "Execute container-security-hardening tasks, workflows, and automated procedures. Use when working with container security hardening."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

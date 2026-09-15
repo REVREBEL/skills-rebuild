@@ -1,6 +1,6 @@
 ---
 name: "accessibility-audit"
-description: "Conduct a comprehensive accessibility audit against WCAG guidelines with severity ratings and remediation steps. Use when working with accessibility audit or related tasks in design-and-experience/ui-ux."
+description: "Conduct a comprehensive accessibility audit against WCAG guidelines with severity ratings and remediation steps. Use when working with accessibility audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

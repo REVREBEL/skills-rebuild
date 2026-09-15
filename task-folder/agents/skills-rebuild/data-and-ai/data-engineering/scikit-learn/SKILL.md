@@ -1,6 +1,6 @@
 ---
 name: "scikit-learn"
-description: "Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines. Use when working with scikit learn or related tasks in data-and-ai/data-engineering."
+description: "Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines. Use when working with scikit learn."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

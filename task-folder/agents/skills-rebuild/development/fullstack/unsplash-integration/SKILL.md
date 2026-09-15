@@ -1,6 +1,6 @@
 ---
 name: "unsplash-integration"
-description: "Integration skill for searching and fetching high-quality, free-to-use professional photography from Unsplash. Use when working with unsplash integration or related tasks in development/fullstack."
+description: "Integration skill for searching and fetching high-quality, free-to-use professional photography from Unsplash. Use when working with unsplash integration."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

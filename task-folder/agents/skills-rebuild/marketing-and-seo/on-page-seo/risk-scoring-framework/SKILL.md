@@ -1,6 +1,6 @@
 ---
 name: "risk-scoring-framework"
-description: "Method for calculating customer health/risk tiers using quantitative. Use when working with risk scoring framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Method for calculating customer health/risk tiers using quantitative. Use when working with risk scoring framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

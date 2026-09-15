@@ -1,6 +1,6 @@
 ---
 name: "blind-spot-detective"
-description: "Systematically identify what's missing in non-fiction writing—both blind spots (inherent limitations) and blank spots (gaps that could be addressed). Use before finalizing non-fiction or when feedback feels incomplete. Use when working with blind spot detective or related tasks in design-and-experience/ui-ux."
+description: "Systematically identify what's missing in non-fiction writing—both blind spots (inherent limitations) and blank spots (gaps that could be addressed). Use before finalizing non-fiction or when feedback feels incomplete. Use when working with blind spot detective."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "docker-expert"
-description: "You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices. Use when working with docker expert or related tasks in infrastructure-and-ops/containers-and-orchestration."
+description: "You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices. Use when working with docker expert."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

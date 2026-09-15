@@ -1,6 +1,6 @@
 ---
 name: "battlecard-library"
-description: "Template system for building, tagging, and distributing competitive battlecards. Use when working with battlecard library or related tasks in marketing-and-seo/on-page-seo."
+description: "Template system for building, tagging, and distributing competitive battlecards. Use when working with battlecard library."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

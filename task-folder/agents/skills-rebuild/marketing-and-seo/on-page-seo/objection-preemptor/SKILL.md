@@ -1,6 +1,6 @@
 ---
 name: "objection-preemptor"
-description: "One sentence - what this skill does and when to invoke it. Use when working with objection preemptor or related tasks in marketing-and-seo/on-page-seo."
+description: "One sentence - what this skill does and when to invoke it. Use when working with objection preemptor."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "rust"
-description: "Language-specific super-code guidelines for rust. Use when working with rust or related tasks in development/backend."
+description: "Language-specific super-code guidelines for rust. Use when working with rust."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

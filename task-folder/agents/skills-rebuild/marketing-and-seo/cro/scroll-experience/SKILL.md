@@ -1,6 +1,6 @@
 ---
 name: "scroll-experience"
-description: "Expert in building immersive scroll-driven experiences - parallax. Use when working with scroll experience or related tasks in marketing-and-seo/cro."
+description: "Expert in building immersive scroll-driven experiences - parallax. Use when working with scroll experience."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

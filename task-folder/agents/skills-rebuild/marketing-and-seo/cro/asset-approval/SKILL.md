@@ -1,6 +1,6 @@
 ---
 name: "asset-approval"
-description: "Use to manage co-marketing asset reviews with traceable evidence and. Use when working with asset approval or related tasks in marketing-and-seo/cro."
+description: "Use to manage co-marketing asset reviews with traceable evidence and. Use when working with asset approval."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

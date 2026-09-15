@@ -1,6 +1,6 @@
 ---
 name: "frontend-design"
-description: "Execute frontend-design tasks, workflows, and automated procedures. Use when working with frontend design or related tasks in design-and-experience/ui-ux."
+description: "Execute frontend-design tasks, workflows, and automated procedures. Use when working with frontend design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

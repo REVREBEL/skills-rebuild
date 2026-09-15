@@ -1,6 +1,6 @@
 ---
 name: "brand-guidelines"
-description: "Execute brand-guidelines tasks, workflows, and automated procedures. Use when working with brand guidelines or related tasks in design-and-experience/ui-ux."
+description: "Execute brand-guidelines tasks, workflows, and automated procedures. Use when working with brand guidelines."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

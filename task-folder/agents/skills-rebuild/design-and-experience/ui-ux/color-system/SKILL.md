@@ -1,6 +1,6 @@
 ---
 name: "color-system"
-description: "Build a comprehensive color system with palette generation, semantic mapping, and accessibility compliance. Use when working with color system or related tasks in design-and-experience/ui-ux."
+description: "Build a comprehensive color system with palette generation, semantic mapping, and accessibility compliance. Use when working with color system."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

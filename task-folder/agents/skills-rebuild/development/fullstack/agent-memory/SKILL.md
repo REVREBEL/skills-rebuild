@@ -1,6 +1,6 @@
 ---
 name: "agent-memory"
-description: "A hybrid memory system that provides persistent, searchable knowledge management for AI agents. Use when working with agent memory or related tasks in development/fullstack."
+description: "A hybrid memory system that provides persistent, searchable knowledge management for AI agents. Use when working with agent memory."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

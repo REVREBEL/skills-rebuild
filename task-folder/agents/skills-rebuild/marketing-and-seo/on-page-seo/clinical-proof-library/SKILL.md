@@ -1,6 +1,6 @@
 ---
 name: "clinical-proof-library"
-description: "Repository blueprint for managing clinical studies, testimonials, and. Use when working with clinical proof library or related tasks in marketing-and-seo/on-page-seo."
+description: "Repository blueprint for managing clinical studies, testimonials, and. Use when working with clinical proof library."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

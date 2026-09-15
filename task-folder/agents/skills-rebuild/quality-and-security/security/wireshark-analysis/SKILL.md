@@ -1,6 +1,6 @@
 ---
 name: "wireshark-analysis"
-description: "Execute comprehensive network traffic analysis using Wireshark to capture, filter, and examine network packets for security investigations, performance optimization, and troubleshooting. Use when working with wireshark analysis or related tasks in quality-and-security/security."
+description: "Execute comprehensive network traffic analysis using Wireshark to capture, filter, and examine network packets for security investigations, performance optimization, and troubleshooting. Use when working with wireshark analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

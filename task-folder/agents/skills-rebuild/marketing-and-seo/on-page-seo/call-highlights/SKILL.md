@@ -1,6 +1,6 @@
 ---
 name: "call-highlights"
-description: "Use to capture, tag, and distribute call clips for coaching and enablement. Use when working with call highlights or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to capture, tag, and distribute call clips for coaching and enablement. Use when working with call highlights."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

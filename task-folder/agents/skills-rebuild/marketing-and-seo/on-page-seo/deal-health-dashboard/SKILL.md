@@ -1,6 +1,6 @@
 ---
 name: "deal-health-dashboard"
-description: "Reporting framework for executive visibility into manufacturing pursuits. Use when working with deal health dashboard or related tasks in marketing-and-seo/on-page-seo."
+description: "Reporting framework for executive visibility into manufacturing pursuits. Use when working with deal health dashboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

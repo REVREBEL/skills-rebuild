@@ -1,6 +1,6 @@
 ---
 name: "github"
-description: "Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries. Use when working with github or related tasks in development/backend."
+description: "Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries. Use when working with github."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

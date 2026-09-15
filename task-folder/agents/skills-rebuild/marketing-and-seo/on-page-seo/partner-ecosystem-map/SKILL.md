@@ -1,6 +1,6 @@
 ---
 name: "partner-ecosystem-map"
-description: "Visualization toolkit for mapping partner landscape, coverage, and priorities. Use when working with partner ecosystem map or related tasks in marketing-and-seo/on-page-seo."
+description: "Visualization toolkit for mapping partner landscape, coverage, and priorities. Use when working with partner ecosystem map."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "figma"
-description: "Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas. Use when working with figma or related tasks in development/fullstack."
+description: "Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas. Use when working with figma."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

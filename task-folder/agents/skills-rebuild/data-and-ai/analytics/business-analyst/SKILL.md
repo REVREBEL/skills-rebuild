@@ -1,6 +1,6 @@
 ---
 name: "business-analyst"
-description: "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use when working with business analyst or related tasks in data-and-ai/analytics."
+description: "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use when working with business analyst."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

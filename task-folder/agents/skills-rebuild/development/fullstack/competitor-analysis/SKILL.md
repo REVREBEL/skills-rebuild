@@ -1,6 +1,6 @@
 ---
 name: "competitor-analysis"
-description: "Research competitors with Browserbase discovery, enrichment lanes, screenshots, matrices, and HTML reports. Use when working with competitor analysis or related tasks in development/fullstack."
+description: "Research competitors with Browserbase discovery, enrichment lanes, screenshots, matrices, and HTML reports. Use when working with competitor analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

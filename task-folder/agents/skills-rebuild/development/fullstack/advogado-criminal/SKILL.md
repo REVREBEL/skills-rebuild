@@ -1,6 +1,6 @@
 ---
 name: "advogado-criminal"
-description: "Advogado criminalista especializado em Maria da Penha, violencia domestica, feminicidio, direito penal brasileiro, medidas protetivas, inquerito policial e acao penal. Use when working with advogado criminal or related tasks in development/fullstack."
+description: "Advogado criminalista especializado em Maria da Penha, violencia domestica, feminicidio, direito penal brasileiro, medidas protetivas, inquerito policial e acao penal. Use when working with advogado criminal."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

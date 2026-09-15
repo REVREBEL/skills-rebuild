@@ -1,6 +1,6 @@
 ---
 name: "puzzle-activity-planner"
-description: "Plan puzzle-based activities for classrooms, parties, and events with pre-configured generator links. Use when working with puzzle activity planner or related tasks in development/fullstack."
+description: "Plan puzzle-based activities for classrooms, parties, and events with pre-configured generator links. Use when working with puzzle activity planner."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

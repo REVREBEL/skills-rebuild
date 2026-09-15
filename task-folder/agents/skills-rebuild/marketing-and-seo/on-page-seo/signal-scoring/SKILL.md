@@ -1,6 +1,6 @@
 ---
 name: "signal-scoring"
-description: "Use to design composite intent scoring models with decay, weighting,. Use when working with signal scoring or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to design composite intent scoring models with decay, weighting,. Use when working with signal scoring."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

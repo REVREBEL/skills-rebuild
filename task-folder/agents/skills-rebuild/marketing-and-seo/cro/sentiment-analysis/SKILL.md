@@ -1,6 +1,6 @@
 ---
 name: "sentiment-analysis"
-description: "Use to interpret qualitative feedback, trends, and risks across community. Use when working with sentiment analysis or related tasks in marketing-and-seo/cro."
+description: "Use to interpret qualitative feedback, trends, and risks across community. Use when working with sentiment analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

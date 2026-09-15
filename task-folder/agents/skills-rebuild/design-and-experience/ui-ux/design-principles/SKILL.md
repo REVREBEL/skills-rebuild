@@ -1,6 +1,6 @@
 ---
 name: "design-principles"
-description: "Define a set of actionable design principles that guide decision-making and resolve trade-offs. Use when working with design principles or related tasks in design-and-experience/ui-ux."
+description: "Define a set of actionable design principles that guide decision-making and resolve trade-offs. Use when working with design principles."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

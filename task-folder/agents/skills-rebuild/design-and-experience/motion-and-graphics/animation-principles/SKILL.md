@@ -1,6 +1,6 @@
 ---
 name: "animation-principles"
-description: "Apply animation principles to UI motion for purposeful, polished interactions. Use when working with animation principles or related tasks in design-and-experience/motion-and-graphics."
+description: "Apply animation principles to UI motion for purposeful, polished interactions. Use when working with animation principles."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

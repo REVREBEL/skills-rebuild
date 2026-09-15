@@ -1,6 +1,6 @@
 ---
 name: "social-proof-architect"
-description: "One sentence - what this skill does and when to invoke it. Use when working with social proof architect or related tasks in development/backend."
+description: "One sentence - what this skill does and when to invoke it. Use when working with social proof architect."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

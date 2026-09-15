@@ -1,6 +1,6 @@
 ---
 name: "pattern-library"
-description: "Structure a pattern library entry with problem context, solution pattern, usage examples, and related patterns. Use when working with pattern library or related tasks in design-and-experience/ui-ux."
+description: "Structure a pattern library entry with problem context, solution pattern, usage examples, and related patterns. Use when working with pattern library."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

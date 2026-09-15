@@ -1,6 +1,6 @@
 ---
 name: "instagram"
-description: "Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator. Use when working with instagram or related tasks in data-and-ai/analytics."
+description: "Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator. Use when working with instagram."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "seo-cluster"
-description: "Execute seo-cluster tasks, workflows, and automated procedures. Use when working with seo cluster or related tasks in marketing-and-seo/on-page-seo."
+description: "Execute seo-cluster tasks, workflows, and automated procedures. Use when working with seo cluster."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

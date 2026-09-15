@@ -1,6 +1,6 @@
 ---
 name: "user-interface-designer"
-description: "Design user-centric interfaces for web applications. Creates wireframes, visual designs, and interactive prototypes with usability focus. Use when working with user interface designer or related tasks in design-and-experience/ui-ux."
+description: "Design user-centric interfaces for web applications. Creates wireframes, visual designs, and interactive prototypes with usability focus. Use when working with user interface designer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

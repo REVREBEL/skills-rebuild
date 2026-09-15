@@ -1,6 +1,6 @@
 ---
 name: "ugc-campaign-management"
-description: "Source, curate, and display user-generated content at scale with rights management, brand safety moderation, and trust-building social proof galleries. Use when working with ugc campaign management or related tasks in development/backend."
+description: "Source, curate, and display user-generated content at scale with rights management, brand safety moderation, and trust-building social proof galleries. Use when working with ugc campaign management."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

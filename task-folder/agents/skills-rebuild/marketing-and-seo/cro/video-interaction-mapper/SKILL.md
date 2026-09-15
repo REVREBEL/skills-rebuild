@@ -1,6 +1,6 @@
 ---
 name: "video-interaction-mapper"
-description: "Execute video-interaction-mapper tasks, workflows, and automated procedures. Use when working with video interaction mapper or related tasks in marketing-and-seo/cro."
+description: "Execute video-interaction-mapper tasks, workflows, and automated procedures. Use when working with video interaction mapper."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

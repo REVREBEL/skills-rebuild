@@ -1,6 +1,6 @@
 ---
 name: "land-adopt-expand-blueprint"
-description: "Template for orchestrating phased motions across strategic SaaS accounts. Use when working with land adopt expand blueprint or related tasks in marketing-and-seo/cro."
+description: "Template for orchestrating phased motions across strategic SaaS accounts. Use when working with land adopt expand blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

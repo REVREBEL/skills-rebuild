@@ -1,6 +1,6 @@
 ---
 name: "gemini-omni-flash-api"
-description: "Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg,.. Use when working with gemini omni flash api or related tasks in design-and-experience/motion-and-graphics."
+description: "Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg,. Use when working with gemini omni flash api."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

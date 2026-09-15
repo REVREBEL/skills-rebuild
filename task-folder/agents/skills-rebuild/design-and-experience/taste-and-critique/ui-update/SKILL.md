@@ -1,6 +1,6 @@
 ---
 name: "ui-update"
-description: "Update StyleSeed engine in your project — analyzes what's outdated and updates safely. Use when working with ui update or related tasks in design-and-experience/taste-and-critique."
+description: "Update StyleSeed engine in your project — analyzes what's outdated and updates safely. Use when working with ui update."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

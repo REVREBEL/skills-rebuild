@@ -1,6 +1,6 @@
 ---
 name: "spatial-design"
-description: "Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics. Use when working with spatial design or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics. Use when working with spatial design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

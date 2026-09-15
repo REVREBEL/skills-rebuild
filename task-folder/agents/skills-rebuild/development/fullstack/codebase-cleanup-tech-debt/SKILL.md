@@ -1,6 +1,6 @@
 ---
 name: "codebase-cleanup-tech-debt"
-description: "You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebase to uncover debt, assess its impact, and create acti. Use when working with codebase cleanup tech debt or related tasks in development/fullstack."
+description: "You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebase to uncover debt, assess its impact, and create acti. Use when working with codebase cleanup tech debt."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "blockrun"
-description: "BlockRun works with Claude Code and Google Antigravity. Use when working with blockrun or related tasks in development/backend."
+description: "BlockRun works with Claude Code and Google Antigravity. Use when working with blockrun."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

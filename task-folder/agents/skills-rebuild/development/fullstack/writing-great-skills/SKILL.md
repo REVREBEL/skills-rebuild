@@ -1,6 +1,6 @@
 ---
 name: "writing-great-skills"
-description: "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable. Use when working with writing great skills or related tasks in development/fullstack."
+description: "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable. Use when working with writing great skills."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "research-add-fields"
-description: "Append new field definitions to an in-progress research outline's `fields.yaml` — either from user-supplied input or from a web-search agent that proposes common dimensions in the domain. Use mid-`/research-outline` when you've realised the schema is missing dimensions (e.g. pricing, performance, ecosystem, governance) before running `/research-deep`, so deep agents fill the new fields on first pass instead of needing a re-run. Use when working with research add fields or related tasks in marketing-and-seo/technical-seo."
+description: "Append new field definitions to an in-progress research outline's `fields.yaml` — either from user-supplied input or from a web-search agent that proposes common dimensions in the domain. Use mid-`/research-outline` when you've realised the schema is missing dimensions (e.g. pricing, performance, ecosystem, governance) before running `/research-deep`, so deep agents fill the new fields on first pass instead of needing a re-run. Use when working with research add fields."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

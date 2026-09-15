@@ -1,6 +1,6 @@
 ---
 name: "state-machine"
-description: "Model complex UI behavior as finite state machines with states, events, and transitions. Use when working with state machine or related tasks in design-and-experience/ui-ux."
+description: "Model complex UI behavior as finite state machines with states, events, and transitions. Use when working with state machine."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

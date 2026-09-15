@@ -1,6 +1,6 @@
 ---
 name: "sales-letter-writer"
-description: "Write high-converting direct response sales letters using the proven methodologies of Gary Halbert (The Boron Letters) and Dan Kennedy (The Ultimate Sales Letter)—master the art of persuasive long-form copy that turns readers into buyers. Use when: **Write a long-form sales letter** for a product or service; **Create direct mail pieces** that generate response; **Write landing page copy** in sales letter format; **Craft email sequences** with direct response principles; **Develop VSL scripts*.."
+description: "Write high-converting direct response sales letters using the proven methodologies of Gary Halbert (The Boron Letters) and Dan Kennedy (The Ultimate Sales Letter)—master the art of persuasive long-form copy that turns readers into buyers. Use when: **Write a long-form sales letter** for a product or service; **Create direct mail pieces** that generate response; **Write landing page copy** in sales letter format; **Craft email sequences** with direct response principles; **Develop VSL scripts*."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

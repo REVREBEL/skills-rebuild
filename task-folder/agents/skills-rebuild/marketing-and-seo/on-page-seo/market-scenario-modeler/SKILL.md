@@ -1,6 +1,6 @@
 ---
 name: "market-scenario-modeler"
-description: "Toolkit for building TAM/SAM/SOM models, sensitivity analyses, and narrative-ready. Use when working with market scenario modeler or related tasks in marketing-and-seo/on-page-seo."
+description: "Toolkit for building TAM/SAM/SOM models, sensitivity analyses, and narrative-ready. Use when working with market scenario modeler."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

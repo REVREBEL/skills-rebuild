@@ -1,6 +1,6 @@
 ---
 name: "tutorial-engineer"
-description: "Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples. Use when working with tutorial engineer or related tasks in content-and-documentation/technical-writing."
+description: "Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples. Use when working with tutorial engineer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

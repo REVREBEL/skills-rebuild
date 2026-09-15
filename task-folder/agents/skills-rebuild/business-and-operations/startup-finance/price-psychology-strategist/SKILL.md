@@ -1,6 +1,6 @@
 ---
 name: "price-psychology-strategist"
-description: "One sentence - what this skill does and when to invoke it. Use when working with price psychology strategist or related tasks in business-and-operations/startup-finance."
+description: "One sentence - what this skill does and when to invoke it. Use when working with price psychology strategist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

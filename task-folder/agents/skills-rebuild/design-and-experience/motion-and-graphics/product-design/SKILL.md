@@ -1,6 +1,6 @@
 ---
 name: "product-design"
-description: "Design de produto nivel Apple — sistemas visuais, UX flows, acessibilidade, linguagem visual proprietaria, design tokens, prototipagem e handoff. Cobre Figma, design systems, tipografia, cor, espacamento, motion design e principios de design cognitivo. Use when working with product design or related tasks in design-and-experience/motion-and-graphics."
+description: "Design de produto nivel Apple — sistemas visuais, UX flows, acessibilidade, linguagem visual proprietaria, design tokens, prototipagem e handoff. Cobre Figma, design systems, tipografia, cor, espacamento, motion design e principios de design cognitivo. Use when working with product design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

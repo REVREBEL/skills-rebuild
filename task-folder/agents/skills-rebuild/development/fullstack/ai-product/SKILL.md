@@ -1,6 +1,6 @@
 ---
 name: "ai-product"
-description: "Every product will be AI-powered. The question is whether you'll. Use when working with ai product or related tasks in development/fullstack."
+description: "Every product will be AI-powered. The question is whether you'll. Use when working with ai product."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

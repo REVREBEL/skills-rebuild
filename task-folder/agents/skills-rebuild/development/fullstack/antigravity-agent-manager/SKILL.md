@@ -1,6 +1,6 @@
 ---
 name: "antigravity-agent-manager"
-description: "Configure and orchestrate parallel agents using the standalone Antigravity 2.0 Agent Manager and Antigravity IDE. Use when working with antigravity agent manager or related tasks in development/fullstack."
+description: "Configure and orchestrate parallel agents using the standalone Antigravity 2.0 Agent Manager and Antigravity IDE. Use when working with antigravity agent manager."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

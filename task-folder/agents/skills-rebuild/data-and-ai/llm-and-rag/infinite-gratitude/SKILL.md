@@ -1,6 +1,6 @@
 ---
 name: "infinite-gratitude"
-description: "Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies). Use when working with infinite gratitude or related tasks in data-and-ai/llm-and-rag."
+description: "Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies). Use when working with infinite gratitude."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

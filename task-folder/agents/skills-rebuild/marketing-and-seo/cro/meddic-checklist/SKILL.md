@@ -1,6 +1,6 @@
 ---
 name: "meddic-checklist"
-description: "Use to inspect qualification coverage across Metrics, Economic buyer,. Use when working with meddic checklist or related tasks in marketing-and-seo/cro."
+description: "Use to inspect qualification coverage across Metrics, Economic buyer,. Use when working with meddic checklist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "developer-listening"
-description: "Monitor what developers say about your brand, competitors, and the problems they're solving. Track mentions and conversations across GitHub, Hacker News, Reddit, Stack Overflow, Twitter, and Discord. Trigger phrases: \\"developer listening\\", \\"monitor developer conversations\\", \\"track. Use when working with developer listening or related tasks in marketing-and-seo/cro."
+description: "Monitor what developers say about your brand, competitors, and the problems they're solving. Track mentions and conversations across GitHub, Hacker News, Reddit, Stack Overflow, Twitter, and Discord. Trigger phrases: \\\"developer listening\\\", \\\"monitor developer conversations\\\", \\\"track. Use when working with developer listening."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

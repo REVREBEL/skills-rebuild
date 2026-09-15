@@ -1,6 +1,6 @@
 ---
 name: "agent-tool-builder"
-description: "Tools are how AI agents interact with the world. A well-designed. Use when working with agent tool builder or related tasks in development/fullstack."
+description: "Tools are how AI agents interact with the world. A well-designed. Use when working with agent tool builder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

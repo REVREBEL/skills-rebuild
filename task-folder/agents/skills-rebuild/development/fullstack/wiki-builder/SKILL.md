@@ -1,6 +1,6 @@
 ---
 name: "wiki-builder"
-description: "Create and maintain reusable research wikis with source provenance, configurable structure, and local markdown outputs. Use when working with wiki builder or related tasks in development/fullstack."
+description: "Create and maintain reusable research wikis with source provenance, configurable structure, and local markdown outputs. Use when working with wiki builder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

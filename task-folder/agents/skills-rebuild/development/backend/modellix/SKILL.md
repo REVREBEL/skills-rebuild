@@ -1,6 +1,6 @@
 ---
 name: "modellix"
-description: "Integrate Modellix unified API/CLI for async AI image and video generation (model run --wait, task download). Use when working with modellix or related tasks in development/backend."
+description: "Integrate Modellix unified API/CLI for async AI image and video generation (model run --wait, task download). Use when working with modellix."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

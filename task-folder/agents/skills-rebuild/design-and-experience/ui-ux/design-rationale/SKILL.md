@@ -1,6 +1,6 @@
 ---
 name: "design-rationale"
-description: "Write clear design rationale connecting decisions to user needs, business goals, and principles. Use when working with design rationale or related tasks in design-and-experience/ui-ux."
+description: "Write clear design rationale connecting decisions to user needs, business goals, and principles. Use when working with design rationale."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

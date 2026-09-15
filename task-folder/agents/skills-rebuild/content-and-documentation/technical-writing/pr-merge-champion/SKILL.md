@@ -1,6 +1,6 @@
 ---
 name: "pr-merge-champion"
-description: "Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and structured documentation. Use when working with pr merge champion or related tasks in content-and-documentation/technical-writing."
+description: "Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and structured documentation. Use when working with pr merge champion."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

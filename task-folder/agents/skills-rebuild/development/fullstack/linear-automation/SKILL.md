@@ -1,6 +1,6 @@
 ---
 name: "linear-automation"
-description: "Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas. Use when working with linear automation or related tasks in development/fullstack."
+description: "Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas. Use when working with linear automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

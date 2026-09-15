@@ -1,6 +1,6 @@
 ---
 name: "dashboard-playbook"
-description: "Best-practice kit for BI dashboard layout, storytelling, and adoption. Use when working with dashboard playbook or related tasks in marketing-and-seo/on-page-seo."
+description: "Best-practice kit for BI dashboard layout, storytelling, and adoption. Use when working with dashboard playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "deployment-pipeline-design"
-description: "Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies. Use when working with deployment pipeline design or related tasks in development/software-architecture."
+description: "Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies. Use when working with deployment pipeline design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

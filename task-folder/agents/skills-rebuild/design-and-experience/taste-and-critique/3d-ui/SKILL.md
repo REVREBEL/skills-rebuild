@@ -1,6 +1,6 @@
 ---
 name: "3d-ui"
-description: "Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth. Use when working with 3d ui or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth. Use when working with 3d ui."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "reference-ops"
-description: "Use to manage workflows, compliance, and measurement for customer references. Use when working with reference ops or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to manage workflows, compliance, and measurement for customer references. Use when working with reference ops."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

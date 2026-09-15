@@ -1,6 +1,6 @@
 ---
 name: "escalation-framework"
-description: "Use to govern executive involvement, cross-functional response, and risk. Use when working with escalation framework or related tasks in marketing-and-seo/cro."
+description: "Use to govern executive involvement, cross-functional response, and risk. Use when working with escalation framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

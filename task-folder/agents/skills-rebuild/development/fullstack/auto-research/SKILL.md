@@ -1,6 +1,6 @@
 ---
 name: "auto-research"
-description: "Research uncertain questions with an explicit, user-approved web search or ChatGPT consultation, then present options and wait for implementation approval. Use when working with auto research or related tasks in development/fullstack."
+description: "Research uncertain questions with an explicit, user-approved web search or ChatGPT consultation, then present options and wait for implementation approval. Use when working with auto research."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

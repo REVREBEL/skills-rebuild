@@ -1,6 +1,6 @@
 ---
 name: "seo-cannibalization-detector"
-description: "Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content. Use when working with seo cannibalization detector or related tasks in marketing-and-seo/on-page-seo."
+description: "Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content. Use when working with seo cannibalization detector."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

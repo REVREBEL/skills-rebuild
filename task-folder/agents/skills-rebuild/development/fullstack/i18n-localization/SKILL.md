@@ -1,6 +1,6 @@
 ---
 name: "i18n-localization"
-description: "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support. Use when working with i18n localization or related tasks in development/fullstack."
+description: "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support. Use when working with i18n localization."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

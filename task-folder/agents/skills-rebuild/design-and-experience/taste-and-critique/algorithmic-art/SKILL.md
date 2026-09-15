@@ -1,6 +1,6 @@
 ---
 name: "algorithmic-art"
-description: "Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algorithms). Use when working with algorithmic art or related tasks in design-and-experience/taste-and-critique."
+description: "Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algorithms). Use when working with algorithmic art."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

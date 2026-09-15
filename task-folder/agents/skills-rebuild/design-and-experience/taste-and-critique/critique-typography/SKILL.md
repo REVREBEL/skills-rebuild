@@ -1,6 +1,6 @@
 ---
 name: "critique-typography"
-description: "Critique a screen's typography — scale usage, readability, consistency, and token compliance. Use when working with critique typography or related tasks in design-and-experience/taste-and-critique."
+description: "Critique a screen's typography — scale usage, readability, consistency, and token compliance. Use when working with critique typography."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

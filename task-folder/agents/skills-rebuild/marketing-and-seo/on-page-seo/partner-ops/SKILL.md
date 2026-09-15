@@ -1,6 +1,6 @@
 ---
 name: "partner-ops"
-description: "Use to manage partner onboarding, enablement, and compliance workflows. Use when working with partner ops or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to manage partner onboarding, enablement, and compliance workflows. Use when working with partner ops."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

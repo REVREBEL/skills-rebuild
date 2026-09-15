@@ -1,6 +1,6 @@
 ---
 name: "n8n-mcp-tools-expert"
-description: "Utilize n8n-mcp server tools to discover node definitions, validate workflow configurations, search template libraries, and manage n8n workflows programmatically when operating in agent environments. Use when working with n8n mcp tools expert or related tasks in workflow-and-automation/tool-integration."
+description: "Utilize n8n-mcp server tools to discover node definitions, validate workflow configurations, search template libraries, and manage n8n workflows programmatically when operating in agent environments. Use when working with n8n mcp tools expert."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

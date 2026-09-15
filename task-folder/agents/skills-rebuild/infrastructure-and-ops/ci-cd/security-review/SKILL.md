@@ -1,6 +1,6 @@
 ---
 name: "security-review"
-description: "Find exploitable vulnerabilities in GitHub Actions workflows. Every finding MUST include a concrete exploitation scenario — if you can't build the attack, don't report it. Use when working with security review or related tasks in infrastructure-and-ops/ci-cd."
+description: "Find exploitable vulnerabilities in GitHub Actions workflows. Every finding MUST include a concrete exploitation scenario — if you can't build the attack, don't report it. Use when working with security review."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

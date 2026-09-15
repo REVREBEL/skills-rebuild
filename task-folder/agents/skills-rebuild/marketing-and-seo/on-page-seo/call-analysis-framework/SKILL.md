@@ -1,6 +1,6 @@
 ---
 name: "call-analysis-framework"
-description: "Use to score calls, capture highlights, and convert insights into actions. Use when working with call analysis framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to score calls, capture highlights, and convert insights into actions. Use when working with call analysis framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "bevy-ecs-expert"
-description: "Master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, Resources, and parallel scheduling. Use when working with bevy ecs expert or related tasks in development/backend."
+description: "Master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, Resources, and parallel scheduling. Use when working with bevy ecs expert."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

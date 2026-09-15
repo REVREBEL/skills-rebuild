@@ -1,6 +1,6 @@
 ---
 name: "taste-skill"
-description: "Execute taste-skill tasks, workflows, and automated procedures. Use when working with taste skill or related tasks in design-and-experience/taste-and-critique."
+description: "Execute taste-skill tasks, workflows, and automated procedures. Use when working with taste skill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

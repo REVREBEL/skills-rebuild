@@ -1,6 +1,6 @@
 ---
 name: "co-branding"
-description: "Use to enforce visual, messaging, and legal standards across partner. Use when working with co branding or related tasks in marketing-and-seo/cro."
+description: "Use to enforce visual, messaging, and legal standards across partner. Use when working with co branding."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

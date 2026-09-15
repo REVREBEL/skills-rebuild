@@ -1,6 +1,6 @@
 ---
 name: "api-documentation"
-description: "API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation. Use when working with api documentation or related tasks in content-and-documentation/technical-writing."
+description: "API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation. Use when working with api documentation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "interface-kit"
-description: "Execute interface-kit tasks, workflows, and automated procedures. Use when working with interface kit or related tasks in design-and-experience/motion-and-graphics."
+description: "Execute interface-kit tasks, workflows, and automated procedures. Use when working with interface kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

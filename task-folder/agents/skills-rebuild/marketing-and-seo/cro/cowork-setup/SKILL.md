@@ -1,6 +1,6 @@
 ---
 name: "cowork-setup"
-description: "One-shot setup that wires Digital Marketing Pro for team usage in Anthropic Cowork. Verifies the Cowork sandbox, checks for a Google Drive integration, creates the canonical Drive folder layout, and confirms team-ready brand-state routing. Use this the first time a Cowork user installs DMP OR when brand profiles aren't persisting across sessions. Use when working with cowork setup or related tasks in marketing-and-seo/cro."
+description: "One-shot setup that wires Digital Marketing Pro for team usage in Anthropic Cowork. Verifies the Cowork sandbox, checks for a Google Drive integration, creates the canonical Drive folder layout, and confirms team-ready brand-state routing. Use this the first time a Cowork user installs DMP OR when brand profiles aren't persisting across sessions. Use when working with cowork setup."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

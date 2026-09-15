@@ -1,6 +1,6 @@
 ---
 name: "interactive-portfolio"
-description: "Expert in building portfolios that actually land jobs and clients -. Use when working with interactive portfolio or related tasks in development/mobile."
+description: "Expert in building portfolios that actually land jobs and clients -. Use when working with interactive portfolio."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

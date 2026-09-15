@@ -1,6 +1,6 @@
 ---
 name: "brand-measurement-dashboard"
-description: "KPI framework and reporting system for tracking brand health, consistency,. Use when working with brand measurement dashboard or related tasks in marketing-and-seo/on-page-seo."
+description: "KPI framework and reporting system for tracking brand health, consistency,. Use when working with brand measurement dashboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

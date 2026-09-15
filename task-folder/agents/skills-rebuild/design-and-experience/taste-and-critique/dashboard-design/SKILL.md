@@ -1,6 +1,6 @@
 ---
 name: "dashboard-design"
-description: "Web and App implementation guide for Dashboard Design. Trigger when user wants analytics-focused layouts, data visualization, and modular overview screens. Use when working with dashboard design or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Dashboard Design. Trigger when user wants analytics-focused layouts, data visualization, and modular overview screens. Use when working with dashboard design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "workflow-orchestration-patterns"
-description: "Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliable distributed systems. Use when working with workflow orchestration patterns or related tasks in development/systems."
+description: "Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliable distributed systems. Use when working with workflow orchestration patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

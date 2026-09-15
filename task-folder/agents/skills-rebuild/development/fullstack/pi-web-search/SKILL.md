@@ -1,6 +1,6 @@
 ---
 name: "pi-web-search"
-description: "Give Pi Agents a safe web-search and fetch workflow using the installed pi-web-access package. Use when working with pi web search or related tasks in development/fullstack."
+description: "Give Pi Agents a safe web-search and fetch workflow using the installed pi-web-access package. Use when working with pi web search."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

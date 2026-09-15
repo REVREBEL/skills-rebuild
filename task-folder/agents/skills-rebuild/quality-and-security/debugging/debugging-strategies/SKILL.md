@@ -1,6 +1,6 @@
 ---
 name: "debugging-strategies"
-description: "Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches. Use when working with debugging strategies or related tasks in quality-and-security/debugging."
+description: "Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches. Use when working with debugging strategies."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

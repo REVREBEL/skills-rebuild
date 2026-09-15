@@ -1,6 +1,6 @@
 ---
 name: "playwright-skill"
-description: "IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, and use that path in all commands below. Use when working with playwright skill or related tasks in quality-and-security/testing."
+description: "IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, and use that path in all commands below. Use when working with playwright skill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

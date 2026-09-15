@@ -1,6 +1,6 @@
 ---
 name: "trading-ledger"
-description: "A trading journal that captures the decision, not just the fill: thesis, plan, and emotion at the moment of entry, written to the user's own Notion database; reviews grade decisions, not P&L. Use when working with trading ledger or related tasks in development/backend."
+description: "A trading journal that captures the decision, not just the fill: thesis, plan, and emotion at the moment of entry, written to the user's own Notion database; reviews grade decisions, not P&L. Use when working with trading ledger."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "markdown-rendering"
-description: "Open Markdown reliably in cmux panes and recover from blank rendered surfaces. Use when working with markdown rendering or related tasks in development/fullstack."
+description: "Open Markdown reliably in cmux panes and recover from blank rendered surfaces. Use when working with markdown rendering."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

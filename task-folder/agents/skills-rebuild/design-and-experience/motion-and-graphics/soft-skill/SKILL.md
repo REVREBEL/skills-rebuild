@@ -1,6 +1,6 @@
 ---
 name: "soft-skill"
-description: "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic. Use when working with soft skill or related tasks in design-and-experience/motion-and-graphics."
+description: "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic. Use when working with soft skill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

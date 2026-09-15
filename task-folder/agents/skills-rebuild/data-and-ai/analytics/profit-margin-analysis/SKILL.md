@@ -1,6 +1,6 @@
 ---
 name: "profit-margin-analysis"
-description: "Analyze gross and net profit margins by product, category, channel, and customer segment with cost attribution, benchmarking, and trend visualization. Use when working with profit margin analysis or related tasks in data-and-ai/analytics."
+description: "Analyze gross and net profit margins by product, category, channel, and customer segment with cost attribution, benchmarking, and trend visualization. Use when working with profit margin analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

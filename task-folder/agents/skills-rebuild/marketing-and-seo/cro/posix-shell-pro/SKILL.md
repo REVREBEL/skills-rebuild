@@ -1,6 +1,6 @@
 ---
 name: "posix-shell-pro"
-description: "Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix). Use when working with posix shell pro or related tasks in marketing-and-seo/cro."
+description: "Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix). Use when working with posix shell pro."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

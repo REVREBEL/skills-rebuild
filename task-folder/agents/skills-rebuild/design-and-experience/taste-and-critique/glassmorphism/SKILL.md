@@ -1,6 +1,6 @@
 ---
 name: "glassmorphism"
-description: "Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel. Use when working with glassmorphism or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel. Use when working with glassmorphism."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

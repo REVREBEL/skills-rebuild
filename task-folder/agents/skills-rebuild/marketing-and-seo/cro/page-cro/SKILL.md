@@ -1,6 +1,6 @@
 ---
 name: "page-cro"
-description: "Analyze and optimize individual pages for conversion performance. Use when working with page cro or related tasks in marketing-and-seo/cro."
+description: "Analyze and optimize individual pages for conversion performance. Use when working with page cro."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

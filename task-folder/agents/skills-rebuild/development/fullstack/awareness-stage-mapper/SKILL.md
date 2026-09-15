@@ -1,6 +1,6 @@
 ---
 name: "awareness-stage-mapper"
-description: "One sentence - what this skill does and when to invoke it. Use when working with awareness stage mapper or related tasks in development/fullstack."
+description: "One sentence - what this skill does and when to invoke it. Use when working with awareness stage mapper."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

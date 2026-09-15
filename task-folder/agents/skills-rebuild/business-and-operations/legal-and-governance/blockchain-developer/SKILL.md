@@ -1,6 +1,6 @@
 ---
 name: "blockchain-developer"
-description: "Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations. Use when working with blockchain developer or related tasks in business-and-operations/legal-and-governance."
+description: "Build production-ready Web3 applications, smart contracts, and decentralized systems. Use when developing Solidity smart contracts, EVM integrations, or Web3 decentralized applications."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

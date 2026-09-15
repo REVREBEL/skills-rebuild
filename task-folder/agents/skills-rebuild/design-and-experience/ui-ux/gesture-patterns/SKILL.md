@@ -1,6 +1,6 @@
 ---
 name: "gesture-patterns"
-description: "Design gesture-based interactions for touch and pointer devices. Use when working with gesture patterns or related tasks in design-and-experience/ui-ux."
+description: "Design gesture-based interactions for touch and pointer devices. Use when working with gesture patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

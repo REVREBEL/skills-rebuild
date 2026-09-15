@@ -1,6 +1,6 @@
 ---
 name: "monopoly"
-description: "Execute monopoly tasks, workflows, and automated procedures. Use when working with monopoly or related tasks in marketing-and-seo/cro."
+description: "Execute monopoly tasks, workflows, and automated procedures. Use when working with monopoly."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

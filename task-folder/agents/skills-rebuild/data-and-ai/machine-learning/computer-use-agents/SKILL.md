@@ -1,6 +1,6 @@
 ---
 name: "computer-use-agents"
-description: "Build AI agents that interact with computers like humans do -. Use when working with computer use agents or related tasks in data-and-ai/machine-learning."
+description: "Build AI agents that interact with computers like humans do -. Use when working with computer use agents."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

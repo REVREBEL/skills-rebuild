@@ -1,6 +1,6 @@
 ---
 name: "pricing-governance"
-description: "Use to run pricing councils, track decisions, and enforce approval workflows. Use when working with pricing governance or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to run pricing councils, track decisions, and enforce approval workflows. Use when working with pricing governance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

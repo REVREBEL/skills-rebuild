@@ -1,6 +1,6 @@
 ---
 name: "read-all-adrs"
-description: "Read every ADR in a project before summarizing architectural context or decisions. Use when working with read all adrs or related tasks in development/software-architecture."
+description: "Read every ADR in a project before summarizing architectural context or decisions. Use when working with read all adrs."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "frutiger-aero"
-description: "Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs. Use when working with frutiger aero or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs. Use when working with frutiger aero."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

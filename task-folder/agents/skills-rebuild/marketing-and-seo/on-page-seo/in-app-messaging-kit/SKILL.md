@@ -1,6 +1,6 @@
 ---
 name: "in-app-messaging-kit"
-description: "Library of in-product message patterns, triggers, and targeting rules. Use when working with in app messaging kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Library of in-product message patterns, triggers, and targeting rules. Use when working with in app messaging kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

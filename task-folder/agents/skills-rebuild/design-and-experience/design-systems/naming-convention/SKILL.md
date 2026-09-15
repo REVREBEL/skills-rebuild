@@ -1,6 +1,6 @@
 ---
 name: "naming-convention"
-description: "Establish a naming convention system for design elements, components, and tokens with clear rules and examples. Use when working with naming convention or related tasks in design-and-experience/design-systems."
+description: "Establish a naming convention system for design elements, components, and tokens with clear rules and examples. Use when working with naming convention."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

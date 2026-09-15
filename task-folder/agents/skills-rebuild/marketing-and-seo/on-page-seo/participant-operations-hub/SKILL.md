@@ -1,6 +1,6 @@
 ---
 name: "participant-operations-hub"
-description: "Processes and guardrails for recruiting, scheduling, consent, and incentive. Use when working with participant operations hub or related tasks in marketing-and-seo/on-page-seo."
+description: "Processes and guardrails for recruiting, scheduling, consent, and incentive. Use when working with participant operations hub."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

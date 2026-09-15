@@ -1,6 +1,6 @@
 ---
 name: "logic-explain"
-description: "Explain what a specific piece of code actually does for a given input by producing a step-by-step execution trace (interprocedural, with name resolution and type transitions). Trigger when the user is confused about behavior or asks why code produces X instead of Y — \"walk me through.. Use when working with logic explain or related tasks in development/fullstack."
+description: "Explain what a specific piece of code actually does for a given input by producing a step-by-step execution trace (interprocedural, with name resolution and type transitions). Trigger when the user is confused about behavior or asks why code produces X instead of Y — \\"walk me through. Use when working with logic explain."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

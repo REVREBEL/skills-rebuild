@@ -1,6 +1,6 @@
 ---
 name: "launch-campaign"
-description: "Orchestrate the full multi-channel launch of an approved campaign plan — pre-launch checklist, asset readiness gate, channel-by-channel activation, CRM campaign record creation, kickoff comms, day-1 monitor setup. Broader than /launch-ad-campaign (which is paid-ads only). Use when working with launch campaign or related tasks in development/fullstack."
+description: "Orchestrate the full multi-channel launch of an approved campaign plan — pre-launch checklist, asset readiness gate, channel-by-channel activation, CRM campaign record creation, kickoff comms, day-1 monitor setup. Broader than /launch-ad-campaign (which is paid-ads only). Use when working with launch campaign."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

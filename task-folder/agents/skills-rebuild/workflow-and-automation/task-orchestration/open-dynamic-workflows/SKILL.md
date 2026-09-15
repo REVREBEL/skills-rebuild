@@ -1,6 +1,6 @@
 ---
 name: "open-dynamic-workflows"
-description: "Plan, orchestrate, and adversarially verify parallel AI coding agents with a dynamic multi-agent workflow engine. Use when working with open dynamic workflows or related tasks in workflow-and-automation/task-orchestration."
+description: "Plan, orchestrate, and adversarially verify parallel AI coding agents with a dynamic multi-agent workflow engine. Use when working with open dynamic workflows."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

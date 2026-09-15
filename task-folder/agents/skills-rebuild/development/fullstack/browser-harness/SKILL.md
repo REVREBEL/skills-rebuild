@@ -1,6 +1,6 @@
 ---
 name: "browser-harness"
-description: "Drive an existing browser through CDP for authenticated, visual, or interactive web automation. Use when working with browser harness or related tasks in development/fullstack."
+description: "Drive an existing browser through CDP for authenticated, visual, or interactive web automation. Use when working with browser harness."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

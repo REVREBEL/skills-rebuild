@@ -1,6 +1,6 @@
 ---
 name: "database-optimizer"
-description: "Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures. Use when working with database optimizer or related tasks in development/backend."
+description: "Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures. Use when working with database optimizer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

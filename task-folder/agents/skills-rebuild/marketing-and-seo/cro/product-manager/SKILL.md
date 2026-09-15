@@ -1,6 +1,6 @@
 ---
 name: "product-manager"
-description: "Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts. Use when working with product manager or related tasks in marketing-and-seo/cro."
+description: "Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts. Use when working with product manager."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

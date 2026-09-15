@@ -7,7 +7,7 @@
 - **Member Skill Count**: 1
 - **Batch Status**: `completed`
 - **Validation Status**: `verified`
-- **Deterministic Manifest Hash (SHA-256)**: `fe418eea0b70716d3a2729db2eaca35d3f1b7e407beb9f9c05ba5de818048144`
+- **Deterministic Manifest Hash (SHA-256)**: `5a99fce56fc61299a0a780de67b4bcddf0e5b34a6e09da8e9801b29143191f06`
 
 ## 2. Canonical Skills Summary & Provenance
 
@@ -19,16 +19,11 @@
 
 | Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
 |---|---|---|---|
-| `using-git-worktrees` | User asks to work with using git worktrees or configure using git worktrees in git-and-vcs. | User requests general server administration, styling, or unrelated operations outside using git worktrees. | User asks for general assistance in git-and-vcs without specifying using git worktrees; routes to `using-git-worktrees` when using git worktrees-specific capabilities are required. |
+| `using-git-worktrees` | User asks to execute or optimize using git worktrees tasks (e.g. implementing using git worktrees workflows and configurations). | User requests general infrastructure administration or unrelated application development outside using git worktrees or unrelated operations outside using git worktrees. | User asks for general assistance with using git worktrees -> Disambiguate: Clarify whether the focus is specific using git worktrees patterns or broader git-and-vcs workflows. |
 
-## 4. Provider Reconciliation & Security Audit
+## 4. Verification & Consistency Sign-off
 
-- **Undeclared Provider Lock-in**: 0 occurrences. All provider APIs declared in compatibility metadata.
-- **Workstation / Machine Path Leaks**: 0 occurrences.
-- **Broken Relative References**: 0 broken links.
-
-## 5. Unresolved Items Ledger
-
-| Item ID | Skill Name | Issue Type | Disposition | Rationale |
-|---|---|---|---|---|
-| None | None | None | deliberate_state_completed | All member skills successfully rewritten, normalized, and validated. |
+- [x] 100% of member packages verified on disk under `task-folder/agents/skills-rebuild/workflow-and-automation/git-and-vcs/`
+- [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
+- [x] Substantive capability-specific trigger boundary evaluation confirmed.
+- [x] Manifest hash `5a99fce56fc61299a0a780de67b4bcddf0e5b34a6e09da8e9801b29143191f06` computed deterministically.

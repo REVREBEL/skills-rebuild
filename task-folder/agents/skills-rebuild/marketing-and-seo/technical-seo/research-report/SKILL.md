@@ -1,6 +1,6 @@
 ---
 name: "research-report"
-description: "Summarise a completed deep-research run into a single markdown report — full coverage of every defined field, automatic skipping of uncertain values, and a navigable table of contents with user-chosen summary columns. Generates a fresh `generate_report.py` per run (against a stable spec) and executes it. Use after `/research-deep` finishes when you want a readable artifact for sharing, archiving, or comparing items across the chosen schema. Use when working with research report or related tasks in marketing-and-seo/technical-seo."
+description: "Summarise a completed deep-research run into a single markdown report — full coverage of every defined field, automatic skipping of uncertain values, and a navigable table of contents with user-chosen summary columns. Generates a fresh `generate_report.py` per run (against a stable spec) and executes it. Use after `/research-deep` finishes when you want a readable artifact for sharing, archiving, or comparing items across the chosen schema. Use when working with research report."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

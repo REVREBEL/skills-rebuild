@@ -1,6 +1,6 @@
 ---
 name: "mason"
-description: "Produces clean, functional code that matches the architecture and checklists. Use when working with mason or related tasks in development/software-architecture."
+description: "Produces clean, functional code that matches the architecture and checklists. Use when working with mason."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

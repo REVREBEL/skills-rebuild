@@ -1,6 +1,6 @@
 ---
 name: "openclaw-github-repo-commander"
-description: "7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis. Use when working with openclaw github repo commander or related tasks in development/fullstack."
+description: "7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis. Use when working with openclaw github repo commander."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

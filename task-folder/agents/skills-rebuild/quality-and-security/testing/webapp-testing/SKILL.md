@@ -1,6 +1,6 @@
 ---
 name: "webapp-testing"
-description: "To test local web applications, write native Python Playwright scripts. Use when working with webapp testing or related tasks in quality-and-security/testing."
+description: "To test local web applications, write native Python Playwright scripts. Use when working with webapp testing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

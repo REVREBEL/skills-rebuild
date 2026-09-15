@@ -1,6 +1,6 @@
 ---
 name: "creative-qa-checklist"
-description: "Use to verify creative assets meet brand, accessibility, and localization. Use when working with creative qa checklist or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Use to verify creative assets meet brand, accessibility, and localization. Use when working with creative qa checklist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

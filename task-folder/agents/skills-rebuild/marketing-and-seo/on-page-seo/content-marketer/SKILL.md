@@ -1,6 +1,6 @@
 ---
 name: "content-marketer"
-description: "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing. Use when working with content marketer or related tasks in marketing-and-seo/on-page-seo."
+description: "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing. Use when working with content marketer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

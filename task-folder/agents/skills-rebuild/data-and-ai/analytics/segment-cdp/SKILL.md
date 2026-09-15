@@ -1,6 +1,6 @@
 ---
 name: "segment-cdp"
-description: "Expert patterns for Segment Customer Data Platform including. Use when working with segment cdp or related tasks in data-and-ai/analytics."
+description: "Expert patterns for Segment Customer Data Platform including. Use when working with segment cdp."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

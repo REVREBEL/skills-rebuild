@@ -1,6 +1,6 @@
 ---
 name: "lighthouse"
-description: "Google Lighthouse CLI reference for auditing web performance, accessibility, SEO, and best practices. Use this skill when users need to analyze website performance, run audits, generate reports, or integrate Lighthouse into their workflow. Use when working with lighthouse or related tasks in marketing-and-seo/on-page-seo."
+description: "Google Lighthouse CLI reference for auditing web performance, accessibility, SEO, and best practices. Use this skill when users need to analyze website performance, run audits, generate reports, or integrate Lighthouse into their workflow. Use when working with lighthouse."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

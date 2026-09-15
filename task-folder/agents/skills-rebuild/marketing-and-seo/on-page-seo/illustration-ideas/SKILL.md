@@ -1,6 +1,6 @@
 ---
 name: "illustration-ideas"
-description: "Generate high-quality illustration/chart ideas for a URL, including placement + layout suggestions (HTML-like or Mermaid). Use when working with illustration ideas or related tasks in marketing-and-seo/on-page-seo."
+description: "Generate high-quality illustration/chart ideas for a URL, including placement + layout suggestions (HTML-like or Mermaid). Use when working with illustration ideas."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

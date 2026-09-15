@@ -1,6 +1,6 @@
 ---
 name: "conductor-implement"
-description: "Execute tasks from a track's implementation plan following TDD workflow. Use when working with conductor implement or related tasks in development/fullstack."
+description: "Execute tasks from a track's implementation plan following TDD workflow. Use when working with conductor implement."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

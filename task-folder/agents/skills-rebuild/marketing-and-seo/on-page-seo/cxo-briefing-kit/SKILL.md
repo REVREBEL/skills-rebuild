@@ -1,6 +1,6 @@
 ---
 name: "cxo-briefing-kit"
-description: "Use to package concise executive updates, decks, and decision logs for. Use when working with cxo briefing kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to package concise executive updates, decks, and decision logs for. Use when working with cxo briefing kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

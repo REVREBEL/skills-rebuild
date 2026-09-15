@@ -1,6 +1,6 @@
 ---
 name: "provider-scorecard"
-description: "Use to track enrichment provider success, cost, latency, and quality. Use when working with provider scorecard or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to track enrichment provider success, cost, latency, and quality. Use when working with provider scorecard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

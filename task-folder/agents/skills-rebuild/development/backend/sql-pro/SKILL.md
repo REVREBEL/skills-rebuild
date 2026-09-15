@@ -1,6 +1,6 @@
 ---
 name: "sql-pro"
-description: "Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems. Use when working with sql pro or related tasks in development/backend."
+description: "Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems. Use when working with sql pro."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

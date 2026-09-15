@@ -1,6 +1,6 @@
 ---
 name: "fitness-analyzer"
-description: "分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。. Use when working with fitness analyzer or related tasks in development/fullstack."
+description: "分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。. Use when working with fitness analyzer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "push-skill-to-github"
-description: "Commit and push skill changes to the configured skills repository after review and validation. Use when working with push skill to github or related tasks in development/fullstack."
+description: "Commit and push skill changes to the configured skills repository after review and validation. Use when working with push skill to github."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

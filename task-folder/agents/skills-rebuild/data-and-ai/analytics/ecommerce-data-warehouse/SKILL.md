@@ -1,6 +1,6 @@
 ---
 name: "ecommerce-data-warehouse"
-description: "Build a commerce data warehouse with star-schema tables, ETL pipelines, and dbt models for BigQuery, Snowflake, or Redshift analytics. Use when working with ecommerce data warehouse or related tasks in data-and-ai/analytics."
+description: "Build a commerce data warehouse with star-schema tables, ETL pipelines, and dbt models for BigQuery, Snowflake, or Redshift analytics. Use when working with ecommerce data warehouse."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "screenstudio-alt"
-description: "Open-source headless Screen Studio alternative: auto speed-up of idle, auto-zoom on click clusters, keystroke overlay chips, smoothed synthetic cursor, and 9:16 vertical export that follows the action — post-production for screen recordings from the CLI. Use when working with screenstudio alt or related tasks in development/fullstack."
+description: "Open-source headless Screen Studio alternative: auto speed-up of idle, auto-zoom on click clusters, keystroke overlay chips, smoothed synthetic cursor, and 9:16 vertical export that follows the action — post-production for screen recordings from the CLI. Use when working with screenstudio alt."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

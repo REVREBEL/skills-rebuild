@@ -1,6 +1,6 @@
 ---
 name: "performance-profiling"
-description: "Performance profiling principles. Measurement, analysis, and optimization techniques. Use when working with performance profiling or related tasks in quality-and-security/debugging."
+description: "Performance profiling principles. Measurement, analysis, and optimization techniques. Use when working with performance profiling."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

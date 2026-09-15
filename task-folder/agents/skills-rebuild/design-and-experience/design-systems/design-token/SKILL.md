@@ -1,6 +1,6 @@
 ---
 name: "design-token"
-description: "Define and organize design tokens (color, spacing, typography, elevation) with naming conventions and usage guidance. Use when working with design token or related tasks in design-and-experience/design-systems."
+description: "Define and organize design tokens (color, spacing, typography, elevation) with naming conventions and usage guidance. Use when working with design token."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

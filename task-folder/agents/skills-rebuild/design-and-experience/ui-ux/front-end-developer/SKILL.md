@@ -1,6 +1,6 @@
 ---
 name: "front-end-developer"
-description: "Senior Front-End Developer expertise in ReactJS, NextJS, JavaScript, TypeScript, HTML, CSS, and modern UI/UX frameworks. Use when working with front end developer or related tasks in design-and-experience/ui-ux."
+description: "Senior Front-End Developer expertise in ReactJS, NextJS, JavaScript, TypeScript, HTML, CSS, and modern UI/UX frameworks. Use when working with front end developer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

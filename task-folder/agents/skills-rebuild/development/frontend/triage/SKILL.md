@@ -1,6 +1,6 @@
 ---
 name: "triage"
-description: "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs. Use when working with triage or related tasks in development/frontend."
+description: "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs. Use when working with triage."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

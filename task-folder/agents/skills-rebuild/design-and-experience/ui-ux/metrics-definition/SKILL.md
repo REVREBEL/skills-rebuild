@@ -1,6 +1,6 @@
 ---
 name: "metrics-definition"
-description: "Define UX metrics and KPIs that connect design decisions to measurable business and user outcomes. Use when working with metrics definition or related tasks in design-and-experience/ui-ux."
+description: "Define UX metrics and KPIs that connect design decisions to measurable business and user outcomes. Use when working with metrics definition."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

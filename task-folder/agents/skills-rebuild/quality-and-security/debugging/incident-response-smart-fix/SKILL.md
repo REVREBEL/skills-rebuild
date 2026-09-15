@@ -1,6 +1,6 @@
 ---
 name: "incident-response-smart-fix"
-description: "[Extended thinking: This workflow implements a sophisticated debugging and resolution pipeline that leverages AI-assisted debugging tools and observability platforms to systematically diagnose and res. Use when working with incident response smart fix or related tasks in quality-and-security/debugging."
+description: "[Extended thinking: This workflow implements a sophisticated debugging and resolution pipeline that leverages AI-assisted debugging tools and observability platforms to systematically diagnose and res. Use when working with incident response smart fix."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

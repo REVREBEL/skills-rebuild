@@ -1,6 +1,6 @@
 ---
 name: "pci-dss-compliance"
-description: "Meet PCI-DSS payment security requirements by scoping your environment correctly, selecting the right SAQ, and implementing required controls. Use when working with pci dss compliance or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Meet PCI-DSS payment security requirements by scoping your environment correctly, selecting the right SAQ, and implementing required controls. Use when working with pci dss compliance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

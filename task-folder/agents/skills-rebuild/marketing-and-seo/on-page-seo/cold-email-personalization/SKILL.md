@@ -1,6 +1,6 @@
 ---
 name: "cold-email-personalization"
-description: "Execute cold-email-personalization tasks, workflows, and automated procedures. Use when working with cold email personalization or related tasks in marketing-and-seo/on-page-seo."
+description: "Execute cold-email-personalization tasks, workflows, and automated procedures. Use when working with cold email personalization."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

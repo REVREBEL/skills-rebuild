@@ -1,6 +1,6 @@
 ---
 name: "product-comparison"
-description: "Let shoppers select multiple products and compare them side-by-side in a table with highlighted differences to help them make the right buying decision. Use when working with product comparison or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Let shoppers select multiple products and compare them side-by-side in a table with highlighted differences to help them make the right buying decision. Use when working with product comparison."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

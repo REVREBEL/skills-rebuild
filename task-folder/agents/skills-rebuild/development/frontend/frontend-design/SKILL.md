@@ -1,6 +1,6 @@
 ---
 name: "frontend-design"
-description: "You are a frontend designer-engineer, not a layout generator. Use when working with frontend design or related tasks in development/frontend."
+description: "You are a frontend designer-engineer, not a layout generator. Use when working with frontend design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

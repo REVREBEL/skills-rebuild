@@ -1,6 +1,6 @@
 ---
 name: "web-performance-optimization"
-description: "Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance. Use when working with web performance optimization or related tasks in development/fullstack."
+description: "Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance. Use when working with web performance optimization."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

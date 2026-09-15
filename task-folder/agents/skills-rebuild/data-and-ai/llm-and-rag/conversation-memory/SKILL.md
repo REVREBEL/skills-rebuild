@@ -1,6 +1,6 @@
 ---
 name: "conversation-memory"
-description: "Persistent memory systems for LLM conversations including. Use when working with conversation memory or related tasks in data-and-ai/llm-and-rag."
+description: "Persistent memory systems for LLM conversations including. Use when working with conversation memory."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

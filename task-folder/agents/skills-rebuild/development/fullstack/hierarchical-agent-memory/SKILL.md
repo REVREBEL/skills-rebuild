@@ -1,6 +1,6 @@
 ---
 name: "hierarchical-agent-memory"
-description: "Scoped AGENTS.md memory system that reduces context token spend. Creates directory-level context files, tracks savings via dashboard, and routes agents to the right sub-context. Use when working with hierarchical agent memory or related tasks in development/fullstack."
+description: "Scoped AGENTS.md memory system that reduces context token spend. Creates directory-level context files, tracks savings via dashboard, and routes agents to the right sub-context. Use when working with hierarchical agent memory."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

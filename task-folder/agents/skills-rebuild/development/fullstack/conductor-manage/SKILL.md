@@ -1,6 +1,6 @@
 ---
 name: "conductor-manage"
-description: "Manage track lifecycle: archive, restore, delete, rename, and cleanup. Use when working with conductor manage or related tasks in development/fullstack."
+description: "Manage track lifecycle: archive, restore, delete, rename, and cleanup. Use when working with conductor manage."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

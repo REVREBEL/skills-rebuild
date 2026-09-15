@@ -1,6 +1,6 @@
 ---
 name: "design-orchestration"
-description: "Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order. Use when working with design orchestration or related tasks in design-and-experience/ui-ux."
+description: "Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order. Use when working with design orchestration."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

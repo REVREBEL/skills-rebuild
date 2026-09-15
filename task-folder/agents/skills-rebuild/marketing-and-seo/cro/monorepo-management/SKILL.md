@@ -1,6 +1,6 @@
 ---
 name: "monorepo-management"
-description: "Build efficient, scalable monorepos that enable code sharing, consistent tooling, and atomic changes across multiple packages and applications. Use when working with monorepo management or related tasks in marketing-and-seo/cro."
+description: "Build efficient, scalable monorepos that enable code sharing, consistent tooling, and atomic changes across multiple packages and applications. Use when working with monorepo management."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

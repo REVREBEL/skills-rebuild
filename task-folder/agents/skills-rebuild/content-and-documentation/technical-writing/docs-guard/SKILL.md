@@ -1,6 +1,6 @@
 ---
 name: "docs-guard"
-description: "Review generated or changed documentation before it ships, including READMEs, API references, docstrings, changelogs, tutorials, and documentation sites. Use when working with docs guard or related tasks in content-and-documentation/technical-writing."
+description: "Review generated or changed documentation before it ships, including READMEs, API references, docstrings, changelogs, tutorials, and documentation sites. Use when working with docs guard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

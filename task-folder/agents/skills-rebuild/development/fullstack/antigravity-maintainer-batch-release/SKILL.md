@@ -1,6 +1,6 @@
 ---
 name: "antigravity-maintainer-batch-release"
-description: "Run protected AAS maintainer sweeps, PR merge batches, canonical sync, Core preview checks, and scripted releases. Use for repository maintenance, main alignment, CLI/MCP/Workbench changes, or release work; not ordinary contribution tasks. Use when working with antigravity maintainer batch release or related tasks in development/fullstack."
+description: "Run protected AAS maintainer sweeps, PR merge batches, canonical sync, Core preview checks, and scripted releases. Use for repository maintenance, main alignment, CLI/MCP/Workbench changes, or release work; not ordinary contribution tasks. Use when working with antigravity maintainer batch release."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

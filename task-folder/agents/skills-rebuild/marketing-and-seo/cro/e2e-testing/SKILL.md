@@ -1,6 +1,6 @@
 ---
 name: "e2e-testing"
-description: "End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration. Use when working with e2e testing or related tasks in marketing-and-seo/cro."
+description: "End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration. Use when working with e2e testing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

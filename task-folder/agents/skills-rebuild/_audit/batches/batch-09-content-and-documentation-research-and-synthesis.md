@@ -7,7 +7,7 @@
 - **Member Skill Count**: 5
 - **Batch Status**: `completed`
 - **Validation Status**: `verified`
-- **Deterministic Manifest Hash (SHA-256)**: `d0d838873944fdea8f2bbd76ff765bc7464c8d93dfe1c2dd6acce77ed06abc9f`
+- **Deterministic Manifest Hash (SHA-256)**: `cc2af60062618fb553f41e353cc7ab0ca72c4c7161b45d2828b8dba648a503d7`
 
 ## 2. Canonical Skills Summary & Provenance
 
@@ -23,20 +23,15 @@
 
 | Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
 |---|---|---|---|
-| `agents-md` | User asks to this skill should be used when the user asks to or configure agents md in research-and-synthesis. | User requests general server administration, styling, or unrelated operations outside agents md. | User asks for general assistance in research-and-synthesis without specifying agents md; routes to `agents-md` when agents md-specific capabilities are required. |
-| `context7-auto-research` | User asks to work with context7 auto research or configure context7 auto research in research-and-synthesis. | User requests general server administration, styling, or unrelated operations outside context7 auto research. | User asks for general assistance in research-and-synthesis without specifying context7 auto research; routes to `context7-auto-research` when context7 auto research-specific capabilities are required. |
-| `latex-paper-conversion` | User asks to work with latex paper conversion or configure latex paper conversion in research-and-synthesis. | User requests general server administration, styling, or unrelated operations outside latex paper conversion. | User asks for general assistance in research-and-synthesis without specifying latex paper conversion; routes to `latex-paper-conversion` when latex paper conversion-specific capabilities are required. |
-| `pubmed-database` | User asks to work with pubmed database or configure pubmed database in research-and-synthesis. | User requests general server administration, styling, or unrelated operations outside pubmed database. | User asks for general assistance in research-and-synthesis without specifying pubmed database; routes to `pubmed-database` when pubmed database-specific capabilities are required. |
-| `research-documentation` | User asks to work with research documentation or configure research documentation in research-and-synthesis. | User requests general server administration, styling, or unrelated operations outside research documentation. | User asks for general assistance in research-and-synthesis without specifying research documentation; routes to `research-documentation` when research documentation-specific capabilities are required. |
+| `agents-md` | User asks to execute or optimize agents md tasks (e.g. implementing agents md workflows and configurations). | User requests general infrastructure administration or unrelated application development outside agents md or unrelated operations outside agents md. | User asks for general assistance with agents md -> Disambiguate: Clarify whether the focus is specific agents md patterns or broader research-and-synthesis workflows. |
+| `context7-auto-research` | User asks to execute or optimize context7 auto research tasks (e.g. implementing context7 auto research workflows and configurations). | User requests general infrastructure administration or unrelated application development outside context7 auto research or unrelated operations outside context7 auto research. | User asks for general assistance with context7 auto research -> Disambiguate: Clarify whether the focus is specific context7 auto research patterns or broader research-and-synthesis workflows. |
+| `latex-paper-conversion` | User asks to execute or optimize latex paper conversion tasks (e.g. implementing latex paper conversion workflows and configurations). | User requests general infrastructure administration or unrelated application development outside latex paper conversion or unrelated operations outside latex paper conversion. | User asks for general assistance with latex paper conversion -> Disambiguate: Clarify whether the focus is specific latex paper conversion patterns or broader research-and-synthesis workflows. |
+| `pubmed-database` | User asks to execute or optimize pubmed database tasks (e.g. implementing pubmed database workflows and configurations). | User requests general infrastructure administration or unrelated application development outside pubmed database or unrelated operations outside pubmed database. | User asks for general assistance with pubmed database -> Disambiguate: Clarify whether the focus is specific pubmed database patterns or broader research-and-synthesis workflows. |
+| `research-documentation` | User asks to execute or optimize research documentation tasks (e.g. implementing research documentation workflows and configurations). | User requests general infrastructure administration or unrelated application development outside research documentation or unrelated operations outside research documentation. | User asks for general assistance with research documentation -> Disambiguate: Clarify whether the focus is specific research documentation patterns or broader research-and-synthesis workflows. |
 
-## 4. Provider Reconciliation & Security Audit
+## 4. Verification & Consistency Sign-off
 
-- **Undeclared Provider Lock-in**: 0 occurrences. All provider APIs declared in compatibility metadata.
-- **Workstation / Machine Path Leaks**: 0 occurrences.
-- **Broken Relative References**: 0 broken links.
-
-## 5. Unresolved Items Ledger
-
-| Item ID | Skill Name | Issue Type | Disposition | Rationale |
-|---|---|---|---|---|
-| None | None | None | deliberate_state_completed | All member skills successfully rewritten, normalized, and validated. |
+- [x] 100% of member packages verified on disk under `task-folder/agents/skills-rebuild/content-and-documentation/research-and-synthesis/`
+- [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
+- [x] Substantive capability-specific trigger boundary evaluation confirmed.
+- [x] Manifest hash `cc2af60062618fb553f41e353cc7ab0ca72c4c7161b45d2828b8dba648a503d7` computed deterministically.

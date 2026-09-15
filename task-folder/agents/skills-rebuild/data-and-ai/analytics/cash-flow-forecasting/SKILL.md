@@ -1,6 +1,6 @@
 ---
 name: "cash-flow-forecasting"
-description: "Forecast cash flow using historical sales patterns, payment terms, seasonal trends, and receivables modeling with scenario planning and runway tracking. Use when working with cash flow forecasting or related tasks in data-and-ai/analytics."
+description: "Forecast cash flow using historical sales patterns, payment terms, seasonal trends, and receivables modeling with scenario planning and runway tracking. Use when working with cash flow forecasting."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

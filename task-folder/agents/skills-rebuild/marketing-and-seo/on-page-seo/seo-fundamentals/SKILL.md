@@ -1,6 +1,6 @@
 ---
 name: "seo-fundamentals"
-description: "Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages. Use when working with seo fundamentals or related tasks in marketing-and-seo/on-page-seo."
+description: "Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages. Use when working with seo fundamentals."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

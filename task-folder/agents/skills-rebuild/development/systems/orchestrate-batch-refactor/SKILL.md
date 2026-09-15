@@ -1,6 +1,6 @@
 ---
 name: "orchestrate-batch-refactor"
-description: "Plan and execute large refactors with dependency-aware work packets and parallel analysis. Use when working with orchestrate batch refactor or related tasks in development/systems."
+description: "Plan and execute large refactors with dependency-aware work packets and parallel analysis. Use when working with orchestrate batch refactor."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "email-subject-lines"
-description: "Execute email-subject-lines tasks, workflows, and automated procedures. Use when working with email subject lines or related tasks in marketing-and-seo/cro."
+description: "Execute email-subject-lines tasks, workflows, and automated procedures. Use when working with email subject lines."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

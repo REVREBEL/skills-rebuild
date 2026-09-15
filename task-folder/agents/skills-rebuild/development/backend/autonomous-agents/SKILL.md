@@ -1,6 +1,6 @@
 ---
 name: "autonomous-agents"
-description: "Autonomous agents are AI systems that can independently decompose. Use when working with autonomous agents or related tasks in development/backend."
+description: "Autonomous agents are AI systems that can independently decompose. Use when working with autonomous agents."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

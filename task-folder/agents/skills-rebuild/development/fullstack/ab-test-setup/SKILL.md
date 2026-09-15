@@ -1,6 +1,6 @@
 ---
 name: "ab-test-setup"
-description: "Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness. Use when working with ab test setup or related tasks in development/fullstack."
+description: "Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness. Use when working with ab test setup."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

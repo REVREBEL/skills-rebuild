@@ -1,6 +1,6 @@
 ---
 name: "cron-doctor"
-description: "Diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29. Use when working with cron doctor or related tasks in marketing-and-seo/cro."
+description: "Diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29. Use when working with cron doctor."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

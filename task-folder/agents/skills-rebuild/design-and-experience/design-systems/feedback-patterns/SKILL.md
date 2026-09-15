@@ -1,6 +1,6 @@
 ---
 name: "feedback-patterns"
-description: "Design system feedback for user actions including confirmations, status updates, and notifications. Use when working with feedback patterns or related tasks in design-and-experience/design-systems."
+description: "Design system feedback for user actions including confirmations, status updates, and notifications. Use when working with feedback patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "seo-skills-main"
-description: "Optimize for search engine visibility and ranking. Use when asked to \"improve SEO\", \"optimize for search\", \"fix meta tags\", \"add structured data\", \"sitemap optimization\", or \"search engine optimization\"."
+description: "Optimize for search engine visibility and ranking. Use when asked to \\"improve SEO\\", \\"optimize for search\\", \\"fix meta tags\\", \\"add structured data\\", \\"sitemap optimization\\", or \\"search engine optimization\\"."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "test-framework-migration-skill"
-description: "Migrates and converts test automation scripts between Selenium, Playwright, Puppeteer, and Cypress. Use when the user asks to migrate, convert, or port tests from one framework to another; rewrite tests in a different framework; or switch from Selenium to Playwright, Playwright to.."
+description: "Migrates and converts test automation scripts between Selenium, Playwright, Puppeteer, and Cypress. Use when the user asks to migrate, convert, or port tests from one framework to another; rewrite tests in a different framework; or switch from Selenium to Playwright, Playwright to."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

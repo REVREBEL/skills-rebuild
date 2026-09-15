@@ -1,6 +1,6 @@
 ---
 name: "competitive-analysis"
-description: "Conduct a structured competitive analysis comparing UX patterns, features, strengths, and gaps across rival products. Use when working with competitive analysis or related tasks in marketing-and-seo/cro."
+description: "Conduct a structured competitive analysis comparing UX patterns, features, strengths, and gaps across rival products. Use when working with competitive analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

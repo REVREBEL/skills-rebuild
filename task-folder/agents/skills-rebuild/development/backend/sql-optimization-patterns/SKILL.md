@@ -1,6 +1,6 @@
 ---
 name: "sql-optimization-patterns"
-description: "Transform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and query plan analysis. Use when working with sql optimization patterns or related tasks in development/backend."
+description: "Transform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and query plan analysis. Use when working with sql optimization patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

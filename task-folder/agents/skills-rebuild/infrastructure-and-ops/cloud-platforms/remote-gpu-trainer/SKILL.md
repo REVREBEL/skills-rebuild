@@ -1,6 +1,6 @@
 ---
 name: "remote-gpu-trainer"
-description: "Deploy, monitor, and debug long GPU jobs on RENTED/remote instances (AutoDL, RunPod, vast.ai, Lambda, Slurm, K8s): teardown/billing safety, spot resilience, resumable checkpointing, OOM/NaN triage. Use when working with remote gpu trainer or related tasks in infrastructure-and-ops/cloud-platforms."
+description: "Deploy, monitor, and debug long GPU jobs on RENTED/remote instances (AutoDL, RunPod, vast.ai, Lambda, Slurm, K8s): teardown/billing safety, spot resilience, resumable checkpointing, OOM/NaN triage. Use when working with remote gpu trainer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

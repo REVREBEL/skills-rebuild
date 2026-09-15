@@ -1,6 +1,6 @@
 ---
 name: "fastapi-router-py"
-description: "Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes. Use when working with fastapi router py or related tasks in development/backend."
+description: "Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes. Use when working with fastapi router py."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

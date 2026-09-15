@@ -1,6 +1,6 @@
 ---
 name: "seo-google"
-description: "Execute seo-google tasks, workflows, and automated procedures. Use when working with seo google or related tasks in marketing-and-seo/technical-seo."
+description: "Execute seo-google tasks, workflows, and automated procedures. Use when working with seo google."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

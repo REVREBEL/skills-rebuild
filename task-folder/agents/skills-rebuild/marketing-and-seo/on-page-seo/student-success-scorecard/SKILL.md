@@ -1,6 +1,6 @@
 ---
 name: "student-success-scorecard"
-description: "Metrics framework for monitoring engagement, progression, and completion. Use when working with student success scorecard or related tasks in marketing-and-seo/on-page-seo."
+description: "Metrics framework for monitoring engagement, progression, and completion. Use when working with student success scorecard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

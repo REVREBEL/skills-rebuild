@@ -1,6 +1,6 @@
 ---
 name: "lore"
-description: "Markdown project memory for AI agents. Use for decisions, architecture, conventions, monorepo scopes, `.lore/`, or `lore` commands; not native `/init`/`/compact` or generic init/compress/audit/query. Use when working with lore or related tasks in development/software-architecture."
+description: "Markdown project memory for AI agents. Use for decisions, architecture, conventions, monorepo scopes, `.lore/`, or `lore` commands; not native `/init`/`/compact` or generic init/compress/audit/query. Use when working with lore."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

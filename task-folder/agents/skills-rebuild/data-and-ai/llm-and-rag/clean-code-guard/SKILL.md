@@ -1,6 +1,6 @@
 ---
 name: "clean-code-guard"
-description: "Review generated or changed production code with Clean Code, SOLID, DRY, KISS, YAGNI, and LLM-specific failure-mode checks. Use when working with clean code guard or related tasks in data-and-ai/llm-and-rag."
+description: "Review generated or changed production code with Clean Code, SOLID, DRY, KISS, YAGNI, and LLM-specific failure-mode checks. Use when working with clean code guard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

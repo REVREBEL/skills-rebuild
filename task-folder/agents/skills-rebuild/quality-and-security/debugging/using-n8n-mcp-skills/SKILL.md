@@ -1,6 +1,6 @@
 ---
 name: "using-n8n-mcp-skills"
-description: "Route n8n MCP workflow design, editing, validation, testing, deployment, credential, execution, and debugging tasks to specialist guidance. Use when working with using n8n mcp skills or related tasks in quality-and-security/debugging."
+description: "Route n8n MCP workflow design, editing, validation, testing, deployment, credential, execution, and debugging tasks to specialist guidance. Use when working with using n8n mcp skills."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

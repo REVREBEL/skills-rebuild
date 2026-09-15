@@ -1,6 +1,6 @@
 ---
 name: "swiss-design"
-description: "Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment. Use when working with swiss design or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment. Use when working with swiss design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

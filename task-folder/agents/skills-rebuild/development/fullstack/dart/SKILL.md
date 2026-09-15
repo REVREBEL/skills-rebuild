@@ -1,6 +1,6 @@
 ---
 name: "dart"
-description: "Language-specific super-code guidelines for dart. Use when working with dart or related tasks in development/fullstack."
+description: "Language-specific super-code guidelines for dart. Use when working with dart."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

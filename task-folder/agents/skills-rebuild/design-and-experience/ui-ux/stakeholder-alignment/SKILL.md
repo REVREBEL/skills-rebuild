@@ -1,6 +1,6 @@
 ---
 name: "stakeholder-alignment"
-description: "Create stakeholder alignment artifacts including responsibility matrices, decision frameworks, and communication plans. Use when working with stakeholder alignment or related tasks in design-and-experience/ui-ux."
+description: "Create stakeholder alignment artifacts including responsibility matrices, decision frameworks, and communication plans. Use when working with stakeholder alignment."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

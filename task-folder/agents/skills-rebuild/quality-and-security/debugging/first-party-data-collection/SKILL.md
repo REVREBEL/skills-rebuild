@@ -1,6 +1,6 @@
 ---
 name: "first-party-data-collection"
-description: "Build a first-party data strategy with progressive profiling, zero-party surveys, preference centers, and quiz-based product recommendations. Use when working with first party data collection or related tasks in quality-and-security/debugging."
+description: "Build a first-party data strategy with progressive profiling, zero-party surveys, preference centers, and quiz-based product recommendations. Use when working with first party data collection."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

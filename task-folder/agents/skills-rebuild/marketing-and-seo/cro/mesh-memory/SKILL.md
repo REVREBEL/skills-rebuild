@@ -1,6 +1,6 @@
 ---
 name: "mesh-memory"
-description: "Self-hosted semantic memory for AI agents via MCP. Save worklogs, decisions, and notes, then recall them across sessions by meaning, not keyword. Postgres + pgvector with auto-tagging. Use when working with mesh memory or related tasks in marketing-and-seo/cro."
+description: "Self-hosted semantic memory for AI agents via MCP. Save worklogs, decisions, and notes, then recall them across sessions by meaning, not keyword. Postgres + pgvector with auto-tagging. Use when working with mesh memory."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

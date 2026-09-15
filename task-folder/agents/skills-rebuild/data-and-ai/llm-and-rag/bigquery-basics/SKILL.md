@@ -1,6 +1,6 @@
 ---
 name: "bigquery-basics"
-description: "Execute bigquery-basics tasks, workflows, and automated procedures. Use when working with bigquery basics or related tasks in data-and-ai/llm-and-rag."
+description: "Execute bigquery-basics tasks, workflows, and automated procedures. Use when working with bigquery basics."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

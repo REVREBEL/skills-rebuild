@@ -1,6 +1,6 @@
 ---
 name: "design-sprint-plan"
-description: "Plan and facilitate design sprints from challenge framing through prototype testing. Use when working with design sprint plan or related tasks in design-and-experience/ui-ux."
+description: "Plan and facilitate design sprints from challenge framing through prototype testing. Use when working with design sprint plan."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

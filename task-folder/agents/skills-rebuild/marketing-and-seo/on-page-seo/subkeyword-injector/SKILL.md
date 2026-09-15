@@ -1,6 +1,6 @@
 ---
 name: "subkeyword-injector"
-description: "For a given URL, pull Search Console queries it already ranks for and propose (or apply) content edits to capture more long-tail traffic. Use when working with subkeyword injector or related tasks in marketing-and-seo/on-page-seo."
+description: "For a given URL, pull Search Console queries it already ranks for and propose (or apply) content edits to capture more long-tail traffic. Use when working with subkeyword injector."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

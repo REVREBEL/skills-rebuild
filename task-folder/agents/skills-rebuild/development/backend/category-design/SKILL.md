@@ -1,6 +1,6 @@
 ---
 name: "category-design"
-description: "Become the Category King by creating new markets instead of competing in existing ones Use when: **Launching a company or product** that doesn't fit cleanly into existing categories; **Stuck in commodity competition** where you're compared feature-to-feature with competitors; **Redefining your market position** when \\"better\\" isn't working as a strategy; **Planning a major market announcement** or product launch; **Escaping price pressure** by creating net new demand instead of fighting for ex.."
+description: "Become the Category King by creating new markets instead of competing in existing ones Use when: **Launching a company or product** that doesn't fit cleanly into existing categories; **Stuck in commodity competition** where you're compared feature-to-feature with competitors; **Redefining your market position** when \\\"better\\\" isn't working as a strategy; **Planning a major market announcement** or product launch; **Escaping price pressure** by creating net new demand instead of fighting for ex."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

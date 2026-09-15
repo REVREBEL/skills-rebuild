@@ -1,6 +1,6 @@
 ---
 name: "pursuit-governance"
-description: "Use to set cadences, decision logs, and escalation paths for enterprise. Use when working with pursuit governance or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to set cadences, decision logs, and escalation paths for enterprise. Use when working with pursuit governance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

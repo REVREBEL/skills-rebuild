@@ -1,6 +1,6 @@
 ---
 name: "slack-automation"
-description: "Automate Slack workspace operations including messaging, search, channel management, and reaction workflows through Composio's Slack toolkit. Use when working with slack automation or related tasks in development/frontend."
+description: "Automate Slack workspace operations including messaging, search, channel management, and reaction workflows through Composio's Slack toolkit. Use when working with slack automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

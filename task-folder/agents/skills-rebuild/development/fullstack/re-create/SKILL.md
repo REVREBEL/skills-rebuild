@@ -1,6 +1,6 @@
 ---
 name: "re-create"
-description: "Completely delete and rewrite a file or module from scratch when structural rot makes patching impossible. Use when working with re create or related tasks in development/fullstack."
+description: "Completely delete and rewrite a file or module from scratch when structural rot makes patching impossible. Use when working with re create."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

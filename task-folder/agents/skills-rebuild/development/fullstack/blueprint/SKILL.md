@@ -1,6 +1,6 @@
 ---
 name: "blueprint"
-description: "Turn a one-line objective into a step-by-step construction plan any coding agent can execute cold. Each step has a self-contained context brief — a fresh agent in a new session can pick up any step without reading prior steps. Use when working with blueprint or related tasks in development/fullstack."
+description: "Turn a one-line objective into a step-by-step construction plan any coding agent can execute cold. Each step has a self-contained context brief — a fresh agent in a new session can pick up any step without reading prior steps. Use when working with blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

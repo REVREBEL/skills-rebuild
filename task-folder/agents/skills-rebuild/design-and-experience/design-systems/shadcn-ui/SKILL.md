@@ -1,6 +1,6 @@
 ---
 name: "shadcn-ui"
-description: "Expert guidance for integrating and building applications with shadcn/ui components, including component discovery, installation, customization, and best practices. Use when working with shadcn ui or related tasks in design-and-experience/design-systems."
+description: "Expert guidance for integrating and building applications with shadcn/ui components, including component discovery, installation, customization, and best practices. Use when working with shadcn ui."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

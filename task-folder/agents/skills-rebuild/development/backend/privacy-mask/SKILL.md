@@ -1,6 +1,6 @@
 ---
 name: "privacy-mask"
-description: "Mask, redact, anonymize and censor sensitive information (PII) in screenshots and images — phone numbers, emails, IDs, API keys, crypto wallets, credit cards, passwords, and more. Uses OCR (Tesseract + RapidOCR) with 47 regex rules and optional NER (GLiNER) to detect private data and.. Use when working with privacy mask or related tasks in development/backend."
+description: "Mask, redact, anonymize and censor sensitive information (PII) in screenshots and images — phone numbers, emails, IDs, API keys, crypto wallets, credit cards, passwords, and more. Uses OCR (Tesseract + RapidOCR) with 47 regex rules and optional NER (GLiNER) to detect private data and. Use when working with privacy mask."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

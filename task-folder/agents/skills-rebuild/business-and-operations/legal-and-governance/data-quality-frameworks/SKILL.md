@@ -1,6 +1,6 @@
 ---
 name: "data-quality-frameworks"
-description: "Implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts."
+description: "Implement data quality assertions, schema validation, and pipeline monitoring frameworks. Use when building automated data quality checks or profiling data pipelines."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

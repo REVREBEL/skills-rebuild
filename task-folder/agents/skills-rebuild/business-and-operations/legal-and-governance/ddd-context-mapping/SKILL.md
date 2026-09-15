@@ -1,6 +1,6 @@
 ---
 name: "ddd-context-mapping"
-description: "Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns. Use when working with ddd context mapping or related tasks in business-and-operations/legal-and-governance."
+description: "Apply Domain-Driven Design bounded context mapping and strategic domain modeling patterns. Use when designing service boundaries, context maps, or domain models."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

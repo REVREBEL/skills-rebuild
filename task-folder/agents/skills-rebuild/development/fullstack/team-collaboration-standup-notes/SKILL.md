@@ -1,6 +1,6 @@
 ---
 name: "team-collaboration-standup-notes"
-description: "You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remote team coordination patterns. Use when working with team collaboration standup notes or related tasks in development/fullstack."
+description: "You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remote team coordination patterns. Use when working with team collaboration standup notes."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

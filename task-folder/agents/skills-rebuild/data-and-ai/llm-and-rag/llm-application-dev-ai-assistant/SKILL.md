@@ -1,6 +1,6 @@
 ---
 name: "llm-application-dev-ai-assistant"
-description: "You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur. Use when working with llm application dev ai assistant or related tasks in data-and-ai/llm-and-rag."
+description: "You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur. Use when working with llm application dev ai assistant."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

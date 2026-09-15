@@ -1,6 +1,6 @@
 ---
 name: "tiktok-ads-integration"
-description: "Launch TikTok ad campaigns for ecommerce with Events API server-side tracking, Spark Ads, catalog sync, and shopping ads for product discovery. Use when working with tiktok ads integration or related tasks in development/backend."
+description: "Launch TikTok ad campaigns for ecommerce with Events API server-side tracking, Spark Ads, catalog sync, and shopping ads for product discovery. Use when working with tiktok ads integration."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

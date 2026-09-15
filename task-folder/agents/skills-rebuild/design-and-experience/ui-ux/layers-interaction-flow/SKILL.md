@@ -1,6 +1,6 @@
 ---
 name: "layers-interaction-flow"
-description: "Techniques for mapping interaction structure and flow — places, affordances, edge cases, and failure paths — without committing to visual form. Use when working with layers interaction flow or related tasks in design-and-experience/ui-ux."
+description: "Techniques for mapping interaction structure and flow — places, affordances, edge cases, and failure paths — without committing to visual form. Use when working with layers interaction flow."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

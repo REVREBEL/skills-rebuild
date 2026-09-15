@@ -1,6 +1,6 @@
 ---
 name: "ai-md"
-description: "Convert human-written AGENTS.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance. Use when working with ai md or related tasks in marketing-and-seo/cro."
+description: "Convert human-written AGENTS.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance. Use when working with ai md."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

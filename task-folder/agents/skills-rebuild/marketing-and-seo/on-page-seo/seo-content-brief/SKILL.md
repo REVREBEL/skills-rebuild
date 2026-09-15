@@ -1,6 +1,6 @@
 ---
 name: "seo-content-brief"
-description: "Execute seo-content-brief tasks, workflows, and automated procedures. Use when working with seo content brief or related tasks in marketing-and-seo/on-page-seo."
+description: "Execute seo-content-brief tasks, workflows, and automated procedures. Use when working with seo content brief."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

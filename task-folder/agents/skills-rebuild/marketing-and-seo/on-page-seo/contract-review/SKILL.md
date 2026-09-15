@@ -1,6 +1,6 @@
 ---
 name: "contract-review"
-description: "Analyze and red-flag contracts systematically, identifying risks, unfavorable terms, and negotiation opportunities. Use when working with contract review or related tasks in marketing-and-seo/on-page-seo."
+description: "Analyze and red-flag contracts systematically, identifying risks, unfavorable terms, and negotiation opportunities. Use when working with contract review."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "luna"
-description: "Reviews code for objective correctness, security, and reliability. Use when working with luna or related tasks in development/fullstack."
+description: "Reviews code for objective correctness, security, and reliability. Use when working with luna."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

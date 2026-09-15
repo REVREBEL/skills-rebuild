@@ -1,6 +1,6 @@
 ---
 name: "transformers-js"
-description: "Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript. Supports NLP (text classification, translation, summarization), computer vision (image classification, object detection), audio (speech recognition, audio classification), and.. Use when working with transformers js or related tasks in data-and-ai/machine-learning."
+description: "Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript. Supports NLP (text classification, translation, summarization), computer vision (image classification, object detection), audio (speech recognition, audio classification), and. Use when working with transformers js."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

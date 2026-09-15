@@ -1,6 +1,6 @@
 ---
 name: "leiloeiro-avaliacao"
-description: "Avaliacao pericial de imoveis em leilao. Valor de mercado, liquidacao forcada, ABNT NBR 14653, metodos comparativo/renda/custo, CUB e margem de seguranca. Use when working with leiloeiro avaliacao or related tasks in business-and-operations/strategy."
+description: "Avaliacao pericial de imoveis em leilao. Valor de mercado, liquidacao forcada, ABNT NBR 14653, metodos comparativo/renda/custo, CUB e margem de seguranca. Use when working with leiloeiro avaliacao."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "naming"
-description: "Diagnose why names don't work and guide creation of names that do. Use for brand names, product names, character names, place names, and titles when something feels off or when systematic naming is needed. Use when working with naming or related tasks in development/fullstack."
+description: "Diagnose why names don't work and guide creation of names that do. Use for brand names, product names, character names, place names, and titles when something feels off or when systematic naming is needed. Use when working with naming."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

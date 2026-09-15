@@ -1,6 +1,6 @@
 ---
 name: "design-review_2"
-description: "Execute design-review_2 tasks, workflows, and automated procedures. Use when working with design review_2 or related tasks in design-and-experience/taste-and-critique."
+description: "Execute design-review_2 tasks, workflows, and automated procedures. Use when working with design review_2."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "codex-subagent"
-description: "Launch Codex CLI as an isolated subagent for bounded coding, review, or verification tasks. Use when working with codex subagent or related tasks in meta-and-agent-skills/skill-lifecycle."
+description: "Launch Codex CLI as an isolated subagent for bounded coding, review, or verification tasks. Use when working with codex subagent."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "seo-ahrefs"
-description: "Ahrefs API analyst (extension). Reads referring domains, backlinks, organic keywords, and content explorer data via the official @ahrefs/mcp server. Pairs with seo-backlinks for multi-source confidence weighting. Use when working with seo ahrefs or related tasks in marketing-and-seo/on-page-seo."
+description: "Ahrefs API analyst (extension). Reads referring domains, backlinks, organic keywords, and content explorer data via the official @ahrefs/mcp server. Pairs with seo-backlinks for multi-source confidence weighting. Use when working with seo ahrefs."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

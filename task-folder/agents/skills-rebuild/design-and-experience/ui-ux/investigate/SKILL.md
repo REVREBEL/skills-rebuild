@@ -1,6 +1,6 @@
 ---
 name: "investigate"
-description: "Execute investigate tasks, workflows, and automated procedures. Use when working with investigate or related tasks in design-and-experience/ui-ux."
+description: "Execute investigate tasks, workflows, and automated procedures. Use when working with investigate."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "web3-testing"
-description: "Master comprehensive testing strategies for smart contracts using Hardhat, Foundry, and advanced testing patterns. Use when working with web3 testing or related tasks in quality-and-security/testing."
+description: "Master comprehensive testing strategies for smart contracts using Hardhat, Foundry, and advanced testing patterns. Use when working with web3 testing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

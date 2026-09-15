@@ -1,6 +1,6 @@
 ---
 name: "scala"
-description: "Language-specific super-code guidelines for scala. Use when working with scala or related tasks in development/fullstack."
+description: "Language-specific super-code guidelines for scala. Use when working with scala."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

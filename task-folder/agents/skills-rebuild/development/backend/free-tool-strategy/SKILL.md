@@ -1,6 +1,6 @@
 ---
 name: "free-tool-strategy"
-description: "You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness. Use when working with free tool strategy or related tasks in development/backend."
+description: "You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness. Use when working with free tool strategy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

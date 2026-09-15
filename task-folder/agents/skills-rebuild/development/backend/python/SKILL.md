@@ -1,6 +1,6 @@
 ---
 name: "python"
-description: "Language-specific super-code guidelines for python. Use when working with python or related tasks in development/backend."
+description: "Language-specific super-code guidelines for python. Use when working with python."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

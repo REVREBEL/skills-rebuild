@@ -1,6 +1,6 @@
 ---
 name: "loop-library"
-description: "Find, compare, adapt, and design bounded AI-agent feedback loops with explicit checks, stop rules, guardrails, and handoffs. Use when working with loop library or related tasks in development/fullstack."
+description: "Find, compare, adapt, and design bounded AI-agent feedback loops with explicit checks, stop rules, guardrails, and handoffs. Use when working with loop library."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

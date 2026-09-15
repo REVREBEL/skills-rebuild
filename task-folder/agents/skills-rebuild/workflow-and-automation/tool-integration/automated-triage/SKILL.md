@@ -1,6 +1,6 @@
 ---
 name: "automated-triage"
-description: "Triage, assess, score, and troubleshoot Monte Carlo data reliability alerts interactively or via automated scheduled workflows using Monte Carlo MCP tools when investigating data freshness, volume, or schema incidents. Use when working with automated triage or related tasks in workflow-and-automation/tool-integration."
+description: "Triage, assess, score, and troubleshoot Monte Carlo data reliability alerts interactively or via automated scheduled workflows using Monte Carlo MCP tools when investigating data freshness, volume, or schema incidents. Use when working with automated triage."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

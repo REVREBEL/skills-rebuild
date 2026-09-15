@@ -1,6 +1,6 @@
 ---
 name: "speckit-updater"
-description: "SpecKit Safe Update. Use when working with speckit updater or related tasks in development/fullstack."
+description: "SpecKit Safe Update. Use when working with speckit updater."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "research-brief-blueprint"
-description: "Standard template + checklist for scoping market research projects. Use when working with research brief blueprint or related tasks in marketing-and-seo/on-page-seo."
+description: "Standard template + checklist for scoping market research projects. Use when working with research brief blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

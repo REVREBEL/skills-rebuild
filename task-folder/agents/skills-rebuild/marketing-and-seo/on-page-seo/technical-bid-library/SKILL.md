@@ -1,6 +1,6 @@
 ---
 name: "technical-bid-library"
-description: "Central repository structure for manufacturing RFP responses, compliance. Use when working with technical bid library or related tasks in marketing-and-seo/on-page-seo."
+description: "Central repository structure for manufacturing RFP responses, compliance. Use when working with technical bid library."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

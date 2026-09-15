@@ -1,6 +1,6 @@
 ---
 name: "web-interface-architect"
-description: "Architect and design web application interfaces. Plans component systems, interaction flows, and responsive layouts for web platforms. Use when working with web interface architect or related tasks in development/systems."
+description: "Architect and design web application interfaces. Plans component systems, interaction flows, and responsive layouts for web platforms. Use when working with web interface architect."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

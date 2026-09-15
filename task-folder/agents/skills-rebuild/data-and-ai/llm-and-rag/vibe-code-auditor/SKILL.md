@@ -1,6 +1,6 @@
 ---
 name: "vibe-code-auditor"
-description: "Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks. Use when working with vibe code auditor or related tasks in data-and-ai/llm-and-rag."
+description: "Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks. Use when working with vibe code auditor."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

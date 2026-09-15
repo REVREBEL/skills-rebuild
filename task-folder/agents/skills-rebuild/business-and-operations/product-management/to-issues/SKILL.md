@@ -1,6 +1,6 @@
 ---
 name: "to-issues"
-description: "Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices. Use when working with to issues or related tasks in business-and-operations/product-management."
+description: "Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices. Use when working with to issues."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "research-repository"
-description: "Build and maintain a research repository that makes findings findable, reusable, and cumulative across the organization. Use when working with research repository or related tasks in marketing-and-seo/cro."
+description: "Build and maintain a research repository that makes findings findable, reusable, and cumulative across the organization. Use when working with research repository."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

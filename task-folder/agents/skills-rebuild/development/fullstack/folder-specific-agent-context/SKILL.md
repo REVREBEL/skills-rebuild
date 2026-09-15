@@ -1,6 +1,6 @@
 ---
 name: "folder-specific-agent-context"
-description: "Create folder-scoped AGENTS.md and optional CLAUDE.md compatibility guidance for future agents working in that area. Use when working with folder specific agent context or related tasks in development/fullstack."
+description: "Create folder-scoped AGENTS.md and optional CLAUDE.md compatibility guidance for future agents working in that area. Use when working with folder specific agent context."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

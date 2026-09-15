@@ -1,6 +1,6 @@
 ---
 name: "vercel-deployment"
-description: "Expert knowledge for deploying to Vercel with Next.js. Use when working with vercel deployment or related tasks in infrastructure-and-ops/cloud-platforms."
+description: "Expert knowledge for deploying to Vercel with Next.js. Use when working with vercel deployment."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

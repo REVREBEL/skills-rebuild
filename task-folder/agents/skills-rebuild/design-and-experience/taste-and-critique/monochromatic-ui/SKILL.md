@@ -1,6 +1,6 @@
 ---
 name: "monochromatic-ui"
-description: "Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline. Use when working with monochromatic ui or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline. Use when working with monochromatic ui."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

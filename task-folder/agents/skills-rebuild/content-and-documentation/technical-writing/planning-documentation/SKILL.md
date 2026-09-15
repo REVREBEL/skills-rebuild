@@ -1,6 +1,6 @@
 ---
 name: "planning-documentation"
-description: "Document and communicate plans clearly. Structures implementation plans with tasks, decisions, and success criteria. Use when working with planning documentation or related tasks in content-and-documentation/technical-writing."
+description: "Document and communicate plans clearly. Structures implementation plans with tasks, decisions, and success criteria. Use when working with planning documentation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

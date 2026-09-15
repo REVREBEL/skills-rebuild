@@ -1,6 +1,6 @@
 ---
 name: "vscode-extension-guide-en"
-description: "Guide for VS Code extension development from scaffolding to Marketplace publication. Use when working with vscode extension guide en or related tasks in development/fullstack."
+description: "Guide for VS Code extension development from scaffolding to Marketplace publication. Use when working with vscode extension guide en."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

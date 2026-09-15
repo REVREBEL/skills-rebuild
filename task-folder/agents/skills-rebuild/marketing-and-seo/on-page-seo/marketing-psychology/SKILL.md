@@ -1,6 +1,6 @@
 ---
 name: "marketing-psychology"
-description: "Execute marketing-psychology tasks, workflows, and automated procedures. Use when working with marketing psychology or related tasks in marketing-and-seo/on-page-seo."
+description: "Execute marketing-psychology tasks, workflows, and automated procedures. Use when working with marketing psychology."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

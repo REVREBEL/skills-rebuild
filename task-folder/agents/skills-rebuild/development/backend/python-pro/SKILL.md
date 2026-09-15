@@ -1,6 +1,6 @@
 ---
 name: "python-pro"
-description: "Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI. Use when working with python pro or related tasks in development/backend."
+description: "Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI. Use when working with python pro."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

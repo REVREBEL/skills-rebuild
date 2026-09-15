@@ -1,6 +1,6 @@
 ---
 name: "effective-agent-skills"
-description: "Author and review high-quality agent skills with triggers, progressive disclosure, and safety notes. Use when working with effective agent skills or related tasks in meta-and-agent-skills/skill-lifecycle."
+description: "Author and review high-quality agent skills with triggers, progressive disclosure, and safety notes. Use when working with effective agent skills."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

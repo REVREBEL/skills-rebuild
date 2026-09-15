@@ -1,6 +1,6 @@
 ---
 name: "brand-guidelines-community"
-description: "To access Anthropic's official brand identity and style resources, use this skill. Use when working with brand guidelines community or related tasks in development/fullstack."
+description: "To access Anthropic's official brand identity and style resources, use this skill. Use when working with brand guidelines community."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

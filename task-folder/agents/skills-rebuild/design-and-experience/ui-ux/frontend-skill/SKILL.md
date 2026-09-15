@@ -1,6 +1,6 @@
 ---
 name: "frontend-skill"
-description: "Execute frontend-skill tasks, workflows, and automated procedures. Use when working with frontend skill or related tasks in design-and-experience/ui-ux."
+description: "Execute frontend-skill tasks, workflows, and automated procedures. Use when working with frontend skill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

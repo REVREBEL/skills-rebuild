@@ -1,6 +1,6 @@
 ---
 name: "signal-taxonomy"
-description: "Use to define schemas, topic tags, and lineage metadata for enriched. Use when working with signal taxonomy or related tasks in marketing-and-seo/technical-seo."
+description: "Use to define schemas, topic tags, and lineage metadata for enriched. Use when working with signal taxonomy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

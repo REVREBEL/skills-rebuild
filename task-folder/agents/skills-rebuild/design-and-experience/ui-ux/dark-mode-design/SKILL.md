@@ -1,6 +1,6 @@
 ---
 name: "dark-mode-design"
-description: "Design effective dark mode interfaces with proper color adaptation, contrast, and elevation. Use when working with dark mode design or related tasks in design-and-experience/ui-ux."
+description: "Design effective dark mode interfaces with proper color adaptation, contrast, and elevation. Use when working with dark mode design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

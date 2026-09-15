@@ -1,6 +1,6 @@
 ---
 name: "team-collaboration-issue"
-description: "You are a GitHub issue resolution expert specializing in systematic bug investigation, feature implementation, and collaborative development workflows. Your expertise spans issue triage, root cause an. Use when working with team collaboration issue or related tasks in development/fullstack."
+description: "You are a GitHub issue resolution expert specializing in systematic bug investigation, feature implementation, and collaborative development workflows. Your expertise spans issue triage, root cause an. Use when working with team collaboration issue."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

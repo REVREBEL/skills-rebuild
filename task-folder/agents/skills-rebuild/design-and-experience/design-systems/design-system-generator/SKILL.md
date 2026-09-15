@@ -1,6 +1,6 @@
 ---
 name: "design-system-generator"
-description: "Generate design systems and theme variations. Creates cohesive visual systems with color schemes, typography, and component styling. Use when working with design system generator or related tasks in design-and-experience/design-systems."
+description: "Generate design systems and theme variations. Creates cohesive visual systems with color schemes, typography, and component styling. Use when working with design system generator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

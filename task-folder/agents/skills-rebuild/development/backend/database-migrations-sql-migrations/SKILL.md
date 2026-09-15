@@ -1,6 +1,6 @@
 ---
 name: "database-migrations-sql-migrations"
-description: "SQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, and SQL Server. Focus on data integrity and rollback plans. Use when working with database migrations sql migrations or related tasks in development/backend."
+description: "SQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, and SQL Server. Focus on data integrity and rollback plans. Use when working with database migrations sql migrations."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "card-sort-analysis"
-description: "Analyze card sorting results to inform information architecture and navigation structure. Use after conducting open or closed card sort studies. Use when working with card sort analysis or related tasks in design-and-experience/ui-ux."
+description: "Analyze card sorting results to inform information architecture and navigation structure. Use after conducting open or closed card sort studies. Use when working with card sort analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

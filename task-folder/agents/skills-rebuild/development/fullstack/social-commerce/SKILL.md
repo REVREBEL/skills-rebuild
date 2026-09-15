@@ -1,6 +1,6 @@
 ---
 name: "social-commerce"
-description: "Sync your catalog to Instagram, TikTok, and Facebook to enable shoppable posts and in-app checkout directly from your social content. Use when working with social commerce or related tasks in development/fullstack."
+description: "Sync your catalog to Instagram, TikTok, and Facebook to enable shoppable posts and in-app checkout directly from your social content. Use when working with social commerce."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

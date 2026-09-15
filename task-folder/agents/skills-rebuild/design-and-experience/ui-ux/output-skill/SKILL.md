@@ -1,6 +1,6 @@
 ---
 name: "output-skill"
-description: "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output. Use when working with output skill or related tasks in design-and-experience/ui-ux."
+description: "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output. Use when working with output skill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

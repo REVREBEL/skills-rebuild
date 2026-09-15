@@ -1,6 +1,6 @@
 ---
 name: "odw"
-description: "Dynamic multi-agent workflows — plan first, then orchestrate parallel agents with adversarial verification via the local odw daemon. Use when the user asks for a \"workflow\", says \"ultracode\", or hands you a task spanning many files/items that benefits from parallel agents."
+description: "Dynamic multi-agent workflows — plan first, then orchestrate parallel agents with adversarial verification via the local odw daemon. Use when the user asks for a \\"workflow\\", says \\"ultracode\\", or hands you a task spanning many files/items that benefits from parallel agents."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

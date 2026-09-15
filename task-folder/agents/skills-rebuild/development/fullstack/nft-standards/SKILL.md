@@ -1,6 +1,6 @@
 ---
 name: "nft-standards"
-description: "Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features. Use when working with nft standards or related tasks in development/fullstack."
+description: "Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features. Use when working with nft standards."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "code-reviewer"
-description: "Elite code review expert specializing in modern AI-powered code. Use when working with code reviewer or related tasks in development/fullstack."
+description: "Elite code review expert specializing in modern AI-powered code. Use when working with code reviewer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

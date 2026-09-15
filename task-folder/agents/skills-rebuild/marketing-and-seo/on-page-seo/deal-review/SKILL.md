@@ -1,6 +1,6 @@
 ---
 name: "deal-review"
-description: "Use to run structured opportunity inspections that align pipeline data. Use when working with deal review or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to run structured opportunity inspections that align pipeline data. Use when working with deal review."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

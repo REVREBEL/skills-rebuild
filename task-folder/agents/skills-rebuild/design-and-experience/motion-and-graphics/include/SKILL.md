@@ -1,6 +1,6 @@
 ---
 name: "include"
-description: "Execute include tasks, workflows, and automated procedures. Use when working with include or related tasks in design-and-experience/motion-and-graphics."
+description: "Execute include tasks, workflows, and automated procedures. Use when working with include."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

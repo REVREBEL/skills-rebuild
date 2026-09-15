@@ -1,6 +1,6 @@
 ---
 name: "linkerd-patterns"
-description: "Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes. Use when working with linkerd patterns or related tasks in infrastructure-and-ops/containers-and-orchestration."
+description: "Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes. Use when working with linkerd patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

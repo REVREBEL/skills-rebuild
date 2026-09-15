@@ -1,6 +1,6 @@
 ---
 name: "workflow-patterns"
-description: "Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol. Use when working with workflow patterns or related tasks in development/systems."
+description: "Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol. Use when working with workflow patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

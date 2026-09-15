@@ -1,6 +1,6 @@
 ---
 name: "linux-privilege-escalation"
-description: "Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulnerable services, and security weaknesses that allow elevation from low-privilege user access to root-level control. Use when working with linux privilege escalation or related tasks in infrastructure-and-ops/server-management."
+description: "Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulnerable services, and security weaknesses that allow elevation from low-privilege user access to root-level control. Use when working with linux privilege escalation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

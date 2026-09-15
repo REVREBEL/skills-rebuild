@@ -1,6 +1,6 @@
 ---
 name: "audit-website"
-description: "Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 230+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health. Use when working with audit website or related tasks in marketing-and-seo/on-page-seo."
+description: "Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 230+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health. Use when working with audit website."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

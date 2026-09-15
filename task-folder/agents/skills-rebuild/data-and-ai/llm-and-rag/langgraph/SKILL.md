@@ -1,6 +1,6 @@
 ---
 name: "langgraph"
-description: "Expert in LangGraph - the production-grade framework for building. Use when working with langgraph or related tasks in data-and-ai/llm-and-rag."
+description: "Expert in LangGraph - the production-grade framework for building. Use when working with langgraph."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

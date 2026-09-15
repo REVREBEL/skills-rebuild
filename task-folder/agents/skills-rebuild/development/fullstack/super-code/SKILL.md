@@ -1,6 +1,6 @@
 ---
 name: "super-code"
-description: "Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead. Use when working with super code or related tasks in development/fullstack."
+description: "Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead. Use when working with super code."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

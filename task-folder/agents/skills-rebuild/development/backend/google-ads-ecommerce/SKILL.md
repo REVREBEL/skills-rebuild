@@ -1,6 +1,6 @@
 ---
 name: "google-ads-ecommerce"
-description: "Build and optimize Google Ads campaigns for ecommerce with Performance Max, Shopping feeds, conversion tracking, and Smart Bidding strategies for ROAS. Use when working with google ads ecommerce or related tasks in development/backend."
+description: "Build and optimize Google Ads campaigns for ecommerce with Performance Max, Shopping feeds, conversion tracking, and Smart Bidding strategies for ROAS. Use when working with google ads ecommerce."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

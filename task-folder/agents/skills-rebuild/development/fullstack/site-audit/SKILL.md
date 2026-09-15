@@ -1,6 +1,6 @@
 ---
 name: "site-audit"
-description: "Comprehensive audit of a Webflow site including pages, CMS collections, health scoring, and actionable insights. Use for site analysis, migration planning, or understanding site structure. Use when working with site audit or related tasks in development/fullstack."
+description: "Comprehensive audit of a Webflow site including pages, CMS collections, health scoring, and actionable insights. Use for site analysis, migration planning, or understanding site structure. Use when working with site audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

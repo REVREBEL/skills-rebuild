@@ -1,6 +1,6 @@
 ---
 name: "bash-pro"
-description: "Master of defensive Bash scripting for production automation, CI/CD. Use when working with bash pro or related tasks in development/fullstack."
+description: "Master of defensive Bash scripting for production automation, CI/CD. Use when working with bash pro."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

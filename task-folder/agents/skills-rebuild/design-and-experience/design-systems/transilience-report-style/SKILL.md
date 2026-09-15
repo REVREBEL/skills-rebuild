@@ -1,6 +1,6 @@
 ---
 name: "transilience-report-style"
-description: "Threat Intelligence Report Design System — ReportLab-based PDF generation for A4 reports with Transilience branding, typography, and layout standards. Use when working with transilience report style or related tasks in design-and-experience/design-systems."
+description: "Threat Intelligence Report Design System — ReportLab-based PDF generation for A4 reports with Transilience branding, typography, and layout standards. Use when working with transilience report style."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

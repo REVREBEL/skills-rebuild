@@ -1,6 +1,6 @@
 ---
 name: "marketing-spend-analysis"
-description: "Track and analyze marketing spend across all channels with ROAS calculation, diminishing returns analysis, and budget reallocation recommendations by platform. Use when working with marketing spend analysis or related tasks in marketing-and-seo/cro."
+description: "Track and analyze marketing spend across all channels with ROAS calculation, diminishing returns analysis, and budget reallocation recommendations by platform. Use when working with marketing spend analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "lambda-lang"
-description: "Native agent-to-agent language for compact multi-agent messaging. A shared tongue agents speak directly, not a translation layer. 340+ atoms across 7 domains; 3x smaller than natural language. Use when working with lambda lang or related tasks in marketing-and-seo/cro."
+description: "Native agent-to-agent language for compact multi-agent messaging. A shared tongue agents speak directly, not a translation layer. 340+ atoms across 7 domains; 3x smaller than natural language. Use when working with lambda lang."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

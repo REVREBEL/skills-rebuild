@@ -1,6 +1,6 @@
 ---
 name: "comp-mechanics"
-description: "Use to assemble rate tables, accelerator logic, and plan governance templates. Use when working with comp mechanics or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to assemble rate tables, accelerator logic, and plan governance templates. Use when working with comp mechanics."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

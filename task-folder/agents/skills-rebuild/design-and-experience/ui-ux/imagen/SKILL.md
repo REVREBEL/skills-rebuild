@@ -1,6 +1,6 @@
 ---
 name: "imagen"
-description: "Execute imagen tasks, workflows, and automated procedures. Use when working with imagen or related tasks in design-and-experience/ui-ux."
+description: "Execute imagen tasks, workflows, and automated procedures. Use when working with imagen."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

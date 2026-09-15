@@ -1,6 +1,6 @@
 ---
 name: "documentation-template"
-description: "Generate structured documentation templates for components, patterns, or guidelines within a design system. Use when working with documentation template or related tasks in design-and-experience/design-systems."
+description: "Generate structured documentation templates for components, patterns, or guidelines within a design system. Use when working with documentation template."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

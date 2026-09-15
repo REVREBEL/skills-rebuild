@@ -1,6 +1,6 @@
 ---
 name: "ui-review"
-description: "Review UI code for design system compliance, accessibility, and best practices. Use when working with ui review or related tasks in design-and-experience/design-systems."
+description: "Review UI code for design system compliance, accessibility, and best practices. Use when working with ui review."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

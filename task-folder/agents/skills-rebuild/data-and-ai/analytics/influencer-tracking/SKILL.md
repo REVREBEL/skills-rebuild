@@ -1,6 +1,6 @@
 ---
 name: "influencer-tracking"
-description: "Measure influencer campaign ROI by generating unique UTM links per creator, attributing sales, and reporting revenue against campaign spend. Use when working with influencer tracking or related tasks in data-and-ai/analytics."
+description: "Measure influencer campaign ROI by generating unique UTM links per creator, attributing sales, and reporting revenue against campaign spend. Use when working with influencer tracking."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

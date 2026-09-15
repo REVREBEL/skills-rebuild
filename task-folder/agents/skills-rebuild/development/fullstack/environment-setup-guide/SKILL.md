@@ -1,6 +1,6 @@
 ---
 name: "environment-setup-guide"
-description: "Guide developers through setting up development environments with proper tools, dependencies, and configurations. Use when working with environment setup guide or related tasks in development/fullstack."
+description: "Guide developers through setting up development environments with proper tools, dependencies, and configurations. Use when working with environment setup guide."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

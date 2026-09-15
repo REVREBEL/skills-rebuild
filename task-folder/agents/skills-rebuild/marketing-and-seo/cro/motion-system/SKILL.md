@@ -1,6 +1,6 @@
 ---
 name: "motion-system"
-description: "Define a motion system with duration tokens, easing vocabulary, and reduced-motion handling for consistent animation across a product. Use when working with motion system or related tasks in marketing-and-seo/cro."
+description: "Define a motion system with duration tokens, easing vocabulary, and reduced-motion handling for consistent animation across a product. Use when working with motion system."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

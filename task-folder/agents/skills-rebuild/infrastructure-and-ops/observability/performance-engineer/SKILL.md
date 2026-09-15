@@ -1,6 +1,6 @@
 ---
 name: "performance-engineer"
-description: "Expert performance engineer specializing in modern observability,. Use when working with performance engineer or related tasks in infrastructure-and-ops/observability."
+description: "Expert performance engineer specializing in modern observability,. Use when working with performance engineer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "safe-publish"
-description: "Publish a Webflow site with a plan-confirm-publish workflow. Shows what changed since last publish, runs pre-publish checks, and requires explicit confirmation before going live. Use when working with safe publish or related tasks in development/backend."
+description: "Publish a Webflow site with a plan-confirm-publish workflow. Shows what changed since last publish, runs pre-publish checks, and requires explicit confirmation before going live. Use when working with safe publish."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

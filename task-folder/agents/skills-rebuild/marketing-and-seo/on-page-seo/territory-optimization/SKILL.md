@@ -1,6 +1,6 @@
 ---
 name: "territory-optimization"
-description: "Use to score territory scenarios for fairness, whitespace, and productivity. Use when working with territory optimization or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to score territory scenarios for fairness, whitespace, and productivity. Use when working with territory optimization."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

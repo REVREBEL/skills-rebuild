@@ -1,6 +1,6 @@
 ---
 name: "brand-governance"
-description: "Use to manage brand guidelines, approvals, and ongoing refresh cadence. Use when working with brand governance or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Use to manage brand guidelines, approvals, and ongoing refresh cadence. Use when working with brand governance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

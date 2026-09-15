@@ -1,6 +1,6 @@
 ---
 name: "hasdata"
-description: "Use HasData APIs for web scraping and structured web data extraction. Use when working with hasdata or related tasks in workflow-and-automation/task-orchestration."
+description: "Use HasData APIs for web scraping and structured web data extraction. Use when working with hasdata."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

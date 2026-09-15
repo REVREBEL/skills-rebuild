@@ -1,6 +1,6 @@
 ---
 name: "competitor-pages"
-description: "Create competitor comparison pages. Use when: \\"X vs Y\\" layouts, alternatives pages, feature matrices, roundup pages."
+description: "Create competitor comparison pages. Use when: \\\"X vs Y\\\" layouts, alternatives pages, feature matrices, roundup pages."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

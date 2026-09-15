@@ -1,6 +1,6 @@
 ---
 name: "pr-review"
-description: "Generate a concise and structured PR description from commit history with minimal token usage. Use when working with pr review or related tasks in development/fullstack."
+description: "Generate a concise and structured PR description from commit history with minimal token usage. Use when working with pr review."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

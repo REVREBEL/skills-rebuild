@@ -1,6 +1,6 @@
 ---
 name: "imagegen-frontend-mobile"
-description: "Execute imagegen-frontend-mobile tasks, workflows, and automated procedures. Use when working with imagegen frontend mobile or related tasks in marketing-and-seo/cro."
+description: "Execute imagegen-frontend-mobile tasks, workflows, and automated procedures. Use when working with imagegen frontend mobile."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

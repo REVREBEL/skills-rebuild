@@ -1,6 +1,6 @@
 ---
 name: "typography-scale"
-description: "Create a modular typography scale with size, weight, and line-height relationships. Use when working with typography scale or related tasks in design-and-experience/ui-ux."
+description: "Create a modular typography scale with size, weight, and line-height relationships. Use when working with typography scale."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "pitch-psychologist"
-description: "One sentence - what this skill does and when to invoke it. Use when working with pitch psychologist or related tasks in business-and-operations/strategy."
+description: "One sentence - what this skill does and when to invoke it. Use when working with pitch psychologist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

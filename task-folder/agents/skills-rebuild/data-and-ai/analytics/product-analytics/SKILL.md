@@ -1,6 +1,6 @@
 ---
 name: "product-analytics"
-description: "Track product performance with sell-through rates, views-to-purchase conversion, dead stock identification, and category-level reporting. Use when working with product analytics or related tasks in data-and-ai/analytics."
+description: "Track product performance with sell-through rates, views-to-purchase conversion, dead stock identification, and category-level reporting. Use when working with product analytics."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

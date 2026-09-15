@@ -1,6 +1,6 @@
 ---
 name: "cc-skill-project-guidelines-example"
-description: "Project Guidelines Skill (Example). Use when working with cc skill project guidelines example or related tasks in development/fullstack."
+description: "Project Guidelines Skill (Example). Use when working with cc skill project guidelines example."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

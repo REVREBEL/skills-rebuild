@@ -1,6 +1,6 @@
 ---
 name: "agent-to-agent"
-description: "Agent-to-Agent (A2A) communication protocol. Connect two or more Claude agents that pass messages, share context, delegate tasks, and collaborate. Implements structured handoffs, shared memory, and multi-agent conversations. Use when working with agent to agent or related tasks in design-and-experience/ui-ux."
+description: "Agent-to-Agent (A2A) communication protocol. Connect two or more Claude agents that pass messages, share context, delegate tasks, and collaborate. Implements structured handoffs, shared memory, and multi-agent conversations. Use when working with agent to agent."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "compliance-briefing-kit"
-description: "Standardized template for campaign compliance intake, reviews, and approvals. Use when working with compliance briefing kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Standardized template for campaign compliance intake, reviews, and approvals. Use when working with compliance briefing kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "legal-advisor"
-description: "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements. Use when working with legal advisor or related tasks in development/fullstack."
+description: "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements. Use when working with legal advisor."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

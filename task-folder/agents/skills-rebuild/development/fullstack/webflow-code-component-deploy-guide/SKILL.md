@@ -1,6 +1,6 @@
 ---
 name: "webflow-code-component-deploy-guide"
-description: "Step-by-step guide for deploying Webflow Code Components to a workspace. Covers authentication, pre-flight checks, deployment execution, and verification. Use when working with webflow code component deploy guide or related tasks in development/fullstack."
+description: "Step-by-step guide for deploying Webflow Code Components to a workspace. Covers authentication, pre-flight checks, deployment execution, and verification. Use when working with webflow code component deploy guide."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

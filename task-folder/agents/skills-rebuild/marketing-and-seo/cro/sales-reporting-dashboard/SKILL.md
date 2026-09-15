@@ -1,6 +1,6 @@
 ---
 name: "sales-reporting-dashboard"
-description: "Build executive dashboards showing revenue, average order value, conversion rates, and cohort analysis with drill-down by date and channel. Use when working with sales reporting dashboard or related tasks in marketing-and-seo/cro."
+description: "Build executive dashboards showing revenue, average order value, conversion rates, and cohort analysis with drill-down by date and channel. Use when working with sales reporting dashboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

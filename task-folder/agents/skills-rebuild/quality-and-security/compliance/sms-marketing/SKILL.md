@@ -1,6 +1,6 @@
 ---
 name: "sms-marketing"
-description: "Launch SMS marketing campaigns with opt-in flows, audience segmentation, and full TCPA/GDPR compliance to drive revenue through text messaging. Use when working with sms marketing or related tasks in quality-and-security/compliance."
+description: "Launch SMS marketing campaigns with opt-in flows, audience segmentation, and full TCPA/GDPR compliance to drive revenue through text messaging. Use when working with sms marketing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

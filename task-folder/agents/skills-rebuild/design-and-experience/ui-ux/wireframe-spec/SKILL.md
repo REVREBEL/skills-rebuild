@@ -1,6 +1,6 @@
 ---
 name: "wireframe-spec"
-description: "Specify wireframe layouts with content priority, component placement, and annotation. Use when working with wireframe spec or related tasks in design-and-experience/ui-ux."
+description: "Specify wireframe layouts with content priority, component placement, and annotation. Use when working with wireframe spec."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

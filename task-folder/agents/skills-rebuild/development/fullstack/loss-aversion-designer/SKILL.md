@@ -1,6 +1,6 @@
 ---
 name: "loss-aversion-designer"
-description: "One sentence - what this skill does and when to invoke it. Use when working with loss aversion designer or related tasks in development/fullstack."
+description: "One sentence - what this skill does and when to invoke it. Use when working with loss aversion designer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

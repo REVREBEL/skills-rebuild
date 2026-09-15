@@ -1,6 +1,6 @@
 ---
 name: "financial-product-blueprint"
-description: "Template for packaging financial products with pricing, underwriting,. Use when working with financial product blueprint or related tasks in marketing-and-seo/on-page-seo."
+description: "Template for packaging financial products with pricing, underwriting,. Use when working with financial product blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

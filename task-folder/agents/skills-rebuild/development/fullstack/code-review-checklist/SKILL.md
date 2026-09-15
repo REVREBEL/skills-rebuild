@@ -1,6 +1,6 @@
 ---
 name: "code-review-checklist"
-description: "Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability. Use when working with code review checklist or related tasks in development/fullstack."
+description: "Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability. Use when working with code review checklist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

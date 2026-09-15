@@ -1,6 +1,6 @@
 ---
 name: "news-sentiment-engine"
-description: "Multi-source RSS news aggregation with Claude-powered sentiment analysis and structured briefing output. Use when working with news sentiment engine or related tasks in development/fullstack."
+description: "Multi-source RSS news aggregation with Claude-powered sentiment analysis and structured briefing output. Use when working with news sentiment engine."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

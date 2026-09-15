@@ -1,6 +1,6 @@
 ---
 name: "database-migration"
-description: "Master database schema and data migrations across ORMs (Sequelize, TypeORM, Prisma), including rollback strategies and zero-downtime deployments. Use when working with database migration or related tasks in marketing-and-seo/technical-seo."
+description: "Master database schema and data migrations across ORMs (Sequelize, TypeORM, Prisma), including rollback strategies and zero-downtime deployments. Use when working with database migration."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "interview-style-doc-building"
-description: "Build structured strategy documents by asking one question at a time and patching the file. Use when working with interview style doc building or related tasks in content-and-documentation/technical-writing."
+description: "Build structured strategy documents by asking one question at a time and patching the file. Use when working with interview style doc building."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

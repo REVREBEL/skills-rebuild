@@ -1,6 +1,6 @@
 ---
 name: "design-system-adoption"
-description: "Create adoption strategies and materials to drive design system usage across teams. Use when working with design system adoption or related tasks in marketing-and-seo/cro."
+description: "Create adoption strategies and materials to drive design system usage across teams. Use when working with design system adoption."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

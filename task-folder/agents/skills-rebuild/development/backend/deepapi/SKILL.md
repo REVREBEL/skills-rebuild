@@ -1,6 +1,6 @@
 ---
 name: "deepapi"
-description: "Use DeepAPI for supported scraping, research, and email workflows with explicit credentials and approval. Use when working with deepapi or related tasks in development/backend."
+description: "Use DeepAPI for supported scraping, research, and email workflows with explicit credentials and approval. Use when working with deepapi."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

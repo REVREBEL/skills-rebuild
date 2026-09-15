@@ -1,6 +1,6 @@
 ---
 name: "architect-review"
-description: "Master software architect specializing in modern architecture. Use when working with architect review or related tasks in development/software-architecture."
+description: "Master software architect specializing in modern architecture. Use when working with architect review."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

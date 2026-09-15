@@ -1,6 +1,6 @@
 ---
 name: "graphql"
-description: "GraphQL gives clients exactly the data they need - no more, no. Use when working with graphql or related tasks in development/fullstack."
+description: "GraphQL gives clients exactly the data they need - no more, no. Use when working with graphql."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "distribute-skill-to-all-agents"
-description: "Distribute a skill across configured agent skill folders while respecting local symlink layouts. Use when working with distribute skill to all agents or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Distribute a skill across configured agent skill folders while respecting local symlink layouts. Use when working with distribute skill to all agents."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

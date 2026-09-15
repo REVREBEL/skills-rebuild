@@ -1,6 +1,6 @@
 ---
 name: "attribution"
-description: "Use to define measurement, data sharing, and ROI reporting for joint. Use when working with attribution or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to define measurement, data sharing, and ROI reporting for joint. Use when working with attribution."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

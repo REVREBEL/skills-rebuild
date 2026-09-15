@@ -1,6 +1,6 @@
 ---
 name: "nerdzao-elite"
-description: "Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation. Use when working with nerdzao elite or related tasks in development/software-architecture."
+description: "Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation. Use when working with nerdzao elite."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

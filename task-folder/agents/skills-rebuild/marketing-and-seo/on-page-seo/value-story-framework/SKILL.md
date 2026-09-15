@@ -1,6 +1,6 @@
 ---
 name: "value-story-framework"
-description: "Use to craft executive-ready value narratives and ROI/TCO stories for. Use when working with value story framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to craft executive-ready value narratives and ROI/TCO stories for. Use when working with value story framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "nda-generator"
-description: "Create appropriate non-disclosure agreements for different business contexts with balanced terms and proper scope definitions. Use when working with nda generator or related tasks in marketing-and-seo/on-page-seo."
+description: "Create appropriate non-disclosure agreements for different business contexts with balanced terms and proper scope definitions. Use when working with nda generator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

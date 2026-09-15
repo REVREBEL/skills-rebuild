@@ -1,6 +1,6 @@
 ---
 name: "train-sentence-transformers"
-description: "Train or fine-tune sentence-transformers models across `SentenceTransformer` (bi-encoder; dense or static embedding model; for retrieval, similarity, clustering, classification, paraphrase mining, dedup, multimodal), `CrossEncoder` (reranker; pair scoring for two-stage retrieval / pair.. Use when working with train sentence transformers or related tasks in marketing-and-seo/cro."
+description: "Train or fine-tune sentence-transformers models across `SentenceTransformer` (bi-encoder; dense or static embedding model; for retrieval, similarity, clustering, classification, paraphrase mining, dedup, multimodal), `CrossEncoder` (reranker; pair scoring for two-stage retrieval / pair. Use when working with train sentence transformers."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

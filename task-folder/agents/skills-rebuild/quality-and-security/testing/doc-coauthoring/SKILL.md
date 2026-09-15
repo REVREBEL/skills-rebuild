@@ -1,6 +1,6 @@
 ---
 name: "doc-coauthoring"
-description: "This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing. Use when working with doc coauthoring or related tasks in quality-and-security/testing."
+description: "This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing. Use when working with doc coauthoring."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

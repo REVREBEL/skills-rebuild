@@ -1,6 +1,6 @@
 ---
 name: "simplify-code"
-description: "Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes. Use when working with simplify code or related tasks in development/software-architecture."
+description: "Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes. Use when working with simplify code."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

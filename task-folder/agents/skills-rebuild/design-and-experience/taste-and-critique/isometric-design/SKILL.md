@@ -1,6 +1,6 @@
 ---
 name: "isometric-design"
-description: "Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations. Use when working with isometric design or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations. Use when working with isometric design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

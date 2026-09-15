@@ -1,6 +1,6 @@
 ---
 name: "seo-maps"
-description: "Execute seo-maps tasks, workflows, and automated procedures. Use when working with seo maps or related tasks in marketing-and-seo/technical-seo."
+description: "Execute seo-maps tasks, workflows, and automated procedures. Use when working with seo maps."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

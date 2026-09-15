@@ -1,6 +1,6 @@
 ---
 name: "non-fiction-revision"
-description: "Diagnose and guide revisions in non-fiction books. Use for non-fiction book revision, when arguments feel weak, evidence is outdated, readers report confusion, thesis is unclear, or book structure has problems. Keywords: non-fiction, revision, thesis, argument, evidence, structure. Use when working with non fiction revision or related tasks in design-and-experience/ui-ux."
+description: "Diagnose and guide revisions in non-fiction books. Use for non-fiction book revision, when arguments feel weak, evidence is outdated, readers report confusion, thesis is unclear, or book structure has problems. Keywords: non-fiction, revision, thesis, argument, evidence, structure. Use when working with non fiction revision."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "champion-engagement-system"
-description: "Framework for recruiting, activating, and rewarding community champions. Use when working with champion engagement system or related tasks in marketing-and-seo/on-page-seo."
+description: "Framework for recruiting, activating, and rewarding community champions. Use when working with champion engagement system."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

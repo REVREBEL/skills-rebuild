@@ -1,6 +1,6 @@
 ---
 name: "customer-trust-dashboard"
-description: "Reporting framework for monitoring trust, sentiment, and regulator-facing. Use when working with customer trust dashboard or related tasks in marketing-and-seo/on-page-seo."
+description: "Reporting framework for monitoring trust, sentiment, and regulator-facing. Use when working with customer trust dashboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

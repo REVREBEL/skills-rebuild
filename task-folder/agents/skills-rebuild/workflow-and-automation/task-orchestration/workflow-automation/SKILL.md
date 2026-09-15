@@ -1,6 +1,6 @@
 ---
 name: "workflow-automation"
-description: "Workflow automation is the infrastructure that makes AI agents. Use when working with workflow automation or related tasks in workflow-and-automation/task-orchestration."
+description: "Workflow automation is the infrastructure that makes AI agents. Use when working with workflow automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

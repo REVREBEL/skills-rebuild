@@ -1,6 +1,6 @@
 ---
 name: "taste-skill-v1"
-description: "Execute taste-skill-v1 tasks, workflows, and automated procedures. Use when working with taste skill v1 or related tasks in design-and-experience/taste-and-critique."
+description: "Execute taste-skill-v1 tasks, workflows, and automated procedures. Use when working with taste skill v1."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "rank-tracker"
-description: "Use when the user asks to \"track rankings\" or \"查排名\"; measures keyword and SERP-position deltas over time from provided exports or connected tools, including AI-response checks. Not for multi-metric stakeholder reports — use performance-reporter; not for setting alerts — use alert-manager. 排名追踪/SERP监控."
+description: "Use when the user asks to \\"track rankings\\" or \\"查排名\\"; measures keyword and SERP-position deltas over time from provided exports or connected tools, including AI-response checks. Not for multi-metric stakeholder reports — use performance-reporter; not for setting alerts — use alert-manager. 排名追踪/SERP监控."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

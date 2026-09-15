@@ -1,6 +1,6 @@
 ---
 name: "developer-churn"
-description: "When the user wants to understand, reduce, or recover from developer churn. Trigger phrases include \"why developers leave,\" \"churn rate,\" \"win-back campaign,\" \"at-risk users,\" \"developer retention,\" \"preventing churn,\" or \"competitor switching. Use when working with developer churn or related tasks in development/backend."
+description: "When the user wants to understand, reduce, or recover from developer churn. Trigger phrases include \\"why developers leave,\\" \\"churn rate,\\" \\"win-back campaign,\\" \\"at-risk users,\\" \\"developer retention,\\" \\"preventing churn,\\" or \\"competitor switching. Use when working with developer churn."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

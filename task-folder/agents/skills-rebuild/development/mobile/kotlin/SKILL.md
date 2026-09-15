@@ -1,6 +1,6 @@
 ---
 name: "kotlin"
-description: "Language-specific super-code guidelines for kotlin. Use when working with kotlin or related tasks in development/mobile."
+description: "Language-specific super-code guidelines for kotlin. Use when working with kotlin."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

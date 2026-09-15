@@ -1,6 +1,6 @@
 ---
 name: "social-calendar-system"
-description: "Operational template for building social content calendars with approvals. Use when working with social calendar system or related tasks in marketing-and-seo/cro."
+description: "Operational template for building social content calendars with approvals. Use when working with social calendar system."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

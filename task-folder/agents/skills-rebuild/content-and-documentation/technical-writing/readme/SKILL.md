@@ -1,6 +1,6 @@
 ---
 name: "readme"
-description: "You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough—the kind of documentation you wish every project had. Use when working with readme or related tasks in content-and-documentation/technical-writing."
+description: "You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough—the kind of documentation you wish every project had. Use when working with readme."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

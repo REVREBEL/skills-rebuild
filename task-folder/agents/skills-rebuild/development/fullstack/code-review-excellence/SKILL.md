@@ -1,6 +1,6 @@
 ---
 name: "code-review-excellence"
-description: "Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement. Use when working with code review excellence or related tasks in development/fullstack."
+description: "Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement. Use when working with code review excellence."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

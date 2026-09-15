@@ -1,6 +1,6 @@
 ---
 name: "journey-mapping"
-description: "Use to facilitate cross-functional journey mapping with data-backed insights. Use when working with journey mapping or related tasks in marketing-and-seo/cro."
+description: "Use to facilitate cross-functional journey mapping with data-backed insights. Use when working with journey mapping."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

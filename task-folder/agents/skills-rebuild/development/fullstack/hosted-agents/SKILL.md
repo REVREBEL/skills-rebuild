@@ -1,6 +1,6 @@
 ---
 name: "hosted-agents"
-description: "Build background agents in sandboxed environments. Use for hosted coding agents, sandboxed VMs, Modal sandboxes, and remote coding environments. Use when working with hosted agents or related tasks in development/fullstack."
+description: "Build background agents in sandboxed environments. Use for hosted coding agents, sandboxed VMs, Modal sandboxes, and remote coding environments. Use when working with hosted agents."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

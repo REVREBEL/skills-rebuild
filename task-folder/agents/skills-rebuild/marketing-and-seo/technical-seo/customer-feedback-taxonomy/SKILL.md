@@ -1,6 +1,6 @@
 ---
 name: "customer-feedback-taxonomy"
-description: "Standardized tagging schema for personas, lifecycle stages, drivers,. Use when working with customer feedback taxonomy or related tasks in marketing-and-seo/technical-seo."
+description: "Standardized tagging schema for personas, lifecycle stages, drivers,. Use when working with customer feedback taxonomy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

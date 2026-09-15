@@ -1,6 +1,6 @@
 ---
 name: "ui-lint"
-description: "Quick automated lint — detects common design system violations in seconds. Use when working with ui lint or related tasks in design-and-experience/design-systems."
+description: "Quick automated lint — detects common design system violations in seconds. Use when working with ui lint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

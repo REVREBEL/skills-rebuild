@@ -1,6 +1,6 @@
 ---
 name: "devops-troubleshooter"
-description: "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. Use when working with devops troubleshooter or related tasks in quality-and-security/debugging."
+description: "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. Use when working with devops troubleshooter."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

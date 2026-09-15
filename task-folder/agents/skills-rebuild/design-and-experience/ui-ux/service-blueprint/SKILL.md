@@ -1,6 +1,6 @@
 ---
 name: "service-blueprint"
-description: "Map the end-to-end service delivery system including frontstage actions, backstage processes, and supporting infrastructure. Use when working with service blueprint or related tasks in design-and-experience/ui-ux."
+description: "Map the end-to-end service delivery system including frontstage actions, backstage processes, and supporting infrastructure. Use when working with service blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

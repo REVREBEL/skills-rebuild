@@ -1,6 +1,6 @@
 ---
 name: "coaching-framework"
-description: "Use to structure competency rubrics, scoring guides, and coaching plan. Use when working with coaching framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to structure competency rubrics, scoring guides, and coaching plan. Use when working with coaching framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

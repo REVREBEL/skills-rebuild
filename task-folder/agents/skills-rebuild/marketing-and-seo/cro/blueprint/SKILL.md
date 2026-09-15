@@ -1,6 +1,6 @@
 ---
 name: "blueprint"
-description: "Execute blueprint tasks, workflows, and automated procedures. Use when working with blueprint or related tasks in marketing-and-seo/cro."
+description: "Execute blueprint tasks, workflows, and automated procedures. Use when working with blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

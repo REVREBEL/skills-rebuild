@@ -1,6 +1,6 @@
 ---
 name: "escalation"
-description: "Use to define incident tiers, response protocols, and stakeholder communications. Use when working with escalation or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to define incident tiers, response protocols, and stakeholder communications. Use when working with escalation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

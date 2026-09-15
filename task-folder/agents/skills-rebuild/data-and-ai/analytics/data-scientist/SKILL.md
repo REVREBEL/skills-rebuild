@@ -1,6 +1,6 @@
 ---
 name: "data-scientist"
-description: "Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence. Use when working with data scientist or related tasks in data-and-ai/analytics."
+description: "Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence. Use when working with data scientist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "unship"
-description: "Compare AI agent-made UI variants locally in a real app, then keep one and clean up unused temporary code. Use when working with unship or related tasks in development/fullstack."
+description: "Compare AI agent-made UI variants locally in a real app, then keep one and clean up unused temporary code. Use when working with unship."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "creative-iteration-playbook"
-description: "Framework for briefing, testing, and scaling social creative variations. Use when working with creative iteration playbook or related tasks in marketing-and-seo/content-and-campaigns."
+description: "Framework for briefing, testing, and scaling social creative variations. Use when working with creative iteration playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

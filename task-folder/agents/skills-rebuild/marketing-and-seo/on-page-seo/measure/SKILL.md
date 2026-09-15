@@ -1,6 +1,6 @@
 ---
 name: "measure"
-description: "Execute measure tasks, workflows, and automated procedures. Use when working with measure or related tasks in marketing-and-seo/on-page-seo."
+description: "Execute measure tasks, workflows, and automated procedures. Use when working with measure."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

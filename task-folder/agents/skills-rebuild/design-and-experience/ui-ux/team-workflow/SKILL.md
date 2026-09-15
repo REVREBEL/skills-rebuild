@@ -1,6 +1,6 @@
 ---
 name: "team-workflow"
-description: "Design team workflows covering task management, collaboration rituals, and tooling. Use when working with team workflow or related tasks in design-and-experience/ui-ux."
+description: "Design team workflows covering task management, collaboration rituals, and tooling. Use when working with team workflow."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

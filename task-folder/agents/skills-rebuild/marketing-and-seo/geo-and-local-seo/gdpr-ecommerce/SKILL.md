@@ -1,6 +1,6 @@
 ---
 name: "gdpr-ecommerce"
-description: "Make your store GDPR-compliant with cookie consent, customer data export on request, right-to-deletion workflows, and data processing agreements. Use when working with gdpr ecommerce or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Make your store GDPR-compliant with cookie consent, customer data export on request, right-to-deletion workflows, and data processing agreements. Use when working with gdpr ecommerce."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

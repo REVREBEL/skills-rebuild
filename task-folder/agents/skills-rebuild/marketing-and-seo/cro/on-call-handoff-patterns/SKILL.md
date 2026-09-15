@@ -1,6 +1,6 @@
 ---
 name: "on-call-handoff-patterns"
-description: "Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts. Use when working with on call handoff patterns or related tasks in marketing-and-seo/cro."
+description: "Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts. Use when working with on call handoff patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

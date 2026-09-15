@@ -1,6 +1,6 @@
 ---
 name: "wgm"
-description: "Turns a rough request into working software via a governed build loop: align first, plan, then iterate one task at a time with deterministic backpressure and holdout-scenario judging. Use when working with wgm or related tasks in development/backend."
+description: "Turns a rough request into working software via a governed build loop: align first, plan, then iterate one task at a time with deterministic backpressure and holdout-scenario judging. Use when working with wgm."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

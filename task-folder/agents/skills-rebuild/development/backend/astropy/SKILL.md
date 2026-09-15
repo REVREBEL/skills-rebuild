@@ -1,6 +1,6 @@
 ---
 name: "astropy"
-description: "Astropy is the core Python package for astronomy, providing essential functionality for astronomical research and data analysis. Use when working with astropy or related tasks in development/backend."
+description: "Astropy is the core Python package for astronomy, providing essential functionality for astronomical research and data analysis. Use when working with astropy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

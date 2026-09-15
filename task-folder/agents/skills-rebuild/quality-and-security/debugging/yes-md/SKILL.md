@@ -1,6 +1,6 @@
 ---
 name: "yes-md"
-description: "6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest. Use when working with yes md or related tasks in quality-and-security/debugging."
+description: "6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest. Use when working with yes md."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

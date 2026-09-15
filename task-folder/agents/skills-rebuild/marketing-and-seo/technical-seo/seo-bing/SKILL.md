@@ -1,6 +1,6 @@
 ---
 name: "seo-bing"
-description: "Bing Webmaster Tools + IndexNow extension. Microsoft Copilot citations are fed by the Bing index; this skill makes Bing visibility, link data, and IndexNow URL submission first-class. Use when working with seo bing or related tasks in marketing-and-seo/technical-seo."
+description: "Bing Webmaster Tools + IndexNow extension. Microsoft Copilot citations are fed by the Bing index; this skill makes Bing visibility, link data, and IndexNow URL submission first-class. Use when working with seo bing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

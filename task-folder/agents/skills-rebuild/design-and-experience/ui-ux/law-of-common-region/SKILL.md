@@ -1,6 +1,6 @@
 ---
 name: "law-of-common-region"
-description: "Apply the Law of Common Region to group elements using containers, backgrounds, and boundaries. Use when working with law of common region or related tasks in design-and-experience/ui-ux."
+description: "Apply the Law of Common Region to group elements using containers, backgrounds, and boundaries. Use when working with law of common region."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

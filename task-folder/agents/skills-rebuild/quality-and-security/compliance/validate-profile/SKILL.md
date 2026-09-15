@@ -1,6 +1,6 @@
 ---
 name: "validate-profile"
-description: "Validate a brand profile end-to-end — required fields, voice/audience completeness, connector reachability, credentials health, and compliance prerequisites — without exposing credential values. Run after any credential change or brand-profile edit. Use when working with validate profile or related tasks in quality-and-security/compliance."
+description: "Validate a brand profile end-to-end — required fields, voice/audience completeness, connector reachability, credentials health, and compliance prerequisites — without exposing credential values. Run after any credential change or brand-profile edit. Use when working with validate profile."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

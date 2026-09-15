@@ -1,6 +1,6 @@
 ---
 name: "market-sizing-analysis"
-description: "Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) for startup opportunities. Use when working with market sizing analysis or related tasks in business-and-operations/strategy."
+description: "Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) for startup opportunities. Use when working with market sizing analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

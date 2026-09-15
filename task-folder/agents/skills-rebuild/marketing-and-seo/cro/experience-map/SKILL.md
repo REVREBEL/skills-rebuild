@@ -1,6 +1,6 @@
 ---
 name: "experience-map"
-description: "Create a holistic experience map showing the full ecosystem of user touchpoints, channels, and relationships. Use when working with experience map or related tasks in marketing-and-seo/cro."
+description: "Create a holistic experience map showing the full ecosystem of user touchpoints, channels, and relationships. Use when working with experience map."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "channel-roadmap-kit"
-description: "Template system for building quarterly social channel roadmaps with KPIs. Use when working with channel roadmap kit or related tasks in marketing-and-seo/content-and-campaigns."
+description: "Template system for building quarterly social channel roadmaps with KPIs. Use when working with channel roadmap kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

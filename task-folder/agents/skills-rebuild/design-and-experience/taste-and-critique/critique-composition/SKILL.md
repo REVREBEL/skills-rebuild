@@ -1,6 +1,6 @@
 ---
 name: "critique-composition"
-description: "Critique a screen's composition — balance, whitespace, rhythm, and gestalt principles. Use when working with critique composition or related tasks in design-and-experience/taste-and-critique."
+description: "Critique a screen's composition — balance, whitespace, rhythm, and gestalt principles. Use when working with critique composition."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

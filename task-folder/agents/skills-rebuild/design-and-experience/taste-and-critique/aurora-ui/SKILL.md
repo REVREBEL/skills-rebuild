@@ -1,6 +1,6 @@
 ---
 name: "aurora-ui"
-description: "Web and App implementation guide for Aurora UI. Trigger when user wants gradient glows, color blobs, and atmospheric lighting effects. Use when working with aurora ui or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Aurora UI. Trigger when user wants gradient glows, color blobs, and atmospheric lighting effects. Use when working with aurora ui."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

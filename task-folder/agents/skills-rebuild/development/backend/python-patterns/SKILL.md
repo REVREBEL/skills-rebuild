@@ -1,6 +1,6 @@
 ---
 name: "python-patterns"
-description: "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying. Use when working with python patterns or related tasks in development/backend."
+description: "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying. Use when working with python patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

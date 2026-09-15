@@ -1,6 +1,6 @@
 ---
 name: "n8n-node-configuration"
-description: "Configure n8n node parameters, resolve operation dependencies, determine required properties, and apply expression syntax across core and community node families when building or troubleshooting node operations. Use when working with n8n node configuration or related tasks in workflow-and-automation/tool-integration."
+description: "Configure n8n node parameters, resolve operation dependencies, determine required properties, and apply expression syntax across core and community node families when building or troubleshooting node operations. Use when working with n8n node configuration."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

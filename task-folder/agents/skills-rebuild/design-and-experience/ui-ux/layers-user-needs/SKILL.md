@@ -1,6 +1,6 @@
 ---
 name: "layers-user-needs"
-description: "Techniques for eliciting and prioritising user needs, pains, and desires — the opportunities that feed product strategy. Use when working with layers user needs or related tasks in design-and-experience/ui-ux."
+description: "Techniques for eliciting and prioritising user needs, pains, and desires — the opportunities that feed product strategy. Use when working with layers user needs."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

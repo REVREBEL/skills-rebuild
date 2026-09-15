@@ -1,6 +1,6 @@
 ---
 name: "design-spells"
-description: "Curated micro-interactions and design details that add \"magic\" and personality to websites and apps. Use when working with design spells or related tasks in marketing-and-seo/cro."
+description: "Curated micro-interactions and design details that add \\"magic\\" and personality to websites and apps. Use when working with design spells."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "voice-of-customer"
-description: "Use to design, run, and synthesize customer feedback programs tied to. Use when working with voice of customer or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to design, run, and synthesize customer feedback programs tied to. Use when working with voice of customer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "screenshotone-automation"
-description: "Automate Screenshotone tasks via Rube MCP (Composio). Always search tools first for current schemas. Use when working with screenshotone automation or related tasks in marketing-and-seo/technical-seo."
+description: "Automate Screenshotone tasks via Rube MCP (Composio). Always search tools first for current schemas. Use when working with screenshotone automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

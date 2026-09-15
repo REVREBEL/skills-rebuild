@@ -1,6 +1,6 @@
 ---
 name: "api-designer"
-description: "Generates complete, production-ready REST API endpoint specifications for any system or domain the user describes. Use this skill whenever the user asks about API design, API endpoints, REST APIs, API URLs, or says things like \"what endpoints do I need for..\", \"design an API for..\",.. Use when working with api designer or related tasks in development/backend."
+description: "Generates complete, production-ready REST API endpoint specifications for any system or domain the user describes. Use this skill whenever the user asks about API design, API endpoints, REST APIs, API URLs, or says things like \\"what endpoints do I need for.\\", \\"design an API for.\\",. Use when working with api designer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

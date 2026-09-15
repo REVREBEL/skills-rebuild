@@ -1,6 +1,6 @@
 ---
 name: "documentation-generation-doc-generate"
-description: "You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices. Use when working with documentation generation doc generate or related tasks in content-and-documentation/technical-writing."
+description: "You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices. Use when working with documentation generation doc generate."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "logic-locate"
-description: "Locate the root cause of a CONFIRMED failure via backward-then-forward semi-formal tracing. Trigger when the user provides a stack trace, failing assertion, error message, or specific wrong-value observation — \"find the bug\", \"this test is failing\", \"track down this crash\", \"why is.. Use when working with logic locate or related tasks in development/fullstack."
+description: "Locate the root cause of a CONFIRMED failure via backward-then-forward semi-formal tracing. Trigger when the user provides a stack trace, failing assertion, error message, or specific wrong-value observation — \\"find the bug\\", \\"this test is failing\\", \\"track down this crash\\", \\"why is. Use when working with logic locate."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

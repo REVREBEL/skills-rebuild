@@ -1,6 +1,6 @@
 ---
 name: "pre-release-review"
-description: "Run a read-only pre-release review for deploy readiness, migrations, config, secrets, rollout order, rollback risk, and launch blockers. Use when working with pre release review or related tasks in development/fullstack."
+description: "Run a read-only pre-release review for deploy readiness, migrations, config, secrets, rollout order, rollback risk, and launch blockers. Use when working with pre release review."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "dev-to-hashnode"
-description: "When the user wants to publish on Dev.to, Hashnode, or other developer blogging platforms. Trigger phrases include \"Dev.to,\" \"Hashnode,\" \"developer blog,\" \"cross-posting,\" \"technical blogging,\" \"canonical URL,\" or \"developer content platform. Use when working with dev to hashnode or related tasks in marketing-and-seo/cro."
+description: "When the user wants to publish on Dev.to, Hashnode, or other developer blogging platforms. Trigger phrases include \\"Dev.to,\\" \\"Hashnode,\\" \\"developer blog,\\" \\"cross-posting,\\" \\"technical blogging,\\" \\"canonical URL,\\" or \\"developer content platform. Use when working with dev to hashnode."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

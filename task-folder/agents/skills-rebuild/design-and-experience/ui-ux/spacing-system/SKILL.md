@@ -1,6 +1,6 @@
 ---
 name: "spacing-system"
-description: "Create a consistent spacing system based on a base unit with contextual application rules. Use when working with spacing system or related tasks in design-and-experience/ui-ux."
+description: "Create a consistent spacing system based on a base unit with contextual application rules. Use when working with spacing system."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

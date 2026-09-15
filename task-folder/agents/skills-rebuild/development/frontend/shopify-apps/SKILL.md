@@ -1,6 +1,6 @@
 ---
 name: "shopify-apps"
-description: "Expert patterns for Shopify app development including Remix/React. Use when working with shopify apps or related tasks in development/frontend."
+description: "Expert patterns for Shopify app development including Remix/React. Use when working with shopify apps."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

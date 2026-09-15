@@ -1,6 +1,6 @@
 ---
 name: "win-loss-dataset"
-description: "Structure for capturing qualitative + quantitative win/loss insights. Use when working with win loss dataset or related tasks in marketing-and-seo/on-page-seo."
+description: "Structure for capturing qualitative + quantitative win/loss insights. Use when working with win loss dataset."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

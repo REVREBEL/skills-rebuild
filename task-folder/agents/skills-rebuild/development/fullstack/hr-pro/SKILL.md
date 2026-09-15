@@ -1,6 +1,6 @@
 ---
 name: "hr-pro"
-description: "Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations. Use when working with hr pro or related tasks in development/fullstack."
+description: "Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations. Use when working with hr pro."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

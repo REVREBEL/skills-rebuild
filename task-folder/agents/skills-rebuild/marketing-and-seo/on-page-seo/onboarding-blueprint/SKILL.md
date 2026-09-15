@@ -1,6 +1,6 @@
 ---
 name: "onboarding-blueprint"
-description: "Template for designing onboarding journeys, milestones, and measurement. Use when working with onboarding blueprint or related tasks in marketing-and-seo/on-page-seo."
+description: "Template for designing onboarding journeys, milestones, and measurement. Use when working with onboarding blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

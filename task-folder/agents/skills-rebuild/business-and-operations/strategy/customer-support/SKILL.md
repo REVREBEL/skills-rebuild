@@ -1,6 +1,6 @@
 ---
 name: "customer-support"
-description: "Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences. Use when working with customer support or related tasks in business-and-operations/strategy."
+description: "Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences. Use when working with customer support."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

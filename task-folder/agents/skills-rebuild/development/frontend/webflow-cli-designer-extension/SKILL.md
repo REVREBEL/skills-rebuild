@@ -1,6 +1,6 @@
 ---
 name: "webflow-cli-designer-extension"
-description: "Build Designer Extensions for custom Webflow Designer functionality. Lists available templates, initializes extension projects from templates (default/react/typescript-alt), bundles extensions for upload, and serves locally for development. Use when working with webflow cli designer extension or related tasks in development/frontend."
+description: "Build Designer Extensions for custom Webflow Designer functionality. Lists available templates, initializes extension projects from templates (default/react/typescript-alt), bundles extensions for upload, and serves locally for development. Use when working with webflow cli designer extension."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

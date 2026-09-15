@@ -1,6 +1,6 @@
 ---
 name: "llm-council"
-description: "Run Fireworks-hosted open-weight model councils that compare responses and synthesize a final answer. Use when working with llm council or related tasks in data-and-ai/llm-and-rag."
+description: "Run Fireworks-hosted open-weight model councils that compare responses and synthesize a final answer. Use when working with llm council."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

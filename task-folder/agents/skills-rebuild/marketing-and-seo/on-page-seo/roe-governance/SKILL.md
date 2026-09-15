@@ -1,6 +1,6 @@
 ---
 name: "roe-governance"
-description: "Use to codify sales rules of engagement, escalation paths, and exception. Use when working with roe governance or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to codify sales rules of engagement, escalation paths, and exception. Use when working with roe governance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

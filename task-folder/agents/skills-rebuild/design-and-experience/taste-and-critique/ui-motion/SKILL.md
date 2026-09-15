@@ -1,6 +1,6 @@
 ---
 name: "ui-motion"
-description: "Apply a named StyleSeed motion to a component — either one of the 5 personality seeds (Spring/Silk/Snap/Float/Pulse × entrance/exit/hover/press/layout) or a distinctive keyword move from the motion library (toggle-flip, toggle-curtain, reveal-blur, pop-in, shimmer, …). Translates vibe. Use when working with ui motion or related tasks in design-and-experience/taste-and-critique."
+description: "Apply a named StyleSeed motion to a component — either one of the 5 personality seeds (Spring/Silk/Snap/Float/Pulse × entrance/exit/hover/press/layout) or a distinctive keyword move from the motion library (toggle-flip, toggle-curtain, reveal-blur, pop-in, shimmer, …). Translates vibe. Use when working with ui motion."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

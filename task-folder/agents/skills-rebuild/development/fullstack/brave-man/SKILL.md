@@ -1,6 +1,6 @@
 ---
 name: "brave-man"
-description: "Runs a structured clarifying interview for new project requests before building. Instead of writing code, it outputs a fully specified prompt.md for a fresh agent session to execute, preventing expensive mistakes. Use when working with brave man or related tasks in development/fullstack."
+description: "Runs a structured clarifying interview for new project requests before building. Instead of writing code, it outputs a fully specified prompt.md for a fresh agent session to execute, preventing expensive mistakes. Use when working with brave man."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

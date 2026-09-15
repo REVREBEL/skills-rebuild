@@ -1,6 +1,6 @@
 ---
 name: "browser-automation"
-description: "Browser automation powers web testing, scraping, and AI agent. Use when working with browser automation or related tasks in quality-and-security/testing."
+description: "Browser automation powers web testing, scraping, and AI agent. Use when working with browser automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

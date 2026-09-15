@@ -1,6 +1,6 @@
 ---
 name: "renewal-playbooks"
-description: "Use to design and maintain structured renewal/save motions across segments. Use when working with renewal playbooks or related tasks in marketing-and-seo/cro."
+description: "Use to design and maintain structured renewal/save motions across segments. Use when working with renewal playbooks."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "conductor-new-track"
-description: "Create a new track with specification and phased implementation plan. Use when working with conductor new track or related tasks in development/fullstack."
+description: "Create a new track with specification and phased implementation plan. Use when working with conductor new track."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "design-review-process"
-description: "Establish design review gates with criteria, checklists, and approval workflows. Use when working with design review process or related tasks in design-and-experience/taste-and-critique."
+description: "Establish design review gates with criteria, checklists, and approval workflows. Use when working with design review process."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

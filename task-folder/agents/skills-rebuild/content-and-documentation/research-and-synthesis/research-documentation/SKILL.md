@@ -1,6 +1,6 @@
 ---
 name: "research-documentation"
-description: "Research topics and produce comprehensive written documentation. Synthesizes information into clear, well-structured, authoritative content pieces. Use when working with research documentation or related tasks in content-and-documentation/research-and-synthesis."
+description: "Research topics and produce comprehensive written documentation. Synthesizes information into clear, well-structured, authoritative content pieces. Use when working with research documentation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

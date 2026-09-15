@@ -1,6 +1,6 @@
 ---
 name: "evolution"
-description: "This skill enables makepad-skills to self-improve continuously during development. Use when working with evolution or related tasks in development/fullstack."
+description: "This skill enables makepad-skills to self-improve continuously during development. Use when working with evolution."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

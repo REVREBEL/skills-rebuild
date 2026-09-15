@@ -1,6 +1,6 @@
 ---
 name: "seo-forensic-incident-response"
-description: "Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan. Use when working with seo forensic incident response or related tasks in marketing-and-seo/on-page-seo."
+description: "Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan. Use when working with seo forensic incident response."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

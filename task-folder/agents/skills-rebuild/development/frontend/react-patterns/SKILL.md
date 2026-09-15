@@ -1,6 +1,6 @@
 ---
 name: "react-patterns"
-description: "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices. Use when working with react patterns or related tasks in development/frontend."
+description: "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices. Use when working with react patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

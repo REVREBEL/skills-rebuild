@@ -1,6 +1,6 @@
 ---
 name: "email-marketing-automation"
-description: "Build automated email flows for welcome series, post-purchase follow-ups, win-back campaigns, and browse abandonment to drive repeat revenue. Use when working with email marketing automation or related tasks in development/fullstack."
+description: "Build automated email flows for welcome series, post-purchase follow-ups, win-back campaigns, and browse abandonment to drive repeat revenue. Use when working with email marketing automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

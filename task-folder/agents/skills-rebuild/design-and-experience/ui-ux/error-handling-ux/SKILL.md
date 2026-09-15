@@ -1,6 +1,6 @@
 ---
 name: "error-handling-ux"
-description: "Design error prevention, detection, and recovery experiences. Use when working with error handling ux or related tasks in design-and-experience/ui-ux."
+description: "Design error prevention, detection, and recovery experiences. Use when working with error handling ux."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

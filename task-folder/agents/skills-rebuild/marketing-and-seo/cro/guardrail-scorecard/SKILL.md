@@ -1,6 +1,6 @@
 ---
 name: "guardrail-scorecard"
-description: "Framework for defining, monitoring, and enforcing guardrail metrics across. Use when working with guardrail scorecard or related tasks in marketing-and-seo/cro."
+description: "Framework for defining, monitoring, and enforcing guardrail metrics across. Use when working with guardrail scorecard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

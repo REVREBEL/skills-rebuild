@@ -1,6 +1,6 @@
 ---
 name: "ai-native-ui"
-description: "Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics. Use when working with ai native ui or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics. Use when working with ai native ui."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

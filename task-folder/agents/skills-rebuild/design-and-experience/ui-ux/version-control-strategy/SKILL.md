@@ -1,6 +1,6 @@
 ---
 name: "version-control-strategy"
-description: "Define version control strategies for design files, components, and libraries. Use when working with version control strategy or related tasks in design-and-experience/ui-ux."
+description: "Define version control strategies for design files, components, and libraries. Use when working with version control strategy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

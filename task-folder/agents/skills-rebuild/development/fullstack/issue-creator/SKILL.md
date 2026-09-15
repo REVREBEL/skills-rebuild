@@ -1,6 +1,6 @@
 ---
 name: "issue-creator"
-description: "Turn error logs, screenshots, voice notes, and rough bug reports into crisp, developer-ready GitHub issues with repro steps, impact, and evidence. Use when working with issue creator or related tasks in development/fullstack."
+description: "Turn error logs, screenshots, voice notes, and rough bug reports into crisp, developer-ready GitHub issues with repro steps, impact, and evidence. Use when working with issue creator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

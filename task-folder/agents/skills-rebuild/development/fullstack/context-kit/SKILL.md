@@ -1,6 +1,6 @@
 ---
 name: "context-kit"
-description: "Evaluate, adapt, and safely install Context Kit personal context artifacts for the agent or adjacent agent workflows. Use when working with context kit or related tasks in development/fullstack."
+description: "Evaluate, adapt, and safely install Context Kit personal context artifacts for the agent or adjacent agent workflows. Use when working with context kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

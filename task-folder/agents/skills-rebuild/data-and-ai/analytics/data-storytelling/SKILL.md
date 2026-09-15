@@ -1,6 +1,6 @@
 ---
 name: "data-storytelling"
-description: "Transform raw data into compelling narratives that drive decisions and inspire action. Use when working with data storytelling or related tasks in data-and-ai/analytics."
+description: "Transform raw data into compelling narratives that drive decisions and inspire action. Use when working with data storytelling."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "presentation-builder"
-description: "Create and edit presentation documents with full formatting. Handles slide creation, layouts, animations, and speaker notes programmatically. Use when working with presentation builder or related tasks in design-and-experience/motion-and-graphics."
+description: "Create and edit presentation documents with full formatting. Handles slide creation, layouts, animations, and speaker notes programmatically. Use when working with presentation builder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

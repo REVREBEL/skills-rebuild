@@ -1,6 +1,6 @@
 ---
 name: "api-and-interface-design"
-description: "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend."
+description: "Design RESTful and RPC API contracts, interface specifications, and versioning strategies. Use when defining API interfaces, schemas, or contract boundaries."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

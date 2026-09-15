@@ -1,6 +1,6 @@
 ---
 name: "shader-programming-glsl"
-description: "Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects. Use when working with shader programming glsl or related tasks in design-and-experience/motion-and-graphics."
+description: "Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects. Use when working with shader programming glsl."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

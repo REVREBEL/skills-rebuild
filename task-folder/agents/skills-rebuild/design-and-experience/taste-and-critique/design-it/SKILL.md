@@ -1,6 +1,6 @@
 ---
 name: "design-it"
-description: "Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requesting a specific aesthetic. Use when working with design it or related tasks in design-and-experience/taste-and-critique."
+description: "Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requesting a specific aesthetic. Use when working with design it."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

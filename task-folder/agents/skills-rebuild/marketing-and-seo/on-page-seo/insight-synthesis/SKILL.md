@@ -1,6 +1,6 @@
 ---
 name: "insight-synthesis"
-description: "Use to convert raw customer feedback into compelling narratives, themes,. Use when working with insight synthesis or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to convert raw customer feedback into compelling narratives, themes,. Use when working with insight synthesis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "audio-transcriber"
-description: "Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration. Use when working with audio transcriber or related tasks in data-and-ai/llm-and-rag."
+description: "Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration. Use when working with audio transcriber."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

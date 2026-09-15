@@ -1,6 +1,6 @@
 ---
 name: "gemini-interactions-api"
-description: "Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, streaming responses, background research tasks, function calling, structured output, or migrating from the old generateContent.. Use when working with gemini interactions api or related tasks in data-and-ai/machine-learning."
+description: "Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, streaming responses, background research tasks, function calling, structured output, or migrating from the old generateContent. Use when working with gemini interactions api."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

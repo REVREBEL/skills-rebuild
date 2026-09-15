@@ -1,6 +1,6 @@
 ---
 name: "material-design"
-description: "Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components. Use when working with material design or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components. Use when working with material design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

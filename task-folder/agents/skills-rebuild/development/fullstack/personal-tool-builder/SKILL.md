@@ -1,6 +1,6 @@
 ---
 name: "personal-tool-builder"
-description: "Expert in building custom tools that solve your own problems first. Use when working with personal tool builder or related tasks in development/fullstack."
+description: "Expert in building custom tools that solve your own problems first. Use when working with personal tool builder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

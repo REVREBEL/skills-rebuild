@@ -1,6 +1,6 @@
 ---
 name: "member-insights"
-description: "Use to analyze loyalty member behavior, segmentation, and experiment. Use when working with member insights or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Use to analyze loyalty member behavior, segmentation, and experiment. Use when working with member insights."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

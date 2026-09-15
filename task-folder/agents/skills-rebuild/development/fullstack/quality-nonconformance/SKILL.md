@@ -1,6 +1,6 @@
 ---
 name: "quality-nonconformance"
-description: "Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing. Use when working with quality nonconformance or related tasks in development/fullstack."
+description: "Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing. Use when working with quality nonconformance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

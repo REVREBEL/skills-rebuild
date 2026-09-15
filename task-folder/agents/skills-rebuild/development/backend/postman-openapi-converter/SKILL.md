@@ -1,6 +1,6 @@
 ---
 name: "postman-openapi-converter"
-description: "Convert OpenAPI 3.x or Swagger 2.0 specs (YAML or JSON) into complete, import-ready Postman Collection v2.1 JSON files. Use this skill whenever the user provides or references an OpenAPI spec, Swagger file, openapi.yaml, swagger.json, or uses phrases like \"convert my OpenAPI spec\",.. Use when working with postman openapi converter or related tasks in development/backend."
+description: "Convert OpenAPI 3.x or Swagger 2.0 specs (YAML or JSON) into complete, import-ready Postman Collection v2.1 JSON files. Use this skill whenever the user provides or references an OpenAPI spec, Swagger file, openapi.yaml, swagger.json, or uses phrases like \\"convert my OpenAPI spec\\",. Use when working with postman openapi converter."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "evaluate"
-description: "Execute evaluate tasks, workflows, and automated procedures. Use when working with evaluate or related tasks in design-and-experience/ui-ux."
+description: "Execute evaluate tasks, workflows, and automated procedures. Use when working with evaluate."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

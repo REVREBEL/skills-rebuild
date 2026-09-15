@@ -1,6 +1,6 @@
 ---
 name: "postgresql-table-design"
-description: "Use this skill when designing or reviewing a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features. Use when working with postgresql table design or related tasks in development/backend."
+description: "Use this skill when designing or reviewing a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features. Use when working with postgresql table design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "variance-analysis"
-description: "Use to attribute forecast vs actual deltas and recommend remediation. Use when working with variance analysis or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to attribute forecast vs actual deltas and recommend remediation. Use when working with variance analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

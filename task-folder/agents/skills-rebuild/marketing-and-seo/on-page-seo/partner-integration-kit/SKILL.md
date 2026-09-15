@@ -1,6 +1,6 @@
 ---
 name: "partner-integration-kit"
-description: "Toolkit for coordinating system integrators, OEM partners, and service. Use when working with partner integration kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Toolkit for coordinating system integrators, OEM partners, and service. Use when working with partner integration kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

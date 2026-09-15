@@ -1,6 +1,6 @@
 ---
 name: "validation-rulebook"
-description: "Use to define validation, freshness, and compliance checks for enriched. Use when working with validation rulebook or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to define validation, freshness, and compliance checks for enriched. Use when working with validation rulebook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

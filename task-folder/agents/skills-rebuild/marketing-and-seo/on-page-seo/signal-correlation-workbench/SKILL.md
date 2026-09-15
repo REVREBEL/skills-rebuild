@@ -1,6 +1,6 @@
 ---
 name: "signal-correlation-workbench"
-description: "Toolkit for linking VoC feedback with telemetry, revenue, and operational. Use when working with signal correlation workbench or related tasks in marketing-and-seo/on-page-seo."
+description: "Toolkit for linking VoC feedback with telemetry, revenue, and operational. Use when working with signal correlation workbench."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

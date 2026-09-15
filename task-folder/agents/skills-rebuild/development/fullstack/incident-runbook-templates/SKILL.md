@@ -1,6 +1,6 @@
 ---
 name: "incident-runbook-templates"
-description: "Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication. Use when working with incident runbook templates or related tasks in development/fullstack."
+description: "Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication. Use when working with incident runbook templates."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

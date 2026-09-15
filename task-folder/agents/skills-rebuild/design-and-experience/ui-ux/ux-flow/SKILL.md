@@ -1,6 +1,6 @@
 ---
 name: "ux-flow"
-description: "Design user flows and navigation structure following proven UX patterns. Use when working with ux flow or related tasks in design-and-experience/ui-ux."
+description: "Design user flows and navigation structure following proven UX patterns. Use when working with ux flow."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

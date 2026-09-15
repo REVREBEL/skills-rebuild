@@ -1,6 +1,6 @@
 ---
 name: "exec-briefing"
-description: "Use to craft concise executive updates, agendas, and follow-up logs for. Use when working with exec briefing or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to craft concise executive updates, agendas, and follow-up logs for. Use when working with exec briefing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

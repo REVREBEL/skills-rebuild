@@ -1,6 +1,6 @@
 ---
 name: "lookdev"
-description: "Human-in-the-loop web studio to tune AI-generated output by eye. Stand up a local interactive studio (sliders, pickers, drag handles) or an inline edit/highlight/comment annotation studio for prose & media, instead of guessing values or shipping a static comparison grid. Use when working with lookdev or related tasks in design-and-experience/ui-ux."
+description: "Human-in-the-loop web studio to tune AI-generated output by eye. Stand up a local interactive studio (sliders, pickers, drag handles) or an inline edit/highlight/comment annotation studio for prose & media, instead of guessing values or shipping a static comparison grid. Use when working with lookdev."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

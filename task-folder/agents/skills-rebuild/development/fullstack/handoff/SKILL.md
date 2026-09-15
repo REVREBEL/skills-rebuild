@@ -1,6 +1,6 @@
 ---
 name: "handoff"
-description: "Compact the current conversation into a handoff document for another agent to pick up. Use when working with handoff or related tasks in development/fullstack."
+description: "Compact the current conversation into a handoff document for another agent to pick up. Use when working with handoff."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

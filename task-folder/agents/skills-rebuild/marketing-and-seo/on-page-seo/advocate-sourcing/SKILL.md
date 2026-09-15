@@ -1,6 +1,6 @@
 ---
 name: "advocate-sourcing"
-description: "Use to identify, score, and prioritize customer advocates for programs. Use when working with advocate sourcing or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to identify, score, and prioritize customer advocates for programs. Use when working with advocate sourcing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

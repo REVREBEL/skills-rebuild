@@ -1,6 +1,6 @@
 ---
 name: "content-strategy"
-description: "Define what content a product needs, how it should be structured, and who owns it. Use when working with content strategy or related tasks in design-and-experience/ui-ux."
+description: "Define what content a product needs, how it should be structured, and who owns it. Use when working with content strategy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

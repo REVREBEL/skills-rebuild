@@ -1,6 +1,6 @@
 ---
 name: "value-messaging"
-description: "Use to map pricing/packaging tiers to tailored value pillars, proof,. Use when working with value messaging or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to map pricing/packaging tiers to tailored value pillars, proof,. Use when working with value messaging."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

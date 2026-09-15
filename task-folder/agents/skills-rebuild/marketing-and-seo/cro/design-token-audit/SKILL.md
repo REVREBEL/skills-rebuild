@@ -1,6 +1,6 @@
 ---
 name: "design-token-audit"
-description: "Audit design token usage across a product for consistency and coverage. Use when working with design token audit or related tasks in marketing-and-seo/cro."
+description: "Audit design token usage across a product for consistency and coverage. Use when working with design token audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "error-diagnostics-error-trace"
-description: "You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging,. Use when working with error diagnostics error trace or related tasks in quality-and-security/debugging."
+description: "You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging,. Use when working with error diagnostics error trace."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

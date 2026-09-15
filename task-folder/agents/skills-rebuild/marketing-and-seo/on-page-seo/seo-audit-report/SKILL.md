@@ -1,6 +1,6 @@
 ---
 name: "seo-audit-report"
-description: "Document how to scaffold a Vite+React SEO audit report that ingest Search Console data, stores it in sql.js, and visualizes query/page KPIs. Use when working with seo audit report or related tasks in marketing-and-seo/on-page-seo."
+description: "Document how to scaffold a Vite+React SEO audit report that ingest Search Console data, stores it in sql.js, and visualizes query/page KPIs. Use when working with seo audit report."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

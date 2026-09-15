@@ -1,6 +1,6 @@
 ---
 name: "jobgpt"
-description: "Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server. Use when working with jobgpt or related tasks in development/fullstack."
+description: "Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server. Use when working with jobgpt."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

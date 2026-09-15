@@ -1,6 +1,6 @@
 ---
 name: "tech-matrix"
-description: "Reference document for monopoly tech-matrix. Use when working with tech matrix or related tasks in business-and-operations/strategy."
+description: "Reference document for monopoly tech-matrix. Use when working with tech matrix."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

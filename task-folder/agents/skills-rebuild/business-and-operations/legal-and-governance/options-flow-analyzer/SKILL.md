@@ -1,6 +1,6 @@
 ---
 name: "options-flow-analyzer"
-description: "Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise. Use when working with options flow analyzer or related tasks in business-and-operations/legal-and-governance."
+description: "Analyze equity options market flow, order book activity, and volume anomalies. Use when tracking institutional flow, unusual options volume, or sentiment indicators."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

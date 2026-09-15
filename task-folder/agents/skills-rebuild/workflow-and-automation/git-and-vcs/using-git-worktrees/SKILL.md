@@ -1,6 +1,6 @@
 ---
 name: "using-git-worktrees"
-description: "Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneously without switching. Use when working with using git worktrees or related tasks in workflow-and-automation/git-and-vcs."
+description: "Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneously without switching. Use when working with using git worktrees."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

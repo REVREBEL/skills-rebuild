@@ -1,6 +1,6 @@
 ---
 name: "setup-help"
-description: "Walk a user through setup or installation one step at a time with the remaining steps visible. Use when working with setup help or related tasks in development/fullstack."
+description: "Walk a user through setup or installation one step at a time with the remaining steps visible. Use when working with setup help."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

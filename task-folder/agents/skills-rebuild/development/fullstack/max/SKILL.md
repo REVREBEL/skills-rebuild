@@ -1,6 +1,6 @@
 ---
 name: "max"
-description: "Cleans up and improves existing code without changing behavior. Use when working with max or related tasks in development/fullstack."
+description: "Cleans up and improves existing code without changing behavior. Use when working with max."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

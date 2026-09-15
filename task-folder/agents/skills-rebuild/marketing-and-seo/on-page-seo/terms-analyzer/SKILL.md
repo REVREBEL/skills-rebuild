@@ -1,6 +1,6 @@
 ---
 name: "terms-analyzer"
-description: "Analyze terms of service and privacy policies to identify concerning clauses, hidden permissions, and user rights implications. Use when working with terms analyzer or related tasks in marketing-and-seo/on-page-seo."
+description: "Analyze terms of service and privacy policies to identify concerning clauses, hidden permissions, and user rights implications. Use when working with terms analyzer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

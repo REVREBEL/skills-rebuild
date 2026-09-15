@@ -1,6 +1,6 @@
 ---
 name: "multi-advisor"
-description: "Conselho de especialistas — consulta multiplos agentes do ecossistema em paralelo para analise multi-perspectiva de qualquer topico. Ativa personas, especialistas e agentes tecnicos simultaneamente, cada um pela sua otica unica, e consolida em sintese decisoria final. Use when working with multi advisor or related tasks in development/software-architecture."
+description: "Conselho de especialistas — consulta multiplos agentes do ecossistema em paralelo para analise multi-perspectiva de qualquer topico. Ativa personas, especialistas e agentes tecnicos simultaneamente, cada um pela sua otica unica, e consolida em sintese decisoria final. Use when working with multi advisor."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

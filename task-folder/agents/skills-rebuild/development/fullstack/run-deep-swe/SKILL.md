@@ -1,6 +1,6 @@
 ---
 name: "run-deep-swe"
-description: "Run reproducible DeepSWE coding-agent benchmark evaluations through OpenRouter and mini-swe-agent. Use when working with run deep swe or related tasks in development/fullstack."
+description: "Run reproducible DeepSWE coding-agent benchmark evaluations through OpenRouter and mini-swe-agent. Use when working with run deep swe."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

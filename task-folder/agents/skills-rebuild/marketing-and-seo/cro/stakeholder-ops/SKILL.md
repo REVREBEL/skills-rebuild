@@ -1,6 +1,6 @@
 ---
 name: "stakeholder-ops"
-description: "Use to coordinate approvals, communications, and accountability across. Use when working with stakeholder ops or related tasks in marketing-and-seo/cro."
+description: "Use to coordinate approvals, communications, and accountability across. Use when working with stakeholder ops."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "webflow-code-component-pre-deploy-check"
-description: "Pre-deployment validation for Webflow Code Components. Checks bundle size, dependencies, prop configurations, SSR compatibility, styling setup, and common issues before running webflow library share. Use when working with webflow code component pre deploy check or related tasks in design-and-experience/ui-ux."
+description: "Pre-deployment validation for Webflow Code Components. Checks bundle size, dependencies, prop configurations, SSR compatibility, styling setup, and common issues before running webflow library share. Use when working with webflow code component pre deploy check."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

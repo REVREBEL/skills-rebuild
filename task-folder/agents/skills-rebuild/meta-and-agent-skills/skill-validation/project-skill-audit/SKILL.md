@@ -1,6 +1,6 @@
 ---
 name: "project-skill-audit"
-description: "Audit a project and recommend the highest-value skills to add or update. Use when working with project skill audit or related tasks in meta-and-agent-skills/skill-validation."
+description: "Audit a project and recommend the highest-value skills to add or update. Use when working with project skill audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

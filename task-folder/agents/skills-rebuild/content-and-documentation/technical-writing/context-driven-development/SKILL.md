@@ -1,6 +1,6 @@
 ---
 name: "context-driven-development"
-description: "Guide for implementing and maintaining context as a managed artifact alongside code, enabling consistent AI interactions and team alignment through structured project documentation. Use when working with context driven development or related tasks in content-and-documentation/technical-writing."
+description: "Guide for implementing and maintaining context as a managed artifact alongside code, enabling consistent AI interactions and team alignment through structured project documentation. Use when working with context driven development."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

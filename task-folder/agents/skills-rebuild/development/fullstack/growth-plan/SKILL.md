@@ -1,6 +1,6 @@
 ---
 name: "growth-plan"
-description: "Produce the 11-section Growth Plan — the flagship Part 8 client-facing deliverable that synthesises the entire engagement into a single executable strategy. Use when working with growth plan or related tasks in development/fullstack."
+description: "Produce the 11-section Growth Plan — the flagship Part 8 client-facing deliverable that synthesises the entire engagement into a single executable strategy. Use when working with growth plan."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "asset-audit"
-description: "Analyze assets on a Webflow site for SEO optimization. Identifies assets missing alt text and assets with non-SEO-friendly names, then generates and applies improvements. Use when working with asset audit or related tasks in marketing-and-seo/on-page-seo."
+description: "Analyze assets on a Webflow site for SEO optimization. Identifies assets missing alt text and assets with non-SEO-friendly names, then generates and applies improvements. Use when working with asset audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

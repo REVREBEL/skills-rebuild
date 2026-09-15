@@ -1,6 +1,6 @@
 ---
 name: "go"
-description: "Language-specific super-code guidelines for go. Use when working with go or related tasks in development/backend."
+description: "Language-specific super-code guidelines for go. Use when working with go."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

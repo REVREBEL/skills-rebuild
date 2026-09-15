@@ -1,6 +1,6 @@
 ---
 name: "handoff-spec"
-description: "Create developer handoff specifications with measurements, behaviors, assets, and edge cases. Use when working with handoff spec or related tasks in design-and-experience/ui-ux."
+description: "Create developer handoff specifications with measurements, behaviors, assets, and edge cases. Use when working with handoff spec."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

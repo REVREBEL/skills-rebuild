@@ -1,6 +1,6 @@
 ---
 name: "efficient-web-research"
-description: "Execute efficient-web-research tasks, workflows, and automated procedures. Use when working with efficient web research or related tasks in development/systems."
+description: "Execute efficient-web-research tasks, workflows, and automated procedures. Use when working with efficient web research."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

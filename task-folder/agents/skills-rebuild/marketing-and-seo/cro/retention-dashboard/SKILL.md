@@ -1,6 +1,6 @@
 ---
 name: "retention-dashboard"
-description: "Use to visualize churn, expansion, and health metrics across cohorts. Use when working with retention dashboard or related tasks in marketing-and-seo/cro."
+description: "Use to visualize churn, expansion, and health metrics across cohorts. Use when working with retention dashboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

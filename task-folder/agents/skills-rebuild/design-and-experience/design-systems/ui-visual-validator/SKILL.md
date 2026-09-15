@@ -1,6 +1,6 @@
 ---
 name: "ui-visual-validator"
-description: "Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification. Use when working with ui visual validator or related tasks in design-and-experience/design-systems."
+description: "Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification. Use when working with ui visual validator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

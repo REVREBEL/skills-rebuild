@@ -1,6 +1,6 @@
 ---
 name: "brand-voice-glossary"
-description: "Tone, diction, and phrasebook system for consistent writing + localization. Use when working with brand voice glossary or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Tone, diction, and phrasebook system for consistent writing + localization. Use when working with brand voice glossary."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "von-restorff-effect"
-description: "Apply the Von Restorff Effect to make the most important element distinctly different from its surroundings. Use when working with von restorff effect or related tasks in design-and-experience/ui-ux."
+description: "Apply the Von Restorff Effect to make the most important element distinctly different from its surroundings. Use when working with von restorff effect."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

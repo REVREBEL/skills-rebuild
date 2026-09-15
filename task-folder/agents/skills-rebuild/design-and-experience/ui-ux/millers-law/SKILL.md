@@ -1,6 +1,6 @@
 ---
 name: "millers-law"
-description: "Apply Miller's Law — chunk information into groups of ~4 to work within working memory limits. Use when working with millers law or related tasks in design-and-experience/ui-ux."
+description: "Apply Miller's Law — chunk information into groups of ~4 to work within working memory limits. Use when working with millers law."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

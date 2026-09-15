@@ -1,6 +1,6 @@
 ---
 name: "design-debt-audit"
-description: "Identify, categorize, and prioritize accumulated design inconsistencies and structural problems across a product. Use when working with design debt audit or related tasks in marketing-and-seo/cro."
+description: "Identify, categorize, and prioritize accumulated design inconsistencies and structural problems across a product. Use when working with design debt audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

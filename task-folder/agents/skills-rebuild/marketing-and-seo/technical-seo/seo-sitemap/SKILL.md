@@ -1,6 +1,6 @@
 ---
 name: "seo-sitemap"
-description: "Execute seo-sitemap tasks, workflows, and automated procedures. Use when working with seo sitemap or related tasks in marketing-and-seo/technical-seo."
+description: "Execute seo-sitemap tasks, workflows, and automated procedures. Use when working with seo sitemap."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

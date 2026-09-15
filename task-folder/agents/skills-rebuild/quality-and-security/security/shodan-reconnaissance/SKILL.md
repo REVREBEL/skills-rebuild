@@ -1,6 +1,6 @@
 ---
 name: "shodan-reconnaissance"
-description: "Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements. Use when working with shodan reconnaissance or related tasks in quality-and-security/security."
+description: "Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements. Use when working with shodan reconnaissance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

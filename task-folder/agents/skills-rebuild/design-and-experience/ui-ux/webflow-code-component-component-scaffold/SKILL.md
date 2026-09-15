@@ -1,6 +1,6 @@
 ---
 name: "webflow-code-component-component-scaffold"
-description: "Generate new Webflow Code Component boilerplate with React component, definition file, and optional styling. Automatically checks prerequisites and can set up missing config/dependencies. Use when working with webflow code component component scaffold or related tasks in design-and-experience/ui-ux."
+description: "Generate new Webflow Code Component boilerplate with React component, definition file, and optional styling. Automatically checks prerequisites and can set up missing config/dependencies. Use when working with webflow code component component scaffold."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

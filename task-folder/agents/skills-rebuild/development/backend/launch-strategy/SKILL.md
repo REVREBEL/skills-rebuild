@@ -1,6 +1,6 @@
 ---
 name: "launch-strategy"
-description: "You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users. Use when working with launch strategy or related tasks in development/backend."
+description: "You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users. Use when working with launch strategy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

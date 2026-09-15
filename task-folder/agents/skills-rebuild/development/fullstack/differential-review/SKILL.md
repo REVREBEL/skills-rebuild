@@ -1,6 +1,6 @@
 ---
 name: "differential-review"
-description: "Security-focused code review for PRs, commits, and diffs. Use when working with differential review or related tasks in development/fullstack."
+description: "Security-focused code review for PRs, commits, and diffs. Use when working with differential review."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

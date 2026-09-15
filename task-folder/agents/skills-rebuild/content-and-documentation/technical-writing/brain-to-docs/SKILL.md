@@ -1,6 +1,6 @@
 ---
 name: "brain-to-docs"
-description: "Interview the user to turn project vision and decisions into README and ADR documentation. Use when working with brain to docs or related tasks in content-and-documentation/technical-writing."
+description: "Interview the user to turn project vision and decisions into README and ADR documentation. Use when working with brain to docs."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "ai-dev-jobs-mcp"
-description: "Search 8,400+ AI and ML jobs across 489 companies, inspect listings and employers, match roles, and view salary and market stats via AI Dev Jobs MCP. Use when working with ai dev jobs mcp or related tasks in marketing-and-seo/cro."
+description: "Search 8,400+ AI and ML jobs across 489 companies, inspect listings and employers, match roles, and view salary and market stats via AI Dev Jobs MCP. Use when working with ai dev jobs mcp."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

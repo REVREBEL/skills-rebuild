@@ -1,6 +1,6 @@
 ---
 name: "meta-ads-integration"
-description: "Set up and optimize Meta (Facebook/Instagram) ad campaigns with Conversions API server-side tracking, dynamic product ads, and catalog sync for ecommerce. Use when working with meta ads integration or related tasks in development/backend."
+description: "Set up and optimize Meta (Facebook/Instagram) ad campaigns with Conversions API server-side tracking, dynamic product ads, and catalog sync for ecommerce. Use when working with meta ads integration."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

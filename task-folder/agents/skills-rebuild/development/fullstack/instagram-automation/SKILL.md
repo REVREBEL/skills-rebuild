@@ -1,6 +1,6 @@
 ---
 name: "instagram-automation"
-description: "Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas. Use when working with instagram automation or related tasks in development/fullstack."
+description: "Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas. Use when working with instagram automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

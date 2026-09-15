@@ -1,6 +1,6 @@
 ---
 name: "issues"
-description: "Interact with GitHub issues - create, list, and view issues. Use when working with issues or related tasks in development/fullstack."
+description: "Interact with GitHub issues - create, list, and view issues. Use when working with issues."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

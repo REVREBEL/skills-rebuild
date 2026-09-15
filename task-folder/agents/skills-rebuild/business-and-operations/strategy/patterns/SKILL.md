@@ -1,6 +1,6 @@
 ---
 name: "patterns"
-description: "Reference document for monopoly patterns. Use when working with patterns or related tasks in business-and-operations/strategy."
+description: "Reference document for monopoly patterns. Use when working with patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

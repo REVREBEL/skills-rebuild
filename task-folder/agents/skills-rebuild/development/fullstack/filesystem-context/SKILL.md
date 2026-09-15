@@ -1,6 +1,6 @@
 ---
 name: "filesystem-context"
-description: "Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading. Use when working with filesystem context or related tasks in development/fullstack."
+description: "Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading. Use when working with filesystem context."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

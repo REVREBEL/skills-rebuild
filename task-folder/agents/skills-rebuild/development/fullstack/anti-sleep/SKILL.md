@@ -1,6 +1,6 @@
 ---
 name: "anti-sleep"
-description: "Keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. Use when working with anti sleep or related tasks in development/fullstack."
+description: "Keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. Use when working with anti sleep."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

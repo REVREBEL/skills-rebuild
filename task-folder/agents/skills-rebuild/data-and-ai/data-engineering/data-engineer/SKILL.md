@@ -1,6 +1,6 @@
 ---
 name: "data-engineer"
-description: "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms. Use when working with data engineer or related tasks in data-and-ai/data-engineering."
+description: "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms. Use when working with data engineer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

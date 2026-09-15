@@ -1,6 +1,6 @@
 ---
 name: "commit"
-description: "ALWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task. Use when working with commit or related tasks in development/fullstack."
+description: "ALWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task. Use when working with commit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "gdpr-data-handling"
-description: "Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls. Use when working with gdpr data handling or related tasks in development/fullstack."
+description: "Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls. Use when working with gdpr data handling."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

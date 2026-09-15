@@ -1,6 +1,6 @@
 ---
 name: "micro-interaction-spec"
-description: "Specify micro-interactions with trigger, rules, feedback, and loop/mode definitions. Use when working with micro interaction spec or related tasks in marketing-and-seo/cro."
+description: "Specify micro-interactions with trigger, rules, feedback, and loop/mode definitions. Use when working with micro interaction spec."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

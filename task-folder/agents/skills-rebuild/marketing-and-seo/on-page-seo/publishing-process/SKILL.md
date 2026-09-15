@@ -1,6 +1,6 @@
 ---
 name: "publishing-process"
-description: "Use to orchestrate approvals, QA, and go-live steps for SEO content +. Use when working with publishing process or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to orchestrate approvals, QA, and go-live steps for SEO content +. Use when working with publishing process."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

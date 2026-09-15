@@ -1,6 +1,6 @@
 ---
 name: "local-llm-expert"
-description: "Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy. Use when working with local llm expert or related tasks in data-and-ai/llm-and-rag."
+description: "Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy. Use when working with local llm expert."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

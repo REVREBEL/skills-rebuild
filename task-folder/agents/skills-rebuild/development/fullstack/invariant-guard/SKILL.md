@@ -1,6 +1,6 @@
 ---
 name: "invariant-guard"
-description: "Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps. Use when working with invariant guard or related tasks in development/fullstack."
+description: "Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps. Use when working with invariant guard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

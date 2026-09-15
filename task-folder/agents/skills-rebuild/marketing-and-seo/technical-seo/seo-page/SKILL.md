@@ -1,6 +1,6 @@
 ---
 name: "seo-page"
-description: "Execute seo-page tasks, workflows, and automated procedures. Use when working with seo page or related tasks in marketing-and-seo/technical-seo."
+description: "Execute seo-page tasks, workflows, and automated procedures. Use when working with seo page."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

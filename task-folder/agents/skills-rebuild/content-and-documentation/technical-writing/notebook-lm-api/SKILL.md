@@ -1,6 +1,6 @@
 ---
 name: "notebook-lm-api"
-description: "Interact with Google NotebookLM to query documentation with Gemini's source-grounded answers. Each question opens a fresh browser session, retrieves the answer exclusively from your uploaded documents, and closes. Use when working with notebook lm api or related tasks in content-and-documentation/technical-writing."
+description: "Interact with Google NotebookLM to query documentation with Gemini's source-grounded answers. Each question opens a fresh browser session, retrieves the answer exclusively from your uploaded documents, and closes. Use when working with notebook lm api."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

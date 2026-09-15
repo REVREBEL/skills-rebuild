@@ -1,6 +1,6 @@
 ---
 name: "php"
-description: "Language-specific super-code guidelines for php. Use when working with php or related tasks in development/backend."
+description: "Language-specific super-code guidelines for php. Use when working with php."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

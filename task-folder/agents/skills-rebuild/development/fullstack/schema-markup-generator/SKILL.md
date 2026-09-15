@@ -1,6 +1,6 @@
 ---
 name: "schema-markup-generator"
-description: "Generate and implement JSON-LD structured data for web apps, blogs, FAQs, and SaaS sites. Supports WebSite, SoftwareApplication, BlogPosting, FAQPage, HowTo, and more. Use when working with schema markup generator or related tasks in development/fullstack."
+description: "Generate and implement JSON-LD structured data for web apps, blogs, FAQs, and SaaS sites. Supports WebSite, SoftwareApplication, BlogPosting, FAQPage, HowTo, and more. Use when working with schema markup generator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

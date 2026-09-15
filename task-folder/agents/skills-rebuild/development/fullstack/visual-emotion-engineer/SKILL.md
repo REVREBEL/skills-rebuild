@@ -1,6 +1,6 @@
 ---
 name: "visual-emotion-engineer"
-description: "One sentence - what this skill does and when to invoke it. Use when working with visual emotion engineer or related tasks in development/fullstack."
+description: "One sentence - what this skill does and when to invoke it. Use when working with visual emotion engineer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

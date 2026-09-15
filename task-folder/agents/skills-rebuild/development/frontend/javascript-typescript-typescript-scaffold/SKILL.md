@@ -1,6 +1,6 @@
 ---
 name: "javascript-typescript-typescript-scaffold"
-description: "You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N. Use when working with javascript typescript typescript scaffold or related tasks in development/frontend."
+description: "You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N. Use when working with javascript typescript typescript scaffold."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

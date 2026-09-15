@@ -1,6 +1,6 @@
 ---
 name: "merchandising-blueprint"
-description: "Toolkit for planning promos, onsite placements, and channel coordination. Use when working with merchandising blueprint or related tasks in marketing-and-seo/on-page-seo."
+description: "Toolkit for planning promos, onsite placements, and channel coordination. Use when working with merchandising blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

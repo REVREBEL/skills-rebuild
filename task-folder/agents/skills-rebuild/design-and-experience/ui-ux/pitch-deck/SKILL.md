@@ -1,6 +1,6 @@
 ---
 name: "pitch-deck"
-description: "Generate professional PowerPoint pitch decks for startups and businesses. Use this skill when users request help creating investor pitch decks, sales presentations, or business pitch presentations. The skill follows standard 10-slide pitch deck structure and includes best practices for content and design. Use when working with pitch deck or related tasks in design-and-experience/ui-ux."
+description: "Generate professional PowerPoint pitch decks for startups and businesses. Use this skill when users request help creating investor pitch decks, sales presentations, or business pitch presentations. The skill follows standard 10-slide pitch deck structure and includes best practices for content and design. Use when working with pitch deck."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

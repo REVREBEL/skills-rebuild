@@ -1,6 +1,6 @@
 ---
 name: "energy-procurement"
-description: "Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management. Use when working with energy procurement or related tasks in development/fullstack."
+description: "Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management. Use when working with energy procurement."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

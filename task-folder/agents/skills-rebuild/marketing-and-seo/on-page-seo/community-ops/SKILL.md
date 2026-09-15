@@ -1,6 +1,6 @@
 ---
 name: "community-ops"
-description: "Use to orchestrate workflows, tooling, and automation for community programs. Use when working with community ops or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to orchestrate workflows, tooling, and automation for community programs. Use when working with community ops."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

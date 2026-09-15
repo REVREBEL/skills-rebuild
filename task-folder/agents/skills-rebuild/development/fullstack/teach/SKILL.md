@@ -1,6 +1,6 @@
 ---
 name: "teach"
-description: "Teach the user a new skill or concept, within this workspace. Use when working with teach or related tasks in development/fullstack."
+description: "Teach the user a new skill or concept, within this workspace. Use when working with teach."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

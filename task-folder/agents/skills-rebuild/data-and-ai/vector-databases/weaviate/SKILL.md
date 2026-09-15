@@ -1,6 +1,6 @@
 ---
 name: "weaviate"
-description: "Search, query, inspect, create, and import data into Weaviate vector database collections using official scripts and references. Use when working with weaviate or related tasks in data-and-ai/vector-databases."
+description: "Search, query, inspect, create, and import data into Weaviate vector database collections using official scripts and references. Use when working with weaviate."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

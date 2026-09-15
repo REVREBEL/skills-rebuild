@@ -1,6 +1,6 @@
 ---
 name: "bot-protection"
-description: "Block automated bots from scraping your catalog, scalping limited inventory, and abusing checkout flows using CAPTCHA and behavioral detection. Use when working with bot protection or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Block automated bots from scraping your catalog, scalping limited inventory, and abusing checkout flows using CAPTCHA and behavioral detection. Use when working with bot protection."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

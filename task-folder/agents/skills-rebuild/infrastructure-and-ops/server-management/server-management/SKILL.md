@@ -1,6 +1,6 @@
 ---
 name: "server-management"
-description: "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands. Use when working with server management or related tasks in infrastructure-and-ops/server-management."
+description: "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands. Use when working with server management."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

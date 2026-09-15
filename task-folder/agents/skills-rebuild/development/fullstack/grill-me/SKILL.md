@@ -1,6 +1,6 @@
 ---
 name: "grill-me"
-description: "A relentless interview to sharpen a plan or design. Use when working with grill me or related tasks in development/fullstack."
+description: "A relentless interview to sharpen a plan or design. Use when working with grill me."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

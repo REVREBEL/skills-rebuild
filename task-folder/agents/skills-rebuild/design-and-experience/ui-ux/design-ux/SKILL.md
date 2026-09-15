@@ -1,6 +1,6 @@
 ---
 name: "design-ux"
-description: "UX / usability audit — heuristic evaluation of INTERACTIVE UIs (not just visual polish). Load with design when a UI \"feels off\", \"sucks to use\", is hard to learn, needs an instruction wall, or before shipping an interactive tool/editor/app. Scores the RENDERED UI against Nielsen's 10 +.. Use when working with design ux or related tasks in design-and-experience/ui-ux."
+description: "UX / usability audit — heuristic evaluation of INTERACTIVE UIs (not just visual polish). Load with design when a UI \\"feels off\\", \\"sucks to use\\", is hard to learn, needs an instruction wall, or before shipping an interactive tool/editor/app. Scores the RENDERED UI against Nielsen's 10 +. Use when working with design ux."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

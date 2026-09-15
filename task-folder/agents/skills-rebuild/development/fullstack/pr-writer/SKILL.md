@@ -1,6 +1,6 @@
 ---
 name: "pr-writer"
-description: "Create pull requests following Sentry's engineering practices. Use when working with pr writer or related tasks in development/fullstack."
+description: "Create pull requests following Sentry's engineering practices. Use when working with pr writer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

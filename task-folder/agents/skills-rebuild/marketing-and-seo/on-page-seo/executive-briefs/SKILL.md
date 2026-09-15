@@ -1,6 +1,6 @@
 ---
 name: "executive-briefs"
-description: "Use to craft concise revenue updates for executives and boards. Use when working with executive briefs or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to craft concise revenue updates for executives and boards. Use when working with executive briefs."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

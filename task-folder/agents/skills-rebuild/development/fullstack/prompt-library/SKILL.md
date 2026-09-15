@@ -1,6 +1,6 @@
 ---
 name: "prompt-library"
-description: "A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices. Use when working with prompt library or related tasks in development/fullstack."
+description: "A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices. Use when working with prompt library."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

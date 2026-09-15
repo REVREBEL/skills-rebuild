@@ -1,6 +1,6 @@
 ---
 name: "cost-allocation-analysis"
-description: "Allocate COGS, shipping, marketing, and overhead costs across products, channels, and orders to calculate true per-unit and per-order profitability. Use when working with cost allocation analysis or related tasks in marketing-and-seo/cro."
+description: "Allocate COGS, shipping, marketing, and overhead costs across products, channels, and orders to calculate true per-unit and per-order profitability. Use when working with cost allocation analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

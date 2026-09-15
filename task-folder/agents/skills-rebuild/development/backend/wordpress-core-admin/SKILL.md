@@ -1,6 +1,6 @@
 ---
 name: "wordpress-core-admin"
-description: "Install, configure, manage, secure, test, and deploy WordPress instances using WP-CLI, environment configuration, database management, security hardening, and deployment scripts. Use for core setup, multisite, maintenance, and deployment workflows. Use when working with wordpress core admin or related tasks in development/backend."
+description: "Install, configure, manage, secure, test, and deploy WordPress instances using WP-CLI, environment configuration, database management, security hardening, and deployment scripts. Use for core setup, multisite, maintenance, and deployment workflows. Use when working with wordpress core admin."
 source: "phase07_split_child_from_wordpress"
 risk: "unknown"
 license: "not_declared_upstream"

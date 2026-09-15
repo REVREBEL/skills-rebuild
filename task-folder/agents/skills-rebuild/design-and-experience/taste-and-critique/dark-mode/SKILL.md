@@ -1,6 +1,6 @@
 ---
 name: "dark-mode"
-description: "Web and App implementation guide for Dark Mode Design. Trigger when user wants dark surfaces, reduced eye strain, and premium sleek aesthetics. Use when working with dark mode or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Dark Mode Design. Trigger when user wants dark surfaces, reduced eye strain, and premium sleek aesthetics. Use when working with dark mode."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

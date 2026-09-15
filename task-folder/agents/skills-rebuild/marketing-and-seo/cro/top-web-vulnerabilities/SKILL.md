@@ -1,6 +1,6 @@
 ---
 name: "top-web-vulnerabilities"
-description: "Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security threats. Use when working with top web vulnerabilities or related tasks in marketing-and-seo/cro."
+description: "Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security threats. Use when working with top web vulnerabilities."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "brevo-automation"
-description: "Automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP. Use when working with brevo automation or related tasks in development/fullstack."
+description: "Automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP. Use when working with brevo automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

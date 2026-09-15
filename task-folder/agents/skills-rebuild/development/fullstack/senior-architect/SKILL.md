@@ -1,6 +1,6 @@
 ---
 name: "senior-architect"
-description: "Complete toolkit for senior architect with modern tools and best practices. Use when working with senior architect or related tasks in development/fullstack."
+description: "Complete toolkit for senior architect with modern tools and best practices. Use when working with senior architect."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

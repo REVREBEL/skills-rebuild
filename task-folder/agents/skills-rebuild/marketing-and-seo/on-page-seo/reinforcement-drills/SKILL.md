@@ -1,6 +1,6 @@
 ---
 name: "reinforcement-drills"
-description: "Use to queue practice reps, certifications, and accountability cadences. Use when working with reinforcement drills or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to queue practice reps, certifications, and accountability cadences. Use when working with reinforcement drills."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

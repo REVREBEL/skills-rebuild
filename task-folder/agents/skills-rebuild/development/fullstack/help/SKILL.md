@@ -1,6 +1,6 @@
 ---
 name: "help"
-description: "Show the getting started guide, available commands, examples, and help for Digital Marketing Pro. Use when working with help or related tasks in development/fullstack."
+description: "Show the getting started guide, available commands, examples, and help for Digital Marketing Pro. Use when working with help."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

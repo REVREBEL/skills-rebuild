@@ -1,6 +1,6 @@
 ---
 name: "ui-score"
-description: "Score a UI file's design quality 0-100 against StyleSeed's design language — per-category breakdown, the worst offenders, and a prioritized fix list. A quantified version of /ss-review. Use when working with ui score or related tasks in design-and-experience/taste-and-critique."
+description: "Score a UI file's design quality 0-100 against StyleSeed's design language — per-category breakdown, the worst offenders, and a prioritized fix list. A quantified version of /ss-review. Use when working with ui score."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

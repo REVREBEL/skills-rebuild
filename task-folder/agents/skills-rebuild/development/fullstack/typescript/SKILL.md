@@ -1,6 +1,6 @@
 ---
 name: "typescript"
-description: "Language-specific super-code guidelines for typescript. Use when working with typescript or related tasks in development/fullstack."
+description: "Language-specific super-code guidelines for typescript. Use when working with typescript."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

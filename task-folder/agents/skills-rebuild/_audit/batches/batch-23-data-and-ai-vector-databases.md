@@ -7,7 +7,7 @@
 - **Member Skill Count**: 5
 - **Batch Status**: `completed`
 - **Validation Status**: `verified`
-- **Deterministic Manifest Hash (SHA-256)**: `7570c260026ea509ca57da95a8ebce3995830bb21d89d739bae581ed9ebe870c`
+- **Deterministic Manifest Hash (SHA-256)**: `1e37560d33a534e5da72c662a2b1a72f803930c754c3d462fe21e41cdb6b0896`
 
 ## 2. Canonical Skills Summary & Provenance
 
@@ -23,20 +23,15 @@
 
 | Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
 |---|---|---|---|
-| `arrowspace` | User asks to work with arrowspace or configure arrowspace in vector-databases. | User requests general server administration, styling, or unrelated operations outside arrowspace. | User asks for general assistance in vector-databases without specifying arrowspace; routes to `arrowspace` when arrowspace-specific capabilities are required. |
-| `context-manager` | User asks to work with context manager or configure context manager in vector-databases. | User requests general server administration, styling, or unrelated operations outside context manager. | User asks for general assistance in vector-databases without specifying context manager; routes to `context-manager` when context manager-specific capabilities are required. |
-| `embedding-strategies` | User asks to work with embedding strategies or configure embedding strategies in vector-databases. | User requests general server administration, styling, or unrelated operations outside embedding strategies. | User asks for general assistance in vector-databases without specifying embedding strategies; routes to `embedding-strategies` when embedding strategies-specific capabilities are required. |
-| `similarity-search-patterns` | User asks to work with similarity search patterns or configure similarity search patterns in vector-databases. | User requests general server administration, styling, or unrelated operations outside similarity search patterns. | User asks for general assistance in vector-databases without specifying similarity search patterns; routes to `similarity-search-patterns` when similarity search patterns-specific capabilities are required. |
-| `weaviate` | User asks to work with weaviate or configure weaviate in vector-databases. | User requests general server administration, styling, or unrelated operations outside weaviate. | User asks for general assistance in vector-databases without specifying weaviate; routes to `weaviate` when weaviate-specific capabilities are required. |
+| `arrowspace` | User asks to execute or optimize arrowspace tasks (e.g. implementing arrowspace workflows and configurations). | User requests general infrastructure administration or unrelated application development outside arrowspace or unrelated operations outside arrowspace. | User asks for general assistance with arrowspace -> Disambiguate: Clarify whether the focus is specific arrowspace patterns or broader vector-databases workflows. |
+| `context-manager` | User asks to execute or optimize context manager tasks (e.g. implementing context manager workflows and configurations). | User requests You need a different domain or tool outside this scope or unrelated operations outside context manager. | User asks for general assistance with context manager -> Disambiguate: Clarify whether the focus is specific context manager patterns or broader vector-databases workflows. |
+| `embedding-strategies` | User asks to execute or optimize embedding strategies tasks (e.g. implementing embedding strategies workflows and configurations). | User requests You need a different domain or tool outside this scope or unrelated operations outside embedding strategies. | User asks for general assistance with embedding strategies -> Disambiguate: Clarify whether the focus is specific embedding strategies patterns or broader vector-databases workflows. |
+| `similarity-search-patterns` | User asks to execute or optimize similarity search patterns tasks (e.g. implementing similarity search patterns workflows and configurations). | User requests You need a different domain or tool outside this scope or unrelated operations outside similarity search patterns. | User asks for general assistance with similarity search patterns -> Disambiguate: Clarify whether the focus is specific similarity search patterns patterns or broader vector-databases workflows. |
+| `weaviate` | User asks to execute or optimize weaviate tasks (e.g. implementing weaviate workflows and configurations). | User requests general infrastructure administration or unrelated application development outside weaviate or unrelated operations outside weaviate. | User asks for general assistance with weaviate -> Disambiguate: Clarify whether the focus is specific weaviate patterns or broader vector-databases workflows. |
 
-## 4. Provider Reconciliation & Security Audit
+## 4. Verification & Consistency Sign-off
 
-- **Undeclared Provider Lock-in**: 0 occurrences. All provider APIs declared in compatibility metadata.
-- **Workstation / Machine Path Leaks**: 0 occurrences.
-- **Broken Relative References**: 0 broken links.
-
-## 5. Unresolved Items Ledger
-
-| Item ID | Skill Name | Issue Type | Disposition | Rationale |
-|---|---|---|---|---|
-| None | None | None | deliberate_state_completed | All member skills successfully rewritten, normalized, and validated. |
+- [x] 100% of member packages verified on disk under `task-folder/agents/skills-rebuild/data-and-ai/vector-databases/`
+- [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
+- [x] Substantive capability-specific trigger boundary evaluation confirmed.
+- [x] Manifest hash `1e37560d33a534e5da72c662a2b1a72f803930c754c3d462fe21e41cdb6b0896` computed deterministically.

@@ -1,6 +1,6 @@
 ---
 name: "to-prd"
-description: "Turn the current conversation into a PRD and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed. Use when working with to prd or related tasks in business-and-operations/product-management."
+description: "Turn the current conversation into a PRD and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed. Use when working with to prd."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

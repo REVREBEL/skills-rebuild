@@ -1,6 +1,6 @@
 ---
 name: "rehabilitation-analyzer"
-description: "分析康复训练数据、识别康复模式、评估康复进展，并提供个性化康复建议. Use when working with rehabilitation analyzer or related tasks in development/fullstack."
+description: "分析康复训练数据、识别康复模式、评估康复进展，并提供个性化康复建议. Use when working with rehabilitation analyzer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

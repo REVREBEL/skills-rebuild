@@ -1,6 +1,6 @@
 ---
 name: "customer-analytics"
-description: "Analyze customer behavior with RFM scoring, purchase frequency tracking, churn prediction, and cohort analysis to improve retention strategy. Use when working with customer analytics or related tasks in data-and-ai/analytics."
+description: "Analyze customer behavior with RFM scoring, purchase frequency tracking, churn prediction, and cohort analysis to improve retention strategy. Use when working with customer analytics."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

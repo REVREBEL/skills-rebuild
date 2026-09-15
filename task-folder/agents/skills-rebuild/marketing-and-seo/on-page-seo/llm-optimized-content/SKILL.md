@@ -1,6 +1,6 @@
 ---
 name: "llm-optimized-content"
-description: "Use when creating content that must be discoverable by AI search engines (ChatGPT, Perplexity, Gemini). Use when SEO alone isn't enough, when you need AI citations, or when optimizing for the \"zero-click\" future."
+description: "Use when creating content that must be discoverable by AI search engines (ChatGPT, Perplexity, Gemini). Use when SEO alone isn't enough, when you need AI citations, or when optimizing for the \\"zero-click\\" future."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

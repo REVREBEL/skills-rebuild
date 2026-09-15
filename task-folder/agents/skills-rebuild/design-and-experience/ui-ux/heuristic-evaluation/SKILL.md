@@ -1,6 +1,6 @@
 ---
 name: "heuristic-evaluation"
-description: "Conduct expert heuristic evaluations using Nielsen's heuristics and domain-specific criteria. Use when working with heuristic evaluation or related tasks in design-and-experience/ui-ux."
+description: "Conduct expert heuristic evaluations using Nielsen's heuristics and domain-specific criteria. Use when working with heuristic evaluation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

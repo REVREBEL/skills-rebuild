@@ -1,6 +1,6 @@
 ---
 name: "swift"
-description: "Language-specific super-code guidelines for swift. Use when working with swift or related tasks in development/mobile."
+description: "Language-specific super-code guidelines for swift. Use when working with swift."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

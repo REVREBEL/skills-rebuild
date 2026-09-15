@@ -1,6 +1,6 @@
 ---
 name: "webflow-code-component-component-audit"
-description: "Audit Webflow Code Components for architecture decisions - prop exposure, state management, slot opportunities, and Shadow DOM compatibility. Focused on Webflow-specific patterns, not generic React best practices. Use when working with webflow code component component audit or related tasks in development/frontend."
+description: "Audit Webflow Code Components for architecture decisions - prop exposure, state management, slot opportunities, and Shadow DOM compatibility. Focused on Webflow-specific patterns, not generic React best practices. Use when working with webflow code component component audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "hybrid-cloud-architect"
-description: "Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware). Use when working with hybrid cloud architect or related tasks in marketing-and-seo/cro."
+description: "Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware). Use when working with hybrid cloud architect."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

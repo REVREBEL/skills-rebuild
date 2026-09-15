@@ -1,6 +1,6 @@
 ---
 name: "architecture-patterns"
-description: "Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems. Use when working with architecture patterns or related tasks in development/backend."
+description: "Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems. Use when working with architecture patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

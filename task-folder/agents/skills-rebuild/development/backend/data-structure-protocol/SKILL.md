@@ -1,6 +1,6 @@
 ---
 name: "data-structure-protocol"
-description: "Give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo. Use when working with data structure protocol or related tasks in development/backend."
+description: "Give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo. Use when working with data structure protocol."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

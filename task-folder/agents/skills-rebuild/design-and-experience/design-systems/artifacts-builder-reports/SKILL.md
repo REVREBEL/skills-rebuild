@@ -1,6 +1,6 @@
 ---
 name: "artifacts-builder-reports"
-description: "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts. Use when working with artifacts builder reports or related tasks in design-and-experience/design-systems."
+description: "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts. Use when working with artifacts builder reports."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

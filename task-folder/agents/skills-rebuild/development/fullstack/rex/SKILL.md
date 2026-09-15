@@ -1,6 +1,6 @@
 ---
 name: "rex"
-description: "Translates user intent into a precise, unambiguous specification and requirements. Use when working with rex or related tasks in development/fullstack."
+description: "Translates user intent into a precise, unambiguous specification and requirements. Use when working with rex."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

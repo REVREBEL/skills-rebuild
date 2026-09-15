@@ -1,6 +1,6 @@
 ---
 name: "ui-component"
-description: "Generate a new UI component following the StyleSeed design conventions. Use when working with ui component or related tasks in design-and-experience/taste-and-critique."
+description: "Generate a new UI component following the StyleSeed design conventions. Use when working with ui component."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

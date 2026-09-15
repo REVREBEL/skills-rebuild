@@ -1,6 +1,6 @@
 ---
 name: "ui-skills"
-description: "Opinionated, evolving constraints to guide agents when building interfaces. Use when working with ui skills or related tasks in design-and-experience/ui-ux."
+description: "Opinionated, evolving constraints to guide agents when building interfaces. Use when working with ui skills."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

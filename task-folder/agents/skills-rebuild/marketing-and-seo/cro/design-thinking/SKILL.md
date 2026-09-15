@@ -1,6 +1,6 @@
 ---
 name: "design-thinking"
-description: "Direction and intent for frontend design. Use with design when defining purpose, tone, domain, color world, and review bar; includes cross-domain lens from cinema, architecture, marketing, UX, automotive, industrial design. Use when working with design thinking or related tasks in marketing-and-seo/cro."
+description: "Direction and intent for frontend design. Use with design when defining purpose, tone, domain, color world, and review bar; includes cross-domain lens from cinema, architecture, marketing, UX, automotive, industrial design. Use when working with design thinking."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

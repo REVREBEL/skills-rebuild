@@ -1,6 +1,6 @@
 ---
 name: "performance-reporter"
-description: "Use when the user asks to \"generate an SEO report\" or \"出月报\"; builds multi-metric stakeholder reports and dashboards spanning traffic, rankings, authority, and content progress. Not for raw ranking deltas — use rank-tracker. SEO报告/绩效仪表盘."
+description: "Use when the user asks to \\"generate an SEO report\\" or \\"出月报\\"; builds multi-metric stakeholder reports and dashboards spanning traffic, rankings, authority, and content progress. Not for raw ranking deltas — use rank-tracker. SEO报告/绩效仪表盘."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

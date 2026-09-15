@@ -1,6 +1,6 @@
 ---
 name: "a-b-test-design"
-description: "Design rigorous A/B tests with hypotheses, variants, metrics, and sample size calculations. Use when working with a b test design or related tasks in design-and-experience/ui-ux."
+description: "Design rigorous A/B tests with hypotheses, variants, metrics, and sample size calculations. Use when working with a b test design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

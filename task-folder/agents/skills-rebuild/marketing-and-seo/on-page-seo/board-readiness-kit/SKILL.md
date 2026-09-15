@@ -1,6 +1,6 @@
 ---
 name: "board-readiness-kit"
-description: "Narrative and artifact system for preparing SaaS board/investor updates. Use when working with board readiness kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Narrative and artifact system for preparing SaaS board/investor updates. Use when working with board readiness kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

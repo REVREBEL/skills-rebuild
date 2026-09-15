@@ -1,6 +1,6 @@
 ---
 name: "metric-governance-kit"
-description: "Framework for defining, approving, and auditing GTM metrics and KPIs. Use when working with metric governance kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Framework for defining, approving, and auditing GTM metrics and KPIs. Use when working with metric governance kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

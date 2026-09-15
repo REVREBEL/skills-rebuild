@@ -1,6 +1,6 @@
 ---
 name: "conductor-status"
-description: "Display project status, active tracks, and next actions. Use when working with conductor status or related tasks in development/fullstack."
+description: "Display project status, active tracks, and next actions. Use when working with conductor status."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

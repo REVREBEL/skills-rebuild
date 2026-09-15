@@ -1,6 +1,6 @@
 ---
 name: "yearly-planner"
-description: "Produce the 12-month operational Yearly Planner — the calendar companion to the Growth Plan in Part 8. Translates strategy into month-by-month execution. Use when working with yearly planner or related tasks in development/fullstack."
+description: "Produce the 12-month operational Yearly Planner — the calendar companion to the Growth Plan in Part 8. Translates strategy into month-by-month execution. Use when working with yearly planner."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

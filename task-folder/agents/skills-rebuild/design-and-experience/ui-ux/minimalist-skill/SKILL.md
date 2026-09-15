@@ -1,6 +1,6 @@
 ---
 name: "minimalist-skill"
-description: "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows. Use when working with minimalist skill or related tasks in design-and-experience/ui-ux."
+description: "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows. Use when working with minimalist skill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

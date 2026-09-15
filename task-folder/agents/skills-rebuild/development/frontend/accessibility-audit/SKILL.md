@@ -1,6 +1,6 @@
 ---
 name: "accessibility-audit"
-description: "Run comprehensive accessibility audit (WCAG 2.1) on Webflow pages - checks buttons, forms, links, focus states, headings, keyboard navigation, and generates detailed reports with fixes. Requires Webflow Designer connection. Excludes image alt text (covered by asset-audit skill). Use when working with accessibility audit or related tasks in development/frontend."
+description: "Run comprehensive accessibility audit (WCAG 2.1) on Webflow pages - checks buttons, forms, links, focus states, headings, keyboard navigation, and generates detailed reports with fixes. Requires Webflow Designer connection. Excludes image alt text (covered by asset-audit skill). Use when working with accessibility audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

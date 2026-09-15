@@ -1,6 +1,6 @@
 ---
 name: "seo-sxo"
-description: "Execute seo-sxo tasks, workflows, and automated procedures. Use when working with seo sxo or related tasks in marketing-and-seo/on-page-seo."
+description: "Execute seo-sxo tasks, workflows, and automated procedures. Use when working with seo sxo."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "langfuse"
-description: "Expert in Langfuse - the open-source LLM observability platform. Use when working with langfuse or related tasks in quality-and-security/debugging."
+description: "Expert in Langfuse - the open-source LLM observability platform. Use when working with langfuse."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

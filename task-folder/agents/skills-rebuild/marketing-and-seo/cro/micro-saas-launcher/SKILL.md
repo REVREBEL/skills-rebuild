@@ -1,6 +1,6 @@
 ---
 name: "micro-saas-launcher"
-description: "Expert in launching small, focused SaaS products fast - the indie. Use when working with micro saas launcher or related tasks in marketing-and-seo/cro."
+description: "Expert in launching small, focused SaaS products fast - the indie. Use when working with micro saas launcher."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

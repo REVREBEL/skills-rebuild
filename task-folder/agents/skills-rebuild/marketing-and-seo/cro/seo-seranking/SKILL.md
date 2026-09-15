@@ -1,6 +1,6 @@
 ---
 name: "seo-seranking"
-description: "SE Ranking AI visibility analyst (extension). Tracks AI Share-of-Voice across ChatGPT, Gemini, Perplexity, AI Overviews, and AI Mode in a single query. Highest-impact new extension per the v2 gap analysis — no other vendor covers all 5 AI platforms in one API. Use when working with seo seranking or related tasks in marketing-and-seo/cro."
+description: "SE Ranking AI visibility analyst (extension). Tracks AI Share-of-Voice across ChatGPT, Gemini, Perplexity, AI Overviews, and AI Mode in a single query. Highest-impact new extension per the v2 gap analysis — no other vendor covers all 5 AI platforms in one API. Use when working with seo seranking."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

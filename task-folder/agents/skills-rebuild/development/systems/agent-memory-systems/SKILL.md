@@ -1,6 +1,6 @@
 ---
 name: "agent-memory-systems"
-description: "Memory is the cornerstone of intelligent agents. Without it, every. Use when working with agent memory systems or related tasks in development/systems."
+description: "Memory is the cornerstone of intelligent agents. Without it, every. Use when working with agent memory systems."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "seo-competitor-pages"
-description: "Execute seo-competitor-pages tasks, workflows, and automated procedures. Use when working with seo competitor pages or related tasks in marketing-and-seo/technical-seo."
+description: "Execute seo-competitor-pages tasks, workflows, and automated procedures. Use when working with seo competitor pages."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

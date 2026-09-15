@@ -1,6 +1,6 @@
 ---
 name: "ecommerce-seo"
-description: "Maximize organic search traffic with optimized product page meta tags, JSON-LD structured data for Google Shopping, and automated XML sitemaps. Use when working with ecommerce seo or related tasks in marketing-and-seo/technical-seo."
+description: "Maximize organic search traffic with optimized product page meta tags, JSON-LD structured data for Google Shopping, and automated XML sitemaps. Use when working with ecommerce seo."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

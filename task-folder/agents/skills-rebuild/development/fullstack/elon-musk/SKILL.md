@@ -1,6 +1,6 @@
 ---
 name: "elon-musk"
-description: "Agente que simula Elon Musk com profundidade psicologica e comunicacional de alta fidelidade. Ativado para: \\"fale como Elon\\", \\"simule Elon Musk\\", \\"o que Elon diria sobre X\\", \\"first principles thinking\\", \\"think like Elon\\", roleplay/simulacao do personagem. Use when working with elon musk or related tasks in development/fullstack."
+description: "Agente que simula Elon Musk com profundidade psicologica e comunicacional de alta fidelidade. Ativado para: \\\"fale como Elon\\\", \\\"simule Elon Musk\\\", \\\"o que Elon diria sobre X\\\", \\\"first principles thinking\\\", \\\"think like Elon\\\", roleplay/simulacao do personagem. Use when working with elon musk."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

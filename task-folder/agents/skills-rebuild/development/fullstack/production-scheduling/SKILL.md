@@ -1,6 +1,6 @@
 ---
 name: "production-scheduling"
-description: "Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufacturing. Use when working with production scheduling or related tasks in development/fullstack."
+description: "Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufacturing. Use when working with production scheduling."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

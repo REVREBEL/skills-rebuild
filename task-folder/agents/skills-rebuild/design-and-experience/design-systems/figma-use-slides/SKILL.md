@@ -1,6 +1,6 @@
 ---
 name: "figma-use-slides"
-description: "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has foundational context for using the use_figma tool. Use when working with figma use slides or related tasks in design-and-experience/design-systems."
+description: "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has foundational context for using the use_figma tool. Use when working with figma use slides."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

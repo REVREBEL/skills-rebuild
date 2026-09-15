@@ -1,6 +1,6 @@
 ---
 name: "experiment-design-kit"
-description: "Toolkit for structuring hypotheses, variants, guardrails, and measurement. Use when working with experiment design kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Toolkit for structuring hypotheses, variants, guardrails, and measurement. Use when working with experiment design kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

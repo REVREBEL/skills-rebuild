@@ -1,6 +1,6 @@
 ---
 name: "design-md_v1"
-description: "Execute design-md_v1 tasks, workflows, and automated procedures. Use when working with design md_v1 or related tasks in design-and-experience/design-systems."
+description: "Execute design-md_v1 tasks, workflows, and automated procedures. Use when working with design md_v1."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

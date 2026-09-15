@@ -1,6 +1,6 @@
 ---
 name: "cpp-pro"
-description: "Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. Use when working with cpp pro or related tasks in development/backend."
+description: "Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. Use when working with cpp pro."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "specify"
-description: "Execute specify tasks, workflows, and automated procedures. Use when working with specify or related tasks in marketing-and-seo/cro."
+description: "Execute specify tasks, workflows, and automated procedures. Use when working with specify."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

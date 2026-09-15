@@ -1,6 +1,6 @@
 ---
 name: "video-commerce-integration"
-description: "Enable shoppable video experiences with live shopping events, interactive product hotspots, and one-click checkout directly from video and livestream content. Use when working with video commerce integration or related tasks in development/fullstack."
+description: "Enable shoppable video experiences with live shopping events, interactive product hotspots, and one-click checkout directly from video and livestream content. Use when working with video commerce integration."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

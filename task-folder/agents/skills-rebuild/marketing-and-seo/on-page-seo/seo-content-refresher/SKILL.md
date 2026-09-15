@@ -1,6 +1,6 @@
 ---
 name: "seo-content-refresher"
-description: "Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content. Use when working with seo content refresher or related tasks in marketing-and-seo/on-page-seo."
+description: "Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content. Use when working with seo content refresher."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

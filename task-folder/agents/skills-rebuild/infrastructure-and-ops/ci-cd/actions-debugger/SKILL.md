@@ -1,6 +1,6 @@
 ---
 name: "actions-debugger"
-description: "Specialized skill for diagnosing, analyzing, and fixing failing GitHub Actions workflows by parsing run logs and pipeline definitions. Use when working with actions debugger or related tasks in infrastructure-and-ops/ci-cd."
+description: "Specialized skill for diagnosing, analyzing, and fixing failing GitHub Actions workflows by parsing run logs and pipeline definitions. Use when working with actions debugger."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

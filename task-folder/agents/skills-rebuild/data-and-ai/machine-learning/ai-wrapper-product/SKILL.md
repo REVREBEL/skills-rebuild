@@ -1,6 +1,6 @@
 ---
 name: "ai-wrapper-product"
-description: "Expert in building products that wrap AI APIs (OpenAI, Anthropic,. Use when working with ai wrapper product or related tasks in data-and-ai/machine-learning."
+description: "Expert in building products that wrap AI APIs (OpenAI, Anthropic,. Use when working with ai wrapper product."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

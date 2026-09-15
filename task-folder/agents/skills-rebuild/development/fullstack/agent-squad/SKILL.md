@@ -1,6 +1,6 @@
 ---
 name: "agent-squad"
-description: "Main agent orchestrator that coordinates a specialized squad of agents. Use when working with agent squad or related tasks in development/fullstack."
+description: "Main agent orchestrator that coordinates a specialized squad of agents. Use when working with agent squad."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

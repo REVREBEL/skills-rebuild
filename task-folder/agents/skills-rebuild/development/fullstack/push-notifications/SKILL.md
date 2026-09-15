@@ -1,6 +1,6 @@
 ---
 name: "push-notifications"
-description: "Send browser push notifications for price drops, back-in-stock alerts, and cart reminders to bring shoppers back without needing their email. Use when working with push notifications or related tasks in development/fullstack."
+description: "Send browser push notifications for price drops, back-in-stock alerts, and cart reminders to bring shoppers back without needing their email. Use when working with push notifications."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

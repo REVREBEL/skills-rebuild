@@ -1,6 +1,6 @@
 ---
 name: "pi-custom-model"
-description: "Register custom Pi Agent model slugs so saved OpenRouter variants resolve correctly. Use when working with pi custom model or related tasks in development/fullstack."
+description: "Register custom Pi Agent model slugs so saved OpenRouter variants resolve correctly. Use when working with pi custom model."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

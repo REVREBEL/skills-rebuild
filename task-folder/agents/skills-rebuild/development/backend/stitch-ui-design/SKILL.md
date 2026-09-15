@@ -1,6 +1,6 @@
 ---
 name: "stitch-ui-design"
-description: "Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for web and mobile applications. Use when working with stitch ui design or related tasks in development/backend."
+description: "Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for web and mobile applications. Use when working with stitch ui design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

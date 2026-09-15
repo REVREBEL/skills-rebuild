@@ -1,6 +1,6 @@
 ---
 name: "machine-learning-ops-ml-pipeline"
-description: "Design and implement a complete ML pipeline for: $ARGUMENTS. Use when working with machine learning ops ml pipeline or related tasks in development/fullstack."
+description: "Design and implement a complete ML pipeline for: $ARGUMENTS. Use when working with machine learning ops ml pipeline."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

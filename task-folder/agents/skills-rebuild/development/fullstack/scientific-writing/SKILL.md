@@ -1,6 +1,6 @@
 ---
 name: "scientific-writing"
-description: "This is the core skill for the deep research and writing tool—combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup skill. Use when working with scientific writing or related tasks in development/fullstack."
+description: "This is the core skill for the deep research and writing tool—combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup skill. Use when working with scientific writing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

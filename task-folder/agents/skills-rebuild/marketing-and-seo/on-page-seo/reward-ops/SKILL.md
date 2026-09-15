@@ -1,6 +1,6 @@
 ---
 name: "reward-ops"
-description: "Use to run day-to-day loyalty reward catalog management and fulfillment. Use when working with reward ops or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to run day-to-day loyalty reward catalog management and fulfillment. Use when working with reward ops."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

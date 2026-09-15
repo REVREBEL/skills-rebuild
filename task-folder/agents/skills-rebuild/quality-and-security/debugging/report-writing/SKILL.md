@@ -1,6 +1,6 @@
 ---
 name: "report-writing"
-description: "Execute report-writing tasks, workflows, and automated procedures. Use when working with report writing or related tasks in quality-and-security/debugging."
+description: "Execute report-writing tasks, workflows, and automated procedures. Use when working with report writing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

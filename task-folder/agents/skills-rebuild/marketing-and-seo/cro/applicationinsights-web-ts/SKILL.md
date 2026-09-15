@@ -1,6 +1,6 @@
 ---
 name: "applicationinsights-web-ts"
-description: "Instrument browser/web apps with the Application Insights JavaScript SDK (@microsoft/applicationinsights-web). Use for Real User Monitoring (RUM) — page views, clicks, AJAX/fetch dependencies, exceptions, custom events, and browser-side GenAI agent traces correlated to backend.. Use when working with applicationinsights web ts or related tasks in marketing-and-seo/cro."
+description: "Instrument browser/web apps with the Application Insights JavaScript SDK (@microsoft/applicationinsights-web). Use for Real User Monitoring (RUM) — page views, clicks, AJAX/fetch dependencies, exceptions, custom events, and browser-side GenAI agent traces correlated to backend. Use when working with applicationinsights web ts."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

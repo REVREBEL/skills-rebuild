@@ -1,6 +1,6 @@
 ---
 name: "hybrid-cloud-networking"
-description: "Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute. Use when working with hybrid cloud networking or related tasks in development/fullstack."
+description: "Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute. Use when working with hybrid cloud networking."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

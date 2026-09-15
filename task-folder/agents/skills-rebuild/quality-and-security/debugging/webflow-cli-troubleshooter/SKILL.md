@@ -1,6 +1,6 @@
 ---
 name: "webflow-cli-troubleshooter"
-description: "Diagnose and fix Webflow CLI issues including installation problems, authentication failures, build errors, and bundle problems. Uses CLI diagnostic flags (--version, --help, --verbose, --debug-bundler) for troubleshooting. Use when working with webflow cli troubleshooter or related tasks in quality-and-security/debugging."
+description: "Diagnose and fix Webflow CLI issues including installation problems, authentication failures, build errors, and bundle problems. Uses CLI diagnostic flags (--version, --help, --verbose, --debug-bundler) for troubleshooting. Use when working with webflow cli troubleshooter."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

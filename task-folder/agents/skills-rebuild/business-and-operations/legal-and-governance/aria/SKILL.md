@@ -1,6 +1,6 @@
 ---
 name: "aria"
-description: "Designs the data model, API contracts, and structural foundation of the system. Use when working with aria or related tasks in business-and-operations/legal-and-governance."
+description: "Autonomous agent coordination and squad orchestration for multi-step task execution. Use when orchestrating collaborative multi-agent workflows or task delegation squads."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

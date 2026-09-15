@@ -1,6 +1,6 @@
 ---
 name: "copywriting"
-description: "Execute copywriting tasks, workflows, and automated procedures. Use when working with copywriting or related tasks in design-and-experience/ui-ux."
+description: "Execute copywriting tasks, workflows, and automated procedures. Use when working with copywriting."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

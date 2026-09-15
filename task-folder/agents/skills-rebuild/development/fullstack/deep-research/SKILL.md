@@ -1,6 +1,6 @@
 ---
 name: "deep-research"
-description: "Run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports. Use when working with deep research or related tasks in development/fullstack."
+description: "Run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports. Use when working with deep research."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

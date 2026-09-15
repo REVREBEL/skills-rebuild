@@ -1,6 +1,6 @@
 ---
 name: "theme-factory"
-description: "This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact. Use when working with theme factory or related tasks in design-and-experience/design-systems."
+description: "This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact. Use when working with theme factory."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

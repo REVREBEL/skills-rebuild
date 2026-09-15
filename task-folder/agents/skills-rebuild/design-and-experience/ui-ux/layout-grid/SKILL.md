@@ -1,6 +1,6 @@
 ---
 name: "layout-grid"
-description: "Define responsive layout grid systems with columns, gutters, margins, and breakpoint behavior. Use when working with layout grid or related tasks in design-and-experience/ui-ux."
+description: "Define responsive layout grid systems with columns, gutters, margins, and breakpoint behavior. Use when working with layout grid."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

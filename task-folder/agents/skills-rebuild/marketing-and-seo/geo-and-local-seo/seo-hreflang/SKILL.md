@@ -1,6 +1,6 @@
 ---
 name: "seo-hreflang"
-description: "Execute seo-hreflang tasks, workflows, and automated procedures. Use when working with seo hreflang or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Execute seo-hreflang tasks, workflows, and automated procedures. Use when working with seo hreflang."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

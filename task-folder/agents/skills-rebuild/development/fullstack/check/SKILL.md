@@ -1,6 +1,6 @@
 ---
 name: "check"
-description: "Run the unified pre-publish quality gate on marketing content — hallucination detection, claim verification, brand voice scoring, structure validation. Use before publishing any marketing copy. Use when working with check or related tasks in development/fullstack."
+description: "Run the unified pre-publish quality gate on marketing content — hallucination detection, claim verification, brand voice scoring, structure validation. Use before publishing any marketing copy. Use when working with check."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

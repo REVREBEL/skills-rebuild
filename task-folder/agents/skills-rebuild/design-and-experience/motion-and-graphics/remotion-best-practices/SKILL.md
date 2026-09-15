@@ -1,6 +1,6 @@
 ---
 name: "remotion-best-practices"
-description: "Best practices for Remotion - Video creation in React. Use when working with remotion best practices or related tasks in design-and-experience/motion-and-graphics."
+description: "Best practices for Remotion - Video creation in React. Use when working with remotion best practices."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

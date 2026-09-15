@@ -1,6 +1,6 @@
 ---
 name: "creative-brief-framework"
-description: "Use to structure concise creative briefs with goals, audience, and guardrails. Use when working with creative brief framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to structure concise creative briefs with goals, audience, and guardrails. Use when working with creative brief framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

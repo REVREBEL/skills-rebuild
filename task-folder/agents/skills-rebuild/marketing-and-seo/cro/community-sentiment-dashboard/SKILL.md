@@ -1,6 +1,6 @@
 ---
 name: "community-sentiment-dashboard"
-description: "Reporting template for tracking sentiment, risks, and advocacy signals. Use when working with community sentiment dashboard or related tasks in marketing-and-seo/cro."
+description: "Reporting template for tracking sentiment, risks, and advocacy signals. Use when working with community sentiment dashboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

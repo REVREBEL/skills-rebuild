@@ -1,6 +1,6 @@
 ---
 name: "illustration-style"
-description: "Define an illustration style guide with visual language, color usage, and application rules. Use when working with illustration style or related tasks in design-and-experience/ui-ux."
+description: "Define an illustration style guide with visual language, color usage, and application rules. Use when working with illustration style."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

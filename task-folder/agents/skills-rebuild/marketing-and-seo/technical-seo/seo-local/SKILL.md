@@ -1,6 +1,6 @@
 ---
 name: "seo-local"
-description: "Execute seo-local tasks, workflows, and automated procedures. Use when working with seo local or related tasks in marketing-and-seo/technical-seo."
+description: "Execute seo-local tasks, workflows, and automated procedures. Use when working with seo local."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "linear-skill"
-description: "Manage Linear issues, projects, and teams. Use when working with linear skill or related tasks in development/fullstack."
+description: "Manage Linear issues, projects, and teams. Use when working with linear skill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

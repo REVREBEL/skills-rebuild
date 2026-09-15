@@ -1,6 +1,6 @@
 ---
 name: "figma-use-figjam"
-description: "This skill helps agents use Figma's use_figma MCP tool in the FigJam context. Can be used alongside figma-use which has foundational context for using the use_figma tool. Use when working with figma use figjam or related tasks in design-and-experience/design-systems."
+description: "This skill helps agents use Figma's use_figma MCP tool in the FigJam context. Can be used alongside figma-use which has foundational context for using the use_figma tool. Use when working with figma use figjam."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

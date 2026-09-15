@@ -1,6 +1,6 @@
 ---
 name: "grill-with-docs"
-description: "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go. Use when working with grill with docs or related tasks in development/backend."
+description: "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go. Use when working with grill with docs."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

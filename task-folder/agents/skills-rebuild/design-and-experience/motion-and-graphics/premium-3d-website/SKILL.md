@@ -1,6 +1,6 @@
 ---
 name: "premium-3d-website"
-description: "Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization. Use when working with premium 3d website or related tasks in design-and-experience/motion-and-graphics."
+description: "Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization. Use when working with premium 3d website."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

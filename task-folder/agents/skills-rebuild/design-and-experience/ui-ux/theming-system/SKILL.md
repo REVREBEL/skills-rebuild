@@ -1,6 +1,6 @@
 ---
 name: "theming-system"
-description: "Design a theming architecture that supports brand variants, dark mode, and high-contrast modes with token mapping. Use when working with theming system or related tasks in design-and-experience/ui-ux."
+description: "Design a theming architecture that supports brand variants, dark mode, and high-contrast modes with token mapping. Use when working with theming system."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

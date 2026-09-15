@@ -1,6 +1,6 @@
 ---
 name: "bugs-are-annoying"
-description: "Adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews. Use when working with bugs are annoying or related tasks in infrastructure-and-ops/observability."
+description: "Adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews. Use when working with bugs are annoying."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

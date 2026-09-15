@@ -1,6 +1,6 @@
 ---
 name: "ai-agents-architect"
-description: "Expert in designing and building autonomous AI agents. Masters tool. Use when working with ai agents architect or related tasks in development/systems."
+description: "Expert in designing and building autonomous AI agents. Masters tool. Use when working with ai agents architect."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

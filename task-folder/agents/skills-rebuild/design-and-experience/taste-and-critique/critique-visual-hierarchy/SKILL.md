@@ -1,6 +1,6 @@
 ---
 name: "critique-visual-hierarchy"
-description: "Critique a screen's visual hierarchy — entry point, eye flow, weight distribution, and emphasis. Use when working with critique visual hierarchy or related tasks in design-and-experience/taste-and-critique."
+description: "Critique a screen's visual hierarchy — entry point, eye flow, weight distribution, and emphasis. Use when working with critique visual hierarchy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

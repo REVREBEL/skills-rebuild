@@ -1,6 +1,6 @@
 ---
 name: "receiving-code-review"
-description: "Code review requires technical evaluation, not emotional performance. Use when working with receiving code review or related tasks in development/fullstack."
+description: "Code review requires technical evaluation, not emotional performance. Use when working with receiving code review."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

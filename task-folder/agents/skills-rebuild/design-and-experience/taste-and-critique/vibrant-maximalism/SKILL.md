@@ -1,6 +1,6 @@
 ---
 name: "vibrant-maximalism"
-description: "Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and \"more is more\". Use when working with vibrant maximalism or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and \\"more is more\\". Use when working with vibrant maximalism."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

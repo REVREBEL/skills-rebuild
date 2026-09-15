@@ -1,6 +1,6 @@
 ---
 name: "stitch-skill"
-description: "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance. Use when working with stitch skill or related tasks in marketing-and-seo/cro."
+description: "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance. Use when working with stitch skill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

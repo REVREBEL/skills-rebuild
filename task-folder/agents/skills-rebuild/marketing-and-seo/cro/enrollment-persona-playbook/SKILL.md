@@ -1,6 +1,6 @@
 ---
 name: "enrollment-persona-playbook"
-description: "Persona + messaging framework for K-12, higher-ed, and workforce enrollment. Use when working with enrollment persona playbook or related tasks in marketing-and-seo/cro."
+description: "Persona + messaging framework for K-12, higher-ed, and workforce enrollment. Use when working with enrollment persona playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

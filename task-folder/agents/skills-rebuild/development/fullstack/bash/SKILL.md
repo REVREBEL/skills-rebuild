@@ -1,6 +1,6 @@
 ---
 name: "bash"
-description: "Language-specific super-code guidelines for bash. Use when working with bash or related tasks in development/fullstack."
+description: "Language-specific super-code guidelines for bash. Use when working with bash."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

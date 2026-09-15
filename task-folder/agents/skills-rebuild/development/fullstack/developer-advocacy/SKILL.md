@@ -1,6 +1,6 @@
 ---
 name: "developer-advocacy"
-description: "When the user wants to do developer advocacy activities including conference talks, live coding, podcasts, and building in public. Trigger phrases include \"developer advocacy,\" \"devrel,\" \"conference talk,\" \"CFP,\" \"call for papers,\" \"live coding,\" \"podcast,\" \"building in public,\".. Use when working with developer advocacy or related tasks in development/fullstack."
+description: "When the user wants to do developer advocacy activities including conference talks, live coding, podcasts, and building in public. Trigger phrases include \\"developer advocacy,\\" \\"devrel,\\" \\"conference talk,\\" \\"CFP,\\" \\"call for papers,\\" \\"live coding,\\" \\"podcast,\\" \\"building in public,\\". Use when working with developer advocacy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

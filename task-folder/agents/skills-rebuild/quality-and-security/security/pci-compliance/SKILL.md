@@ -1,6 +1,6 @@
 ---
 name: "pci-compliance"
-description: "Master PCI DSS (Payment Card Industry Data Security Standard) compliance for secure payment processing and handling of cardholder data. Use when working with pci compliance or related tasks in quality-and-security/security."
+description: "Master PCI DSS (Payment Card Industry Data Security Standard) compliance for secure payment processing and handling of cardholder data. Use when working with pci compliance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

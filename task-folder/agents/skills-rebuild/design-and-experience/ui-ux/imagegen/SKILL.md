@@ -1,6 +1,6 @@
 ---
 name: "imagegen"
-description: "Execute imagegen tasks, workflows, and automated procedures. Use when working with imagegen or related tasks in design-and-experience/ui-ux."
+description: "Execute imagegen tasks, workflows, and automated procedures. Use when working with imagegen."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

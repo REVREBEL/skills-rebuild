@@ -1,6 +1,6 @@
 ---
 name: "nextjs-best-practices"
-description: "Next.js App Router principles. Server Components, data fetching, routing patterns. Use when working with nextjs best practices or related tasks in development/frontend."
+description: "Next.js App Router principles. Server Components, data fetching, routing patterns. Use when working with nextjs best practices."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

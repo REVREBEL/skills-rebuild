@@ -1,6 +1,6 @@
 ---
 name: "maximalism"
-description: "Web and App implementation guide for Controlled Maximalism. Trigger when user wants lots of elements, dense content, but a highly curated and artistic presentation. Use when working with maximalism or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Controlled Maximalism. Trigger when user wants lots of elements, dense content, but a highly curated and artistic presentation. Use when working with maximalism."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

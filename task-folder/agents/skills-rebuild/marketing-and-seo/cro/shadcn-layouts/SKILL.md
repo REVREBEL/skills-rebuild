@@ -1,6 +1,6 @@
 ---
 name: "shadcn-layouts"
-description: "Generate correct shadcn/Tailwind layouts by applying CSS mental models. This skill should be used when the user asks to 'create a shadcn layout', 'fix layout issues', 'debug CSS height problems', 'make scrolling work', or has issues with Tailwind flex/grid. Keywords: shadcn, Tailwind, layout, CSS, flex, grid, height, scroll, overflow. Use when working with shadcn layouts or related tasks in marketing-and-seo/cro."
+description: "Generate correct shadcn/Tailwind layouts by applying CSS mental models. This skill should be used when the user asks to 'create a shadcn layout', 'fix layout issues', 'debug CSS height problems', 'make scrolling work', or has issues with Tailwind flex/grid. Keywords: shadcn, Tailwind, layout, CSS, flex, grid, height, scroll, overflow. Use when working with shadcn layouts."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

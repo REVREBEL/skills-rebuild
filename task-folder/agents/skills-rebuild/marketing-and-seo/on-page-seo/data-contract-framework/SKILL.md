@@ -1,6 +1,6 @@
 ---
 name: "data-contract-framework"
-description: "Operating model for defining, enforcing, and auditing BI data contracts. Use when working with data contract framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Operating model for defining, enforcing, and auditing BI data contracts. Use when working with data contract framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

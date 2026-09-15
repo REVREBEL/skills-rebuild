@@ -1,6 +1,6 @@
 ---
 name: "ai-loop"
-description: "Runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for risky or ambiguous work. Use when working with ai loop or related tasks in development/fullstack."
+description: "Runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for risky or ambiguous work. Use when working with ai loop."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "delegating-to-agents"
-description: "Delegate bounded work to other AI agents while preserving context, ownership, and progress checks. Use when working with delegating to agents or related tasks in development/fullstack."
+description: "Delegate bounded work to other AI agents while preserving context, ownership, and progress checks. Use when working with delegating to agents."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "retro-futurism"
-description: "Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes. Use when working with retro futurism or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes. Use when working with retro futurism."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

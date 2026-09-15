@@ -1,6 +1,6 @@
 ---
 name: "pr-workflows-onboard"
-description: "You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integration, and accelerated learning methodologies. You. Use when working with pr workflows onboard or related tasks in development/fullstack."
+description: "You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integration, and accelerated learning methodologies. You. Use when working with pr workflows onboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

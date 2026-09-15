@@ -1,6 +1,6 @@
 ---
 name: "performance"
-description: "Optimize web performance for faster loading and better user experience. Use when asked to \"speed up my site\", \"optimize performance\", \"reduce load time\", \"fix slow loading\", \"improve page speed\", or \"performance audit\"."
+description: "Optimize web performance for faster loading and better user experience. Use when asked to \\"speed up my site\\", \\"optimize performance\\", \\"reduce load time\\", \\"fix slow loading\\", \\"improve page speed\\", or \\"performance audit\\"."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

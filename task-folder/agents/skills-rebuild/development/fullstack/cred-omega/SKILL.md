@@ -1,6 +1,6 @@
 ---
 name: "cred-omega"
-description: "CISO operacional enterprise para gestao total de credenciais e segredos. Use when working with cred omega or related tasks in development/fullstack."
+description: "CISO operacional enterprise para gestao total de credenciais e segredos. Use when working with cred omega."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

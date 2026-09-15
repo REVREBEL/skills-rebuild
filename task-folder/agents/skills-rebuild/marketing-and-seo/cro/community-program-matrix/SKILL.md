@@ -1,6 +1,6 @@
 ---
 name: "community-program-matrix"
-description: "Planning framework for mapping community programming across personas,. Use when working with community program matrix or related tasks in marketing-and-seo/cro."
+description: "Planning framework for mapping community programming across personas,. Use when working with community program matrix."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

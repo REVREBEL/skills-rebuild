@@ -1,6 +1,6 @@
 ---
 name: "enablement-kit"
-description: "Use to plan trainings, office hours, and adoption programs for new creative. Use when working with enablement kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to plan trainings, office hours, and adoption programs for new creative. Use when working with enablement kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

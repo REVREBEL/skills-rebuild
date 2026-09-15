@@ -1,6 +1,6 @@
 ---
 name: "gcp-cloud-run"
-description: "Specialized skill for building production-ready serverless. Use when working with gcp cloud run or related tasks in infrastructure-and-ops/containers-and-orchestration."
+description: "Specialized skill for building production-ready serverless. Use when working with gcp cloud run."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

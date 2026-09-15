@@ -1,6 +1,6 @@
 ---
 name: "bigquery-view-generator"
-description: "Execute bigquery-view-generator tasks, workflows, and automated procedures. Use when working with bigquery view generator or related tasks in infrastructure-and-ops/cloud-platforms."
+description: "Execute bigquery-view-generator tasks, workflows, and automated procedures. Use when working with bigquery view generator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

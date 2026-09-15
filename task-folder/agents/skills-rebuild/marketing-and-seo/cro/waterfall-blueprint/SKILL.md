@@ -1,6 +1,6 @@
 ---
 name: "waterfall-blueprint"
-description: "Use to design provider sequences, throttling logic, and credit policies. Use when working with waterfall blueprint or related tasks in marketing-and-seo/cro."
+description: "Use to design provider sequences, throttling logic, and credit policies. Use when working with waterfall blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

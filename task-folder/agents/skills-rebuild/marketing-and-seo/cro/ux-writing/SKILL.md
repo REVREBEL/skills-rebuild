@@ -1,6 +1,6 @@
 ---
 name: "ux-writing"
-description: "Write effective UI copy including microcopy, error messages, empty states, and CTAs. Use when working with ux writing or related tasks in marketing-and-seo/cro."
+description: "Write effective UI copy including microcopy, error messages, empty states, and CTAs. Use when working with ux writing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

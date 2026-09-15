@@ -1,6 +1,6 @@
 ---
 name: "riffkit"
-description: "Riff a winning TikTok into your own short video — study a proven video's emotion formula and regenerate it with your product, character, and language (EN/ES). Also makes UGC ad creative. Use when working with riffkit or related tasks in marketing-and-seo/content-and-campaigns."
+description: "Riff a winning TikTok into your own short video — study a proven video's emotion formula and regenerate it with your product, character, and language (EN/ES). Also makes UGC ad creative. Use when working with riffkit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

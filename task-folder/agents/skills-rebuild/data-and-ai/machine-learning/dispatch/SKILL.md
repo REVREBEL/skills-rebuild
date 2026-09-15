@@ -1,6 +1,6 @@
 ---
 name: "dispatch"
-description: "Delegate tasks to OpenAI Codex CLI and Google Antigravity CLI from Claude Code with topic-aware sessions. Use when working with dispatch or related tasks in data-and-ai/machine-learning."
+description: "Delegate tasks to OpenAI Codex CLI and Google Antigravity CLI from Claude Code with topic-aware sessions. Use when working with dispatch."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

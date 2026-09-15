@@ -1,6 +1,6 @@
 ---
 name: "deployment-procedures"
-description: "Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts. Use when working with deployment procedures or related tasks in development/fullstack."
+description: "Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts. Use when working with deployment procedures."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "custom-code-management"
-description: "Add, review, or remove inline custom scripts on a Webflow site (up to 10,000 chars). Use for analytics, tracking pixels, chat widgets, or any custom JavaScript. Also manages page-level scripts. Use when working with custom code management or related tasks in data-and-ai/analytics."
+description: "Add, review, or remove inline custom scripts on a Webflow site (up to 10,000 chars). Use for analytics, tracking pixels, chat widgets, or any custom JavaScript. Also manages page-level scripts. Use when working with custom code management."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

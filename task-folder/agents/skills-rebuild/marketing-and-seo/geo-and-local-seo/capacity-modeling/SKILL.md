@@ -1,6 +1,6 @@
 ---
 name: "capacity-modeling"
-description: "Use to model bookings targets vs headcount, ramp, and productivity assumptions. Use when working with capacity modeling or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Use to model bookings targets vs headcount, ramp, and productivity assumptions. Use when working with capacity modeling."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

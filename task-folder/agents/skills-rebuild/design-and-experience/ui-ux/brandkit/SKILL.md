@@ -1,6 +1,6 @@
 ---
 name: "brandkit"
-description: "Execute brandkit tasks, workflows, and automated procedures. Use when working with brandkit or related tasks in design-and-experience/ui-ux."
+description: "Execute brandkit tasks, workflows, and automated procedures. Use when working with brandkit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

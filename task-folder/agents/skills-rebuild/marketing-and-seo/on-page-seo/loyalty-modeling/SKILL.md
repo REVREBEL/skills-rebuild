@@ -1,6 +1,6 @@
 ---
 name: "loyalty-modeling"
-description: "Use to model economics, tiers, and impact forecasts for loyalty programs. Use when working with loyalty modeling or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to model economics, tiers, and impact forecasts for loyalty programs. Use when working with loyalty modeling."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

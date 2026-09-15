@@ -1,6 +1,6 @@
 ---
 name: "styleseed-design-review"
-description: "Reviews UI/frontend code and tells you exactly why it \"looks AI-generated\" — then how to fix it. Use it when a React/Tailwind/HTML interface looks off, generic, or unfinished, when you want a design score before shipping, or when asked to make UI look more professional, polished, or.. Use when working with styleseed design review or related tasks in design-and-experience/taste-and-critique."
+description: "Reviews UI/frontend code and tells you exactly why it \\"looks AI-generated\\" — then how to fix it. Use it when a React/Tailwind/HTML interface looks off, generic, or unfinished, when you want a design score before shipping, or when asked to make UI look more professional, polished, or. Use when working with styleseed design review."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

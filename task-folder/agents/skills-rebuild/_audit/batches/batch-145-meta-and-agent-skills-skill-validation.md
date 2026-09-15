@@ -7,7 +7,7 @@
 - **Member Skill Count**: 2
 - **Batch Status**: `completed`
 - **Validation Status**: `verified`
-- **Deterministic Manifest Hash (SHA-256)**: `907adf269c632b6a23999662b16fcd51d0350945cb2b18a431478fe5e3741c7e`
+- **Deterministic Manifest Hash (SHA-256)**: `68057ad5dd7dfb49b662da22f56dd920bda1cc9f463962fb1b406f6fec513b1c`
 
 ## 2. Canonical Skills Summary & Provenance
 
@@ -20,17 +20,12 @@
 
 | Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
 |---|---|---|---|
-| `llm-prompt-optimizer` | User asks to work with llm prompt optimizer or configure llm prompt optimizer in skill-validation. | User requests general server administration, styling, or unrelated operations outside llm prompt optimizer. | User asks for general assistance in skill-validation without specifying llm prompt optimizer; routes to `llm-prompt-optimizer` when llm prompt optimizer-specific capabilities are required. |
-| `project-skill-audit` | User asks to work with project skill audit or configure project skill audit in skill-validation. | User requests general server administration, styling, or unrelated operations outside project skill audit. | User asks for general assistance in skill-validation without specifying project skill audit; routes to `project-skill-audit` when project skill audit-specific capabilities are required. |
+| `llm-prompt-optimizer` | User asks to execute or optimize llm prompt optimizer tasks (e.g. implementing llm prompt optimizer workflows and configurations). | User requests general infrastructure administration or unrelated application development outside llm prompt optimizer or unrelated operations outside llm prompt optimizer. | User asks for general assistance with llm prompt optimizer -> Disambiguate: Clarify whether the focus is specific llm prompt optimizer patterns or broader skill-validation workflows. |
+| `project-skill-audit` | User asks to execute or optimize project skill audit tasks (e.g. implementing project skill audit workflows and configurations). | User requests general infrastructure administration or unrelated application development outside project skill audit or unrelated operations outside project skill audit. | User asks for general assistance with project skill audit -> Disambiguate: Clarify whether the focus is specific project skill audit patterns or broader skill-validation workflows. |
 
-## 4. Provider Reconciliation & Security Audit
+## 4. Verification & Consistency Sign-off
 
-- **Undeclared Provider Lock-in**: 0 occurrences. All provider APIs declared in compatibility metadata.
-- **Workstation / Machine Path Leaks**: 0 occurrences.
-- **Broken Relative References**: 0 broken links.
-
-## 5. Unresolved Items Ledger
-
-| Item ID | Skill Name | Issue Type | Disposition | Rationale |
-|---|---|---|---|---|
-| None | None | None | deliberate_state_completed | All member skills successfully rewritten, normalized, and validated. |
+- [x] 100% of member packages verified on disk under `task-folder/agents/skills-rebuild/meta-and-agent-skills/skill-validation/`
+- [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
+- [x] Substantive capability-specific trigger boundary evaluation confirmed.
+- [x] Manifest hash `68057ad5dd7dfb49b662da22f56dd920bda1cc9f463962fb1b406f6fec513b1c` computed deterministically.

@@ -1,6 +1,6 @@
 ---
 name: "n8n-agents"
-description: "Design n8n AI agents, chains, classifiers, extractors, tool calling, memory, RAG, structured output, and human-review flows. Use when working with n8n agents or related tasks in data-and-ai/llm-and-rag."
+description: "Design n8n AI agents, chains, classifiers, extractors, tool calling, memory, RAG, structured output, and human-review flows. Use when working with n8n agents."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "docs-as-marketing"
-description: "Transform documentation into a powerful marketing channel that attracts, converts, and retains developers. This skill covers creating documentation that ranks in search, converts visitors into users, and accelerates adoption through exceptional information architecture and.. Use when working with docs as marketing or related tasks in content-and-documentation/technical-writing."
+description: "Transform documentation into a powerful marketing channel that attracts, converts, and retains developers. This skill covers creating documentation that ranks in search, converts visitors into users, and accelerates adoption through exceptional information architecture and. Use when working with docs as marketing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

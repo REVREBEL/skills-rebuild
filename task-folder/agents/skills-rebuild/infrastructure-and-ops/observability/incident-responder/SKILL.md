@@ -1,6 +1,6 @@
 ---
 name: "incident-responder"
-description: "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. Use when working with incident responder or related tasks in infrastructure-and-ops/observability."
+description: "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. Use when working with incident responder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

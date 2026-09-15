@@ -1,6 +1,6 @@
 ---
 name: "layers-intro"
-description: "Framework orientation for Layers of Product Design — load this first; provides the context all other skills depend on. Use when working with layers intro or related tasks in design-and-experience/ui-ux."
+description: "Framework orientation for Layers of Product Design — load this first; provides the context all other skills depend on. Use when working with layers intro."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

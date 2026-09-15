@@ -1,6 +1,6 @@
 ---
 name: "superpowers-lab"
-description: "Lab environment for Claude superpowers. Use when working with superpowers lab or related tasks in development/fullstack."
+description: "Lab environment for Claude superpowers. Use when working with superpowers lab."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

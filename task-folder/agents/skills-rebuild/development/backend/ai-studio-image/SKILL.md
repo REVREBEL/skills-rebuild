@@ -1,6 +1,6 @@
 ---
 name: "ai-studio-image"
-description: "Geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis. Use when working with ai studio image or related tasks in development/backend."
+description: "Geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis. Use when working with ai studio image."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

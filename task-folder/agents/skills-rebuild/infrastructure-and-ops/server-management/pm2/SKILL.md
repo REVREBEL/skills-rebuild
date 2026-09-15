@@ -1,6 +1,6 @@
 ---
 name: "pm2"
-description: "Execute pm2 tasks, workflows, and automated procedures. Use when working with pm2 or related tasks in infrastructure-and-ops/server-management."
+description: "Execute pm2 tasks, workflows, and automated procedures. Use when working with pm2."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

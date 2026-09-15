@@ -1,6 +1,6 @@
 ---
 name: "suppression-logic"
-description: "Use to define guardrails that pause signal-driven plays when accounts. Use when working with suppression logic or related tasks in marketing-and-seo/cro."
+description: "Use to define guardrails that pause signal-driven plays when accounts. Use when working with suppression logic."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

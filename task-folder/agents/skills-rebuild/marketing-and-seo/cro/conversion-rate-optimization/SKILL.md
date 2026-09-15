@@ -1,6 +1,6 @@
 ---
 name: "conversion-rate-optimization"
-description: "Systematically improve your store's revenue per visitor by auditing checkout drop-off, running heatmaps, and implementing CRO best practices. Use when working with conversion rate optimization or related tasks in marketing-and-seo/cro."
+description: "Systematically improve your store's revenue per visitor by auditing checkout drop-off, running heatmaps, and implementing CRO best practices. Use when working with conversion rate optimization."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

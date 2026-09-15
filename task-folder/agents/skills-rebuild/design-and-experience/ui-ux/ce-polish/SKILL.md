@@ -1,6 +1,6 @@
 ---
 name: "ce-polish"
-description: "Start the dev server, open the feature in a browser, and iterate on improvements together. Manual invocation only — type /ce-polish to run it. Use when working with ce polish or related tasks in design-and-experience/ui-ux."
+description: "Start the dev server, open the feature in a browser, and iterate on improvements together. Manual invocation only — type /ce-polish to run it. Use when working with ce polish."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

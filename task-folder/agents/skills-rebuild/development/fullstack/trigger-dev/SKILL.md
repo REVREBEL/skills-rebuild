@@ -1,6 +1,6 @@
 ---
 name: "trigger-dev"
-description: "Trigger.dev expert for background jobs, AI workflows, and reliable. Use when working with trigger dev or related tasks in development/fullstack."
+description: "Trigger.dev expert for background jobs, AI workflows, and reliable. Use when working with trigger dev."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

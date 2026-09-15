@@ -1,6 +1,6 @@
 ---
 name: "citation-management"
-description: "Manage citations systematically throughout the research and writing process. Use when working with citation management or related tasks in development/fullstack."
+description: "Manage citations systematically throughout the research and writing process. Use when working with citation management."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

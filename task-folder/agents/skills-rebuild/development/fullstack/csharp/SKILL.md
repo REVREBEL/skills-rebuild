@@ -1,6 +1,6 @@
 ---
 name: "csharp"
-description: "Language-specific super-code guidelines for csharp. Use when working with csharp or related tasks in development/fullstack."
+description: "Language-specific super-code guidelines for csharp. Use when working with csharp."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

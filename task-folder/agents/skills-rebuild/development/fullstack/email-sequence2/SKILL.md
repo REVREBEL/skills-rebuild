@@ -1,6 +1,6 @@
 ---
 name: "email-sequence2"
-description: "Execute email-sequence2 tasks, workflows, and automated procedures. Use when working with email sequence2 or related tasks in development/fullstack."
+description: "Execute email-sequence2 tasks, workflows, and automated procedures. Use when working with email sequence2."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

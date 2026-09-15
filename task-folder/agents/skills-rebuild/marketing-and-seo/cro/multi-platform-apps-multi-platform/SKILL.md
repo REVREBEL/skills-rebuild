@@ -1,6 +1,6 @@
 ---
 name: "multi-platform-apps-multi-platform"
-description: "Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies. Use when working with multi platform apps multi platform or related tasks in marketing-and-seo/cro."
+description: "Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies. Use when working with multi platform apps multi platform."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

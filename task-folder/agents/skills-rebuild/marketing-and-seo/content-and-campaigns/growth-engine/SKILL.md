@@ -1,6 +1,6 @@
 ---
 name: "growth-engine"
-description: "Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica. Use when working with growth engine or related tasks in marketing-and-seo/content-and-campaigns."
+description: "Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica. Use when working with growth engine."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "segmentation-framework"
-description: "Use to design and document customer segments with clear criteria, metrics,. Use when working with segmentation framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to design and document customer segments with clear criteria, metrics,. Use when working with segmentation framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

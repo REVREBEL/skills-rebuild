@@ -1,6 +1,6 @@
 ---
 name: "microservices-patterns"
-description: "Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems. Use when working with microservices patterns or related tasks in marketing-and-seo/cro."
+description: "Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems. Use when working with microservices patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

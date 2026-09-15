@@ -1,6 +1,6 @@
 ---
 name: "competitor-alternatives"
-description: "You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively. Use when working with competitor alternatives or related tasks in development/backend."
+description: "You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively. Use when working with competitor alternatives."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "python-packaging"
-description: "Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI. Use when working with python packaging or related tasks in development/backend."
+description: "Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI. Use when working with python packaging."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

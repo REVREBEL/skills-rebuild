@@ -1,6 +1,6 @@
 ---
 name: "fortify"
-description: "Execute fortify tasks, workflows, and automated procedures. Use when working with fortify or related tasks in design-and-experience/ui-ux."
+description: "Execute fortify tasks, workflows, and automated procedures. Use when working with fortify."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

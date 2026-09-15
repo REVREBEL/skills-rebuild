@@ -1,6 +1,6 @@
 ---
 name: "strategize"
-description: "Execute strategize tasks, workflows, and automated procedures. Use when working with strategize or related tasks in design-and-experience/ui-ux."
+description: "Execute strategize tasks, workflows, and automated procedures. Use when working with strategize."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

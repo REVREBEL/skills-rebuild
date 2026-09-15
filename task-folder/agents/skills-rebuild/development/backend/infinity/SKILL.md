@@ -1,6 +1,6 @@
 ---
 name: "infinity"
-description: "Enforces a strict input boundary protocol (detect, classify, filter, verify) to ensure untrusted data never reaches business logic raw. Use when working with infinity or related tasks in development/backend."
+description: "Enforces a strict input boundary protocol (detect, classify, filter, verify) to ensure untrusted data never reaches business logic raw. Use when working with infinity."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

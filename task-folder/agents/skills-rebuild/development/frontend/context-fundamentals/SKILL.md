@@ -1,6 +1,6 @@
 ---
 name: "context-fundamentals"
-description: "Context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs. Use when working with context fundamentals or related tasks in development/frontend."
+description: "Context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs. Use when working with context fundamentals."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

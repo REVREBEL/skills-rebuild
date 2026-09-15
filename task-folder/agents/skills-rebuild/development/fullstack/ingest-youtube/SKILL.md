@@ -1,6 +1,6 @@
 ---
 name: "ingest-youtube"
-description: "Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs. Use when working with ingest youtube or related tasks in development/fullstack."
+description: "Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs. Use when working with ingest youtube."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

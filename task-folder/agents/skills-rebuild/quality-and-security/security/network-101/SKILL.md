@@ -1,6 +1,6 @@
 ---
 name: "network-101"
-description: "Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems. Use when working with network 101 or related tasks in quality-and-security/security."
+description: "Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems. Use when working with network 101."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

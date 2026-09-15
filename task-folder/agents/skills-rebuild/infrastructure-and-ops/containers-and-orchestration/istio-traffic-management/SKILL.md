@@ -1,6 +1,6 @@
 ---
 name: "istio-traffic-management"
-description: "Comprehensive guide to Istio traffic management for production service mesh deployments. Use when working with istio traffic management or related tasks in infrastructure-and-ops/containers-and-orchestration."
+description: "Comprehensive guide to Istio traffic management for production service mesh deployments. Use when working with istio traffic management."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

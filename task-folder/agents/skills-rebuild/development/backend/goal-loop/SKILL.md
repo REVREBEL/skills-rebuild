@@ -1,6 +1,6 @@
 ---
 name: "goal-loop"
-description: "Draft and explain persistent goal-loop prompts for long-running agent work with clear stop conditions. Use when working with goal loop or related tasks in development/backend."
+description: "Draft and explain persistent goal-loop prompts for long-running agent work with clear stop conditions. Use when working with goal loop."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "navigation-patterns"
-description: "Select and design navigation patterns that match product structure, user tasks, and platform conventions. Use when working with navigation patterns or related tasks in design-and-experience/ui-ux."
+description: "Select and design navigation patterns that match product structure, user tasks, and platform conventions. Use when working with navigation patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

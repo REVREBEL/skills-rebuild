@@ -1,6 +1,6 @@
 ---
 name: "unit-economics-tracking"
-description: "Track customer acquisition cost, lifetime value, payback period, and contribution margin by cohort and channel with profitability benchmarks and trend analysis. Use when working with unit economics tracking or related tasks in data-and-ai/analytics."
+description: "Track customer acquisition cost, lifetime value, payback period, and contribution margin by cohort and channel with profitability benchmarks and trend analysis. Use when working with unit economics tracking."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

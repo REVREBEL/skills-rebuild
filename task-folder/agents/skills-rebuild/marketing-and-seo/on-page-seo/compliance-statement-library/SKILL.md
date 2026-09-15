@@ -1,6 +1,6 @@
 ---
 name: "compliance-statement-library"
-description: "Repository pattern for pre-approved financial disclosures and claim language. Use when working with compliance statement library or related tasks in marketing-and-seo/on-page-seo."
+description: "Repository pattern for pre-approved financial disclosures and claim language. Use when working with compliance statement library."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

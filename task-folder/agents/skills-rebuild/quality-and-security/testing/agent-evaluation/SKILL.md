@@ -1,6 +1,6 @@
 ---
 name: "agent-evaluation"
-description: "Testing and benchmarking LLM agents including behavioral testing,. Use when working with agent evaluation or related tasks in quality-and-security/testing."
+description: "Testing and benchmarking LLM agents including behavioral testing,. Use when working with agent evaluation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

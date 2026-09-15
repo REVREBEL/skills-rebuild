@@ -1,6 +1,6 @@
 ---
 name: "pypict-skill"
-description: "Pairwise test generation. Use when working with pypict skill or related tasks in development/backend."
+description: "Pairwise test generation. Use when working with pypict skill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

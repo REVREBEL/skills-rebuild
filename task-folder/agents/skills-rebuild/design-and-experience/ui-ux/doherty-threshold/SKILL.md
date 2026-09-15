@@ -1,6 +1,6 @@
 ---
 name: "doherty-threshold"
-description: "Apply the Doherty Threshold — keep system response times under 400ms to maintain user flow and perceived performance. Use when working with doherty threshold or related tasks in design-and-experience/ui-ux."
+description: "Apply the Doherty Threshold — keep system response times under 400ms to maintain user flow and perceived performance. Use when working with doherty threshold."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

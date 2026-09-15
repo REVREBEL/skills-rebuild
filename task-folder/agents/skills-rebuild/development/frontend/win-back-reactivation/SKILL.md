@@ -1,6 +1,6 @@
 ---
 name: "win-back-reactivation"
-description: "Re-engage lapsed customers with automated win-back campaigns using personalized comeback offers based on purchase history and inactivity windows. Use when working with win back reactivation or related tasks in development/frontend."
+description: "Re-engage lapsed customers with automated win-back campaigns using personalized comeback offers based on purchase history and inactivity windows. Use when working with win back reactivation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "java"
-description: "Language-specific super-code guidelines for java. Use when working with java or related tasks in development/backend."
+description: "Language-specific super-code guidelines for java. Use when working with java."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

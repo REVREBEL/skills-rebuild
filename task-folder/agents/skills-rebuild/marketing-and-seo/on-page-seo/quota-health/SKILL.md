@@ -1,6 +1,6 @@
 ---
 name: "quota-health"
-description: "Use to analyze quota distribution, attainment fairness, and productivity. Use when working with quota health or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to analyze quota distribution, attainment fairness, and productivity. Use when working with quota health."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

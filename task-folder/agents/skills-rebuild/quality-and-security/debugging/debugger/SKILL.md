@@ -1,6 +1,6 @@
 ---
 name: "debugger"
-description: "Debugging specialist for errors, test failures, and unexpected. Use when working with debugger or related tasks in quality-and-security/debugging."
+description: "Debugging specialist for errors, test failures, and unexpected. Use when working with debugger."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

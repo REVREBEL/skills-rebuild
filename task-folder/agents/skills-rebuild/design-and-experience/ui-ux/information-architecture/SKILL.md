@@ -1,6 +1,6 @@
 ---
 name: "information-architecture"
-description: "Design the structure, hierarchy, and navigation model for a product's content and features. Use when working with information architecture or related tasks in design-and-experience/ui-ux."
+description: "Design the structure, hierarchy, and navigation model for a product's content and features. Use when working with information architecture."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

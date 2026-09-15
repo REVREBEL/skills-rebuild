@@ -1,6 +1,6 @@
 ---
 name: "design-brief"
-description: "Write a comprehensive design brief that defines the problem space, constraints, audience, and success criteria. Use when working with design brief or related tasks in design-and-experience/ui-ux."
+description: "Write a comprehensive design brief that defines the problem space, constraints, audience, and success criteria. Use when working with design brief."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

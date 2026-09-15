@@ -1,6 +1,6 @@
 ---
 name: "social-metadata-hardening"
-description: "Fix social sharing previews so URLs render as rich cards on Facebook, LinkedIn, X/Twitter, WhatsApp, Telegram, and more. Covers OG tags, Twitter cards, absolute image URLs, and debugging. Use when working with social metadata hardening or related tasks in marketing-and-seo/cro."
+description: "Fix social sharing previews so URLs render as rich cards on Facebook, LinkedIn, X/Twitter, WhatsApp, Telegram, and more. Covers OG tags, Twitter cards, absolute image URLs, and debugging. Use when working with social metadata hardening."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

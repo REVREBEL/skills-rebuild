@@ -1,6 +1,6 @@
 ---
 name: "cpp"
-description: "Language-specific super-code guidelines for cpp. Use when working with cpp or related tasks in development/fullstack."
+description: "Language-specific super-code guidelines for cpp. Use when working with cpp."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

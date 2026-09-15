@@ -1,6 +1,6 @@
 ---
 name: "test-fixing"
-description: "Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests (\\"fix these tests\\", \\"make tests pass\\"), reports test failures (\\"tests are failing\\", \\"test suite is broken\\"), or completes implementation and wants tests passing."
+description: "Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests (\\\"fix these tests\\\", \\\"make tests pass\\\"), reports test failures (\\\"tests are failing\\\", \\\"test suite is broken\\\"), or completes implementation and wants tests passing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

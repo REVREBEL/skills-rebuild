@@ -1,6 +1,6 @@
 ---
 name: "revenue-recognition-accounting"
-description: "Implement ASC 606 / IFRS 15 revenue recognition for subscriptions, bundles, and multi-element arrangements with deferred revenue tracking and journal entries. Use when working with revenue recognition accounting or related tasks in data-and-ai/analytics."
+description: "Implement ASC 606 / IFRS 15 revenue recognition for subscriptions, bundles, and multi-element arrangements with deferred revenue tracking and journal entries. Use when working with revenue recognition accounting."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

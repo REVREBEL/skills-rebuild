@@ -1,6 +1,6 @@
 ---
 name: "bdistill-behavioral-xray"
-description: "X-ray any AI model's behavioral patterns — refusal boundaries, hallucination tendencies, reasoning style, formatting defaults. No API key needed. Use when working with bdistill behavioral xray or related tasks in development/backend."
+description: "X-ray any AI model's behavioral patterns — refusal boundaries, hallucination tendencies, reasoning style, formatting defaults. No API key needed. Use when working with bdistill behavioral xray."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

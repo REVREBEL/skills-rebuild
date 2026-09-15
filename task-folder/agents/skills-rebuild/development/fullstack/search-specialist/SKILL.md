@@ -1,6 +1,6 @@
 ---
 name: "search-specialist"
-description: "Expert web researcher using advanced search techniques and. Use when working with search specialist or related tasks in development/fullstack."
+description: "Expert web researcher using advanced search techniques and. Use when working with search specialist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

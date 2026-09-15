@@ -1,6 +1,6 @@
 ---
 name: "llm-structured-output"
-description: "Execute llm-structured-output tasks, workflows, and automated procedures. Use when working with llm structured output or related tasks in marketing-and-seo/technical-seo."
+description: "Execute llm-structured-output tasks, workflows, and automated procedures. Use when working with llm structured output."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

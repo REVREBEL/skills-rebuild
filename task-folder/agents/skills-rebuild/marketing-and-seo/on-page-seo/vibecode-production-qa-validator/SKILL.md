@@ -1,6 +1,6 @@
 ---
 name: "vibecode-production-qa-validator"
-description: "13-phase production QA for fullstack Next.js apps: build verification, SEO tags, OG images, favicon, route regression, API auth, page speed, lazy load, vulnerability scan, UI/UX cards, error boundaries, database, secure rendering, and cleanup. Use when working with vibecode production qa validator or related tasks in marketing-and-seo/on-page-seo."
+description: "13-phase production QA for fullstack Next.js apps: build verification, SEO tags, OG images, favicon, route regression, API auth, page speed, lazy load, vulnerability scan, UI/UX cards, error boundaries, database, secure rendering, and cleanup. Use when working with vibecode production qa validator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "design-consultation"
-description: "Execute design-consultation tasks, workflows, and automated procedures. Use when working with design consultation or related tasks in design-and-experience/design-systems."
+description: "Execute design-consultation tasks, workflows, and automated procedures. Use when working with design consultation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "context-window-management"
-description: "Strategies for managing LLM context windows including. Use when working with context window management or related tasks in data-and-ai/llm-and-rag."
+description: "Strategies for managing LLM context windows including. Use when working with context window management."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

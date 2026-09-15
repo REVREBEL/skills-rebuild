@@ -1,6 +1,6 @@
 ---
 name: "mcp-tool-developer"
-description: "Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python, testing, deployment, and registry publishing. Use when working with mcp tool developer or related tasks in quality-and-security/testing."
+description: "Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python, testing, deployment, and registry publishing. Use when working with mcp tool developer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

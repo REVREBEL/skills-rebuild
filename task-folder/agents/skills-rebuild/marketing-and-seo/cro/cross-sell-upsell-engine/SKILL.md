@@ -1,6 +1,6 @@
 ---
 name: "cross-sell-upsell-engine"
-description: "Recommend complementary and premium products at checkout, in cart, and post-purchase using purchase patterns, browsing history, and margin optimization. Use when working with cross sell upsell engine or related tasks in marketing-and-seo/cro."
+description: "Recommend complementary and premium products at checkout, in cart, and post-purchase using purchase patterns, browsing history, and margin optimization. Use when working with cross sell upsell engine."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

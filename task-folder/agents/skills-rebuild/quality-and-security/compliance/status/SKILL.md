@@ -1,6 +1,6 @@
 ---
 name: "status"
-description: "Show a unified status snapshot of the active brand: profile, active engagements with current part, recent insights, recent compliance violations, Python dependency mode. Use when working with status or related tasks in quality-and-security/compliance."
+description: "Show a unified status snapshot of the active brand: profile, active engagements with current part, recent insights, recent compliance violations, Python dependency mode. Use when working with status."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

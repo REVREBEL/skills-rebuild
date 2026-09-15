@@ -1,6 +1,6 @@
 ---
 name: "embedding-strategies"
-description: "Guide to selecting and optimizing embedding models for vector search applications. Use when working with embedding strategies or related tasks in data-and-ai/vector-databases."
+description: "Guide to selecting and optimizing embedding models for vector search applications. Use when working with embedding strategies."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

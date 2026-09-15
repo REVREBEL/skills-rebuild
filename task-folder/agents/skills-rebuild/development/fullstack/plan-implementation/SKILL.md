@@ -1,6 +1,6 @@
 ---
 name: "plan-implementation"
-description: "Execute detailed implementation plans systematically. Breaks down planned tasks into actionable steps with progress tracking and milestone management. Use when working with plan implementation or related tasks in development/fullstack."
+description: "Execute detailed implementation plans systematically. Breaks down planned tasks into actionable steps with progress tracking and milestone management. Use when working with plan implementation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

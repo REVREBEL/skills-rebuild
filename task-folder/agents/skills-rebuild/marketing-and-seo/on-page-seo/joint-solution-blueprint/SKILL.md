@@ -1,6 +1,6 @@
 ---
 name: "joint-solution-blueprint"
-description: "Template for documenting co-built solutions, integrations, and GTM motions. Use when working with joint solution blueprint or related tasks in marketing-and-seo/on-page-seo."
+description: "Template for documenting co-built solutions, integrations, and GTM motions. Use when working with joint solution blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

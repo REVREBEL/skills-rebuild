@@ -1,6 +1,6 @@
 ---
 name: "search-intent-coverage"
-description: "Determine what to cover to satisfy search intent by analyzing SERPs (preferred) or extracting competitor pages to Markdown. Use when working with search intent coverage or related tasks in marketing-and-seo/on-page-seo."
+description: "Determine what to cover to satisfy search intent by analyzing SERPs (preferred) or extracting competitor pages to Markdown. Use when working with search intent coverage."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

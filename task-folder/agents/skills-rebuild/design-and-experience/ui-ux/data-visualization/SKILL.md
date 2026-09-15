@@ -1,6 +1,6 @@
 ---
 name: "data-visualization"
-description: "Design clear, accessible data visualizations with appropriate chart selection and styling. Use when working with data visualization or related tasks in design-and-experience/ui-ux."
+description: "Design clear, accessible data visualizations with appropriate chart selection and styling. Use when working with data visualization."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

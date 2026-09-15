@@ -1,6 +1,6 @@
 ---
 name: "command-center-ui"
-description: "Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps. Use when working with command center ui or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps. Use when working with command center ui."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

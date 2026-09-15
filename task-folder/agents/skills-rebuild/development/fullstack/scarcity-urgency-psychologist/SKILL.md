@@ -1,6 +1,6 @@
 ---
 name: "scarcity-urgency-psychologist"
-description: "One sentence - what this skill does and when to invoke it. Use when working with scarcity urgency psychologist or related tasks in development/fullstack."
+description: "One sentence - what this skill does and when to invoke it. Use when working with scarcity urgency psychologist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

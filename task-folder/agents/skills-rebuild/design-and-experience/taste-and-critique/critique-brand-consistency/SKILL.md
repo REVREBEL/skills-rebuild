@@ -1,6 +1,6 @@
 ---
 name: "critique-brand-consistency"
-description: "Critique a screen's brand consistency against mood.md, voice.md, and tokens.md. Use when working with critique brand consistency or related tasks in design-and-experience/taste-and-critique."
+description: "Critique a screen's brand consistency against mood.md, voice.md, and tokens.md. Use when working with critique brand consistency."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

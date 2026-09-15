@@ -1,6 +1,6 @@
 ---
 name: "design-spatial"
-description: "Design — spatial composition. Use when working with design spatial or related tasks in design-and-experience/ui-ux."
+description: "Design — spatial composition. Use when working with design spatial."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

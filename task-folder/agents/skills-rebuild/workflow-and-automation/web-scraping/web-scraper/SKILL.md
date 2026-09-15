@@ -1,6 +1,6 @@
 ---
 name: "web-scraper"
-description: "Web scraping inteligente multi-estrategia. Extrai dados estruturados de paginas web (tabelas, listas, precos). Paginacao, monitoramento e export CSV/JSON. Use when working with web scraper or related tasks in workflow-and-automation/web-scraping."
+description: "Web scraping inteligente multi-estrategia. Extrai dados estruturados de paginas web (tabelas, listas, precos). Paginacao, monitoramento e export CSV/JSON. Use when working with web scraper."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

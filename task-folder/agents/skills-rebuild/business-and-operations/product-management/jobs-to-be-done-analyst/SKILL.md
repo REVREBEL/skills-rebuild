@@ -1,6 +1,6 @@
 ---
 name: "jobs-to-be-done-analyst"
-description: "One sentence - what this skill does and when to invoke it. Use when working with jobs to be done analyst or related tasks in business-and-operations/product-management."
+description: "One sentence - what this skill does and when to invoke it. Use when working with jobs to be done analyst."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

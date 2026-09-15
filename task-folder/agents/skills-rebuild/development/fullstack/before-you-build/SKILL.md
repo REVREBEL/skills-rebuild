@@ -1,6 +1,6 @@
 ---
 name: "before-you-build"
-description: "Review product risk before coding by checking demand, alternatives, channels, switching costs, and failure signals. Use when working with before you build or related tasks in development/fullstack."
+description: "Review product risk before coding by checking demand, alternatives, channels, switching costs, and failure signals. Use when working with before you build."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

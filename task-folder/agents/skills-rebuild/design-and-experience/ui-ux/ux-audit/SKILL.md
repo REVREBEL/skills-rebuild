@@ -1,6 +1,6 @@
 ---
 name: "ux-audit"
-description: "Audit screens for UX issues using Nielsen's heuristics and modern mobile UX best practices. Use when working with ux audit or related tasks in design-and-experience/ui-ux."
+description: "Audit screens for UX issues using Nielsen's heuristics and modern mobile UX best practices. Use when working with ux audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

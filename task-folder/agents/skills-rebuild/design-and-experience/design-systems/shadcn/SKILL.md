@@ -1,6 +1,6 @@
 ---
 name: "shadcn"
-description: "Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems. Use when working with shadcn or related tasks in design-and-experience/design-systems."
+description: "Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems. Use when working with shadcn."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "agentic-eval"
-description: "Execute agentic-eval tasks, workflows, and automated procedures. Use when working with agentic eval or related tasks in quality-and-security/testing."
+description: "Execute agentic-eval tasks, workflows, and automated procedures. Use when working with agentic eval."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

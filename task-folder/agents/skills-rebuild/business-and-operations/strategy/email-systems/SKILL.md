@@ -1,6 +1,6 @@
 ---
 name: "email-systems"
-description: "Email has the highest ROI of any marketing channel. $36 for every. Use when working with email systems or related tasks in business-and-operations/strategy."
+description: "Email has the highest ROI of any marketing channel. $36 for every. Use when working with email systems."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

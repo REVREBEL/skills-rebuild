@@ -1,6 +1,6 @@
 ---
 name: "seo-images"
-description: "Execute seo-images tasks, workflows, and automated procedures. Use when working with seo images or related tasks in marketing-and-seo/cro."
+description: "Execute seo-images tasks, workflows, and automated procedures. Use when working with seo images."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

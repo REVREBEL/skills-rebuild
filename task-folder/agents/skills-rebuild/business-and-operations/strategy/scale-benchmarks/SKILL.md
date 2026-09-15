@@ -1,6 +1,6 @@
 ---
 name: "scale-benchmarks"
-description: "Reference document for monopoly scale-benchmarks. Use when working with scale benchmarks or related tasks in business-and-operations/strategy."
+description: "Reference document for monopoly scale-benchmarks. Use when working with scale benchmarks."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

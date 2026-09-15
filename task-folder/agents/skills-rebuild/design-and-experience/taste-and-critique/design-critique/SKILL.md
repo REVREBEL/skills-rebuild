@@ -1,6 +1,6 @@
 ---
 name: "design-critique"
-description: "Facilitate structured design critiques with clear feedback frameworks and actionable outcomes. Use when working with design critique or related tasks in design-and-experience/taste-and-critique."
+description: "Facilitate structured design critiques with clear feedback frameworks and actionable outcomes. Use when working with design critique."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

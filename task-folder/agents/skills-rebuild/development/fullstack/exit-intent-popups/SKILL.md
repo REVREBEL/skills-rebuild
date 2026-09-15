@@ -1,6 +1,6 @@
 ---
 name: "exit-intent-popups"
-description: "Capture leaving visitors with targeted exit-intent popups that show personalized offers, email capture forms, and respect frequency capping rules. Use when working with exit intent popups or related tasks in development/fullstack."
+description: "Capture leaving visitors with targeted exit-intent popups that show personalized offers, email capture forms, and respect frequency capping rules. Use when working with exit intent popups."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

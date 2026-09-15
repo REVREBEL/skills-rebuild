@@ -1,6 +1,6 @@
 ---
 name: "brand-guardrails"
-description: "Use to review voice, visual, legal, and partner requirements before publishing. Use when working with brand guardrails or related tasks in marketing-and-seo/content-and-campaigns."
+description: "Use to review voice, visual, legal, and partner requirements before publishing. Use when working with brand guardrails."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

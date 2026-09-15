@@ -1,6 +1,6 @@
 ---
 name: "pydantic-models-py"
-description: "Create Pydantic models following the multi-model pattern for clean API contracts. Use when working with pydantic models py or related tasks in business-and-operations/legal-and-governance."
+description: "Create Pydantic models following the multi-model pattern for clean API contracts. Use when defining request schemas, response models, or typed data structures in Python."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "moderation-safety-playbook"
-description: "Guidelines and workflows for community moderation, trust & safety, and. Use when working with moderation safety playbook or related tasks in marketing-and-seo/on-page-seo."
+description: "Guidelines and workflows for community moderation, trust & safety, and. Use when working with moderation safety playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

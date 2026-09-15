@@ -1,6 +1,6 @@
 ---
 name: "prototype"
-description: "Build a throwaway prototype to flesh out a design — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when working with prototype or related tasks in development/frontend."
+description: "Build a throwaway prototype to flesh out a design — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when working with prototype."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

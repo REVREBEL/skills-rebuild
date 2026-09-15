@@ -1,6 +1,6 @@
 ---
 name: "co-marketing-governance"
-description: "Governance playbook for joint marketing programs, MDF, and performance. Use when working with co marketing governance or related tasks in marketing-and-seo/on-page-seo."
+description: "Governance playbook for joint marketing programs, MDF, and performance. Use when working with co marketing governance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

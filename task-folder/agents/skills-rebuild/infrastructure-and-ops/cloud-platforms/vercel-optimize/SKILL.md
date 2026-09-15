@@ -1,6 +1,6 @@
 ---
 name: "vercel-optimize"
-description: "Audit deployed Vercel apps for cost and performance issues using metrics, project config, code scans, and version-aware recommendations. Use when working with vercel optimize or related tasks in infrastructure-and-ops/cloud-platforms."
+description: "Audit deployed Vercel apps for cost and performance issues using metrics, project config, code scans, and version-aware recommendations. Use when working with vercel optimize."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

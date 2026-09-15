@@ -1,6 +1,6 @@
 ---
 name: "daily-news-report"
-description: "Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports. Use when working with daily news report or related tasks in development/fullstack."
+description: "Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports. Use when working with daily news report."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "adoption-playbook"
-description: "Structured guide for designing and executing customer adoption programs. Use when working with adoption playbook or related tasks in marketing-and-seo/on-page-seo."
+description: "Structured guide for designing and executing customer adoption programs. Use when working with adoption playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

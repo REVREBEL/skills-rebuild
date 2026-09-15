@@ -1,6 +1,6 @@
 ---
 name: "sast-configuration"
-description: "Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages. Use when working with sast configuration or related tasks in marketing-and-seo/cro."
+description: "Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages. Use when working with sast configuration."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

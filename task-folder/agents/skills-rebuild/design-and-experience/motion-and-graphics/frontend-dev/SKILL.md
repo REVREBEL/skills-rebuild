@@ -1,6 +1,6 @@
 ---
 name: "frontend-dev"
-description: "Execute frontend-dev tasks, workflows, and automated procedures. Use when working with frontend dev or related tasks in design-and-experience/motion-and-graphics."
+description: "Execute frontend-dev tasks, workflows, and automated procedures. Use when working with frontend dev."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

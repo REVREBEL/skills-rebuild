@@ -1,6 +1,6 @@
 ---
 name: "web-project-brainstorming"
-description: "Masterclass framework for brainstorming web development projects and page designs. Outlines structural phases for concept, UX flow, styling aesthetics, technical architecture, and SEO. Use when working with web project brainstorming or related tasks in marketing-and-seo/on-page-seo."
+description: "Masterclass framework for brainstorming web development projects and page designs. Outlines structural phases for concept, UX flow, styling aesthetics, technical architecture, and SEO. Use when working with web project brainstorming."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

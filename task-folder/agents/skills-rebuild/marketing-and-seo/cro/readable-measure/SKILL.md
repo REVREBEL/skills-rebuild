@@ -1,6 +1,6 @@
 ---
 name: "readable-measure"
-description: "Set optimal line lengths for readability across typography scales and responsive layouts. Use when working with readable measure or related tasks in marketing-and-seo/cro."
+description: "Set optimal line lengths for readability across typography scales and responsive layouts. Use when working with readable measure."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

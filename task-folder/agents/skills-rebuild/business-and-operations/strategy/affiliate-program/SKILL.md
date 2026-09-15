@@ -1,6 +1,6 @@
 ---
 name: "affiliate-program"
-description: "Track affiliate sales with unique links, manage commission tiers, automate payouts, and detect fraudulent referrals to protect your margins. Use when working with affiliate program or related tasks in business-and-operations/strategy."
+description: "Track affiliate sales with unique links, manage commission tiers, automate payouts, and detect fraudulent referrals to protect your margins. Use when working with affiliate program."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

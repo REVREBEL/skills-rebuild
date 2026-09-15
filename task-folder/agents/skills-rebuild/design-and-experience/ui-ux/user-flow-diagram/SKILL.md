@@ -1,6 +1,6 @@
 ---
 name: "user-flow-diagram"
-description: "Create user flow diagrams showing paths, decisions, and branch logic. Use when working with user flow diagram or related tasks in design-and-experience/ui-ux."
+description: "Create user flow diagrams showing paths, decisions, and branch logic. Use when working with user flow diagram."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

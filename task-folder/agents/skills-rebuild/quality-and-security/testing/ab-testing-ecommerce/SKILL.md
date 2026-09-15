@@ -1,6 +1,6 @@
 ---
 name: "ab-testing-ecommerce"
-description: "Run controlled experiments on product pages, checkout flows, and pricing to find what converts best using statistical significance testing. Use when working with ab testing ecommerce or related tasks in quality-and-security/testing."
+description: "Run controlled experiments on product pages, checkout flows, and pricing to find what converts best using statistical significance testing. Use when working with ab testing ecommerce."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "knowledge-distribution"
-description: "Share and distribute skill knowledge and documentation. Publishes capabilities with examples, documentation, and integration guides. Use when working with knowledge distribution or related tasks in content-and-documentation/technical-writing."
+description: "Share and distribute skill knowledge and documentation. Publishes capabilities with examples, documentation, and integration guides. Use when working with knowledge distribution."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

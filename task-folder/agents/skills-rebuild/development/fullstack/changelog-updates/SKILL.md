@@ -1,6 +1,6 @@
 ---
 name: "changelog-updates"
-description: "Create release notes and product updates that developers actually read and care about. This skill covers changelog formatting, versioning communication, breaking change announcements, deprecation notices, and building anticipation for new features. Trigger phrases: \"changelog\",.. Use when working with changelog updates or related tasks in development/fullstack."
+description: "Create release notes and product updates that developers actually read and care about. This skill covers changelog formatting, versioning communication, breaking change announcements, deprecation notices, and building anticipation for new features. Trigger phrases: \\"changelog\\",. Use when working with changelog updates."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

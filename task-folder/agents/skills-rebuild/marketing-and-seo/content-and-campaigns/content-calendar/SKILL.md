@@ -1,6 +1,6 @@
 ---
 name: "content-calendar"
-description: "Execute content-calendar tasks, workflows, and automated procedures. Use when working with content calendar or related tasks in marketing-and-seo/content-and-campaigns."
+description: "Execute content-calendar tasks, workflows, and automated procedures. Use when working with content calendar."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

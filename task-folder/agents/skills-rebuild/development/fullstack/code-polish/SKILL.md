@@ -1,6 +1,6 @@
 ---
 name: "code-polish"
-description: "Rewrites unprofessional code comments into clear ones and performs non-semantic cleanup. Use to professionalize code without altering logic or behavior. Use when working with code polish or related tasks in development/fullstack."
+description: "Rewrites unprofessional code comments into clear ones and performs non-semantic cleanup. Use to professionalize code without altering logic or behavior. Use when working with code polish."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

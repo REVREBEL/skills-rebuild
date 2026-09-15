@@ -1,6 +1,6 @@
 ---
 name: "fitts-law"
-description: "Apply Fitts's Law to size and position interactive targets for fast, accurate interaction. Use when working with fitts law or related tasks in design-and-experience/ui-ux."
+description: "Apply Fitts's Law to size and position interactive targets for fast, accurate interaction. Use when working with fitts law."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

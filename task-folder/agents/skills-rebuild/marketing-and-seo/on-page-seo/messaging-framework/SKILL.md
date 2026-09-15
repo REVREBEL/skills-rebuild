@@ -1,6 +1,6 @@
 ---
 name: "messaging-framework"
-description: "Use to structure value propositions, proof points, and objection responses. Use when working with messaging framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to structure value propositions, proof points, and objection responses. Use when working with messaging framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "plaid-fintech"
-description: "Expert patterns for Plaid API integration including Link token. Use when working with plaid fintech or related tasks in quality-and-security/compliance."
+description: "Expert patterns for Plaid API integration including Link token. Use when working with plaid fintech."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

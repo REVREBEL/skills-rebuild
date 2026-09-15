@@ -1,6 +1,6 @@
 ---
 name: "test-scenario"
-description: "Write usability test scenarios with tasks, success criteria, and observation guides. Use when working with test scenario or related tasks in design-and-experience/ui-ux."
+description: "Write usability test scenarios with tasks, success criteria, and observation guides. Use when working with test scenario."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "stitch-loop"
-description: "Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern. Use when working with stitch loop or related tasks in marketing-and-seo/cro."
+description: "Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern. Use when working with stitch loop."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

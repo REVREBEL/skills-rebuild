@@ -1,6 +1,6 @@
 ---
 name: "soft-pastel"
-description: "Web and App implementation guide for Soft Pastel Design. Trigger when user wants gentle colors, calming UI, baby/lifestyle branding, or low-contrast aesthetics. Use when working with soft pastel or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Soft Pastel Design. Trigger when user wants gentle colors, calming UI, baby/lifestyle branding, or low-contrast aesthetics. Use when working with soft pastel."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

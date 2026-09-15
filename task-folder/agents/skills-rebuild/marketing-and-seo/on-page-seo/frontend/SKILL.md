@@ -1,6 +1,6 @@
 ---
 name: "frontend"
-description: "Frontend tech-stack identification — JavaScript frameworks, meta-frameworks, CSS frameworks, UI libraries, build tools, and CMS via DOM, JS globals, HTML, and bundle patterns. Use when working with frontend or related tasks in marketing-and-seo/on-page-seo."
+description: "Frontend tech-stack identification — JavaScript frameworks, meta-frameworks, CSS frameworks, UI libraries, build tools, and CMS via DOM, JS globals, HTML, and bundle patterns. Use when working with frontend."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "seo-content"
-description: "Execute seo-content tasks, workflows, and automated procedures. Use when working with seo content or related tasks in marketing-and-seo/on-page-seo."
+description: "Execute seo-content tasks, workflows, and automated procedures. Use when working with seo content."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "free-tier-strategy"
-description: "Design free tiers that convert to paid without creating resentment or abuse. Trigger phrases: free tier design, freemium model, free trial strategy, free tier limits, developer free plan, open source commercial, feature gating, upgrade triggers, free tier conversion. Use when working with free tier strategy or related tasks in development/fullstack."
+description: "Design free tiers that convert to paid without creating resentment or abuse. Trigger phrases: free tier design, freemium model, free trial strategy, free tier limits, developer free plan, open source commercial, feature gating, upgrade triggers, free tier conversion. Use when working with free tier strategy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

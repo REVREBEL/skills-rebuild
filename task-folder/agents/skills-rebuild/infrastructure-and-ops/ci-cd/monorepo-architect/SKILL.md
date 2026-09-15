@@ -1,6 +1,6 @@
 ---
 name: "monorepo-architect"
-description: "Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development. Use PROACTIVELY for monorepo setup,. Use when working with monorepo architect or related tasks in infrastructure-and-ops/ci-cd."
+description: "Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development. Use PROACTIVELY for monorepo setup,. Use when working with monorepo architect."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

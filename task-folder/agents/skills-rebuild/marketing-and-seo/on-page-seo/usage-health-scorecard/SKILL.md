@@ -1,6 +1,6 @@
 ---
 name: "usage-health-scorecard"
-description: "Framework for monitoring activation, engagement, and monetization guardrails. Use when working with usage health scorecard or related tasks in marketing-and-seo/on-page-seo."
+description: "Framework for monitoring activation, engagement, and monetization guardrails. Use when working with usage health scorecard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

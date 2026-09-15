@@ -1,6 +1,6 @@
 ---
 name: "subagent-orchestrator"
-description: "Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks. Use when working with subagent orchestrator or related tasks in meta-and-agent-skills/agent-architecture."
+description: "Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks. Use when working with subagent orchestrator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

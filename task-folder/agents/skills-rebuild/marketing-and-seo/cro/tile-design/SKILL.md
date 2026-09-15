@@ -1,6 +1,6 @@
 ---
 name: "tile-design"
-description: "Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids. Use when working with tile design or related tasks in marketing-and-seo/cro."
+description: "Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids. Use when working with tile design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

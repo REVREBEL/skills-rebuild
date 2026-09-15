@@ -1,6 +1,6 @@
 ---
 name: "article-illustrations"
-description: "Generate hand-drawn 16:9 article illustrations with the Grav character IP, sparse annotations, and absurd but clear visual metaphors. Use when working with article illustrations or related tasks in development/fullstack."
+description: "Generate hand-drawn 16:9 article illustrations with the Grav character IP, sparse annotations, and absurd but clear visual metaphors. Use when working with article illustrations."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

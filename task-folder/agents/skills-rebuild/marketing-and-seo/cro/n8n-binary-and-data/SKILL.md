@@ -1,6 +1,6 @@
 ---
 name: "n8n-binary-and-data"
-description: "Handle n8n files and binary data across uploads, downloads, transforms, multimodal inputs, agent tools, and chat surfaces. Use when working with n8n binary and data or related tasks in marketing-and-seo/cro."
+description: "Handle n8n files and binary data across uploads, downloads, transforms, multimodal inputs, agent tools, and chat surfaces. Use when working with n8n binary and data."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "ebook-analysis"
-description: "Parse ebooks, extract concepts and entities with citation traceability, classify by type/layer, and synthesize across book collections. Use when working with ebook analysis or related tasks in marketing-and-seo/cro."
+description: "Parse ebooks, extract concepts and entities with citation traceability, classify by type/layer, and synthesize across book collections. Use when working with ebook analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

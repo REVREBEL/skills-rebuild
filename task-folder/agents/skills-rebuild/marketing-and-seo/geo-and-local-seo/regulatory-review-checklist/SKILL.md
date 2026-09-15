@@ -1,6 +1,6 @@
 ---
 name: "regulatory-review-checklist"
-description: "Step-by-step checklist for routing healthcare marketing assets through. Use when working with regulatory review checklist or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Step-by-step checklist for routing healthcare marketing assets through. Use when working with regulatory review checklist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

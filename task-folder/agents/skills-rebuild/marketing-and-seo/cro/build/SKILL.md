@@ -1,6 +1,6 @@
 ---
 name: "build"
-description: "Execute build tasks, workflows, and automated procedures. Use when working with build or related tasks in marketing-and-seo/cro."
+description: "Execute build tasks, workflows, and automated procedures. Use when working with build."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

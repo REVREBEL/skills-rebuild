@@ -1,6 +1,6 @@
 ---
 name: "synthwave"
-description: "Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics. Use when working with synthwave or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics. Use when working with synthwave."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "elasticity-lab"
-description: "Use to run pricing elasticity experiments with consistent assumptions. Use when working with elasticity lab or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Use to run pricing elasticity experiments with consistent assumptions. Use when working with elasticity lab."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "campaign-audit"
-description: "Audit a brand's existing live campaigns across every active channel — paid, organic, email, social, content, SEO. Produce a current-state inventory, quick-wins backlog, and red-flags list. Use during agency onboarding or before any /campaign-plan refresh. Use when working with campaign audit or related tasks in marketing-and-seo/cro."
+description: "Audit a brand's existing live campaigns across every active channel — paid, organic, email, social, content, SEO. Produce a current-state inventory, quick-wins backlog, and red-flags list. Use during agency onboarding or before any /campaign-plan refresh. Use when working with campaign audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "ce-frontend-design"
-description: "Build web interfaces with genuine design quality, not AI slop. Use for any frontend work - landing pages, web apps, dashboards, admin panels, components, interactive experiences. Activates for both greenfield builds and modifications to existing applications. Detects existing design systems and respects them. Covers composition, typography, color, motion, and copy. Verifies results via screenshots before declaring done. Use when working with ce frontend design or related tasks in design-and-experience/motion-and-graphics."
+description: "Build web interfaces with genuine design quality, not AI slop. Use for any frontend work - landing pages, web apps, dashboards, admin panels, components, interactive experiences. Activates for both greenfield builds and modifications to existing applications. Detects existing design systems and respects them. Covers composition, typography, color, motion, and copy. Verifies results via screenshots before declaring done. Use when working with ce frontend design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

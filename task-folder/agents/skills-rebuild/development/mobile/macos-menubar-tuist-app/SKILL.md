@@ -1,6 +1,6 @@
 ---
 name: "macos-menubar-tuist-app"
-description: "Build, refactor, or review SwiftUI macOS menubar apps that use Tuist. Use when working with macos menubar tuist app or related tasks in development/mobile."
+description: "Build, refactor, or review SwiftUI macOS menubar apps that use Tuist. Use when working with macos menubar tuist app."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

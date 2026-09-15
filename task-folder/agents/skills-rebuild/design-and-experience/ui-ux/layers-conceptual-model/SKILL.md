@@ -1,6 +1,6 @@
 ---
 name: "layers-conceptual-model"
-description: "Techniques for defining the product's objects, relationships, states, and vocabulary independently of any interface — the most load-bearing layer. Use when working with layers conceptual model or related tasks in design-and-experience/ui-ux."
+description: "Techniques for defining the product's objects, relationships, states, and vocabulary independently of any interface — the most load-bearing layer. Use when working with layers conceptual model."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

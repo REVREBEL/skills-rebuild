@@ -1,6 +1,6 @@
 ---
 name: "advocacy-roster-system"
-description: "Scoring and governance framework for managing reference customers and. Use when working with advocacy roster system or related tasks in marketing-and-seo/on-page-seo."
+description: "Scoring and governance framework for managing reference customers and. Use when working with advocacy roster system."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "seo-geo"
-description: "Execute seo-geo tasks, workflows, and automated procedures. Use when working with seo geo or related tasks in marketing-and-seo/technical-seo."
+description: "Execute seo-geo tasks, workflows, and automated procedures. Use when working with seo geo."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

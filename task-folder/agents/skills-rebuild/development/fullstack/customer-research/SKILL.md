@@ -1,6 +1,6 @@
 ---
 name: "customer-research"
-description: "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build.."
+description: "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \\"customer research,\\" \\"ICP research,\\" \\"talk to customers,\\" \\"analyze transcripts,\\" \\"customer interviews,\\" \\"survey analysis,\\" \\"support ticket analysis,\\" \\"voice of customer,\\" \\"VOC,\\" \\"build."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

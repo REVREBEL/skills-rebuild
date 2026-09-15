@@ -1,6 +1,6 @@
 ---
 name: "community-advocacy-toolkit"
-description: "Playbook for activating current students, alumni, and partners as advocates. Use when working with community advocacy toolkit or related tasks in marketing-and-seo/on-page-seo."
+description: "Playbook for activating current students, alumni, and partners as advocates. Use when working with community advocacy toolkit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

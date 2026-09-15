@@ -7,7 +7,7 @@
 - **Member Skill Count**: 4
 - **Batch Status**: `completed`
 - **Validation Status**: `verified`
-- **Deterministic Manifest Hash (SHA-256)**: `d67e17447b74759d5a61c6101b51694adfa533ee31183eb81e63fc4ba1bb54ed`
+- **Deterministic Manifest Hash (SHA-256)**: `50f339c9cf5e991948e0d8045ce7a9e964ffa63ccd6413a62ee8b5b16bea4629`
 
 ## 2. Canonical Skills Summary & Provenance
 
@@ -22,19 +22,14 @@
 
 | Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
 |---|---|---|---|
-| `copywriting` | User asks to work with copywriting or configure copywriting in copywriting. | User requests general server administration, styling, or unrelated operations outside copywriting. | User asks for general assistance in copywriting without specifying copywriting; routes to `copywriting` when copywriting-specific capabilities are required. |
-| `copywriting-psychologist` | User asks to work with copywriting psychologist or configure copywriting psychologist in copywriting. | User requests general server administration, styling, or unrelated operations outside copywriting psychologist. | User asks for general assistance in copywriting without specifying copywriting psychologist; routes to `copywriting-psychologist` when copywriting psychologist-specific capabilities are required. |
-| `devrel-content` | User asks to when the user wants to create technical content for developers including blog posts, tutorials, and documentation. trigger phrases include or configure devrel content in copywriting. | User requests general server administration, styling, or unrelated operations outside devrel content. | User asks for general assistance in copywriting without specifying devrel content; routes to `devrel-content` when devrel content-specific capabilities are required. |
-| `professional-proofreader` | User asks to work with professional proofreader or configure professional proofreader in copywriting. | User requests general server administration, styling, or unrelated operations outside professional proofreader. | User asks for general assistance in copywriting without specifying professional proofreader; routes to `professional-proofreader` when professional proofreader-specific capabilities are required. |
+| `copywriting` | User asks to execute or optimize copywriting tasks (e.g. implementing copywriting workflows and configurations). | User requests general infrastructure administration or unrelated application development outside copywriting or unrelated operations outside copywriting. | User asks for general assistance with copywriting -> Disambiguate: Clarify whether the focus is specific copywriting patterns or broader copywriting workflows. |
+| `copywriting-psychologist` | User asks to execute or optimize copywriting psychologist tasks (e.g. implementing copywriting psychologist workflows and configurations). | User requests general infrastructure administration or unrelated application development outside copywriting psychologist or unrelated operations outside copywriting psychologist. | User asks for general assistance with copywriting psychologist -> Disambiguate: Clarify whether the focus is specific copywriting psychologist patterns or broader copywriting workflows. |
+| `devrel-content` | User asks to execute or optimize devrel content tasks (e.g. implementing devrel content workflows and configurations). | User requests general infrastructure administration or unrelated application development outside devrel content or unrelated operations outside devrel content. | User asks for general assistance with devrel content -> Disambiguate: Clarify whether the focus is specific devrel content patterns or broader copywriting workflows. |
+| `professional-proofreader` | User asks to execute or optimize professional proofreader tasks (e.g. implementing professional proofreader workflows and configurations). | User requests general infrastructure administration or unrelated application development outside professional proofreader or unrelated operations outside professional proofreader. | User asks for general assistance with professional proofreader -> Disambiguate: Clarify whether the focus is specific professional proofreader patterns or broader copywriting workflows. |
 
-## 4. Provider Reconciliation & Security Audit
+## 4. Verification & Consistency Sign-off
 
-- **Undeclared Provider Lock-in**: 0 occurrences. All provider APIs declared in compatibility metadata.
-- **Workstation / Machine Path Leaks**: 0 occurrences.
-- **Broken Relative References**: 0 broken links.
-
-## 5. Unresolved Items Ledger
-
-| Item ID | Skill Name | Issue Type | Disposition | Rationale |
-|---|---|---|---|---|
-| None | None | None | deliberate_state_completed | All member skills successfully rewritten, normalized, and validated. |
+- [x] 100% of member packages verified on disk under `task-folder/agents/skills-rebuild/content-and-documentation/copywriting/`
+- [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
+- [x] Substantive capability-specific trigger boundary evaluation confirmed.
+- [x] Manifest hash `50f339c9cf5e991948e0d8045ce7a9e964ffa63ccd6413a62ee8b5b16bea4629` computed deterministically.

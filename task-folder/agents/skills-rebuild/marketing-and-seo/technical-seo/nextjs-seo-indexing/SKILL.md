@@ -1,6 +1,6 @@
 ---
 name: "nextjs-seo-indexing"
-description: "Fix SEO indexing issues, crawl budget problems, and Search Console coverage errors for Next.js apps. Covers canonical tags, noindex audits, sitemap health, static rendering, and internal linking. Use when working with nextjs seo indexing or related tasks in marketing-and-seo/technical-seo."
+description: "Fix SEO indexing issues, crawl budget problems, and Search Console coverage errors for Next.js apps. Covers canonical tags, noindex audits, sitemap health, static rendering, and internal linking. Use when working with nextjs seo indexing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

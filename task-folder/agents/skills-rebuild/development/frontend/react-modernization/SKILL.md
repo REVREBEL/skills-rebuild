@@ -1,6 +1,6 @@
 ---
 name: "react-modernization"
-description: "Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation. Use when working with react modernization or related tasks in development/frontend."
+description: "Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation. Use when working with react modernization."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

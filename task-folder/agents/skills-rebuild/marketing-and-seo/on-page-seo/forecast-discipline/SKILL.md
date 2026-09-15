@@ -1,6 +1,6 @@
 ---
 name: "forecast-discipline"
-description: "Use to drive consistent forecast methodology, grading, and inspection. Use when working with forecast discipline or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to drive consistent forecast methodology, grading, and inspection. Use when working with forecast discipline."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "onboarding-design"
-description: "Design first-run experiences that get users to value quickly without overwhelming them. Use when working with onboarding design or related tasks in design-and-experience/ui-ux."
+description: "Design first-run experiences that get users to value quickly without overwhelming them. Use when working with onboarding design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

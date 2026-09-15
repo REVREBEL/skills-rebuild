@@ -1,6 +1,6 @@
 ---
 name: "clarity-gate"
-description: "Execute clarity-gate tasks, workflows, and automated procedures. Use when working with clarity gate or related tasks in data-and-ai/llm-and-rag."
+description: "Execute clarity-gate tasks, workflows, and automated procedures. Use when working with clarity gate."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

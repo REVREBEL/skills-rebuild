@@ -1,6 +1,6 @@
 ---
 name: "competitor-analysis"
-description: "Conduct full competitor strategy breakdowns across SEO, ads, social, email, pricing, and positioning. Use when the user asks to analyze competitors, benchmark against rivals, understand competitive landscape, find competitor weaknesses, or build a competitive matrix. Trigger phrases include \"competitor analysis\", \"competitive analysis\", \"who are my competitors\", \"competitor research\", \"competitive landscape\", \"benchmark competitors\", \"competitor ads\", \"competitor SEO\", \"competitor pricing\", \"SWOT analysis\", \"competitive matrix\"."
+description: "Conduct full competitor strategy breakdowns across SEO, ads, social, email, pricing, and positioning. Use when the user asks to analyze competitors, benchmark against rivals, understand competitive landscape, find competitor weaknesses, or build a competitive matrix. Trigger phrases include \\"competitor analysis\\", \\"competitive analysis\\", \\"who are my competitors\\", \\"competitor research\\", \\"competitive landscape\\", \\"benchmark competitors\\", \\"competitor ads\\", \\"competitor SEO\\", \\"competitor pricing\\", \\"SWOT analysis\\", \\"competitive matrix\\"."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "layers-surface"
-description: "Techniques for auditing and deciding the surface against the layers below — vocabulary, object consistency, completeness, feedback, hierarchy, accessibility. Use when working with layers surface or related tasks in design-and-experience/ui-ux."
+description: "Techniques for auditing and deciding the surface against the layers below — vocabulary, object consistency, completeness, feedback, hierarchy, accessibility. Use when working with layers surface."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

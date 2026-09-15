@@ -1,6 +1,6 @@
 ---
 name: "component-spec"
-description: "Write a detailed component specification including props, states, variants, accessibility requirements, and usage guidelines. Use when working with component spec or related tasks in design-and-experience/ui-ux."
+description: "Write a detailed component specification including props, states, variants, accessibility requirements, and usage guidelines. Use when working with component spec."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

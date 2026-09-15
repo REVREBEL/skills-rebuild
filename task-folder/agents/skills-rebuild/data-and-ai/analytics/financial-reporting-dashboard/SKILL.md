@@ -1,6 +1,6 @@
 ---
 name: "financial-reporting-dashboard"
-description: "Build P&L, balance sheet, and cash flow dashboards for ecommerce with drill-down by product, channel, and time period for management and investor reporting. Use when working with financial reporting dashboard or related tasks in data-and-ai/analytics."
+description: "Build P&L, balance sheet, and cash flow dashboards for ecommerce with drill-down by product, channel, and time period for management and investor reporting. Use when working with financial reporting dashboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

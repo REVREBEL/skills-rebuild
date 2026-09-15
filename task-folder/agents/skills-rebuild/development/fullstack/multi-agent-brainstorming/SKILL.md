@@ -1,6 +1,6 @@
 ---
 name: "multi-agent-brainstorming"
-description: "Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation. Use when working with multi agent brainstorming or related tasks in development/fullstack."
+description: "Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation. Use when working with multi agent brainstorming."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

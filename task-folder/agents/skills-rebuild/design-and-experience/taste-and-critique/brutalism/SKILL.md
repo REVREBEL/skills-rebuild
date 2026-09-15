@@ -1,6 +1,6 @@
 ---
 name: "brutalism"
-description: "Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions. Use when working with brutalism or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions. Use when working with brutalism."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

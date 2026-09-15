@@ -1,6 +1,6 @@
 ---
 name: "networkx"
-description: "NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs. Use when working with networkx or related tasks in development/backend."
+description: "NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs. Use when working with networkx."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "identity-mirror"
-description: "One sentence - what this skill does and when to invoke it. Use when working with identity mirror or related tasks in development/fullstack."
+description: "One sentence - what this skill does and when to invoke it. Use when working with identity mirror."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

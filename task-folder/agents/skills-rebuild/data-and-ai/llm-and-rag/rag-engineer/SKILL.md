@@ -1,6 +1,6 @@
 ---
 name: "rag-engineer"
-description: "Expert in building Retrieval-Augmented Generation systems. Masters. Use when working with rag engineer or related tasks in data-and-ai/llm-and-rag."
+description: "Expert in building Retrieval-Augmented Generation systems. Masters. Use when working with rag engineer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "loading-states"
-description: "Design loading, skeleton, and progressive content reveal patterns. Use when working with loading states or related tasks in design-and-experience/ui-ux."
+description: "Design loading, skeleton, and progressive content reveal patterns. Use when working with loading states."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

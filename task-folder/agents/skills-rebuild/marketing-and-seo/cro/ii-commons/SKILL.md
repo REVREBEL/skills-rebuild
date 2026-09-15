@@ -1,6 +1,6 @@
 ---
 name: "ii-commons"
-description: "Deterministic search across arXiv, PubMed/PMC, and US policy corpora with daily freshness cutoffs. Use when working with ii commons or related tasks in marketing-and-seo/cro."
+description: "Deterministic search across arXiv, PubMed/PMC, and US policy corpora with daily freshness cutoffs. Use when working with ii commons."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

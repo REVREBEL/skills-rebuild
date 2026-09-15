@@ -1,6 +1,6 @@
 ---
 name: "cmux"
-description: "Control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows. Use when working with cmux or related tasks in development/fullstack."
+description: "Control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows. Use when working with cmux."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

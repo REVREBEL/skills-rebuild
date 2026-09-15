@@ -1,6 +1,6 @@
 ---
 name: "visual-hierarchy"
-description: "Establish clear visual hierarchy through size, weight, color, spacing, and positioning. Use when working with visual hierarchy or related tasks in design-and-experience/ui-ux."
+description: "Establish clear visual hierarchy through size, weight, color, spacing, and positioning. Use when working with visual hierarchy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

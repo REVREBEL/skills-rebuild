@@ -1,6 +1,6 @@
 ---
 name: "transpose"
-description: "Execute transpose tasks, workflows, and automated procedures. Use when working with transpose or related tasks in marketing-and-seo/cro."
+description: "Execute transpose tasks, workflows, and automated procedures. Use when working with transpose."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

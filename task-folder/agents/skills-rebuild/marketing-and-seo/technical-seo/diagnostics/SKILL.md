@@ -1,6 +1,6 @@
 ---
 name: "diagnostics"
-description: "Use for structured technical SEO audits, incident response, and validation. Use when working with diagnostics or related tasks in marketing-and-seo/technical-seo."
+description: "Use for structured technical SEO audits, incident response, and validation. Use when working with diagnostics."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

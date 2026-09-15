@@ -1,6 +1,6 @@
 ---
 name: "seo-structure-architect"
-description: "Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization. Use when working with seo structure architect or related tasks in marketing-and-seo/technical-seo."
+description: "Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization. Use when working with seo structure architect."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

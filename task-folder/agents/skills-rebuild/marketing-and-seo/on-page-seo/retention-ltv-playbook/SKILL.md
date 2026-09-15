@@ -1,6 +1,6 @@
 ---
 name: "retention-ltv-playbook"
-description: "Lifecycle frameworks for driving repeat purchase, loyalty, and subscription. Use when working with retention ltv playbook or related tasks in marketing-and-seo/on-page-seo."
+description: "Lifecycle frameworks for driving repeat purchase, loyalty, and subscription. Use when working with retention ltv playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

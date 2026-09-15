@@ -1,6 +1,6 @@
 ---
 name: "expansion-playbook"
-description: "Use to package upsell, cross-sell, and advocacy motions tied to customer. Use when working with expansion playbook or related tasks in marketing-and-seo/cro."
+description: "Use to package upsell, cross-sell, and advocacy motions tied to customer. Use when working with expansion playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

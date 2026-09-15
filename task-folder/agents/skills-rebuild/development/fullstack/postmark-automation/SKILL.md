@@ -1,6 +1,6 @@
 ---
 name: "postmark-automation"
-description: "Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces. Always search tools first for current schemas. Use when working with postmark automation or related tasks in development/fullstack."
+description: "Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces. Always search tools first for current schemas. Use when working with postmark automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

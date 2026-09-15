@@ -1,6 +1,6 @@
 ---
 name: "framework-migration-legacy-modernize"
-description: "Orchestrate a comprehensive legacy system modernization using the strangler fig pattern, enabling gradual replacement of outdated components while maintaining continuous business operations through ex. Use when working with framework migration legacy modernize or related tasks in development/fullstack."
+description: "Orchestrate a comprehensive legacy system modernization using the strangler fig pattern, enabling gradual replacement of outdated components while maintaining continuous business operations through ex. Use when working with framework migration legacy modernize."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

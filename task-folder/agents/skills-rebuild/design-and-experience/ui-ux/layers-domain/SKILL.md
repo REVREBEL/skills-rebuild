@@ -1,6 +1,6 @@
 ---
 name: "layers-domain"
-description: "Techniques for mapping a domain's concepts, terminology conflicts, and bounded contexts — the raw material the conceptual model is built from. Use when working with layers domain or related tasks in design-and-experience/ui-ux."
+description: "Techniques for mapping a domain's concepts, terminology conflicts, and bounded contexts — the raw material the conceptual model is built from. Use when working with layers domain."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

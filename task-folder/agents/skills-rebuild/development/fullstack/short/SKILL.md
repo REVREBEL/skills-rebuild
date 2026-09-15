@@ -1,6 +1,6 @@
 ---
 name: "short"
-description: "Rewrite the previous response more briefly while preserving the substance. Use when working with short or related tasks in development/fullstack."
+description: "Rewrite the previous response more briefly while preserving the substance. Use when working with short."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

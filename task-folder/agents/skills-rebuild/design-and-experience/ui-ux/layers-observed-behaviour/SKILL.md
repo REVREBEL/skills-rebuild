@@ -1,6 +1,6 @@
 ---
 name: "layers-observed-behaviour"
-description: "Techniques for planning user research and synthesising it into grounded, confidence-rated findings about what users actually do. Use when working with layers observed behaviour or related tasks in design-and-experience/ui-ux."
+description: "Techniques for planning user research and synthesising it into grounded, confidence-rated findings about what users actually do. Use when working with layers observed behaviour."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

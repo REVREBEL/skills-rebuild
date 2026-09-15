@@ -1,6 +1,6 @@
 ---
 name: "file-organizer"
-description: "6. Reduces Clutter: Identifies old files you probably don't need anymore. Use when working with file organizer or related tasks in development/fullstack."
+description: "6. Reduces Clutter: Identifies old files you probably don't need anymore. Use when working with file organizer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

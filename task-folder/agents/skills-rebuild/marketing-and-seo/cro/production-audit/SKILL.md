@@ -1,6 +1,6 @@
 ---
 name: "production-audit"
-description: "Audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. Use when working with production audit or related tasks in marketing-and-seo/cro."
+description: "Audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. Use when working with production audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

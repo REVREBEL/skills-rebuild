@@ -1,6 +1,6 @@
 ---
 name: "image-to-code-skill"
-description: "Execute image-to-code-skill tasks, workflows, and automated procedures. Use when working with image to code skill or related tasks in marketing-and-seo/cro."
+description: "Execute image-to-code-skill tasks, workflows, and automated procedures. Use when working with image to code skill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

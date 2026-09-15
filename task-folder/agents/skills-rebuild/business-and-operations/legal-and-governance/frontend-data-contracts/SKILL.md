@@ -1,6 +1,6 @@
 ---
 name: "frontend-data-contracts"
-description: "A portable, framework-agnostic discipline for type safety at the network edge of any React or React Native app. Establishes one typed API client as the single fetch boundary, a parse-don't-validate rule that turns wire JSON into trusted domain types before it enters the app, a single.. Use when working with frontend data contracts or related tasks in business-and-operations/legal-and-governance."
+description: "Define TypeScript data contracts and schemas bridging frontend components and backend APIs. Use when defining API response types, contract tests, or client-server interfaces."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

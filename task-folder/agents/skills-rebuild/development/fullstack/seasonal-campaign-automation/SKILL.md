@@ -1,6 +1,6 @@
 ---
 name: "seasonal-campaign-automation"
-description: "Automate seasonal marketing campaigns for Black Friday, holidays, and shopping events with templated workflows, countdown sequences, and year-round planning. Use when working with seasonal campaign automation or related tasks in development/fullstack."
+description: "Automate seasonal marketing campaigns for Black Friday, holidays, and shopping events with templated workflows, countdown sequences, and year-round planning. Use when working with seasonal campaign automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

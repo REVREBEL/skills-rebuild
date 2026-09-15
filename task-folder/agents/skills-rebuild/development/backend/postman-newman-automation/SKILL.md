@@ -1,6 +1,6 @@
 ---
 name: "postman-newman-automation"
-description: "Generate Newman CLI commands, configuration files, Jenkins pipeline scripts, and shell automation for running Postman collections in CI/CD or local environments. Use this skill whenever the user wants to run Postman collections from the command line, automate API tests, integrate.. Use when working with postman newman automation or related tasks in development/backend."
+description: "Generate Newman CLI commands, configuration files, Jenkins pipeline scripts, and shell automation for running Postman collections in CI/CD or local environments. Use this skill whenever the user wants to run Postman collections from the command line, automate API tests, integrate. Use when working with postman newman automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

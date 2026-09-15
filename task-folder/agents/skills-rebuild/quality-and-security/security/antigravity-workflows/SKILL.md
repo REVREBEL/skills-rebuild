@@ -1,6 +1,6 @@
 ---
 name: "antigravity-workflows"
-description: "Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA. Use when working with antigravity workflows or related tasks in quality-and-security/security."
+description: "Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA. Use when working with antigravity workflows."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

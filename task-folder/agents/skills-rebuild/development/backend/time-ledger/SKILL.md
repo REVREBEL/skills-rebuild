@@ -1,6 +1,6 @@
 ---
 name: "time-ledger"
-description: "Natural-language time tracking: parse what the user says they did into Activity/Minutes/Date rows in their own Notion database — asking instead of guessing when unsure. Use when working with time ledger or related tasks in development/backend."
+description: "Natural-language time tracking: parse what the user says they did into Activity/Minutes/Date rows in their own Notion database — asking instead of guessing when unsure. Use when working with time ledger."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "global-chat-agent-discovery"
-description: "Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server. Use when working with global chat agent discovery or related tasks in marketing-and-seo/cro."
+description: "Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server. Use when working with global chat agent discovery."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "journey"
-description: "Execute journey tasks, workflows, and automated procedures. Use when working with journey or related tasks in marketing-and-seo/cro."
+description: "Execute journey tasks, workflows, and automated procedures. Use when working with journey."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

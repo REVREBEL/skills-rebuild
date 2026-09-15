@@ -1,6 +1,6 @@
 ---
 name: "clerk-auth"
-description: "Expert patterns for Clerk auth implementation, middleware,. Use when working with clerk auth or related tasks in development/fullstack."
+description: "Expert patterns for Clerk auth implementation, middleware,. Use when working with clerk auth."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

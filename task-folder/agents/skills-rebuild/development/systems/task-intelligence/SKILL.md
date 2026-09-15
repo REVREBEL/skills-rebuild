@@ -1,6 +1,6 @@
 ---
 name: "task-intelligence"
-description: "Protocolo de Inteligência Pré-Tarefa — ativa TODOS os agentes relevantes do ecossistema ANTES de executar qualquer tarefa solicitada pelo usuário. Use when working with task intelligence or related tasks in development/systems."
+description: "Protocolo de Inteligência Pré-Tarefa — ativa TODOS os agentes relevantes do ecossistema ANTES de executar qualquer tarefa solicitada pelo usuário. Use when working with task intelligence."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "seo-flow"
-description: "Execute seo-flow tasks, workflows, and automated procedures. Use when working with seo flow or related tasks in marketing-and-seo/on-page-seo."
+description: "Execute seo-flow tasks, workflows, and automated procedures. Use when working with seo flow."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

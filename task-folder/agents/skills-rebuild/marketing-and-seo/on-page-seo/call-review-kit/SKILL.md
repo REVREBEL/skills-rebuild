@@ -1,6 +1,6 @@
 ---
 name: "call-review-kit"
-description: "Use to facilitate structured call review sessions with agendas, scorecards,. Use when working with call review kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to facilitate structured call review sessions with agendas, scorecards,. Use when working with call review kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

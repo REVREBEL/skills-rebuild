@@ -1,6 +1,6 @@
 ---
 name: "client-validation-document"
-description: "Produce the Part 5 Client Validation Document — the one true stop where unbiased v1 findings meet the client. Each finding gets ACCEPT/REJECT/EDIT/DEFER decision. Use when working with client validation document or related tasks in development/fullstack."
+description: "Produce the Part 5 Client Validation Document — the one true stop where unbiased v1 findings meet the client. Each finding gets ACCEPT/REJECT/EDIT/DEFER decision. Use when working with client validation document."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "ui-ux-designer"
-description: "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools. Use when working with ui ux designer or related tasks in design-and-experience/design-systems."
+description: "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools. Use when working with ui ux designer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

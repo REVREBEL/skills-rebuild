@@ -1,6 +1,6 @@
 ---
 name: "governance"
-description: "Use to establish ownership, cadences, and compliance for customer journey. Use when working with governance or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to establish ownership, cadences, and compliance for customer journey. Use when working with governance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

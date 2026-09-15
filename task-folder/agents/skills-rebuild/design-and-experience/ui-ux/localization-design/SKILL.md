@@ -1,6 +1,6 @@
 ---
 name: "localization-design"
-description: "Design interfaces that adapt gracefully to multiple languages, writing directions, and cultural contexts. Use when working with localization design or related tasks in design-and-experience/ui-ux."
+description: "Design interfaces that adapt gracefully to multiple languages, writing directions, and cultural contexts. Use when working with localization design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

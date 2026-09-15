@@ -1,6 +1,6 @@
 ---
 name: "api-onboarding"
-description: "Reduce time-to-first-API-call (TTFAC) by optimizing every step of the developer onboarding journey. This skill covers authentication simplification, sandbox environments, interactive documentation, and identifying and eliminating common failure points. Trigger phrases: \"API. Use when working with api onboarding or related tasks in content-and-documentation/technical-writing."
+description: "Reduce time-to-first-API-call (TTFAC) by optimizing every step of the developer onboarding journey. This skill covers authentication simplification, sandbox environments, interactive documentation, and identifying and eliminating common failure points. Trigger phrases: \\"API. Use when working with api onboarding."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

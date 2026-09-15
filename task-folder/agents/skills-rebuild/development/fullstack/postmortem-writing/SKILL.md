@@ -1,6 +1,6 @@
 ---
 name: "postmortem-writing"
-description: "Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence. Use when working with postmortem writing or related tasks in development/fullstack."
+description: "Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence. Use when working with postmortem writing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

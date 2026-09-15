@@ -1,6 +1,6 @@
 ---
 name: "partner-revenue-desk"
-description: "Operating model for tracking, attributing, and accelerating partner-sourced. Use when working with partner revenue desk or related tasks in marketing-and-seo/on-page-seo."
+description: "Operating model for tracking, attributing, and accelerating partner-sourced. Use when working with partner revenue desk."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

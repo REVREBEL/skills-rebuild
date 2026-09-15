@@ -1,6 +1,6 @@
 ---
 name: "the-honoured-one"
-description: "Forces the AI to fully load context and read relevant files before performing complex, multi-file tasks, architectural changes, or debugging. Prevents acting on assumptions. Use when working with the honoured one or related tasks in quality-and-security/debugging."
+description: "Forces the AI to fully load context and read relevant files before performing complex, multi-file tasks, architectural changes, or debugging. Prevents acting on assumptions. Use when working with the honoured one."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

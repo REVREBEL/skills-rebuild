@@ -1,6 +1,6 @@
 ---
 name: "neo-brutalism"
-description: "Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look. Use when working with neo brutalism or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look. Use when working with neo brutalism."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

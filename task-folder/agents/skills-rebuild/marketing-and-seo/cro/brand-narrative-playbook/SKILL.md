@@ -1,6 +1,6 @@
 ---
 name: "brand-narrative-playbook"
-description: "Messaging and storytelling template that keeps positioning consistent. Use when working with brand narrative playbook or related tasks in marketing-and-seo/cro."
+description: "Messaging and storytelling template that keeps positioning consistent. Use when working with brand narrative playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

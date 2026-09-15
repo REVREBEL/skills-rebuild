@@ -1,6 +1,6 @@
 ---
 name: "creative-director"
-description: "Execute creative-director tasks, workflows, and automated procedures. Use when working with creative director or related tasks in design-and-experience/ui-ux."
+description: "Execute creative-director tasks, workflows, and automated procedures. Use when working with creative director."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

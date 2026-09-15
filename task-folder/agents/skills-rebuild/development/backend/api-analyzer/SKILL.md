@@ -1,6 +1,6 @@
 ---
 name: "api-analyzer"
-description: "Validates whether an API request is correct based on provided inputs (method, URL, headers, body, auth, query params). Use this skill whenever a user wants to check, validate, debug, or verify an API call — including when they paste a curl command, show endpoint details, ask \"is this.. Use when working with api analyzer or related tasks in development/backend."
+description: "Validates whether an API request is correct based on provided inputs (method, URL, headers, body, auth, query params). Use this skill whenever a user wants to check, validate, debug, or verify an API call — including when they paste a curl command, show endpoint details, ask \\"is this. Use when working with api analyzer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

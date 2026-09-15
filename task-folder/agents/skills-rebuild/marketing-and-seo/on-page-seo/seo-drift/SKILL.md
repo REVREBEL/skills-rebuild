@@ -1,6 +1,6 @@
 ---
 name: "seo-drift"
-description: "Execute seo-drift tasks, workflows, and automated procedures. Use when working with seo drift or related tasks in marketing-and-seo/on-page-seo."
+description: "Execute seo-drift tasks, workflows, and automated procedures. Use when working with seo drift."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

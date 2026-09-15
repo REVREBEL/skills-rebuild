@@ -1,6 +1,6 @@
 ---
 name: "research-prompt"
-description: "Turn vague research needs into one precise deep-research prompt with context and output criteria. Use when working with research prompt or related tasks in development/fullstack."
+description: "Turn vague research needs into one precise deep-research prompt with context and output criteria. Use when working with research prompt."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

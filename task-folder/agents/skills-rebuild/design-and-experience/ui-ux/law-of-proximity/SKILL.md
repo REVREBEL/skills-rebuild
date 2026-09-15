@@ -1,6 +1,6 @@
 ---
 name: "law-of-proximity"
-description: "Apply the Law of Proximity to group related elements through spatial relationships. Use when working with law of proximity or related tasks in design-and-experience/ui-ux."
+description: "Apply the Law of Proximity to group related elements through spatial relationships. Use when working with law of proximity."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

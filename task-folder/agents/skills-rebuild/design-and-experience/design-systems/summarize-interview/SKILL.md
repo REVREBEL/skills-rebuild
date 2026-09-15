@@ -1,6 +1,6 @@
 ---
 name: "summarize-interview"
-description: "Summarize a user interview transcript into structured insights with key themes, quotes, and action items. Use after conducting user interviews to extract and share findings efficiently. Use when working with summarize interview or related tasks in design-and-experience/design-systems."
+description: "Summarize a user interview transcript into structured insights with key themes, quotes, and action items. Use after conducting user interviews to extract and share findings efficiently. Use when working with summarize interview."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

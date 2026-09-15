@@ -1,6 +1,6 @@
 ---
 name: "shader-dev"
-description: "Execute shader-dev tasks, workflows, and automated procedures. Use when working with shader dev or related tasks in design-and-experience/motion-and-graphics."
+description: "Execute shader-dev tasks, workflows, and automated procedures. Use when working with shader dev."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

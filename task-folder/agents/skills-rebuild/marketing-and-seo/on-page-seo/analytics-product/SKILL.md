@@ -1,6 +1,6 @@
 ---
 name: "analytics-product"
-description: "Analytics de produto — PostHog, Mixpanel, eventos, funnels, cohorts, retencao, north star metric, OKRs e dashboards de produto. Use when working with analytics product or related tasks in marketing-and-seo/on-page-seo."
+description: "Analytics de produto — PostHog, Mixpanel, eventos, funnels, cohorts, retencao, north star metric, OKRs e dashboards de produto. Use when working with analytics product."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

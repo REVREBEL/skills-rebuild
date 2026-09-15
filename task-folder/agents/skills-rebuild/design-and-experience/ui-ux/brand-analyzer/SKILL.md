@@ -1,6 +1,6 @@
 ---
 name: "brand-analyzer"
-description: "This skill should be used when the user requests brand analysis, brand guidelines creation, brand audits, or establishing brand identity and consistency standards. It provides comprehensive frameworks for analyzing brand elements and creating actionable brand guidelines based on requirements. Use when working with brand analyzer or related tasks in design-and-experience/ui-ux."
+description: "This skill should be used when the user requests brand analysis, brand guidelines creation, brand audits, or establishing brand identity and consistency standards. It provides comprehensive frameworks for analyzing brand elements and creating actionable brand guidelines based on requirements. Use when working with brand analyzer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

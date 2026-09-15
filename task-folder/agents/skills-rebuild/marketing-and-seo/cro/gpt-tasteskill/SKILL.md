@@ -1,6 +1,6 @@
 ---
 name: "gpt-tasteskill"
-description: "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing. Use when working with gpt tasteskill or related tasks in marketing-and-seo/cro."
+description: "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing. Use when working with gpt tasteskill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

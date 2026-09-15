@@ -1,6 +1,6 @@
 ---
 name: "pre-ship-gate"
-description: "A ship gate that runs before any production deploy: checks the silent failure modes that make a deploy 'succeed' while prod stays broken, then verifies the live revision instead of trusting deploy output. Use when working with pre ship gate or related tasks in development/backend."
+description: "A ship gate that runs before any production deploy: checks the silent failure modes that make a deploy 'succeed' while prod stays broken, then verifies the live revision instead of trusting deploy output. Use when working with pre ship gate."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "predictive-personalization"
-description: "Use machine learning models to predict customer preferences and deliver personalized product recommendations, content, and offers based on behavioral signals. Use when working with predictive personalization or related tasks in data-and-ai/machine-learning."
+description: "Use machine learning models to predict customer preferences and deliver personalized product recommendations, content, and offers based on behavioral signals. Use when working with predictive personalization."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

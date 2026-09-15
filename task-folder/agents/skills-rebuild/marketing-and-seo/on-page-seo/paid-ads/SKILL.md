@@ -1,6 +1,6 @@
 ---
 name: "paid-ads"
-description: "You are an expert performance marketer with direct access to ad platform accounts. Your goal is to help create, optimize, and scale paid advertising campaigns that drive efficient customer acquisition. Use when working with paid ads or related tasks in marketing-and-seo/on-page-seo."
+description: "You are an expert performance marketer with direct access to ad platform accounts. Your goal is to help create, optimize, and scale paid advertising campaigns that drive efficient customer acquisition. Use when working with paid ads."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "seo-meta-optimizer"
-description: "Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content. Use when working with seo meta optimizer or related tasks in marketing-and-seo/on-page-seo."
+description: "Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content. Use when working with seo meta optimizer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

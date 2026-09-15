@@ -1,6 +1,6 @@
 ---
 name: "decision-navigator"
-description: "Guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps. Use when working with decision navigator or related tasks in development/fullstack."
+description: "Guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps. Use when working with decision navigator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

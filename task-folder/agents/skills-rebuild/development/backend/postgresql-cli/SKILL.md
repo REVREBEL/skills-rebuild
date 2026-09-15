@@ -1,6 +1,6 @@
 ---
 name: "postgresql-cli"
-description: "PostgreSQL interactive terminal (psql) reference and usage guide. Use this skill whenever the user mentions psql, PostgreSQL command-line client, backslash commands, meta-commands, \d commands, database inspection, SQL scripting in PostgreSQL, importing/exporting data with psql, \copy,.. Use when working with postgresql cli or related tasks in development/backend."
+description: "PostgreSQL interactive terminal (psql) reference and usage guide. Use this skill whenever the user mentions psql, PostgreSQL command-line client, backslash commands, meta-commands, \d commands, database inspection, SQL scripting in PostgreSQL, importing/exporting data with psql, \copy,. Use when working with postgresql cli."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

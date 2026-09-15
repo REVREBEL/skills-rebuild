@@ -1,6 +1,6 @@
 ---
 name: "canvas-design"
-description: "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files. Use when working with canvas design or related tasks in design-and-experience/taste-and-critique."
+description: "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files. Use when working with canvas design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

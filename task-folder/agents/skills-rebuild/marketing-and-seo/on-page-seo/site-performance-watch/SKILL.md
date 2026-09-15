@@ -1,6 +1,6 @@
 ---
 name: "site-performance-watch"
-description: "Monitoring and alerting framework for ecommerce site speed, errors, and. Use when working with site performance watch or related tasks in marketing-and-seo/on-page-seo."
+description: "Monitoring and alerting framework for ecommerce site speed, errors, and. Use when working with site performance watch."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

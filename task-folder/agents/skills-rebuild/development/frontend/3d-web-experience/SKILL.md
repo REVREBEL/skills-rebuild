@@ -1,6 +1,6 @@
 ---
 name: "3d-web-experience"
-description: "Expert in building 3D experiences for the web - Three.js, React. Use when working with 3d web experience or related tasks in development/frontend."
+description: "Expert in building 3D experiences for the web - Three.js, React. Use when working with 3d web experience."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

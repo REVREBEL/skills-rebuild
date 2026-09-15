@@ -1,6 +1,6 @@
 ---
 name: "n8n-subworkflows"
-description: "Design, build, and integrate modular n8n subworkflows with typed inputs, item-by-item vs all-item execution modes, error delegation, and agent tool exposure when decomposing complex workflows or building reusable logic. Use when working with n8n subworkflows or related tasks in workflow-and-automation/tool-integration."
+description: "Design, build, and integrate modular n8n subworkflows with typed inputs, item-by-item vs all-item execution modes, error delegation, and agent tool exposure when decomposing complex workflows or building reusable logic. Use when working with n8n subworkflows."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

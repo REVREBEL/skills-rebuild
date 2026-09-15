@@ -1,6 +1,6 @@
 ---
 name: "survey-generator"
-description: "Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering. Use when working with survey generator or related tasks in development/fullstack."
+description: "Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering. Use when working with survey generator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

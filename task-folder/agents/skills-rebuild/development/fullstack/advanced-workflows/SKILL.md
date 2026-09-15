@@ -1,6 +1,6 @@
 ---
 name: "advanced-workflows"
-description: "Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence. Use when working with advanced workflows or related tasks in development/fullstack."
+description: "Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence. Use when working with advanced workflows."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "ui-skills-root"
-description: "Use before UI-related work to select the smallest useful UI Skills context through the ui-skills CLI. Use when working with ui skills root or related tasks in design-and-experience/ui-ux."
+description: "Use before UI-related work to select the smallest useful UI Skills context through the ui-skills CLI. Use when working with ui skills root."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

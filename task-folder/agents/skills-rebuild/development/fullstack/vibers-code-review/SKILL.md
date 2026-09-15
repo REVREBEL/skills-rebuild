@@ -1,6 +1,6 @@
 ---
 name: "vibers-code-review"
-description: "Human review workflow for AI-generated GitHub projects with spec-based feedback, security review, and follow-up PRs from the Vibers service. Use when working with vibers code review or related tasks in development/fullstack."
+description: "Human review workflow for AI-generated GitHub projects with spec-based feedback, security review, and follow-up PRs from the Vibers service. Use when working with vibers code review."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "frontend-enhancer"
-description: "This skill should be used when enhancing the visual design and aesthetics of Next.js web applications. It provides modern UI components, design patterns, color palettes, animations, and layout templates. Use this skill for tasks like improving styling, creating responsive designs, implementing modern UI patterns, adding animations, selecting color schemes, or building aesthetically pleasing frontend interfaces. Use when working with frontend enhancer or related tasks in design-and-experience/taste-and-critique."
+description: "This skill should be used when enhancing the visual design and aesthetics of Next.js web applications. It provides modern UI components, design patterns, color palettes, animations, and layout templates. Use this skill for tasks like improving styling, creating responsive designs, implementing modern UI patterns, adding animations, selecting color schemes, or building aesthetically pleasing frontend interfaces. Use when working with frontend enhancer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

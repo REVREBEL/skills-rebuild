@@ -1,6 +1,6 @@
 ---
 name: "design-qa-checklist"
-description: "Create QA checklists for verifying design implementation accuracy. Use when working with design qa checklist or related tasks in design-and-experience/ui-ux."
+description: "Create QA checklists for verifying design implementation accuracy. Use when working with design qa checklist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

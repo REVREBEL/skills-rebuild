@@ -1,6 +1,6 @@
 ---
 name: "linux-shell-scripting"
-description: "Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration testing environments. Use when working with linux shell scripting or related tasks in quality-and-security/security."
+description: "Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration testing environments. Use when working with linux shell scripting."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

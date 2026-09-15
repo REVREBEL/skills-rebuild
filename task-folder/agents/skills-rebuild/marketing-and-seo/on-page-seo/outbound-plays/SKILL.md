@@ -1,6 +1,6 @@
 ---
 name: "outbound-plays"
-description: "Use to craft channel-specific outreach sequences that tie directly to. Use when working with outbound plays or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to craft channel-specific outreach sequences that tie directly to. Use when working with outbound plays."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

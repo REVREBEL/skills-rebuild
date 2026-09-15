@@ -1,6 +1,6 @@
 ---
 name: "google-analytics-automation"
-description: "Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas. Use when working with google analytics automation or related tasks in marketing-and-seo/technical-seo."
+description: "Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas. Use when working with google analytics automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

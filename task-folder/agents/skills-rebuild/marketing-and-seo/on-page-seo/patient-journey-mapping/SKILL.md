@@ -1,6 +1,6 @@
 ---
 name: "patient-journey-mapping"
-description: "Framework for documenting compliant patient journeys with touchpoints,. Use when working with patient journey mapping or related tasks in marketing-and-seo/on-page-seo."
+description: "Framework for documenting compliant patient journeys with touchpoints,. Use when working with patient journey mapping."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

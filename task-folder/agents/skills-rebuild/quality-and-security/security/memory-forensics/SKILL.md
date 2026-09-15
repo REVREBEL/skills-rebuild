@@ -1,6 +1,6 @@
 ---
 name: "memory-forensics"
-description: "Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis. Use when working with memory forensics or related tasks in quality-and-security/security."
+description: "Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis. Use when working with memory forensics."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

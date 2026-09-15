@@ -1,6 +1,6 @@
 ---
 name: "diary"
-description: "Unified Diary System: A context-preserving automated logger for multi-project development. Use when working with diary or related tasks in development/fullstack."
+description: "Unified Diary System: A context-preserving automated logger for multi-project development. Use when working with diary."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

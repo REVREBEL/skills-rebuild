@@ -1,6 +1,6 @@
 ---
 name: "survey-design"
-description: "Use to craft rigorous survey instruments with sampling, question logic,. Use when working with survey design or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to craft rigorous survey instruments with sampling, question logic,. Use when working with survey design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

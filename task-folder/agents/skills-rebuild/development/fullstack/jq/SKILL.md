@@ -1,6 +1,6 @@
 ---
 name: "jq"
-description: "Expert jq usage for JSON querying, filtering, transformation, and pipeline integration. Practical patterns for real shell workflows. Use when working with jq or related tasks in development/fullstack."
+description: "Expert jq usage for JSON querying, filtering, transformation, and pipeline integration. Practical patterns for real shell workflows. Use when working with jq."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

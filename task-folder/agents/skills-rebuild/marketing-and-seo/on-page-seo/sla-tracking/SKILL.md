@@ -1,6 +1,6 @@
 ---
 name: "sla-tracking"
-description: "Use to design measurement, alerting, and reporting for MQL\u2192SQL\. Use when working with sla tracking or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to design measurement, alerting, and reporting for MQL\u2192SQL\. Use when working with sla tracking."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "ux-copy"
-description: "Generate UX microcopy (button labels, error messages, empty states, toasts) following a casual-but-polite voice and tone. Use when working with ux copy or related tasks in marketing-and-seo/cro."
+description: "Generate UX microcopy (button labels, error messages, empty states, toasts) following a casual-but-polite voice and tone. Use when working with ux copy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

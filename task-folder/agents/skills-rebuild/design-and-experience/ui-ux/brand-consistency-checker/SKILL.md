@@ -1,6 +1,6 @@
 ---
 name: "brand-consistency-checker"
-description: "Scan documents and slides for off-brand colors, fonts, and logos. Validate against brand guidelines and suggest corrections. Use when working with brand consistency checker or related tasks in design-and-experience/ui-ux."
+description: "Scan documents and slides for off-brand colors, fonts, and logos. Validate against brand guidelines and suggest corrections. Use when working with brand consistency checker."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

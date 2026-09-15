@@ -1,6 +1,6 @@
 ---
 name: "anti-reversing-techniques"
-description: "AUTHORIZED USE ONLY: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis: > 1. Use when working with anti reversing techniques or related tasks in development/fullstack."
+description: "AUTHORIZED USE ONLY: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis: > 1. Use when working with anti reversing techniques."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

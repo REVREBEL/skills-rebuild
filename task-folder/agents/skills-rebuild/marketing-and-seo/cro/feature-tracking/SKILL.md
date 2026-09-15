@@ -1,6 +1,6 @@
 ---
 name: "feature-tracking"
-description: "Maintain durable feature-level memory across AI coding sessions with lightweight Markdown tracks for status, source-of-truth docs, decisions, risks, and changes. Use when working with feature tracking or related tasks in marketing-and-seo/cro."
+description: "Maintain durable feature-level memory across AI coding sessions with lightweight Markdown tracks for status, source-of-truth docs, decisions, risks, and changes. Use when working with feature tracking."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "packaging-framework"
-description: "Use to structure pricing/packaging proposals with clear fences and value. Use when working with packaging framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to structure pricing/packaging proposals with clear fences and value. Use when working with packaging framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

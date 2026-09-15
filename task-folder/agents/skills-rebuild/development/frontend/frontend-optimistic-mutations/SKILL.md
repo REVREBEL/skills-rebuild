@@ -1,6 +1,6 @@
 ---
 name: "frontend-optimistic-mutations"
-description: "A portable, framework-agnostic discipline for the write path of any React or React Native app using a query/cache layer. Codifies the optimistic-update lifecycle (cancel in-flight queries → snapshot every affected cache → patch instantly → roll back verbatim on error → invalidate on.. Use when working with frontend optimistic mutations or related tasks in development/frontend."
+description: "A portable, framework-agnostic discipline for the write path of any React or React Native app using a query/cache layer. Codifies the optimistic-update lifecycle (cancel in-flight queries → snapshot every affected cache → patch instantly → roll back verbatim on error → invalidate on. Use when working with frontend optimistic mutations."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

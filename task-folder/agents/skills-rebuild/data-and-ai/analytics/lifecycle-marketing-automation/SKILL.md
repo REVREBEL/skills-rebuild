@@ -1,6 +1,6 @@
 ---
 name: "lifecycle-marketing-automation"
-description: "Map customer journey stages from first visit to loyal advocate with personalized messaging, triggered workflows, and segment-based campaign automation. Use when working with lifecycle marketing automation or related tasks in data-and-ai/analytics."
+description: "Map customer journey stages from first visit to loyal advocate with personalized messaging, triggered workflows, and segment-based campaign automation. Use when working with lifecycle marketing automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

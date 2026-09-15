@@ -7,7 +7,7 @@
 - **Member Skill Count**: 2
 - **Batch Status**: `completed`
 - **Validation Status**: `verified`
-- **Deterministic Manifest Hash (SHA-256)**: `7c0f503d069b2dff1a414f09ee4338d6cb436859a16de206c0fedd05390acb18`
+- **Deterministic Manifest Hash (SHA-256)**: `e9f88df1595a575bc69f2c635be92109cc866a611c8d728227647bb1d8148989`
 
 ## 2. Canonical Skills Summary & Provenance
 
@@ -20,17 +20,12 @@
 
 | Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
 |---|---|---|---|
-| `subagent-driven-development` | User asks to work with subagent driven development or configure subagent driven development in agent-architecture. | User requests general server administration, styling, or unrelated operations outside subagent driven development. | User asks for general assistance in agent-architecture without specifying subagent driven development; routes to `subagent-driven-development` when subagent driven development-specific capabilities are required. |
-| `subagent-orchestrator` | User asks to work with subagent orchestrator or configure subagent orchestrator in agent-architecture. | User requests general server administration, styling, or unrelated operations outside subagent orchestrator. | User asks for general assistance in agent-architecture without specifying subagent orchestrator; routes to `subagent-orchestrator` when subagent orchestrator-specific capabilities are required. |
+| `subagent-driven-development` | User asks to execute or optimize subagent driven development tasks (e.g. Core principle:** Fresh subagent per task + two-stage review (spec then quality) = high quality, fast iteration). | User requests general infrastructure administration or unrelated application development outside subagent driven development or unrelated operations outside subagent driven development. | User asks for general assistance with subagent driven development -> Disambiguate: Clarify whether the focus is specific subagent driven development patterns or broader agent-architecture workflows. |
+| `subagent-orchestrator` | User asks to execute or optimize subagent orchestrator tasks (e.g. implementing subagent orchestrator workflows and configurations). | User requests Editing a single file or fixing one bug or unrelated operations outside subagent orchestrator. | User asks for general assistance with subagent orchestrator -> Disambiguate: Clarify whether the focus is specific subagent orchestrator patterns or broader agent-architecture workflows. |
 
-## 4. Provider Reconciliation & Security Audit
+## 4. Verification & Consistency Sign-off
 
-- **Undeclared Provider Lock-in**: 0 occurrences. All provider APIs declared in compatibility metadata.
-- **Workstation / Machine Path Leaks**: 0 occurrences.
-- **Broken Relative References**: 0 broken links.
-
-## 5. Unresolved Items Ledger
-
-| Item ID | Skill Name | Issue Type | Disposition | Rationale |
-|---|---|---|---|---|
-| None | None | None | deliberate_state_completed | All member skills successfully rewritten, normalized, and validated. |
+- [x] 100% of member packages verified on disk under `task-folder/agents/skills-rebuild/meta-and-agent-skills/agent-architecture/`
+- [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
+- [x] Substantive capability-specific trigger boundary evaluation confirmed.
+- [x] Manifest hash `e9f88df1595a575bc69f2c635be92109cc866a611c8d728227647bb1d8148989` computed deterministically.

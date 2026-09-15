@@ -1,6 +1,6 @@
 ---
 name: "success-planning-framework"
-description: "Use to structure collaborative success plans with milestones, KPIs, and. Use when working with success planning framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to structure collaborative success plans with milestones, KPIs, and. Use when working with success planning framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "ad-campaign-analyzer"
-description: "Analyze cross-channel campaign data, quantify uncertainty, and propose evidence-labeled budget tests without overstating causality. Use when working with ad campaign analyzer or related tasks in marketing-and-seo/cro."
+description: "Analyze cross-channel campaign data, quantify uncertainty, and propose evidence-labeled budget tests without overstating causality. Use when working with ad campaign analyzer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

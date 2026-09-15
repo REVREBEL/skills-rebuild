@@ -1,6 +1,6 @@
 ---
 name: "curriculum-alignment-kit"
-description: "Toolkit to map EdTech programs to academic standards, accreditation,. Use when working with curriculum alignment kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Toolkit to map EdTech programs to academic standards, accreditation,. Use when working with curriculum alignment kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

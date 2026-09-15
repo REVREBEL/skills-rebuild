@@ -1,6 +1,6 @@
 ---
 name: "deal-desk"
-description: "Use to manage pricing, packaging, and approval workflows for renewal. Use when working with deal desk or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to manage pricing, packaging, and approval workflows for renewal. Use when working with deal desk."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

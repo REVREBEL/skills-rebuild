@@ -1,6 +1,6 @@
 ---
 name: "crewai"
-description: "Expert in CrewAI - the leading role-based multi-agent framework. Use when working with crewai or related tasks in development/fullstack."
+description: "Expert in CrewAI - the leading role-based multi-agent framework. Use when working with crewai."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

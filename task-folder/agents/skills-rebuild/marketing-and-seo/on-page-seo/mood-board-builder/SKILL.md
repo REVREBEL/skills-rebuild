@@ -1,6 +1,6 @@
 ---
 name: "mood-board-builder"
-description: "Use to compile visual inspiration, color palettes, and typography references. Use when working with mood board builder or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to compile visual inspiration, color palettes, and typography references. Use when working with mood board builder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

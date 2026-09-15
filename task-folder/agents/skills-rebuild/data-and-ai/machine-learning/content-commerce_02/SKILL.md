@@ -1,6 +1,6 @@
 ---
 name: "content-commerce_02"
-description: "Turn your blog into a sales channel by embedding shoppable product cards in editorial content and tracking content-influenced revenue. Use when working with content commerce_02 or related tasks in data-and-ai/machine-learning."
+description: "Turn your blog into a sales channel by embedding shoppable product cards in editorial content and tracking content-influenced revenue. Use when working with content commerce_02."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

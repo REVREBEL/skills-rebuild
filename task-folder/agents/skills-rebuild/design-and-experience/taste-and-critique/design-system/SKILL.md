@@ -1,6 +1,6 @@
 ---
 name: "design-system"
-description: "Mechanical implementation invariants for frontend design: token architecture, typography hierarchy, loading order, FOUT prevention, chrome stability, motion timing, color semantics. Use with design when building components, pages, or design systems. (Aesthetic direction lives in.. Use when working with design system or related tasks in design-and-experience/taste-and-critique."
+description: "Mechanical implementation invariants for frontend design: token architecture, typography hierarchy, loading order, FOUT prevention, chrome stability, motion timing, color semantics. Use with design when building components, pages, or design systems. (Aesthetic direction lives in. Use when working with design system."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

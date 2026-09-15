@@ -1,6 +1,6 @@
 ---
 name: "presentation-deck"
-description: "Structure compelling design presentations for stakeholders, reviews, and showcases. Use when working with presentation deck or related tasks in design-and-experience/ui-ux."
+description: "Structure compelling design presentations for stakeholders, reviews, and showcases. Use when working with presentation deck."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "survey-design"
-description: "Design surveys that collect reliable, unbiased quantitative data to validate hypotheses and measure user attitudes at scale. Use when working with survey design or related tasks in design-and-experience/ui-ux."
+description: "Design surveys that collect reliable, unbiased quantitative data to validate hypotheses and measure user attitudes at scale. Use when working with survey design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

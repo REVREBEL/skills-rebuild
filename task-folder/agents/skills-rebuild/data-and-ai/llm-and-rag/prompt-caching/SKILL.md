@@ -1,6 +1,6 @@
 ---
 name: "prompt-caching"
-description: "Caching strategies for LLM prompts including Anthropic prompt. Use when working with prompt caching or related tasks in data-and-ai/llm-and-rag."
+description: "Caching strategies for LLM prompts including Anthropic prompt. Use when working with prompt caching."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

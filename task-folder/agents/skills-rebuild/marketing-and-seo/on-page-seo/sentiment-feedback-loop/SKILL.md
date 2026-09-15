@@ -1,6 +1,6 @@
 ---
 name: "sentiment-feedback-loop"
-description: "Process for capturing qualitative feedback and injecting it into CS playbooks. Use when working with sentiment feedback loop or related tasks in marketing-and-seo/on-page-seo."
+description: "Process for capturing qualitative feedback and injecting it into CS playbooks. Use when working with sentiment feedback loop."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

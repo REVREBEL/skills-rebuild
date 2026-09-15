@@ -1,6 +1,6 @@
 ---
 name: "orchestrate"
-description: "Coordinate focused subagents on substantial work, keep their ownership non-overlapping, and integrate verified results. Use for large-scope Codex tasks; keep trivial work with the coordinator. Use when working with orchestrate or related tasks in meta-and-agent-skills/skill-lifecycle."
+description: "Coordinate focused subagents on substantial work, keep their ownership non-overlapping, and integrate verified results. Use for large-scope Codex tasks; keep trivial work with the coordinator. Use when working with orchestrate."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "identity-resolution"
-description: "Use to match accounts, contacts, and opportunities across enrichment. Use when working with identity resolution or related tasks in marketing-and-seo/cro."
+description: "Use to match accounts, contacts, and opportunities across enrichment. Use when working with identity resolution."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

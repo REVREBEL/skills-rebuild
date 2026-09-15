@@ -1,6 +1,6 @@
 ---
 name: "referral-viral-loops"
-description: "Build referral mechanics with dual-sided rewards, unique tracking links, viral coefficient optimization, and anti-fraud controls for referral abuse. Use when working with referral viral loops or related tasks in development/fullstack."
+description: "Build referral mechanics with dual-sided rewards, unique tracking links, viral coefficient optimization, and anti-fraud controls for referral abuse. Use when working with referral viral loops."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

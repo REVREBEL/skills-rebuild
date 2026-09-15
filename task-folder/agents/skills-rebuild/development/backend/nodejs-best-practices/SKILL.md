@@ -1,6 +1,6 @@
 ---
 name: "nodejs-best-practices"
-description: "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying. Use when working with nodejs best practices or related tasks in development/backend."
+description: "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying. Use when working with nodejs best practices."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

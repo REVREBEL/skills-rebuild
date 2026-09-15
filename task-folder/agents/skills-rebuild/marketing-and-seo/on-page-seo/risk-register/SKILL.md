@@ -1,6 +1,6 @@
 ---
 name: "risk-register"
-description: "Use to track pursuit risks, owners, mitigation steps, and escalation. Use when working with risk register or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to track pursuit risks, owners, mitigation steps, and escalation. Use when working with risk register."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

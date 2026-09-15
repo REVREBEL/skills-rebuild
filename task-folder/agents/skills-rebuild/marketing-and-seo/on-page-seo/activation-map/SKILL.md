@@ -1,6 +1,6 @@
 ---
 name: "activation-map"
-description: "Use to link segments and insights to GTM plays, owners, and measurement. Use when working with activation map or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to link segments and insights to GTM plays, owners, and measurement. Use when working with activation map."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

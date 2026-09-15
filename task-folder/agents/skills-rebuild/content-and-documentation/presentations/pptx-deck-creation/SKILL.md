@@ -1,6 +1,6 @@
 ---
 name: "pptx-deck-creation"
-description: "Create editable, production-ready PPTX decks with narrative planning, explicit layout specs, asset guidance, and quality checks. Use when working with pptx deck creation or related tasks in content-and-documentation/presentations."
+description: "Create editable, production-ready PPTX decks with narrative planning, explicit layout specs, asset guidance, and quality checks. Use when working with pptx deck creation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

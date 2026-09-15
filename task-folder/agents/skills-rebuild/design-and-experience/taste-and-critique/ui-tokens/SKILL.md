@@ -1,6 +1,6 @@
 ---
 name: "ui-tokens"
-description: "View, add, or modify design tokens in the StyleSeed design system. Use when working with ui tokens or related tasks in design-and-experience/taste-and-critique."
+description: "View, add, or modify design tokens in the StyleSeed design system. Use when working with ui tokens."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

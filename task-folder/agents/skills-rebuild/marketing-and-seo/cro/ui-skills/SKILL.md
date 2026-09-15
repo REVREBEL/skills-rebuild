@@ -1,6 +1,6 @@
 ---
 name: "ui-skills"
-description: "Execute ui-skills tasks, workflows, and automated procedures. Use when working with ui skills or related tasks in marketing-and-seo/cro."
+description: "Execute ui-skills tasks, workflows, and automated procedures. Use when working with ui skills."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

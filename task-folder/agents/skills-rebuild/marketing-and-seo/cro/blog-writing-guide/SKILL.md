@@ -1,6 +1,6 @@
 ---
 name: "blog-writing-guide"
-description: "This skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement. Use when working with blog writing guide or related tasks in marketing-and-seo/cro."
+description: "This skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement. Use when working with blog writing guide."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

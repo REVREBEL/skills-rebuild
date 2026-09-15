@@ -1,6 +1,6 @@
 ---
 name: "pdf"
-description: "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale. Use when working with pdf or related tasks in design-and-experience/ui-ux."
+description: "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale. Use when working with pdf."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

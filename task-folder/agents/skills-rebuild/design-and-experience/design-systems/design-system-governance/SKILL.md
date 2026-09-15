@@ -1,6 +1,6 @@
 ---
 name: "design-system-governance"
-description: "Define how a design system evolves — contribution models, versioning, change management, and deprecation. Use when working with design system governance or related tasks in design-and-experience/design-systems."
+description: "Define how a design system evolves — contribution models, versioning, change management, and deprecation. Use when working with design system governance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

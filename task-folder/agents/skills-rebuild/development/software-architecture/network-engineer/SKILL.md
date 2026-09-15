@@ -1,6 +1,6 @@
 ---
 name: "network-engineer"
-description: "Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization. Use when working with network engineer or related tasks in development/software-architecture."
+description: "Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization. Use when working with network engineer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

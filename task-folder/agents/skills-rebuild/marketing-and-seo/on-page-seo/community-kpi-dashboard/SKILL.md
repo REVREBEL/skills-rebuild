@@ -1,6 +1,6 @@
 ---
 name: "community-kpi-dashboard"
-description: "Measurement system tracking engagement, health, and business impact of. Use when working with community kpi dashboard or related tasks in marketing-and-seo/on-page-seo."
+description: "Measurement system tracking engagement, health, and business impact of. Use when working with community kpi dashboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

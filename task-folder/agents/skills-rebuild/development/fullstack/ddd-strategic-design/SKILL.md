@@ -1,6 +1,6 @@
 ---
 name: "ddd-strategic-design"
-description: "Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains. Use when working with ddd strategic design or related tasks in development/fullstack."
+description: "Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains. Use when working with ddd strategic design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "brainstorming2"
-description: "Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration. Use when working with brainstorming2 or related tasks in development/software-architecture."
+description: "Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration. Use when working with brainstorming2."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "design-impact-reporting"
-description: "Communicate design's contribution to business and user outcomes in terms that resonate with stakeholders. Use when working with design impact reporting or related tasks in design-and-experience/ui-ux."
+description: "Communicate design's contribution to business and user outcomes in terms that resonate with stakeholders. Use when working with design impact reporting."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

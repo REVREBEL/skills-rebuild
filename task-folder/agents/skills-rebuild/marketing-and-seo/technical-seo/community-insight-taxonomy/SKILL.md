@@ -1,6 +1,6 @@
 ---
 name: "community-insight-taxonomy"
-description: "Tagging schema for classifying community signals by persona, journey,. Use when working with community insight taxonomy or related tasks in marketing-and-seo/technical-seo."
+description: "Tagging schema for classifying community signals by persona, journey,. Use when working with community insight taxonomy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

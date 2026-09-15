@@ -1,6 +1,6 @@
 ---
 name: "marketplace-fee-reconciliation"
-description: "Reconcile and analyze seller fees from Amazon, eBay, Walmart, and Etsy with net revenue calculation, fee categorization, and optimization recommendations. Use when working with marketplace fee reconciliation or related tasks in data-and-ai/analytics."
+description: "Reconcile and analyze seller fees from Amazon, eBay, Walmart, and Etsy with net revenue calculation, fee categorization, and optimization recommendations. Use when working with marketplace fee reconciliation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

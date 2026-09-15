@@ -1,6 +1,6 @@
 ---
 name: "tune-monitor"
-description: "Analyze a Monte Carlo monitor and recommend config changes to reduce alert noise. Supports metric, custom SQL, validation, and table monitors. Fetches the report, identifies patterns, and suggests tuning. Use when working with tune monitor or related tasks in development/backend."
+description: "Analyze a Monte Carlo monitor and recommend config changes to reduce alert noise. Supports metric, custom SQL, validation, and table monitors. Fetches the report, identifies patterns, and suggests tuning. Use when working with tune monitor."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

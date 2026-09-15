@@ -1,6 +1,6 @@
 ---
 name: "startup-analyst"
-description: "Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies. Use when working with startup analyst or related tasks in business-and-operations/startup-finance."
+description: "Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies. Use when working with startup analyst."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

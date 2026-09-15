@@ -1,6 +1,6 @@
 ---
 name: "market-signal-tracker"
-description: "Operating system for logging market/competitive signals with severity,. Use when working with market signal tracker or related tasks in marketing-and-seo/on-page-seo."
+description: "Operating system for logging market/competitive signals with severity,. Use when working with market signal tracker."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

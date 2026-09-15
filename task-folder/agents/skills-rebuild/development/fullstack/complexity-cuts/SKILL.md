@@ -1,6 +1,6 @@
 ---
 name: "complexity-cuts"
-description: "Lower Big-O on existing code via a one-transformation-at-a-time playbook with verify-revert-stop. For new code use lemmaly; for math-level wins escalate to mathguard. Use when working with complexity cuts or related tasks in development/fullstack."
+description: "Lower Big-O on existing code via a one-transformation-at-a-time playbook with verify-revert-stop. For new code use lemmaly; for math-level wins escalate to mathguard. Use when working with complexity cuts."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

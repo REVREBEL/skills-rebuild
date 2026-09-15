@@ -1,6 +1,6 @@
 ---
 name: "headline-psychologist"
-description: "One sentence - what this skill does and when to invoke it. Use when working with headline psychologist or related tasks in development/mobile."
+description: "One sentence - what this skill does and when to invoke it. Use when working with headline psychologist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

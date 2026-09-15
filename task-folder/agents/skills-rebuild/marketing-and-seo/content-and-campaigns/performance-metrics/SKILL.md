@@ -1,6 +1,6 @@
 ---
 name: "performance-metrics"
-description: "Use to define KPIs, alert thresholds, and reporting cadences for social. Use when working with performance metrics or related tasks in marketing-and-seo/content-and-campaigns."
+description: "Use to define KPIs, alert thresholds, and reporting cadences for social. Use when working with performance metrics."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

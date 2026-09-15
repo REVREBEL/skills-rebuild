@@ -1,6 +1,6 @@
 ---
 name: "seo-schema"
-description: "Execute seo-schema tasks, workflows, and automated procedures. Use when working with seo schema or related tasks in marketing-and-seo/technical-seo."
+description: "Execute seo-schema tasks, workflows, and automated procedures. Use when working with seo schema."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

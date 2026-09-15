@@ -1,6 +1,6 @@
 ---
 name: "googlesheets-automation"
-description: "Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting, and search rows programmatically. Use when working with googlesheets automation or related tasks in development/backend."
+description: "Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting, and search rows programmatically. Use when working with googlesheets automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

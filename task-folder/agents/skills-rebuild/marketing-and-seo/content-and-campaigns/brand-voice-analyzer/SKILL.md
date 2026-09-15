@@ -1,6 +1,6 @@
 ---
 name: "brand-voice-analyzer"
-description: "Analyzes a company's content to extract and codify their brand voice into a comprehensive style guide. Reads website copy, blog posts, emails, and social media to identify tone, vocabulary patterns, sentence structure, personality traits, and word preferences. Generates a brand-voice-guide.md and reviews new content against it. Use when working with brand voice analyzer or related tasks in marketing-and-seo/content-and-campaigns."
+description: "Analyzes a company's content to extract and codify their brand voice into a comprehensive style guide. Reads website copy, blog posts, emails, and social media to identify tone, vocabulary patterns, sentence structure, personality traits, and word preferences. Generates a brand-voice-guide.md and reviews new content against it. Use when working with brand voice analyzer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

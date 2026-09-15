@@ -1,6 +1,6 @@
 ---
 name: "privilege-escalation-methods"
-description: "Provide comprehensive techniques for escalating privileges from a low-privileged user to root/administrator access on compromised Linux and Windows systems. Essential for penetration testing post-exploitation phase and red team operations. Use when working with privilege escalation methods or related tasks in quality-and-security/testing."
+description: "Provide comprehensive techniques for escalating privileges from a low-privileged user to root/administrator access on compromised Linux and Windows systems. Essential for penetration testing post-exploitation phase and red team operations. Use when working with privilege escalation methods."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

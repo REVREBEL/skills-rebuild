@@ -1,6 +1,6 @@
 ---
 name: "hypothesis-library"
-description: "Curated repository of experiment hypotheses, assumptions, and historical. Use when working with hypothesis library or related tasks in marketing-and-seo/on-page-seo."
+description: "Curated repository of experiment hypotheses, assumptions, and historical. Use when working with hypothesis library."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

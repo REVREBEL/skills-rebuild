@@ -1,6 +1,6 @@
 ---
 name: "daily"
-description: "Documentation and capabilities reference for Daily. Use when working with daily or related tasks in content-and-documentation/technical-writing."
+description: "Documentation and capabilities reference for Daily. Use when working with daily."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

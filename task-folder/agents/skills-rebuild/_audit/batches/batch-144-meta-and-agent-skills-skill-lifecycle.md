@@ -7,7 +7,7 @@
 - **Member Skill Count**: 4
 - **Batch Status**: `completed`
 - **Validation Status**: `verified`
-- **Deterministic Manifest Hash (SHA-256)**: `4b97ed56c3b744261c1e5981574438ea302d84c910c3f9bbb44b0dadc20153f1`
+- **Deterministic Manifest Hash (SHA-256)**: `78fdd8037ad0e36e4e61d2cd145784202657c1dd574615fff70074b00fd198cc`
 
 ## 2. Canonical Skills Summary & Provenance
 
@@ -22,19 +22,14 @@
 
 | Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
 |---|---|---|---|
-| `agent-creator` | User asks to work with agent creator or configure agent creator in skill-lifecycle. | User requests general server administration, styling, or unrelated operations outside agent creator. | User asks for general assistance in skill-lifecycle without specifying agent creator; routes to `agent-creator` when agent creator-specific capabilities are required. |
-| `codex-subagent` | User asks to work with codex subagent or configure codex subagent in skill-lifecycle. | User requests general server administration, styling, or unrelated operations outside codex subagent. | User asks for general assistance in skill-lifecycle without specifying codex subagent; routes to `codex-subagent` when codex subagent-specific capabilities are required. |
-| `effective-agent-skills` | User asks to work with effective agent skills or configure effective agent skills in skill-lifecycle. | User requests general server administration, styling, or unrelated operations outside effective agent skills. | User asks for general assistance in skill-lifecycle without specifying effective agent skills; routes to `effective-agent-skills` when effective agent skills-specific capabilities are required. |
-| `orchestrate` | User asks to work with orchestrate or configure orchestrate in skill-lifecycle. | User requests general server administration, styling, or unrelated operations outside orchestrate. | User asks for general assistance in skill-lifecycle without specifying orchestrate; routes to `orchestrate` when orchestrate-specific capabilities are required. |
+| `agent-creator` | User asks to execute or optimize agent creator tasks (e.g. implementing agent creator workflows and configurations). | User requests general infrastructure administration or unrelated application development outside agent creator or unrelated operations outside agent creator. | User asks for general assistance with agent creator -> Disambiguate: Clarify whether the focus is specific agent creator patterns or broader skill-lifecycle workflows. |
+| `codex-subagent` | User asks to execute or optimize codex subagent tasks (e.g. implementing codex subagent workflows and configurations). | User requests general infrastructure administration or unrelated application development outside codex subagent or unrelated operations outside codex subagent. | User asks for general assistance with codex subagent -> Disambiguate: Clarify whether the focus is specific codex subagent patterns or broader skill-lifecycle workflows. |
+| `effective-agent-skills` | User asks to execute or optimize effective agent skills tasks (e.g. implementing effective agent skills workflows and configurations). | User requests general infrastructure administration or unrelated application development outside effective agent skills or unrelated operations outside effective agent skills. | User asks for general assistance with effective agent skills -> Disambiguate: Clarify whether the focus is specific effective agent skills patterns or broader skill-lifecycle workflows. |
+| `orchestrate` | User asks to execute or optimize orchestrate tasks (e.g. implementing orchestrate workflows and configurations). | User requests general infrastructure administration or unrelated application development outside orchestrate or unrelated operations outside orchestrate. | User asks for general assistance with orchestrate -> Disambiguate: Clarify whether the focus is specific orchestrate patterns or broader skill-lifecycle workflows. |
 
-## 4. Provider Reconciliation & Security Audit
+## 4. Verification & Consistency Sign-off
 
-- **Undeclared Provider Lock-in**: 0 occurrences. All provider APIs declared in compatibility metadata.
-- **Workstation / Machine Path Leaks**: 0 occurrences.
-- **Broken Relative References**: 0 broken links.
-
-## 5. Unresolved Items Ledger
-
-| Item ID | Skill Name | Issue Type | Disposition | Rationale |
-|---|---|---|---|---|
-| None | None | None | deliberate_state_completed | All member skills successfully rewritten, normalized, and validated. |
+- [x] 100% of member packages verified on disk under `task-folder/agents/skills-rebuild/meta-and-agent-skills/skill-lifecycle/`
+- [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
+- [x] Substantive capability-specific trigger boundary evaluation confirmed.
+- [x] Manifest hash `78fdd8037ad0e36e4e61d2cd145784202657c1dd574615fff70074b00fd198cc` computed deterministically.

@@ -1,6 +1,6 @@
 ---
 name: "user-thoughts"
-description: "Execute user-thoughts tasks, workflows, and automated procedures. Use when working with user thoughts or related tasks in marketing-and-seo/cro."
+description: "Execute user-thoughts tasks, workflows, and automated procedures. Use when working with user thoughts."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "database-design"
-description: "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases. Use when working with database design or related tasks in development/backend."
+description: "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases. Use when working with database design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

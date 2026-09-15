@@ -1,6 +1,6 @@
 ---
 name: "hugging-face-dataset-viewer"
-description: "Hugging Face Dataset Viewer. Use when working with hugging face dataset viewer or related tasks in data-and-ai/machine-learning."
+description: "Hugging Face Dataset Viewer. Use when working with hugging face dataset viewer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

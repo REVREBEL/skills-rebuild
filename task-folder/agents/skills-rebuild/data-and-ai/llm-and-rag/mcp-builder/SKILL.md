@@ -1,6 +1,6 @@
 ---
 name: "mcp-builder"
-description: "Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks. Use when working with mcp builder or related tasks in data-and-ai/llm-and-rag."
+description: "Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks. Use when working with mcp builder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

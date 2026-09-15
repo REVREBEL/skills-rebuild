@@ -1,6 +1,6 @@
 ---
 name: "review-generation-engine"
-description: "Automatically request and collect product reviews post-purchase with timed email/SMS sequences, photo incentives, and fraud detection for fake reviews. Use when working with review generation engine or related tasks in development/fullstack."
+description: "Automatically request and collect product reviews post-purchase with timed email/SMS sequences, photo incentives, and fraud detection for fake reviews. Use when working with review generation engine."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

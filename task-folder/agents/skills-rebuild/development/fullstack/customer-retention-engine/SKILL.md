@@ -1,6 +1,6 @@
 ---
 name: "customer-retention-engine"
-description: "Build automated retention campaigns targeting at-risk customers with behavioral triggers, personalized offers, and churn prevention workflows. Use when working with customer retention engine or related tasks in development/fullstack."
+description: "Build automated retention campaigns targeting at-risk customers with behavioral triggers, personalized offers, and churn prevention workflows. Use when working with customer retention engine."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

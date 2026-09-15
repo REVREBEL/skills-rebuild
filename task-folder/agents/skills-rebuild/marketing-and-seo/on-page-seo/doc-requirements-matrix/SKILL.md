@@ -1,6 +1,6 @@
 ---
 name: "doc-requirements-matrix"
-description: "Framework for capturing documentation requirements, scoring priority,. Use when working with doc requirements matrix or related tasks in marketing-and-seo/on-page-seo."
+description: "Framework for capturing documentation requirements, scoring priority,. Use when working with doc requirements matrix."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

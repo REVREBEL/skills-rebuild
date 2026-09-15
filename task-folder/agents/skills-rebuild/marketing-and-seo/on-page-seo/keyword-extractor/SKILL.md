@@ -1,6 +1,6 @@
 ---
 name: "keyword-extractor"
-description: "Execute keyword-extractor tasks, workflows, and automated procedures. Use when working with keyword extractor or related tasks in marketing-and-seo/on-page-seo."
+description: "Execute keyword-extractor tasks, workflows, and automated procedures. Use when working with keyword extractor."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

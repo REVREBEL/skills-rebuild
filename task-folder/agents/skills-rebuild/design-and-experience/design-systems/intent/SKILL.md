@@ -1,6 +1,6 @@
 ---
 name: "intent"
-description: "Execute intent tasks, workflows, and automated procedures. Use when working with intent or related tasks in design-and-experience/design-systems."
+description: "Execute intent tasks, workflows, and automated procedures. Use when working with intent."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

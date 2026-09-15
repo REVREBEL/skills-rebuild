@@ -1,6 +1,6 @@
 ---
 name: "marketplace-advertising"
-description: "Manage sponsored product ads across Amazon, eBay, and Walmart marketplace platforms with bid optimization, keyword targeting, and ACOS tracking. Use when working with marketplace advertising or related tasks in marketing-and-seo/cro."
+description: "Manage sponsored product ads across Amazon, eBay, and Walmart marketplace platforms with bid optimization, keyword targeting, and ACOS tracking. Use when working with marketplace advertising."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

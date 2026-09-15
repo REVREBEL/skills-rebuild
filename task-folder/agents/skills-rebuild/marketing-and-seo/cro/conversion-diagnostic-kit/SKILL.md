@@ -1,6 +1,6 @@
 ---
 name: "conversion-diagnostic-kit"
-description: "Structured approach for investigating funnel issues across e-commerce. Use when working with conversion diagnostic kit or related tasks in marketing-and-seo/cro."
+description: "Structured approach for investigating funnel issues across e-commerce. Use when working with conversion diagnostic kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

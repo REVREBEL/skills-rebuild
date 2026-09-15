@@ -1,6 +1,6 @@
 ---
 name: "design-negotiation"
-description: "Advocate for design quality, scope, and time with cross-functional partners and leadership using evidence and shared goals. Use when working with design negotiation or related tasks in marketing-and-seo/cro."
+description: "Advocate for design quality, scope, and time with cross-functional partners and leadership using evidence and shared goals. Use when working with design negotiation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

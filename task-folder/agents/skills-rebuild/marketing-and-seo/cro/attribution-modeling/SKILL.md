@@ -1,6 +1,6 @@
 ---
 name: "attribution-modeling"
-description: "Understand which marketing channels drive purchases by implementing multi-touch attribution models across UTM-tracked campaigns and channels. Use when working with attribution modeling or related tasks in marketing-and-seo/cro."
+description: "Understand which marketing channels drive purchases by implementing multi-touch attribution models across UTM-tracked campaigns and channels. Use when working with attribution modeling."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

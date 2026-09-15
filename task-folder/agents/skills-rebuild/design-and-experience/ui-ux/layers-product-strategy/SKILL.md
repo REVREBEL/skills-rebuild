@@ -1,6 +1,6 @@
 ---
 name: "layers-product-strategy"
-description: "Techniques for connecting user opportunities to business outcomes and solution bets, and testing the riskiest assumptions cheaply. Use when working with layers product strategy or related tasks in design-and-experience/ui-ux."
+description: "Techniques for connecting user opportunities to business outcomes and solution bets, and testing the riskiest assumptions cheaply. Use when working with layers product strategy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

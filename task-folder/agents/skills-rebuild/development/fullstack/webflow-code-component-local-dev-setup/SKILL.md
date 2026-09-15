@@ -1,6 +1,6 @@
 ---
 name: "webflow-code-component-local-dev-setup"
-description: "Initialize a new Webflow Code Components project from scratch. Creates project structure, installs dependencies, configures webflow.json, and sets up development environment. Use when working with webflow code component local dev setup or related tasks in development/fullstack."
+description: "Initialize a new Webflow Code Components project from scratch. Creates project structure, installs dependencies, configures webflow.json, and sets up development environment. Use when working with webflow code component local dev setup."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

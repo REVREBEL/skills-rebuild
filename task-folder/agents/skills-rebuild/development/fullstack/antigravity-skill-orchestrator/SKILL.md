@@ -1,6 +1,6 @@
 ---
 name: "antigravity-skill-orchestrator"
-description: "A meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks. Use when working with antigravity skill orchestrator or related tasks in development/fullstack."
+description: "A meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks. Use when working with antigravity skill orchestrator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "stability-ai"
-description: "Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos. Use when working with stability ai or related tasks in development/fullstack."
+description: "Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos. Use when working with stability ai."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

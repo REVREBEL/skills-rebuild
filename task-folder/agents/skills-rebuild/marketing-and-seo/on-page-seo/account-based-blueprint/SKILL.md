@@ -1,6 +1,6 @@
 ---
 name: "account-based-blueprint"
-description: "Framework for consolidating manufacturing account intelligence, buying. Use when working with account based blueprint or related tasks in marketing-and-seo/on-page-seo."
+description: "Framework for consolidating manufacturing account intelligence, buying. Use when working with account based blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

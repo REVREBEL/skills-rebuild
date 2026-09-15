@@ -1,6 +1,6 @@
 ---
 name: "content-creator"
-description: "Professional-grade brand voice analysis, SEO optimization, and platform-specific content frameworks. Use when working with content creator or related tasks in marketing-and-seo/content-and-campaigns."
+description: "Professional-grade brand voice analysis, SEO optimization, and platform-specific content frameworks. Use when working with content creator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

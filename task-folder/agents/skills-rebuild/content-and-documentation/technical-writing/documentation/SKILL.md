@@ -1,6 +1,6 @@
 ---
 name: "documentation"
-description: "Documentation generation workflow covering API docs, architecture docs, README files, code comments, and technical writing. Use when working with documentation or related tasks in content-and-documentation/technical-writing."
+description: "Documentation generation workflow covering API docs, architecture docs, README files, code comments, and technical writing. Use when working with documentation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

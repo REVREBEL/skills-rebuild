@@ -1,6 +1,6 @@
 ---
 name: "attribution-playbook"
-description: "Standard operating guide for campaign tagging, attribution models, and. Use when working with attribution playbook or related tasks in marketing-and-seo/cro."
+description: "Standard operating guide for campaign tagging, attribution models, and. Use when working with attribution playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

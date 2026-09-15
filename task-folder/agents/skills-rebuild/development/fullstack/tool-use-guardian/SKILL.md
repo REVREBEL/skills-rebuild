@@ -1,6 +1,6 @@
 ---
 name: "tool-use-guardian"
-description: "FREE — Intelligent tool-call reliability wrapper. Monitors, retries, fixes, and learns from tool failures. Auto-recovers from truncated JSON, timeouts, rate limits, and mid-chain failures. Use when working with tool use guardian or related tasks in development/fullstack."
+description: "FREE — Intelligent tool-call reliability wrapper. Monitors, retries, fixes, and learns from tool failures. Auto-recovers from truncated JSON, timeouts, rate limits, and mid-chain failures. Use when working with tool use guardian."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

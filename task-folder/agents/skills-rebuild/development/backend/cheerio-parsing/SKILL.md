@@ -1,6 +1,6 @@
 ---
 name: "cheerio-parsing"
-description: "Expert guidance for HTML/XML parsing using Cheerio in Node.js with best practices for DOM traversal, data extraction, and efficient scraping pipelines. Use when working with cheerio parsing or related tasks in development/backend."
+description: "Expert guidance for HTML/XML parsing using Cheerio in Node.js with best practices for DOM traversal, data extraction, and efficient scraping pipelines. Use when working with cheerio parsing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

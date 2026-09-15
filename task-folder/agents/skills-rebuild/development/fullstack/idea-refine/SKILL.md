@@ -1,6 +1,6 @@
 ---
 name: "idea-refine"
-description: "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on.."
+description: "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

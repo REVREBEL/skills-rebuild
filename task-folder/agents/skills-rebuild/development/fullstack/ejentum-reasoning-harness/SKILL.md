@@ -1,6 +1,6 @@
 ---
 name: "ejentum-reasoning-harness"
-description: "MCP server exposing four cognitive harness modes (reasoning, code, anti-deception, memory). Each call returns an engineered scaffold (failure pattern, procedure, suppression vectors, falsification test) the agent ingests before generating. Use when working with ejentum reasoning harness or related tasks in development/fullstack."
+description: "MCP server exposing four cognitive harness modes (reasoning, code, anti-deception, memory). Each call returns an engineered scaffold (failure pattern, procedure, suppression vectors, falsification test) the agent ingests before generating. Use when working with ejentum reasoning harness."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

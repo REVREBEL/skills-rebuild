@@ -1,6 +1,6 @@
 ---
 name: "vaporwave"
-description: "Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues. Use when working with vaporwave or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues. Use when working with vaporwave."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

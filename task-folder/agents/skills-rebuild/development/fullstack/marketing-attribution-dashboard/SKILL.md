@@ -1,6 +1,6 @@
 ---
 name: "marketing-attribution-dashboard"
-description: "Build multi-touch attribution dashboards tracking revenue by channel, campaign, and creative with blended ROAS analysis and budget allocation recommendations. Use when working with marketing attribution dashboard or related tasks in development/fullstack."
+description: "Build multi-touch attribution dashboards tracking revenue by channel, campaign, and creative with blended ROAS analysis and budget allocation recommendations. Use when working with marketing attribution dashboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

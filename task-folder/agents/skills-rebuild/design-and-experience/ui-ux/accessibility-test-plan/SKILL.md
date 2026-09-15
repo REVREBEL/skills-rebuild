@@ -1,6 +1,6 @@
 ---
 name: "accessibility-test-plan"
-description: "Create accessibility testing plans covering assistive technologies and WCAG criteria. Use when working with accessibility test plan or related tasks in design-and-experience/ui-ux."
+description: "Create accessibility testing plans covering assistive technologies and WCAG criteria. Use when working with accessibility test plan."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

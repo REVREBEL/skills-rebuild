@@ -1,6 +1,6 @@
 ---
 name: "internal-linking-optimizer"
-description: "Use when the user asks to \"fix internal linking\" or \"find orphan pages\"; maps link architecture, authority flow, anchor text, and crawl depth, then delivers a prioritized source/target/anchor plan. Not for external backlinks — use backlink-analyzer. 内链优化/站内架构."
+description: "Use when the user asks to \\"fix internal linking\\" or \\"find orphan pages\\"; maps link architecture, authority flow, anchor text, and crawl depth, then delivers a prioritized source/target/anchor plan. Not for external backlinks — use backlink-analyzer. 内链优化/站内架构."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

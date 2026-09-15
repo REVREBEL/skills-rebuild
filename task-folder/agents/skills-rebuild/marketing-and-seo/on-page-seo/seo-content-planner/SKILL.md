@@ -1,6 +1,6 @@
 ---
 name: "seo-content-planner"
-description: "Creates comprehensive content outlines and topic clusters for SEO. Use when working with seo content planner or related tasks in marketing-and-seo/on-page-seo."
+description: "Creates comprehensive content outlines and topic clusters for SEO. Use when working with seo content planner."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

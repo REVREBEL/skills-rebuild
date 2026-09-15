@@ -1,6 +1,6 @@
 ---
 name: "revenue-health-dashboard"
-description: "Visualization blueprint for revenue KPIs, guardrails, and action callouts. Use when working with revenue health dashboard or related tasks in marketing-and-seo/on-page-seo."
+description: "Visualization blueprint for revenue KPIs, guardrails, and action callouts. Use when working with revenue health dashboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "vertical-solution-templates"
-description: "Library of reusable solution briefs, architecture, and pricing frames per industry. Use when working with vertical solution templates or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Library of reusable solution briefs, architecture, and pricing frames per industry. Use when working with vertical solution templates."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

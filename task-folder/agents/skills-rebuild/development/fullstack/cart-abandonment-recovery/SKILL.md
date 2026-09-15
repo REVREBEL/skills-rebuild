@@ -1,6 +1,6 @@
 ---
 name: "cart-abandonment-recovery"
-description: "Win back shoppers who leave items in their cart by setting up timed email, SMS, and push sequences with escalating incentives to complete their purchase. Use when working with cart abandonment recovery or related tasks in development/fullstack."
+description: "Win back shoppers who leave items in their cart by setting up timed email, SMS, and push sequences with escalating incentives to complete their purchase. Use when working with cart abandonment recovery."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

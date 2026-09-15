@@ -1,6 +1,6 @@
 ---
 name: "hugging-face-community-evals"
-description: "Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals.. Use when working with hugging face community evals or related tasks in data-and-ai/llm-and-rag."
+description: "Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals. Use when working with hugging face community evals."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

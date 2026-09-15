@@ -1,6 +1,6 @@
 ---
 name: "closed-loop-playbook"
-description: "Governance system for routing VoC insights to owners and tracking follow-through. Use when working with closed loop playbook or related tasks in marketing-and-seo/cro."
+description: "Governance system for routing VoC insights to owners and tracking follow-through. Use when working with closed loop playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

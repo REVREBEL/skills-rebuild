@@ -1,6 +1,6 @@
 ---
 name: "gemini-live-api-dev"
-description: "Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API. Covers WebSocket-based audio/video/text streaming, voice activity detection (VAD), native audio features, function calling, session management, ephemeral tokens for client-side auth,.. Use when working with gemini live api dev or related tasks in development/backend."
+description: "Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API. Covers WebSocket-based audio/video/text streaming, voice activity detection (VAD), native audio features, function calling, session management, ephemeral tokens for client-side auth,. Use when working with gemini live api dev."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

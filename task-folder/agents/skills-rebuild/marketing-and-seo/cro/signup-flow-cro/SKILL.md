@@ -1,6 +1,6 @@
 ---
 name: "signup-flow-cro"
-description: "You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation. Use when working with signup flow cro or related tasks in marketing-and-seo/cro."
+description: "You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation. Use when working with signup flow cro."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

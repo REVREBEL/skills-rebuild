@@ -1,6 +1,6 @@
 ---
 name: "python-development"
-description: "You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint (Alias for python-development-python-scaffold). Use when working with python development or related tasks in development/backend."
+description: "You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint (Alias for python-development-python-scaffold). Use when working with python development."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

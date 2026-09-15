@@ -1,6 +1,6 @@
 ---
 name: "prototype-strategy"
-description: "Choose the right prototyping fidelity and method for the design question. Use when working with prototype strategy or related tasks in design-and-experience/ui-ux."
+description: "Choose the right prototyping fidelity and method for the design question. Use when working with prototype strategy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

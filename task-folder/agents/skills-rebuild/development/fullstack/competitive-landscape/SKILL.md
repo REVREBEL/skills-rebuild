@@ -1,6 +1,6 @@
 ---
 name: "competitive-landscape"
-description: "Comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning market positioning strategies. Use when working with competitive landscape or related tasks in development/fullstack."
+description: "Comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning market positioning strategies. Use when working with competitive landscape."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

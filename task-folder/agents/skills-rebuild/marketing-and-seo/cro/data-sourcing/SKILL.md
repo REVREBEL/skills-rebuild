@@ -1,6 +1,6 @@
 ---
 name: "data-sourcing"
-description: "Optimize provider selection, routing, and credit usage across 150+ enrichment sources for company/contact intelligence. Use when working with data sourcing or related tasks in marketing-and-seo/cro."
+description: "Optimize provider selection, routing, and credit usage across 150+ enrichment sources for company/contact intelligence. Use when working with data sourcing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

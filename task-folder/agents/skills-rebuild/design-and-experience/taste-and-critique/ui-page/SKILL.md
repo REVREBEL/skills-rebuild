@@ -1,6 +1,6 @@
 ---
 name: "ui-page"
-description: "Scaffold a new mobile page/screen using the StyleSeed layout patterns. Use when working with ui page or related tasks in design-and-experience/taste-and-critique."
+description: "Scaffold a new mobile page/screen using the StyleSeed layout patterns. Use when working with ui page."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

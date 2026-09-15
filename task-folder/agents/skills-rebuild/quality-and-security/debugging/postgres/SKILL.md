@@ -1,6 +1,6 @@
 ---
 name: "postgres"
-description: "PostgreSQL best practices, query optimization, connection troubleshooting, and performance improvement. Load when working with Postgres databases. Use when working with postgres or related tasks in quality-and-security/debugging."
+description: "PostgreSQL best practices, query optimization, connection troubleshooting, and performance improvement. Load when working with Postgres databases. Use when working with postgres."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

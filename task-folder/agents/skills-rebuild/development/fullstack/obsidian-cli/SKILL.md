@@ -1,6 +1,6 @@
 ---
 name: "obsidian-cli"
-description: "Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line. Use when working with obsidian cli or related tasks in development/fullstack."
+description: "Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line. Use when working with obsidian cli."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "executive-briefing-kit"
-description: "Framework for packaging competitive updates into executive-ready narratives. Use when working with executive briefing kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Framework for packaging competitive updates into executive-ready narratives. Use when working with executive briefing kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

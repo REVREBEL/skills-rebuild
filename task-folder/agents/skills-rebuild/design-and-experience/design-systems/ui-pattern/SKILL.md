@@ -1,6 +1,6 @@
 ---
 name: "ui-pattern"
-description: "Generate a composed UI pattern (card layout, list, form section, grid, etc.) using design system primitives. Use when working with ui pattern or related tasks in design-and-experience/design-systems."
+description: "Generate a composed UI pattern (card layout, list, form section, grid, etc.) using design system primitives. Use when working with ui pattern."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

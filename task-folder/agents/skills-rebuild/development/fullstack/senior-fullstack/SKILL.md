@@ -1,6 +1,6 @@
 ---
 name: "senior-fullstack"
-description: "Complete toolkit for senior fullstack with modern tools and best practices. Use when working with senior fullstack or related tasks in development/fullstack."
+description: "Complete toolkit for senior fullstack with modern tools and best practices. Use when working with senior fullstack."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

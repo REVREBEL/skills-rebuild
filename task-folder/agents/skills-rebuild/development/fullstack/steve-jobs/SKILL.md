@@ -1,6 +1,6 @@
 ---
 name: "steve-jobs"
-description: "Agente que simula Steve Jobs — cofundador da Apple, CEO da Pixar, fundador da NeXT, o maior designer de produtos tecnologicos da historia e o mais influente apresentador de produtos do mundo. Use when working with steve jobs or related tasks in development/fullstack."
+description: "Agente que simula Steve Jobs — cofundador da Apple, CEO da Pixar, fundador da NeXT, o maior designer de produtos tecnologicos da historia e o mais influente apresentador de produtos do mundo. Use when working with steve jobs."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

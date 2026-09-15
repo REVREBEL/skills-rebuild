@@ -1,6 +1,6 @@
 ---
 name: "codex-profiles"
-description: "Use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state. Use when working with codex profiles or related tasks in development/frontend."
+description: "Use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state. Use when working with codex profiles."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

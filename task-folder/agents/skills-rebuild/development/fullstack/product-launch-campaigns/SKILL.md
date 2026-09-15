@@ -1,6 +1,6 @@
 ---
 name: "product-launch-campaigns"
-description: "Plan and execute multi-channel product launches with pre-launch waitlists, early access for VIPs, launch day orchestration, and post-launch momentum. Use when working with product launch campaigns or related tasks in development/fullstack."
+description: "Plan and execute multi-channel product launches with pre-launch waitlists, early access for VIPs, launch day orchestration, and post-launch momentum. Use when working with product launch campaigns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

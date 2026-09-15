@@ -1,6 +1,6 @@
 ---
 name: "sequence-psychologist"
-description: "One sentence - what this skill does and when to invoke it. Use when working with sequence psychologist or related tasks in business-and-operations/strategy."
+description: "One sentence - what this skill does and when to invoke it. Use when working with sequence psychologist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "hicks-law"
-description: "Apply Hick's Law to reduce decision time by limiting the number of simultaneous choices presented to users. Use when working with hicks law or related tasks in design-and-experience/ui-ux."
+description: "Apply Hick's Law to reduce decision time by limiting the number of simultaneous choices presented to users. Use when working with hicks law."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "site-activity"
-description: "Query and summarize site activity logs for a Webflow enterprise site. Surfaces recent changes, identifies who made them, and generates human-readable activity reports. Use for site monitoring, change tracking, publish preparation, or weekly activity summaries. Enterprise plans only. Use when working with site activity or related tasks in infrastructure-and-ops/observability."
+description: "Query and summarize site activity logs for a Webflow enterprise site. Surfaces recent changes, identifies who made them, and generates human-readable activity reports. Use for site monitoring, change tracking, publish preparation, or weekly activity summaries. Enterprise plans only. Use when working with site activity."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

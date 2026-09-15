@@ -1,6 +1,6 @@
 ---
 name: "north-star-vision"
-description: "Articulate a compelling north-star product vision that aligns teams and inspires strategic design decisions. Use when working with north star vision or related tasks in design-and-experience/ui-ux."
+description: "Articulate a compelling north-star product vision that aligns teams and inspires strategic design decisions. Use when working with north star vision."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

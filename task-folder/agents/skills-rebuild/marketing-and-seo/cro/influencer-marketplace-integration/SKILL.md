@@ -1,6 +1,6 @@
 ---
 name: "influencer-marketplace-integration"
-description: "Connect to influencer networks to discover creators, manage campaign briefs, track deliverables, and measure ROI across Instagram, TikTok, and YouTube. Use when working with influencer marketplace integration or related tasks in marketing-and-seo/cro."
+description: "Connect to influencer networks to discover creators, manage campaign briefs, track deliverables, and measure ROI across Instagram, TikTok, and YouTube. Use when working with influencer marketplace integration."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

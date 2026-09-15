@@ -1,6 +1,6 @@
 ---
 name: "minimalism"
-description: "Web and App implementation guide for the Minimalism design style. Trigger when the user wants simple layouts, lots of whitespace, few colors, and clear hierarchy. Use when working with minimalism or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for the Minimalism design style. Trigger when the user wants simple layouts, lots of whitespace, few colors, and clear hierarchy. Use when working with minimalism."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

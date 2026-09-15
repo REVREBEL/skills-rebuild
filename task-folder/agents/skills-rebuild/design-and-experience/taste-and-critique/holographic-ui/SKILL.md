@@ -1,6 +1,6 @@
 ---
 name: "holographic-ui"
-description: "Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements. Use when working with holographic ui or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements. Use when working with holographic ui."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

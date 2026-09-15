@@ -1,6 +1,6 @@
 ---
 name: "social-orchestrator"
-description: "Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de campanhas em todos os canais simultaneamente. Use when working with social orchestrator or related tasks in marketing-and-seo/cro."
+description: "Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de campanhas em todos os canais simultaneamente. Use when working with social orchestrator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

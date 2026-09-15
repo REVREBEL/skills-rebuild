@@ -1,6 +1,6 @@
 ---
 name: "ux-feedback"
-description: "Add appropriate user feedback states (loading, success, error, empty) to a component or page. Use when working with ux feedback or related tasks in design-and-experience/ui-ux."
+description: "Add appropriate user feedback states (loading, success, error, empty) to a component or page. Use when working with ux feedback."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

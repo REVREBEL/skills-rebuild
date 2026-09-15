@@ -1,6 +1,6 @@
 ---
 name: "opportunity-framework"
-description: "Identify, evaluate, and prioritize design opportunities using impact-effort frameworks and strategic criteria. Use when working with opportunity framework or related tasks in design-and-experience/ui-ux."
+description: "Identify, evaluate, and prioritize design opportunities using impact-effort frameworks and strategic criteria. Use when working with opportunity framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

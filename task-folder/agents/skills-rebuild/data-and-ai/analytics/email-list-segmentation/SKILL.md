@@ -1,6 +1,6 @@
 ---
 name: "email-list-segmentation"
-description: "Create dynamic email segments based on purchase behavior, RFM scores, engagement signals, and lifecycle stage with automated rebalancing and list hygiene. Use when working with email list segmentation or related tasks in data-and-ai/analytics."
+description: "Create dynamic email segments based on purchase behavior, RFM scores, engagement signals, and lifecycle stage with automated rebalancing and list hygiene. Use when working with email list segmentation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

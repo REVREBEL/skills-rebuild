@@ -1,6 +1,6 @@
 ---
 name: "financial-analytics-dashboard"
-description: "Build interactive financial KPI dashboards with customizable metrics, drill-down analysis, variance explanations, and automated threshold-based alerting. Use when working with financial analytics dashboard or related tasks in data-and-ai/analytics."
+description: "Build interactive financial KPI dashboards with customizable metrics, drill-down analysis, variance explanations, and automated threshold-based alerting. Use when working with financial analytics dashboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

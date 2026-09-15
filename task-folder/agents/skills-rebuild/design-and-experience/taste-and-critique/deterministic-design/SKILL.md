@@ -1,6 +1,6 @@
 ---
 name: "deterministic-design"
-description: "Render the UI and prove it's balanced + usable: a deterministic layout audit (centroid / optical-center / pixel-oracle balance via explicit math + annotated screenshot) plus a vision-judged Nielsen usability audit by a separate fresh-eyes judge. The measurement layer taste-only design skills lack. Use when working with deterministic design or related tasks in design-and-experience/taste-and-critique."
+description: "Render the UI and prove it's balanced + usable: a deterministic layout audit (centroid / optical-center / pixel-oracle balance via explicit math + annotated screenshot) plus a vision-judged Nielsen usability audit by a separate fresh-eyes judge. The measurement layer taste-only design skills lack. Use when working with deterministic design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

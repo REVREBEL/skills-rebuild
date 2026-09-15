@@ -1,6 +1,6 @@
 ---
 name: "exec-briefing-kit"
-description: "Template for packaging revenue analytics into concise exec/board narratives. Use when working with exec briefing kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Template for packaging revenue analytics into concise exec/board narratives. Use when working with exec briefing kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

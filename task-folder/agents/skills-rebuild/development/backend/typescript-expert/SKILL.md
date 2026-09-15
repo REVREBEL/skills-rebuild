@@ -1,6 +1,6 @@
 ---
 name: "typescript-expert"
-description: "TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling. Use when working with typescript expert or related tasks in development/backend."
+description: "TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling. Use when working with typescript expert."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "layers-orient"
-description: "Diagnostic audit across all seven layers — identifies the bottleneck layer and recommends where to focus. Use when working with layers orient or related tasks in marketing-and-seo/cro."
+description: "Diagnostic audit across all seven layers — identifies the bottleneck layer and recommends where to focus. Use when working with layers orient."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

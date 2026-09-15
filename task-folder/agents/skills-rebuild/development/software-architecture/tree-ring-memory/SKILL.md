@@ -1,6 +1,6 @@
 ---
 name: "tree-ring-memory"
-description: "Use Tree Ring Memory for local-first AI-agent memory lifecycle work: recall, evidence, audit, forgetting, and consolidation without transcript dumping. Use when working with tree ring memory or related tasks in development/software-architecture."
+description: "Use Tree Ring Memory for local-first AI-agent memory lifecycle work: recall, evidence, audit, forgetting, and consolidation without transcript dumping. Use when working with tree ring memory."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

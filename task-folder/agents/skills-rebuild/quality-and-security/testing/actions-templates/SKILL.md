@@ -1,6 +1,6 @@
 ---
 name: "actions-templates"
-description: "Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications. Use when working with actions templates or related tasks in quality-and-security/testing."
+description: "Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications. Use when working with actions templates."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

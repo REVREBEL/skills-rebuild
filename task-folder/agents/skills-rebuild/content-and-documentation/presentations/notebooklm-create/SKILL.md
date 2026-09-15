@@ -1,6 +1,6 @@
 ---
 name: "notebooklm-create"
-description: "Execute notebooklm-create tasks, workflows, and automated procedures. Use when working with notebooklm create or related tasks in content-and-documentation/presentations."
+description: "Execute notebooklm-create tasks, workflows, and automated procedures. Use when working with notebooklm create."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

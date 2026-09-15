@@ -1,6 +1,6 @@
 ---
 name: "llms-update"
-description: "Update the llms.txt file in the root folder to reflect changes in documentation or specifications following the llms.txt specification at https://llmstxt.org/. Use when working with llms update or related tasks in data-and-ai/llm-and-rag."
+description: "Update the llms.txt file in the root folder to reflect changes in documentation or specifications following the llms.txt specification at https://llmstxt.org/. Use when working with llms update."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

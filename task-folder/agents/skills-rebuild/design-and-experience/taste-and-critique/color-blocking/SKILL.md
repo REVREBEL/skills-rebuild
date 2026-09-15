@@ -1,6 +1,6 @@
 ---
 name: "color-blocking"
-description: "Web and App implementation guide for Color Blocking. Trigger when user wants large color sections, striking layout divisions, and Mondrian-style grids. Use when working with color blocking or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Color Blocking. Trigger when user wants large color sections, striking layout divisions, and Mondrian-style grids. Use when working with color blocking."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "javascript-pro"
-description: "Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility. Use when working with javascript pro or related tasks in development/backend."
+description: "Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility. Use when working with javascript pro."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

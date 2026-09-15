@@ -1,6 +1,6 @@
 ---
 name: "usage-to-value-map"
-description: "Method for translating product telemetry into ROI narratives and expansion. Use when working with usage to value map or related tasks in marketing-and-seo/on-page-seo."
+description: "Method for translating product telemetry into ROI narratives and expansion. Use when working with usage to value map."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

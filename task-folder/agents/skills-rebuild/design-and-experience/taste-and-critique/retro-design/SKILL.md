@@ -1,6 +1,6 @@
 ---
 name: "retro-design"
-description: "Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts. Use when working with retro design or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts. Use when working with retro design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

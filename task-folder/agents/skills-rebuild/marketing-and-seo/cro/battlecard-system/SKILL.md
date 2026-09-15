@@ -1,6 +1,6 @@
 ---
 name: "battlecard-system"
-description: "Use to standardize competitive positioning, objection handling, and talk. Use when working with battlecard system or related tasks in marketing-and-seo/cro."
+description: "Use to standardize competitive positioning, objection handling, and talk. Use when working with battlecard system."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

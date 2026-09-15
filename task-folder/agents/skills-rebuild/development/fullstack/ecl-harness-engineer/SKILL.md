@@ -1,6 +1,6 @@
 ---
 name: "ecl-harness-engineer"
-description: "Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs. Use when working with ecl harness engineer or related tasks in development/fullstack."
+description: "Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs. Use when working with ecl harness engineer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

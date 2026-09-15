@@ -1,6 +1,6 @@
 ---
 name: "insights-repository-kit"
-description: "Governance + tooling pattern for storing research artifacts, tagging,. Use when working with insights repository kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Governance + tooling pattern for storing research artifacts, tagging,. Use when working with insights repository kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "tokenwise"
-description: "Measurement-driven model router for the agent. Routes Haiku/Sonnet/Opus per task class, logs every routed task with real $ numbers, and A/B tests cheaper tiers before you trust the savings. Use when working with tokenwise or related tasks in development/backend."
+description: "Measurement-driven model router for the agent. Routes Haiku/Sonnet/Opus per task class, logs every routed task with real $ numbers, and A/B tests cheaper tiers before you trust the savings. Use when working with tokenwise."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

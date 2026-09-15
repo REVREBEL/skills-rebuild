@@ -1,6 +1,6 @@
 ---
 name: "n8n-multi-instance"
-description: "Select, verify, and safely switch n8n MCP instances across production, staging, teams, or clients, especially before credential writes. Use when working with n8n multi instance or related tasks in marketing-and-seo/cro."
+description: "Select, verify, and safely switch n8n MCP instances across production, staging, teams, or clients, especially before credential writes. Use when working with n8n multi instance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

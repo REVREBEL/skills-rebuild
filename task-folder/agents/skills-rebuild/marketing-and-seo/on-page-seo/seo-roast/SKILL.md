@@ -1,6 +1,6 @@
 ---
 name: "seo-roast"
-description: "Roast a landing page or article from an SEO perspective (technical + on-page + content/intent). Optionally generate a screenshot-rich HTML report. Use when working with seo roast or related tasks in marketing-and-seo/on-page-seo."
+description: "Roast a landing page or article from an SEO perspective (technical + on-page + content/intent). Optionally generate a screenshot-rich HTML report. Use when working with seo roast."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "image-studio"
-description: "Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente. Use when working with image studio or related tasks in development/fullstack."
+description: "Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente. Use when working with image studio."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

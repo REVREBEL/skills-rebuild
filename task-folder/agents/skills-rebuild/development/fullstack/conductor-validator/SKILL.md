@@ -1,6 +1,6 @@
 ---
 name: "conductor-validator"
-description: "Validates Conductor project artifacts for completeness,. Use when working with conductor validator or related tasks in development/fullstack."
+description: "Validates Conductor project artifacts for completeness,. Use when working with conductor validator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

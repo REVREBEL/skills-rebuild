@@ -1,6 +1,6 @@
 ---
 name: "copywriting-classic"
-description: "Master David Ogilvy's timeless advertising principles from \\"Confessions of an Advertising Man\\" (1963). The Father of Advertising's rules for copy that sells. Use when: Writing advertising copy (print, digital, video); Crafting headlines that stop the scroll; Creating long-form sales copy; Reviewing and improving existing marketing copy; Building brand campaigns that sell AND build equity."
+description: "Master David Ogilvy's timeless advertising principles from \\\"Confessions of an Advertising Man\\\" (1963). The Father of Advertising's rules for copy that sells. Use when: Writing advertising copy (print, digital, video); Crafting headlines that stop the scroll; Creating long-form sales copy; Reviewing and improving existing marketing copy; Building brand campaigns that sell AND build equity."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

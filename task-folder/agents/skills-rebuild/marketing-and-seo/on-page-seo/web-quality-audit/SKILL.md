@@ -1,6 +1,6 @@
 ---
 name: "web-quality-audit"
-description: "Comprehensive web quality audit covering performance, accessibility, SEO, and best practices. Use when asked to \"audit my site\", \"review web quality\", \"run lighthouse audit\", \"check page quality\", or \"optimize my website\"."
+description: "Comprehensive web quality audit covering performance, accessibility, SEO, and best practices. Use when asked to \\"audit my site\\", \\"review web quality\\", \\"run lighthouse audit\\", \\"check page quality\\", or \\"optimize my website\\"."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

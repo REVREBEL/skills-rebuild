@@ -1,6 +1,6 @@
 ---
 name: "pr-workflows-pr-enhance"
-description: "You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and ensu. Use when working with pr workflows pr enhance or related tasks in development/fullstack."
+description: "You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and ensu. Use when working with pr workflows pr enhance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

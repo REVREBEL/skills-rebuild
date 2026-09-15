@@ -1,6 +1,6 @@
 ---
 name: "reinforcement-loop"
-description: "Use to plan post-training reinforcement cadences, certifications, and. Use when working with reinforcement loop or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to plan post-training reinforcement cadences, certifications, and. Use when working with reinforcement loop."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

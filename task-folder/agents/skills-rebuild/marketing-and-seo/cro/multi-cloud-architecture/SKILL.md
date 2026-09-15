@@ -1,6 +1,6 @@
 ---
 name: "multi-cloud-architecture"
-description: "Decision framework and patterns for architecting applications across AWS, Azure, and GCP. Use when working with multi cloud architecture or related tasks in marketing-and-seo/cro."
+description: "Decision framework and patterns for architecting applications across AWS, Azure, and GCP. Use when working with multi cloud architecture."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

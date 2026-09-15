@@ -7,7 +7,7 @@
 - **Member Skill Count**: 2
 - **Batch Status**: `completed`
 - **Validation Status**: `verified`
-- **Deterministic Manifest Hash (SHA-256)**: `8acefa5b409de6027931144cbfea9a629a40245398caaa54ab01a7ad0a5653cd`
+- **Deterministic Manifest Hash (SHA-256)**: `7e81f7149a00c1c8e523a585cb37bb92cc5b416a7483ceacdbdf275bc2fdff51`
 
 ## 2. Canonical Skills Summary & Provenance
 
@@ -20,17 +20,12 @@
 
 | Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
 |---|---|---|---|
-| `puppeteer-skill` | User asks to generates puppeteer scripts for browser automation, scraping, and pdf generation. triggers on: or configure puppeteer skill in web-scraping. | User requests general server administration, styling, or unrelated operations outside puppeteer skill. | User asks for general assistance in web-scraping without specifying puppeteer skill; routes to `puppeteer-skill` when puppeteer skill-specific capabilities are required. |
-| `web-scraper` | User asks to work with web scraper or configure web scraper in web-scraping. | User requests general server administration, styling, or unrelated operations outside web scraper. | User asks for general assistance in web-scraping without specifying web scraper; routes to `web-scraper` when web scraper-specific capabilities are required. |
+| `puppeteer-skill` | User asks to execute or optimize puppeteer skill tasks (e.g. implementing puppeteer skill workflows and configurations). | User requests general infrastructure administration or unrelated application development outside puppeteer skill or unrelated operations outside puppeteer skill. | User asks for general assistance with puppeteer skill -> Disambiguate: Clarify whether the focus is specific puppeteer skill patterns or broader web-scraping workflows. |
+| `web-scraper` | User asks to execute or optimize web scraper tasks (e.g. implementing web scraper workflows and configurations). | User requests A simpler, more specific tool can handle the request or unrelated operations outside web scraper. | User asks for general assistance with web scraper -> Disambiguate: Clarify whether the focus is specific web scraper patterns or broader web-scraping workflows. |
 
-## 4. Provider Reconciliation & Security Audit
+## 4. Verification & Consistency Sign-off
 
-- **Undeclared Provider Lock-in**: 0 occurrences. All provider APIs declared in compatibility metadata.
-- **Workstation / Machine Path Leaks**: 0 occurrences.
-- **Broken Relative References**: 0 broken links.
-
-## 5. Unresolved Items Ledger
-
-| Item ID | Skill Name | Issue Type | Disposition | Rationale |
-|---|---|---|---|---|
-| None | None | None | deliberate_state_completed | All member skills successfully rewritten, normalized, and validated. |
+- [x] 100% of member packages verified on disk under `task-folder/agents/skills-rebuild/workflow-and-automation/web-scraping/`
+- [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
+- [x] Substantive capability-specific trigger boundary evaluation confirmed.
+- [x] Manifest hash `7e81f7149a00c1c8e523a585cb37bb92cc5b416a7483ceacdbdf275bc2fdff51` computed deterministically.

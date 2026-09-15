@@ -1,6 +1,6 @@
 ---
 name: "product-inventor"
-description: "Product Inventor e Design Alchemist de nivel maximo — combina Product Thinking, Design Systems, UI Engineering, Psicologia Cognitiva, Storytelling e execucao impecavel nivel Jobs/Apple. Use when working with product inventor or related tasks in design-and-experience/design-systems."
+description: "Product Inventor e Design Alchemist de nivel maximo — combina Product Thinking, Design Systems, UI Engineering, Psicologia Cognitiva, Storytelling e execucao impecavel nivel Jobs/Apple. Use when working with product inventor."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

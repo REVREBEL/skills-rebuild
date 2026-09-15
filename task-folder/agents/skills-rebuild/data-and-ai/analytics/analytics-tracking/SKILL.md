@@ -1,6 +1,6 @@
 ---
 name: "analytics-tracking"
-description: "Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data. Use when working with analytics tracking or related tasks in data-and-ai/analytics."
+description: "Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data. Use when working with analytics tracking."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

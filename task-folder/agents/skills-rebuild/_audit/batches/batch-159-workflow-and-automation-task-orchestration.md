@@ -7,7 +7,7 @@
 - **Member Skill Count**: 4
 - **Batch Status**: `completed`
 - **Validation Status**: `verified`
-- **Deterministic Manifest Hash (SHA-256)**: `46ec1be394e703de09cf1dd494c7d844f9a2867b41fcbe0da13c40d046a4637a`
+- **Deterministic Manifest Hash (SHA-256)**: `00d436c4832ad9b24fa7662b64ba89865db00d0898052bca1242f64e3fa1c756`
 
 ## 2. Canonical Skills Summary & Provenance
 
@@ -22,19 +22,14 @@
 
 | Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
 |---|---|---|---|
-| `go-rod-master` | User asks to work with go rod master or configure go rod master in task-orchestration. | User requests general server administration, styling, or unrelated operations outside go rod master. | User asks for general assistance in task-orchestration without specifying go rod master; routes to `go-rod-master` when go rod master-specific capabilities are required. |
-| `hasdata` | User asks to work with hasdata or configure hasdata in task-orchestration. | User requests general server administration, styling, or unrelated operations outside hasdata. | User asks for general assistance in task-orchestration without specifying hasdata; routes to `hasdata` when hasdata-specific capabilities are required. |
-| `open-dynamic-workflows` | User asks to work with open dynamic workflows or configure open dynamic workflows in task-orchestration. | User requests general server administration, styling, or unrelated operations outside open dynamic workflows. | User asks for general assistance in task-orchestration without specifying open dynamic workflows; routes to `open-dynamic-workflows` when open dynamic workflows-specific capabilities are required. |
-| `workflow-automation` | User asks to work with workflow automation or configure workflow automation in task-orchestration. | User requests general server administration, styling, or unrelated operations outside workflow automation. | User asks for general assistance in task-orchestration without specifying workflow automation; routes to `workflow-automation` when workflow automation-specific capabilities are required. |
+| `go-rod-master` | User asks to execute or optimize go rod master tasks (e.g. implementing go rod master workflows and configurations). | User requests general infrastructure administration or unrelated application development outside go rod master or unrelated operations outside go rod master. | User asks for general assistance with go rod master -> Disambiguate: Clarify whether the focus is specific go rod master patterns or broader task-orchestration workflows. |
+| `hasdata` | User asks to execute or optimize hasdata tasks (e.g. data-urlencode 'q=coffee' \). | User requests general infrastructure administration or unrelated application development outside hasdata or unrelated operations outside hasdata. | User asks for general assistance with hasdata -> Disambiguate: Clarify whether the focus is specific hasdata patterns or broader task-orchestration workflows. |
+| `open-dynamic-workflows` | User asks to execute or optimize open dynamic workflows tasks (e.g. implementing open dynamic workflows workflows and configurations). | User requests general infrastructure administration or unrelated application development outside open dynamic workflows or unrelated operations outside open dynamic workflows. | User asks for general assistance with open dynamic workflows -> Disambiguate: Clarify whether the focus is specific open dynamic workflows patterns or broader task-orchestration workflows. |
+| `workflow-automation` | User asks to execute or optimize workflow automation tasks (e.g. implementing workflow automation workflows and configurations). | User requests general infrastructure administration or unrelated application development outside workflow automation or unrelated operations outside workflow automation. | User asks for general assistance with workflow automation -> Disambiguate: Clarify whether the focus is specific workflow automation patterns or broader task-orchestration workflows. |
 
-## 4. Provider Reconciliation & Security Audit
+## 4. Verification & Consistency Sign-off
 
-- **Undeclared Provider Lock-in**: 0 occurrences. All provider APIs declared in compatibility metadata.
-- **Workstation / Machine Path Leaks**: 0 occurrences.
-- **Broken Relative References**: 0 broken links.
-
-## 5. Unresolved Items Ledger
-
-| Item ID | Skill Name | Issue Type | Disposition | Rationale |
-|---|---|---|---|---|
-| None | None | None | deliberate_state_completed | All member skills successfully rewritten, normalized, and validated. |
+- [x] 100% of member packages verified on disk under `task-folder/agents/skills-rebuild/workflow-and-automation/task-orchestration/`
+- [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
+- [x] Substantive capability-specific trigger boundary evaluation confirmed.
+- [x] Manifest hash `00d436c4832ad9b24fa7662b64ba89865db00d0898052bca1242f64e3fa1c756` computed deterministically.

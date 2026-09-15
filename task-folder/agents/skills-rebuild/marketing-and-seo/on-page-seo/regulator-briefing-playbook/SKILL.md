@@ -1,6 +1,6 @@
 ---
 name: "regulator-briefing-playbook"
-description: "Template pack for preparing regulator communications, responses, and. Use when working with regulator briefing playbook or related tasks in marketing-and-seo/on-page-seo."
+description: "Template pack for preparing regulator communications, responses, and. Use when working with regulator briefing playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

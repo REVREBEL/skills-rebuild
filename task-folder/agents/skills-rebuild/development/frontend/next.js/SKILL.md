@@ -1,6 +1,6 @@
 ---
 name: "next.js"
-description: "Expert guidance for Next.js framework including App Router, Server Components, routing, data fetching, API routes, middleware, and deployment. Use this when building Next.js applications, working with React Server Components, or implementing Next.js features. Use when working with next.js or related tasks in development/frontend."
+description: "Expert guidance for Next.js framework including App Router, Server Components, routing, data fetching, API routes, middleware, and deployment. Use this when building Next.js applications, working with React Server Components, or implementing Next.js features. Use when working with next.js."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

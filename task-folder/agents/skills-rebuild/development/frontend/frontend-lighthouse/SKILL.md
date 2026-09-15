@@ -1,6 +1,6 @@
 ---
 name: "frontend-lighthouse"
-description: "Add a portable Lighthouse CI gate for production frontend builds with Core Web Vitals budgets, category floors, median runs, and CI artifacts. Use when working with frontend lighthouse or related tasks in development/frontend."
+description: "Add a portable Lighthouse CI gate for production frontend builds with Core Web Vitals budgets, category floors, median runs, and CI artifacts. Use when working with frontend lighthouse."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

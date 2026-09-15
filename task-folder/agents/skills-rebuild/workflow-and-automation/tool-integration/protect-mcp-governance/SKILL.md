@@ -1,6 +1,6 @@
 ---
 name: "protect-mcp-governance"
-description: "Govern AI agent Model Context Protocol (MCP) tool calls using Cedar access control policies, shadow-to-enforce rollout modes, and Ed25519 cryptographic receipt verification when securing tool invocation gateways. Use when working with protect mcp governance or related tasks in workflow-and-automation/tool-integration."
+description: "Govern AI agent Model Context Protocol (MCP) tool calls using Cedar access control policies, shadow-to-enforce rollout modes, and Ed25519 cryptographic receipt verification when securing tool invocation gateways. Use when working with protect mcp governance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

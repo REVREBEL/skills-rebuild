@@ -1,6 +1,6 @@
 ---
 name: "sharp-coder"
-description: "Execute sharp-coder tasks, workflows, and automated procedures. Use when working with sharp coder or related tasks in development/fullstack."
+description: "Execute sharp-coder tasks, workflows, and automated procedures. Use when working with sharp coder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

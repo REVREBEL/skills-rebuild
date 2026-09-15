@@ -1,6 +1,6 @@
 ---
 name: "c"
-description: "Language-specific super-code guidelines for c. Use when working with c or related tasks in development/fullstack."
+description: "Language-specific super-code guidelines for c. Use when working with c."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

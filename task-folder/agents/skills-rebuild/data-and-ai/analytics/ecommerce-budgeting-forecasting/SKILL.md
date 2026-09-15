@@ -1,6 +1,6 @@
 ---
 name: "ecommerce-budgeting-forecasting"
-description: "Build rolling operating budgets for marketing spend, inventory purchases, and operations with variance analysis, scenario modeling, and budget utilization alerts. Use when working with ecommerce budgeting forecasting or related tasks in data-and-ai/analytics."
+description: "Build rolling operating budgets for marketing spend, inventory purchases, and operations with variance analysis, scenario modeling, and budget utilization alerts. Use when working with ecommerce budgeting forecasting."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

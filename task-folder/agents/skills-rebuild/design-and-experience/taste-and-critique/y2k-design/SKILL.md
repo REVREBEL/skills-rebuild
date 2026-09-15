@@ -1,6 +1,6 @@
 ---
 name: "y2k-design"
-description: "Web and App implementation guide for Y2K Design. Trigger when user wants chrome effects, futuristic 2000s look, blob shapes, and tech optimism. Use when working with y2k design or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Y2K Design. Trigger when user wants chrome effects, futuristic 2000s look, blob shapes, and tech optimism. Use when working with y2k design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

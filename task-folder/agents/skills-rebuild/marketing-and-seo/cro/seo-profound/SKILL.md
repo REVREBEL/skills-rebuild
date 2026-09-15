@@ -1,6 +1,6 @@
 ---
 name: "seo-profound"
-description: "Profound LLM citation tracker (extension). Time-series brand citation rates across ChatGPT, Perplexity, and other LLMs. Pairs with seo-seranking for triangulated AI visibility coverage. Use when working with seo profound or related tasks in marketing-and-seo/cro."
+description: "Profound LLM citation tracker (extension). Time-series brand citation rates across ChatGPT, Perplexity, and other LLMs. Pairs with seo-seranking for triangulated AI visibility coverage. Use when working with seo profound."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

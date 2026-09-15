@@ -1,6 +1,6 @@
 ---
 name: "cyber-y2k"
-description: "Web and App implementation guide for Cyber Y2K. Trigger when user wants modern Y2K, holographic visuals, and glitch aesthetics. Use when working with cyber y2k or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Cyber Y2K. Trigger when user wants modern Y2K, holographic visuals, and glitch aesthetics. Use when working with cyber y2k."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

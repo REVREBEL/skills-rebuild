@@ -1,6 +1,6 @@
 ---
 name: "web-artifacts-builder"
-description: "To build powerful frontend claude.ai artifacts, follow these steps:. Use when working with web artifacts builder or related tasks in development/frontend."
+description: "To build powerful frontend claude.ai artifacts, follow these steps:. Use when working with web artifacts builder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

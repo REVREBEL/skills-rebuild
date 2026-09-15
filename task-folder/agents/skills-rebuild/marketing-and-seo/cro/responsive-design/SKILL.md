@@ -1,6 +1,6 @@
 ---
 name: "responsive-design"
-description: "Design adaptive layouts and interactions that work across all screen sizes and input methods. Use when working with responsive design or related tasks in marketing-and-seo/cro."
+description: "Design adaptive layouts and interactions that work across all screen sizes and input methods. Use when working with responsive design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

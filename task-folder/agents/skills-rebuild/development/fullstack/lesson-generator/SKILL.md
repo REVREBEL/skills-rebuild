@@ -1,6 +1,6 @@
 ---
 name: "lesson-generator"
-description: "Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links. Use when working with lesson generator or related tasks in development/fullstack."
+description: "Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links. Use when working with lesson generator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

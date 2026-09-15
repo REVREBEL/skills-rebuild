@@ -1,6 +1,6 @@
 ---
 name: "cc-skill-continuous-learning"
-description: "Development skill from everything-claude-code. Use when working with cc skill continuous learning or related tasks in development/fullstack."
+description: "Development skill from everything-claude-code. Use when working with cc skill continuous learning."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

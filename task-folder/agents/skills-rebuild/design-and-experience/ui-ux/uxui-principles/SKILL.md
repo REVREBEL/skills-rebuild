@@ -1,6 +1,6 @@
 ---
 name: "uxui-principles"
-description: "Evaluate interfaces against 168 research-backed UX/UI principles, detect antipatterns, and inject UX context into AI coding sessions. Use when working with uxui principles or related tasks in design-and-experience/ui-ux."
+description: "Evaluate interfaces against 168 research-backed UX/UI principles, detect antipatterns, and inject UX context into AI coding sessions. Use when working with uxui principles."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

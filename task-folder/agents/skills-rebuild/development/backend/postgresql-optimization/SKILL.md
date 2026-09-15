@@ -1,6 +1,6 @@
 ---
 name: "postgresql-optimization"
-description: "PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management. Use when working with postgresql optimization or related tasks in development/backend."
+description: "PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management. Use when working with postgresql optimization."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

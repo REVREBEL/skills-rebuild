@@ -1,6 +1,6 @@
 ---
 name: "aesthetic-usability"
-description: "Apply the Aesthetic-Usability Effect — visually consistent, polished interfaces are perceived as more usable. Use when working with aesthetic usability or related tasks in design-and-experience/taste-and-critique."
+description: "Apply the Aesthetic-Usability Effect — visually consistent, polished interfaces are perceived as more usable. Use when working with aesthetic usability."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

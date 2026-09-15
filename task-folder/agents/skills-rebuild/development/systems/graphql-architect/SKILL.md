@@ -1,6 +1,6 @@
 ---
 name: "graphql-architect"
-description: "Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems. Use when working with graphql architect or related tasks in development/systems."
+description: "Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems. Use when working with graphql architect."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

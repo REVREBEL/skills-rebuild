@@ -1,6 +1,6 @@
 ---
 name: "nodejs-backend-patterns"
-description: "Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices. Use when working with nodejs backend patterns or related tasks in development/backend."
+description: "Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices. Use when working with nodejs backend patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

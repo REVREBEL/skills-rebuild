@@ -1,6 +1,6 @@
 ---
 name: "click-test-plan"
-description: "Design click/first-click tests to evaluate navigation and information findability. Use when working with click test plan or related tasks in design-and-experience/ui-ux."
+description: "Design click/first-click tests to evaluate navigation and information findability. Use when working with click test plan."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

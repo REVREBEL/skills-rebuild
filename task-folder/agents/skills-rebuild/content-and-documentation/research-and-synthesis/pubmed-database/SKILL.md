@@ -1,6 +1,6 @@
 ---
 name: "pubmed-database"
-description: "Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations. Use when working with pubmed database or related tasks in content-and-documentation/research-and-synthesis."
+description: "Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations. Use when working with pubmed database."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

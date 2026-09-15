@@ -1,6 +1,6 @@
 ---
 name: "viral-generator-builder"
-description: "Expert in building shareable generator tools that go viral - name. Use when working with viral generator builder or related tasks in development/backend."
+description: "Expert in building shareable generator tools that go viral - name. Use when working with viral generator builder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "experience-system-blueprint"
-description: "Documentation pattern for translating brand platforms into modular experience. Use when working with experience system blueprint or related tasks in marketing-and-seo/on-page-seo."
+description: "Documentation pattern for translating brand platforms into modular experience. Use when working with experience system blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

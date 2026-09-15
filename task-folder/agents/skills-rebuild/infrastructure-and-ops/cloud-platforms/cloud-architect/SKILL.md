@@ -1,6 +1,6 @@
 ---
 name: "cloud-architect"
-description: "Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns. Use when working with cloud architect or related tasks in infrastructure-and-ops/cloud-platforms."
+description: "Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns. Use when working with cloud architect."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

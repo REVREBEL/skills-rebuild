@@ -1,6 +1,6 @@
 ---
 name: "ml-engineer"
-description: "Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring. Use when working with ml engineer or related tasks in quality-and-security/testing."
+description: "Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring. Use when working with ml engineer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

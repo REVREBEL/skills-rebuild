@@ -1,6 +1,6 @@
 ---
 name: "form-design"
-description: "Design forms that minimize friction, prevent errors, and guide users to successful completion. Use when working with form design or related tasks in design-and-experience/ui-ux."
+description: "Design forms that minimize friction, prevent errors, and guide users to successful completion. Use when working with form design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

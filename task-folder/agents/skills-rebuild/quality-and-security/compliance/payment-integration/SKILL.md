@@ -1,6 +1,6 @@
 ---
 name: "payment-integration"
-description: "Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features. Use when working with payment integration or related tasks in quality-and-security/compliance."
+description: "Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features. Use when working with payment integration."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

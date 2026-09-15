@@ -1,6 +1,6 @@
 ---
 name: "qa-gates"
-description: "Use before launching sequences to validate content, data, compliance,. Use when working with qa gates or related tasks in marketing-and-seo/on-page-seo."
+description: "Use before launching sequences to validate content, data, compliance,. Use when working with qa gates."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

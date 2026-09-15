@@ -1,6 +1,6 @@
 ---
 name: "hugging-face-jobs"
-description: "Run workloads on Hugging Face Jobs with managed CPUs, GPUs, TPUs, secrets, and Hub persistence. Use when working with hugging face jobs or related tasks in data-and-ai/machine-learning."
+description: "Run workloads on Hugging Face Jobs with managed CPUs, GPUs, TPUs, secrets, and Hub persistence. Use when working with hugging face jobs."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

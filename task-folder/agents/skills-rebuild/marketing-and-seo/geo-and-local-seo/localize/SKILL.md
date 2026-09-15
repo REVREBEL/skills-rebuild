@@ -1,6 +1,6 @@
 ---
 name: "localize"
-description: "Execute localize tasks, workflows, and automated procedures. Use when working with localize or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Execute localize tasks, workflows, and automated procedures. Use when working with localize."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

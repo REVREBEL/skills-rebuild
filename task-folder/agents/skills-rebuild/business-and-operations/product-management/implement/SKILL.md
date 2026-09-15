@@ -1,6 +1,6 @@
 ---
 name: "implement"
-description: "Implement a piece of work based on a PRD or set of issues. Use when working with implement or related tasks in business-and-operations/product-management."
+description: "Implement a piece of work based on a PRD or set of issues. Use when working with implement."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

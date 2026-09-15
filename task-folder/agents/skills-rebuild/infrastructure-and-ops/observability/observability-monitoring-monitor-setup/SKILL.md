@@ -1,6 +1,6 @@
 ---
 name: "observability-monitoring-monitor-setup"
-description: "You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions. Set up metrics collection, distributed tracing, log aggregation, and create insightful da. Use when working with observability monitoring monitor setup or related tasks in infrastructure-and-ops/observability."
+description: "You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions. Set up metrics collection, distributed tracing, log aggregation, and create insightful da. Use when working with observability monitoring monitor setup."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

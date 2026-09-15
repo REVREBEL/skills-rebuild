@@ -1,6 +1,6 @@
 ---
 name: "dos-verify-done-claims"
-description: "Before accepting an agent's 'done / shipped / fixed' claim, verify it against ground truth (git ancestry + the commit's own diff) using the DOS kernel's `dos verify` and `dos commit-audit` — never the agent's own narration. Use when working with dos verify done claims or related tasks in development/systems."
+description: "Before accepting an agent's 'done / shipped / fixed' claim, verify it against ground truth (git ancestry + the commit's own diff) using the DOS kernel's `dos verify` and `dos commit-audit` — never the agent's own narration. Use when working with dos verify done claims."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

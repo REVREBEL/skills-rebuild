@@ -1,6 +1,6 @@
 ---
 name: "brand-governance-os"
-description: "Operating system for intake, approvals, QA, and training across brand. Use when working with brand governance os or related tasks in marketing-and-seo/cro."
+description: "Operating system for intake, approvals, QA, and training across brand. Use when working with brand governance os."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

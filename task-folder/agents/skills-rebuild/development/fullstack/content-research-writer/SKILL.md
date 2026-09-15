@@ -1,6 +1,6 @@
 ---
 name: "content-research-writer"
-description: "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership. Use when working with content research writer or related tasks in development/fullstack."
+description: "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership. Use when working with content research writer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

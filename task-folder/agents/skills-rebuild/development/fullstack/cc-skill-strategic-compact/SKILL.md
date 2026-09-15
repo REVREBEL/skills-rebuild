@@ -1,6 +1,6 @@
 ---
 name: "cc-skill-strategic-compact"
-description: "Development skill from everything-claude-code. Use when working with cc skill strategic compact or related tasks in development/fullstack."
+description: "Development skill from everything-claude-code. Use when working with cc skill strategic compact."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

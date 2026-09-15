@@ -1,6 +1,6 @@
 ---
 name: "case-study"
-description: "Craft portfolio-ready case studies that tell the story of a design project. Use when working with case study or related tasks in design-and-experience/ui-ux."
+description: "Craft portfolio-ready case studies that tell the story of a design project. Use when working with case study."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

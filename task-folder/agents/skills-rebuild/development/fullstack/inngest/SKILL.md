@@ -1,6 +1,6 @@
 ---
 name: "inngest"
-description: "Inngest expert for serverless-first background jobs, event-driven. Use when working with inngest or related tasks in development/fullstack."
+description: "Inngest expert for serverless-first background jobs, event-driven. Use when working with inngest."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "quality-review-checklist"
-description: "Checklist covering accuracy, style, accessibility, and localization requirements. Use when working with quality review checklist or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Checklist covering accuracy, style, accessibility, and localization requirements. Use when working with quality review checklist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

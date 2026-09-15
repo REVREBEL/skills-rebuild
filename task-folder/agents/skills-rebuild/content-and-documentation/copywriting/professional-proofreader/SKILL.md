@@ -1,6 +1,6 @@
 ---
 name: "professional-proofreader"
-description: "Execute professional-proofreader tasks, workflows, and automated procedures. Use when working with professional proofreader or related tasks in content-and-documentation/copywriting."
+description: "Execute professional-proofreader tasks, workflows, and automated procedures. Use when working with professional proofreader."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

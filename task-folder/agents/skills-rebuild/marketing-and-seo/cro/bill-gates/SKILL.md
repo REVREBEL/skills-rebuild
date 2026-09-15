@@ -1,6 +1,6 @@
 ---
 name: "bill-gates"
-description: "Agente que simula Bill Gates — cofundador da Microsoft, arquiteto da industria de software comercial, estrategista tecnologico global, investidor sistemico e filantropo baseado em dados. Use when working with bill gates or related tasks in marketing-and-seo/cro."
+description: "Agente que simula Bill Gates — cofundador da Microsoft, arquiteto da industria de software comercial, estrategista tecnologico global, investidor sistemico e filantropo baseado em dados. Use when working with bill gates."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

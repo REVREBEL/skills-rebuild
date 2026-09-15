@@ -1,6 +1,6 @@
 ---
 name: "007"
-description: "Security audit, hardening, threat modeling (STRIDE/PASTA), Red/Blue Team, OWASP checks, code review, incident response, and infrastructure security for any project. Use when working with 007 or related tasks in quality-and-security/security."
+description: "Security audit, hardening, threat modeling (STRIDE/PASTA), Red/Blue Team, OWASP checks, code review, incident response, and infrastructure security for any project. Use when working with 007."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "repo-maintainer"
-description: "Audit and repair repository hygiene across artifacts, dependencies, CI, docs, Git state, and code-quality signals. Use for repository maintenance, cleanup, health checks, or pre-release hardening. Use when working with repo maintainer or related tasks in marketing-and-seo/cro."
+description: "Audit and repair repository hygiene across artifacts, dependencies, CI, docs, Git state, and code-quality signals. Use for repository maintenance, cleanup, health checks, or pre-release hardening. Use when working with repo maintainer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

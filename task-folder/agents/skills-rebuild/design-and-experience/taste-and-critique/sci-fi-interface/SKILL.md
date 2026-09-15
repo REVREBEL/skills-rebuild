@@ -1,6 +1,6 @@
 ---
 name: "sci-fi-interface"
-description: "Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts. Use when working with sci fi interface or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts. Use when working with sci fi interface."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

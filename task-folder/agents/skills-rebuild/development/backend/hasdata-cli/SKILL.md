@@ -1,6 +1,6 @@
 ---
 name: "hasdata-cli"
-description: "Command-line access to search, scraping, and structured web data. Use when working with hasdata cli or related tasks in development/backend."
+description: "Command-line access to search, scraping, and structured web data. Use when working with hasdata cli."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

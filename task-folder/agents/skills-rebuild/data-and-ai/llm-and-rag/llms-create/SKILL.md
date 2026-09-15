@@ -1,6 +1,6 @@
 ---
 name: "llms-create"
-description: "Create an llms.txt file from scratch based on repository structure following the llms.txt specification at https://llmstxt.org/. Use when working with llms create or related tasks in data-and-ai/llm-and-rag."
+description: "Create an llms.txt file from scratch based on repository structure following the llms.txt specification at https://llmstxt.org/. Use when working with llms create."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

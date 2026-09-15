@@ -1,6 +1,6 @@
 ---
 name: "rclone-cli"
-description: "Rclone command-line cloud storage manager reference and usage guide. Use this skill whenever the user mentions rclone, or any task involving terminal-based cloud file operations such as upload, download, sync, copy, move, mount, or remote management. Triggers on S3-compatible storage,.. Use when working with rclone cli or related tasks in data-and-ai/llm-and-rag."
+description: "Rclone command-line cloud storage manager reference and usage guide. Use this skill whenever the user mentions rclone, or any task involving terminal-based cloud file operations such as upload, download, sync, copy, move, mount, or remote management. Triggers on S3-compatible storage,. Use when working with rclone cli."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

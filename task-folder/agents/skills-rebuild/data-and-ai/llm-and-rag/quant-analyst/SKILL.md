@@ -1,6 +1,6 @@
 ---
 name: "quant-analyst"
-description: "Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage. Use when working with quant analyst or related tasks in data-and-ai/llm-and-rag."
+description: "Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage. Use when working with quant analyst."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

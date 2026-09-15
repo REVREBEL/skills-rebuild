@@ -1,6 +1,6 @@
 ---
 name: "nextjs-app-router-patterns"
-description: "Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development. Use when working with nextjs app router patterns or related tasks in development/frontend."
+description: "Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development. Use when working with nextjs app router patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

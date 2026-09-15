@@ -1,6 +1,6 @@
 ---
 name: "frontend-api-integration-patterns"
-description: "Production-ready patterns for integrating frontend applications with backend APIs, including race condition handling, request cancellation, retry strategies, error normalization, and UI state management. Use when working with frontend api integration patterns or related tasks in development/frontend."
+description: "Production-ready patterns for integrating frontend applications with backend APIs, including race condition handling, request cancellation, retry strategies, error normalization, and UI state management. Use when working with frontend api integration patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

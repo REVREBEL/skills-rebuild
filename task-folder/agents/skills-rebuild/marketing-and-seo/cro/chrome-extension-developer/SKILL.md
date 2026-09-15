@@ -1,6 +1,6 @@
 ---
 name: "chrome-extension-developer"
-description: "Expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication. Use when working with chrome extension developer or related tasks in marketing-and-seo/cro."
+description: "Expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication. Use when working with chrome extension developer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

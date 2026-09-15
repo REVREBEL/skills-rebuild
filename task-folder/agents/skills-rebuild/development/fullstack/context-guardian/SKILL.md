@@ -1,6 +1,6 @@
 ---
 name: "context-guardian"
-description: "Guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao. Use when working with context guardian or related tasks in development/fullstack."
+description: "Guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao. Use when working with context guardian."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

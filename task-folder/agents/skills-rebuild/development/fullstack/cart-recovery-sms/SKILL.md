@@ -1,6 +1,6 @@
 ---
 name: "cart-recovery-sms"
-description: "Recover abandoned carts with targeted SMS sequences including urgency messaging, product reminders, discount incentives, and TCPA-compliant opt-in flows. Use when working with cart recovery sms or related tasks in development/fullstack."
+description: "Recover abandoned carts with targeted SMS sequences including urgency messaging, product reminders, discount incentives, and TCPA-compliant opt-in flows. Use when working with cart recovery sms."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

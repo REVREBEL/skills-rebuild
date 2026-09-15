@@ -1,6 +1,6 @@
 ---
 name: "social-proof-widgets"
-description: "Display real-time social proof including recent purchases, review counts, visitor counts, and verified buyer badges to build trust and boost conversions. Use when working with social proof widgets or related tasks in development/backend."
+description: "Display real-time social proof including recent purchases, review counts, visitor counts, and verified buyer badges to build trust and boost conversions. Use when working with social proof widgets."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

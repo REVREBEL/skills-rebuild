@@ -1,6 +1,6 @@
 ---
 name: "copywriting-psychologist"
-description: "One sentence - what this skill does and when to invoke it. Use when working with copywriting psychologist or related tasks in content-and-documentation/copywriting."
+description: "One sentence - what this skill does and when to invoke it. Use when working with copywriting psychologist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

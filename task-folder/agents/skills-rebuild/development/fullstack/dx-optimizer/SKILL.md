@@ -1,6 +1,6 @@
 ---
 name: "dx-optimizer"
-description: "Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed. Use when working with dx optimizer or related tasks in development/fullstack."
+description: "Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed. Use when working with dx optimizer."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

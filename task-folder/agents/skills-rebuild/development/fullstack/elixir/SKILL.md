@@ -1,6 +1,6 @@
 ---
 name: "elixir"
-description: "Language-specific super-code guidelines for elixir. Use when working with elixir or related tasks in development/fullstack."
+description: "Language-specific super-code guidelines for elixir. Use when working with elixir."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

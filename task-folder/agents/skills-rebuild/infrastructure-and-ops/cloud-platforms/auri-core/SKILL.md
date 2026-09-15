@@ -1,6 +1,6 @@
 ---
 name: "auri-core"
-description: "Auri: assistente de voz inteligente (Alexa + modelo-inteligente). Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise, roadmap 4 fases, GTM, north star WAC e analise competitiva. Use when working with auri core or related tasks in infrastructure-and-ops/cloud-platforms."
+description: "Auri: assistente de voz inteligente (Alexa + modelo-inteligente). Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise, roadmap 4 fases, GTM, north star WAC e analise competitiva. Use when working with auri core."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

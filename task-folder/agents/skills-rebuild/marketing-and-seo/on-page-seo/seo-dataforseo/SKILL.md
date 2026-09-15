@@ -1,6 +1,6 @@
 ---
 name: "seo-dataforseo"
-description: "Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance. Use when working with seo dataforseo or related tasks in marketing-and-seo/on-page-seo."
+description: "Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance. Use when working with seo dataforseo."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "icon-system"
-description: "Create an icon system specification covering grid, sizing, naming, categories, and implementation guidance. Use when working with icon system or related tasks in design-and-experience/ui-ux."
+description: "Create an icon system specification covering grid, sizing, naming, categories, and implementation guidance. Use when working with icon system."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

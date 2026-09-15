@@ -1,6 +1,6 @@
 ---
 name: "varlock-skill"
-description: "Secure environment variable management ensuring secrets are never exposed in agent sessions, terminals, logs, or git commits. Use when working with varlock skill or related tasks in development/fullstack."
+description: "Secure environment variable management ensuring secrets are never exposed in agent sessions, terminals, logs, or git commits. Use when working with varlock skill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

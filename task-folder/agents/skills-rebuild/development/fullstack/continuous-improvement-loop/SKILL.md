@@ -1,6 +1,6 @@
 ---
 name: "continuous-improvement-loop"
-description: "Run Part 12 — the continuous improvement loop. Aggregates market + operating signals into product/offering recommendations. Runs alongside live operations, not as a one-time activity. Use when working with continuous improvement loop or related tasks in development/fullstack."
+description: "Run Part 12 — the continuous improvement loop. Aggregates market + operating signals into product/offering recommendations. Runs alongside live operations, not as a one-time activity. Use when working with continuous improvement loop."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

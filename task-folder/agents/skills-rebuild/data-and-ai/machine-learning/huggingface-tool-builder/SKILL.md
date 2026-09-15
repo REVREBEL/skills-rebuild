@@ -1,6 +1,6 @@
 ---
 name: "huggingface-tool-builder"
-description: "Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated. This Skill creates a reusable script to fetch, enrich.. Use when working with huggingface tool builder or related tasks in data-and-ai/machine-learning."
+description: "Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated. This Skill creates a reusable script to fetch, enrich. Use when working with huggingface tool builder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

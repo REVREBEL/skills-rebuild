@@ -1,6 +1,6 @@
 ---
 name: "color-expert"
-description: "Execute color-expert tasks, workflows, and automated procedures. Use when working with color expert or related tasks in design-and-experience/ui-ux."
+description: "Execute color-expert tasks, workflows, and automated procedures. Use when working with color expert."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

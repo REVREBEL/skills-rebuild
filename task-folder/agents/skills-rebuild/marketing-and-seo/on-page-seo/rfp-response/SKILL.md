@@ -1,6 +1,6 @@
 ---
 name: "rfp-response"
-description: "Create winning RFP/RFI responses by analyzing requirements, structuring compliant proposals, and crafting compelling win themes. Use when working with rfp response or related tasks in marketing-and-seo/on-page-seo."
+description: "Create winning RFP/RFI responses by analyzing requirements, structuring compliant proposals, and crafting compelling win themes. Use when working with rfp response."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "app-builder"
-description: "Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents. Use when working with app builder or related tasks in development/backend."
+description: "Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents. Use when working with app builder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

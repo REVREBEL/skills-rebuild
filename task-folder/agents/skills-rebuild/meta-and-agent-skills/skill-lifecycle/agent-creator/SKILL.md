@@ -1,6 +1,6 @@
 ---
 name: "agent-creator"
-description: "Create custom AI subagents with proper plugin structure, persona generation, and companion routing skills. Use when working with agent creator or related tasks in meta-and-agent-skills/skill-lifecycle."
+description: "Create custom AI subagents with proper plugin structure, persona generation, and companion routing skills. Use when working with agent creator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "marketing-ideas"
-description: "Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system. Use when working with marketing ideas or related tasks in development/fullstack."
+description: "Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system. Use when working with marketing ideas."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

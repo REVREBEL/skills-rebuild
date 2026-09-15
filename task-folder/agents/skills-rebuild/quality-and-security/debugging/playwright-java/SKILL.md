@@ -1,6 +1,6 @@
 ---
 name: "playwright-java"
-description: "Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution. Use when working with playwright java or related tasks in quality-and-security/debugging."
+description: "Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution. Use when working with playwright java."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "tiktok-shop-integration"
-description: "Sync your product catalog to TikTok Shop, manage orders and inventory, and enable shoppable content with live shopping and affiliate creator programs. Use when working with tiktok shop integration or related tasks in development/fullstack."
+description: "Sync your product catalog to TikTok Shop, manage orders and inventory, and enable shoppable content with live shopping and affiliate creator programs. Use when working with tiktok shop integration."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

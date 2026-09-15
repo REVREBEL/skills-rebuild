@@ -1,6 +1,6 @@
 ---
 name: "workorai"
-description: "WorkorAI talent-marketplace skill: candidates search jobs and manage applications; employers run the job lifecycle and get ranked candidate matches with white-box fit explanations. Use when working with workorai or related tasks in development/fullstack."
+description: "WorkorAI talent-marketplace skill: candidates search jobs and manage applications; employers run the job lifecycle and get ranked candidate matches with white-box fit explanations. Use when working with workorai."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "floating-ui"
-description: "Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel. Use when working with floating ui or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel. Use when working with floating ui."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

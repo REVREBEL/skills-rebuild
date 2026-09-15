@@ -1,6 +1,6 @@
 ---
 name: "deal-quality-model"
-description: "Scoring system for opportunity hygiene, win likelihood, and inspection. Use when working with deal quality model or related tasks in marketing-and-seo/on-page-seo."
+description: "Scoring system for opportunity hygiene, win likelihood, and inspection. Use when working with deal quality model."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

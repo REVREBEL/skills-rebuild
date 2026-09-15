@@ -1,6 +1,6 @@
 ---
 name: "fix-review"
-description: "Verify fix commits address audit findings without new bugs. Use when working with fix review or related tasks in development/fullstack."
+description: "Verify fix commits address audit findings without new bugs. Use when working with fix review."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

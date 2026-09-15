@@ -1,6 +1,6 @@
 ---
 name: "roi-benchmark-library"
-description: "Reference benchmarks for CAC, CPL, ROAS, and payback across channels. Use when working with roi benchmark library or related tasks in marketing-and-seo/cro."
+description: "Reference benchmarks for CAC, CPL, ROAS, and payback across channels. Use when working with roi benchmark library."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

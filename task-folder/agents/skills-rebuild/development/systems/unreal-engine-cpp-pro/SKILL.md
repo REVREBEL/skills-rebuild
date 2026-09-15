@@ -1,6 +1,6 @@
 ---
 name: "unreal-engine-cpp-pro"
-description: "Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices. Use when working with unreal engine cpp pro or related tasks in development/systems."
+description: "Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices. Use when working with unreal engine cpp pro."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

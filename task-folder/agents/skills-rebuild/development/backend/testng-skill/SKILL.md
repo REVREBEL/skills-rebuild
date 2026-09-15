@@ -1,6 +1,6 @@
 ---
 name: "testng-skill"
-description: "Generates TestNG tests in Java with groups, data providers, parallel execution, XML suite configuration, and listeners. Use when user mentions \"TestNG\", \"@DataProvider\", \"testng.xml\", \"groups\". Triggers on: \"TestNG\", \"@DataProvider\", \"testng.xml\", \"TestNG suite\", \"parallel tests Java\"."
+description: "Generates TestNG tests in Java with groups, data providers, parallel execution, XML suite configuration, and listeners. Use when user mentions \\"TestNG\\", \\"@DataProvider\\", \\"testng.xml\\", \\"groups\\". Triggers on: \\"TestNG\\", \\"@DataProvider\\", \\"testng.xml\\", \\"TestNG suite\\", \\"parallel tests Java\\"."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

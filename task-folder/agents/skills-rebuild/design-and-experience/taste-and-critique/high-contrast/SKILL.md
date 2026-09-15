@@ -1,6 +1,6 @@
 ---
 name: "high-contrast"
-description: "Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact. Use when working with high contrast or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact. Use when working with high contrast."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

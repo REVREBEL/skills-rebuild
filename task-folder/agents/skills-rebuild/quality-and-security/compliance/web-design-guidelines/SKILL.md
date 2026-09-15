@@ -1,6 +1,6 @@
 ---
 name: "web-design-guidelines"
-description: "Review files for compliance with Web Interface Guidelines. Use when working with web design guidelines or related tasks in quality-and-security/compliance."
+description: "Review files for compliance with Web Interface Guidelines. Use when working with web design guidelines."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

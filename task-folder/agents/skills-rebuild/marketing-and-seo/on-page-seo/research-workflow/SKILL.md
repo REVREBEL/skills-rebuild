@@ -1,6 +1,6 @@
 ---
 name: "research-workflow"
-description: "Guide agents through structured research including planning, multi-query execution, source analysis, and synthesis. Use for comprehensive topic research, deep investigation, or creating research reports. Keywords: research, investigate, deep dive, comprehensive, analysis, synthesis, report. Use when working with research workflow or related tasks in marketing-and-seo/on-page-seo."
+description: "Guide agents through structured research including planning, multi-query execution, source analysis, and synthesis. Use for comprehensive topic research, deep investigation, or creating research reports. Keywords: research, investigate, deep dive, comprehensive, analysis, synthesis, report. Use when working with research workflow."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

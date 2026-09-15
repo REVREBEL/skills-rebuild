@@ -1,6 +1,6 @@
 ---
 name: "api-documenter"
-description: "Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals. Use when working with api documenter or related tasks in content-and-documentation/technical-writing."
+description: "Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals. Use when working with api documenter."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

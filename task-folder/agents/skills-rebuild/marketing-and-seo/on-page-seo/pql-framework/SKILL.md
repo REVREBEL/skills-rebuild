@@ -1,6 +1,6 @@
 ---
 name: "pql-framework"
-description: "Methodology for defining product-qualified lead (PQL) signals, scoring,. Use when working with pql framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Methodology for defining product-qualified lead (PQL) signals, scoring,. Use when working with pql framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

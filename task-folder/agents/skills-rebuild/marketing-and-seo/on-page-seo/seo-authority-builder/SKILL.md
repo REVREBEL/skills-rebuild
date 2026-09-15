@@ -1,6 +1,6 @@
 ---
 name: "seo-authority-builder"
-description: "Analyzes content for E-E-A-T signals and suggests improvements to. Use when working with seo authority builder or related tasks in marketing-and-seo/on-page-seo."
+description: "Analyzes content for E-E-A-T signals and suggests improvements to. Use when working with seo authority builder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

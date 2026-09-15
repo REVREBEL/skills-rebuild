@@ -1,6 +1,6 @@
 ---
 name: "loyalty-program-optimization"
-description: "Design and optimize tiered loyalty programs with points, rewards, exclusive perks, and member-only benefits that increase repeat purchase rates and CLV. Use when working with loyalty program optimization or related tasks in development/fullstack."
+description: "Design and optimize tiered loyalty programs with points, rewards, exclusive perks, and member-only benefits that increase repeat purchase rates and CLV. Use when working with loyalty program optimization."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

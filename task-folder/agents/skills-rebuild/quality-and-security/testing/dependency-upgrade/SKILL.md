@@ -1,6 +1,6 @@
 ---
 name: "dependency-upgrade"
-description: "Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches. Use when working with dependency upgrade or related tasks in quality-and-security/testing."
+description: "Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches. Use when working with dependency upgrade."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

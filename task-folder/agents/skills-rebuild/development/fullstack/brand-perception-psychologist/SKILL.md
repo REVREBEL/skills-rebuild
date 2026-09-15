@@ -1,6 +1,6 @@
 ---
 name: "brand-perception-psychologist"
-description: "One sentence - what this skill does and when to invoke it. Use when working with brand perception psychologist or related tasks in development/fullstack."
+description: "One sentence - what this skill does and when to invoke it. Use when working with brand perception psychologist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

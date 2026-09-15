@@ -1,6 +1,6 @@
 ---
 name: "brutalist-typography"
-description: "Web and App implementation guide for Brutalist Typography. Trigger when user wants huge fonts, raw presentation, and aggressive layout decisions. Use when working with brutalist typography or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Brutalist Typography. Trigger when user wants huge fonts, raw presentation, and aggressive layout decisions. Use when working with brutalist typography."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

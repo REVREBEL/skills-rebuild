@@ -1,6 +1,6 @@
 ---
 name: "educational-presentation"
-description: "Execute educational-presentation tasks, workflows, and automated procedures. Use when working with educational presentation or related tasks in marketing-and-seo/on-page-seo."
+description: "Execute educational-presentation tasks, workflows, and automated procedures. Use when working with educational presentation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

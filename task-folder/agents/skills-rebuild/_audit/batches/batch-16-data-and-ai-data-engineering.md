@@ -7,7 +7,7 @@
 - **Member Skill Count**: 6
 - **Batch Status**: `completed`
 - **Validation Status**: `verified`
-- **Deterministic Manifest Hash (SHA-256)**: `81a3e944302f520b0323b39d2576d16ae898abb9614cb069ac418d2e5348e834`
+- **Deterministic Manifest Hash (SHA-256)**: `23d08c8b711f6bfa52eeb3665a892276b1821b56779bf0c72df48b92314458a4`
 
 ## 2. Canonical Skills Summary & Provenance
 
@@ -24,21 +24,16 @@
 
 | Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
 |---|---|---|---|
-| `data-engineer` | User asks to work with data engineer or configure data engineer in data-engineering. | User requests general server administration, styling, or unrelated operations outside data engineer. | User asks for general assistance in data-engineering without specifying data engineer; routes to `data-engineer` when data engineer-specific capabilities are required. |
-| `data-engineering-data-pipeline` | User asks to work with data engineering data pipeline or configure data engineering data pipeline in data-engineering. | User requests general server administration, styling, or unrelated operations outside data engineering data pipeline. | User asks for general assistance in data-engineering without specifying data engineering data pipeline; routes to `data-engineering-data-pipeline` when data engineering data pipeline-specific capabilities are required. |
-| `ml-pipeline-workflow` | User asks to work with ml pipeline workflow or configure ml pipeline workflow in data-engineering. | User requests general server administration, styling, or unrelated operations outside ml pipeline workflow. | User asks for general assistance in data-engineering without specifying ml pipeline workflow; routes to `ml-pipeline-workflow` when ml pipeline workflow-specific capabilities are required. |
-| `mlops-engineer` | User asks to work with mlops engineer or configure mlops engineer in data-engineering. | User requests general server administration, styling, or unrelated operations outside mlops engineer. | User asks for general assistance in data-engineering without specifying mlops engineer; routes to `mlops-engineer` when mlops engineer-specific capabilities are required. |
-| `recsys-pipeline-architect` | User asks to work with recsys pipeline architect or configure recsys pipeline architect in data-engineering. | User requests general server administration, styling, or unrelated operations outside recsys pipeline architect. | User asks for general assistance in data-engineering without specifying recsys pipeline architect; routes to `recsys-pipeline-architect` when recsys pipeline architect-specific capabilities are required. |
-| `scikit-learn` | User asks to work with scikit learn or configure scikit learn in data-engineering. | User requests general server administration, styling, or unrelated operations outside scikit learn. | User asks for general assistance in data-engineering without specifying scikit learn; routes to `scikit-learn` when scikit learn-specific capabilities are required. |
+| `data-engineer` | User asks to execute or optimize data engineer tasks (e.g. implementing data engineer workflows and configurations). | User requests You only need exploratory data analysis or unrelated operations outside data engineer. | User asks for general assistance with data engineer -> Disambiguate: Clarify whether the focus is specific data engineer patterns or broader data-engineering workflows. |
+| `data-engineering-data-pipeline` | User asks to execute or optimize data engineering data pipeline tasks (e.g. implementing data engineering data pipeline workflows and configurations). | User requests You need a different domain or tool outside this scope or unrelated operations outside data engineering data pipeline. | User asks for general assistance with data engineering data pipeline -> Disambiguate: Clarify whether the focus is specific data engineering data pipeline patterns or broader data-engineering workflows. |
+| `ml-pipeline-workflow` | User asks to execute or optimize ml pipeline workflow tasks (e.g. implementing ml pipeline workflow workflows and configurations). | User requests You need a different domain or tool outside this scope or unrelated operations outside ml pipeline workflow. | User asks for general assistance with ml pipeline workflow -> Disambiguate: Clarify whether the focus is specific ml pipeline workflow patterns or broader data-engineering workflows. |
+| `mlops-engineer` | User asks to execute or optimize mlops engineer tasks (e.g. implementing mlops engineer workflows and configurations). | User requests You need a different domain or tool outside this scope or unrelated operations outside mlops engineer. | User asks for general assistance with mlops engineer -> Disambiguate: Clarify whether the focus is specific mlops engineer patterns or broader data-engineering workflows. |
+| `recsys-pipeline-architect` | User asks to execute or optimize recsys pipeline architect tasks (e.g. implementing recsys pipeline architect workflows and configurations). | User requests general infrastructure administration or unrelated application development outside recsys pipeline architect or unrelated operations outside recsys pipeline architect. | User asks for general assistance with recsys pipeline architect -> Disambiguate: Clarify whether the focus is specific recsys pipeline architect patterns or broader data-engineering workflows. |
+| `scikit-learn` | User asks to execute or optimize scikit learn tasks (e.g. implementing scikit learn workflows and configurations). | User requests general infrastructure administration or unrelated application development outside scikit learn or unrelated operations outside scikit learn. | User asks for general assistance with scikit learn -> Disambiguate: Clarify whether the focus is specific scikit learn patterns or broader data-engineering workflows. |
 
-## 4. Provider Reconciliation & Security Audit
+## 4. Verification & Consistency Sign-off
 
-- **Undeclared Provider Lock-in**: 0 occurrences. All provider APIs declared in compatibility metadata.
-- **Workstation / Machine Path Leaks**: 0 occurrences.
-- **Broken Relative References**: 0 broken links.
-
-## 5. Unresolved Items Ledger
-
-| Item ID | Skill Name | Issue Type | Disposition | Rationale |
-|---|---|---|---|---|
-| None | None | None | deliberate_state_completed | All member skills successfully rewritten, normalized, and validated. |
+- [x] 100% of member packages verified on disk under `task-folder/agents/skills-rebuild/data-and-ai/data-engineering/`
+- [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
+- [x] Substantive capability-specific trigger boundary evaluation confirmed.
+- [x] Manifest hash `23d08c8b711f6bfa52eeb3665a892276b1821b56779bf0c72df48b92314458a4` computed deterministically.

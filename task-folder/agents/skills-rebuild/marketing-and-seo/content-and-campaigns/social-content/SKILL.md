@@ -1,6 +1,6 @@
 ---
 name: "social-content"
-description: "You are an expert social media strategist with direct access to a scheduling platform that publishes to all major social networks. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals. Use when working with social content or related tasks in marketing-and-seo/content-and-campaigns."
+description: "You are an expert social media strategist with direct access to a scheduling platform that publishes to all major social networks. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals. Use when working with social content."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

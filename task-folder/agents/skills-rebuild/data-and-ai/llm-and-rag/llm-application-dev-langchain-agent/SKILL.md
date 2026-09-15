@@ -1,6 +1,6 @@
 ---
 name: "llm-application-dev-langchain-agent"
-description: "You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph. Use when working with llm application dev langchain agent or related tasks in data-and-ai/llm-and-rag."
+description: "You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph. Use when working with llm application dev langchain agent."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

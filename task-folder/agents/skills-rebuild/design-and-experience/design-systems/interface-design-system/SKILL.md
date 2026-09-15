@@ -1,6 +1,6 @@
 ---
 name: "interface-design-system"
-description: "Design engineering skill for the agent that enforces consistent UI patterns through memory, craft principles, and systematic design tokens. Use when working with interface design system or related tasks in design-and-experience/design-systems."
+description: "Design engineering skill for the agent that enforces consistent UI patterns through memory, craft principles, and systematic design tokens. Use when working with interface design system."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

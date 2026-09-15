@@ -1,6 +1,6 @@
 ---
 name: "persona-intel"
-description: "Use to summarize persona goals, pains, proof points, and questions for. Use when working with persona intel or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to summarize persona goals, pains, proof points, and questions for. Use when working with persona intel."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "clerk-nextjs-patterns"
-description: "Advanced Next.js patterns - middleware, Server Actions, caching with. Use when working with clerk nextjs patterns or related tasks in development/frontend."
+description: "Advanced Next.js patterns - middleware, Server Actions, caching with. Use when working with clerk nextjs patterns."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

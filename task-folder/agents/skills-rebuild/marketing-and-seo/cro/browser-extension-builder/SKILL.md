@@ -1,6 +1,6 @@
 ---
 name: "browser-extension-builder"
-description: "Expert in building browser extensions that solve real problems -. Use when working with browser extension builder or related tasks in marketing-and-seo/cro."
+description: "Expert in building browser extensions that solve real problems -. Use when working with browser extension builder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

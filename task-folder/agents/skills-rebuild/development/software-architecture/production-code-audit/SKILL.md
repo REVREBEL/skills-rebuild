@@ -1,6 +1,6 @@
 ---
 name: "production-code-audit"
-description: "Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations. Use when working with production code audit or related tasks in development/software-architecture."
+description: "Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations. Use when working with production code audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "search-ux"
-description: "Design search experiences that help users find what they need, recover from failure, and refine results. Use when working with search ux or related tasks in design-and-experience/ui-ux."
+description: "Design search experiences that help users find what they need, recover from failure, and refine results. Use when working with search ux."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

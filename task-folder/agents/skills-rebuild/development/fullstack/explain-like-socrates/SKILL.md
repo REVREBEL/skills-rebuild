@@ -1,6 +1,6 @@
 ---
 name: "explain-like-socrates"
-description: "Execute explain-like-socrates tasks, workflows, and automated procedures. Use when working with explain like socrates or related tasks in development/fullstack."
+description: "Execute explain-like-socrates tasks, workflows, and automated procedures. Use when working with explain like socrates."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

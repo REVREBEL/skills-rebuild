@@ -1,6 +1,6 @@
 ---
 name: "production-playbook"
-description: "Use to convert creative briefs into actionable task plans with owners. Use when working with production playbook or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Use to convert creative briefs into actionable task plans with owners. Use when working with production playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

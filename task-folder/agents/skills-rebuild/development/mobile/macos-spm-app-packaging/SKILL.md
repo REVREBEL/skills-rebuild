@@ -1,6 +1,6 @@
 ---
 name: "macos-spm-app-packaging"
-description: "Scaffold, build, sign, and package SwiftPM macOS apps without Xcode projects. Use when working with macos spm app packaging or related tasks in development/mobile."
+description: "Scaffold, build, sign, and package SwiftPM macOS apps without Xcode projects. Use when working with macos spm app packaging."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

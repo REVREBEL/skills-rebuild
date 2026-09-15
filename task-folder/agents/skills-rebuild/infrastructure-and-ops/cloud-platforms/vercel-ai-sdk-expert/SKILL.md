@@ -1,6 +1,6 @@
 ---
 name: "vercel-ai-sdk-expert"
-description: "Expert in the Vercel AI SDK. Covers Core API (generateText, streamText), UI hooks (useChat, useCompletion), tool calling, and streaming UI components with React and Next.js. Use when working with vercel ai sdk expert or related tasks in infrastructure-and-ops/cloud-platforms."
+description: "Expert in the Vercel AI SDK. Covers Core API (generateText, streamText), UI hooks (useChat, useCompletion), tool calling, and streaming UI components with React and Next.js. Use when working with vercel ai sdk expert."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

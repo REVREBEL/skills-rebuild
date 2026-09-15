@@ -1,6 +1,6 @@
 ---
 name: "seo-keyword-strategist"
-description: "Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization. Use when working with seo keyword strategist or related tasks in marketing-and-seo/on-page-seo."
+description: "Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization. Use when working with seo keyword strategist."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

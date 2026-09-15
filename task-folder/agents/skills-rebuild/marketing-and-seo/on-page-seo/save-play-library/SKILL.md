@@ -1,6 +1,6 @@
 ---
 name: "save-play-library"
-description: "Use to catalog churn/expansion plays tied to specific signals, cohorts,. Use when working with save play library or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to catalog churn/expansion plays tied to specific signals, cohorts,. Use when working with save play library."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

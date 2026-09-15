@@ -1,6 +1,6 @@
 ---
 name: "not-a-vibe-coder"
-description: "Turns vague prompts into 8 structured planning files for brand new projects. DO NOT use on existing codebases. Use when working with not a vibe coder or related tasks in development/fullstack."
+description: "Turns vague prompts into 8 structured planning files for brand new projects. DO NOT use on existing codebases. Use when working with not a vibe coder."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

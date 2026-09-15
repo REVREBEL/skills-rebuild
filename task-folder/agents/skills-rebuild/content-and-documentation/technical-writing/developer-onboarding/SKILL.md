@@ -1,6 +1,6 @@
 ---
 name: "developer-onboarding"
-description: "Get developers to \"Hello World\" fast with optimized quickstarts, tutorials, and sample apps. Trigger phrases: developer onboarding, time to first value, quickstart guide, hello world tutorial, developer activation, onboarding checklist, sample apps, getting started experience, reduce. Use when working with developer onboarding or related tasks in content-and-documentation/technical-writing."
+description: "Get developers to \\"Hello World\\" fast with optimized quickstarts, tutorials, and sample apps. Trigger phrases: developer onboarding, time to first value, quickstart guide, hello world tutorial, developer activation, onboarding checklist, sample apps, getting started experience, reduce. Use when working with developer onboarding."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

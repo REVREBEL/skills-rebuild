@@ -1,6 +1,6 @@
 ---
 name: "smart-git-automation"
-description: "Smart change detection, auto branch naming, and streamlined commit/PR workflow. Use when working with smart git automation or related tasks in development/fullstack."
+description: "Smart change detection, auto branch naming, and streamlined commit/PR workflow. Use when working with smart git automation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "unslop"
-description: "Post-process AI-generated text through the unslop CLI to strip AI writing patterns before publishing. Use when working with unslop or related tasks in development/fullstack."
+description: "Post-process AI-generated text through the unslop CLI to strip AI writing patterns before publishing. Use when working with unslop."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

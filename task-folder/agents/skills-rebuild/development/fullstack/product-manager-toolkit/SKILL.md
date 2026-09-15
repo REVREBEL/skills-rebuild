@@ -1,6 +1,6 @@
 ---
 name: "product-manager-toolkit"
-description: "Essential tools and frameworks for modern product management, from discovery to delivery. Use when working with product manager toolkit or related tasks in development/fullstack."
+description: "Essential tools and frameworks for modern product management, from discovery to delivery. Use when working with product manager toolkit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

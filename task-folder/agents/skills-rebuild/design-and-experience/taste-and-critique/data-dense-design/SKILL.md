@@ -1,6 +1,6 @@
 ---
 name: "data-dense-design"
-description: "Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs). Use when working with data dense design or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs). Use when working with data dense design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

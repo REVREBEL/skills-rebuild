@@ -1,6 +1,6 @@
 ---
 name: "procurement-playbook"
-description: "Use to manage legal, security, and procurement workflows for complex. Use when working with procurement playbook or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to manage legal, security, and procurement workflows for complex. Use when working with procurement playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

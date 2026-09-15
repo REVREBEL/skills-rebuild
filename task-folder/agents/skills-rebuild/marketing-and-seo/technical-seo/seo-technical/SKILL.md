@@ -1,6 +1,6 @@
 ---
 name: "seo-technical"
-description: "Execute seo-technical tasks, workflows, and automated procedures. Use when working with seo technical or related tasks in marketing-and-seo/technical-seo."
+description: "Execute seo-technical tasks, workflows, and automated procedures. Use when working with seo technical."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "anti-sycophancy"
-description: "Eliminate sycophantic agreement patterns in AI responses. Load via /skill anti-sycophancy. Use when working with anti sycophancy or related tasks in development/frontend."
+description: "Eliminate sycophantic agreement patterns in AI responses. Load via /skill anti-sycophancy. Use when working with anti sycophancy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

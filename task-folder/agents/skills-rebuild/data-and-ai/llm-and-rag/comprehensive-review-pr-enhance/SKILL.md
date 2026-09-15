@@ -1,6 +1,6 @@
 ---
 name: "comprehensive-review-pr-enhance"
-description: "Execute comprehensive-review-pr-enhance tasks, workflows, and automated procedures. Use when working with comprehensive review pr enhance or related tasks in data-and-ai/llm-and-rag."
+description: "Execute comprehensive-review-pr-enhance tasks, workflows, and automated procedures. Use when working with comprehensive review pr enhance."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

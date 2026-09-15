@@ -1,6 +1,6 @@
 ---
 name: "schema-markup"
-description: "Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact. Use when working with schema markup or related tasks in marketing-and-seo/technical-seo."
+description: "Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact. Use when working with schema markup."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

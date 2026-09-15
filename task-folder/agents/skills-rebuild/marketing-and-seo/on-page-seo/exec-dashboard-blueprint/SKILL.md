@@ -1,6 +1,6 @@
 ---
 name: "exec-dashboard-blueprint"
-description: "Layout and storytelling guide for marketing analytics executive dashboards. Use when working with exec dashboard blueprint or related tasks in marketing-and-seo/on-page-seo."
+description: "Layout and storytelling guide for marketing analytics executive dashboards. Use when working with exec dashboard blueprint."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

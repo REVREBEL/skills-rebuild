@@ -1,6 +1,6 @@
 ---
 name: "quinn"
-description: "Proves the system works by writing and executing comprehensive test suites. Use when working with quinn or related tasks in development/fullstack."
+description: "Proves the system works by writing and executing comprehensive test suites. Use when working with quinn."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

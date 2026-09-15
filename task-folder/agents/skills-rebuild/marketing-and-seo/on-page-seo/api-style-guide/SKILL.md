@@ -1,6 +1,6 @@
 ---
 name: "api-style-guide"
-description: "Style and formatting rules for API/SDK documentation, samples, and tutorials. Use when working with api style guide or related tasks in marketing-and-seo/on-page-seo."
+description: "Style and formatting rules for API/SDK documentation, samples, and tutorials. Use when working with api style guide."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

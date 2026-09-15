@@ -1,6 +1,6 @@
 ---
 name: "stp-framework"
-description: "Apply Segmentation, Targeting, and Positioning framework to identify market opportunities and craft differentiated positioning. Use when working with stp framework or related tasks in data-and-ai/analytics."
+description: "Apply Segmentation, Targeting, and Positioning framework to identify market opportunities and craft differentiated positioning. Use when working with stp framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "permission-manager"
-description: "Manage opencode permissions: review always-allow lists, suggest safe read-only commands, configure permission patterns. Use when working with permission manager or related tasks in development/fullstack."
+description: "Manage opencode permissions: review always-allow lists, suggest safe read-only commands, configure permission patterns. Use when working with permission manager."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

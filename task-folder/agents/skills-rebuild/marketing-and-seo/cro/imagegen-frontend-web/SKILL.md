@@ -1,6 +1,6 @@
 ---
 name: "imagegen-frontend-web"
-description: "Execute imagegen-frontend-web tasks, workflows, and automated procedures. Use when working with imagegen frontend web or related tasks in marketing-and-seo/cro."
+description: "Execute imagegen-frontend-web tasks, workflows, and automated procedures. Use when working with imagegen frontend web."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

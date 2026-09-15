@@ -1,6 +1,6 @@
 ---
 name: "system-design"
-description: "Design and architect software systems. Plans system components, interactions, and deployment patterns for scalability and maintainability. Use when working with system design or related tasks in design-and-experience/design-systems."
+description: "Design and architect software systems. Plans system components, interactions, and deployment patterns for scalability and maintainability. Use when working with system design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

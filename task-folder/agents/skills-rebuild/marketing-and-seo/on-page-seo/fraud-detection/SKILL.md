@@ -1,6 +1,6 @@
 ---
 name: "fraud-detection"
-description: "Use to monitor, investigate, and prevent abuse within referral programs. Use when working with fraud detection or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to monitor, investigate, and prevent abuse within referral programs. Use when working with fraud detection."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "organize"
-description: "Execute organize tasks, workflows, and automated procedures. Use when working with organize or related tasks in design-and-experience/ui-ux."
+description: "Execute organize tasks, workflows, and automated procedures. Use when working with organize."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

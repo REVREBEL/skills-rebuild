@@ -1,6 +1,6 @@
 ---
 name: "local-legal-seo-audit"
-description: "Audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages. Use when working with local legal seo audit or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages. Use when working with local legal seo audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

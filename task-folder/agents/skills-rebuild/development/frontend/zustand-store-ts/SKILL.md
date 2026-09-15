@@ -1,6 +1,6 @@
 ---
 name: "zustand-store-ts"
-description: "Create Zustand stores following established patterns with proper TypeScript types and middleware. Use when working with zustand store ts or related tasks in development/frontend."
+description: "Create Zustand stores following established patterns with proper TypeScript types and middleware. Use when working with zustand store ts."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

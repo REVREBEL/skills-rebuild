@@ -1,6 +1,6 @@
 ---
 name: "database-migrations-migration-observability"
-description: "Migration monitoring, CDC, and observability infrastructure. Use when working with database migrations migration observability or related tasks in infrastructure-and-ops/observability."
+description: "Migration monitoring, CDC, and observability infrastructure. Use when working with database migrations migration observability."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

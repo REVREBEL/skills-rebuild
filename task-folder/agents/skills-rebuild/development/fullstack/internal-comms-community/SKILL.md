@@ -1,6 +1,6 @@
 ---
 name: "internal-comms-community"
-description: "To write internal communications, use this skill for:. Use when working with internal comms community or related tasks in development/fullstack."
+description: "To write internal communications, use this skill for:. Use when working with internal comms community."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

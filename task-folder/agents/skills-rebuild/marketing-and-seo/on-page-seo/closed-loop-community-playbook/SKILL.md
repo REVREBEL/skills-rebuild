@@ -1,6 +1,6 @@
 ---
 name: "closed-loop-community-playbook"
-description: "Processes for routing community insights/actions and communicating outcomes. Use when working with closed loop community playbook or related tasks in marketing-and-seo/on-page-seo."
+description: "Processes for routing community insights/actions and communicating outcomes. Use when working with closed loop community playbook."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

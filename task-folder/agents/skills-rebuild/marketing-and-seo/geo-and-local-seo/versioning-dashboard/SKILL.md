@@ -1,6 +1,6 @@
 ---
 name: "versioning-dashboard"
-description: "Dashboard pattern for tracking doc coverage across product versions,. Use when working with versioning dashboard or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Dashboard pattern for tracking doc coverage across product versions,. Use when working with versioning dashboard."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

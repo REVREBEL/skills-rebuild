@@ -1,6 +1,6 @@
 ---
 name: "cohort-analysis"
-description: "Standard method for slicing bookings, pipeline, and retention cohorts. Use when working with cohort analysis or related tasks in marketing-and-seo/cro."
+description: "Standard method for slicing bookings, pipeline, and retention cohorts. Use when working with cohort analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

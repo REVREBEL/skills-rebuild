@@ -1,6 +1,6 @@
 ---
 name: "pricing-strategy"
-description: "Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives. Use when working with pricing strategy or related tasks in business-and-operations/startup-finance."
+description: "Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives. Use when working with pricing strategy."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

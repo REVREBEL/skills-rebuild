@@ -1,6 +1,6 @@
 ---
 name: "mermaid-expert"
-description: "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling. Use when working with mermaid expert or related tasks in design-and-experience/ui-ux."
+description: "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling. Use when working with mermaid expert."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "error-detective"
-description: "Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes. Use when working with error detective or related tasks in marketing-and-seo/cro."
+description: "Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes. Use when working with error detective."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

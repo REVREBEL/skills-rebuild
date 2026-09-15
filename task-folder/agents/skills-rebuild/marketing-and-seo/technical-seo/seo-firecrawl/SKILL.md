@@ -1,6 +1,6 @@
 ---
 name: "seo-firecrawl"
-description: "Execute seo-firecrawl tasks, workflows, and automated procedures. Use when working with seo firecrawl or related tasks in marketing-and-seo/technical-seo."
+description: "Execute seo-firecrawl tasks, workflows, and automated procedures. Use when working with seo firecrawl."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

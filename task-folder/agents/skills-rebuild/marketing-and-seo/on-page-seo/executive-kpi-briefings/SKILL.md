@@ -1,6 +1,6 @@
 ---
 name: "executive-kpi-briefings"
-description: "Template pack for summarizing BI insights for ELT/board stakeholders. Use when working with executive kpi briefings or related tasks in marketing-and-seo/on-page-seo."
+description: "Template pack for summarizing BI insights for ELT/board stakeholders. Use when working with executive kpi briefings."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

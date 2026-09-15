@@ -1,6 +1,6 @@
 ---
 name: "employment-contract-templates"
-description: "Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR policies. Use when working with employment contract templates or related tasks in business-and-operations/legal-and-governance."
+description: "Standard employment agreements, offer letters, and contractor governance templates. Use when drafting employment agreements, IP assignment terms, or workforce contracts."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "analytics-integration"
-description: "Implement GA4, Meta Pixel, and server-side tagging with a proper data layer so you capture accurate conversion events for ad campaigns. Use when working with analytics integration or related tasks in marketing-and-seo/geo-and-local-seo."
+description: "Implement GA4, Meta Pixel, and server-side tagging with a proper data layer so you capture accurate conversion events for ad campaigns. Use when working with analytics integration."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

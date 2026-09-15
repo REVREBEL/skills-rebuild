@@ -1,6 +1,6 @@
 ---
 name: "ui-setup"
-description: "Interactive setup wizard — guides you step-by-step to configure the design system for your project. Use when working with ui setup or related tasks in design-and-experience/design-systems."
+description: "Interactive setup wizard — guides you step-by-step to configure the design system for your project. Use when working with ui setup."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

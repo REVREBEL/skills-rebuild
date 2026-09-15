@@ -1,6 +1,6 @@
 ---
 name: "executive-ebr-kit"
-description: "Template pack for executive business reviews with outcomes, risks, and. Use when working with executive ebr kit or related tasks in marketing-and-seo/on-page-seo."
+description: "Template pack for executive business reviews with outcomes, risks, and. Use when working with executive ebr kit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

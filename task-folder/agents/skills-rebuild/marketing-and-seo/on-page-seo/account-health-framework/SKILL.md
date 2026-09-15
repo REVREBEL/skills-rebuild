@@ -1,6 +1,6 @@
 ---
 name: "account-health-framework"
-description: "Use to score accounts, flag risks, and standardize remediation triggers. Use when working with account health framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to score accounts, flag risks, and standardize remediation triggers. Use when working with account health framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "runapi-cli"
-description: "Generate AI images, videos, and music/audio from agents using the RunAPI CLI. Use when working with runapi cli or related tasks in development/backend."
+description: "Generate AI images, videos, and music/audio from agents using the RunAPI CLI. Use when working with runapi cli."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

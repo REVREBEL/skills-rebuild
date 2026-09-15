@@ -1,6 +1,6 @@
 ---
 name: "google-shopping-feed"
-description: "Generate and optimize a product feed for Google Merchant Center so your products appear in Google Shopping ads with correct attributes. Use when working with google shopping feed or related tasks in development/backend."
+description: "Generate and optimize a product feed for Google Merchant Center so your products appear in Google Shopping ads with correct attributes. Use when working with google shopping feed."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

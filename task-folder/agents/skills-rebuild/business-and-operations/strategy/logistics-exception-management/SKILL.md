@@ -1,6 +1,6 @@
 ---
 name: "logistics-exception-management"
-description: "Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ years operational experience. Use when working with logistics exception management or related tasks in business-and-operations/strategy."
+description: "Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ years operational experience. Use when working with logistics exception management."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

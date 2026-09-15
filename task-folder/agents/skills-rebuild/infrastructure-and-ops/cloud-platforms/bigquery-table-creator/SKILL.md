@@ -1,6 +1,6 @@
 ---
 name: "bigquery-table-creator"
-description: "Execute bigquery-table-creator tasks, workflows, and automated procedures. Use when working with bigquery table creator or related tasks in infrastructure-and-ops/cloud-platforms."
+description: "Execute bigquery-table-creator tasks, workflows, and automated procedures. Use when working with bigquery table creator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "n8n-code-python"
-description: "Write, debug, and optimize Python transformations in n8n 2.x native Python Code nodes using _items and _item data structures, handling Cloud sandbox constraints and self-hosted runner environments when processing workflow datasets. Use when working with n8n code python or related tasks in workflow-and-automation/tool-integration."
+description: "Write, debug, and optimize Python transformations in n8n 2.x native Python Code nodes using _items and _item data structures, handling Cloud sandbox constraints and self-hosted runner environments when processing workflow datasets. Use when working with n8n code python."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

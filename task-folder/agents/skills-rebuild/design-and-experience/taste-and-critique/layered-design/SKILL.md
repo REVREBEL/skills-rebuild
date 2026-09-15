@@ -1,6 +1,6 @@
 ---
 name: "layered-design"
-description: "Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content. Use when working with layered design or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content. Use when working with layered design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

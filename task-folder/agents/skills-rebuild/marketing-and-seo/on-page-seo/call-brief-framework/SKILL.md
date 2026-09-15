@@ -1,6 +1,6 @@
 ---
 name: "call-brief-framework"
-description: "Use to structure concise call briefs with objectives, agendas, and role. Use when working with call brief framework or related tasks in marketing-and-seo/on-page-seo."
+description: "Use to structure concise call briefs with objectives, agendas, and role. Use when working with call brief framework."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

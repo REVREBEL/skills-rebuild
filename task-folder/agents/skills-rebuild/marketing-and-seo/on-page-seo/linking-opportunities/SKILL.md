@@ -1,6 +1,6 @@
 ---
 name: "linking-opportunities"
-description: "Find contextual backlink opportunities on a specific prospect site using SERPs (site: queries), then propose concrete outreach angles + anchors. Use when working with linking opportunities or related tasks in marketing-and-seo/on-page-seo."
+description: "Find contextual backlink opportunities on a specific prospect site using SERPs (site: queries), then propose concrete outreach angles + anchors. Use when working with linking opportunities."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

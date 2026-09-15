@@ -1,6 +1,6 @@
 ---
 name: "seek-and-analyze-video"
-description: "Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence. Use when working with seek and analyze video or related tasks in development/fullstack."
+description: "Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence. Use when working with seek and analyze video."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "codebase-cleanup-deps-audit"
-description: "You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies. Use when working with codebase cleanup deps audit or related tasks in quality-and-security/security."
+description: "You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies. Use when working with codebase cleanup deps audit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

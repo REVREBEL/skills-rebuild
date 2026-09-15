@@ -1,6 +1,6 @@
 ---
 name: "improve-codebase-architecture"
-description: "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick. Use when working with improve codebase architecture or related tasks in development/software-architecture."
+description: "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick. Use when working with improve codebase architecture."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

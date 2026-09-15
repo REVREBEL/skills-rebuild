@@ -1,6 +1,6 @@
 ---
 name: "alex"
-description: "Turns requirements into a precise, dependency-aware implementation plan. Use when working with alex or related tasks in development/fullstack."
+description: "Turns requirements into a precise, dependency-aware implementation plan. Use when working with alex."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

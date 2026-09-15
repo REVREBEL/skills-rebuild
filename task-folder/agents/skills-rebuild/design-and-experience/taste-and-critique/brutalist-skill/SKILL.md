@@ -1,6 +1,6 @@
 ---
 name: "brutalist-skill"
-description: "Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints. Use when working with brutalist skill or related tasks in design-and-experience/taste-and-critique."
+description: "Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints. Use when working with brutalist skill."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

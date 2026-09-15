@@ -1,6 +1,6 @@
 ---
 name: "linkedin-content-generator"
-description: "AI-powered LinkedIn content suite: generate posts, carousels, newsletters, and 30-day calendars with niche-specific SEO rules and a reinforcement-learning personal memory system. Use when working with linkedin content generator or related tasks in marketing-and-seo/content-and-campaigns."
+description: "AI-powered LinkedIn content suite: generate posts, carousels, newsletters, and 30-day calendars with niche-specific SEO rules and a reinforcement-learning personal memory system. Use when working with linkedin content generator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "returns-reverse-logistics"
-description: "Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management. Use when working with returns reverse logistics or related tasks in business-and-operations/strategy."
+description: "Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management. Use when working with returns reverse logistics."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

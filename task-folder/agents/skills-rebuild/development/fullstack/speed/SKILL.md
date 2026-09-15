@@ -1,6 +1,6 @@
 ---
 name: "speed"
-description: "Launch RSVP speed reader for text. Use when working with speed or related tasks in development/fullstack."
+description: "Launch RSVP speed reader for text. Use when working with speed."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

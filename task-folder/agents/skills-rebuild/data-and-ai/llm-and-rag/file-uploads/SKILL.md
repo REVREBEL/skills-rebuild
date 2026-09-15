@@ -1,6 +1,6 @@
 ---
 name: "file-uploads"
-description: "Expert at handling file uploads and cloud storage. Covers S3,. Use when working with file uploads or related tasks in data-and-ai/llm-and-rag."
+description: "Expert at handling file uploads and cloud storage. Covers S3,. Use when working with file uploads."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

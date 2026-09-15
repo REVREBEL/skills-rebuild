@@ -1,6 +1,6 @@
 ---
 name: "editorial-design"
-description: "Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. Use when working with editorial design or related tasks in design-and-experience/taste-and-critique."
+description: "Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. Use when working with editorial design."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"
