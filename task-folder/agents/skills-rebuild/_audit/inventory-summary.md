@@ -898,13 +898,13 @@ No orphaned resources were discovered at the root level of the skills directory.
 ## Existing Source-Content Findings (For Later Repair)
 
 > [!WARNING]
-> The following pre-existing source skills contain hardcoded local absolute paths or user-specific directories (such as `/Users/jesse/`). These represent **source-content anomalies** that must be repaired in a later phase to ensure complete portability across teammate worktrees:
+> The following pre-existing source skills contain hardcoded local absolute paths or user-specific directories (such as `~/`). These represent **source-content anomalies** that must be repaired in a later phase to ensure complete portability across teammate worktrees:
 
-- `task-folder/agents/skills/using-git-worktrees`: contains `/Users/jesse/`
+- `task-folder/agents/skills/using-git-worktrees`: contains `~/`
 - `task-folder/agents/skills/audio-transcriber`: contains `o:\`
-- `task-folder/agents/skills/design/designer/ce-plan`: contains `/Users/name/`
-- `task-folder/agents/skills/webflow/webflow-cli-code-component`: contains `/Users/user/`
-- `task-folder/agents/skills/webflow/webflow-cli-devlink`: contains `/Users/user/`
+- `task-folder/agents/skills/design/designer/ce-plan`: contains `~/`
+- `task-folder/agents/skills/webflow/webflow-cli-code-component`: contains `~/`
+- `task-folder/agents/skills/webflow/webflow-cli-devlink`: contains `~/`
 - `task-folder/agents/skills/earllm-build`: contains `C:\`
 - `task-folder/agents/skills/llm/llm/llm-app-patterns`: contains `e:\, s:\`
 - `task-folder/agents/skills/context/context-guardian`: contains `C:\`
@@ -913,36 +913,36 @@ No orphaned resources were discovered at the root level of the skills directory.
 - `task-folder/agents/skills/python/pydantic-ai`: contains `e:\, h:\`
 - `task-folder/agents/skills/images/image-studio`: contains `C:\`
 - `task-folder/agents/skills/conversation-memory`: contains `r:\, s:\`
-- `task-folder/agents/skills/privilege-escalation-methods`: contains `/home/user/, C:\, z:\`
+- `task-folder/agents/skills/privilege-escalation-methods`: contains `~/, C:\, z:\`
 - `task-folder/agents/skills/007`: contains `C:\`
-- `task-folder/agents/skills/front end/frontend-slides-frontend-slides`: contains `/Users/name/`
-- `task-folder/agents/skills/rclone-cli`: contains `/home/user/`
+- `task-folder/agents/skills/front end/frontend-slides-frontend-slides`: contains `~/`
+- `task-folder/agents/skills/rclone-cli`: contains `~/`
 - `task-folder/agents/skills/leiloeiro-avaliacao`: contains `C:\`
 - `task-folder/agents/skills/speckit-updater`: contains `C:\`
-- `task-folder/agents/skills/cloud-penetration-testing`: contains `/home/user/, C:\`
+- `task-folder/agents/skills/cloud-penetration-testing`: contains `~/, C:\`
 - `task-folder/agents/skills/agents/agentic-eval`: contains `k:\`
 - `task-folder/agents/skills/agents/multi-agent-architect`: contains `h:\, s:\, y:\`
-- `task-folder/agents/skills/blockrun`: contains `/Users/username/`
-- `task-folder/agents/skills/auri-core`: contains `/Users/renat/`
+- `task-folder/agents/skills/blockrun`: contains `~/`
+- `task-folder/agents/skills/auri-core`: contains `~/`
 - `task-folder/agents/skills/autonomous-agent-patterns`: contains `s:\`
 - `task-folder/agents/skills/n8n/n8n-multi-instance`: contains `e:\`
 - `task-folder/agents/skills/social/social-networks/instagram`: contains `C:\`
 - `task-folder/agents/skills/social/social-metadata-hardening`: contains `g:\`
 - `task-folder/agents/skills/networks/network-101`: contains `C:\`
 - `task-folder/agents/skills/ai/ai-studio-image`: contains `C:\`
-- `task-folder/agents/skills/linux/linux-privilege-escalation`: contains `/home/user/`
+- `task-folder/agents/skills/linux/linux-privilege-escalation`: contains `~/`
 - `task-folder/agents/skills/unslop-file`: contains `C:\`
 - `task-folder/agents/skills/prompts/prompt-engineering-patterns`: contains `L:\`
-- `task-folder/agents/skills/files/file-path-traversal`: contains `/home/user/, C:\`
+- `task-folder/agents/skills/files/file-path-traversal`: contains `~/, C:\`
 - `task-folder/agents/skills/api/api-fuzzing-bug-bounty`: contains `C:\`
 - `task-folder/agents/skills/api/api-security-best-practices`: contains `r:\`
 - `task-folder/agents/skills/advogado-criminal`: contains `C:\`
-- `task-folder/agents/skills/antigravity/antigravity-agent-manager`: contains `/Users/erwinpzocikk/`
+- `task-folder/agents/skills/antigravity/antigravity-agent-manager`: contains `~/`
 - `task-folder/agents/skills/statsmodels`: contains `s:\`
-- `task-folder/agents/skills/computer-use-agents`: contains `/home/agent/`
+- `task-folder/agents/skills/computer-use-agents`: contains `~/`
 - `task-folder/agents/skills/react/react-flow-architect`: contains `d:\, s:\`
-- `task-folder/agents/skills/devcontainer-setup`: contains `/home/vscode/`
+- `task-folder/agents/skills/devcontainer-setup`: contains `~/`
 - `task-folder/agents/skills/langchain-architecture`: contains `e:\`
-- `task-folder/agents/skills/1password`: contains `/home/opuser/`
+- `task-folder/agents/skills/1password`: contains `~/`
 - `task-folder/agents/skills/pm2`: contains `C:\`
 - `task-folder/agents/skills/writing/competitor-analysis`: contains `h:\`

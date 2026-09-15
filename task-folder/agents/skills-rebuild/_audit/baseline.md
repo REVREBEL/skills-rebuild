@@ -28,10 +28,10 @@ Below is the mapping between logical task paths and their absolute, verified loc
 
 | Logical Path | Physical Path | Verification Status | Purpose |
 | :--- | :--- | :--- | :--- |
-| `agents/skills` | `/Users/garystringham/github-revrebel/skills-rebuild/task-folder/agents/skills` | **Verified** | Original source library containing skills to process. |
-| `agents/not-needed` | `/Users/garystringham/github-revrebel/skills-rebuild/task-folder/agents/not-needed` | **Verified** | Quarantine library for retired/unsupported skills. |
-| `agents/skills-rebuild` | `/Users/garystringham/github-revrebel/skills-rebuild/task-folder/agents/skills-rebuild` | **Verified** | Rebuilt library for active, canonical functional skills. |
-| `.agents/skills` | `/Users/garystringham/github-revrebel/skills-rebuild/.agents/skills` | **Verified** | Canonical task workflow library discoverable by runtime. |
+| `agents/skills` | `~/github-revrebel/skills-rebuild/task-folder/agents/skills` | **Verified** | Original source library containing skills to process. |
+| `agents/not-needed` | `~/github-revrebel/skills-rebuild/task-folder/agents/not-needed` | **Verified** | Quarantine library for retired/unsupported skills. |
+| `agents/skills-rebuild` | `~/github-revrebel/skills-rebuild/task-folder/agents/skills-rebuild` | **Verified** | Rebuilt library for active, canonical functional skills. |
+| `.agents/skills` | `~/github-revrebel/skills-rebuild/.agents/skills` | **Verified** | Canonical task workflow library discoverable by runtime. |
 
 ---
 

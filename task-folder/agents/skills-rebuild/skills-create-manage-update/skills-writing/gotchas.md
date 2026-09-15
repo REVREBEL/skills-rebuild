@@ -169,7 +169,7 @@ See [my-skill] for details.
 
 ```markdown
 # ❌ BAD: File path (fragile)
-See /home/user/.config/opencode/skills/my-skill/SKILL.md
+See ~/.config/opencode/skills/my-skill/SKILL.md
 
 # ✅ GOOD: Skill protocol
 See my-skill

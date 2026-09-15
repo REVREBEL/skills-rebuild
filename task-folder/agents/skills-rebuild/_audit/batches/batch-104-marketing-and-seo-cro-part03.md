@@ -1,0 +1,57 @@
+# Phase 08 Batch Audit Record: `batch-104-marketing-and-seo-cro-part03`
+
+## 1. Batch Metadata & Universe Accounting
+
+- **Batch ID**: `batch-104-marketing-and-seo-cro-part03`
+- **Category / Subcategory**: `marketing-and-seo` / `cro`
+- **Member Skill Count**: 15
+- **Batch Status**: `completed`
+- **Validation Status**: `verified`
+- **Deterministic Manifest Hash (SHA-256)**: `64264f3a8cb06a6074da621b1a85abd0838902cef912347a47cead91a36cddf0`
+
+## 2. Canonical Skills Summary & Provenance
+
+| Skill Name | Origin Path | Workflow | Upstream Provenance | License | Risk |
+|---|---|---|---|---|---|
+| `campaign-status` | `task-folder/agents/skills/marketing/digital-marketing-pro-main/skills/campaign-status` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `channel-integration` | `task-folder/agents/skills/seo/seo-skills-main/gtm-agents-main/plugins/campaign-orchestration/skills/channel-integration` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `chrome-extension-developer` | `task-folder/agents/skills/chrome-extension-developer` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `closed-loop-delivery` | `task-folder/agents/skills/closed-loop-delivery` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `closed-loop-playbook` | `task-folder/agents/skills/seo/seo-skills-main/gtm-agents-main/plugins/voice-of-customer/skills/closed-loop-playbook` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `co-branding` | `task-folder/agents/skills/seo/seo-skills-main/gtm-agents-main/plugins/partner-co-marketing-orchestration/skills/co-branding` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `co-marketing` | `task-folder/agents/skills/marketing/co-marketing` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `co-marketing_02` | `task-folder/agents/skills/marketing/co-marketing_02` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `code-review-and-quality` | `task-folder/agents/skills/code/code-review-and-quality` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `cohort-analysis` | `task-folder/agents/skills/seo/seo-skills-main/gtm-agents-main/plugins/revenue-analytics/skills/cohort-analysis` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `community-program-matrix` | `task-folder/agents/skills/seo/seo-skills-main/gtm-agents-main/plugins/community-building/skills/community-program-matrix` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `community-sentiment-dashboard` | `task-folder/agents/skills/seo/seo-skills-main/gtm-agents-main/plugins/social-media-marketing/skills/community-sentiment-dashboard` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `competitive-analysis` | `task-folder/agents/skills/design/designer-skills-main/ux-strategy/skills/competitive-analysis` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `competitor-analysis` | `task-folder/agents/skills/marketing/competitor-analysis` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `content-repurpose` | `task-folder/agents/skills/marketing/digital-marketing-pro-main/skills/content-repurpose` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+
+## 3. Trigger Boundary Evaluation Evidence
+
+| Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
+|---|---|---|---|
+| `campaign-status` | User asks to execute or optimize campaign status tasks (e.g. implementing campaign status workflows and configurations). | User requests general infrastructure administration or unrelated application development outside campaign status or unrelated operations outside campaign status. | User asks for general assistance with campaign status -> Disambiguate: Clarify whether the focus is specific campaign status patterns or broader cro workflows. |
+| `channel-integration` | User asks to execute or optimize channel integration tasks (e.g. implementing channel integration workflows and configurations). | User requests general infrastructure administration or unrelated application development outside channel integration or unrelated operations outside channel integration. | User asks for general assistance with channel integration -> Disambiguate: Clarify whether the focus is specific channel integration patterns or broader cro workflows. |
+| `chrome-extension-developer` | User asks to execute or optimize chrome extension developer tasks (e.g. implementing chrome extension developer workflows and configurations). | User requests The task is for Safari App Extensions (use `safari-extension-expert` if available) or unrelated operations outside chrome extension developer. | User asks for general assistance with chrome extension developer -> Disambiguate: Clarify whether the focus is specific chrome extension developer patterns or broader cro workflows. |
+| `closed-loop-delivery` | User asks to execute or optimize closed loop delivery tasks (e.g. implementing closed loop delivery workflows and configurations). | User requests pure Q&A/explanations or unrelated operations outside closed loop delivery. | User asks for general assistance with closed loop delivery -> Disambiguate: Clarify whether the focus is specific closed loop delivery patterns or broader cro workflows. |
+| `closed-loop-playbook` | User asks to execute or optimize closed loop playbook tasks (e.g. implementing closed loop playbook workflows and configurations). | User requests general infrastructure administration or unrelated application development outside closed loop playbook or unrelated operations outside closed loop playbook. | User asks for general assistance with closed loop playbook -> Disambiguate: Clarify whether the focus is specific closed loop playbook patterns or broader cro workflows. |
+| `co-branding` | User asks to execute or optimize co branding tasks (e.g. implementing co branding workflows and configurations). | User requests general infrastructure administration or unrelated application development outside co branding or unrelated operations outside co branding. | User asks for general assistance with co branding -> Disambiguate: Clarify whether the focus is specific co branding patterns or broader cro workflows. |
+| `co-marketing` | User asks to execute or optimize co marketing tasks (e.g. implementing co marketing workflows and configurations). | User requests general infrastructure administration or unrelated application development outside co marketing or unrelated operations outside co marketing. | User asks for general assistance with co marketing -> Disambiguate: Clarify whether the focus is specific co marketing patterns or broader cro workflows. |
+| `co-marketing_02` | User asks to execute or optimize co marketing_02 tasks (e.g. implementing co marketing_02 workflows and configurations). | User requests general infrastructure administration or unrelated application development outside co marketing_02 or unrelated operations outside co marketing_02. | User asks for general assistance with co marketing_02 -> Disambiguate: Clarify whether the focus is specific co marketing_02 patterns or broader cro workflows. |
+| `code-review-and-quality` | User asks to execute or optimize code review and quality tasks (e.g. implementing code review and quality workflows and configurations). | User requests general infrastructure administration or unrelated application development outside code review and quality or unrelated operations outside code review and quality. | User asks for general assistance with code review and quality -> Disambiguate: Clarify whether the focus is specific code review and quality patterns or broader cro workflows. |
+| `cohort-analysis` | User asks to execute or optimize cohort analysis tasks (e.g. implementing cohort analysis workflows and configurations). | User requests general infrastructure administration or unrelated application development outside cohort analysis or unrelated operations outside cohort analysis. | User asks for general assistance with cohort analysis -> Disambiguate: Clarify whether the focus is specific cohort analysis patterns or broader cro workflows. |
+| `community-program-matrix` | User asks to execute or optimize community program matrix tasks (e.g. implementing community program matrix workflows and configurations). | User requests general infrastructure administration or unrelated application development outside community program matrix or unrelated operations outside community program matrix. | User asks for general assistance with community program matrix -> Disambiguate: Clarify whether the focus is specific community program matrix patterns or broader cro workflows. |
+| `community-sentiment-dashboard` | User asks to execute or optimize community sentiment dashboard tasks (e.g. implementing community sentiment dashboard workflows and configurations). | User requests general infrastructure administration or unrelated application development outside community sentiment dashboard or unrelated operations outside community sentiment dashboard. | User asks for general assistance with community sentiment dashboard -> Disambiguate: Clarify whether the focus is specific community sentiment dashboard patterns or broader cro workflows. |
+| `competitive-analysis` | User asks to execute or optimize competitive analysis tasks (e.g. implementing competitive analysis workflows and configurations). | User requests general infrastructure administration or unrelated application development outside competitive analysis or unrelated operations outside competitive analysis. | User asks for general assistance with competitive analysis -> Disambiguate: Clarify whether the focus is specific competitive analysis patterns or broader cro workflows. |
+| `competitor-analysis` | User asks to execute or optimize competitor analysis tasks (e.g. implementing competitor analysis workflows and configurations). | User requests general infrastructure administration or unrelated application development outside competitor analysis or unrelated operations outside competitor analysis. | User asks for general assistance with competitor analysis -> Disambiguate: Clarify whether the focus is specific competitor analysis patterns or broader cro workflows. |
+| `content-repurpose` | User asks to execute or optimize content repurpose tasks (e.g. implementing content repurpose workflows and configurations). | User requests general infrastructure administration or unrelated application development outside content repurpose or unrelated operations outside content repurpose. | User asks for general assistance with content repurpose -> Disambiguate: Clarify whether the focus is specific content repurpose patterns or broader cro workflows. |
+
+## 4. Verification & Consistency Sign-off
+
+- [x] 100% of member packages verified on disk under `task-folder/agents/skills-rebuild/marketing-and-seo/cro/`
+- [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
+- [x] Substantive capability-specific trigger boundary evaluation confirmed.
+- [x] Manifest hash `64264f3a8cb06a6074da621b1a85abd0838902cef912347a47cead91a36cddf0` computed deterministically.

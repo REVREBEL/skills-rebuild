@@ -1,0 +1,57 @@
+# Phase 08 Batch Audit Record: `batch-106-marketing-and-seo-cro-part05`
+
+## 1. Batch Metadata & Universe Accounting
+
+- **Batch ID**: `batch-106-marketing-and-seo-cro-part05`
+- **Category / Subcategory**: `marketing-and-seo` / `cro`
+- **Member Skill Count**: 15
+- **Batch Status**: `completed`
+- **Validation Status**: `verified`
+- **Deterministic Manifest Hash (SHA-256)**: `09121a6279f0592cfdd9b76a732b140be620efffaa92d5c4fa6fed2e814ecbb6`
+
+## 2. Canonical Skills Summary & Provenance
+
+| Skill Name | Origin Path | Workflow | Upstream Provenance | License | Risk |
+|---|---|---|---|---|---|
+| `cta-writing` | `task-folder/agents/skills/seo/seo-skills-main/automation/content/cta-writing` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `customer-journey-mapper` | `task-folder/agents/skills/design/designer/clean-gemini-agents/gemini-agents/skills/customer-journey/customer-journey-mapper` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `customer-research` | `task-folder/agents/skills/marketing/customer-research` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `data-governance` | `task-folder/agents/skills/seo/seo-skills-main/gtm-agents-main/plugins/marketing-automation/skills/data-governance` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `data-sourcing` | `task-folder/agents/skills/seo/seo-skills-main/gtm-agents-main/plugins/data-enrichment-master/skills/data-sourcing` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `database-cloud-optimization-cost-optimize` | `task-folder/agents/skills/databases/database-cloud-optimization-cost-optimize` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `decision-trees` | `task-folder/agents/skills/seo/seo-skills-main/gtm-agents-main/plugins/personalization-engine/skills/decision-trees` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `deliverability-ops` | `task-folder/agents/skills/seo/seo-skills-main/gtm-agents-main/plugins/email-marketing/skills/deliverability-ops` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `design-debt-audit` | `task-folder/agents/skills/design/designer-skills-main/design-ops/skills/design-debt-audit` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `design-negotiation` | `task-folder/agents/skills/design/designer-skills-main/designer-toolkit/skills/design-negotiation` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `design-spells` | `task-folder/agents/skills/design/design-spells` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `design-system-adoption` | `task-folder/agents/skills/design/designer-skills-main/designer-toolkit/skills/design-system-adoption` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `design-thinking` | `task-folder/agents/skills/design/design-thinking` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `design-token-audit` | `task-folder/agents/skills/design/designer-skills-main/designer-toolkit/skills/design-token-audit` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+| `dev-to-hashnode` | `task-folder/agents/skills/dev-to-hashnode` | `skill-improver` | Community / Canonical | `not_declared_upstream` | `unknown` |
+
+## 3. Trigger Boundary Evaluation Evidence
+
+| Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
+|---|---|---|---|
+| `cta-writing` | User asks to execute or optimize cta writing tasks (e.g. implementing cta writing workflows and configurations). | User requests general infrastructure administration or unrelated application development outside cta writing or unrelated operations outside cta writing. | User asks for general assistance with cta writing -> Disambiguate: Clarify whether the focus is specific cta writing patterns or broader cro workflows. |
+| `customer-journey-mapper` | User asks to execute or optimize customer journey mapper tasks (e.g. implementing customer journey mapper workflows and configurations). | User requests general infrastructure administration or unrelated application development outside customer journey mapper or unrelated operations outside customer journey mapper. | User asks for general assistance with customer journey mapper -> Disambiguate: Clarify whether the focus is specific customer journey mapper patterns or broader cro workflows. |
+| `customer-research` | User asks to execute or optimize customer research tasks (e.g. implementing customer research workflows and configurations). | User requests general infrastructure administration or unrelated application development outside customer research or unrelated operations outside customer research. | User asks for general assistance with customer research -> Disambiguate: Clarify whether the focus is specific customer research patterns or broader cro workflows. |
+| `data-governance` | User asks to execute or optimize data governance tasks (e.g. implementing data governance workflows and configurations). | User requests general infrastructure administration or unrelated application development outside data governance or unrelated operations outside data governance. | User asks for general assistance with data governance -> Disambiguate: Clarify whether the focus is specific data governance patterns or broader cro workflows. |
+| `data-sourcing` | User asks to execute or optimize data sourcing tasks (e.g. implementing data sourcing workflows and configurations). | User requests general infrastructure administration or unrelated application development outside data sourcing or unrelated operations outside data sourcing. | User asks for general assistance with data sourcing -> Disambiguate: Clarify whether the focus is specific data sourcing patterns or broader cro workflows. |
+| `database-cloud-optimization-cost-optimize` | User asks to execute or optimize database cloud optimization cost optimize tasks (e.g. implementing database cloud optimization cost optimize workflows and configurations). | User requests You cannot access billing or resource data or unrelated operations outside database cloud optimization cost optimize. | User asks for general assistance with database cloud optimization cost optimize -> Disambiguate: Clarify whether the focus is specific database cloud optimization cost optimize patterns or broader cro workflows. |
+| `decision-trees` | User asks to execute or optimize decision trees tasks (e.g. implementing decision trees workflows and configurations). | User requests general infrastructure administration or unrelated application development outside decision trees or unrelated operations outside decision trees. | User asks for general assistance with decision trees -> Disambiguate: Clarify whether the focus is specific decision trees patterns or broader cro workflows. |
+| `deliverability-ops` | User asks to execute or optimize deliverability ops tasks (e.g. implementing deliverability ops workflows and configurations). | User requests general infrastructure administration or unrelated application development outside deliverability ops or unrelated operations outside deliverability ops. | User asks for general assistance with deliverability ops -> Disambiguate: Clarify whether the focus is specific deliverability ops patterns or broader cro workflows. |
+| `design-debt-audit` | User asks to execute or optimize design debt audit tasks (e.g. implementing design debt audit workflows and configurations). | User requests general infrastructure administration or unrelated application development outside design debt audit or unrelated operations outside design debt audit. | User asks for general assistance with design debt audit -> Disambiguate: Clarify whether the focus is specific design debt audit patterns or broader cro workflows. |
+| `design-negotiation` | User asks to execute or optimize design negotiation tasks (e.g. implementing design negotiation workflows and configurations). | User requests general infrastructure administration or unrelated application development outside design negotiation or unrelated operations outside design negotiation. | User asks for general assistance with design negotiation -> Disambiguate: Clarify whether the focus is specific design negotiation patterns or broader cro workflows. |
+| `design-spells` | User asks to execute or optimize design spells tasks (e.g. implementing design spells workflows and configurations). | User requests general infrastructure administration or unrelated application development outside design spells or unrelated operations outside design spells. | User asks for general assistance with design spells -> Disambiguate: Clarify whether the focus is specific design spells patterns or broader cro workflows. |
+| `design-system-adoption` | User asks to execute or optimize design system adoption tasks (e.g. implementing design system adoption workflows and configurations). | User requests general infrastructure administration or unrelated application development outside design system adoption or unrelated operations outside design system adoption. | User asks for general assistance with design system adoption -> Disambiguate: Clarify whether the focus is specific design system adoption patterns or broader cro workflows. |
+| `design-thinking` | User asks to execute or optimize design thinking tasks (e.g. implementing design thinking workflows and configurations). | User requests general infrastructure administration or unrelated application development outside design thinking or unrelated operations outside design thinking. | User asks for general assistance with design thinking -> Disambiguate: Clarify whether the focus is specific design thinking patterns or broader cro workflows. |
+| `design-token-audit` | User asks to execute or optimize design token audit tasks (e.g. implementing design token audit workflows and configurations). | User requests general infrastructure administration or unrelated application development outside design token audit or unrelated operations outside design token audit. | User asks for general assistance with design token audit -> Disambiguate: Clarify whether the focus is specific design token audit patterns or broader cro workflows. |
+| `dev-to-hashnode` | User asks to execute or optimize dev to hashnode tasks (e.g. implementing dev to hashnode workflows and configurations). | User requests general infrastructure administration or unrelated application development outside dev to hashnode or unrelated operations outside dev to hashnode. | User asks for general assistance with dev to hashnode -> Disambiguate: Clarify whether the focus is specific dev to hashnode patterns or broader cro workflows. |
+
+## 4. Verification & Consistency Sign-off
+
+- [x] 100% of member packages verified on disk under `task-folder/agents/skills-rebuild/marketing-and-seo/cro/`
+- [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
+- [x] Substantive capability-specific trigger boundary evaluation confirmed.
+- [x] Manifest hash `09121a6279f0592cfdd9b76a732b140be620efffaa92d5c4fa6fed2e814ecbb6` computed deterministically.

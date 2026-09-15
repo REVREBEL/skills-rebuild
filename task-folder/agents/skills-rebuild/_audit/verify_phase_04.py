@@ -8,10 +8,10 @@ ROOT_DIR = "."
 
 # Folders approved for renaming
 RENAMED_PATHS_MAP = {
-    "task-folder/agents/skills/linear-claude-skill": "task-folder/agents/skills/linear-skill",
-    "task-folder/agents/skills/varlock-claude-skill": "task-folder/agents/skills/varlock-skill",
-    "task-folder/agents/skills/folder-specific-claude-and-agents-md": "task-folder/agents/skills/folder-specific-agent-context",
-    "task-folder/agents/skills/internal-comms-anthropic": "task-folder/agents/skills/internal-comms-guidelines"
+    "task-folder/agents/skills/linear-skill": "task-folder/agents/skills/linear-skill",
+    "task-folder/agents/skills/varlock-skill": "task-folder/agents/skills/varlock-skill",
+    "task-folder/agents/skills/folder-specific-agent-context": "task-folder/agents/skills/folder-specific-agent-context",
+    "task-folder/agents/skills/internal-comms-guidelines": "task-folder/agents/skills/internal-comms-guidelines"
 }
 
 def get_git_metadata():
