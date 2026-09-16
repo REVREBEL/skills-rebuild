@@ -176,7 +176,7 @@ pip install package-name
 
 ## Advanced usage
 
-For complex scenarios, see [reference.md](reference.md).
+For complex scenarios, see `reference.md`.
 ```
 
 ### Step 7: Add supporting files (optional)
@@ -190,7 +190,7 @@ Create additional files for progressive disclosure:
 
 Reference them from SKILL.md:
 ```markdown
-For advanced usage, see [reference.md](reference.md).
+For advanced usage, see `reference.md`.
 
 Run the helper script:
 \`\`\`bash
@@ -307,9 +307,9 @@ description: Design REST APIs following best practices. Use when creating API en
 
 # API Designer
 
-Quick start: See [examples.md](examples.md)
+Quick start: See `examples.md`
 
-Detailed reference: See [reference.md](reference.md)
+Detailed reference: See `reference.md`
 
 ## Instructions
 
