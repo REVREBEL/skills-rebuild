@@ -55,3 +55,15 @@
 - [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
 - [x] Substantive capability-specific trigger boundary evaluation confirmed.
 - [x] Manifest hash `1bd2598928aed07a0a185dff81e1352c466fd1b5d8a7243238f1103518a2868d` computed deterministically.
+
+## 5. Resources Created or Moved
+
+- None
+
+## 6. Retired Paths
+
+- None
+
+## 7. Unresolved Items
+
+- None

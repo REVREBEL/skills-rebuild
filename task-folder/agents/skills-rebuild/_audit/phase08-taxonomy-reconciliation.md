@@ -82,28 +82,29 @@ All 2,103 canonical skills belong to exactly one approved subcategory within the
 | `workflow-and-automation` | `web-scraping` | 2 | 0.1% | Functional outcome in `workflow-and-automation/web-scraping` |
 | **TOTAL** | **44 Subcategories** | **2103** | **100.0%** | **Complete Canonical Active Universe** |
 
-## 4. Inherited Taxonomy Exceptions & Phase 10 Router Alignment Plan
+## 4. Inherited Taxonomy Exceptions & Approved Task 08 Cohesion Waiver
 
 Phase 08 strictly adheres to the architectural constitution: **map first, move later**. To preserve 100% deterministic lineage across the 160 batch commits, Phase 08 preserved the destination paths assigned during Phase 05. A subset of skills contains keyword-induced classification placements inherited from Phase 05 that span cross-cutting domains:
 
-| Skill Name | Phase 08 On-Disk Placement | True Functional Domain | Phase 10 Planned Router Alignment |
+| Skill Name | Phase 08 On-Disk Placement | True Functional Domain | Phase 10 Approved Taxonomy Router Target |
 |---|---|---|---|
-| `ai-native-cli` | `business-and-operations/legal-and-governance` | CLI design & agent interfaces | Route from `development/cli-and-terminal` & `meta-and-agent-skills` |
-| `pydantic-models-py` | `business-and-operations/legal-and-governance` | Python data modeling & validation | Route from `development/backend` & `packages-and-libraries` |
-| `blockchain-developer` | `business-and-operations/legal-and-governance` | Web3 & smart contract engineering | Route from `development/fullstack` & `backend` |
-| `frontend-data-contracts` | `business-and-operations/legal-and-governance` | TypeScript client-server data contracts | Route from `development/frontend` & `backend` |
-| `n8n-error-handling` | `business-and-operations/legal-and-governance` | Workflow error routing & automation | Route from `workflow-and-automation/task-orchestration` |
-| `options-flow-analyzer` | `business-and-operations/legal-and-governance` | Options market flow & volume analytics | Route from `business-and-operations/startup-finance` & `data-and-ai/analytics` |
-| `ddd-context-mapping` | `business-and-operations/legal-and-governance` | Domain-Driven Design architecture | Route from `development/software-architecture` |
-| `api-and-interface-design` | `business-and-operations/legal-and-governance` | OpenAPI contract design & schemas | Route from `development/software-architecture` & `backend` |
-| `data-quality-frameworks` | `business-and-operations/legal-and-governance` | Data validation & quality suites | Route from `data-and-ai/data-engineering` & `quality-and-security/testing` |
-| `aria` | `business-and-operations/legal-and-governance` | Autonomous multi-agent coordination | Route from `meta-and-agent-skills/agent-architecture` |
+| `ai-native-cli` | `business-and-operations/legal-and-governance` | CLI design & agent interfaces | `development/systems` & `meta-and-agent-skills/agent-architecture` |
+| `pydantic-models-py` | `business-and-operations/legal-and-governance` | Python data modeling & validation | `development/backend` |
+| `blockchain-developer` | `business-and-operations/legal-and-governance` | Web3 & smart contract engineering | `development/fullstack` & `development/backend` |
+| `frontend-data-contracts` | `business-and-operations/legal-and-governance` | TypeScript client-server data contracts | `development/frontend` & `development/backend` |
+| `n8n-error-handling` | `business-and-operations/legal-and-governance` | Workflow error routing & automation | `workflow-and-automation/task-orchestration` |
+| `options-flow-analyzer` | `business-and-operations/legal-and-governance` | Options market flow & volume analytics | `business-and-operations/startup-finance` & `data-and-ai/analytics` |
+| `ddd-context-mapping` | `business-and-operations/legal-and-governance` | Domain-Driven Design architecture | `development/software-architecture` |
+| `api-and-interface-design` | `business-and-operations/legal-and-governance` | OpenAPI contract design & schemas | `development/software-architecture` & `development/backend` |
+| `data-quality-frameworks` | `business-and-operations/legal-and-governance` | Data validation & quality suites | `data-and-ai/data-engineering` & `quality-and-security/testing` |
+| `aria` | `business-and-operations/legal-and-governance` | Autonomous multi-agent coordination | `meta-and-agent-skills/agent-architecture` |
 
-These items are formally cataloged as `inherited_taxonomy_exception` records. Their physical paths remain anchored to preserve Phase 05/06/07 audit integrity, while Phase 10 routers will expose them to their natural functional trigger queries.
+### Task 08 Batch Cohesion Waiver Note:
+> **Approved Waiver**: Batch 02 is recognized as an inherited mechanical batch from Phase 05 rather than a single-domain cohesive functional batch. Its 10 exception members are documented above. Their physical paths remain anchored under `business-and-operations/legal-and-governance` for audit lineage, while Phase 10 routers will provide functional dispatch to approved taxonomy nodes.
 
 ## 5. Cohesion & Placement Verification
 
 1. **Zero Unmapped Categories**: Every active skill is rooted in one of the 10 authorized categories.
 2. **Zero Orphaned Subcategories**: All 44 subcategories are populated with approved canonical skills.
-3. **Transparent Exception Tracking**: Cross-domain and keyword-induced historical placements are explicitly documented with formal Phase 10 routing targets.
+3. **Transparent Exception Tracking**: Cross-domain and keyword-induced historical placements are explicitly documented with approved Phase 10 taxonomy routing targets.
 4. **Stable Hierarchy for Phase 10**: Category and subcategory parentage is fully verified and locked prior to router generation in Phase 10.

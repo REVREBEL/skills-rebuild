@@ -8,7 +8,7 @@
 - **Batch Status**: `completed`
 - **Validation Status**: `verified`
 - **Deterministic Manifest Hash (SHA-256)**: `3fa77c40941210020fcb89e2c36d8d07042bd2c3e308e9fa399b33d9a42df04a`
-- **Inherited Taxonomy Exceptions**: 10 skills inherited from Phase 05 classifications (`ai-native-cli`, `pydantic-models-py`, `blockchain-developer`, etc.) preserved per 'map first, move later' principle for Phase 10 router realignments.
+- **Approved Task 08 Cohesion Waiver**: Batch 02 was grouped mechanically under `legal-and-governance` per inherited Phase 05 paths; 10 members are recognized as cross-domain exceptions rather than a cohesive single-domain batch. Physical paths are preserved to maintain Phase 05/06/07 audit lineage.
 
 ## 2. Canonical Skills Summary & Provenance
 
@@ -48,3 +48,15 @@
 - [x] Frontmatter validated with machine-verifiable `<what>. Use when <trigger>` pattern.
 - [x] Substantive capability-specific trigger boundary evaluation confirmed.
 - [x] Manifest hash `3fa77c40941210020fcb89e2c36d8d07042bd2c3e308e9fa399b33d9a42df04a` computed deterministically.
+
+## 5. Resources Created or Moved
+
+- None
+
+## 6. Retired Paths
+
+- None
+
+## 7. Unresolved Items
+
+- Approved Task 08 Cohesion Waiver: 10 cross-domain skills inherited from Phase 05 keyword placement (`ai-native-cli`, `pydantic-models-py`, `blockchain-developer`, etc.) cataloged as inherited taxonomy exceptions for Phase 10 router dispatch.

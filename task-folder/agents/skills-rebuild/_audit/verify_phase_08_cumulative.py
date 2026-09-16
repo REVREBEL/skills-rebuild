@@ -256,34 +256,44 @@ def run_cumulative_verification(base_dir=None):
         print(f"{PASS} Gate 05: Provenance & Attribution Metadata verified (source origin, risk classification, and upstream license status recorded across all 2,103 skills).")
 
     # -------------------------------------------------------------
-    # Gate 06: Resource Link Resolution
+    # Gate 06: Recursive Relative Markdown Link Resolution
     # -------------------------------------------------------------
     broken_links = []
     link_regex = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
+    total_md_files = 0
+    total_rel_links = 0
+    
     for r in reg_rows:
         dest = r.get("phase08_final_destination")
         if not dest:
             continue
-        skill_dir = os.path.join(base_dir, dest)
-        skill_file = os.path.join(skill_dir, "SKILL.md")
-        if not os.path.exists(skill_file):
+        pkg_dir = os.path.join(base_dir, dest)
+        if not os.path.exists(pkg_dir):
             continue
-        with open(skill_file, "r", encoding="utf-8", errors="replace") as f:
-            content = f.read()
-        for match in link_regex.finditer(content):
-            target = match.group(2).strip()
-            if target.startswith(("http://", "https://", "mailto:", "#")):
-                continue
-            target_path = target.split("#")[0]
-            if not target_path:
-                continue
-            resolved = os.path.normpath(os.path.join(skill_dir, target_path))
-            if not os.path.exists(resolved):
-                broken_links.append((dest, target))
+        for root, _, files in os.walk(pkg_dir):
+            for file in files:
+                if file.endswith(".md"):
+                    total_md_files += 1
+                    md_path = os.path.join(root, file)
+                    md_dir = root
+                    with open(md_path, "r", encoding="utf-8", errors="replace") as f:
+                        content = f.read()
+                    for match in link_regex.finditer(content):
+                        target = match.group(2).strip()
+                        if target.startswith(("http://", "https://", "mailto:", "#", "javascript:")):
+                            continue
+                        target_path = target.split("#")[0].split("?")[0]
+                        if not target_path:
+                            continue
+                        total_rel_links += 1
+                        resolved = os.path.normpath(os.path.join(md_dir, target_path))
+                        if not os.path.exists(resolved):
+                            broken_links.append((os.path.relpath(md_path, base_dir), target))
+                            
     if broken_links:
-        errors.append(f"Gate 06: Found {len(broken_links)} broken relative markdown links: {broken_links[:5]}")
+        errors.append(f"Gate 06: Found {len(broken_links)} broken relative markdown links across {total_md_files} files: {broken_links[:5]}")
     else:
-        print(f"{PASS} Gate 06: Resource Link Resolution passed (100% of relative markdown links resolve).")
+        print(f"{PASS} Gate 06: Recursive Markdown Link Resolution passed (100% of {total_rel_links} relative links across all {total_md_files} bundled markdown files resolve).")
 
     # -------------------------------------------------------------
     # Gate 07: Bundled Resource Inventory and Reachability-Candidate Scan
@@ -408,7 +418,7 @@ def run_cumulative_verification(base_dir=None):
         print(f"{PASS} Gate 11: Final Path Uniqueness verified ({len(seen_dests)} unique destinations).")
 
     # -------------------------------------------------------------
-    # Gate 12: Substantive Non-Templated Trigger Boundary Evidence
+    # Gate 12: Complete 7-Section Batch Record Schema & Trigger Boundary Evidence
     # -------------------------------------------------------------
     if not os.path.exists(batches_dir):
         errors.append("Gate 12: Missing batches directory")
@@ -417,6 +427,15 @@ def run_cumulative_verification(base_dir=None):
         if len(batch_records) != EXPECTED_BATCH_COUNT:
             errors.append(f"Gate 12: Batch records count {len(batch_records)} != {EXPECTED_BATCH_COUNT}")
         else:
+            required_sections = [
+                "## 1. Batch Metadata & Universe Accounting",
+                "## 2. Canonical Skills Summary & Provenance",
+                "## 3. Trigger Boundary Evaluation Evidence",
+                "## 4. Verification & Consistency Sign-off",
+                "## 5. Resources Created or Moved",
+                "## 6. Retired Paths",
+                "## 7. Unresolved Items"
+            ]
             banned_patterns = [
                 r"user asks to work with",
                 r"general server administration, styling, or unrelated",
@@ -427,15 +446,19 @@ def run_cumulative_verification(base_dir=None):
                 r"user asks for general assistance with .* -> disambiguate",
                 r"general inquiries regarding",
             ]
-            triple_errors = []
+            schema_errors = []
             for bf in batch_records:
                 b_path = os.path.join(batches_dir, bf)
                 with open(b_path, "r", encoding="utf-8") as fp:
                     b_text = fp.read()
                     
+                for sec in required_sections:
+                    if sec not in b_text:
+                        schema_errors.append(f"{bf}: Missing required section '{sec}'")
+                        
                 table_match = re.search(r'## 3\. Trigger Boundary Evaluation Evidence\s*\n\n\|[^\n]+\|\n\|[^\n]+\|\n([\s\S]*?)(?:\n##|\Z)', b_text)
                 if not table_match:
-                    triple_errors.append(f"{bf}: Missing Section 3 Trigger Evidence table")
+                    schema_errors.append(f"{bf}: Missing Section 3 Trigger Evidence table")
                     continue
                 rows = [line.strip() for line in table_match.group(1).strip().splitlines() if line.strip().startswith("|")]
                 seen_shts = set()
@@ -443,25 +466,25 @@ def run_cumulative_verification(base_dir=None):
                 for row in rows:
                     cols = [c.strip() for c in row.split("|")[1:-1]]
                     if len(cols) < 4:
-                        triple_errors.append(f"{bf}: Row has fewer than 4 columns: {row}")
+                        schema_errors.append(f"{bf}: Row has fewer than 4 columns: {row}")
                         continue
                     sname, sht, shnt, amb = cols[0], cols[1], cols[2], cols[3]
                     if len(sht) < 25 or len(shnt) < 25 or len(amb) < 25:
-                        triple_errors.append(f"{bf}: Row for {sname} has insufficient detail")
+                        schema_errors.append(f"{bf}: Row for {sname} has insufficient detail")
                     for bp in banned_patterns:
                         if re.search(bp, sht, re.IGNORECASE) or re.search(bp, shnt, re.IGNORECASE) or re.search(bp, amb, re.IGNORECASE):
-                            triple_errors.append(f"{bf}: Row for {sname} matches banned boilerplate pattern '{bp}'")
+                            schema_errors.append(f"{bf}: Row for {sname} matches banned boilerplate pattern '{bp}'")
                     if sht in seen_shts:
-                        triple_errors.append(f"{bf}: Row for {sname} has duplicate Should Trigger text")
+                        schema_errors.append(f"{bf}: Row for {sname} has duplicate Should Trigger text")
                     if amb in seen_ambs:
-                        triple_errors.append(f"{bf}: Row for {sname} has duplicate Ambiguous Query text")
+                        schema_errors.append(f"{bf}: Row for {sname} has duplicate Ambiguous Query text")
                     seen_shts.add(sht)
                     seen_ambs.add(amb)
                             
-            if triple_errors:
-                errors.append(f"Gate 12: Trigger boundary table errors in {len(triple_errors)} entries: {triple_errors[:5]}")
+            if schema_errors:
+                errors.append(f"Gate 12: Batch schema or trigger boundary errors in {len(schema_errors)} entries: {schema_errors[:5]}")
             else:
-                print(f"{PASS} Gate 12: Substantive Non-Templated Trigger Boundary Evidence verified across exactly 160 batch records (template detection & repetition limits enforced).")
+                print(f"{PASS} Gate 12: Complete 7-Section Batch Record Schema & Substantive Trigger Evidence verified across exactly 160 batch records.")
 
     # -------------------------------------------------------------
     # Gate 13: Exact Source-to-Registry Attribution Join
@@ -520,7 +543,6 @@ def run_cumulative_verification(base_dir=None):
     # -------------------------------------------------------------
     # Gate 15: Strict Ordered Git Commit Chain & Deterministic Manifest Validation
     # -------------------------------------------------------------
-    # Check exact ordered sequence of 160 batch commits in linear Git history
     git_rev_proc = subprocess.run(["git", "rev-list", "--reverse", "303b0e81~1..16dc4cb6"], capture_output=True, text=True, cwd=base_dir)
     git_chain = git_rev_proc.stdout.strip().splitlines()
     
@@ -573,19 +595,16 @@ def run_cumulative_verification(base_dir=None):
     # -------------------------------------------------------------
     # Gate 16: Final Repository, Branch, & HEAD Checkpoint Verification
     # -------------------------------------------------------------
-    # 1. Branch verification
     branch_proc = subprocess.run(["git", "branch", "--show-current"], capture_output=True, text=True, cwd=base_dir)
     cur_branch = branch_proc.stdout.strip()
     if cur_branch != "skills-rebuild/phase-08-canonical-rewrites":
         errors.append(f"Gate 16: Active branch '{cur_branch}' != 'skills-rebuild/phase-08-canonical-rewrites'")
         
-    # 2. HEAD commit message verification
     head_proc = subprocess.run(["git", "log", "-1", "--format=%s"], capture_output=True, text=True, cwd=base_dir)
     head_msg = head_proc.stdout.strip()
     if head_msg != "skills-rebuild: complete phase 08 canonical rewrites":
         errors.append(f"Gate 16: HEAD commit message '{head_msg}' != 'skills-rebuild: complete phase 08 canonical rewrites'")
         
-    # 3. Clean working tree verification
     status_proc = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True, cwd=base_dir)
     if status_proc.stdout.strip():
         lines = status_proc.stdout.strip().splitlines()
