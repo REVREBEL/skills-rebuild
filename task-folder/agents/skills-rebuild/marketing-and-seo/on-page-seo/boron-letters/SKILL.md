@@ -1,6 +1,6 @@
 ---
 name: "boron-letters"
-description: "Master Gary Halbert's direct response copywriting principles from \\\"The Boron Letters\\\" (1984). The timeless fundamentals that separate pros from amateurs. Use when: Writing direct response copy (sales letters, emails, ads); Creating headlines that demand attention; Building mailing lists and segmentation; Improving copy through the A-pile test; Learning copywriting fundamentals from scratch."
+description: "Master Gary Halbert's direct response copywriting principles from \\\\"The Boron Letters\\\\" (1984). The timeless fundamentals that separate pros from amateurs. Use when: Writing direct response copy (sales letters, emails, ads); Creating headlines that demand attention; Building mailing lists and segmentation; Improving copy through the A-pile test; Learning copywriting fundamentals from scratch."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

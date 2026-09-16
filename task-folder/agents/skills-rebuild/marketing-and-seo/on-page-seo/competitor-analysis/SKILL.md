@@ -1,6 +1,6 @@
 ---
 name: "competitor-analysis"
-description: "Use when the user asks to \\"analyze competitors\\" or \\"竞品分析\\"; benchmarks competitor keywords, content, backlinks, AI citations, and traffic share into strengths, weaknesses, and an action plan. Not for a pairwise topic-coverage gap map — use content-gap-analysis. 竞品分析/竞争对手."
+description: "Use when the user asks to \\\"analyze competitors\\\" or \\\"竞品分析\\\"; benchmarks competitor keywords, content, backlinks, AI citations, and traffic share into strengths, weaknesses, and an action plan. Not for a pairwise topic-coverage gap map — use content-gap-analysis. 竞品分析/竞争对手."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

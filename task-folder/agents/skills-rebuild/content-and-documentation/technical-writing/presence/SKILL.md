@@ -1,6 +1,6 @@
 ---
 name: "presence"
-description: "When the user wants to optimize their GitHub profile, README, or project discoverability. Trigger phrases include \\"GitHub README,\\" \\"README optimization,\\" \\"GitHub profile,\\" \\"GitHub stars,\\" \\"GitHub discoverability,\\" \\"awesome lists,\\" or \\"GitHub marketing. Use when working with presence."
+description: "When the user wants to optimize their GitHub profile, README, or project discoverability. Trigger phrases include \\\"GitHub README,\\\" \\\"README optimization,\\\" \\\"GitHub profile,\\\" \\\"GitHub stars,\\\" \\\"GitHub discoverability,\\\" \\\"awesome lists,\\\" or \\\"GitHub marketing. Use when working with presence."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

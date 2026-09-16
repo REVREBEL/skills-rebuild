@@ -417,11 +417,15 @@ def run_cumulative_verification(base_dir=None):
         if len(batch_records) != EXPECTED_BATCH_COUNT:
             errors.append(f"Gate 12: Batch records count {len(batch_records)} != {EXPECTED_BATCH_COUNT}")
         else:
-            banned_phrases = [
-                "User asks to work with",
-                "general server administration, styling, or unrelated",
-                "general assistance in",
-                "User asks to execute or configure",
+            banned_patterns = [
+                r"user asks to work with",
+                r"general server administration, styling, or unrelated",
+                r"general assistance in",
+                r"user asks to execute or configure",
+                r"user asks to execute or optimize .* tasks",
+                r"implementing .* workflows and configurations",
+                r"user asks for general assistance with .* -> disambiguate",
+                r"general inquiries regarding",
             ]
             triple_errors = []
             for bf in batch_records:
@@ -429,12 +433,13 @@ def run_cumulative_verification(base_dir=None):
                 with open(b_path, "r", encoding="utf-8") as fp:
                     b_text = fp.read()
                     
-                # Parse section 3 table
                 table_match = re.search(r'## 3\. Trigger Boundary Evaluation Evidence\s*\n\n\|[^\n]+\|\n\|[^\n]+\|\n([\s\S]*?)(?:\n##|\Z)', b_text)
                 if not table_match:
                     triple_errors.append(f"{bf}: Missing Section 3 Trigger Evidence table")
                     continue
                 rows = [line.strip() for line in table_match.group(1).strip().splitlines() if line.strip().startswith("|")]
+                seen_shts = set()
+                seen_ambs = set()
                 for row in rows:
                     cols = [c.strip() for c in row.split("|")[1:-1]]
                     if len(cols) < 4:
@@ -443,19 +448,24 @@ def run_cumulative_verification(base_dir=None):
                     sname, sht, shnt, amb = cols[0], cols[1], cols[2], cols[3]
                     if len(sht) < 25 or len(shnt) < 25 or len(amb) < 25:
                         triple_errors.append(f"{bf}: Row for {sname} has insufficient detail")
-                    for bp in banned_phrases:
-                        if bp.lower() in sht.lower() or bp.lower() in shnt.lower() or bp.lower() in amb.lower():
-                            triple_errors.append(f"{bf}: Row for {sname} contains banned boilerplate phrase '{bp}'")
+                    for bp in banned_patterns:
+                        if re.search(bp, sht, re.IGNORECASE) or re.search(bp, shnt, re.IGNORECASE) or re.search(bp, amb, re.IGNORECASE):
+                            triple_errors.append(f"{bf}: Row for {sname} matches banned boilerplate pattern '{bp}'")
+                    if sht in seen_shts:
+                        triple_errors.append(f"{bf}: Row for {sname} has duplicate Should Trigger text")
+                    if amb in seen_ambs:
+                        triple_errors.append(f"{bf}: Row for {sname} has duplicate Ambiguous Query text")
+                    seen_shts.add(sht)
+                    seen_ambs.add(amb)
                             
             if triple_errors:
                 errors.append(f"Gate 12: Trigger boundary table errors in {len(triple_errors)} entries: {triple_errors[:5]}")
             else:
-                print(f"{PASS} Gate 12: Substantive Non-Templated Trigger Boundary Evidence verified across exactly 160 batch records.")
+                print(f"{PASS} Gate 12: Substantive Non-Templated Trigger Boundary Evidence verified across exactly 160 batch records (template detection & repetition limits enforced).")
 
     # -------------------------------------------------------------
     # Gate 13: Exact Source-to-Registry Attribution Join
     # -------------------------------------------------------------
-    # Build 1-to-1 join mapping from destination-map to registry
     dest_active_rows = [r for r in dest_rows if r.get("phase06_consolidation_status") in ["canonical_retained", "standalone_canonical"]]
     dest_superseded_rows = [r for r in dest_rows if r.get("phase06_consolidation_status") in ["merged_superseded", "retired_true_duplicate"]]
     
@@ -508,25 +518,24 @@ def run_cumulative_verification(base_dir=None):
         print(f"{PASS} Gate 14: Exact Stable Identity Matching & Zero-Duplicate Verification passed (2,103 distinct identities across 160 batches, 0 duplicates, 0 omissions).")
 
     # -------------------------------------------------------------
-    # Gate 15: Git Commit Chain & Deterministic Batch Manifest Validation
+    # Gate 15: Strict Ordered Git Commit Chain & Deterministic Manifest Validation
     # -------------------------------------------------------------
-    # Verify commit chain in git history
-    git_rev_proc = subprocess.run(["git", "rev-list", "--topo-order", "303b0e81..HEAD"], capture_output=True, text=True, cwd=base_dir)
-    history_shas = set(git_rev_proc.stdout.strip().splitlines())
+    # Check exact ordered sequence of 160 batch commits in linear Git history
+    git_rev_proc = subprocess.run(["git", "rev-list", "--reverse", "303b0e81~1..16dc4cb6"], capture_output=True, text=True, cwd=base_dir)
+    git_chain = git_rev_proc.stdout.strip().splitlines()
     
-    missing_shas = []
-    for plan in plan_rows:
-        c_sha = plan.get("checkpoint_commit", "")
-        # Batch 01 is 303b0e81; Batches 02-160 are in the rev-list
-        if plan["batch_id"] == "batch-01-workflow-and-automation-tool-integration":
-            if not c_sha.startswith("303b0e81"):
-                missing_shas.append(f"batch-01: {c_sha}")
-        else:
-            if not any(h.startswith(c_sha) for h in history_shas):
-                missing_shas.append(f"{plan['batch_id']}: {c_sha}")
+    chain_errors = []
+    if len(git_chain) != EXPECTED_BATCH_COUNT:
+        chain_errors.append(f"Git batch commit count {len(git_chain)} != {EXPECTED_BATCH_COUNT}")
+    else:
+        for idx, plan in enumerate(plan_rows):
+            p_sha = plan.get("checkpoint_commit", "")
+            g_sha = git_chain[idx]
+            if not g_sha.startswith(p_sha) and not p_sha.startswith(g_sha):
+                chain_errors.append(f"Batch {idx+1:03d} ({plan['batch_id']}) SHA mismatch: plan '{p_sha[:10]}' != git '{g_sha[:10]}'")
                 
-    if missing_shas:
-        errors.append(f"Gate 15: {len(missing_shas)} batch commit SHAs not found in Git history: {missing_shas[:5]}")
+    if chain_errors:
+        errors.append(f"Gate 15: Git linear commit chain errors: {chain_errors[:5]}")
         
     skills_by_batch = {}
     for r in reg_rows:
@@ -558,18 +567,32 @@ def run_cumulative_verification(base_dir=None):
             
     if mhash_mismatches:
         errors.append(f"Gate 15: Manifest hash mismatches in {len(mhash_mismatches)} batches: {mhash_mismatches[:5]}")
-    elif not missing_shas:
-        print(f"{PASS} Gate 15: Git Commit Chain & Deterministic Batch Manifest Validation verified (160 sequential batch commits present in Git history, 160/160 manifest hashes verified).")
+    elif not chain_errors:
+        print(f"{PASS} Gate 15: Strict Ordered Git Commit Chain & Deterministic Manifest Validation passed (160 sequential batch commits verified in linear order; 160/160 manifest hashes match).")
 
     # -------------------------------------------------------------
-    # Gate 16: Final Repository & Release Checkpoint Verification
+    # Gate 16: Final Repository, Branch, & HEAD Checkpoint Verification
     # -------------------------------------------------------------
+    # 1. Branch verification
+    branch_proc = subprocess.run(["git", "branch", "--show-current"], capture_output=True, text=True, cwd=base_dir)
+    cur_branch = branch_proc.stdout.strip()
+    if cur_branch != "skills-rebuild/phase-08-canonical-rewrites":
+        errors.append(f"Gate 16: Active branch '{cur_branch}' != 'skills-rebuild/phase-08-canonical-rewrites'")
+        
+    # 2. HEAD commit message verification
+    head_proc = subprocess.run(["git", "log", "-1", "--format=%s"], capture_output=True, text=True, cwd=base_dir)
+    head_msg = head_proc.stdout.strip()
+    if head_msg != "skills-rebuild: complete phase 08 canonical rewrites":
+        errors.append(f"Gate 16: HEAD commit message '{head_msg}' != 'skills-rebuild: complete phase 08 canonical rewrites'")
+        
+    # 3. Clean working tree verification
     status_proc = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True, cwd=base_dir)
     if status_proc.stdout.strip():
         lines = status_proc.stdout.strip().splitlines()
         errors.append(f"Gate 16: Working tree is dirty ({len(lines)} uncommitted file(s))")
-    else:
-        print(f"{PASS} Gate 16: Final Repository & Release Checkpoint Verification passed (working tree is clean).")
+        
+    if not any("Gate 16" in e for e in errors):
+        print(f"{PASS} Gate 16: Final Repository, Branch, & HEAD Checkpoint Verification passed (branch='{cur_branch}', HEAD='{head_msg}', tree clean).")
 
     print("=" * 70)
     if errors:

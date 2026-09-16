@@ -1,6 +1,6 @@
 ---
 name: "alert-manager"
-description: "Use when the user asks to \\"set SEO alerts\\" or \\"排名掉了提醒我\\"; configures threshold notifications for FUTURE ranking, traffic, technical, and competitor changes. Not for one-time measurement or reporting — use rank-tracker or performance-reporter. SEO预警/排名监控."
+description: "Use when the user asks to \\\"set SEO alerts\\\" or \\\"排名掉了提醒我\\\"; configures threshold notifications for FUTURE ranking, traffic, technical, and competitor changes. Not for one-time measurement or reporting — use rank-tracker or performance-reporter. SEO预警/排名监控."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

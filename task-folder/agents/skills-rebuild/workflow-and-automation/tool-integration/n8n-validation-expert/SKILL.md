@@ -1,6 +1,6 @@
 ---
 name: "n8n-validation-expert"
-description: "Diagnose, interpret, and remediate n8n workflow validation errors, missing required properties, expression syntax failures, and node connection schema mismatches when workflows fail to activate or run. Use when working with n8n validation expert."
+description: "Diagnose, interpret, and remediate n8n workflow validation errors, missing required properties, expression syntax failures, and node connection schema mismatches. Use when diagnosing n8n workflow validation errors or connection schema failures."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "open-source-marketing"
-description: "When the user wants to market an open source project authentically. Trigger phrases include \\"open source marketing,\\" \\"OSS marketing,\\" \\"GitHub marketing,\\" \\"promote my library,\\" \\"grow stars,\\" \\"launch open source,\\" \\"open source growth,\\" or \\"contributor marketing. Use when working with open source marketing."
+description: "When the user wants to market an open source project authentically. Trigger phrases include \\\"open source marketing,\\\" \\\"OSS marketing,\\\" \\\"GitHub marketing,\\\" \\\"promote my library,\\\" \\\"grow stars,\\\" \\\"launch open source,\\\" \\\"open source growth,\\\" or \\\"contributor marketing. Use when working with open source marketing."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

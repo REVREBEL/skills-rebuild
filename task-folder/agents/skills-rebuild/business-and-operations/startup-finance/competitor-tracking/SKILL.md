@@ -1,6 +1,6 @@
 ---
 name: "competitor-tracking"
-description: "Systematic competitor analysis for developer tools. Track features, pricing, positioning, content strategy, and community sentiment for direct and indirect competitors. Trigger phrases: \\"competitor analysis\\", \\"track competitors\\", \\"competitive intelligence\\", \\"competitor research\\", \\"what. Use when working with competitor tracking."
+description: "Systematic competitor analysis for developer tools. Track features, pricing, positioning, content strategy, and community sentiment for direct and indirect competitors. Trigger phrases: \\\"competitor analysis\\\", \\\"track competitors\\\", \\\"competitive intelligence\\\", \\\"competitor research\\\", \\\"what. Use when working with competitor tracking."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

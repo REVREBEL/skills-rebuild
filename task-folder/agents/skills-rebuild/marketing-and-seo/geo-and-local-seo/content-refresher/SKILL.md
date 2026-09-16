@@ -1,6 +1,6 @@
 ---
 name: "content-refresher"
-description: "Use when the user asks to \\"update outdated content\\" or \\"fix traffic/ranking decay\\"; scores decay, prioritizes refresh work, and produces an update plan with GEO and republishing guidance. Not for net-new content — use seo-content-writer. 内容更新/排名恢复."
+description: "Use when the user asks to \\\"update outdated content\\\" or \\\"fix traffic/ranking decay\\\"; scores decay, prioritizes refresh work, and produces an update plan with GEO and republishing guidance. Not for net-new content — use seo-content-writer. 内容更新/排名恢复."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

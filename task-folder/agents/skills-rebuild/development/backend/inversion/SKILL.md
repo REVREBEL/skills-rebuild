@@ -1,6 +1,6 @@
 ---
 name: "inversion"
-description: "\\\"Invert, always invert.\\\" Apply Carl Jacobi's mathematical principle and Charlie Munger's investing wisdom to solve problems by thinking backward from failure. Use when: **Goal setting** - Define what would guarantee failure, then avoid it; **Risk analysis** - Identify what could destroy your project before starting; **Decision making** - Evaluate choices by examining their worst outcomes; **Problem solving** - When direct approaches aren't working, reverse the question; **Strategy development."
+description: "\\\\"Invert, always invert.\\\\" Apply Carl Jacobi's mathematical principle and Charlie Munger's investing wisdom to solve problems by thinking backward from failure. Use when: **Goal setting** - Define what would guarantee failure, then avoid it; **Risk analysis** - Identify what could destroy your project before starting; **Decision making** - Evaluate choices by examining their worst outcomes; **Problem solving** - When direct approaches aren't working, reverse the question; **Strategy development."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

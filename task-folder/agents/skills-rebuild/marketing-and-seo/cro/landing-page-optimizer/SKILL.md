@@ -1,6 +1,6 @@
 ---
 name: "landing-page-optimizer"
-description: "Optimize landing pages for maximum conversions using proven frameworks from Unbounce and Oli Gardner—apply the \\\"one goal, one message, one action\\\" principle with data-driven design, copy, and CTA best practices. Use when: **Create a new landing page** for a campaign; **Optimize an existing landing page** that isn't converting; **Review landing page design** before launch; **Improve form conversion rates** on lead gen pages; **A/B test landing page elements** systematically."
+description: "Optimize landing pages for maximum conversions using proven frameworks from Unbounce and Oli Gardner—apply the \\\\"one goal, one message, one action\\\\" principle with data-driven design, copy, and CTA best practices. Use when: **Create a new landing page** for a campaign; **Optimize an existing landing page** that isn't converting; **Review landing page design** before launch; **Improve form conversion rates** on lead gen pages; **A/B test landing page elements** systematically."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

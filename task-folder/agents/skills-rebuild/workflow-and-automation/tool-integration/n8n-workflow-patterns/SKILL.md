@@ -1,6 +1,6 @@
 ---
 name: "n8n-workflow-patterns"
-description: "Select, structure, and implement proven architectural patterns for n8n workflows including webhook ingestion, scheduled polling, queue processing, API integration, and AI sub-execution routing when designing or refactoring automated workflows. Use when working with n8n workflow patterns."
+description: "Select, structure, and implement proven architectural patterns for n8n workflows including webhook ingestion, scheduled polling, queue processing, API integration, and AI sub-execution routing. Use when designing robust, idempotent workflow architectures in n8n."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

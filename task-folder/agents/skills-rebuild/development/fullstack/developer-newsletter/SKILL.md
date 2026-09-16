@@ -1,6 +1,6 @@
 ---
 name: "developer-newsletter"
-description: "When the user wants to create, write, or improve a newsletter for developer audiences. Trigger phrases include \\"newsletter,\\" \\"email marketing,\\" \\"developer email,\\" \\"weekly digest,\\" \\"dev newsletter,\\" \\"email subscribers,\\" \\"newsletter growth,\\" or \\"email list. Use when working with developer newsletter."
+description: "When the user wants to create, write, or improve a newsletter for developer audiences. Trigger phrases include \\\"newsletter,\\\" \\\"email marketing,\\\" \\\"developer email,\\\" \\\"weekly digest,\\\" \\\"dev newsletter,\\\" \\\"email subscribers,\\\" \\\"newsletter growth,\\\" or \\\"email list. Use when working with developer newsletter."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "writing-guidelines"
-description: "Review docs/prose for Writing Guidelines compliance. Use when asked to \\"review my docs\\", \\"check writing style\\", \\"audit prose\\", \\"review docs voice and tone\\", or \\"check this page against the writing handbook\\"."
+description: "Review docs/prose for Writing Guidelines compliance. Use when asked to \\\"review my docs\\\", \\\"check writing style\\\", \\\"audit prose\\\", \\\"review docs voice and tone\\\", or \\\"check this page against the writing handbook\\\"."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

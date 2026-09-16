@@ -1,6 +1,6 @@
 ---
 name: "power-user-cultivation"
-description: "When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists. Trigger phrases include \\"power users,\\" \\"developer advocates,\\" \\"ambassador program,\\" \\"champion program,\\" \\"community contributors,\\" \\"referral. Use when working with power user cultivation."
+description: "When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists. Trigger phrases include \\\"power users,\\\" \\\"developer advocates,\\\" \\\"ambassador program,\\\" \\\"champion program,\\\" \\\"community contributors,\\\" \\\"referral. Use when working with power user cultivation."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "schema-markup-generator"
-description: "Use when the user asks to \\"generate schema\\"; creates JSON-LD for FAQ, HowTo, Article, Product, and LocalBusiness rich-result candidates. Not for title/meta-description tags — use meta-tags-optimizer; not for crawl/index technical issues — use technical-seo-checker. Schema标记/结构化数据."
+description: "Use when the user asks to \\\"generate schema\\\"; creates JSON-LD for FAQ, HowTo, Article, Product, and LocalBusiness rich-result candidates. Not for title/meta-description tags — use meta-tags-optimizer; not for crawl/index technical issues — use technical-seo-checker. Schema标记/结构化数据."
 source: "community_canonical_converted_provider"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "clean-code"
-description: "This skill embodies the principles of \\\"Clean Code\\\" by Robert C. Martin (Uncle Bob). Use it to transform \\\"code that works\\\" into \\\"code that is clean.\. Use when working with clean code."
+description: "This skill embodies the principles of \\\\"Clean Code\\\\" by Robert C. Martin (Uncle Bob). Use it to transform \\\\"code that works\\\\" into \\\\"code that is clean.\. Use when working with clean code."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

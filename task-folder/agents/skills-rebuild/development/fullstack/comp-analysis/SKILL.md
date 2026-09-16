@@ -1,6 +1,6 @@
 ---
 name: "comp-analysis"
-description: "Analyze compensation — benchmarking, band placement, and equity modeling. Trigger with \\"what should we pay a [role]\\", \\"is this offer competitive\\", \\"model this equity grant\\", or when uploading comp data to find outliers and retention risks. Use when working with comp analysis."
+description: "Analyze compensation — benchmarking, band placement, and equity modeling. Trigger with \\\"what should we pay a [role]\\\", \\\"is this offer competitive\\\", \\\"model this equity grant\\\", or when uploading comp data to find outliers and retention risks. Use when working with comp analysis."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

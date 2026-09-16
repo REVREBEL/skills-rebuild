@@ -1,6 +1,6 @@
 ---
 name: "alternatives-pages"
-description: "Create \\"[Competitor] alternative\\" and comparison pages for developer tools. Build honest, high-converting comparison content that ranks for competitive search terms. Trigger phrases: \\"alternatives page\\", \\"comparison page\\", \\"vs page\\", \\"[competitor] alternative\\", \\"competitor comparison\\",. Use when working with alternatives pages."
+description: "Create \\\"[Competitor] alternative\\\" and comparison pages for developer tools. Build honest, high-converting comparison content that ranks for competitive search terms. Trigger phrases: \\\"alternatives page\\\", \\\"comparison page\\\", \\\"vs page\\\", \\\"[competitor] alternative\\\", \\\"competitor comparison\\\",. Use when working with alternatives pages."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

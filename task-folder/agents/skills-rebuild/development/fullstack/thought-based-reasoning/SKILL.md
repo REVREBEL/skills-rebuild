@@ -1,6 +1,6 @@
 ---
 name: "thought-based-reasoning"
-description: "Use when facing complex reasoning tasks - multi-step math, logic puzzles, decisions with tradeoffs, problems where direct answers fail, or when you need to show your work. Triggers on arithmetic errors, shallow analysis, or \\"I'm not sure\\" hedging."
+description: "Use when facing complex reasoning tasks - multi-step math, logic puzzles, decisions with tradeoffs, problems where direct answers fail, or when you need to show your work. Triggers on arithmetic errors, shallow analysis, or \\\"I'm not sure\\\" hedging."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

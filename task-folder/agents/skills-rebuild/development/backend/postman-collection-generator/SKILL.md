@@ -1,6 +1,6 @@
 ---
 name: "postman-collection-generator"
-description: "Generate complete, import-ready Postman Collection v2.1 JSON files from natural language API descriptions or cURL commands. Use this skill whenever the user describes an API in plain English (\\"I have a REST API with these endpoints.\\"), pastes cURL commands, or asks to \\"create a. Use when working with postman collection generator."
+description: "Generate complete, import-ready Postman Collection v2.1 JSON files from natural language API descriptions or cURL commands. Use this skill whenever the user describes an API in plain English (\\\"I have a REST API with these endpoints.\\\"), pastes cURL commands, or asks to \\\"create a. Use when working with postman collection generator."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

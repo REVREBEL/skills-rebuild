@@ -1,6 +1,6 @@
 ---
 name: "purple-cow-marketing"
-description: "Create remarkable products and experiences that spread through word of mouth using Seth Godin's Purple Cow methodology Use when: **Launching a new product** and need it to stand out in a crowded market; **Differentiating your brand** from competitors who all look the same; **Escaping commodity status** where you compete only on price; **Planning a marketing strategy** with limited advertising budget; **Finding your remarkable angle** when \\\"good enough\\\" isn't working."
+description: "Create remarkable products and experiences that spread through word of mouth using Seth Godin's Purple Cow methodology Use when: **Launching a new product** and need it to stand out in a crowded market; **Differentiating your brand** from competitors who all look the same; **Escaping commodity status** where you compete only on price; **Planning a marketing strategy** with limited advertising budget; **Finding your remarkable angle** when \\\\"good enough\\\\" isn't working."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

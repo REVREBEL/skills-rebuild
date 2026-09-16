@@ -1,6 +1,6 @@
 ---
 name: "voice-injection-rewriter"
-description: "Use when rewriting AI-generated text to match a specific person's or brand's authentic voice. Use when AI output sounds generic, corporate, or detectable. Unlike generic \\"humanizers,\\" this skill requires voice analysis input and produces voice-consistent output, not fake imperfections."
+description: "Use when rewriting AI-generated text to match a specific person's or brand's authentic voice. Use when AI output sounds generic, corporate, or detectable. Unlike generic \\\"humanizers,\\\" this skill requires voice analysis input and produces voice-consistent output, not fake imperfections."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -19,7 +19,7 @@
 
 | Skill Name | Should Trigger | Should Not Trigger | Ambiguous Neighbor Query |
 |---|---|---|---|
-| `using-git-worktrees` | User asks to execute or optimize using git worktrees tasks (e.g. implementing using git worktrees workflows and configurations). | User requests general infrastructure administration or unrelated application development outside using git worktrees or unrelated operations outside using git worktrees. | User asks for general assistance with using git worktrees -> Disambiguate: Clarify whether the focus is specific using git worktrees patterns or broader git-and-vcs workflows. |
+| `using-git-worktrees` | User asks to implement, configure, or optimize using git worktrees tasks (specifically configuring or implementing using git worktrees specifications). | User requests general infrastructure administration, styling, or unrelated operations outside using git worktrees or unrelated operations outside using git worktrees. | User asks 'How do I handle using git worktrees in my workflow?' -> Disambiguate: Clarify whether the task requires specialized using git worktrees procedures or general git-and-vcs tooling. |
 
 ## 4. Verification & Consistency Sign-off
 

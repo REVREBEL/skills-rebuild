@@ -1,6 +1,6 @@
 ---
 name: "content-gap-analysis"
-description: "Identify content gaps between your site and competitors. Use when the user says \\"content gaps\\", \\"what am I missing\\", \\"competitor content\\", \\"content opportunities\\", \\"topics I should cover\\", \\"content gap analysis\\", or asks about finding topics and keywords their site doesn't cover but competitors do."
+description: "Identify content gaps between your site and competitors. Use when the user says \\\"content gaps\\\", \\\"what am I missing\\\", \\\"competitor content\\\", \\\"content opportunities\\\", \\\"topics I should cover\\\", \\\"content gap analysis\\\", or asks about finding topics and keywords their site doesn't cover but competitors do."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

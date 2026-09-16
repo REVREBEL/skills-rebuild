@@ -1,6 +1,6 @@
 ---
 name: "storyboard-manager"
-description: "Assist writers with story planning, character development, plot structuring, chapter writing, timeline tracking, and consistency checking. Use this skill when working with creative writing projects organized in folders containing characters, chapters, story planning documents, and summaries. Trigger this skill for tasks like \\"Help me develop this character,\\" \\"Write the next chapter,\\" \\"Check consistency across my story,\\" or \\"Track the timeline of events. Use when working with storyboard manager."
+description: "Assist writers with story planning, character development, plot structuring, chapter writing, timeline tracking, and consistency checking. Use this skill when working with creative writing projects organized in folders containing characters, chapters, story planning documents, and summaries. Trigger this skill for tasks like \\\"Help me develop this character,\\\" \\\"Write the next chapter,\\\" \\\"Check consistency across my story,\\\" or \\\"Track the timeline of events. Use when working with storyboard manager."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "developer-sandbox"
-description: "Design and build interactive playgrounds that let developers experience your product without commitment. This skill covers playground architecture, pre-populated examples, embedding strategies, gating decisions, and converting playground users to signups. Trigger phrases: \\"developer. Use when working with developer sandbox."
+description: "Design and build interactive playgrounds that let developers experience your product without commitment. This skill covers playground architecture, pre-populated examples, embedding strategies, gating decisions, and converting playground users to signups. Trigger phrases: \\\"developer. Use when working with developer sandbox."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

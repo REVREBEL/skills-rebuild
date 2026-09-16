@@ -1,6 +1,6 @@
 ---
 name: "vitest-skill"
-description: "Generates Vitest tests in JavaScript/TypeScript with Vite-native speed. Jest-compatible API with ESM support and HMR. Use when user mentions \\"Vitest\\", \\"vi.mock\\", \\"vitest.config\\". Triggers on: \\"Vitest\\", \\"vi.mock\\", \\"vi.fn\\", \\"Vite test\\", \\"vitest config\\"."
+description: "Generates Vitest tests in JavaScript/TypeScript with Vite-native speed. Jest-compatible API with ESM support and HMR. Use when user mentions \\\"Vitest\\\", \\\"vi.mock\\\", \\\"vitest.config\\\". Triggers on: \\\"Vitest\\\", \\\"vi.mock\\\", \\\"vi.fn\\\", \\\"Vite test\\\", \\\"vitest config\\\"."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

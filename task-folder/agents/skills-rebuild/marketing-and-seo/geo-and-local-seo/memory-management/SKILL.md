@@ -1,6 +1,6 @@
 ---
 name: "memory-management"
-description: "Use when the user asks to \\"remember project context\\"; manages the SEO/GEO memory lifecycle — hot-cache, active work, archive tiers, and privacy cleanup. Not for content or domain scoring — use the auditors. 项目记忆/跨会话."
+description: "Use when the user asks to \\\"remember project context\\\"; manages the SEO/GEO memory lifecycle — hot-cache, active work, archive tiers, and privacy cleanup. Not for content or domain scoring — use the auditors. 项目记忆/跨会话."
 source: "community_canonical_converted_provider"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "dan-kennedy-copy"
-description: "Write copy that sells NOW using Dan Kennedy's \\\"No B.S.\\\" direct response marketing principles Use when: **Writing sales copy** that must generate immediate, trackable response; **Creating direct mail pieces**, sales letters, or landing pages for local businesses; **Designing marketing funnels** with clear offers at every stage; **Breaking free from \\\"brand advertising\\\"** that doesn't produce measurable ROI; **Building follow-up sequences** that convert leads into customers."
+description: "Write copy that sells NOW using Dan Kennedy's \\\\"No B.S.\\\\" direct response marketing principles Use when: **Writing sales copy** that must generate immediate, trackable response; **Creating direct mail pieces**, sales letters, or landing pages for local businesses; **Designing marketing funnels** with clear offers at every stage; **Breaking free from \\\\"brand advertising\\\\"** that doesn't produce measurable ROI; **Building follow-up sequences** that convert leads into customers."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

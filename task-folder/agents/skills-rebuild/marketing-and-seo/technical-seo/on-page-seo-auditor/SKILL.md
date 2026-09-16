@@ -1,6 +1,6 @@
 ---
 name: "on-page-seo-auditor"
-description: "Use when the user asks to \\"audit on-page SEO\\" or \\"diagnose why a single page dropped\\"; scores titles, meta, header structure, keyword placement, links, and images with prioritized fixes. For E-E-A-T / publish-readiness scoring use content-quality-auditor; for crawl / CWV / indexing use technical-seo-checker. 页面SEO审计/排名诊断."
+description: "Use when the user asks to \\\"audit on-page SEO\\\" or \\\"diagnose why a single page dropped\\\"; scores titles, meta, header structure, keyword placement, links, and images with prioritized fixes. For E-E-A-T / publish-readiness scoring use content-quality-auditor; for crawl / CWV / indexing use technical-seo-checker. 页面SEO审计/排名诊断."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

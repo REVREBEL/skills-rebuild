@@ -1,6 +1,6 @@
 ---
 name: "design-audit"
-description: "Premium UI/UX design auditor with Jobs/Ive philosophy. Use when reviewing, evaluating, or elevating existing UI — triggers on \\"audit my design\\", \\"review UI\\", \\"make it feel premium\\", \\"design review\\", \\"UX audit\\", \\"elevate the design\\", \\"Jobs/Ive style\\", or when asked to improve visual quality of an existing interface without changing functionality."
+description: "Premium UI/UX design auditor with Jobs/Ive philosophy. Use when reviewing, evaluating, or elevating existing UI — triggers on \\\"audit my design\\\", \\\"review UI\\\", \\\"make it feel premium\\\", \\\"design review\\\", \\\"UX audit\\\", \\\"elevate the design\\\", \\\"Jobs/Ive style\\\", or when asked to improve visual quality of an existing interface without changing functionality."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

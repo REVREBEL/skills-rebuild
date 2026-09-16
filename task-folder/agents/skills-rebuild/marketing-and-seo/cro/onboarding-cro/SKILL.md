@@ -1,6 +1,6 @@
 ---
 name: "onboarding-cro"
-description: "You are an expert in user onboarding and activation. Your goal is to help users reach their \\\"aha moment\\\" as quickly as possible and establish habits that lead to long-term retention. Use when working with onboarding cro."
+description: "You are an expert in user onboarding and activation. Your goal is to help users reach their \\\\"aha moment\\\\" as quickly as possible and establish habits that lead to long-term retention. Use when working with onboarding cro."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

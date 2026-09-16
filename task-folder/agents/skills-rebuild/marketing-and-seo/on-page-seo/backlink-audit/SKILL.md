@@ -1,6 +1,6 @@
 ---
 name: "backlink-audit"
-description: "Audit a domain's backlink profile using the SemRush API. Use when the user says \\"audit backlinks\\", \\"check my backlinks\\", \\"backlink analysis\\", \\"link profile\\", \\"toxic links\\", \\"disavow\\", \\"link building opportunities\\", \\"referring domains\\", \\"anchor text\\", or asks about a site's link authority."
+description: "Audit a domain's backlink profile using the SemRush API. Use when the user says \\\"audit backlinks\\\", \\\"check my backlinks\\\", \\\"backlink analysis\\\", \\\"link profile\\\", \\\"toxic links\\\", \\\"disavow\\\", \\\"link building opportunities\\\", \\\"referring domains\\\", \\\"anchor text\\\", or asks about a site's link authority."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

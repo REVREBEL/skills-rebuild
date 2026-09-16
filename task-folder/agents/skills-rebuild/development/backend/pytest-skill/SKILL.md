@@ -1,6 +1,6 @@
 ---
 name: "pytest-skill"
-description: "Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \\"pytest\\", \\"conftest\\", \\"@pytest.fixture\\", \\"@pytest.mark\\", \\"Python test\\". Triggers on: \\"pytest\\", \\"conftest\\", \\"Python test\\", \\"parametrize\\", \\"Python."
+description: "Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \\\"pytest\\\", \\\"conftest\\\", \\\"@pytest.fixture\\\", \\\"@pytest.mark\\\", \\\"Python test\\\". Triggers on: \\\"pytest\\\", \\\"conftest\\\", \\\"Python test\\\", \\\"parametrize\\\", \\\"Python."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

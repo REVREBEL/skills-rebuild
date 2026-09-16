@@ -1,6 +1,6 @@
 ---
 name: "first-principles"
-description: "Break down complex problems to their fundamental truths, then reason up from there. Master Aristotle's ancient method modernized by Elon Musk to solve seemingly impossible problems. Use when: **Facing a \\\"impossible\\\" problem** where conventional solutions don't work; **Challenging industry assumptions** that everyone accepts as truth; **Pricing or cost analysis** to find dramatic savings (like Musk with batteries); **Product innovation** when iterating on existing solutions isn't enough; **Str."
+description: "Break down complex problems to their fundamental truths, then reason up from there. Master Aristotle's ancient method modernized by Elon Musk to solve seemingly impossible problems. Use when: **Facing a \\\\"impossible\\\\" problem** where conventional solutions don't work; **Challenging industry assumptions** that everyone accepts as truth; **Pricing or cost analysis** to find dramatic savings (like Musk with batteries); **Product innovation** when iterating on existing solutions isn't enough; **Str."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

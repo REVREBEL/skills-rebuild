@@ -8,6 +8,7 @@
 - **Batch Status**: `completed`
 - **Validation Status**: `verified`
 - **Deterministic Manifest Hash (SHA-256)**: `3fa77c40941210020fcb89e2c36d8d07042bd2c3e308e9fa399b33d9a42df04a`
+- **Inherited Taxonomy Exceptions**: 10 skills inherited from Phase 05 classifications (`ai-native-cli`, `pydantic-models-py`, `blockchain-developer`, etc.) preserved per 'map first, move later' principle for Phase 10 router realignments.
 
 ## 2. Canonical Skills Summary & Provenance
 

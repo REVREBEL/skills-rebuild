@@ -1,6 +1,6 @@
 ---
 name: "technical-seo-checker"
-description: "Use when the user asks to \\"check technical SEO\\"; audits crawlability, indexing, Core Web Vitals, robots.txt, sitemaps, canonicals, redirects, and migrations. Not for on-page tags or content — use on-page-seo-auditor. 技术SEO/网站速度."
+description: "Use when the user asks to \\\"check technical SEO\\\"; audits crawlability, indexing, Core Web Vitals, robots.txt, sitemaps, canonicals, redirects, and migrations. Not for on-page tags or content — use on-page-seo-auditor. 技术SEO/网站速度."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

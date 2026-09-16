@@ -1,6 +1,6 @@
 ---
 name: "logic-diff"
-description: "Compare two code versions for semantic equivalence via semi-formal tracing of both versions side-by-side. Trigger when the user shares a refactor, rewrite, migration, or A/B implementation and wants to confirm behavior is unchanged — \\"did I break anything\\", \\"is this equivalent\\", \\"are. Use when working with logic diff."
+description: "Compare two code versions for semantic equivalence via semi-formal tracing of both versions side-by-side. Trigger when the user shares a refactor, rewrite, migration, or A/B implementation and wants to confirm behavior is unchanged — \\\"did I break anything\\\", \\\"is this equivalent\\\", \\\"are. Use when working with logic diff."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

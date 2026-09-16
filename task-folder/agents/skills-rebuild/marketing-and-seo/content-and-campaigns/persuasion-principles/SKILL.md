@@ -1,6 +1,6 @@
 ---
 name: "persuasion-principles"
-description: "Master Robert Cialdini's 6 (+1) Principles of Persuasion from \\\"Influence: The Psychology of Persuasion\\\" (1984). Ethically apply the psychology of compliance to marketing. Use when: Designing landing pages that convert; Writing sales copy and email sequences; Creating pricing and offer structures; Building testimonial and social proof strategies; Developing referral and loyalty programs."
+description: "Master Robert Cialdini's 6 (+1) Principles of Persuasion from \\\\"Influence: The Psychology of Persuasion\\\\" (1984). Ethically apply the psychology of compliance to marketing. Use when: Designing landing pages that convert; Writing sales copy and email sequences; Creating pricing and offer structures; Building testimonial and social proof strategies; Developing referral and loyalty programs."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

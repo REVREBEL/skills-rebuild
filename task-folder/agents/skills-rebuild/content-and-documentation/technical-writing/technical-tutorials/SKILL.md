@@ -1,6 +1,6 @@
 ---
 name: "technical-tutorials"
-description: "When the user wants to create step-by-step technical tutorials, quickstarts, or code walkthroughs. Trigger phrases include \\"tutorial,\\" \\"quickstart,\\" \\"getting started guide,\\" \\"walkthrough,\\" \\"step by step,\\" \\"how to guide,\\" \\"hands-on guide,\\" or \\"code tutorial. Use when working with technical tutorials."
+description: "When the user wants to create step-by-step technical tutorials, quickstarts, or code walkthroughs. Trigger phrases include \\\"tutorial,\\\" \\\"quickstart,\\\" \\\"getting started guide,\\\" \\\"walkthrough,\\\" \\\"step by step,\\\" \\\"how to guide,\\\" \\\"hands-on guide,\\\" or \\\"code tutorial. Use when working with technical tutorials."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

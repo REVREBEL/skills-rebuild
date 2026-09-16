@@ -1,6 +1,6 @@
 ---
 name: "unslop-commit"
-description: "Rewrites commit messages so they sound like a careful human engineer wrote them. Strips AI/marketing slop (\\"comprehensive solution\\", \\"robust implementation\\", \\"leverage\\", \\"enhance\\", \\"seamlessly\\", \\"This commit.\\"). Keeps Conventional Commits format. Subject ≤72 chars (aim ≤50),. Use when working with unslop commit."
+description: "Rewrites commit messages so they sound like a careful human engineer wrote them. Strips AI/marketing slop (\\\"comprehensive solution\\\", \\\"robust implementation\\\", \\\"leverage\\\", \\\"enhance\\\", \\\"seamlessly\\\", \\\"This commit.\\\"). Keeps Conventional Commits format. Subject ≤72 chars (aim ≤50),. Use when working with unslop commit."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

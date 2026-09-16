@@ -1,6 +1,6 @@
 ---
 name: "unslop-review"
-description: "Rewrites code review comments so they read like a human teammate wrote them. Cuts corporate-AI throat-clearing (\\"I noticed.\\", \\"I was wondering if perhaps.\\", \\"It might be worth considering.\\"). Each comment is direct: location, the issue, a concrete fix. Use when user says."
+description: "Rewrites code review comments so they read like a human teammate wrote them. Cuts corporate-AI throat-clearing (\\\"I noticed.\\\", \\\"I was wondering if perhaps.\\\", \\\"It might be worth considering.\\\"). Each comment is direct: location, the issue, a concrete fix. Use when user says."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

@@ -1,6 +1,6 @@
 ---
 name: "backlink-analyzer"
-description: "Use when the user asks to \\"analyze backlinks\\" or \\"外链分析\\"; profiles external referring domains, anchor-text distribution, toxic links, and competitor link gaps. Not for internal links — use internal-linking-optimizer. 外链分析/反向链接."
+description: "Use when the user asks to \\\"analyze backlinks\\\" or \\\"外链分析\\\"; profiles external referring domains, anchor-text distribution, toxic links, and competitor link gaps. Not for internal links — use internal-linking-optimizer. 外链分析/反向链接."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

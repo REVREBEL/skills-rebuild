@@ -1,6 +1,6 @@
 ---
 name: "content-writing"
-description: "Create ridiculously good content using Ann Handley's \\\"Everybody Writes\\\" methodology—practical, reader-focused writing that serves your audience and achieves your goals. Use when: **Write blog posts** that engage and convert readers; **Create email content** that gets opened and clicked; **Craft social media posts** that stop the scroll; **Develop website copy** that speaks to your audience; **Write thought leadership** that builds credibility."
+description: "Create ridiculously good content using Ann Handley's \\\\"Everybody Writes\\\\" methodology—practical, reader-focused writing that serves your audience and achieves your goals. Use when: **Write blog posts** that engage and convert readers; **Create email content** that gets opened and clicked; **Craft social media posts** that stop the scroll; **Develop website copy** that speaks to your audience; **Write thought leadership** that builds credibility."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

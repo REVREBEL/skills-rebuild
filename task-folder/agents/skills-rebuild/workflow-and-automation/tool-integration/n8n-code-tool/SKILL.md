@@ -1,6 +1,6 @@
 ---
 name: "n8n-code-tool"
-description: "Author, validate, and secure custom code tools callable by AI agents in n8n, defining input JSON schemas, sandbox execution parameters, and output contracts when creating tools for LangChain and AI Agent nodes. Use when working with n8n code tool."
+description: "Author, validate, and secure custom code tools callable by AI agents in n8n, defining input JSON schemas, sandbox execution parameters, and output contracts. Use when creating custom AI agent tools for LangChain and AI Agent nodes in n8n."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

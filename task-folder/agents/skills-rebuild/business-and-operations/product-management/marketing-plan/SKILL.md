@@ -1,6 +1,6 @@
 ---
 name: "marketing-plan"
-description: "When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions \\"marketing plan,\\" \\"growth plan,\\" \\"GTM plan,\\" \\"go-to-market plan,\\" \\"AARRR plan,\\" \\"90-day marketing plan,\\" \\"12-month marketing roadmap,\\"."
+description: "When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions \\\"marketing plan,\\\" \\\"growth plan,\\\" \\\"GTM plan,\\\" \\\"go-to-market plan,\\\" \\\"AARRR plan,\\\" \\\"90-day marketing plan,\\\" \\\"12-month marketing roadmap,\\\"."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"

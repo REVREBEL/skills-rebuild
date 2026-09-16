@@ -1,6 +1,6 @@
 ---
 name: "grand-slam-offers"
-description: "Master Alex Hormozi's offer creation framework from \\\"$100M Offers\\\" (2021). Build irresistible offers using the Value Equation, stacking, guarantees, and scarcity. Use when: Creating new product or service offers; Restructuring existing offers for higher conversions; Pricing premium products and services; Building offer stacks with bonuses and guarantees; Choosing target markets for maximum leverage."
+description: "Master Alex Hormozi's offer creation framework from \\\\"$100M Offers\\\\" (2021). Build irresistible offers using the Value Equation, stacking, guarantees, and scarcity. Use when: Creating new product or service offers; Restructuring existing offers for higher conversions; Pricing premium products and services; Building offer stacks with bonuses and guarantees; Choosing target markets for maximum leverage."
 source: "community_canonical"
 risk: "unknown"
 license: "not_declared_upstream"
