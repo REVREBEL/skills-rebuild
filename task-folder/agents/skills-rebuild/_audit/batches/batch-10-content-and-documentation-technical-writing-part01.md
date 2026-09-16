@@ -56,7 +56,32 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `api-endpoint-builder` | `README.md` | Created or preserved in canonical package |
+| `api-onboarding` | `README.md` | Created or preserved in canonical package |
+| `architecture` | `context-discovery.md` | Created or preserved in canonical package |
+| `architecture` | `examples.md` | Created or preserved in canonical package |
+| `architecture` | `pattern-selection.md` | Created or preserved in canonical package |
+| `architecture` | `patterns-reference.md` | Created or preserved in canonical package |
+| `architecture` | `trade-off-analysis.md` | Created or preserved in canonical package |
+| `building-components` | `references/accessibility.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/as-child.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/composition.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/data-attributes.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/definitions.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/design-tokens.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/docs.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/marketplaces.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/npm.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/polymorphism.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/principles.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/registry.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/state.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/styling.mdx` | Created or preserved in canonical package |
+| `building-components` | `references/types.mdx` | Created or preserved in canonical package |
+| `code-documentation-code-explain` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `code-documentation-doc-generate` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

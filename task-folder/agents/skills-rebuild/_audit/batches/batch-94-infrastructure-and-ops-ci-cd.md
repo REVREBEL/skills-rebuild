@@ -40,7 +40,9 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `cicd-automation-workflow-automate` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

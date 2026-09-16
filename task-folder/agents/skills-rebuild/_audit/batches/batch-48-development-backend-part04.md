@@ -58,7 +58,24 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `database-design` | `database-selection.md` | Created or preserved in canonical package |
+| `database-design` | `indexing.md` | Created or preserved in canonical package |
+| `database-design` | `migrations.md` | Created or preserved in canonical package |
+| `database-design` | `optimization.md` | Created or preserved in canonical package |
+| `database-design` | `orm-selection.md` | Created or preserved in canonical package |
+| `database-design` | `schema-design.md` | Created or preserved in canonical package |
+| `database-design` | `scripts/schema_validator.py` | Created or preserved in canonical package |
+| `database-migrations-sql-migrations` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `developer-churn` | `README.md` | Created or preserved in canonical package |
+| `developer-signup-flow` | `README.md` | Created or preserved in canonical package |
+| `drizzle-migration-conflict` | `references/ci-policy.md` | Created or preserved in canonical package |
+| `drizzle-migration-conflict` | `references/conflict-resolution.md` | Created or preserved in canonical package |
+| `drizzle-migration-conflict` | `references/report-template.md` | Created or preserved in canonical package |
+| `drizzle-migration-conflict` | `references/sources.md` | Created or preserved in canonical package |
+| `drizzle-migration-conflict` | `scripts/check_drizzle_migrations.py` | Created or preserved in canonical package |
+| `fastapi-templates` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

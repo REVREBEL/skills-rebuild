@@ -52,7 +52,25 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `first-party-data-collection` | `evals/consent-management-and-privacy-complianc/criteria.json` | Created or preserved in canonical package |
+| `first-party-data-collection` | `evals/consent-management-and-privacy-complianc/task.md` | Created or preserved in canonical package |
+| `first-party-data-collection` | `evals/customer-schema-and-progressive-profilin/criteria.json` | Created or preserved in canonical package |
+| `first-party-data-collection` | `evals/customer-schema-and-progressive-profilin/task.md` | Created or preserved in canonical package |
+| `first-party-data-collection` | `evals/zero-party-quiz-with-product-recommendat/criteria.json` | Created or preserved in canonical package |
+| `first-party-data-collection` | `evals/zero-party-quiz-with-product-recommendat/task.md` | Created or preserved in canonical package |
+| `first-party-data-collection` | `tile.json` | Created or preserved in canonical package |
+| `huggingface-spaces` | `references/buckets.md` | Created or preserved in canonical package |
+| `huggingface-spaces` | `references/debugging.md` | Created or preserved in canonical package |
+| `huggingface-spaces` | `references/gradio.md` | Created or preserved in canonical package |
+| `huggingface-spaces` | `references/grants.md` | Created or preserved in canonical package |
+| `huggingface-spaces` | `references/inference-providers.md` | Created or preserved in canonical package |
+| `huggingface-spaces` | `references/known-errors.md` | Created or preserved in canonical package |
+| `huggingface-spaces` | `references/requirements.md` | Created or preserved in canonical package |
+| `huggingface-spaces` | `references/zerogpu.md` | Created or preserved in canonical package |
+| `incident-response-smart-fix` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `performance-profiling` | `scripts/lighthouse_audit.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

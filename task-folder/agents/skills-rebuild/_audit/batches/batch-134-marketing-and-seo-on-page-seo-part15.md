@@ -58,7 +58,23 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `seo-cluster` | `references/execution-workflow.md` | Created or preserved in canonical package |
+| `seo-cluster` | `references/hub-spoke-architecture.md` | Created or preserved in canonical package |
+| `seo-cluster` | `references/serp-overlap-methodology.md` | Created or preserved in canonical package |
+| `seo-content` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-content-brief` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-content-brief` | `references/excluded-domains.md` | Created or preserved in canonical package |
+| `seo-content-brief` | `references/keyword-density.md` | Created or preserved in canonical package |
+| `seo-content-brief` | `references/page-type-templates.md` | Created or preserved in canonical package |
+| `seo-dataforseo` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-dataforseo` | `references/cost-tiers.md` | Created or preserved in canonical package |
+| `seo-dataforseo` | `references/tool-catalog.md` | Created or preserved in canonical package |
+| `seo-dataforseo-suite` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-dataforseo-suite` | `references/cost-tiers.md` | Created or preserved in canonical package |
+| `seo-dataforseo-suite` | `references/tool-catalog.md` | Created or preserved in canonical package |
+| `seo-drift` | `references/comparison-rules.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

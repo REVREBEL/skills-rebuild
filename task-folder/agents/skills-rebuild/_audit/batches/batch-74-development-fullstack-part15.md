@@ -58,7 +58,22 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `influencer-finder` | `scripts/main.py` | Created or preserved in canonical package |
+| `influencer-finder` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `ingest-youtube` | `ingest.py` | Created or preserved in canonical package |
+| `internal-comms` | `LICENSE.txt` | Created or preserved in canonical package |
+| `internal-comms` | `examples/3p-updates.md` | Created or preserved in canonical package |
+| `internal-comms` | `examples/company-newsletter.md` | Created or preserved in canonical package |
+| `internal-comms` | `examples/faq-answers.md` | Created or preserved in canonical package |
+| `internal-comms` | `examples/general-comms.md` | Created or preserved in canonical package |
+| `internal-comms-community` | `LICENSE.txt` | Created or preserved in canonical package |
+| `internal-comms-guidelines` | `LICENSE.txt` | Created or preserved in canonical package |
+| `internal-comms-guidelines` | `examples/3p-updates.md` | Created or preserved in canonical package |
+| `internal-comms-guidelines` | `examples/company-newsletter.md` | Created or preserved in canonical package |
+| `internal-comms-guidelines` | `examples/faq-answers.md` | Created or preserved in canonical package |
+| `internal-comms-guidelines` | `examples/general-comms.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

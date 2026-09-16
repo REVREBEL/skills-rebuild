@@ -54,7 +54,18 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `playwright-skill` | `API_REFERENCE.md` | Created or preserved in canonical package |
+| `playwright-skill` | `lib/helpers.js` | Created or preserved in canonical package |
+| `playwright-skill` | `package.json` | Created or preserved in canonical package |
+| `playwright-skill` | `run.js` | Created or preserved in canonical package |
+| `python-testing-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `screen-reader-testing` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `temporal-python-testing` | `resources/integration-testing.md` | Created or preserved in canonical package |
+| `temporal-python-testing` | `resources/local-setup.md` | Created or preserved in canonical package |
+| `temporal-python-testing` | `resources/replay-testing.md` | Created or preserved in canonical package |
+| `temporal-python-testing` | `resources/unit-testing.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

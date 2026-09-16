@@ -58,7 +58,26 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `ai-seo` | `evals/evals.json` | Created or preserved in canonical package |
+| `ai-seo` | `references/content-patterns.md` | Created or preserved in canonical package |
+| `ai-seo` | `references/content-types.md` | Created or preserved in canonical package |
+| `ai-seo` | `references/platform-ranking-factors.md` | Created or preserved in canonical package |
+| `ecommerce-seo` | `evals/canonical-urls-and-crawl-directives/criteria.json` | Created or preserved in canonical package |
+| `ecommerce-seo` | `evals/canonical-urls-and-crawl-directives/task.md` | Created or preserved in canonical package |
+| `ecommerce-seo` | `evals/product-json-ld-structured-data/criteria.json` | Created or preserved in canonical package |
+| `ecommerce-seo` | `evals/product-json-ld-structured-data/task.md` | Created or preserved in canonical package |
+| `ecommerce-seo` | `evals/xml-sitemap-generation/criteria.json` | Created or preserved in canonical package |
+| `ecommerce-seo` | `evals/xml-sitemap-generation/task.md` | Created or preserved in canonical package |
+| `ecommerce-seo` | `tile.json` | Created or preserved in canonical package |
+| `internal-linking-optimizer` | `references/link-architecture-patterns.md` | Created or preserved in canonical package |
+| `internal-linking-optimizer` | `references/linking-example.md` | Created or preserved in canonical package |
+| `internal-linking-optimizer` | `references/linking-templates.md` | Created or preserved in canonical package |
+| `meta-tags-optimizer` | `references/ctr-and-social-reference.md` | Created or preserved in canonical package |
+| `meta-tags-optimizer` | `references/instructions-detail.md` | Created or preserved in canonical package |
+| `meta-tags-optimizer` | `references/meta-tag-code-templates.md` | Created or preserved in canonical package |
+| `meta-tags-optimizer` | `references/meta-tag-formulas.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

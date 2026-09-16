@@ -52,7 +52,30 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `notebook-lm-api` | `.gitignore` | Created or preserved in canonical package |
+| `notebook-lm-api` | `AUTHENTICATION.md` | Created or preserved in canonical package |
+| `notebook-lm-api` | `CHANGELOG.md` | Created or preserved in canonical package |
+| `notebook-lm-api` | `LICENSE` | Created or preserved in canonical package |
+| `notebook-lm-api` | `README.md` | Created or preserved in canonical package |
+| `notebook-lm-api` | `images/example_notebookchat.png` | Created or preserved in canonical package |
+| `notebook-lm-api` | `references/api_reference.md` | Created or preserved in canonical package |
+| `notebook-lm-api` | `references/troubleshooting.md` | Created or preserved in canonical package |
+| `notebook-lm-api` | `references/usage_patterns.md` | Created or preserved in canonical package |
+| `notebook-lm-api` | `requirements.txt` | Created or preserved in canonical package |
+| `notebook-lm-api` | `scripts/__init__.py` | Created or preserved in canonical package |
+| `notebook-lm-api` | `scripts/ask_question.py` | Created or preserved in canonical package |
+| `notebook-lm-api` | `scripts/auth_manager.py` | Created or preserved in canonical package |
+| `notebook-lm-api` | `scripts/browser_session.py` | Created or preserved in canonical package |
+| `notebook-lm-api` | `scripts/browser_utils.py` | Created or preserved in canonical package |
+| `notebook-lm-api` | `scripts/cleanup_manager.py` | Created or preserved in canonical package |
+| `notebook-lm-api` | `scripts/config.py` | Created or preserved in canonical package |
+| `notebook-lm-api` | `scripts/notebook_manager.py` | Created or preserved in canonical package |
+| `notebook-lm-api` | `scripts/run.py` | Created or preserved in canonical package |
+| `notebook-lm-api` | `scripts/setup_environment.py` | Created or preserved in canonical package |
+| `presence` | `README.md` | Created or preserved in canonical package |
+| `technical-tutorials` | `README.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

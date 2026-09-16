@@ -50,7 +50,15 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `test-driven-development` | `testing-anti-patterns.md` | Created or preserved in canonical package |
+| `test-guard` | `references/jest.md` | Created or preserved in canonical package |
+| `test-guard` | `references/llm-app-testing.md` | Created or preserved in canonical package |
+| `test-guard` | `references/phpunit.md` | Created or preserved in canonical package |
+| `test-guard` | `references/pytest.md` | Created or preserved in canonical package |
+| `webapp-testing` | `LICENSE.txt` | Created or preserved in canonical package |
+| `webapp-testing` | `scripts/with_server.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

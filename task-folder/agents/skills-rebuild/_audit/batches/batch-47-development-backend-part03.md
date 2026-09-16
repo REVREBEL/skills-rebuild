@@ -58,7 +58,16 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `codebase-design` | `DEEPENING.md` | Created or preserved in canonical package |
+| `codebase-design` | `DESIGN-IT-TWICE.md` | Created or preserved in canonical package |
+| `cpp-pro` | `references/build-tooling.md` | Created or preserved in canonical package |
+| `cpp-pro` | `references/concurrency.md` | Created or preserved in canonical package |
+| `cpp-pro` | `references/memory-performance.md` | Created or preserved in canonical package |
+| `cpp-pro` | `references/modern-cpp.md` | Created or preserved in canonical package |
+| `cpp-pro` | `references/templates.md` | Created or preserved in canonical package |
+| `cpp-pro` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

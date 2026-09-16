@@ -58,7 +58,10 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `co-marketing` | `evals/evals.json` | Created or preserved in canonical package |
+| `co-marketing_02` | `evals/evals.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

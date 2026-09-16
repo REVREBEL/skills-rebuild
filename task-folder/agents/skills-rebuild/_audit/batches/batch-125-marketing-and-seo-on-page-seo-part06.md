@@ -58,7 +58,20 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `developer-seo` | `README.md` | Created or preserved in canonical package |
+| `discovery-calls` | `assets/scorecard.md` | Created or preserved in canonical package |
+| `discovery-calls` | `references/question_bank.md` | Created or preserved in canonical package |
+| `educational-presentation` | `references/before-after.md` | Created or preserved in canonical package |
+| `educational-presentation` | `references/quick-reference.md` | Created or preserved in canonical package |
+| `educational-presentation` | `references/slide-templates.md` | Created or preserved in canonical package |
+| `educational-presentation` | `references/validation.md` | Created or preserved in canonical package |
+| `emails` | `evals/evals.json` | Created or preserved in canonical package |
+| `emails` | `references/copy-guidelines.md` | Created or preserved in canonical package |
+| `emails` | `references/email-types.md` | Created or preserved in canonical package |
+| `emails` | `references/sequence-templates.md` | Created or preserved in canonical package |
+| `exec-briefing` | `templates/briefing_doc.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

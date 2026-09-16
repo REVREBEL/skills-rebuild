@@ -58,7 +58,20 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `keyword-clusterer` | `scripts/main.py` | Created or preserved in canonical package |
+| `keyword-clusterer` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `keyword-research` | `references/example-report.md` | Created or preserved in canonical package |
+| `keyword-research` | `references/instructions-detail.md` | Created or preserved in canonical package |
+| `keyword-research` | `references/keyword-intent-taxonomy.md` | Created or preserved in canonical package |
+| `keyword-research` | `references/keyword-prioritization-framework.md` | Created or preserved in canonical package |
+| `keyword-research` | `references/topic-cluster-templates.md` | Created or preserved in canonical package |
+| `landing-page-generator` | `references/conversion-patterns.md` | Created or preserved in canonical package |
+| `landing-page-generator` | `references/frameworks.md` | Created or preserved in canonical package |
+| `landing-page-generator` | `references/landing-page-patterns.md` | Created or preserved in canonical package |
+| `landing-page-generator` | `references/seo-checklist.md` | Created or preserved in canonical package |
+| `landing-page-generator` | `scripts/landing_page_scaffolder.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

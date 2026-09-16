@@ -58,7 +58,31 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `competitor-analysis` | `references/analysis-templates.md` | Created or preserved in canonical package |
+| `competitor-analysis` | `references/battlecard-template.md` | Created or preserved in canonical package |
+| `competitor-analysis` | `references/example-report.md` | Created or preserved in canonical package |
+| `competitor-analysis` | `references/positioning-frameworks.md` | Created or preserved in canonical package |
+| `competitor-monitor` | `scripts/main.py` | Created or preserved in canonical package |
+| `competitor-monitor` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `competitors` | `evals/evals.json` | Created or preserved in canonical package |
+| `competitors` | `references/content-architecture.md` | Created or preserved in canonical package |
+| `competitors` | `references/templates.md` | Created or preserved in canonical package |
+| `content-gap-analysis` | `methodology/research-workflow/SKILL.md` | Created or preserved in canonical package |
+| `content-gap-analysis` | `methodology/research-workflow/assets/research-plan-template.md` | Created or preserved in canonical package |
+| `content-gap-analysis` | `methodology/research-workflow/assets/research-report-template.md` | Created or preserved in canonical package |
+| `content-gap-analysis` | `methodology/research-workflow/assets/source-evaluation-checklist.md` | Created or preserved in canonical package |
+| `content-gap-analysis` | `methodology/research-workflow/references/methodology.md` | Created or preserved in canonical package |
+| `content-gap-analysis` | `methodology/research-workflow/references/output-formats.md` | Created or preserved in canonical package |
+| `content-gap-analysis` | `methodology/research/SKILL.md` | Created or preserved in canonical package |
+| `content-gap-analysis` | `methodology/research/scripts/tavily-cli.ts` | Created or preserved in canonical package |
+| `content-gap-analysis` | `references/analysis-templates.md` | Created or preserved in canonical package |
+| `content-gap-analysis` | `references/example-report.md` | Created or preserved in canonical package |
+| `content-gap-analysis` | `references/gap-analysis-frameworks.md` | Created or preserved in canonical package |
+| `content-strategy` | `evals/evals.json` | Created or preserved in canonical package |
+| `content-strategy` | `references/headless-cms.md` | Created or preserved in canonical package |
+| `core-web-vitals` | `references/LCP.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

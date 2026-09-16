@@ -50,7 +50,9 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `protocol-reverse-engineering` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -58,7 +58,11 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `quality-gates` | `assets/qa_checklist.md` | Created or preserved in canonical package |
+| `rank-tracker` | `references/ranking-analysis-templates.md` | Created or preserved in canonical package |
+| `rank-tracker` | `references/tracking-setup-guide.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -50,7 +50,36 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `product-analytics` | `evals/dead-stock-detection-and-markdown-recomm/criteria.json` | Created or preserved in canonical package |
+| `product-analytics` | `evals/dead-stock-detection-and-markdown-recomm/task.md` | Created or preserved in canonical package |
+| `product-analytics` | `evals/merchandising-health-score-calculation/criteria.json` | Created or preserved in canonical package |
+| `product-analytics` | `evals/merchandising-health-score-calculation/task.md` | Created or preserved in canonical package |
+| `product-analytics` | `evals/pdp-funnel-conversion-analysis/criteria.json` | Created or preserved in canonical package |
+| `product-analytics` | `evals/pdp-funnel-conversion-analysis/task.md` | Created or preserved in canonical package |
+| `product-analytics` | `tile.json` | Created or preserved in canonical package |
+| `profit-margin-analysis` | `evals/cost-attribution-methodology/criteria.json` | Created or preserved in canonical package |
+| `profit-margin-analysis` | `evals/cost-attribution-methodology/task.md` | Created or preserved in canonical package |
+| `profit-margin-analysis` | `evals/margin-analysis-and-improvement/criteria.json` | Created or preserved in canonical package |
+| `profit-margin-analysis` | `evals/margin-analysis-and-improvement/task.md` | Created or preserved in canonical package |
+| `profit-margin-analysis` | `evals/margin-data-model-schema/criteria.json` | Created or preserved in canonical package |
+| `profit-margin-analysis` | `evals/margin-data-model-schema/task.md` | Created or preserved in canonical package |
+| `profit-margin-analysis` | `tile.json` | Created or preserved in canonical package |
+| `revenue-recognition-accounting` | `evals/bundle-ssp-allocation-and-journal-entrie/criteria.json` | Created or preserved in canonical package |
+| `revenue-recognition-accounting` | `evals/bundle-ssp-allocation-and-journal-entrie/task.md` | Created or preserved in canonical package |
+| `revenue-recognition-accounting` | `evals/gift-card-breakage-principal-vs-agent-va/criteria.json` | Created or preserved in canonical package |
+| `revenue-recognition-accounting` | `evals/gift-card-breakage-principal-vs-agent-va/task.md` | Created or preserved in canonical package |
+| `revenue-recognition-accounting` | `evals/subscription-proration-and-deferred-reve/criteria.json` | Created or preserved in canonical package |
+| `revenue-recognition-accounting` | `evals/subscription-proration-and-deferred-reve/task.md` | Created or preserved in canonical package |
+| `revenue-recognition-accounting` | `tile.json` | Created or preserved in canonical package |
+| `unit-economics-tracking` | `evals/cohort-ltv-and-channel-segmentation/criteria.json` | Created or preserved in canonical package |
+| `unit-economics-tracking` | `evals/cohort-ltv-and-channel-segmentation/task.md` | Created or preserved in canonical package |
+| `unit-economics-tracking` | `evals/fully-loaded-cac-and-guardrails/criteria.json` | Created or preserved in canonical package |
+| `unit-economics-tracking` | `evals/fully-loaded-cac-and-guardrails/task.md` | Created or preserved in canonical package |
+| `unit-economics-tracking` | `evals/ltv-prediction-model-and-validation/criteria.json` | Created or preserved in canonical package |
+| `unit-economics-tracking` | `evals/ltv-prediction-model-and-validation/task.md` | Created or preserved in canonical package |
+| `unit-economics-tracking` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

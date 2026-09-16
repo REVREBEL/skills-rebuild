@@ -52,7 +52,28 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `aeo-geo` | `ai-visibility-audit.md` | Created or preserved in canonical package |
+| `aeo-geo` | `citation-optimization.md` | Created or preserved in canonical package |
+| `aeo-geo` | `entity-consistency.md` | Created or preserved in canonical package |
+| `aeo-geo` | `llm-content-strategy.md` | Created or preserved in canonical package |
+| `analytics-integration` | `evals/data-layer-schema-and-e-commerce-events/criteria.json` | Created or preserved in canonical package |
+| `analytics-integration` | `evals/data-layer-schema-and-e-commerce-events/task.md` | Created or preserved in canonical package |
+| `analytics-integration` | `evals/meta-pixel-conversions-api-deduplication/criteria.json` | Created or preserved in canonical package |
+| `analytics-integration` | `evals/meta-pixel-conversions-api-deduplication/task.md` | Created or preserved in canonical package |
+| `analytics-integration` | `evals/spa-page-tracking-and-purchase-deduplica/criteria.json` | Created or preserved in canonical package |
+| `analytics-integration` | `evals/spa-page-tracking-and-purchase-deduplica/task.md` | Created or preserved in canonical package |
+| `analytics-integration` | `tile.json` | Created or preserved in canonical package |
+| `bot-protection` | `evals/edge-rate-limiting-middleware/criteria.json` | Created or preserved in canonical package |
+| `bot-protection` | `evals/edge-rate-limiting-middleware/task.md` | Created or preserved in canonical package |
+| `bot-protection` | `evals/honeypot-and-turnstile-captcha/criteria.json` | Created or preserved in canonical package |
+| `bot-protection` | `evals/honeypot-and-turnstile-captcha/task.md` | Created or preserved in canonical package |
+| `bot-protection` | `evals/scalper-detection-and-fair-queuing/criteria.json` | Created or preserved in canonical package |
+| `bot-protection` | `evals/scalper-detection-and-fair-queuing/task.md` | Created or preserved in canonical package |
+| `bot-protection` | `tile.json` | Created or preserved in canonical package |
+| `brand-voice-glossary` | `assets/voice_matrix.md` | Created or preserved in canonical package |
+| `content-quality-auditor` | `references/item-reference.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

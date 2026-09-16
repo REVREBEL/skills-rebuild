@@ -58,7 +58,68 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `design-spatial` | `scripts/layout-audit.js` | Created or preserved in canonical package |
+| `docx` | `LICENSE.txt` | Created or preserved in canonical package |
+| `docx` | `docx-js.md` | Created or preserved in canonical package |
+| `docx` | `ooxml.md` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-picture.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/pml.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-math.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/sml.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-main.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/wml.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ISO-IEC29500-4_2016/xml.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ecma/fouth-edition/opc-contentTypes.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ecma/fouth-edition/opc-coreProperties.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ecma/fouth-edition/opc-digSig.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/ecma/fouth-edition/opc-relationships.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/mce/mc.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/microsoft/wml-2010.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/microsoft/wml-2012.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/microsoft/wml-2018.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/microsoft/wml-cex-2018.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/microsoft/wml-cid-2016.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/microsoft/wml-sdtdatahash-2020.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/schemas/microsoft/wml-symex-2015.xsd` | Created or preserved in canonical package |
+| `docx` | `ooxml/scripts/pack.py` | Created or preserved in canonical package |
+| `docx` | `ooxml/scripts/unpack.py` | Created or preserved in canonical package |
+| `docx` | `ooxml/scripts/validate.py` | Created or preserved in canonical package |
+| `docx` | `ooxml/scripts/validation/__init__.py` | Created or preserved in canonical package |
+| `docx` | `ooxml/scripts/validation/base.py` | Created or preserved in canonical package |
+| `docx` | `ooxml/scripts/validation/docx.py` | Created or preserved in canonical package |
+| `docx` | `ooxml/scripts/validation/pptx.py` | Created or preserved in canonical package |
+| `docx` | `ooxml/scripts/validation/redlining.py` | Created or preserved in canonical package |
+| `docx` | `scripts/__init__.py` | Created or preserved in canonical package |
+| `docx` | `scripts/document.py` | Created or preserved in canonical package |
+| `docx` | `scripts/templates/comments.xml` | Created or preserved in canonical package |
+| `docx` | `scripts/templates/commentsExtended.xml` | Created or preserved in canonical package |
+| `docx` | `scripts/templates/commentsExtensible.xml` | Created or preserved in canonical package |
+| `docx` | `scripts/templates/commentsIds.xml` | Created or preserved in canonical package |
+| `docx` | `scripts/templates/people.xml` | Created or preserved in canonical package |
+| `docx` | `scripts/utilities.py` | Created or preserved in canonical package |
+| `domain-driven-design` | `references/ddd-deliverables.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

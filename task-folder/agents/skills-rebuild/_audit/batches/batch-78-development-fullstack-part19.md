@@ -58,7 +58,29 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `naming` | `README.md` | Created or preserved in canonical package |
+| `obsidian-clipper-template-creator` | `assets/clipping-template.json` | Created or preserved in canonical package |
+| `obsidian-clipper-template-creator` | `assets/recipe-template.json` | Created or preserved in canonical package |
+| `obsidian-clipper-template-creator` | `references/analysis-workflow.md` | Created or preserved in canonical package |
+| `obsidian-clipper-template-creator` | `references/bases-workflow.md` | Created or preserved in canonical package |
+| `obsidian-clipper-template-creator` | `references/filters.md` | Created or preserved in canonical package |
+| `obsidian-clipper-template-creator` | `references/json-schema.md` | Created or preserved in canonical package |
+| `obsidian-clipper-template-creator` | `references/logic.md` | Created or preserved in canonical package |
+| `obsidian-clipper-template-creator` | `references/variables.md` | Created or preserved in canonical package |
+| `obsidian-markdown` | `references/CALLOUTS.md` | Created or preserved in canonical package |
+| `obsidian-markdown` | `references/EMBEDS.md` | Created or preserved in canonical package |
+| `obsidian-markdown` | `references/PROPERTIES.md` | Created or preserved in canonical package |
+| `offers` | `references/bonus-stacking.md` | Created or preserved in canonical package |
+| `offers` | `references/examples.md` | Created or preserved in canonical package |
+| `offers` | `references/guarantee-design.md` | Created or preserved in canonical package |
+| `offers` | `references/offer-anatomy.md` | Created or preserved in canonical package |
+| `offers` | `references/offer-formats.md` | Created or preserved in canonical package |
+| `offers` | `references/scarcity-urgency.md` | Created or preserved in canonical package |
+| `offers` | `references/value-equation.md` | Created or preserved in canonical package |
+| `open-source-marketing` | `README.md` | Created or preserved in canonical package |
+| `openclaw-github-repo-commander` | `scripts/repo-audit.sh` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

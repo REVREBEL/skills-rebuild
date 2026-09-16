@@ -56,7 +56,80 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `hugging-face-jobs` | `index.html` | Created or preserved in canonical package |
+| `hugging-face-jobs` | `references/hardware_guide.md` | Created or preserved in canonical package |
+| `hugging-face-jobs` | `references/hub_saving.md` | Created or preserved in canonical package |
+| `hugging-face-jobs` | `references/token_usage.md` | Created or preserved in canonical package |
+| `hugging-face-jobs` | `references/troubleshooting.md` | Created or preserved in canonical package |
+| `hugging-face-jobs` | `scripts/cot-self-instruct.py` | Created or preserved in canonical package |
+| `hugging-face-jobs` | `scripts/finepdfs-stats.py` | Created or preserved in canonical package |
+| `hugging-face-jobs` | `scripts/generate-responses.py` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `references/gguf_conversion.md` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `references/hardware_guide.md` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `references/hub_saving.md` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `references/local_training_macos.md` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `references/reliability_principles.md` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `references/trackio_guide.md` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `references/training_methods.md` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `references/training_patterns.md` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `references/troubleshooting.md` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `references/unsloth.md` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `scripts/convert_to_gguf.py` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `scripts/dataset_inspector.py` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `scripts/estimate_cost.py` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `scripts/hf_benchmarks.py` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `scripts/train_dpo_example.py` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `scripts/train_grpo_example.py` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `scripts/train_sft_example.py` | Created or preserved in canonical package |
+| `hugging-face-model-trainer` | `scripts/unsloth_sft_example.py` | Created or preserved in canonical package |
+| `hugging-face-paper-publisher` | `examples/example_usage.md` | Created or preserved in canonical package |
+| `hugging-face-paper-publisher` | `references/quick_reference.md` | Created or preserved in canonical package |
+| `hugging-face-paper-publisher` | `scripts/paper_manager.py` | Created or preserved in canonical package |
+| `hugging-face-paper-publisher` | `templates/arxiv.md` | Created or preserved in canonical package |
+| `hugging-face-paper-publisher` | `templates/ml-report.md` | Created or preserved in canonical package |
+| `hugging-face-paper-publisher` | `templates/modern.md` | Created or preserved in canonical package |
+| `hugging-face-paper-publisher` | `templates/standard.md` | Created or preserved in canonical package |
+| `hugging-face-trackio` | `.claude-plugin/plugin.json` | Created or preserved in canonical package |
+| `hugging-face-trackio` | `references/alerts.md` | Created or preserved in canonical package |
+| `hugging-face-trackio` | `references/logging_metrics.md` | Created or preserved in canonical package |
+| `hugging-face-trackio` | `references/retrieving_metrics.md` | Created or preserved in canonical package |
+| `huggingface-local-models` | `references/hardware.md` | Created or preserved in canonical package |
+| `huggingface-local-models` | `references/hub-discovery.md` | Created or preserved in canonical package |
+| `huggingface-local-models` | `references/quantization.md` | Created or preserved in canonical package |
+| `huggingface-lora-space-builder` | `references/adapting-to-the-lora.md` | Created or preserved in canonical package |
+| `huggingface-lora-space-builder` | `references/base-models/krea-2.md` | Created or preserved in canonical package |
+| `huggingface-lora-space-builder` | `references/base-models/ltx.md` | Created or preserved in canonical package |
+| `huggingface-lora-space-builder` | `references/base-models/qwen-image.md` | Created or preserved in canonical package |
+| `huggingface-lora-space-builder` | `references/creative-mode.md` | Created or preserved in canonical package |
+| `huggingface-lora-space-builder` | `references/tasks.md` | Created or preserved in canonical package |
+| `huggingface-lora-space-builder` | `references/zerogpu-and-publishing.md` | Created or preserved in canonical package |
+| `huggingface-tool-builder` | `references/baseline_hf_api.py` | Created or preserved in canonical package |
+| `huggingface-tool-builder` | `references/baseline_hf_api.sh` | Created or preserved in canonical package |
+| `huggingface-tool-builder` | `references/baseline_hf_api.tsx` | Created or preserved in canonical package |
+| `huggingface-tool-builder` | `references/find_models_by_paper.sh` | Created or preserved in canonical package |
+| `huggingface-tool-builder` | `references/hf_enrich_models.sh` | Created or preserved in canonical package |
+| `huggingface-tool-builder` | `references/hf_model_card_frontmatter.sh` | Created or preserved in canonical package |
+| `huggingface-tool-builder` | `references/hf_model_papers_auth.sh` | Created or preserved in canonical package |
+| `huggingface-zerogpu` | `references/concurrency.md` | Created or preserved in canonical package |
+| `huggingface-zerogpu` | `references/cuda-and-deps.md` | Created or preserved in canonical package |
+| `huggingface-zerogpu` | `references/how-quota-works.md` | Created or preserved in canonical package |
+| `huggingface-zerogpu` | `references/how-zerogpu-works.md` | Created or preserved in canonical package |
+| `predictive-personalization` | `evals/behavioral-event-tracking-and-user-profi/criteria.json` | Created or preserved in canonical package |
+| `predictive-personalization` | `evals/behavioral-event-tracking-and-user-profi/task.md` | Created or preserved in canonical package |
+| `predictive-personalization` | `evals/collaborative-filtering-model-with-jacca/criteria.json` | Created or preserved in canonical package |
+| `predictive-personalization` | `evals/collaborative-filtering-model-with-jacca/task.md` | Created or preserved in canonical package |
+| `predictive-personalization` | `evals/recommendation-scoring-diversity-a-b-tes/criteria.json` | Created or preserved in canonical package |
+| `predictive-personalization` | `evals/recommendation-scoring-diversity-a-b-tes/task.md` | Created or preserved in canonical package |
+| `predictive-personalization` | `tile.json` | Created or preserved in canonical package |
+| `transformers-js` | `references/CACHE.md` | Created or preserved in canonical package |
+| `transformers-js` | `references/CONFIGURATION.md` | Created or preserved in canonical package |
+| `transformers-js` | `references/EXAMPLES.md` | Created or preserved in canonical package |
+| `transformers-js` | `references/MODEL_ARCHITECTURES.md` | Created or preserved in canonical package |
+| `transformers-js` | `references/MODEL_REGISTRY.md` | Created or preserved in canonical package |
+| `transformers-js` | `references/PIPELINE_OPTIONS.md` | Created or preserved in canonical package |
+| `transformers-js` | `references/TEXT_GENERATION.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -58,7 +58,14 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `cc-skill-strategic-compact` | `suggest-compact.sh` | Created or preserved in canonical package |
+| `changelog-automation` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `changelog-updates` | `README.md` | Created or preserved in canonical package |
+| `churn-prevention` | `evals/evals.json` | Created or preserved in canonical package |
+| `churn-prevention` | `references/cancel-flow-patterns.md` | Created or preserved in canonical package |
+| `churn-prevention` | `references/dunning-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

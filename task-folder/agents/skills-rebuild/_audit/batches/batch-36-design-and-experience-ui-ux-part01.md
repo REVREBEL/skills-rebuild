@@ -58,7 +58,47 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `brand-analyzer` | `assets/brand_analysis_report_template.md` | Created or preserved in canonical package |
+| `brand-analyzer` | `assets/brand_guidelines_template.md` | Created or preserved in canonical package |
+| `brand-analyzer` | `assets/quick_brand_audit_template.md` | Created or preserved in canonical package |
+| `brand-analyzer` | `index.js` | Created or preserved in canonical package |
+| `brand-analyzer` | `package.json` | Created or preserved in canonical package |
+| `brand-analyzer` | `references/brand_analysis_framework.md` | Created or preserved in canonical package |
+| `brand-analyzer` | `references/brand_archetypes.md` | Created or preserved in canonical package |
+| `brandkit` | `LICENSE` | Created or preserved in canonical package |
+| `business-analytics-reporter` | `assets/report_template.html` | Created or preserved in canonical package |
+| `business-analytics-reporter` | `index.js` | Created or preserved in canonical package |
+| `business-analytics-reporter` | `package.json` | Created or preserved in canonical package |
+| `business-analytics-reporter` | `references/business_frameworks.md` | Created or preserved in canonical package |
+| `business-analytics-reporter` | `references/visualization_guide.md` | Created or preserved in canonical package |
+| `business-analytics-reporter` | `scripts/analyze_business_data.py` | Created or preserved in canonical package |
+| `ce-optimize` | `references/example-hard-spec.yaml` | Created or preserved in canonical package |
+| `ce-optimize` | `references/example-judge-spec.yaml` | Created or preserved in canonical package |
+| `ce-optimize` | `references/experiment-log-schema.yaml` | Created or preserved in canonical package |
+| `ce-optimize` | `references/experiment-prompt-template.md` | Created or preserved in canonical package |
+| `ce-optimize` | `references/judge-prompt-template.md` | Created or preserved in canonical package |
+| `ce-optimize` | `references/optimize-spec-schema.yaml` | Created or preserved in canonical package |
+| `ce-optimize` | `references/usage-guide.md` | Created or preserved in canonical package |
+| `ce-optimize` | `scripts/experiment-worktree.sh` | Created or preserved in canonical package |
+| `ce-optimize` | `scripts/measure.sh` | Created or preserved in canonical package |
+| `ce-optimize` | `scripts/parallel-probe.sh` | Created or preserved in canonical package |
+| `ce-polish` | `references/dev-server-astro.md` | Created or preserved in canonical package |
+| `ce-polish` | `references/dev-server-detection.md` | Created or preserved in canonical package |
+| `ce-polish` | `references/dev-server-next.md` | Created or preserved in canonical package |
+| `ce-polish` | `references/dev-server-nuxt.md` | Created or preserved in canonical package |
+| `ce-polish` | `references/dev-server-procfile.md` | Created or preserved in canonical package |
+| `ce-polish` | `references/dev-server-rails.md` | Created or preserved in canonical package |
+| `ce-polish` | `references/dev-server-remix.md` | Created or preserved in canonical package |
+| `ce-polish` | `references/dev-server-sveltekit.md` | Created or preserved in canonical package |
+| `ce-polish` | `references/dev-server-vite.md` | Created or preserved in canonical package |
+| `ce-polish` | `references/ide-detection.md` | Created or preserved in canonical package |
+| `ce-polish` | `references/launch-json-schema.md` | Created or preserved in canonical package |
+| `ce-polish` | `scripts/detect-project-type.sh` | Created or preserved in canonical package |
+| `ce-polish` | `scripts/read-launch-json.sh` | Created or preserved in canonical package |
+| `ce-polish` | `scripts/resolve-package-manager.sh` | Created or preserved in canonical package |
+| `ce-polish` | `scripts/resolve-port.sh` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

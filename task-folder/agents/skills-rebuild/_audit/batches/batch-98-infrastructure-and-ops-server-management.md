@@ -40,7 +40,77 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `agents-sdk` | `references/browse-the-web.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/callable.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/client-sdk.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/codemode.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/configuration.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/durable-execution.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/email.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/human-in-the-loop.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/mcp.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/observability.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/queue-retries.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/routing.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/server-driven-messages.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/state-scheduling.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/streaming-chat.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/think.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/voice.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/webhooks-push.md` | Created or preserved in canonical package |
+| `agents-sdk` | `references/workflows.md` | Created or preserved in canonical package |
+| `react-best-practices` | `AGENTS.md` | Created or preserved in canonical package |
+| `react-best-practices` | `README.md` | Created or preserved in canonical package |
+| `react-best-practices` | `metadata.json` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/_sections.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/_template.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/advanced-event-handler-refs.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/advanced-use-latest.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/async-api-routes.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/async-defer-await.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/async-dependencies.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/async-parallel.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/async-suspense-boundaries.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/bundle-barrel-imports.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/bundle-conditional.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/bundle-defer-third-party.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/bundle-dynamic-imports.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/bundle-preload.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/client-event-listeners.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/client-swr-dedup.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/js-batch-dom-css.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/js-cache-function-results.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/js-cache-property-access.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/js-cache-storage.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/js-combine-iterations.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/js-early-exit.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/js-hoist-regexp.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/js-index-maps.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/js-length-check-first.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/js-min-max-loop.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/js-set-map-lookups.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/js-tosorted-immutable.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rendering-activity.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rendering-animate-svg-wrapper.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rendering-conditional-render.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rendering-content-visibility.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rendering-hoist-jsx.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rendering-hydration-no-flicker.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rendering-svg-precision.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rerender-defer-reads.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rerender-dependencies.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rerender-derived-state.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rerender-functional-setstate.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rerender-lazy-state-init.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rerender-memo.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/rerender-transitions.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/server-after-nonblocking.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/server-cache-lru.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/server-cache-react.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/server-parallel-fetching.md` | Created or preserved in canonical package |
+| `react-best-practices` | `rules/server-serialization.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

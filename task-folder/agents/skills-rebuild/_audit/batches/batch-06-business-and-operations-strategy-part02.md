@@ -54,7 +54,17 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `returns-reverse-logistics` | `references/communication-templates.md` | Created or preserved in canonical package |
+| `returns-reverse-logistics` | `references/decision-frameworks.md` | Created or preserved in canonical package |
+| `returns-reverse-logistics` | `references/edge-cases.md` | Created or preserved in canonical package |
+| `sales-enablement` | `evals/evals.json` | Created or preserved in canonical package |
+| `sales-enablement` | `references/deck-frameworks.md` | Created or preserved in canonical package |
+| `sales-enablement` | `references/demo-scripts.md` | Created or preserved in canonical package |
+| `sales-enablement` | `references/objection-library.md` | Created or preserved in canonical package |
+| `sales-enablement` | `references/one-pager-templates.md` | Created or preserved in canonical package |
+| `startup-metrics-framework` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

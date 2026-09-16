@@ -58,7 +58,13 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `bash-defensive-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `brainstorming` | `data/constraints.json` | Created or preserved in canonical package |
+| `brainstorming` | `scripts/constraint-entropy.ts` | Created or preserved in canonical package |
+| `brand-guidelines-anthropic` | `LICENSE.txt` | Created or preserved in canonical package |
+| `brand-guidelines-community` | `LICENSE.txt` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

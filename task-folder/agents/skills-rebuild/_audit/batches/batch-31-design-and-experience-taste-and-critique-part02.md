@@ -54,7 +54,53 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `design-it` | `3d-ui/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `ai-native-ui/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `aurora-ui/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `bento-ui/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `brutalism/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `brutalist-typography/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `card-based-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `color-blocking/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `command-center-ui/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `cyber-y2k/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `cyberpunk-ui/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `dark-mode/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `dashboard-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `data-dense-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `duotone-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `editorial-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `flat-design-2/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `flat-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `floating-ui/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `frutiger-aero/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `glassmorphism/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `high-contrast/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `holographic-ui/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `isometric-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `layered-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `material-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `maximalism/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `minimalism/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `monochromatic-ui/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `neo-brutalism/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `neumorphism/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `retro-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `retro-futurism/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `sci-fi-interface/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `soft-pastel/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `spatial-computing-ui/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `spatial-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `swiss-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `synthwave/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `tile-design/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `typography-first/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `vaporwave/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `vibrant-maximalism/SKILL.md` | Created or preserved in canonical package |
+| `design-it` | `y2k-design/SKILL.md` | Created or preserved in canonical package |
+| `design-philosophy` | `reference.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

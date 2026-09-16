@@ -58,7 +58,18 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `audit-website` | `README.md` | Created or preserved in canonical package |
+| `audit-website` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `audit-website` | `assets/icon-large.png` | Created or preserved in canonical package |
+| `audit-website` | `assets/icon-small.svg` | Created or preserved in canonical package |
+| `audit-website` | `references/OUTPUT-FORMAT.md` | Created or preserved in canonical package |
+| `backlink-analyzer` | `references/analysis-templates.md` | Created or preserved in canonical package |
+| `backlink-analyzer` | `references/link-quality-rubric.md` | Created or preserved in canonical package |
+| `backlink-analyzer` | `references/outreach-templates.md` | Created or preserved in canonical package |
+| `board-readiness-kit` | `templates/board_deck_outline.md` | Created or preserved in canonical package |
+| `campaign-planning` | `templates/campaign_brief.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

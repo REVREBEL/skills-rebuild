@@ -58,7 +58,13 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `alternatives-pages` | `README.md` | Created or preserved in canonical package |
+| `analyze-project` | `examples/sample_session_analysis_report.md` | Created or preserved in canonical package |
+| `anti-reversing-techniques` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `antigravity-maintainer-batch-release` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `antigravity-skill-orchestrator` | `README.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -52,7 +52,10 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `code-refactoring-refactor-clean` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `codebase-cleanup-refactor-clean` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

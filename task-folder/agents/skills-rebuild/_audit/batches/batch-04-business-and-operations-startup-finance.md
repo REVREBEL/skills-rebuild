@@ -54,7 +54,24 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `competitor-tracking` | `README.md` | Created or preserved in canonical package |
+| `copy-editing` | `evals/evals.json` | Created or preserved in canonical package |
+| `copy-editing` | `references/checklist.md` | Created or preserved in canonical package |
+| `copy-editing` | `references/content-refresh.md` | Created or preserved in canonical package |
+| `copy-editing` | `references/plain-english-alternatives.md` | Created or preserved in canonical package |
+| `copywriting` | `evals/evals.json` | Created or preserved in canonical package |
+| `copywriting` | `references/copy-frameworks.md` | Created or preserved in canonical package |
+| `copywriting` | `references/natural-transitions.md` | Created or preserved in canonical package |
+| `pricing` | `evals/evals.json` | Created or preserved in canonical package |
+| `pricing` | `references/research-methods.md` | Created or preserved in canonical package |
+| `pricing` | `references/tier-structure.md` | Created or preserved in canonical package |
+| `revops` | `evals/evals.json` | Created or preserved in canonical package |
+| `revops` | `references/automation-playbooks.md` | Created or preserved in canonical package |
+| `revops` | `references/lifecycle-definitions.md` | Created or preserved in canonical package |
+| `revops` | `references/routing-rules.md` | Created or preserved in canonical package |
+| `revops` | `references/scoring-models.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

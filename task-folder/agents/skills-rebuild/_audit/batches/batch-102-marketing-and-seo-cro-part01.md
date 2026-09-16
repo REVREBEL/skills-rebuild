@@ -58,7 +58,15 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `attribution-modeling` | `evals/attribution-model-implementations/criteria.json` | Created or preserved in canonical package |
+| `attribution-modeling` | `evals/attribution-model-implementations/task.md` | Created or preserved in canonical package |
+| `attribution-modeling` | `evals/markov-chain-data-driven-attribution/criteria.json` | Created or preserved in canonical package |
+| `attribution-modeling` | `evals/markov-chain-data-driven-attribution/task.md` | Created or preserved in canonical package |
+| `attribution-modeling` | `evals/touchpoint-capture-and-conversion-path-l/criteria.json` | Created or preserved in canonical package |
+| `attribution-modeling` | `evals/touchpoint-capture-and-conversion-path-l/task.md` | Created or preserved in canonical package |
+| `attribution-modeling` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

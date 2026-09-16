@@ -58,7 +58,9 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `web-quality-audit` | `scripts/analyze.sh` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -58,7 +58,26 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `pr-workflows-pr-enhance` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `pre-release-review` | `references/checklist.md` | Created or preserved in canonical package |
+| `pre-release-review` | `references/report-template.md` | Created or preserved in canonical package |
+| `product-launch-campaigns` | `evals/email-sequence-and-paid-social-campaign-/criteria.json` | Created or preserved in canonical package |
+| `product-launch-campaigns` | `evals/email-sequence-and-paid-social-campaign-/task.md` | Created or preserved in canonical package |
+| `product-launch-campaigns` | `evals/launch-campaign-timeline-planning/criteria.json` | Created or preserved in canonical package |
+| `product-launch-campaigns` | `evals/launch-campaign-timeline-planning/task.md` | Created or preserved in canonical package |
+| `product-launch-campaigns` | `evals/waitlist-and-early-access-implementation/criteria.json` | Created or preserved in canonical package |
+| `product-launch-campaigns` | `evals/waitlist-and-early-access-implementation/task.md` | Created or preserved in canonical package |
+| `product-launch-campaigns` | `tile.json` | Created or preserved in canonical package |
+| `product-manager-toolkit` | `references/prd_templates.md` | Created or preserved in canonical package |
+| `product-manager-toolkit` | `scripts/customer_interview_analyzer.py` | Created or preserved in canonical package |
+| `product-manager-toolkit` | `scripts/rice_prioritizer.py` | Created or preserved in canonical package |
+| `product-marketing` | `evals/evals.json` | Created or preserved in canonical package |
+| `production-scheduling` | `references/communication-templates.md` | Created or preserved in canonical package |
+| `production-scheduling` | `references/decision-frameworks.md` | Created or preserved in canonical package |
+| `production-scheduling` | `references/edge-cases.md` | Created or preserved in canonical package |
+| `prompt-engineer` | `README.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

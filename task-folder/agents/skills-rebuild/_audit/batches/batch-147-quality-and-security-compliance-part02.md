@@ -50,7 +50,20 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `privacy-by-design` | `README.md` | Created or preserved in canonical package |
+| `sms` | `evals/evals.json` | Created or preserved in canonical package |
+| `sms` | `references/compliance.md` | Created or preserved in canonical package |
+| `sms` | `references/platforms.md` | Created or preserved in canonical package |
+| `sms` | `references/sequence-templates.md` | Created or preserved in canonical package |
+| `sms-marketing` | `evals/compliant-opt-in-and-consent-storage/criteria.json` | Created or preserved in canonical package |
+| `sms-marketing` | `evals/compliant-opt-in-and-consent-storage/task.md` | Created or preserved in canonical package |
+| `sms-marketing` | `evals/inbound-sms-keyword-webhook-handling/criteria.json` | Created or preserved in canonical package |
+| `sms-marketing` | `evals/inbound-sms-keyword-webhook-handling/task.md` | Created or preserved in canonical package |
+| `sms-marketing` | `evals/marketing-sms-send-with-compliance-check/criteria.json` | Created or preserved in canonical package |
+| `sms-marketing` | `evals/marketing-sms-send-with-compliance-check/task.md` | Created or preserved in canonical package |
+| `sms-marketing` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

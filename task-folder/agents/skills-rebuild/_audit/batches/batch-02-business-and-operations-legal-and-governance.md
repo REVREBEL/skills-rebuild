@@ -51,7 +51,15 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `data-quality-frameworks` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `ddd-context-mapping` | `references/context-map-patterns.md` | Created or preserved in canonical package |
+| `employment-contract-templates` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `n8n-error-handling` | `references/API_WORKFLOWS.md` | Created or preserved in canonical package |
+| `n8n-error-handling` | `references/ERROR_WORKFLOWS.md` | Created or preserved in canonical package |
+| `n8n-error-handling` | `references/NODE_ERROR_OUTPUTS.md` | Created or preserved in canonical package |
+| `n8n-error-handling` | `references/RESPONSE_SHAPES.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

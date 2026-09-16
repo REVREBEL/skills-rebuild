@@ -58,7 +58,33 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `webflow-code-component-local-dev-setup` | `references/EXAMPLES.md` | Created or preserved in canonical package |
+| `webflow-code-component-troubleshoot-deploy` | `references/ERROR_CATALOG.md` | Created or preserved in canonical package |
+| `wiki-builder` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `wiki-builder` | `references/wiki-flavors.md` | Created or preserved in canonical package |
+| `wiki-builder` | `scripts/init_wiki.sh` | Created or preserved in canonical package |
+| `wiki-builder` | `templates/index.md` | Created or preserved in canonical package |
+| `wiki-builder` | `templates/maintenance-log.md` | Created or preserved in canonical package |
+| `wiki-builder` | `templates/prompts/compile-concept-page.md` | Created or preserved in canonical package |
+| `wiki-builder` | `templates/prompts/compile-index.md` | Created or preserved in canonical package |
+| `wiki-builder` | `templates/prompts/compile-source-page.md` | Created or preserved in canonical package |
+| `wiki-builder` | `templates/prompts/lint-wiki.md` | Created or preserved in canonical package |
+| `wiki-builder` | `templates/prompts/query-and-file.md` | Created or preserved in canonical package |
+| `wiki-builder` | `templates/sources.md` | Created or preserved in canonical package |
+| `wiki-builder` | `templates/wiki.config.md` | Created or preserved in canonical package |
+| `write-like-gary` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `write-like-gary` | `mcp-server-guide-main/.claude-plugin/plugin.json` | Created or preserved in canonical package |
+| `write-like-gary` | `mcp-server-guide-main/.cursor-plugin/plugin.json` | Created or preserved in canonical package |
+| `write-like-gary` | `mcp-server-guide-main/.github/plugin/plugin.json` | Created or preserved in canonical package |
+| `write-like-gary` | `mcp-server-guide-main/.mcp.json` | Created or preserved in canonical package |
+| `write-like-gary` | `mcp-server-guide-main/Figma Icon (Full-color).svg` | Created or preserved in canonical package |
+| `write-like-gary` | `mcp-server-guide-main/Figma Icon (Mono-line black, tight).svg` | Created or preserved in canonical package |
+| `write-like-gary` | `mcp-server-guide-main/README.md` | Created or preserved in canonical package |
+| `write-like-gary` | `mcp-server-guide-main/gemini-extension.json` | Created or preserved in canonical package |
+| `write-like-gary` | `mcp-server-guide-main/server.json` | Created or preserved in canonical package |
+| `writing-great-skills` | `GLOSSARY.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

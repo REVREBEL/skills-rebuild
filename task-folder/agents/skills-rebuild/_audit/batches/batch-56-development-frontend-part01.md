@@ -56,7 +56,52 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `anti-sycophancy` | `README.md` | Created or preserved in canonical package |
+| `clerk-nextjs-patterns` | `evals/evals.json` | Created or preserved in canonical package |
+| `clerk-nextjs-patterns` | `references/api-routes.md` | Created or preserved in canonical package |
+| `clerk-nextjs-patterns` | `references/caching-auth.md` | Created or preserved in canonical package |
+| `clerk-nextjs-patterns` | `references/middleware-strategies.md` | Created or preserved in canonical package |
+| `clerk-nextjs-patterns` | `references/server-actions.md` | Created or preserved in canonical package |
+| `clerk-nextjs-patterns` | `references/server-vs-client.md` | Created or preserved in canonical package |
+| `clerk-nextjs-patterns` | `templates/nextjs-basic-auth/app/layout.tsx` | Created or preserved in canonical package |
+| `clerk-nextjs-patterns` | `templates/nextjs-basic-auth/app/page.tsx` | Created or preserved in canonical package |
+| `clerk-nextjs-patterns` | `templates/nextjs-basic-auth/package.json` | Created or preserved in canonical package |
+| `clerk-nextjs-patterns` | `templates/nextjs-basic-auth/proxy.ts` | Created or preserved in canonical package |
+| `clerk-nextjs-patterns` | `templates/nextjs-basic-auth/tsconfig.json` | Created or preserved in canonical package |
+| `development` | `developer/developer-advocacy/README.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-advocacy/SKILL.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-audience-context/README.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-audience-context/SKILL.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-audience-context/references/example-apitest.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-audience-context/references/template.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-churn/README.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-churn/SKILL.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-listening/README.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-listening/SKILL.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-newsletter/README.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-newsletter/SKILL.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-onboarding/README.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-onboarding/SKILL.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-sandbox/README.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-sandbox/SKILL.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-seo/README.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-seo/SKILL.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-signup-flow/README.md` | Created or preserved in canonical package |
+| `development` | `developer/developer-signup-flow/SKILL.md` | Created or preserved in canonical package |
+| `development` | `developer/devops-troubleshooter/SKILL.md` | Created or preserved in canonical package |
+| `frontend-design` | `LICENSE.txt` | Created or preserved in canonical package |
+| `frontend-dev-guidelines` | `resources/common-patterns.md` | Created or preserved in canonical package |
+| `frontend-dev-guidelines` | `resources/complete-examples.md` | Created or preserved in canonical package |
+| `frontend-dev-guidelines` | `resources/component-patterns.md` | Created or preserved in canonical package |
+| `frontend-dev-guidelines` | `resources/data-fetching.md` | Created or preserved in canonical package |
+| `frontend-dev-guidelines` | `resources/file-organization.md` | Created or preserved in canonical package |
+| `frontend-dev-guidelines` | `resources/loading-and-error-states.md` | Created or preserved in canonical package |
+| `frontend-dev-guidelines` | `resources/performance.md` | Created or preserved in canonical package |
+| `frontend-dev-guidelines` | `resources/routing-guide.md` | Created or preserved in canonical package |
+| `frontend-dev-guidelines` | `resources/styling-guide.md` | Created or preserved in canonical package |
+| `frontend-dev-guidelines` | `resources/typescript-standards.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

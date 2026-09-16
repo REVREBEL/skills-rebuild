@@ -58,7 +58,14 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `pdf-extractor` | `scripts/main.py` | Created or preserved in canonical package |
+| `pdf-extractor` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `performance-reporter` | `references/kpi-definitions.md` | Created or preserved in canonical package |
+| `performance-reporter` | `references/report-output-templates.md` | Created or preserved in canonical package |
+| `performance-reporter` | `references/report-templates.md` | Created or preserved in canonical package |
+| `personalization` | `assets/personalization_tokens.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

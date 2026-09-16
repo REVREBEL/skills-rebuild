@@ -58,7 +58,17 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `permission-manager` | `README.md` | Created or preserved in canonical package |
+| `planning-with-files` | `examples.md` | Created or preserved in canonical package |
+| `planning-with-files` | `reference.md` | Created or preserved in canonical package |
+| `planning-with-files` | `scripts/check-complete.sh` | Created or preserved in canonical package |
+| `planning-with-files` | `scripts/init-session.sh` | Created or preserved in canonical package |
+| `planning-with-files` | `templates/findings.md` | Created or preserved in canonical package |
+| `planning-with-files` | `templates/progress.md` | Created or preserved in canonical package |
+| `planning-with-files` | `templates/task_plan.md` | Created or preserved in canonical package |
+| `power-user-cultivation` | `README.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

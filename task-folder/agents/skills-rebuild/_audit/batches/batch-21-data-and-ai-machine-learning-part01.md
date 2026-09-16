@@ -56,7 +56,28 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `content-commerce_02` | `SKILL copy.md` | Created or preserved in canonical package |
+| `content-commerce_02` | `evals/schema-org-seo-markup-for-shoppable-arti/criteria.json` | Created or preserved in canonical package |
+| `content-commerce_02` | `evals/schema-org-seo-markup-for-shoppable-arti/task.md` | Created or preserved in canonical package |
+| `content-commerce_02` | `evals/shoppable-product-embed-component-with-a/criteria.json` | Created or preserved in canonical package |
+| `content-commerce_02` | `evals/shoppable-product-embed-component-with-a/task.md` | Created or preserved in canonical package |
+| `content-commerce_02` | `evals/utm-content-attribution-and-order-tracki/criteria.json` | Created or preserved in canonical package |
+| `content-commerce_02` | `evals/utm-content-attribution-and-order-tracki/task.md` | Created or preserved in canonical package |
+| `content-commerce_02` | `tile.json` | Created or preserved in canonical package |
+| `developer-sandbox` | `README.md` | Created or preserved in canonical package |
+| `gemini-api` | `references/advanced_features.md` | Created or preserved in canonical package |
+| `gemini-api` | `references/bounding_box.md` | Created or preserved in canonical package |
+| `gemini-api` | `references/embeddings.md` | Created or preserved in canonical package |
+| `gemini-api` | `references/live_api.md` | Created or preserved in canonical package |
+| `gemini-api` | `references/media_generation.md` | Created or preserved in canonical package |
+| `gemini-api` | `references/model_tuning.md` | Created or preserved in canonical package |
+| `gemini-api` | `references/safety.md` | Created or preserved in canonical package |
+| `gemini-api` | `references/structured_and_tools.md` | Created or preserved in canonical package |
+| `gemini-api` | `references/text_and_multimodal.md` | Created or preserved in canonical package |
+| `gemini-interactions-api` | `references/migration.md` | Created or preserved in canonical package |
+| `hugging-face-gradio` | `examples.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

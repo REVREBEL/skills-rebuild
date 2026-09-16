@@ -52,7 +52,31 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `improve-codebase-architecture` | `HTML-REPORT.md` | Created or preserved in canonical package |
+| `logic-diff` | `logic-diff-guide.md` | Created or preserved in canonical package |
+| `lore` | `LICENSE` | Created or preserved in canonical package |
+| `lore` | `README.md` | Created or preserved in canonical package |
+| `lore` | `README.zh-CN.md` | Created or preserved in canonical package |
+| `lore` | `WORKFLOWS.md` | Created or preserved in canonical package |
+| `lore` | `WORKFLOWS.zh-CN.md` | Created or preserved in canonical package |
+| `lore` | `references/audit-template.md` | Created or preserved in canonical package |
+| `lore` | `references/compatibility.md` | Created or preserved in canonical package |
+| `lore` | `references/config.md` | Created or preserved in canonical package |
+| `lore` | `references/entry-format.md` | Created or preserved in canonical package |
+| `lore` | `references/history-command.md` | Created or preserved in canonical package |
+| `lore` | `references/monorepo-detection.md` | Created or preserved in canonical package |
+| `lore` | `references/platform-mirrors.md` | Created or preserved in canonical package |
+| `lore` | `references/stale-new-markers.md` | Created or preserved in canonical package |
+| `lore` | `references/summary-template.md` | Created or preserved in canonical package |
+| `lore` | `scripts/README.md` | Created or preserved in canonical package |
+| `lore` | `scripts/README.zh-CN.md` | Created or preserved in canonical package |
+| `lore` | `scripts/find_duplicates.py` | Created or preserved in canonical package |
+| `lore` | `scripts/find_stale.py` | Created or preserved in canonical package |
+| `lore` | `scripts/history.py` | Created or preserved in canonical package |
+| `lore` | `scripts/id_hash.py` | Created or preserved in canonical package |
+| `lore` | `scripts/list_entries.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

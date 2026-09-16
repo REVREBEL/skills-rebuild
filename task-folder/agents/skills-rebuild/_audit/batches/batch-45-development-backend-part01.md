@@ -58,7 +58,59 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `ai-studio-image` | `references/prompt-engineering.md` | Created or preserved in canonical package |
+| `ai-studio-image` | `references/setup-guide.md` | Created or preserved in canonical package |
+| `ai-studio-image` | `scripts/config.py` | Created or preserved in canonical package |
+| `ai-studio-image` | `scripts/generate.py` | Created or preserved in canonical package |
+| `ai-studio-image` | `scripts/prompt_engine.py` | Created or preserved in canonical package |
+| `ai-studio-image` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `ai-studio-image` | `scripts/templates.py` | Created or preserved in canonical package |
+| `api-design-principles` | `assets/api-design-checklist.md` | Created or preserved in canonical package |
+| `api-design-principles` | `assets/rest-api-template.py` | Created or preserved in canonical package |
+| `api-design-principles` | `references/graphql-schema-design.md` | Created or preserved in canonical package |
+| `api-design-principles` | `references/rest-best-practices.md` | Created or preserved in canonical package |
+| `api-design-principles` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `api-patterns` | `api-style.md` | Created or preserved in canonical package |
+| `api-patterns` | `auth.md` | Created or preserved in canonical package |
+| `api-patterns` | `documentation.md` | Created or preserved in canonical package |
+| `api-patterns` | `graphql.md` | Created or preserved in canonical package |
+| `api-patterns` | `rate-limiting.md` | Created or preserved in canonical package |
+| `api-patterns` | `response.md` | Created or preserved in canonical package |
+| `api-patterns` | `rest.md` | Created or preserved in canonical package |
+| `api-patterns` | `scripts/api_validator.py` | Created or preserved in canonical package |
+| `api-patterns` | `security-testing.md` | Created or preserved in canonical package |
+| `api-patterns` | `trpc.md` | Created or preserved in canonical package |
+| `api-patterns` | `versioning.md` | Created or preserved in canonical package |
+| `app-builder` | `agent-coordination.md` | Created or preserved in canonical package |
+| `app-builder` | `feature-building.md` | Created or preserved in canonical package |
+| `app-builder` | `project-detection.md` | Created or preserved in canonical package |
+| `app-builder` | `scaffolding.md` | Created or preserved in canonical package |
+| `app-builder` | `tech-stack.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/SKILL.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/astro-static/TEMPLATE.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/chrome-extension/TEMPLATE.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/cli-tool/TEMPLATE.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/electron-desktop/TEMPLATE.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/express-api/TEMPLATE.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/flutter-app/TEMPLATE.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/monorepo-turborepo/TEMPLATE.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/nextjs-fullstack/TEMPLATE.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/nextjs-saas/TEMPLATE.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/nextjs-static/TEMPLATE.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/nuxt-app/TEMPLATE.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/python-fastapi/TEMPLATE.md` | Created or preserved in canonical package |
+| `app-builder` | `templates/react-native-app/TEMPLATE.md` | Created or preserved in canonical package |
+| `architecture-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `astropy` | `references/coordinates.md` | Created or preserved in canonical package |
+| `astropy` | `references/cosmology.md` | Created or preserved in canonical package |
+| `astropy` | `references/fits.md` | Created or preserved in canonical package |
+| `astropy` | `references/tables.md` | Created or preserved in canonical package |
+| `astropy` | `references/time.md` | Created or preserved in canonical package |
+| `astropy` | `references/units.md` | Created or preserved in canonical package |
+| `astropy` | `references/wcs_and_other_modules.md` | Created or preserved in canonical package |
+| `async-python-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

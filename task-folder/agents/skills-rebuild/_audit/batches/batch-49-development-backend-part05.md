@@ -58,7 +58,26 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `gemini-deep-research` | `README.md` | Created or preserved in canonical package |
+| `gemini-deep-research` | `requirements.txt` | Created or preserved in canonical package |
+| `gemini-deep-research` | `scripts/research.py` | Created or preserved in canonical package |
+| `github` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `google-ads-ecommerce` | `evals/campaign-structure-and-smart-bidding-str/criteria.json` | Created or preserved in canonical package |
+| `google-ads-ecommerce` | `evals/campaign-structure-and-smart-bidding-str/task.md` | Created or preserved in canonical package |
+| `google-ads-ecommerce` | `evals/conversion-tracking-and-enhanced-convers/criteria.json` | Created or preserved in canonical package |
+| `google-ads-ecommerce` | `evals/conversion-tracking-and-enhanced-convers/task.md` | Created or preserved in canonical package |
+| `google-ads-ecommerce` | `evals/google-shopping-feed-generation/criteria.json` | Created or preserved in canonical package |
+| `google-ads-ecommerce` | `evals/google-shopping-feed-generation/task.md` | Created or preserved in canonical package |
+| `google-ads-ecommerce` | `tile.json` | Created or preserved in canonical package |
+| `google-shopping-feed` | `evals/content-api-batch-updates-and-supplement/criteria.json` | Created or preserved in canonical package |
+| `google-shopping-feed` | `evals/content-api-batch-updates-and-supplement/task.md` | Created or preserved in canonical package |
+| `google-shopping-feed` | `evals/feed-audit-multi-country-setup-and-varia/criteria.json` | Created or preserved in canonical package |
+| `google-shopping-feed` | `evals/feed-audit-multi-country-setup-and-varia/task.md` | Created or preserved in canonical package |
+| `google-shopping-feed` | `evals/xml-feed-structure-and-title-optimizatio/criteria.json` | Created or preserved in canonical package |
+| `google-shopping-feed` | `evals/xml-feed-structure-and-title-optimizatio/task.md` | Created or preserved in canonical package |
+| `google-shopping-feed` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

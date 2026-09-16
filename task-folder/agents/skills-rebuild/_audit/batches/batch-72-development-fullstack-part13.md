@@ -58,7 +58,18 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `gdpr-data-handling` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `growth-engineering` | `affiliate-marketing.md` | Created or preserved in canonical package |
+| `growth-engineering` | `experimentation-frameworks.md` | Created or preserved in canonical package |
+| `growth-engineering` | `launch-strategy.md` | Created or preserved in canonical package |
+| `growth-engineering` | `product-led-growth.md` | Created or preserved in canonical package |
+| `growth-engineering` | `referral-systems.md` | Created or preserved in canonical package |
+| `growth-engineering` | `retention-loops.md` | Created or preserved in canonical package |
+| `growth-engineering` | `viral-loops.md` | Created or preserved in canonical package |
+| `hashtag-analyzer` | `scripts/main.py` | Created or preserved in canonical package |
+| `hashtag-analyzer` | `scripts/requirements.txt` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

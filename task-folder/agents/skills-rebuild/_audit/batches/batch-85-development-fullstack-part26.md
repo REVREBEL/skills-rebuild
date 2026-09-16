@@ -58,7 +58,28 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `survey-generator` | `LICENSE` | Created or preserved in canonical package |
+| `survey-generator` | `build_artifact.py` | Created or preserved in canonical package |
+| `survey-generator` | `examples/agentic-engineering/research_bundle.json` | Created or preserved in canonical package |
+| `survey-generator` | `examples/agentic-engineering/survey.html` | Created or preserved in canonical package |
+| `survey-generator` | `style_spec.json` | Created or preserved in canonical package |
+| `survey-generator` | `templates/research_bundle_template.json` | Created or preserved in canonical package |
+| `teach` | `GLOSSARY-FORMAT.md` | Created or preserved in canonical package |
+| `teach` | `LEARNING-RECORD-FORMAT.md` | Created or preserved in canonical package |
+| `teach` | `MISSION-FORMAT.md` | Created or preserved in canonical package |
+| `teach` | `RESOURCES-FORMAT.md` | Created or preserved in canonical package |
+| `team-collaboration-issue` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `team-collaboration-standup-notes` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `threat-mitigation-mapping` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `tiktok-shop-integration` | `evals/affiliate-program-inventory-safety-and-l/criteria.json` | Created or preserved in canonical package |
+| `tiktok-shop-integration` | `evals/affiliate-program-inventory-safety-and-l/task.md` | Created or preserved in canonical package |
+| `tiktok-shop-integration` | `evals/tiktok-shop-api-client-and-product-sync/criteria.json` | Created or preserved in canonical package |
+| `tiktok-shop-integration` | `evals/tiktok-shop-api-client-and-product-sync/task.md` | Created or preserved in canonical package |
+| `tiktok-shop-integration` | `evals/webhook-handler-and-order-management/criteria.json` | Created or preserved in canonical package |
+| `tiktok-shop-integration` | `evals/webhook-handler-and-order-management/task.md` | Created or preserved in canonical package |
+| `tiktok-shop-integration` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

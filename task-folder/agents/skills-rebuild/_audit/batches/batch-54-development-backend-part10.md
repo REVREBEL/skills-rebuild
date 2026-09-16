@@ -58,7 +58,45 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `social-proof-widgets` | `evals/dom-safe-purchase-notification-toast-wid/criteria.json` | Created or preserved in canonical package |
+| `social-proof-widgets` | `evals/dom-safe-purchase-notification-toast-wid/task.md` | Created or preserved in canonical package |
+| `social-proof-widgets` | `evals/review-badge-with-schema-org-markup-and-/criteria.json` | Created or preserved in canonical package |
+| `social-proof-widgets` | `evals/review-badge-with-schema-org-markup-and-/task.md` | Created or preserved in canonical package |
+| `social-proof-widgets` | `evals/social-proof-data-api-with-redis-visitor/criteria.json` | Created or preserved in canonical package |
+| `social-proof-widgets` | `evals/social-proof-data-api-with-redis-visitor/task.md` | Created or preserved in canonical package |
+| `social-proof-widgets` | `tile.json` | Created or preserved in canonical package |
+| `sql-optimization-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `stitch-ui-design` | `README.md` | Created or preserved in canonical package |
+| `stitch-ui-design` | `references/advanced-techniques.md` | Created or preserved in canonical package |
+| `stitch-ui-design` | `references/prompt-examples.md` | Created or preserved in canonical package |
+| `templates` | `astro-static/TEMPLATE.md` | Created or preserved in canonical package |
+| `templates` | `chrome-extension/TEMPLATE.md` | Created or preserved in canonical package |
+| `templates` | `cli-tool/TEMPLATE.md` | Created or preserved in canonical package |
+| `templates` | `electron-desktop/TEMPLATE.md` | Created or preserved in canonical package |
+| `templates` | `express-api/TEMPLATE.md` | Created or preserved in canonical package |
+| `templates` | `flutter-app/TEMPLATE.md` | Created or preserved in canonical package |
+| `templates` | `monorepo-turborepo/TEMPLATE.md` | Created or preserved in canonical package |
+| `templates` | `nextjs-fullstack/TEMPLATE.md` | Created or preserved in canonical package |
+| `templates` | `nextjs-saas/TEMPLATE.md` | Created or preserved in canonical package |
+| `templates` | `nextjs-static/TEMPLATE.md` | Created or preserved in canonical package |
+| `templates` | `nuxt-app/TEMPLATE.md` | Created or preserved in canonical package |
+| `templates` | `python-fastapi/TEMPLATE.md` | Created or preserved in canonical package |
+| `templates` | `react-native-app/TEMPLATE.md` | Created or preserved in canonical package |
+| `temporal-golang-pro` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `temporal-golang-pro` | `resources/testing-strategies.md` | Created or preserved in canonical package |
+| `tiktok-ads-integration` | `evals/campaign-structure-and-creative-strategy/criteria.json` | Created or preserved in canonical package |
+| `tiktok-ads-integration` | `evals/campaign-structure-and-creative-strategy/task.md` | Created or preserved in canonical package |
+| `tiktok-ads-integration` | `evals/catalog-feed-generation/criteria.json` | Created or preserved in canonical package |
+| `tiktok-ads-integration` | `evals/catalog-feed-generation/task.md` | Created or preserved in canonical package |
+| `tiktok-ads-integration` | `evals/server-side-events-api-with-deduplicatio/criteria.json` | Created or preserved in canonical package |
+| `tiktok-ads-integration` | `evals/server-side-events-api-with-deduplicatio/task.md` | Created or preserved in canonical package |
+| `tiktok-ads-integration` | `tile.json` | Created or preserved in canonical package |
+| `typescript-expert` | `references/tsconfig-strict.json` | Created or preserved in canonical package |
+| `typescript-expert` | `references/typescript-cheatsheet.md` | Created or preserved in canonical package |
+| `typescript-expert` | `references/utility-types.ts` | Created or preserved in canonical package |
+| `typescript-expert` | `scripts/ts_diagnostic.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

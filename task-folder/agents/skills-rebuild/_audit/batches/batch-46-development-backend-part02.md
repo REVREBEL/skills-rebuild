@@ -58,7 +58,22 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `backend-dev-guidelines` | `resources/architecture-overview.md` | Created or preserved in canonical package |
+| `backend-dev-guidelines` | `resources/async-and-errors.md` | Created or preserved in canonical package |
+| `backend-dev-guidelines` | `resources/complete-examples.md` | Created or preserved in canonical package |
+| `backend-dev-guidelines` | `resources/configuration.md` | Created or preserved in canonical package |
+| `backend-dev-guidelines` | `resources/database-patterns.md` | Created or preserved in canonical package |
+| `backend-dev-guidelines` | `resources/middleware-guide.md` | Created or preserved in canonical package |
+| `backend-dev-guidelines` | `resources/routing-and-controllers.md` | Created or preserved in canonical package |
+| `backend-dev-guidelines` | `resources/sentry-and-monitoring.md` | Created or preserved in canonical package |
+| `backend-dev-guidelines` | `resources/services-and-repositories.md` | Created or preserved in canonical package |
+| `backend-dev-guidelines` | `resources/testing-guide.md` | Created or preserved in canonical package |
+| `backend-dev-guidelines` | `resources/validation-patterns.md` | Created or preserved in canonical package |
+| `carrier-relationship-management` | `references/communication-templates.md` | Created or preserved in canonical package |
+| `carrier-relationship-management` | `references/decision-frameworks.md` | Created or preserved in canonical package |
+| `carrier-relationship-management` | `references/edge-cases.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

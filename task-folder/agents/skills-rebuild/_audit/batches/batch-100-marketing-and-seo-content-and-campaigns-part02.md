@@ -52,7 +52,29 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `image-batch` | `scripts/main.py` | Created or preserved in canonical package |
+| `image-batch` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `linkedin-content-generator` | `scripts/generate_calendar.py` | Created or preserved in canonical package |
+| `linkedin-content-generator` | `scripts/generate_carousel.py` | Created or preserved in canonical package |
+| `linkedin-content-generator` | `scripts/generate_newsletter.py` | Created or preserved in canonical package |
+| `linkedin-content-generator` | `scripts/generate_post.py` | Created or preserved in canonical package |
+| `linkedin-content-generator` | `scripts/memory.md` | Created or preserved in canonical package |
+| `linkedin-content-generator` | `scripts/memory_manager.py` | Created or preserved in canonical package |
+| `linkedin-content-generator` | `scripts/utils.py` | Created or preserved in canonical package |
+| `paid-advertising` | `audio-programmatic.md` | Created or preserved in canonical package |
+| `paid-advertising` | `bid-strategy.md` | Created or preserved in canonical package |
+| `paid-advertising` | `google-ads.md` | Created or preserved in canonical package |
+| `paid-advertising` | `linkedin-ads.md` | Created or preserved in canonical package |
+| `paid-advertising` | `media-planning.md` | Created or preserved in canonical package |
+| `paid-advertising` | `meta-ads.md` | Created or preserved in canonical package |
+| `paid-advertising` | `microsoft-ads.md` | Created or preserved in canonical package |
+| `paid-advertising` | `native-advertising.md` | Created or preserved in canonical package |
+| `paid-advertising` | `programmatic.md` | Created or preserved in canonical package |
+| `paid-advertising` | `retail-media-networks.md` | Created or preserved in canonical package |
+| `paid-advertising` | `retargeting-audiences.md` | Created or preserved in canonical package |
+| `paid-advertising` | `tiktok-ads.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

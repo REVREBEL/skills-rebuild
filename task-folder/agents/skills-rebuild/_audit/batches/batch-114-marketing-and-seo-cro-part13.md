@@ -58,7 +58,19 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `signup` | `evals/evals.json` | Created or preserved in canonical package |
+| `stitch-skill` | `DESIGN.md` | Created or preserved in canonical package |
+| `storyboard-manager` | `index.js` | Created or preserved in canonical package |
+| `storyboard-manager` | `package.json` | Created or preserved in canonical package |
+| `storyboard-manager` | `references/character_development.md` | Created or preserved in canonical package |
+| `storyboard-manager` | `references/story_structures.md` | Created or preserved in canonical package |
+| `storyboard-manager` | `scripts/consistency_checker.py` | Created or preserved in canonical package |
+| `storyboard-manager` | `scripts/timeline_tracker.py` | Created or preserved in canonical package |
+| `supabase` | `CHANGELOG.md` | Created or preserved in canonical package |
+| `supabase` | `assets/feedback-issue-template.md` | Created or preserved in canonical package |
+| `supabase` | `references/skill-feedback.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

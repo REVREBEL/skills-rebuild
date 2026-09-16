@@ -54,7 +54,22 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `triage` | `AGENT-BRIEF.md` | Created or preserved in canonical package |
+| `triage` | `OUT-OF-SCOPE.md` | Created or preserved in canonical package |
+| `web-artifacts-builder` | `LICENSE.txt` | Created or preserved in canonical package |
+| `web-artifacts-builder` | `scripts/bundle-artifact.sh` | Created or preserved in canonical package |
+| `web-artifacts-builder` | `scripts/init-artifact.sh` | Created or preserved in canonical package |
+| `web-artifacts-builder` | `scripts/shadcn-components.tar.gz` | Created or preserved in canonical package |
+| `webflow-code-component-convert-component` | `references/prop-types.md` | Created or preserved in canonical package |
+| `win-back-reactivation` | `evals/lapsed-customer-segmentation-logic/criteria.json` | Created or preserved in canonical package |
+| `win-back-reactivation` | `evals/lapsed-customer-segmentation-logic/task.md` | Created or preserved in canonical package |
+| `win-back-reactivation` | `evals/purchase-handler-and-email-sunset-workfl/criteria.json` | Created or preserved in canonical package |
+| `win-back-reactivation` | `evals/purchase-handler-and-email-sunset-workfl/task.md` | Created or preserved in canonical package |
+| `win-back-reactivation` | `evals/win-back-sequence-and-offer-personalizat/criteria.json` | Created or preserved in canonical package |
+| `win-back-reactivation` | `evals/win-back-sequence-and-offer-personalizat/task.md` | Created or preserved in canonical package |
+| `win-back-reactivation` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

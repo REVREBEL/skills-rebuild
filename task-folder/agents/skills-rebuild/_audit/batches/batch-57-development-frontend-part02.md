@@ -56,7 +56,10 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `godot-gdscript-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `nextjs-app-router-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

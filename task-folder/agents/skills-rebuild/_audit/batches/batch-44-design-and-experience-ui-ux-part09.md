@@ -56,7 +56,34 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `webflow-code-components` | `references/bundling-and-import.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/cli.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/component-architecture.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/define-code-component.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/faq.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/frameworks-and-libraries.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/hooks.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/installation.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/introduction.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/prop-types.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/prop-types/boolean.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/prop-types/id.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/prop-types/image.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/prop-types/link.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/prop-types/number.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/prop-types/rich-text.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/prop-types/slot.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/prop-types/text-node.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/prop-types/text.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/prop-types/variant.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/prop-types/visibility.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/quick-start.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `references/styling-components.md` | Created or preserved in canonical package |
+| `webflow-code-components` | `scripts/search_references.py` | Created or preserved in canonical package |
+| `xlsx` | `LICENSE.txt` | Created or preserved in canonical package |
+| `xlsx` | `recalc.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

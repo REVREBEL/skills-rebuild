@@ -58,7 +58,19 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `sales-reporting-dashboard` | `evals/channel-drill-down-and-category-revenue-/criteria.json` | Created or preserved in canonical package |
+| `sales-reporting-dashboard` | `evals/channel-drill-down-and-category-revenue-/task.md` | Created or preserved in canonical package |
+| `sales-reporting-dashboard` | `evals/conversion-rate-and-period-over-period-c/criteria.json` | Created or preserved in canonical package |
+| `sales-reporting-dashboard` | `evals/conversion-rate-and-period-over-period-c/task.md` | Created or preserved in canonical package |
+| `sales-reporting-dashboard` | `evals/revenue-api-with-caching-and-granularity/criteria.json` | Created or preserved in canonical package |
+| `sales-reporting-dashboard` | `evals/revenue-api-with-caching-and-granularity/task.md` | Created or preserved in canonical package |
+| `sales-reporting-dashboard` | `tile.json` | Created or preserved in canonical package |
+| `seo-context` | `references/context-template.md` | Created or preserved in canonical package |
+| `seo-images` | `LICENSE.txt` | Created or preserved in canonical package |
+| `shadcn-layouts` | `references/component-checklist.md` | Created or preserved in canonical package |
+| `shadcn-layouts` | `references/layout-templates.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

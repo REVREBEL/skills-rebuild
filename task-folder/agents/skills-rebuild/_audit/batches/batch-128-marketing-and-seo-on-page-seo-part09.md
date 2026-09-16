@@ -58,7 +58,10 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `lighthouse-audit` | `scripts/main.py` | Created or preserved in canonical package |
+| `lighthouse-audit` | `scripts/requirements.txt` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

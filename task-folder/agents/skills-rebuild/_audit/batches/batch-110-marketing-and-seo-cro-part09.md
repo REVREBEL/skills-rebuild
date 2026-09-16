@@ -58,7 +58,39 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `link-checker` | `scripts/main.py` | Created or preserved in canonical package |
+| `link-checker` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `marketing-plan_02` | `evals.json` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/aarrr-framework.md` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/budget-planning.md` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/client-types.md` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/current-state-rubric.md` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/example-quietude.md` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/funding-stage-unlocks.md` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/growth-patterns.md` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/idea-cross-reference.md` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/measurement-framework.md` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/methodology.md` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/ops-stack-mapping.md` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/plan-template.md` | Created or preserved in canonical package |
+| `marketing-plan_02` | `references/team-and-agency-model.md` | Created or preserved in canonical package |
+| `marketing-spend-analysis` | `evals/diminishing-returns-curve-fitting-and-op/criteria.json` | Created or preserved in canonical package |
+| `marketing-spend-analysis` | `evals/diminishing-returns-curve-fitting-and-op/task.md` | Created or preserved in canonical package |
+| `marketing-spend-analysis` | `evals/roas-metrics-computation-and-profitabili/criteria.json` | Created or preserved in canonical package |
+| `marketing-spend-analysis` | `evals/roas-metrics-computation-and-profitabili/task.md` | Created or preserved in canonical package |
+| `marketing-spend-analysis` | `evals/unified-spend-schema-attribution-windows/criteria.json` | Created or preserved in canonical package |
+| `marketing-spend-analysis` | `evals/unified-spend-schema-attribution-windows/task.md` | Created or preserved in canonical package |
+| `marketing-spend-analysis` | `tile.json` | Created or preserved in canonical package |
+| `marketplace-advertising` | `evals/bid-optimization-with-acos-based-adjustm/criteria.json` | Created or preserved in canonical package |
+| `marketplace-advertising` | `evals/bid-optimization-with-acos-based-adjustm/task.md` | Created or preserved in canonical package |
+| `marketplace-advertising` | `evals/campaign-structure-and-budget-allocation/criteria.json` | Created or preserved in canonical package |
+| `marketplace-advertising` | `evals/campaign-structure-and-budget-allocation/task.md` | Created or preserved in canonical package |
+| `marketplace-advertising` | `evals/keyword-harvesting-from-auto-to-manual-c/criteria.json` | Created or preserved in canonical package |
+| `marketplace-advertising` | `evals/keyword-harvesting-from-auto-to-manual-c/task.md` | Created or preserved in canonical package |
+| `marketplace-advertising` | `tile.json` | Created or preserved in canonical package |
+| `memory-safety-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -54,7 +54,25 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `design-system` | `references/motion-choreography.md` | Created or preserved in canonical package |
+| `deterministic-design` | `design-audit/SKILL.md` | Created or preserved in canonical package |
+| `deterministic-design` | `design-audit/references/design-rules.md` | Created or preserved in canonical package |
+| `deterministic-design` | `design-audit/taste-skill-v1/SKILL.md` | Created or preserved in canonical package |
+| `deterministic-design` | `design-audit/taste-skill/SKILL.md` | Created or preserved in canonical package |
+| `front-end-design` | `metadata.json` | Created or preserved in canonical package |
+| `frontend-enhancer` | `assets/animations.css` | Created or preserved in canonical package |
+| `frontend-enhancer` | `assets/button-variants.tsx` | Created or preserved in canonical package |
+| `frontend-enhancer` | `assets/card-variants.tsx` | Created or preserved in canonical package |
+| `frontend-enhancer` | `assets/input-variants.tsx` | Created or preserved in canonical package |
+| `frontend-enhancer` | `assets/layout-feature-grid.tsx` | Created or preserved in canonical package |
+| `frontend-enhancer` | `assets/layout-hero-section.tsx` | Created or preserved in canonical package |
+| `frontend-enhancer` | `assets/utils-cn.ts` | Created or preserved in canonical package |
+| `frontend-enhancer` | `index.js` | Created or preserved in canonical package |
+| `frontend-enhancer` | `package.json` | Created or preserved in canonical package |
+| `frontend-enhancer` | `references/color_palettes.md` | Created or preserved in canonical package |
+| `frontend-enhancer` | `references/design_principles.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

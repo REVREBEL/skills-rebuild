@@ -58,7 +58,32 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `referral-viral-loops` | `evals/fraud-detection-and-viral-coefficient-an/criteria.json` | Created or preserved in canonical package |
+| `referral-viral-loops` | `evals/fraud-detection-and-viral-coefficient-an/task.md` | Created or preserved in canonical package |
+| `referral-viral-loops` | `evals/referral-attribution-and-reward-fulfillm/criteria.json` | Created or preserved in canonical package |
+| `referral-viral-loops` | `evals/referral-attribution-and-reward-fulfillm/task.md` | Created or preserved in canonical package |
+| `referral-viral-loops` | `evals/referral-link-generation-and-data-model/criteria.json` | Created or preserved in canonical package |
+| `referral-viral-loops` | `evals/referral-link-generation-and-data-model/task.md` | Created or preserved in canonical package |
+| `referral-viral-loops` | `tile.json` | Created or preserved in canonical package |
+| `referrals` | `evals/evals.json` | Created or preserved in canonical package |
+| `referrals` | `references/affiliate-programs.md` | Created or preserved in canonical package |
+| `referrals` | `references/program-examples.md` | Created or preserved in canonical package |
+| `reputation-management` | `brand-safety.md` | Created or preserved in canonical package |
+| `reputation-management` | `crisis-communication.md` | Created or preserved in canonical package |
+| `reputation-management` | `recovery-playbooks.md` | Created or preserved in canonical package |
+| `reputation-management` | `review-management-platforms.md` | Created or preserved in canonical package |
+| `reputation-management` | `review-strategy.md` | Created or preserved in canonical package |
+| `reputation-management` | `sentiment-monitoring.md` | Created or preserved in canonical package |
+| `requesting-code-review` | `code-reviewer.md` | Created or preserved in canonical package |
+| `review-generation-engine` | `evals/post-purchase-review-request-scheduling/criteria.json` | Created or preserved in canonical package |
+| `review-generation-engine` | `evals/post-purchase-review-request-scheduling/task.md` | Created or preserved in canonical package |
+| `review-generation-engine` | `evals/review-moderation-pipeline-and-rating-ag/criteria.json` | Created or preserved in canonical package |
+| `review-generation-engine` | `evals/review-moderation-pipeline-and-rating-ag/task.md` | Created or preserved in canonical package |
+| `review-generation-engine` | `evals/tokenized-review-form-and-submission-end/criteria.json` | Created or preserved in canonical package |
+| `review-generation-engine` | `evals/tokenized-review-form-and-submission-end/task.md` | Created or preserved in canonical package |
+| `review-generation-engine` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

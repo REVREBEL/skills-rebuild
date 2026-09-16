@@ -58,7 +58,10 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `brand-governance-os` | `assets/governance_checklist.md` | Created or preserved in canonical package |
+| `brand-narrative-playbook` | `references/narrative_framework.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

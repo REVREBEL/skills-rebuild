@@ -54,7 +54,13 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `hugging-face-community-evals` | `examples/.env.example` | Created or preserved in canonical package |
+| `hugging-face-community-evals` | `examples/USAGE_EXAMPLES.md` | Created or preserved in canonical package |
+| `hugging-face-community-evals` | `scripts/inspect_eval_uv.py` | Created or preserved in canonical package |
+| `hugging-face-community-evals` | `scripts/inspect_vllm_uv.py` | Created or preserved in canonical package |
+| `hugging-face-community-evals` | `scripts/lighteval_vllm_uv.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

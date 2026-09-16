@@ -50,7 +50,25 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `007` | `references/ai-agent-security.md` | Created or preserved in canonical package |
+| `007` | `references/api-security-patterns.md` | Created or preserved in canonical package |
+| `007` | `references/incident-playbooks.md` | Created or preserved in canonical package |
+| `007` | `references/owasp-checklists.md` | Created or preserved in canonical package |
+| `007` | `references/stride-pasta-guide.md` | Created or preserved in canonical package |
+| `007` | `scripts/config.py` | Created or preserved in canonical package |
+| `007` | `scripts/full_audit.py` | Created or preserved in canonical package |
+| `007` | `scripts/quick_scan.py` | Created or preserved in canonical package |
+| `007` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `007` | `scripts/scanners/__init__.py` | Created or preserved in canonical package |
+| `007` | `scripts/scanners/dependency_scanner.py` | Created or preserved in canonical package |
+| `007` | `scripts/scanners/injection_scanner.py` | Created or preserved in canonical package |
+| `007` | `scripts/scanners/secrets_scanner.py` | Created or preserved in canonical package |
+| `007` | `scripts/score_calculator.py` | Created or preserved in canonical package |
+| `antigravity-workflows` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `codebase-cleanup-deps-audit` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `dependency-management-deps-audit` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -50,7 +50,104 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `playwright-java` | `BasePage.java` | Created or preserved in canonical package |
+| `playwright-java` | `BaseTest.java` | Created or preserved in canonical package |
+| `playwright-java` | `assertions.md` | Created or preserved in canonical package |
+| `playwright-java` | `config.md` | Created or preserved in canonical package |
+| `playwright-java` | `fixtures.md` | Created or preserved in canonical package |
+| `playwright-java` | `page-objects.md` | Created or preserved in canonical package |
+| `postgres` | `references/backup-recovery.md` | Created or preserved in canonical package |
+| `postgres` | `references/index-optimization.md` | Created or preserved in canonical package |
+| `postgres` | `references/indexing.md` | Created or preserved in canonical package |
+| `postgres` | `references/memory-management-ops.md` | Created or preserved in canonical package |
+| `postgres` | `references/monitoring.md` | Created or preserved in canonical package |
+| `postgres` | `references/mvcc-transactions.md` | Created or preserved in canonical package |
+| `postgres` | `references/mvcc-vacuum.md` | Created or preserved in canonical package |
+| `postgres` | `references/optimization-checklist.md` | Created or preserved in canonical package |
+| `postgres` | `references/partitioning.md` | Created or preserved in canonical package |
+| `postgres` | `references/pgbouncer-configuration.md` | Created or preserved in canonical package |
+| `postgres` | `references/process-architecture.md` | Created or preserved in canonical package |
+| `postgres` | `references/ps-cli-api-insights.md` | Created or preserved in canonical package |
+| `postgres` | `references/ps-cli-commands.md` | Created or preserved in canonical package |
+| `postgres` | `references/ps-connection-pooling.md` | Created or preserved in canonical package |
+| `postgres` | `references/ps-connections.md` | Created or preserved in canonical package |
+| `postgres` | `references/ps-extensions.md` | Created or preserved in canonical package |
+| `postgres` | `references/ps-insights.md` | Created or preserved in canonical package |
+| `postgres` | `references/query-patterns.md` | Created or preserved in canonical package |
+| `postgres` | `references/replication.md` | Created or preserved in canonical package |
+| `postgres` | `references/schema-design.md` | Created or preserved in canonical package |
+| `postgres` | `references/storage-layout.md` | Created or preserved in canonical package |
+| `postgres` | `references/wal-operations.md` | Created or preserved in canonical package |
+| `python-performance-optimization` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `report-writing` | `SKILL_01.md` | Created or preserved in canonical package |
+| `report-writing` | `ai-writing-detection.md` | Created or preserved in canonical package |
+| `report-writing` | `artifacts-builder/LICENSE.txt` | Created or preserved in canonical package |
+| `report-writing` | `artifacts-builder/SKILL.md` | Created or preserved in canonical package |
+| `report-writing` | `artifacts-builder/scripts/bundle-artifact.sh` | Created or preserved in canonical package |
+| `report-writing` | `artifacts-builder/scripts/init-artifact.sh` | Created or preserved in canonical package |
+| `report-writing` | `artifacts-builder/scripts/shadcn-components.tar.gz` | Created or preserved in canonical package |
+| `report-writing` | `formats/INDEX.md` | Created or preserved in canonical package |
+| `report-writing` | `formats/data.md` | Created or preserved in canonical package |
+| `report-writing` | `formats/htb-completion-report.md` | Created or preserved in canonical package |
+| `report-writing` | `formats/logs.md` | Created or preserved in canonical package |
+| `report-writing` | `formats/reconnaissance.md` | Created or preserved in canonical package |
+| `report-writing` | `formats/sensitive-data-metadata.md` | Created or preserved in canonical package |
+| `report-writing` | `formats/techstack-evidence-formatter.md` | Created or preserved in canonical package |
+| `report-writing` | `formats/techstack-json-report.md` | Created or preserved in canonical package |
+| `report-writing` | `formats/techstack-report-exporter.md` | Created or preserved in canonical package |
+| `report-writing` | `formats/transilience-report-style/SKILL.md` | Created or preserved in canonical package |
+| `report-writing` | `formats/transilience-report-style/fonts/Carlito-Bold.ttf` | Created or preserved in canonical package |
+| `report-writing` | `formats/transilience-report-style/fonts/Carlito-BoldItalic.ttf` | Created or preserved in canonical package |
+| `report-writing` | `formats/transilience-report-style/fonts/Carlito-Italic.ttf` | Created or preserved in canonical package |
+| `report-writing` | `formats/transilience-report-style/fonts/Carlito-Regular.ttf` | Created or preserved in canonical package |
+| `report-writing` | `formats/transilience-report-style/fonts/Poppins-Bold.ttf` | Created or preserved in canonical package |
+| `report-writing` | `formats/transilience-report-style/fonts/Poppins-Italic.ttf` | Created or preserved in canonical package |
+| `report-writing` | `formats/transilience-report-style/fonts/Poppins-Light.ttf` | Created or preserved in canonical package |
+| `report-writing` | `formats/transilience-report-style/fonts/Poppins-Medium.ttf` | Created or preserved in canonical package |
+| `report-writing` | `formats/transilience-report-style/fonts/Poppins-Regular.ttf` | Created or preserved in canonical package |
+| `report-writing` | `formats/transilience-report-style/pentest-report.md` | Created or preserved in canonical package |
+| `report-writing` | `image-enhancer/SKILL.md` | Created or preserved in canonical package |
+| `report-writing` | `practice-makes-perfect.md` | Created or preserved in canonical package |
+| `report-writing` | `practice-makes-perfect.pdf` | Created or preserved in canonical package |
+| `report-writing` | `scripts/fix-skill-names.ts` | Created or preserved in canonical package |
+| `report-writing` | `scripts/install-skills.sh` | Created or preserved in canonical package |
+| `report-writing` | `scripts/link-skills.sh` | Created or preserved in canonical package |
+| `report-writing` | `scripts/lint-skills.ts` | Created or preserved in canonical package |
+| `report-writing` | `scripts/rename-skills.ts` | Created or preserved in canonical package |
+| `systematic-debugging` | `CREATION-LOG.md` | Created or preserved in canonical package |
+| `systematic-debugging` | `condition-based-waiting-example.ts` | Created or preserved in canonical package |
+| `systematic-debugging` | `condition-based-waiting.md` | Created or preserved in canonical package |
+| `systematic-debugging` | `defense-in-depth.md` | Created or preserved in canonical package |
+| `systematic-debugging` | `find-polluter.sh` | Created or preserved in canonical package |
+| `systematic-debugging` | `root-cause-tracing.md` | Created or preserved in canonical package |
+| `systematic-debugging` | `test-academic.md` | Created or preserved in canonical package |
+| `systematic-debugging` | `test-pressure-1.md` | Created or preserved in canonical package |
+| `systematic-debugging` | `test-pressure-2.md` | Created or preserved in canonical package |
+| `systematic-debugging` | `test-pressure-3.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `assets/install-playground-prompt.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `assets/webflow-variables.css` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/app-submission-and-listing.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/assets-api.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/code-examples.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/components-api.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/create-webflow-extension-reference.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/design-guidelines.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/designer-apis-reference.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/designer-extension-workflow.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/elements-api.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/error-handling.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/extension-utilities.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/faq.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/marketplace-guidelines.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/pages-api.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/playground-workflow.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/register-app.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/styles-api.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/variables-api.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `references/webflow-cli-reference.md` | Created or preserved in canonical package |
+| `webflow-designer-api` | `scripts/search_references.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

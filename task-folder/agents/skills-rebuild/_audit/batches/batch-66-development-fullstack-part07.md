@@ -58,7 +58,39 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `conductor-manage` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `content-engine` | `accessibility.md` | Created or preserved in canonical package |
+| `content-engine` | `ad-copy.md` | Created or preserved in canonical package |
+| `content-engine` | `ai-content-quality.md` | Created or preserved in canonical package |
+| `content-engine` | `brand-voice.md` | Created or preserved in canonical package |
+| `content-engine` | `case-studies.md` | Created or preserved in canonical package |
+| `content-engine` | `content-calendar.md` | Created or preserved in canonical package |
+| `content-engine` | `content-decay.md` | Created or preserved in canonical package |
+| `content-engine` | `email-automation.md` | Created or preserved in canonical package |
+| `content-engine` | `email-infrastructure.md` | Created or preserved in canonical package |
+| `content-engine` | `email-sequences.md` | Created or preserved in canonical package |
+| `content-engine` | `evals/evals.json` | Created or preserved in canonical package |
+| `content-engine` | `landing-pages.md` | Created or preserved in canonical package |
+| `content-engine` | `multilingual.md` | Created or preserved in canonical package |
+| `content-engine` | `personalization.md` | Created or preserved in canonical package |
+| `content-engine` | `seo-content.md` | Created or preserved in canonical package |
+| `content-engine` | `social-content.md` | Created or preserved in canonical package |
+| `content-engine` | `video-scripting.md` | Created or preserved in canonical package |
+| `context-agent` | `references/compression-rules.md` | Created or preserved in canonical package |
+| `context-agent` | `references/context-format.md` | Created or preserved in canonical package |
+| `context-agent` | `scripts/active_context.py` | Created or preserved in canonical package |
+| `context-agent` | `scripts/compressor.py` | Created or preserved in canonical package |
+| `context-agent` | `scripts/config.py` | Created or preserved in canonical package |
+| `context-agent` | `scripts/context_loader.py` | Created or preserved in canonical package |
+| `context-agent` | `scripts/context_manager.py` | Created or preserved in canonical package |
+| `context-agent` | `scripts/models.py` | Created or preserved in canonical package |
+| `context-agent` | `scripts/project_registry.py` | Created or preserved in canonical package |
+| `context-agent` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `context-agent` | `scripts/search.py` | Created or preserved in canonical package |
+| `context-agent` | `scripts/session_parser.py` | Created or preserved in canonical package |
+| `context-agent` | `scripts/session_summary.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

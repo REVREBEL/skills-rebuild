@@ -58,7 +58,38 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `smart-git-automation` | `README.md` | Created or preserved in canonical package |
+| `social-commerce` | `evals/meta-xml-catalog-feed-generation/criteria.json` | Created or preserved in canonical package |
+| `social-commerce` | `evals/meta-xml-catalog-feed-generation/task.md` | Created or preserved in canonical package |
+| `social-commerce` | `evals/real-time-meta-catalog-sync-and-feed-reg/criteria.json` | Created or preserved in canonical package |
+| `social-commerce` | `evals/real-time-meta-catalog-sync-and-feed-reg/task.md` | Created or preserved in canonical package |
+| `social-commerce` | `evals/tiktok-catalog-feed-and-meta-capi-conver/criteria.json` | Created or preserved in canonical package |
+| `social-commerce` | `evals/tiktok-catalog-feed-and-meta-capi-conver/task.md` | Created or preserved in canonical package |
+| `social-commerce` | `tile.json` | Created or preserved in canonical package |
+| `stability-ai` | `references/api-reference.md` | Created or preserved in canonical package |
+| `stability-ai` | `references/prompt-engineering.md` | Created or preserved in canonical package |
+| `stability-ai` | `references/setup-guide.md` | Created or preserved in canonical package |
+| `stability-ai` | `scripts/config.py` | Created or preserved in canonical package |
+| `stability-ai` | `scripts/generate.py` | Created or preserved in canonical package |
+| `stability-ai` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `stability-ai` | `scripts/styles.py` | Created or preserved in canonical package |
+| `super-code` | `bash/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `c/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `cpp/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `csharp/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `dart/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `elixir/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `go/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `java/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `kotlin/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `php/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `python/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `rust/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `scala/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `swift/SKILL.md` | Created or preserved in canonical package |
+| `super-code` | `typescript/SKILL.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

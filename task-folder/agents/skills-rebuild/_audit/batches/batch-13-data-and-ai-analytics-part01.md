@@ -54,7 +54,36 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `analytics` | `evals/evals.json` | Created or preserved in canonical package |
+| `analytics` | `references/event-library.md` | Created or preserved in canonical package |
+| `analytics` | `references/ga4-implementation.md` | Created or preserved in canonical package |
+| `analytics` | `references/gtm-implementation.md` | Created or preserved in canonical package |
+| `analytics-insights` | `anomaly-diagnosis.md` | Created or preserved in canonical package |
+| `analytics-insights` | `clv-analysis.md` | Created or preserved in canonical package |
+| `analytics-insights` | `competitive-intelligence.md` | Created or preserved in canonical package |
+| `analytics-insights` | `dark-social-tracking.md` | Created or preserved in canonical package |
+| `analytics-insights` | `dashboard-design.md` | Created or preserved in canonical package |
+| `analytics-insights` | `incrementality-testing.md` | Created or preserved in canonical package |
+| `analytics-insights` | `kpi-frameworks.md` | Created or preserved in canonical package |
+| `analytics-insights` | `mmm-framework.md` | Created or preserved in canonical package |
+| `analytics-insights` | `privacy-first-measurement.md` | Created or preserved in canonical package |
+| `analytics-insights` | `reporting-templates.md` | Created or preserved in canonical package |
+| `cash-flow-forecasting` | `evals/13-week-cash-model-with-inventory-and-ou/criteria.json` | Created or preserved in canonical package |
+| `cash-flow-forecasting` | `evals/13-week-cash-model-with-inventory-and-ou/task.md` | Created or preserved in canonical package |
+| `cash-flow-forecasting` | `evals/multi-channel-revenue-to-cash-conversion/criteria.json` | Created or preserved in canonical package |
+| `cash-flow-forecasting` | `evals/multi-channel-revenue-to-cash-conversion/task.md` | Created or preserved in canonical package |
+| `cash-flow-forecasting` | `evals/seasonal-revenue-forecast-and-cash-runwa/criteria.json` | Created or preserved in canonical package |
+| `cash-flow-forecasting` | `evals/seasonal-revenue-forecast-and-cash-runwa/task.md` | Created or preserved in canonical package |
+| `cash-flow-forecasting` | `tile.json` | Created or preserved in canonical package |
+| `customer-analytics` | `evals/acquisition-channel-quality-and-cohort-r/criteria.json` | Created or preserved in canonical package |
+| `customer-analytics` | `evals/acquisition-channel-quality-and-cohort-r/task.md` | Created or preserved in canonical package |
+| `customer-analytics` | `evals/churn-prediction-scoring-algorithm/criteria.json` | Created or preserved in canonical package |
+| `customer-analytics` | `evals/churn-prediction-scoring-algorithm/task.md` | Created or preserved in canonical package |
+| `customer-analytics` | `evals/rfm-scoring-pipeline-and-segment-classif/criteria.json` | Created or preserved in canonical package |
+| `customer-analytics` | `evals/rfm-scoring-pipeline-and-segment-classif/task.md` | Created or preserved in canonical package |
+| `customer-analytics` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

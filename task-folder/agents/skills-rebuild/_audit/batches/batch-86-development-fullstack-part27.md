@@ -58,7 +58,19 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `typescript-advanced-types` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `ugc-collector` | `scripts/main.py` | Created or preserved in canonical package |
+| `ugc-collector` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `vector-index-tuning` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `video-commerce-integration` | `evals/live-shopping-event-infrastructure-and-s/criteria.json` | Created or preserved in canonical package |
+| `video-commerce-integration` | `evals/live-shopping-event-infrastructure-and-s/task.md` | Created or preserved in canonical package |
+| `video-commerce-integration` | `evals/shoppable-video-player-with-hotspot-rend/criteria.json` | Created or preserved in canonical package |
+| `video-commerce-integration` | `evals/shoppable-video-player-with-hotspot-rend/task.md` | Created or preserved in canonical package |
+| `video-commerce-integration` | `evals/video-commerce-analytics-and-embed-compa/criteria.json` | Created or preserved in canonical package |
+| `video-commerce-integration` | `evals/video-commerce-analytics-and-embed-compa/task.md` | Created or preserved in canonical package |
+| `video-commerce-integration` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -58,7 +58,17 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `microservices-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `monopoly` | `patterns/SKILL.md` | Created or preserved in canonical package |
+| `monopoly` | `scale-benchmarks/SKILL.md` | Created or preserved in canonical package |
+| `monopoly` | `tech-matrix/SKILL.md` | Created or preserved in canonical package |
+| `monorepo-management` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `n8n-binary-and-data` | `references/AGENT_TOOL_BINARY.md` | Created or preserved in canonical package |
+| `n8n-binary-and-data` | `references/BINARY_BASICS.md` | Created or preserved in canonical package |
+| `n8n-binary-and-data` | `references/CDN_REQUIREMENT.md` | Created or preserved in canonical package |
+| `n8n-binary-and-data` | `references/MERGE_FOR_CONTEXT.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

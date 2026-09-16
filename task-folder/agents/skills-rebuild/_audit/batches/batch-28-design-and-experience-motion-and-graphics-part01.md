@@ -58,7 +58,30 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `figma-implement-motion` | `references/examples-and-anti-examples.md` | Created or preserved in canonical package |
+| `figma-implement-motion` | `references/framework-recommendations.md` | Created or preserved in canonical package |
+| `figma-implement-motion` | `references/gotchas.md` | Created or preserved in canonical package |
+| `figma-implement-motion` | `references/motion-lint-rules.md` | Created or preserved in canonical package |
+| `figma-implement-motion` | `references/svg-and-path-motion.md` | Created or preserved in canonical package |
+| `figma-implement-motion` | `references/unsupported-and-fallbacks.md` | Created or preserved in canonical package |
+| `figma-use-motion` | `references/motion-easing.md` | Created or preserved in canonical package |
+| `figma-use-motion` | `references/motion-patterns.md` | Created or preserved in canonical package |
+| `frontend-slides` | `STYLE_PRESETS.md` | Created or preserved in canonical package |
+| `frontend-slides` | `animation-patterns.md` | Created or preserved in canonical package |
+| `frontend-slides` | `html-template.md` | Created or preserved in canonical package |
+| `frontend-slides` | `scripts/extract-pptx.py` | Created or preserved in canonical package |
+| `frontend-slides` | `viewport-base.css` | Created or preserved in canonical package |
+| `gemini-omni-flash-api` | `scripts/upload_file.py` | Created or preserved in canonical package |
+| `gemini-omni-flash-api` | `scripts/video/generate_video.py` | Created or preserved in canonical package |
+| `gemini-omni-flash-api` | `scripts/video/inspect_video.py` | Created or preserved in canonical package |
+| `gemini-omni-flash-api` | `scripts/video/prep_video.py` | Created or preserved in canonical package |
+| `interface-kit` | `references/accessibility-checklist.md` | Created or preserved in canonical package |
+| `interface-kit` | `references/animation-playbook.md` | Created or preserved in canonical package |
+| `interface-kit` | `references/component-patterns.md` | Created or preserved in canonical package |
+| `interface-kit` | `references/review-checklist.md` | Created or preserved in canonical package |
+| `json-canvas` | `references/EXAMPLES.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

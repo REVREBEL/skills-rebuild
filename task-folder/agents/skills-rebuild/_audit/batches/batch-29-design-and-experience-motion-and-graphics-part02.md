@@ -56,7 +56,98 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `presentation-builder` | `LICENSE.txt` | Created or preserved in canonical package |
+| `presentation-builder` | `html2pptx.md` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml.md` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-picture.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/pml.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-math.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/sml.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-main.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/wml.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ISO-IEC29500-4_2016/xml.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ecma/fouth-edition/opc-contentTypes.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ecma/fouth-edition/opc-coreProperties.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ecma/fouth-edition/opc-digSig.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/ecma/fouth-edition/opc-relationships.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/mce/mc.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/microsoft/wml-2010.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/microsoft/wml-2012.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/microsoft/wml-2018.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/microsoft/wml-cex-2018.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/microsoft/wml-cid-2016.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/microsoft/wml-sdtdatahash-2020.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/schemas/microsoft/wml-symex-2015.xsd` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/scripts/pack.py` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/scripts/unpack.py` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/scripts/validate.py` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/scripts/validation/__init__.py` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/scripts/validation/base.py` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/scripts/validation/docx.py` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/scripts/validation/pptx.py` | Created or preserved in canonical package |
+| `presentation-builder` | `ooxml/scripts/validation/redlining.py` | Created or preserved in canonical package |
+| `presentation-builder` | `scripts/html2pptx.js` | Created or preserved in canonical package |
+| `presentation-builder` | `scripts/inventory.py` | Created or preserved in canonical package |
+| `presentation-builder` | `scripts/rearrange.py` | Created or preserved in canonical package |
+| `presentation-builder` | `scripts/replace.py` | Created or preserved in canonical package |
+| `presentation-builder` | `scripts/thumbnail.py` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/3d.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/animations.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/assets.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/assets/charts-bar-chart.tsx` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/assets/text-animations-typewriter.tsx` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/assets/text-animations-word-highlight.tsx` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/audio.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/calculate-metadata.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/can-decode.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/charts.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/compositions.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/display-captions.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/extract-frames.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/fonts.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/get-audio-duration.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/get-video-dimensions.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/get-video-duration.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/gifs.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/images.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/import-srt-captions.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/lottie.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/measuring-dom-nodes.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/measuring-text.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/sequencing.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/tailwind.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/text-animations.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/timing.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/transcribe-captions.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/transitions.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/trimming.md` | Created or preserved in canonical package |
+| `remotion-best-practices` | `rules/videos.md` | Created or preserved in canonical package |
+| `vercel-react-view-transitions` | `references/css-recipes.md` | Created or preserved in canonical package |
+| `vercel-react-view-transitions` | `references/implementation.md` | Created or preserved in canonical package |
+| `vercel-react-view-transitions` | `references/nextjs.md` | Created or preserved in canonical package |
+| `vercel-react-view-transitions` | `references/patterns.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

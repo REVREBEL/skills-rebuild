@@ -52,7 +52,17 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `deliverability-checker` | `scripts/main.py` | Created or preserved in canonical package |
+| `deliverability-checker` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `diagnosing-bugs` | `scripts/hitl-loop.template.sh` | Created or preserved in canonical package |
+| `distributed-debugging-debug-trace` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `error-debugging-error-analysis` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `error-debugging-error-trace` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `error-diagnostics-error-analysis` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `error-diagnostics-error-trace` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `error-handling-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

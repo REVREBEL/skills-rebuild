@@ -58,7 +58,55 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `seo-backlinks` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-ecommerce` | `references/marketplace-endpoints.md` | Created or preserved in canonical package |
+| `seo-ecommerce` | `references/ucp-universal-commerce-protocol.md` | Created or preserved in canonical package |
+| `seo-firecrawl` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-geo` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-geo` | `references/google-ai-optimization-guide.md` | Created or preserved in canonical package |
+| `seo-geo` | `references/llmstxt-evidence.md` | Created or preserved in canonical package |
+| `seo-google` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-google` | `assets/templates/cwv-audit-report.md` | Created or preserved in canonical package |
+| `seo-google` | `assets/templates/gsc-performance-report.md` | Created or preserved in canonical package |
+| `seo-google` | `assets/templates/indexation-status-report.md` | Created or preserved in canonical package |
+| `seo-google` | `references/auth-setup.md` | Created or preserved in canonical package |
+| `seo-google` | `references/dma-consent-mode-v2.md` | Created or preserved in canonical package |
+| `seo-google` | `references/ga4-data-api.md` | Created or preserved in canonical package |
+| `seo-google` | `references/indexing-api.md` | Created or preserved in canonical package |
+| `seo-google` | `references/keyword-planner-api.md` | Created or preserved in canonical package |
+| `seo-google` | `references/nlp-api.md` | Created or preserved in canonical package |
+| `seo-google` | `references/pagespeed-crux-api.md` | Created or preserved in canonical package |
+| `seo-google` | `references/rate-limits-quotas.md` | Created or preserved in canonical package |
+| `seo-google` | `references/search-console-api.md` | Created or preserved in canonical package |
+| `seo-google` | `references/supplementary-apis.md` | Created or preserved in canonical package |
+| `seo-google` | `references/youtube-api.md` | Created or preserved in canonical package |
+| `seo-image-gen` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-image-gen` | `references/cost-tracking.md` | Created or preserved in canonical package |
+| `seo-image-gen` | `references/gemini-models.md` | Created or preserved in canonical package |
+| `seo-image-gen` | `references/mcp-tools.md` | Created or preserved in canonical package |
+| `seo-image-gen` | `references/post-processing.md` | Created or preserved in canonical package |
+| `seo-image-gen` | `references/presets.md` | Created or preserved in canonical package |
+| `seo-image-gen` | `references/prompt-engineering.md` | Created or preserved in canonical package |
+| `seo-image-gen` | `references/seo-image-presets.md` | Created or preserved in canonical package |
+| `seo-image-gen-suite` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-image-gen-suite` | `references/cost-tracking.md` | Created or preserved in canonical package |
+| `seo-image-gen-suite` | `references/gemini-models.md` | Created or preserved in canonical package |
+| `seo-image-gen-suite` | `references/mcp-tools.md` | Created or preserved in canonical package |
+| `seo-image-gen-suite` | `references/post-processing.md` | Created or preserved in canonical package |
+| `seo-image-gen-suite` | `references/presets.md` | Created or preserved in canonical package |
+| `seo-image-gen-suite` | `references/prompt-engineering.md` | Created or preserved in canonical package |
+| `seo-image-gen-suite` | `references/seo-image-presets.md` | Created or preserved in canonical package |
+| `seo-local` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-maps` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-optimizer` | `assets/robots.txt` | Created or preserved in canonical package |
+| `seo-optimizer` | `index.js` | Created or preserved in canonical package |
+| `seo-optimizer` | `package.json` | Created or preserved in canonical package |
+| `seo-optimizer` | `references/schema_markup_guide.md` | Created or preserved in canonical package |
+| `seo-optimizer` | `references/seo_checklist.md` | Created or preserved in canonical package |
+| `seo-optimizer` | `scripts/generate_sitemap.py` | Created or preserved in canonical package |
+| `seo-optimizer` | `scripts/seo_analyzer.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -58,7 +58,21 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `marketing-attribution-dashboard` | `evals/attribution-model-weight-computation/criteria.json` | Created or preserved in canonical package |
+| `marketing-attribution-dashboard` | `evals/attribution-model-weight-computation/task.md` | Created or preserved in canonical package |
+| `marketing-attribution-dashboard` | `evals/react-dashboard-architecture-and-kpi-rep/criteria.json` | Created or preserved in canonical package |
+| `marketing-attribution-dashboard` | `evals/react-dashboard-architecture-and-kpi-rep/task.md` | Created or preserved in canonical package |
+| `marketing-attribution-dashboard` | `evals/touchpoint-collection-and-channel-classi/criteria.json` | Created or preserved in canonical package |
+| `marketing-attribution-dashboard` | `evals/touchpoint-collection-and-channel-classi/task.md` | Created or preserved in canonical package |
+| `marketing-attribution-dashboard` | `tile.json` | Created or preserved in canonical package |
+| `marketing-automation` | `automation-workflows.md` | Created or preserved in canonical package |
+| `marketing-automation` | `lead-scoring.md` | Created or preserved in canonical package |
+| `marketing-automation` | `marketing-ops.md` | Created or preserved in canonical package |
+| `marketing-automation` | `nurture-sequences.md` | Created or preserved in canonical package |
+| `marketing-ideas_02` | `evals/evals.json` | Created or preserved in canonical package |
+| `marketing-ideas_02` | `references/ideas-by-category.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

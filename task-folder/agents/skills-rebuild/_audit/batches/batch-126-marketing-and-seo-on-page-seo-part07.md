@@ -58,7 +58,10 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `frontend` | `reference/patterns.md` | Created or preserved in canonical package |
+| `hybrid-search-implementation` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -58,7 +58,27 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `seasonal-campaign-automation` | `evals/campaign-calendar-structure-and-email-ca/criteria.json` | Created or preserved in canonical package |
+| `seasonal-campaign-automation` | `evals/campaign-calendar-structure-and-email-ca/task.md` | Created or preserved in canonical package |
+| `seasonal-campaign-automation` | `evals/email-safety-controls-countdown-timer-an/criteria.json` | Created or preserved in canonical package |
+| `seasonal-campaign-automation` | `evals/email-safety-controls-countdown-timer-an/task.md` | Created or preserved in canonical package |
+| `seasonal-campaign-automation` | `evals/promotional-pricing-activation-and-rollb/criteria.json` | Created or preserved in canonical package |
+| `seasonal-campaign-automation` | `evals/promotional-pricing-activation-and-rollb/task.md` | Created or preserved in canonical package |
+| `seasonal-campaign-automation` | `tile.json` | Created or preserved in canonical package |
+| `senior-architect` | `references/architecture_patterns.md` | Created or preserved in canonical package |
+| `senior-architect` | `references/system_design_workflows.md` | Created or preserved in canonical package |
+| `senior-architect` | `references/tech_decision_guide.md` | Created or preserved in canonical package |
+| `senior-architect` | `scripts/architecture_diagram_generator.py` | Created or preserved in canonical package |
+| `senior-architect` | `scripts/dependency_analyzer.py` | Created or preserved in canonical package |
+| `senior-architect` | `scripts/project_architect.py` | Created or preserved in canonical package |
+| `senior-fullstack` | `references/architecture_patterns.md` | Created or preserved in canonical package |
+| `senior-fullstack` | `references/development_workflows.md` | Created or preserved in canonical package |
+| `senior-fullstack` | `references/tech_stack_guide.md` | Created or preserved in canonical package |
+| `senior-fullstack` | `scripts/code_quality_analyzer.py` | Created or preserved in canonical package |
+| `senior-fullstack` | `scripts/fullstack_scaffolder.py` | Created or preserved in canonical package |
+| `senior-fullstack` | `scripts/project_scaffolder.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

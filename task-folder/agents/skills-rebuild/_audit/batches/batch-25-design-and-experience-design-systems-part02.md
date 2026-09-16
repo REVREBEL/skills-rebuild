@@ -58,7 +58,88 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `figma-code-connect` | `references/advanced-patterns.md` | Created or preserved in canonical package |
+| `figma-code-connect` | `references/api.md` | Created or preserved in canonical package |
+| `figma-generate-design` | `references/componentization.md` | Created or preserved in canonical package |
+| `figma-generate-design` | `references/discover-product-font.md` | Created or preserved in canonical package |
+| `figma-generate-diagram` | `references/architecture.md` | Created or preserved in canonical package |
+| `figma-generate-diagram` | `references/erd.md` | Created or preserved in canonical package |
+| `figma-generate-diagram` | `references/flowchart.md` | Created or preserved in canonical package |
+| `figma-generate-diagram` | `references/gantt.md` | Created or preserved in canonical package |
+| `figma-generate-diagram` | `references/sequence.md` | Created or preserved in canonical package |
+| `figma-generate-diagram` | `references/state.md` | Created or preserved in canonical package |
+| `figma-generate-diagram` | `references/workflow.md` | Created or preserved in canonical package |
+| `figma-generate-library` | `references/code-connect-setup.md` | Created or preserved in canonical package |
+| `figma-generate-library` | `references/component-creation.md` | Created or preserved in canonical package |
+| `figma-generate-library` | `references/discovery-phase.md` | Created or preserved in canonical package |
+| `figma-generate-library` | `references/documentation-creation.md` | Created or preserved in canonical package |
+| `figma-generate-library` | `references/error-recovery.md` | Created or preserved in canonical package |
+| `figma-generate-library` | `references/naming-conventions.md` | Created or preserved in canonical package |
+| `figma-generate-library` | `references/token-creation.md` | Created or preserved in canonical package |
+| `figma-generate-library` | `scripts/bindVariablesToComponent.js` | Created or preserved in canonical package |
+| `figma-generate-library` | `scripts/cleanupOrphans.js` | Created or preserved in canonical package |
+| `figma-generate-library` | `scripts/createComponentWithVariants.js` | Created or preserved in canonical package |
+| `figma-generate-library` | `scripts/createDocumentationPage.js` | Created or preserved in canonical package |
+| `figma-generate-library` | `scripts/createSemanticTokens.js` | Created or preserved in canonical package |
+| `figma-generate-library` | `scripts/createVariableCollection.js` | Created or preserved in canonical package |
+| `figma-generate-library` | `scripts/inspectFileStructure.js` | Created or preserved in canonical package |
+| `figma-generate-library` | `scripts/validateCreation.js` | Created or preserved in canonical package |
+| `figma-swiftui` | `references/code-to-design.md` | Created or preserved in canonical package |
+| `figma-swiftui` | `references/design-to-code.md` | Created or preserved in canonical package |
+| `figma-use` | `references/api-reference.md` | Created or preserved in canonical package |
+| `figma-use` | `references/common-patterns.md` | Created or preserved in canonical package |
+| `figma-use` | `references/component-patterns.md` | Created or preserved in canonical package |
+| `figma-use` | `references/effect-style-patterns.md` | Created or preserved in canonical package |
+| `figma-use` | `references/gotchas.md` | Created or preserved in canonical package |
+| `figma-use` | `references/plugin-api-patterns.md` | Created or preserved in canonical package |
+| `figma-use` | `references/plugin-api-standalone.d.ts` | Created or preserved in canonical package |
+| `figma-use` | `references/plugin-api-standalone.index.md` | Created or preserved in canonical package |
+| `figma-use` | `references/text-style-patterns.md` | Created or preserved in canonical package |
+| `figma-use` | `references/validation-and-recovery.md` | Created or preserved in canonical package |
+| `figma-use` | `references/variable-patterns.md` | Created or preserved in canonical package |
+| `figma-use` | `references/working-with-design-systems/wwds-components--creating.md` | Created or preserved in canonical package |
+| `figma-use` | `references/working-with-design-systems/wwds-components--using.md` | Created or preserved in canonical package |
+| `figma-use` | `references/working-with-design-systems/wwds-components.md` | Created or preserved in canonical package |
+| `figma-use` | `references/working-with-design-systems/wwds-effect-styles.md` | Created or preserved in canonical package |
+| `figma-use` | `references/working-with-design-systems/wwds-text-styles.md` | Created or preserved in canonical package |
+| `figma-use` | `references/working-with-design-systems/wwds-variables--creating.md` | Created or preserved in canonical package |
+| `figma-use` | `references/working-with-design-systems/wwds-variables--using.md` | Created or preserved in canonical package |
+| `figma-use` | `references/working-with-design-systems/wwds-variables.md` | Created or preserved in canonical package |
+| `figma-use` | `references/working-with-design-systems/wwds.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/batch-modify.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/create-code-block.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/create-connector.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/create-label.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/create-section.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/create-shape-with-text.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/create-sticky.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/create-table.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/create-text.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/edit-text.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/figjam-colors.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/plan-board-content.md` | Created or preserved in canonical package |
+| `figma-use-figjam` | `references/position-figjam-nodes.md` | Created or preserved in canonical package |
+| `figma-use-slides` | `references/slide-content.md` | Created or preserved in canonical package |
+| `figma-use-slides` | `references/slide-design.md` | Created or preserved in canonical package |
+| `figma-use-slides` | `references/slide-gotchas.md` | Created or preserved in canonical package |
+| `figma-use-slides` | `references/slide-grid.md` | Created or preserved in canonical package |
+| `figma-use-slides` | `references/slide-lifecycle.md` | Created or preserved in canonical package |
+| `figma-use-slides` | `references/slide-properties.md` | Created or preserved in canonical package |
+| `frontend-design2` | `assets/component-spec-schema.json` | Created or preserved in canonical package |
+| `frontend-design2` | `assets/palette-schema.json` | Created or preserved in canonical package |
+| `frontend-design2` | `assets/token-schema.json` | Created or preserved in canonical package |
+| `frontend-design2` | `references/design-philosophy.md` | Created or preserved in canonical package |
+| `frontend-design2` | `references/framework-templates.md` | Created or preserved in canonical package |
+| `frontend-design2` | `references/token-formats.md` | Created or preserved in canonical package |
+| `frontend-design2` | `scripts/analyze-accessibility.ts` | Created or preserved in canonical package |
+| `frontend-design2` | `scripts/analyze-styles.ts` | Created or preserved in canonical package |
+| `frontend-design2` | `scripts/extract-tokens.ts` | Created or preserved in canonical package |
+| `frontend-design2` | `scripts/generate-component.ts` | Created or preserved in canonical package |
+| `frontend-design2` | `scripts/generate-palette.ts` | Created or preserved in canonical package |
+| `frontend-design2` | `scripts/generate-tokens.ts` | Created or preserved in canonical package |
+| `frontend-design2` | `scripts/generate-typography.ts` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

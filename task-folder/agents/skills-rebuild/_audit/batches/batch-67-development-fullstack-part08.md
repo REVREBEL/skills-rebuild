@@ -58,7 +58,67 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `context-engine` | `30-60-90-framework.md` | Created or preserved in canonical package |
+| `context-engine` | `actionable-persona-format.md` | Created or preserved in canonical package |
+| `context-engine` | `advanced-reporting-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `agency-operations-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `approval-framework.md` | Created or preserved in canonical package |
+| `context-engine` | `b2b-decision-making-unit.md` | Created or preserved in canonical package |
+| `context-engine` | `channel-families.md` | Created or preserved in canonical package |
+| `context-engine` | `competitive-monitoring-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `competitor-3-question-output.md` | Created or preserved in canonical package |
+| `context-engine` | `compliance-rules.md` | Created or preserved in canonical package |
+| `context-engine` | `compound-intelligence-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `creative-intelligence-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `crm-integration-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `custom-mcp-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `decision-framework.md` | Created or preserved in canonical package |
+| `context-engine` | `decision-matrix-rerun.md` | Created or preserved in canonical package |
+| `context-engine` | `engagement-flow-methodology.md` | Created or preserved in canonical package |
+| `context-engine` | `eu-code-of-practice.md` | Created or preserved in canonical package |
+| `context-engine` | `eval-framework-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `eval-rubrics.md` | Created or preserved in canonical package |
+| `context-engine` | `execution-workflows.md` | Created or preserved in canonical package |
+| `context-engine` | `five-digital-markets.md` | Created or preserved in canonical package |
+| `context-engine` | `fixed-vs-variable-budget.md` | Created or preserved in canonical package |
+| `context-engine` | `four-core-documents-spec.md` | Created or preserved in canonical package |
+| `context-engine` | `geo-execution-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `google-seo-reference.md` | Created or preserved in canonical package |
+| `context-engine` | `growth-plan-template.md` | Created or preserved in canonical package |
+| `context-engine` | `guidelines-framework.md` | Created or preserved in canonical package |
+| `context-engine` | `in-market-out-market.md` | Created or preserved in canonical package |
+| `context-engine` | `india-market-context.md` | Created or preserved in canonical package |
+| `context-engine` | `industry-profiles.md` | Created or preserved in canonical package |
+| `context-engine` | `intelligence-layer.md` | Created or preserved in canonical package |
+| `context-engine` | `journey-growth-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `living-instruction-file-spec.md` | Created or preserved in canonical package |
+| `context-engine` | `market-intelligence-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `marketing-science-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `memory-architecture.md` | Created or preserved in canonical package |
+| `context-engine` | `monthly-report-template.md` | Created or preserved in canonical package |
+| `context-engine` | `multilingual-execution-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `narrative-warfare-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `platform-publishing-specs.md` | Created or preserved in canonical package |
+| `context-engine` | `platform-specs.md` | Created or preserved in canonical package |
+| `context-engine` | `reporting-cadence.md` | Created or preserved in canonical package |
+| `context-engine` | `schema-templates.json` | Created or preserved in canonical package |
+| `context-engine` | `scoring-rubrics.md` | Created or preserved in canonical package |
+| `context-engine` | `self-healing-ops-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `seo-execution-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `stone-vs-opinion.md` | Created or preserved in canonical package |
+| `context-engine` | `synthetic-audience-guide.md` | Created or preserved in canonical package |
+| `context-engine` | `team-roles-framework.md` | Created or preserved in canonical package |
+| `context-engine` | `three-scenario-forecasting.md` | Created or preserved in canonical package |
+| `context-engine` | `transcreation-framework.md` | Created or preserved in canonical package |
+| `context-engine` | `two-views-model.md` | Created or preserved in canonical package |
+| `context-engine` | `unit-economics-framework.md` | Created or preserved in canonical package |
+| `context-engine` | `update-back-rule.md` | Created or preserved in canonical package |
+| `context-engine` | `yearly-planner-template.md` | Created or preserved in canonical package |
+| `context-guardian` | `references/extraction-protocol.md` | Created or preserved in canonical package |
+| `context-guardian` | `references/verification-checklist.md` | Created or preserved in canonical package |
+| `context-guardian` | `scripts/context_snapshot.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

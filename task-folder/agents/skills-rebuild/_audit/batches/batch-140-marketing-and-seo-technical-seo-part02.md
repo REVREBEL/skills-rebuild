@@ -58,7 +58,39 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `on-page-seo-auditor` | `references/audit-example.md` | Created or preserved in canonical package |
+| `on-page-seo-auditor` | `references/audit-templates.md` | Created or preserved in canonical package |
+| `on-page-seo-auditor` | `references/bulk-audit-playbook.md` | Created or preserved in canonical package |
+| `on-page-seo-auditor` | `references/scoring-rubric.md` | Created or preserved in canonical package |
+| `research-outline` | `validate_json.py` | Created or preserved in canonical package |
+| `research-report` | `references/report-generation-spec.md` | Created or preserved in canonical package |
+| `schema` | `evals/evals.json` | Created or preserved in canonical package |
+| `schema` | `references/schema-examples.md` | Created or preserved in canonical package |
+| `schema-markup` | `scripts/main.py` | Created or preserved in canonical package |
+| `schema-markup` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `schema-markup-generator` | `references/instructions-detail.md` | Created or preserved in canonical package |
+| `schema-markup-generator` | `references/schema-decision-tree.md` | Created or preserved in canonical package |
+| `schema-markup-generator` | `references/schema-templates.md` | Created or preserved in canonical package |
+| `schema-markup-generator` | `references/validation-guide.md` | Created or preserved in canonical package |
+| `seo` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo` | `references/backlink-quality.md` | Created or preserved in canonical package |
+| `seo` | `references/cwv-thresholds.md` | Created or preserved in canonical package |
+| `seo` | `references/eeat-framework.md` | Created or preserved in canonical package |
+| `seo` | `references/free-backlink-sources.md` | Created or preserved in canonical package |
+| `seo` | `references/local-schema-types.md` | Created or preserved in canonical package |
+| `seo` | `references/local-seo-signals.md` | Created or preserved in canonical package |
+| `seo` | `references/maps-api-endpoints.md` | Created or preserved in canonical package |
+| `seo` | `references/maps-free-apis.md` | Created or preserved in canonical package |
+| `seo` | `references/maps-gbp-checklist.md` | Created or preserved in canonical package |
+| `seo` | `references/maps-geo-grid.md` | Created or preserved in canonical package |
+| `seo` | `references/quality-gates.md` | Created or preserved in canonical package |
+| `seo` | `references/schema-types.md` | Created or preserved in canonical package |
+| `seo` | `references/thinking-framework.md` | Created or preserved in canonical package |
+| `seo-audit` | `evals/evals.json` | Created or preserved in canonical package |
+| `seo-audit` | `references/ai-writing-detection.md` | Created or preserved in canonical package |
+| `seo-audit` | `references/international-seo.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

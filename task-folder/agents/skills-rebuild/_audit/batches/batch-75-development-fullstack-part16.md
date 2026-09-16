@@ -58,7 +58,53 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `inventory-demand-planning` | `references/communication-templates.md` | Created or preserved in canonical package |
+| `inventory-demand-planning` | `references/decision-frameworks.md` | Created or preserved in canonical package |
+| `inventory-demand-planning` | `references/edge-cases.md` | Created or preserved in canonical package |
+| `last30days` | `README.md` | Created or preserved in canonical package |
+| `last30days` | `SPEC.md` | Created or preserved in canonical package |
+| `last30days` | `TASKS.md` | Created or preserved in canonical package |
+| `last30days` | `assets/aging-portrait.jpeg` | Created or preserved in canonical package |
+| `last30days` | `assets/claude-code-rap.mp3` | Created or preserved in canonical package |
+| `last30days` | `assets/dog-as-human.png` | Created or preserved in canonical package |
+| `last30days` | `assets/dog-original.jpeg` | Created or preserved in canonical package |
+| `last30days` | `assets/swimmom-mockup.jpeg` | Created or preserved in canonical package |
+| `last30days` | `fixtures/models_openai_sample.json` | Created or preserved in canonical package |
+| `last30days` | `fixtures/models_xai_sample.json` | Created or preserved in canonical package |
+| `last30days` | `fixtures/openai_sample.json` | Created or preserved in canonical package |
+| `last30days` | `fixtures/reddit_thread_sample.json` | Created or preserved in canonical package |
+| `last30days` | `fixtures/xai_sample.json` | Created or preserved in canonical package |
+| `last30days` | `plans/feat-add-websearch-source.md` | Created or preserved in canonical package |
+| `last30days` | `plans/fix-strict-date-filtering.md` | Created or preserved in canonical package |
+| `last30days` | `scripts/last30days.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/__init__.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/cache.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/dates.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/dedupe.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/env.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/http.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/models.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/normalize.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/openai_reddit.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/reddit_enrich.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/render.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/schema.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/score.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/ui.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/websearch.py` | Created or preserved in canonical package |
+| `last30days` | `scripts/lib/xai_x.py` | Created or preserved in canonical package |
+| `last30days` | `tests/__init__.py` | Created or preserved in canonical package |
+| `last30days` | `tests/test_cache.py` | Created or preserved in canonical package |
+| `last30days` | `tests/test_dates.py` | Created or preserved in canonical package |
+| `last30days` | `tests/test_dedupe.py` | Created or preserved in canonical package |
+| `last30days` | `tests/test_models.py` | Created or preserved in canonical package |
+| `last30days` | `tests/test_normalize.py` | Created or preserved in canonical package |
+| `last30days` | `tests/test_render.py` | Created or preserved in canonical package |
+| `last30days` | `tests/test_score.py` | Created or preserved in canonical package |
+| `lead-magnets` | `references/benchmarks.md` | Created or preserved in canonical package |
+| `lead-magnets` | `references/format-guide.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

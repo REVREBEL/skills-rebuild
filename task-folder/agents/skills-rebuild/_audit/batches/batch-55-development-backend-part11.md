@@ -52,7 +52,21 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `ugc-campaign-management` | `evals/content-moderation-pipeline/criteria.json` | Created or preserved in canonical package |
+| `ugc-campaign-management` | `evals/content-moderation-pipeline/task.md` | Created or preserved in canonical package |
+| `ugc-campaign-management` | `evals/rights-management-workflow/criteria.json` | Created or preserved in canonical package |
+| `ugc-campaign-management` | `evals/rights-management-workflow/task.md` | Created or preserved in canonical package |
+| `ugc-campaign-management` | `evals/ugc-collection-pipeline-and-display-api/criteria.json` | Created or preserved in canonical package |
+| `ugc-campaign-management` | `evals/ugc-collection-pipeline-and-display-api/task.md` | Created or preserved in canonical package |
+| `ugc-campaign-management` | `tile.json` | Created or preserved in canonical package |
+| `uv-package-manager` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `wordpress` | `wordpress-core-admin/SKILL.md` | Created or preserved in canonical package |
+| `wordpress` | `wordpress-performance-optimization/SKILL.md` | Created or preserved in canonical package |
+| `wordpress` | `wordpress-plugin-development/SKILL.md` | Created or preserved in canonical package |
+| `wordpress` | `wordpress-theme-development/SKILL.md` | Created or preserved in canonical package |
+| `wordpress` | `wordpress-woocommerce/SKILL.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

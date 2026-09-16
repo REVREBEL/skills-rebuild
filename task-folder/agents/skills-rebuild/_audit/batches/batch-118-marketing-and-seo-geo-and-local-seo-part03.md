@@ -52,7 +52,34 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `geo-fundamentals` | `scripts/geo_checker.py` | Created or preserved in canonical package |
+| `local-seo` | `citation-management.md` | Created or preserved in canonical package |
+| `local-seo` | `gbp-optimization.md` | Created or preserved in canonical package |
+| `local-seo` | `local-content.md` | Created or preserved in canonical package |
+| `local-seo` | `multi-location.md` | Created or preserved in canonical package |
+| `marketing-psychology_02` | `evals/evals.json` | Created or preserved in canonical package |
+| `memory-management` | `references/examples.md` | Created or preserved in canonical package |
+| `memory-management` | `references/gdpr-purge-log-template.md` | Created or preserved in canonical package |
+| `memory-management` | `references/glossary-template.md` | Created or preserved in canonical package |
+| `memory-management` | `references/hot-cache-template.md` | Created or preserved in canonical package |
+| `memory-management` | `references/promotion-demotion-rules.md` | Created or preserved in canonical package |
+| `memory-management` | `references/update-triggers-integration.md` | Created or preserved in canonical package |
+| `pci-dss-compliance` | `evals/pci-audit-logging-implementation/criteria.json` | Created or preserved in canonical package |
+| `pci-dss-compliance` | `evals/pci-audit-logging-implementation/task.md` | Created or preserved in canonical package |
+| `pci-dss-compliance` | `evals/rbac-roles-and-password-policy/criteria.json` | Created or preserved in canonical package |
+| `pci-dss-compliance` | `evals/rbac-roles-and-password-policy/task.md` | Created or preserved in canonical package |
+| `pci-dss-compliance` | `evals/saq-type-selection-and-scope-reduction/criteria.json` | Created or preserved in canonical package |
+| `pci-dss-compliance` | `evals/saq-type-selection-and-scope-reduction/task.md` | Created or preserved in canonical package |
+| `pci-dss-compliance` | `tile.json` | Created or preserved in canonical package |
+| `product-comparison` | `evals/accessible-comparison-table-with-attribu/criteria.json` | Created or preserved in canonical package |
+| `product-comparison` | `evals/accessible-comparison-table-with-attribu/task.md` | Created or preserved in canonical package |
+| `product-comparison` | `evals/compare-checkboxes-and-floating-comparis/criteria.json` | Created or preserved in canonical package |
+| `product-comparison` | `evals/compare-checkboxes-and-floating-comparis/task.md` | Created or preserved in canonical package |
+| `product-comparison` | `evals/url-state-management-and-attribute-norma/criteria.json` | Created or preserved in canonical package |
+| `product-comparison` | `evals/url-state-management-and-attribute-norma/task.md` | Created or preserved in canonical package |
+| `product-comparison` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

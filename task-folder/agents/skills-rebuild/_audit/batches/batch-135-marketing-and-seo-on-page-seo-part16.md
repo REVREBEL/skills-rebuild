@@ -58,7 +58,69 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `seo-flow` | `references/bibliography.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/flow-framework.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/flow-prompts.lock` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/README.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/find/content-planning-for-topical-relevance-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/find/content-prioritization-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/find/keyword-research-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/find/keyword-variations-for-topical-relevance-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/find/prompt-audience-avatar.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/leverage/backlink-competition-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/local/ai-homepage-rewrite-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/local/claude-deep-research-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/local/gbp-categories-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/local/gbp-description-claude-prompt-1.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/local/gbp-description-claude-prompt-2.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/local/gbp-description-claude-prompt-3.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/local/gbp-services-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/local/prompt-generating-a-meta-description.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/local/prompt-generating-a-title-tag.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/local/prompt-rewriting-existing-homepage.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/local/prompt-rewriting-existing-service-page.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/ai-detector-test-follow-up-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/ai-supporting-pages-rewrite-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/basic-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/blog-post-outline-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/blog-post-writing-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/claude-prompt-1.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/claude-prompt-2.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/ctr-audit-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/follow-up-prompt-1.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/follow-up-prompt-2.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/follow-up-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/paa-question-rewording-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/prompt-core-30-content-audit.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/property-content-with-authority-audit-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/reddit-claude-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/schema-prompt-1.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/step-1-the-chatgpt-discovery-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/step-2-the-follow-up-qualifying-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/technical-audit-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/visibility-follow-up-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/optimize/visiblity-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/win/bofu-page-brief-generator.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/win/conversion-audit-prompt.md` | Created or preserved in canonical package |
+| `seo-flow` | `references/prompts/win/dual-surface-content-scorecard.md` | Created or preserved in canonical package |
+| `seo-fundamentals` | `scripts/seo_checker.py` | Created or preserved in canonical package |
+| `seo-plan` | `assets/agency.md` | Created or preserved in canonical package |
+| `seo-plan` | `assets/ecommerce.md` | Created or preserved in canonical package |
+| `seo-plan` | `assets/generic.md` | Created or preserved in canonical package |
+| `seo-plan` | `assets/local-service.md` | Created or preserved in canonical package |
+| `seo-plan` | `assets/publisher.md` | Created or preserved in canonical package |
+| `seo-plan` | `assets/saas.md` | Created or preserved in canonical package |
+| `seo-roast` | `scripts/render-report.mjs` | Created or preserved in canonical package |
+| `seo-roast` | `templates/report.html` | Created or preserved in canonical package |
+| `seo-sxo` | `references/page-type-taxonomy.md` | Created or preserved in canonical package |
+| `seo-sxo` | `references/persona-scoring.md` | Created or preserved in canonical package |
+| `seo-sxo` | `references/user-story-framework.md` | Created or preserved in canonical package |
+| `seo-sxo` | `references/wireframe-templates.md` | Created or preserved in canonical package |
+| `serp-analysis` | `references/analysis-templates.md` | Created or preserved in canonical package |
+| `serp-analysis` | `references/example-report.md` | Created or preserved in canonical package |
+| `serp-analysis` | `references/serp-feature-taxonomy.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

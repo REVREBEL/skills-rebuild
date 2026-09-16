@@ -58,7 +58,16 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `ce-product-pulse` | `references/interview.md` | Created or preserved in canonical package |
+| `ce-product-pulse` | `references/report-template.md` | Created or preserved in canonical package |
+| `ce-strategy` | `references/interview.md` | Created or preserved in canonical package |
+| `ce-strategy` | `references/strategy-template.md` | Created or preserved in canonical package |
+| `design-an-interface` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `design-audit` | `references/design-rules.md` | Created or preserved in canonical package |
+| `design-audit` | `taste-skill-v1/SKILL.md` | Created or preserved in canonical package |
+| `design-audit` | `taste-skill/SKILL.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -44,7 +44,26 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `attack-tree-construction` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `macos-menubar-tuist-app` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `assets/templates/bootstrap/Package.swift` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `assets/templates/bootstrap/Sources/MyApp/Resources/.keep` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `assets/templates/bootstrap/Sources/MyApp/main.swift` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `assets/templates/bootstrap/version.env` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `assets/templates/build_icon.sh` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `assets/templates/compile_and_run.sh` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `assets/templates/launch.sh` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `assets/templates/make_appcast.sh` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `assets/templates/package_app.sh` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `assets/templates/setup_dev_signing.sh` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `assets/templates/sign-and-notarize.sh` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `assets/templates/version.env` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `references/packaging.md` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `references/release.md` | Created or preserved in canonical package |
+| `macos-spm-app-packaging` | `references/scaffold.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

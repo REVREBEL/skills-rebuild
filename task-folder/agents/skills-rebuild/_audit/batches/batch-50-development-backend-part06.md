@@ -58,7 +58,27 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `hasdata-cli` | `references/all-commands.md` | Created or preserved in canonical package |
+| `hasdata-cli` | `references/ecommerce.md` | Created or preserved in canonical package |
+| `hasdata-cli` | `references/enrichment.md` | Created or preserved in canonical package |
+| `hasdata-cli` | `references/jobs.md` | Created or preserved in canonical package |
+| `hasdata-cli` | `references/local-business.md` | Created or preserved in canonical package |
+| `hasdata-cli` | `references/real-estate.md` | Created or preserved in canonical package |
+| `hasdata-cli` | `references/search.md` | Created or preserved in canonical package |
+| `hasdata-cli` | `references/travel.md` | Created or preserved in canonical package |
+| `hasdata-cli` | `references/web-scraping.md` | Created or preserved in canonical package |
+| `hasdata-cli` | `references/youtube.md` | Created or preserved in canonical package |
+| `image-generator` | `.env.example` | Created or preserved in canonical package |
+| `launch` | `evals/evals.json` | Created or preserved in canonical package |
+| `linkedin-post-writer` | `references/hook-formulas.md` | Created or preserved in canonical package |
+| `loopy` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `loopy` | `references/audit.md` | Created or preserved in canonical package |
+| `loopy` | `references/debrief.md` | Created or preserved in canonical package |
+| `loopy` | `references/discover.md` | Created or preserved in canonical package |
+| `loopy` | `references/publish.md` | Created or preserved in canonical package |
+| `loopy` | `references/run.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

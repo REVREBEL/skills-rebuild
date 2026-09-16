@@ -54,7 +54,93 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `algorithmic-art` | `LICENSE.txt` | Created or preserved in canonical package |
+| `algorithmic-art` | `templates/generator_template.js` | Created or preserved in canonical package |
+| `algorithmic-art` | `templates/viewer.html` | Created or preserved in canonical package |
+| `canvas-design` | `LICENSE.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/ArsenalSC-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/ArsenalSC-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/BigShoulders-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/BigShoulders-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/BigShoulders-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Boldonse-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Boldonse-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/BricolageGrotesque-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/BricolageGrotesque-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/BricolageGrotesque-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/CrimsonPro-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/CrimsonPro-Italic.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/CrimsonPro-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/CrimsonPro-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/DMMono-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/DMMono-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/EricaOne-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/EricaOne-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/GeistMono-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/GeistMono-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/GeistMono-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Gloock-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Gloock-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/IBMPlexMono-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/IBMPlexMono-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/IBMPlexMono-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/IBMPlexSerif-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/IBMPlexSerif-BoldItalic.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/IBMPlexSerif-Italic.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/IBMPlexSerif-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/InstrumentSans-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/InstrumentSans-BoldItalic.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/InstrumentSans-Italic.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/InstrumentSans-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/InstrumentSans-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/InstrumentSerif-Italic.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/InstrumentSerif-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Italiana-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Italiana-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/JetBrainsMono-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/JetBrainsMono-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/JetBrainsMono-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Jura-Light.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Jura-Medium.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Jura-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/LibreBaskerville-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/LibreBaskerville-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Lora-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Lora-BoldItalic.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Lora-Italic.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Lora-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Lora-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/NationalPark-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/NationalPark-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/NationalPark-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/NothingYouCouldDo-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/NothingYouCouldDo-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Outfit-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Outfit-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Outfit-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/PixelifySans-Medium.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/PixelifySans-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/PoiretOne-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/PoiretOne-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/RedHatMono-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/RedHatMono-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/RedHatMono-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Silkscreen-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Silkscreen-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/SmoochSans-Medium.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/SmoochSans-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Tektur-Medium.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Tektur-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/Tektur-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/WorkSans-Bold.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/WorkSans-BoldItalic.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/WorkSans-Italic.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/WorkSans-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/WorkSans-Regular.ttf` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/YoungSerif-OFL.txt` | Created or preserved in canonical package |
+| `canvas-design` | `canvas-fonts/YoungSerif-Regular.ttf` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

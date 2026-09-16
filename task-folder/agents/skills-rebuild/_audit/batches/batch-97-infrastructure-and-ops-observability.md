@@ -60,7 +60,14 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `grpc-golang` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `observability-monitoring-monitor-setup` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `observability-monitoring-slo-implement` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `risk-metrics-calculation` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `workers-best-practices` | `references/review.md` | Created or preserved in canonical package |
+| `workers-best-practices` | `references/rules.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -50,7 +50,18 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `format-revrebel-google-docs` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `format-revrebel-google-docs` | `assets/icon.svg` | Created or preserved in canonical package |
+| `influencer-creator` | `contract-frameworks.md` | Created or preserved in canonical package |
+| `influencer-creator` | `creator-briefs.md` | Created or preserved in canonical package |
+| `influencer-creator` | `ftc-compliance.md` | Created or preserved in canonical package |
+| `influencer-creator` | `influencer-discovery.md` | Created or preserved in canonical package |
+| `influencer-creator` | `micro-influencer-strategy.md` | Created or preserved in canonical package |
+| `influencer-creator` | `performance-tracking.md` | Created or preserved in canonical package |
+| `influencer-creator` | `ugc-strategy.md` | Created or preserved in canonical package |
+| `openapi-spec-generation` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

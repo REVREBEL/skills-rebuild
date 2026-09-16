@@ -58,7 +58,40 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `conversion-rate-optimization` | `evals/funnel-step-tracking-instrumentation/criteria.json` | Created or preserved in canonical package |
+| `conversion-rate-optimization` | `evals/funnel-step-tracking-instrumentation/task.md` | Created or preserved in canonical package |
+| `conversion-rate-optimization` | `evals/heatmap-integration-and-programmatic-cro/criteria.json` | Created or preserved in canonical package |
+| `conversion-rate-optimization` | `evals/heatmap-integration-and-programmatic-cro/task.md` | Created or preserved in canonical package |
+| `conversion-rate-optimization` | `evals/ice-scoring-and-revenue-impact-estimatio/criteria.json` | Created or preserved in canonical package |
+| `conversion-rate-optimization` | `evals/ice-scoring-and-revenue-impact-estimatio/task.md` | Created or preserved in canonical package |
+| `conversion-rate-optimization` | `tile.json` | Created or preserved in canonical package |
+| `cost-allocation-analysis` | `evals/cost-allocation-schema-design/criteria.json` | Created or preserved in canonical package |
+| `cost-allocation-analysis` | `evals/cost-allocation-schema-design/task.md` | Created or preserved in canonical package |
+| `cost-allocation-analysis` | `evals/multi-channel-p-l-waterfall-queries/criteria.json` | Created or preserved in canonical package |
+| `cost-allocation-analysis` | `evals/multi-channel-p-l-waterfall-queries/task.md` | Created or preserved in canonical package |
+| `cost-allocation-analysis` | `evals/sku-profitability-ranking-and-validation/criteria.json` | Created or preserved in canonical package |
+| `cost-allocation-analysis` | `evals/sku-profitability-ranking-and-validation/task.md` | Created or preserved in canonical package |
+| `cost-allocation-analysis` | `tile.json` | Created or preserved in canonical package |
+| `cro` | `evals/evals.json` | Created or preserved in canonical package |
+| `cro` | `references/ab-testing.md` | Created or preserved in canonical package |
+| `cro` | `references/checkout-optimization.md` | Created or preserved in canonical package |
+| `cro` | `references/experiments.md` | Created or preserved in canonical package |
+| `cro` | `references/form-optimization.md` | Created or preserved in canonical package |
+| `cro` | `references/form.md` | Created or preserved in canonical package |
+| `cro` | `references/landing-page-audit.md` | Created or preserved in canonical package |
+| `cro` | `references/personalization-testing.md` | Created or preserved in canonical package |
+| `cro` | `references/pricing-psychology.md` | Created or preserved in canonical package |
+| `cron-doctor` | `scripts/cli.js` | Created or preserved in canonical package |
+| `cron-doctor` | `scripts/cron-engine.js` | Created or preserved in canonical package |
+| `cross-sell-upsell-engine` | `evals/affinity-score-computation-pipeline/criteria.json` | Created or preserved in canonical package |
+| `cross-sell-upsell-engine` | `evals/affinity-score-computation-pipeline/task.md` | Created or preserved in canonical package |
+| `cross-sell-upsell-engine` | `evals/layered-recommendation-api-with-placemen/criteria.json` | Created or preserved in canonical package |
+| `cross-sell-upsell-engine` | `evals/layered-recommendation-api-with-placemen/task.md` | Created or preserved in canonical package |
+| `cross-sell-upsell-engine` | `evals/react-widget-analytics-tracking-and-a-b-/criteria.json` | Created or preserved in canonical package |
+| `cross-sell-upsell-engine` | `evals/react-widget-analytics-tracking-and-a-b-/task.md` | Created or preserved in canonical package |
+| `cross-sell-upsell-engine` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

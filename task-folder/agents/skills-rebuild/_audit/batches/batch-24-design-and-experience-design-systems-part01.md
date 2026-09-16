@@ -58,7 +58,29 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `artifacts-builder` | `LICENSE.txt` | Created or preserved in canonical package |
+| `artifacts-builder` | `scripts/bundle-artifact.sh` | Created or preserved in canonical package |
+| `artifacts-builder` | `scripts/init-artifact.sh` | Created or preserved in canonical package |
+| `artifacts-builder` | `scripts/shadcn-components.tar.gz` | Created or preserved in canonical package |
+| `artifacts-builder-reports` | `LICENSE.txt` | Created or preserved in canonical package |
+| `artifacts-builder-reports` | `scripts/bundle-artifact.sh` | Created or preserved in canonical package |
+| `artifacts-builder-reports` | `scripts/init-artifact.sh` | Created or preserved in canonical package |
+| `artifacts-builder-reports` | `scripts/shadcn-components.tar.gz` | Created or preserved in canonical package |
+| `color-palette` | `assets/tailwind-colors.css` | Created or preserved in canonical package |
+| `design-system-generator` | `LICENSE.txt` | Created or preserved in canonical package |
+| `design-system-generator` | `theme-showcase.pdf` | Created or preserved in canonical package |
+| `design-system-generator` | `themes/arctic-frost.md` | Created or preserved in canonical package |
+| `design-system-generator` | `themes/botanical-garden.md` | Created or preserved in canonical package |
+| `design-system-generator` | `themes/desert-rose.md` | Created or preserved in canonical package |
+| `design-system-generator` | `themes/forest-canopy.md` | Created or preserved in canonical package |
+| `design-system-generator` | `themes/golden-hour.md` | Created or preserved in canonical package |
+| `design-system-generator` | `themes/midnight-galaxy.md` | Created or preserved in canonical package |
+| `design-system-generator` | `themes/modern-minimalist.md` | Created or preserved in canonical package |
+| `design-system-generator` | `themes/ocean-depths.md` | Created or preserved in canonical package |
+| `design-system-generator` | `themes/sunset-boulevard.md` | Created or preserved in canonical package |
+| `design-system-generator` | `themes/tech-innovation.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -50,7 +50,17 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `automated-triage` | `references/triage-example.md` | Created or preserved in canonical package |
+| `automated-triage` | `references/triage-stages.md` | Created or preserved in canonical package |
+| `mcp-builder-ms` | `references/LEGACY_V1_MIGRATION.md` | Created or preserved in canonical package |
+| `n8n-code-python` | `references/LEGACY_PYODIDE_COMPATIBILITY.md` | Created or preserved in canonical package |
+| `n8n-code-tool` | `references/ERROR_PATTERNS.md` | Created or preserved in canonical package |
+| `n8n-code-tool` | `references/INPUT_SCHEMA.md` | Created or preserved in canonical package |
+| `n8n-node-configuration` | `references/NODE_FAMILY_GOTCHAS.md` | Created or preserved in canonical package |
+| `n8n-subworkflows` | `references/NAMING_AND_DISCOVERY.md` | Created or preserved in canonical package |
+| `n8n-subworkflows` | `references/SUBWORKFLOW_PATTERNS.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

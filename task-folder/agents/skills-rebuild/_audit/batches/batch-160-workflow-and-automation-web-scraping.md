@@ -32,7 +32,11 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `web-scraper` | `references/data-transforms.md` | Created or preserved in canonical package |
+| `web-scraper` | `references/extraction-patterns.md` | Created or preserved in canonical package |
+| `web-scraper` | `references/output-templates.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

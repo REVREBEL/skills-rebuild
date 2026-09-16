@@ -52,7 +52,19 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `ad-creative` | `evals/evals.json` | Created or preserved in canonical package |
+| `ad-creative` | `references/generative-tools.md` | Created or preserved in canonical package |
+| `ad-creative` | `references/platform-specs.md` | Created or preserved in canonical package |
+| `content-creator` | `assets/content_calendar_template.md` | Created or preserved in canonical package |
+| `content-creator` | `references/brand_guidelines.md` | Created or preserved in canonical package |
+| `content-creator` | `references/content_frameworks.md` | Created or preserved in canonical package |
+| `content-creator` | `references/social_media_optimization.md` | Created or preserved in canonical package |
+| `content-creator` | `scripts/brand_voice_analyzer.py` | Created or preserved in canonical package |
+| `content-creator` | `scripts/seo_optimizer.py` | Created or preserved in canonical package |
+| `content-repurposer` | `scripts/main.py` | Created or preserved in canonical package |
+| `content-repurposer` | `scripts/requirements.txt` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

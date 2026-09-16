@@ -54,7 +54,22 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `ab-testing` | `evals/evals.json` | Created or preserved in canonical package |
+| `ab-testing` | `references/sample-size-guide.md` | Created or preserved in canonical package |
+| `ab-testing` | `references/test-templates.md` | Created or preserved in canonical package |
+| `ab-testing-ecommerce` | `evals/exposure-tracking-conversion-tracking-an/criteria.json` | Created or preserved in canonical package |
+| `ab-testing-ecommerce` | `evals/exposure-tracking-conversion-tracking-an/task.md` | Created or preserved in canonical package |
+| `ab-testing-ecommerce` | `evals/pricing-test-consistency-guardrail-metri/criteria.json` | Created or preserved in canonical package |
+| `ab-testing-ecommerce` | `evals/pricing-test-consistency-guardrail-metri/task.md` | Created or preserved in canonical package |
+| `ab-testing-ecommerce` | `evals/sample-size-calculation-and-server-side-/criteria.json` | Created or preserved in canonical package |
+| `ab-testing-ecommerce` | `evals/sample-size-calculation-and-server-side-/task.md` | Created or preserved in canonical package |
+| `ab-testing-ecommerce` | `tile.json` | Created or preserved in canonical package |
+| `agentic-eval` | `effective-agent-skills/SKILL.md` | Created or preserved in canonical package |
+| `api-testing-observability-api-mock` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `backtesting-frameworks` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `dbt-transformation-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

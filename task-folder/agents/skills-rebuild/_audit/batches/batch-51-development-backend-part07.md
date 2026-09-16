@@ -58,7 +58,37 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `matematico-tao` | `references/auri-analysis.md` | Created or preserved in canonical package |
+| `matematico-tao` | `references/complexity-patterns.md` | Created or preserved in canonical package |
+| `matematico-tao` | `references/concurrency-models.md` | Created or preserved in canonical package |
+| `matematico-tao` | `references/information-theory.md` | Created or preserved in canonical package |
+| `matematico-tao` | `scripts/complexity_analyzer.py` | Created or preserved in canonical package |
+| `matematico-tao` | `scripts/dependency_graph.py` | Created or preserved in canonical package |
+| `meta-ads-integration` | `evals/capi-server-side-event-tracking/criteria.json` | Created or preserved in canonical package |
+| `meta-ads-integration` | `evals/capi-server-side-event-tracking/task.md` | Created or preserved in canonical package |
+| `meta-ads-integration` | `evals/pixel-event-deduplication-and-pii-hashin/criteria.json` | Created or preserved in canonical package |
+| `meta-ads-integration` | `evals/pixel-event-deduplication-and-pii-hashin/task.md` | Created or preserved in canonical package |
+| `meta-ads-integration` | `evals/product-catalog-feed-generation/criteria.json` | Created or preserved in canonical package |
+| `meta-ads-integration` | `evals/product-catalog-feed-generation/task.md` | Created or preserved in canonical package |
+| `meta-ads-integration` | `tile.json` | Created or preserved in canonical package |
+| `modern-javascript-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `nodejs-backend-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `obsidian-bases` | `references/FUNCTIONS_REFERENCE.md` | Created or preserved in canonical package |
+| `papers-skill` | `scripts/papers.py` | Created or preserved in canonical package |
+| `pdf-official` | `LICENSE.txt` | Created or preserved in canonical package |
+| `pdf-official` | `forms.md` | Created or preserved in canonical package |
+| `pdf-official` | `reference.md` | Created or preserved in canonical package |
+| `pdf-official` | `scripts/check_bounding_boxes.py` | Created or preserved in canonical package |
+| `pdf-official` | `scripts/check_bounding_boxes_test.py` | Created or preserved in canonical package |
+| `pdf-official` | `scripts/check_fillable_fields.py` | Created or preserved in canonical package |
+| `pdf-official` | `scripts/convert_pdf_to_images.py` | Created or preserved in canonical package |
+| `pdf-official` | `scripts/create_validation_image.py` | Created or preserved in canonical package |
+| `pdf-official` | `scripts/extract_form_field_info.py` | Created or preserved in canonical package |
+| `pdf-official` | `scripts/fill_fillable_fields.py` | Created or preserved in canonical package |
+| `pdf-official` | `scripts/fill_pdf_form_with_annotations.py` | Created or preserved in canonical package |
+| `performance-optimizer` | `README.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

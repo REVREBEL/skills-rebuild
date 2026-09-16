@@ -52,7 +52,21 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `audience-intelligence` | `customer-research-methods.md` | Created or preserved in canonical package |
+| `audience-intelligence` | `jtbd-framework.md` | Created or preserved in canonical package |
+| `audience-intelligence` | `persona-builder.md` | Created or preserved in canonical package |
+| `audience-intelligence` | `psychographic-profiling.md` | Created or preserved in canonical package |
+| `audience-intelligence` | `segmentation.md` | Created or preserved in canonical package |
+| `bug-hunter` | `README.md` | Created or preserved in canonical package |
+| `competitor-profiling` | `evals/evals.json` | Created or preserved in canonical package |
+| `competitor-profiling` | `references/templates.md` | Created or preserved in canonical package |
+| `competitor-profiling` | `references/tool-reference.md` | Created or preserved in canonical package |
+| `debugging-code` | `references/advanced-techniques.md` | Created or preserved in canonical package |
+| `debugging-code` | `references/installing-debuggers.md` | Created or preserved in canonical package |
+| `debugging-code` | `scripts/install-dap.sh` | Created or preserved in canonical package |
+| `debugging-strategies` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

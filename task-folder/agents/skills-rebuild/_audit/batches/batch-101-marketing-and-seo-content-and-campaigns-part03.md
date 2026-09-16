@@ -50,7 +50,20 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `social` | `evals/evals.json` | Created or preserved in canonical package |
+| `social` | `references/platform-limits.md` | Created or preserved in canonical package |
+| `social` | `references/platforms.md` | Created or preserved in canonical package |
+| `social` | `references/post-templates.md` | Created or preserved in canonical package |
+| `social` | `references/reverse-engineering.md` | Created or preserved in canonical package |
+| `social` | `references/short-form-video.md` | Created or preserved in canonical package |
+| `social-analytics` | `scripts/main.py` | Created or preserved in canonical package |
+| `social-analytics` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `social-selling` | `assets/social_checklist.md` | Created or preserved in canonical package |
+| `social-selling` | `references/engagement_playbook.md` | Created or preserved in canonical package |
+| `video-processing` | `scripts/main.py` | Created or preserved in canonical package |
+| `video-processing` | `scripts/requirements.txt` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -58,7 +58,26 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `customer-research` | `evals/evals.json` | Created or preserved in canonical package |
+| `customer-research` | `references/source-guides.md` | Created or preserved in canonical package |
+| `customer-retention-engine` | `evals/behavioral-triggers-measurement-and-cont/criteria.json` | Created or preserved in canonical package |
+| `customer-retention-engine` | `evals/behavioral-triggers-measurement-and-cont/task.md` | Created or preserved in canonical package |
+| `customer-retention-engine` | `evals/churn-scoring-logic-and-customer-segment/criteria.json` | Created or preserved in canonical package |
+| `customer-retention-engine` | `evals/churn-scoring-logic-and-customer-segment/task.md` | Created or preserved in canonical package |
+| `customer-retention-engine` | `evals/retention-workflow-deduplication-and-int/criteria.json` | Created or preserved in canonical package |
+| `customer-retention-engine` | `evals/retention-workflow-deduplication-and-int/task.md` | Created or preserved in canonical package |
+| `customer-retention-engine` | `tile.json` | Created or preserved in canonical package |
+| `daily-news-report` | `cache.json` | Created or preserved in canonical package |
+| `daily-news-report` | `sources.json` | Created or preserved in canonical package |
+| `ddd-strategic-design` | `references/strategic-design-template.md` | Created or preserved in canonical package |
+| `ddd-tactical-patterns` | `references/tactical-checklist.md` | Created or preserved in canonical package |
+| `developer-advocacy` | `README.md` | Created or preserved in canonical package |
+| `developer-audience-context` | `README.md` | Created or preserved in canonical package |
+| `developer-audience-context` | `references/example-apitest.md` | Created or preserved in canonical package |
+| `developer-audience-context` | `references/template.md` | Created or preserved in canonical package |
+| `developer-newsletter` | `README.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

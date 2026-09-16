@@ -56,7 +56,70 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `train-sentence-transformers` | `references/base_model_selection.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/dataset_formats.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/evaluators_cross_encoder.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/evaluators_sentence_transformer.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/evaluators_sparse_encoder.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/hardware_guide.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/hf_jobs_execution.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/losses_cross_encoder.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/losses_sentence_transformer.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/losses_sparse_encoder.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/model_architectures.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/prompts_and_instructions.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/training_args.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `references/troubleshooting.md` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/mine_hard_negatives.py` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/train_cross_encoder_distillation_example.py` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/train_cross_encoder_example.py` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/train_cross_encoder_listwise_example.py` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/train_sentence_transformer_distillation_example.py` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/train_sentence_transformer_example.py` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/train_sentence_transformer_make_multilingual_example.py` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/train_sentence_transformer_matryoshka_example.py` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/train_sentence_transformer_multi_dataset_example.py` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/train_sentence_transformer_static_embedding_example.py` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/train_sentence_transformer_with_lora_example.py` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/train_sparse_encoder_distillation_example.py` | Created or preserved in canonical package |
+| `train-sentence-transformers` | `scripts/train_sparse_encoder_example.py` | Created or preserved in canonical package |
+| `ui-skills` | `image-to-code-skill/LICENSE` | Created or preserved in canonical package |
+| `ui-skills` | `image-to-code-skill/SKILL.md` | Created or preserved in canonical package |
+| `ui-skills` | `imagegen-frontend-mobile/LICENSE` | Created or preserved in canonical package |
+| `ui-skills` | `imagegen-frontend-mobile/SKILL.md` | Created or preserved in canonical package |
+| `ui-skills` | `imagegen-frontend-web/LICENSE` | Created or preserved in canonical package |
+| `ui-skills` | `imagegen-frontend-web/SKILL.md` | Created or preserved in canonical package |
+| `user-thoughts` | `assets/Runtime-Template/README.ai.md` | Created or preserved in canonical package |
+| `user-thoughts` | `assets/Runtime-Template/define.ini` | Created or preserved in canonical package |
+| `user-thoughts` | `assets/Runtime-Template/mdbase/README.ai.md` | Created or preserved in canonical package |
+| `user-thoughts` | `assets/Runtime-Template/mdbase/backlog.md` | Created or preserved in canonical package |
+| `user-thoughts` | `assets/Runtime-Template/mdbase/details/dev-stack.md` | Created or preserved in canonical package |
+| `user-thoughts` | `assets/Runtime-Template/mdbase/details/general.md` | Created or preserved in canonical package |
+| `user-thoughts` | `assets/Runtime-Template/mdbase/details/plans.md` | Created or preserved in canonical package |
+| `user-thoughts` | `assets/Runtime-Template/mdbase/details/rules.md` | Created or preserved in canonical package |
+| `user-thoughts` | `assets/Runtime-Template/mdbase/details/ui/details.md` | Created or preserved in canonical package |
+| `user-thoughts` | `assets/Runtime-Template/mdbase/details/ui/outline.md` | Created or preserved in canonical package |
+| `user-thoughts` | `references/commands.md` | Created or preserved in canonical package |
+| `user-thoughts` | `references/edge-cases.md` | Created or preserved in canonical package |
+| `user-thoughts` | `references/safety.md` | Created or preserved in canonical package |
+| `user-thoughts` | `references/sortin.md` | Created or preserved in canonical package |
+| `user-thoughts` | `scripts/common.py` | Created or preserved in canonical package |
+| `user-thoughts` | `scripts/ignore_ops.py` | Created or preserved in canonical package |
+| `user-thoughts` | `scripts/init.py` | Created or preserved in canonical package |
+| `user-thoughts` | `scripts/show_mdbase.py` | Created or preserved in canonical package |
+| `user-thoughts` | `scripts/show_raw.py` | Created or preserved in canonical package |
+| `user-thoughts` | `scripts/sortin.py` | Created or preserved in canonical package |
+| `user-thoughts` | `scripts/status.py` | Created or preserved in canonical package |
+| `user-thoughts` | `scripts/toggle.py` | Created or preserved in canonical package |
+| `user-thoughts` | `scripts/write_raw.py` | Created or preserved in canonical package |
+| `video-interaction-mapper` | `README.md` | Created or preserved in canonical package |
+| `video-interaction-mapper` | `scripts/extract_key_frames.py` | Created or preserved in canonical package |
+| `video-interaction-mapper` | `scripts/generate_figma_calls.py` | Created or preserved in canonical package |
+| `video-interaction-mapper` | `scripts/prepare_upload_frames.py` | Created or preserved in canonical package |
+| `video-interaction-mapper` | `scripts/resolve_moment_frames.py` | Created or preserved in canonical package |
+| `video-interaction-mapper` | `scripts/update_run_manifest.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

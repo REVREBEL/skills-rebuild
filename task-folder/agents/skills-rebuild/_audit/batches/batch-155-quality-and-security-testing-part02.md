@@ -54,7 +54,16 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `durable-objects` | `references/rules.md` | Created or preserved in canonical package |
+| `durable-objects` | `references/testing.md` | Created or preserved in canonical package |
+| `durable-objects` | `references/workers.md` | Created or preserved in canonical package |
+| `e2e-testing-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `framework-migration-deps-upgrade` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `javascript-testing-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `lint-and-validate` | `scripts/lint_runner.py` | Created or preserved in canonical package |
+| `lint-and-validate` | `scripts/type_coverage.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

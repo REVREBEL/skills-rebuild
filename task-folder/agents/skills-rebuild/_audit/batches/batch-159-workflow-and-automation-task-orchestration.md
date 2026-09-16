@@ -36,7 +36,23 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `go-rod-master` | `examples/basic_scrape.go` | Created or preserved in canonical package |
+| `go-rod-master` | `examples/concurrent_pages.go` | Created or preserved in canonical package |
+| `go-rod-master` | `examples/request_hijacking.go` | Created or preserved in canonical package |
+| `go-rod-master` | `examples/stealth_page.go` | Created or preserved in canonical package |
+| `go-rod-master` | `references/api-reference.md` | Created or preserved in canonical package |
+| `hasdata` | `references/code-recipes.md` | Created or preserved in canonical package |
+| `hasdata` | `references/ecommerce.md` | Created or preserved in canonical package |
+| `hasdata` | `references/jobs.md` | Created or preserved in canonical package |
+| `hasdata` | `references/local-business.md` | Created or preserved in canonical package |
+| `hasdata` | `references/real-estate.md` | Created or preserved in canonical package |
+| `hasdata` | `references/scraper-jobs.md` | Created or preserved in canonical package |
+| `hasdata` | `references/search.md` | Created or preserved in canonical package |
+| `hasdata` | `references/travel.md` | Created or preserved in canonical package |
+| `hasdata` | `references/web-scraping.md` | Created or preserved in canonical package |
+| `hasdata` | `references/youtube.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

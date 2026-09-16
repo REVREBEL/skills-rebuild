@@ -58,7 +58,16 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `report-generator` | `scripts/main.py` | Created or preserved in canonical package |
+| `report-generator` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `research` | `scripts/tavily-cli.ts` | Created or preserved in canonical package |
+| `research-workflow` | `assets/research-plan-template.md` | Created or preserved in canonical package |
+| `research-workflow` | `assets/research-report-template.md` | Created or preserved in canonical package |
+| `research-workflow` | `assets/source-evaluation-checklist.md` | Created or preserved in canonical package |
+| `research-workflow` | `references/methodology.md` | Created or preserved in canonical package |
+| `research-workflow` | `references/output-formats.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

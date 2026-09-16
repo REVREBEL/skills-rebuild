@@ -58,7 +58,9 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `segmentation` | `assets/segmentation_matrix.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

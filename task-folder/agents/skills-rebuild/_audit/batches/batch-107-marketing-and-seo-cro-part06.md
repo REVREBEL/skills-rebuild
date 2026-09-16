@@ -58,7 +58,32 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `developer-listening` | `README.md` | Created or preserved in canonical package |
+| `ebook-analysis` | `data/tag-mapping-rules.json` | Created or preserved in canonical package |
+| `ebook-analysis` | `data/theme-vocabulary.json` | Created or preserved in canonical package |
+| `ebook-analysis` | `references/abstraction-layers.md` | Created or preserved in canonical package |
+| `ebook-analysis` | `references/concept-types.md` | Created or preserved in canonical package |
+| `ebook-analysis` | `references/functional-axes.md` | Created or preserved in canonical package |
+| `ebook-analysis` | `references/relationship-types.md` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/bc-assemble-index.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/bc-classify-untagged.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/bc-list-books.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/bc-map-tags.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/bulk-preprocess.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/calibre-db.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/ea-classify.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/ea-extract.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/ea-link.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/ea-parse.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/ea-validate.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/kb-generate-index.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `scripts/kb-resolve-entity.ts` | Created or preserved in canonical package |
+| `ebook-analysis` | `templates/analysis-report.md` | Created or preserved in canonical package |
+| `ebook-analysis` | `templates/concept-record.json` | Created or preserved in canonical package |
+| `editorial-ops` | `assets/distribution_brief.md` | Created or preserved in canonical package |
+| `editorial-ops` | `assets/editorial_calendar_template.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

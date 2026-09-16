@@ -54,7 +54,93 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `2slides-ppt-generator` | `references/api-reference.md` | Created or preserved in canonical package |
+| `2slides-ppt-generator` | `references/mcp-integration.md` | Created or preserved in canonical package |
+| `2slides-ppt-generator` | `references/pricing.md` | Created or preserved in canonical package |
+| `2slides-ppt-generator` | `requirements.txt` | Created or preserved in canonical package |
+| `2slides-ppt-generator` | `scripts/api_constants.py` | Created or preserved in canonical package |
+| `2slides-ppt-generator` | `scripts/create_pdf_slides.py` | Created or preserved in canonical package |
+| `2slides-ppt-generator` | `scripts/download_slides_pages_voices.py` | Created or preserved in canonical package |
+| `2slides-ppt-generator` | `scripts/generate_narration.py` | Created or preserved in canonical package |
+| `2slides-ppt-generator` | `scripts/generate_slides.py` | Created or preserved in canonical package |
+| `2slides-ppt-generator` | `scripts/get_job_status.py` | Created or preserved in canonical package |
+| `2slides-ppt-generator` | `scripts/search_themes.py` | Created or preserved in canonical package |
+| `notebooklm-create` | `assets/community_content_template.md` | Created or preserved in canonical package |
+| `notebooklm-create` | `assets/research_synthesis_template.md` | Created or preserved in canonical package |
+| `notebooklm-create` | `assets/workflow_checklist.md` | Created or preserved in canonical package |
+| `notebooklm-create` | `evals/evals.json` | Created or preserved in canonical package |
+| `notebooklm-create` | `references/mcp-tool-map.md` | Created or preserved in canonical package |
+| `notebooklm-create` | `references/prompt-library.md` | Created or preserved in canonical package |
+| `notebooklm-create` | `references/studio-quirks.md` | Created or preserved in canonical package |
+| `notebooklm-create` | `references/url-gotchas.md` | Created or preserved in canonical package |
+| `notebooklm-create` | `samples/cmux_docs_walkthrough.md` | Created or preserved in canonical package |
+| `notebooklm-create` | `scripts/adapt_prompts.py` | Created or preserved in canonical package |
+| `notebooklm-create` | `scripts/add_urls_sequential.py` | Created or preserved in canonical package |
+| `notebooklm-create` | `scripts/build_full_studio.py` | Created or preserved in canonical package |
+| `pptx-deck-creation` | `references/audit-checklist.md` | Created or preserved in canonical package |
+| `pptx-deck-creation` | `references/design-profiles.md` | Created or preserved in canonical package |
+| `pptx-deck-creation` | `references/ooxml-parsing.md` | Created or preserved in canonical package |
+| `pptx-deck-creation` | `references/reference-deck-analysis-patterns.md` | Created or preserved in canonical package |
+| `pptx-deck-creation` | `references/reference-deck-analysis.md` | Created or preserved in canonical package |
+| `pptx-deck-creation` | `references/visual-asset-adapters.md` | Created or preserved in canonical package |
+| `pptx-official` | `LICENSE.txt` | Created or preserved in canonical package |
+| `pptx-official` | `html2pptx.md` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml.md` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-picture.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/pml.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-math.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/sml.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-main.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/wml.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ISO-IEC29500-4_2016/xml.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ecma/fouth-edition/opc-contentTypes.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ecma/fouth-edition/opc-coreProperties.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ecma/fouth-edition/opc-digSig.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/ecma/fouth-edition/opc-relationships.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/mce/mc.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/microsoft/wml-2010.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/microsoft/wml-2012.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/microsoft/wml-2018.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/microsoft/wml-cex-2018.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/microsoft/wml-cid-2016.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/microsoft/wml-sdtdatahash-2020.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/schemas/microsoft/wml-symex-2015.xsd` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/scripts/pack.py` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/scripts/unpack.py` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/scripts/validate.py` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/scripts/validation/__init__.py` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/scripts/validation/base.py` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/scripts/validation/docx.py` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/scripts/validation/pptx.py` | Created or preserved in canonical package |
+| `pptx-official` | `ooxml/scripts/validation/redlining.py` | Created or preserved in canonical package |
+| `pptx-official` | `scripts/html2pptx.js` | Created or preserved in canonical package |
+| `pptx-official` | `scripts/inventory.py` | Created or preserved in canonical package |
+| `pptx-official` | `scripts/rearrange.py` | Created or preserved in canonical package |
+| `pptx-official` | `scripts/replace.py` | Created or preserved in canonical package |
+| `pptx-official` | `scripts/thumbnail.py` | Created or preserved in canonical package |
+| `python-pptx-generator` | `README.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

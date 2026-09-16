@@ -58,7 +58,11 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `dashboard-playbook` | `templates/dashboard_wireframe.md` | Created or preserved in canonical package |
+| `data-visualizer` | `scripts/main.py` | Created or preserved in canonical package |
+| `data-visualizer` | `scripts/requirements.txt` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

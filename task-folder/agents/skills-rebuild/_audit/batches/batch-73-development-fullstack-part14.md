@@ -58,7 +58,22 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `humanise` | `references/ai-writing-detection.md` | Created or preserved in canonical package |
+| `humanise` | `references/communication-patterns.md` | Created or preserved in canonical package |
+| `humanise` | `references/content-patterns.md` | Created or preserved in canonical package |
+| `humanise` | `references/evals.md` | Created or preserved in canonical package |
+| `humanise` | `references/filler-patterns.md` | Created or preserved in canonical package |
+| `humanise` | `references/full-example.md` | Created or preserved in canonical package |
+| `humanise` | `references/language-patterns.md` | Created or preserved in canonical package |
+| `humanise` | `references/style-patterns.md` | Created or preserved in canonical package |
+| `humanise` | `references/wikipedia-digest.md` | Created or preserved in canonical package |
+| `i18n-localization` | `scripts/i18n_checker.py` | Created or preserved in canonical package |
+| `idea-refine` | `examples.md` | Created or preserved in canonical package |
+| `idea-refine` | `frameworks.md` | Created or preserved in canonical package |
+| `idea-refine` | `refinement-criteria.md` | Created or preserved in canonical package |
+| `idea-refine` | `scripts/idea-refine.sh` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

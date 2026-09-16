@@ -54,7 +54,23 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `affiliate-program` | `evals/affiliate-click-tracking-and-cookie-attr/criteria.json` | Created or preserved in canonical package |
+| `affiliate-program` | `evals/affiliate-click-tracking-and-cookie-attr/task.md` | Created or preserved in canonical package |
+| `affiliate-program` | `evals/commission-calculation-and-fraud-detecti/criteria.json` | Created or preserved in canonical package |
+| `affiliate-program` | `evals/commission-calculation-and-fraud-detecti/task.md` | Created or preserved in canonical package |
+| `affiliate-program` | `evals/payout-processing-and-tier-management/criteria.json` | Created or preserved in canonical package |
+| `affiliate-program` | `evals/payout-processing-and-tier-management/task.md` | Created or preserved in canonical package |
+| `affiliate-program` | `tile.json` | Created or preserved in canonical package |
+| `leiloeiro-avaliacao` | `references/fontes.md` | Created or preserved in canonical package |
+| `leiloeiro-avaliacao` | `scripts/governance.py` | Created or preserved in canonical package |
+| `leiloeiro-avaliacao` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `logistics-exception-management` | `references/communication-templates.md` | Created or preserved in canonical package |
+| `logistics-exception-management` | `references/decision-frameworks.md` | Created or preserved in canonical package |
+| `logistics-exception-management` | `references/edge-cases.md` | Created or preserved in canonical package |
+| `market-sizing-analysis` | `examples/saas-market-sizing.md` | Created or preserved in canonical package |
+| `market-sizing-analysis` | `references/data-sources.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

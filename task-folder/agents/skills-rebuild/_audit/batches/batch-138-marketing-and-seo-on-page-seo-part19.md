@@ -46,7 +46,14 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `web-scraper` | `scripts/main.py` | Created or preserved in canonical package |
+| `web-scraper` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `whisper-transcription` | `scripts/main.py` | Created or preserved in canonical package |
+| `whisper-transcription` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `youtube-downloader` | `scripts/main.py` | Created or preserved in canonical package |
+| `youtube-downloader` | `scripts/requirements.txt` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

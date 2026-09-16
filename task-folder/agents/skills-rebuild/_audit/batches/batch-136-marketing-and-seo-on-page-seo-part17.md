@@ -58,7 +58,10 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `skill-orchestrator` | `WORKFLOWS.md` | Created or preserved in canonical package |
+| `success-planning-framework` | `assets/success_plan_canvas.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

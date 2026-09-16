@@ -58,7 +58,34 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `browser-harness` | `references/install.md` | Created or preserved in canonical package |
+| `bug-hunt-swarm` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `campaign-orchestrator` | `abm-strategy.md` | Created or preserved in canonical package |
+| `campaign-orchestrator` | `budget-allocation.md` | Created or preserved in canonical package |
+| `campaign-orchestrator` | `campaign-planning.md` | Created or preserved in canonical package |
+| `campaign-orchestrator` | `channel-strategy.md` | Created or preserved in canonical package |
+| `campaign-orchestrator` | `post-mortem.md` | Created or preserved in canonical package |
+| `campaign-orchestrator` | `sales-enablement.md` | Created or preserved in canonical package |
+| `campaign-orchestrator` | `utm-tracking.md` | Created or preserved in canonical package |
+| `campaign-plan` | `evals/evals.json` | Created or preserved in canonical package |
+| `cart-abandonment-recovery` | `evals/multi-channel-sequence-with-incentive-es/criteria.json` | Created or preserved in canonical package |
+| `cart-abandonment-recovery` | `evals/multi-channel-sequence-with-incentive-es/task.md` | Created or preserved in canonical package |
+| `cart-abandonment-recovery` | `evals/recovery-link-endpoint-cart-snapshot-and/criteria.json` | Created or preserved in canonical package |
+| `cart-abandonment-recovery` | `evals/recovery-link-endpoint-cart-snapshot-and/task.md` | Created or preserved in canonical package |
+| `cart-abandonment-recovery` | `evals/server-side-abandonment-detection-and-jo/criteria.json` | Created or preserved in canonical package |
+| `cart-abandonment-recovery` | `evals/server-side-abandonment-detection-and-jo/task.md` | Created or preserved in canonical package |
+| `cart-abandonment-recovery` | `tile.json` | Created or preserved in canonical package |
+| `cart-recovery-sms` | `evals/abandonment-detection-and-send-window-sc/criteria.json` | Created or preserved in canonical package |
+| `cart-recovery-sms` | `evals/abandonment-detection-and-send-window-sc/task.md` | Created or preserved in canonical package |
+| `cart-recovery-sms` | `evals/consent-capture-and-opt-out-compliance/criteria.json` | Created or preserved in canonical package |
+| `cart-recovery-sms` | `evals/consent-capture-and-opt-out-compliance/task.md` | Created or preserved in canonical package |
+| `cart-recovery-sms` | `evals/message-templates-recovery-links-and-dis/criteria.json` | Created or preserved in canonical package |
+| `cart-recovery-sms` | `evals/message-templates-recovery-links-and-dis/task.md` | Created or preserved in canonical package |
+| `cart-recovery-sms` | `tile.json` | Created or preserved in canonical package |
+| `cc-skill-continuous-learning` | `config.json` | Created or preserved in canonical package |
+| `cc-skill-continuous-learning` | `evaluate-session.sh` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

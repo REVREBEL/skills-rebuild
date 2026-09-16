@@ -54,7 +54,29 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `llm-application-dev-ai-assistant` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `llm-application-dev-prompt-optimize` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `llm-council` | `.env.example` | Created or preserved in canonical package |
+| `mcp-builder` | `LICENSE.txt` | Created or preserved in canonical package |
+| `mcp-builder` | `reference/evaluation.md` | Created or preserved in canonical package |
+| `mcp-builder` | `reference/mcp_best_practices.md` | Created or preserved in canonical package |
+| `mcp-builder` | `reference/node_mcp_server.md` | Created or preserved in canonical package |
+| `mcp-builder` | `reference/python_mcp_server.md` | Created or preserved in canonical package |
+| `mcp-builder` | `scripts/connections.py` | Created or preserved in canonical package |
+| `mcp-builder` | `scripts/evaluation.py` | Created or preserved in canonical package |
+| `mcp-builder` | `scripts/example_evaluation.xml` | Created or preserved in canonical package |
+| `mcp-builder` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `n8n-agents` | `references/CHAT_AGENT_PATTERNS.md` | Created or preserved in canonical package |
+| `n8n-agents` | `references/EXAMPLES.md` | Created or preserved in canonical package |
+| `n8n-agents` | `references/HUMAN_REVIEW.md` | Created or preserved in canonical package |
+| `n8n-agents` | `references/MEMORY.md` | Created or preserved in canonical package |
+| `n8n-agents` | `references/RAG.md` | Created or preserved in canonical package |
+| `n8n-agents` | `references/STRUCTURED_OUTPUT.md` | Created or preserved in canonical package |
+| `n8n-agents` | `references/SUBWORKFLOW_AS_TOOL.md` | Created or preserved in canonical package |
+| `n8n-agents` | `references/SYSTEM_PROMPT.md` | Created or preserved in canonical package |
+| `n8n-agents` | `references/TOOLS.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

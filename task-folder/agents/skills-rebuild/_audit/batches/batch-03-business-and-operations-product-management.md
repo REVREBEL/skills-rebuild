@@ -46,7 +46,31 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `content-strategy` | `evals/evals.json` | Created or preserved in canonical package |
+| `content-strategy` | `references/headless-cms.md` | Created or preserved in canonical package |
+| `marketing-plan` | `evals/evals.json` | Created or preserved in canonical package |
+| `marketing-plan` | `references/aarrr-framework.md` | Created or preserved in canonical package |
+| `marketing-plan` | `references/budget-planning.md` | Created or preserved in canonical package |
+| `marketing-plan` | `references/client-types.md` | Created or preserved in canonical package |
+| `marketing-plan` | `references/current-state-rubric.md` | Created or preserved in canonical package |
+| `marketing-plan` | `references/example-quietude.md` | Created or preserved in canonical package |
+| `marketing-plan` | `references/funding-stage-unlocks.md` | Created or preserved in canonical package |
+| `marketing-plan` | `references/growth-patterns.md` | Created or preserved in canonical package |
+| `marketing-plan` | `references/idea-cross-reference.md` | Created or preserved in canonical package |
+| `marketing-plan` | `references/measurement-framework.md` | Created or preserved in canonical package |
+| `marketing-plan` | `references/methodology.md` | Created or preserved in canonical package |
+| `marketing-plan` | `references/ops-stack-mapping.md` | Created or preserved in canonical package |
+| `marketing-plan` | `references/plan-template.md` | Created or preserved in canonical package |
+| `marketing-plan` | `references/team-and-agency-model.md` | Created or preserved in canonical package |
+| `product-decision-agent` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `product-decision-agent` | `references/methodology-basis.md` | Created or preserved in canonical package |
+| `product-decision-agent` | `references/product-playbooks.md` | Created or preserved in canonical package |
+| `product-decision-agent` | `references/reasoning-engine.md` | Created or preserved in canonical package |
+| `product-decision-agent` | `references/response-examples.md` | Created or preserved in canonical package |
+| `product-decision-agent` | `scripts/quality_gate.py` | Created or preserved in canonical package |
+| `product-decision-agent` | `scripts/test_quality_gate.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

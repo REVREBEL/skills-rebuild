@@ -58,7 +58,24 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `logic-explain` | `logic-explain-guide.md` | Created or preserved in canonical package |
+| `logic-fix-all` | `guide-phases-0-2-consent-scope-health.md` | Created or preserved in canonical package |
+| `logic-fix-all` | `guide-phases-3-5-review-locate-clarify.md` | Created or preserved in canonical package |
+| `logic-fix-all` | `guide-phases-6-9-fix-iterate-report.md` | Created or preserved in canonical package |
+| `logic-fix-all` | `logic-fix-all-guide.md` | Created or preserved in canonical package |
+| `logic-locate` | `logic-locate-guide.md` | Created or preserved in canonical package |
+| `logic-review` | `logic-review-guide.md` | Created or preserved in canonical package |
+| `loop-library` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `loop-library` | `references/catalog.md` | Created or preserved in canonical package |
+| `loyalty-program-optimization` | `evals/points-engine-earn-logic/criteria.json` | Created or preserved in canonical package |
+| `loyalty-program-optimization` | `evals/points-engine-earn-logic/task.md` | Created or preserved in canonical package |
+| `loyalty-program-optimization` | `evals/points-expiry-and-program-analytics/criteria.json` | Created or preserved in canonical package |
+| `loyalty-program-optimization` | `evals/points-expiry-and-program-analytics/task.md` | Created or preserved in canonical package |
+| `loyalty-program-optimization` | `evals/tier-structure-and-points-redemption/criteria.json` | Created or preserved in canonical package |
+| `loyalty-program-optimization` | `evals/tier-structure-and-points-redemption/task.md` | Created or preserved in canonical package |
+| `loyalty-program-optimization` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

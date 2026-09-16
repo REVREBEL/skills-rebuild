@@ -32,7 +32,18 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `subagent-driven-development` | `code-quality-reviewer-prompt.md` | Created or preserved in canonical package |
+| `subagent-driven-development` | `implementer-prompt.md` | Created or preserved in canonical package |
+| `subagent-driven-development` | `spec-reviewer-prompt.md` | Created or preserved in canonical package |
+| `subagent-orchestrator` | `README.md` | Created or preserved in canonical package |
+| `subagent-orchestrator` | `examples/api-plus-frontend.md` | Created or preserved in canonical package |
+| `subagent-orchestrator` | `examples/debug-mission.md` | Created or preserved in canonical package |
+| `subagent-orchestrator` | `examples/nextjs-feature.md` | Created or preserved in canonical package |
+| `subagent-orchestrator` | `resources/mission-brief-template.md` | Created or preserved in canonical package |
+| `subagent-orchestrator` | `resources/quota-reference.md` | Created or preserved in canonical package |
+| `subagent-orchestrator` | `scripts/install.js` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -58,7 +58,39 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `code-review-excellence` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `community-building` | `README.md` | Created or preserved in canonical package |
+| `competitive-analysis` | `scripts/main.py` | Created or preserved in canonical package |
+| `competitive-analysis` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `competitive-landscape` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `competitor-analysis` | `.gitignore` | Created or preserved in canonical package |
+| `competitor-analysis` | `LICENSE.txt` | Created or preserved in canonical package |
+| `competitor-analysis` | `references/battle-card-subagent.md` | Created or preserved in canonical package |
+| `competitor-analysis` | `references/battle-card.md` | Created or preserved in canonical package |
+| `competitor-analysis` | `references/example-research.md` | Created or preserved in canonical package |
+| `competitor-analysis` | `references/report-template.html` | Created or preserved in canonical package |
+| `competitor-analysis` | `references/research-patterns.md` | Created or preserved in canonical package |
+| `competitor-analysis` | `references/workflow.md` | Created or preserved in canonical package |
+| `competitor-analysis` | `scripts/capture_screenshots.mjs` | Created or preserved in canonical package |
+| `competitor-analysis` | `scripts/compile_report.mjs` | Created or preserved in canonical package |
+| `competitor-analysis` | `scripts/extract_vs_names.mjs` | Created or preserved in canonical package |
+| `competitor-analysis` | `scripts/gate_candidates.mjs` | Created or preserved in canonical package |
+| `competitor-analysis` | `scripts/list_urls.mjs` | Created or preserved in canonical package |
+| `competitor-analysis` | `scripts/md_utils.mjs` | Created or preserved in canonical package |
+| `competitor-analysis` | `scripts/merge_partials.mjs` | Created or preserved in canonical package |
+| `competitor-analysis` | `scripts/package.json` | Created or preserved in canonical package |
+| `composition-patterns` | `rules/_sections.md` | Created or preserved in canonical package |
+| `composition-patterns` | `rules/_template.md` | Created or preserved in canonical package |
+| `composition-patterns` | `rules/architecture-avoid-boolean-props.md` | Created or preserved in canonical package |
+| `composition-patterns` | `rules/architecture-compound-components.md` | Created or preserved in canonical package |
+| `composition-patterns` | `rules/patterns-children-over-render-props.md` | Created or preserved in canonical package |
+| `composition-patterns` | `rules/patterns-explicit-variants.md` | Created or preserved in canonical package |
+| `composition-patterns` | `rules/react19-no-forwardref.md` | Created or preserved in canonical package |
+| `composition-patterns` | `rules/state-context-interface.md` | Created or preserved in canonical package |
+| `composition-patterns` | `rules/state-decouple-implementation.md` | Created or preserved in canonical package |
+| `composition-patterns` | `rules/state-lift-state.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

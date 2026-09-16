@@ -54,7 +54,103 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `ecommerce-budgeting-forecasting` | `evals/marketing-budget-computation-rules/criteria.json` | Created or preserved in canonical package |
+| `ecommerce-budgeting-forecasting` | `evals/marketing-budget-computation-rules/task.md` | Created or preserved in canonical package |
+| `ecommerce-budgeting-forecasting` | `evals/revenue-budget-and-rolling-forecast-vers/criteria.json` | Created or preserved in canonical package |
+| `ecommerce-budgeting-forecasting` | `evals/revenue-budget-and-rolling-forecast-vers/task.md` | Created or preserved in canonical package |
+| `ecommerce-budgeting-forecasting` | `evals/variance-classification-and-budget-alert/criteria.json` | Created or preserved in canonical package |
+| `ecommerce-budgeting-forecasting` | `evals/variance-classification-and-budget-alert/task.md` | Created or preserved in canonical package |
+| `ecommerce-budgeting-forecasting` | `tile.json` | Created or preserved in canonical package |
+| `ecommerce-data-warehouse` | `evals/customer-ltv-segmentation-and-kpi-calcul/criteria.json` | Created or preserved in canonical package |
+| `ecommerce-data-warehouse` | `evals/customer-ltv-segmentation-and-kpi-calcul/task.md` | Created or preserved in canonical package |
+| `ecommerce-data-warehouse` | `evals/dbt-project-layering-and-transformation-/criteria.json` | Created or preserved in canonical package |
+| `ecommerce-data-warehouse` | `evals/dbt-project-layering-and-transformation-/task.md` | Created or preserved in canonical package |
+| `ecommerce-data-warehouse` | `evals/star-schema-dimensional-model-design/criteria.json` | Created or preserved in canonical package |
+| `ecommerce-data-warehouse` | `evals/star-schema-dimensional-model-design/task.md` | Created or preserved in canonical package |
+| `ecommerce-data-warehouse` | `tile.json` | Created or preserved in canonical package |
+| `email-list-segmentation` | `evals/campaign-suppression-list-and-compliance/criteria.json` | Created or preserved in canonical package |
+| `email-list-segmentation` | `evals/campaign-suppression-list-and-compliance/task.md` | Created or preserved in canonical package |
+| `email-list-segmentation` | `evals/klaviyo-segment-sync-and-unsubscribe-web/criteria.json` | Created or preserved in canonical package |
+| `email-list-segmentation` | `evals/klaviyo-segment-sync-and-unsubscribe-web/task.md` | Created or preserved in canonical package |
+| `email-list-segmentation` | `evals/rfm-scoring-pipeline-implementation/criteria.json` | Created or preserved in canonical package |
+| `email-list-segmentation` | `evals/rfm-scoring-pipeline-implementation/task.md` | Created or preserved in canonical package |
+| `email-list-segmentation` | `tile.json` | Created or preserved in canonical package |
+| `financial-analytics-dashboard` | `evals/kpi-registry-structure-and-threshold-ale/criteria.json` | Created or preserved in canonical package |
+| `financial-analytics-dashboard` | `evals/kpi-registry-structure-and-threshold-ale/task.md` | Created or preserved in canonical package |
+| `financial-analytics-dashboard` | `evals/metrics-engine-class-with-period-compari/criteria.json` | Created or preserved in canonical package |
+| `financial-analytics-dashboard` | `evals/metrics-engine-class-with-period-compari/task.md` | Created or preserved in canonical package |
+| `financial-analytics-dashboard` | `evals/variance-decomposition-into-volume-and-p/criteria.json` | Created or preserved in canonical package |
+| `financial-analytics-dashboard` | `evals/variance-decomposition-into-volume-and-p/task.md` | Created or preserved in canonical package |
+| `financial-analytics-dashboard` | `tile.json` | Created or preserved in canonical package |
+| `financial-reporting-dashboard` | `evals/data-quality-period-closes-returns-handl/criteria.json` | Created or preserved in canonical package |
+| `financial-reporting-dashboard` | `evals/data-quality-period-closes-returns-handl/task.md` | Created or preserved in canonical package |
+| `financial-reporting-dashboard` | `evals/kpi-cards-drill-down-queries-and-visuali/criteria.json` | Created or preserved in canonical package |
+| `financial-reporting-dashboard` | `evals/kpi-cards-drill-down-queries-and-visuali/task.md` | Created or preserved in canonical package |
+| `financial-reporting-dashboard` | `evals/unified-financial-data-model-and-p-l-sch/criteria.json` | Created or preserved in canonical package |
+| `financial-reporting-dashboard` | `evals/unified-financial-data-model-and-p-l-sch/task.md` | Created or preserved in canonical package |
+| `financial-reporting-dashboard` | `tile.json` | Created or preserved in canonical package |
+| `hugging-face-vision-trainer` | `references/finetune_sam2_trainer.md` | Created or preserved in canonical package |
+| `hugging-face-vision-trainer` | `references/hub_saving.md` | Created or preserved in canonical package |
+| `hugging-face-vision-trainer` | `references/image_classification_training_notebook.md` | Created or preserved in canonical package |
+| `hugging-face-vision-trainer` | `references/object_detection_training_notebook.md` | Created or preserved in canonical package |
+| `hugging-face-vision-trainer` | `references/reliability_principles.md` | Created or preserved in canonical package |
+| `hugging-face-vision-trainer` | `references/timm_trainer.md` | Created or preserved in canonical package |
+| `hugging-face-vision-trainer` | `scripts/dataset_inspector.py` | Created or preserved in canonical package |
+| `hugging-face-vision-trainer` | `scripts/estimate_cost.py` | Created or preserved in canonical package |
+| `hugging-face-vision-trainer` | `scripts/image_classification_training.py` | Created or preserved in canonical package |
+| `hugging-face-vision-trainer` | `scripts/object_detection_training.py` | Created or preserved in canonical package |
+| `hugging-face-vision-trainer` | `scripts/sam_segmentation_training.py` | Created or preserved in canonical package |
+| `influencer-tracking` | `evals/campaign-roi-metrics-and-cross-influence/criteria.json` | Created or preserved in canonical package |
+| `influencer-tracking` | `evals/campaign-roi-metrics-and-cross-influence/task.md` | Created or preserved in canonical package |
+| `influencer-tracking` | `evals/first-touch-attribution-and-order-attrib/criteria.json` | Created or preserved in canonical package |
+| `influencer-tracking` | `evals/first-touch-attribution-and-order-attrib/task.md` | Created or preserved in canonical package |
+| `influencer-tracking` | `evals/utm-link-and-promo-code-generation/criteria.json` | Created or preserved in canonical package |
+| `influencer-tracking` | `evals/utm-link-and-promo-code-generation/task.md` | Created or preserved in canonical package |
+| `influencer-tracking` | `tile.json` | Created or preserved in canonical package |
+| `instagram` | `references/account_types.md` | Created or preserved in canonical package |
+| `instagram` | `references/graph_api.md` | Created or preserved in canonical package |
+| `instagram` | `references/permissions.md` | Created or preserved in canonical package |
+| `instagram` | `references/publishing_guide.md` | Created or preserved in canonical package |
+| `instagram` | `references/rate_limits.md` | Created or preserved in canonical package |
+| `instagram` | `references/schema.md` | Created or preserved in canonical package |
+| `instagram` | `references/setup_walkthrough.md` | Created or preserved in canonical package |
+| `instagram` | `scripts/account_setup.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/analyze.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/api_client.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/auth.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/comments.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/config.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/db.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/export.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/governance.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/hashtags.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/insights.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/media.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/messages.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/profile.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/publish.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `instagram` | `scripts/run_all.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/schedule.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/serve_api.py` | Created or preserved in canonical package |
+| `instagram` | `scripts/templates.py` | Created or preserved in canonical package |
+| `instagram` | `static/dashboard.html` | Created or preserved in canonical package |
+| `lifecycle-marketing-automation` | `evals/campaign-config-analytics-and-real-time-/criteria.json` | Created or preserved in canonical package |
+| `lifecycle-marketing-automation` | `evals/campaign-config-analytics-and-real-time-/task.md` | Created or preserved in canonical package |
+| `lifecycle-marketing-automation` | `evals/lifecycle-stage-classification-logic/criteria.json` | Created or preserved in canonical package |
+| `lifecycle-marketing-automation` | `evals/lifecycle-stage-classification-logic/task.md` | Created or preserved in canonical package |
+| `lifecycle-marketing-automation` | `evals/stage-transition-workflow-automation/criteria.json` | Created or preserved in canonical package |
+| `lifecycle-marketing-automation` | `evals/stage-transition-workflow-automation/task.md` | Created or preserved in canonical package |
+| `lifecycle-marketing-automation` | `tile.json` | Created or preserved in canonical package |
+| `marketplace-fee-reconciliation` | `evals/amazon-settlement-parsing-and-fee-catego/criteria.json` | Created or preserved in canonical package |
+| `marketplace-fee-reconciliation` | `evals/amazon-settlement-parsing-and-fee-catego/task.md` | Created or preserved in canonical package |
+| `marketplace-fee-reconciliation` | `evals/fba-overcharge-detection-and-optimizatio/criteria.json` | Created or preserved in canonical package |
+| `marketplace-fee-reconciliation` | `evals/fba-overcharge-detection-and-optimizatio/task.md` | Created or preserved in canonical package |
+| `marketplace-fee-reconciliation` | `evals/net-revenue-computation-and-fee-rate-tra/criteria.json` | Created or preserved in canonical package |
+| `marketplace-fee-reconciliation` | `evals/net-revenue-computation-and-fee-rate-tra/task.md` | Created or preserved in canonical package |
+| `marketplace-fee-reconciliation` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

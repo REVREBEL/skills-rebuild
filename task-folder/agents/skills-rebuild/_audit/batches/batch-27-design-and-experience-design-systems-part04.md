@@ -54,7 +54,59 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `tailwind-theme-builder` | `assets/components.json` | Created or preserved in canonical package |
+| `tailwind-theme-builder` | `assets/index.css` | Created or preserved in canonical package |
+| `tailwind-theme-builder` | `assets/theme-provider.tsx` | Created or preserved in canonical package |
+| `tailwind-theme-builder` | `assets/tsconfig.app.json` | Created or preserved in canonical package |
+| `tailwind-theme-builder` | `assets/utils.ts` | Created or preserved in canonical package |
+| `tailwind-theme-builder` | `assets/vite.config.ts` | Created or preserved in canonical package |
+| `tailwind-theme-builder` | `references/migration-guide.md` | Created or preserved in canonical package |
+| `theme-factory` | `LICENSE.txt` | Created or preserved in canonical package |
+| `theme-factory` | `theme-showcase.pdf` | Created or preserved in canonical package |
+| `theme-factory` | `themes/arctic-frost.md` | Created or preserved in canonical package |
+| `theme-factory` | `themes/botanical-garden.md` | Created or preserved in canonical package |
+| `theme-factory` | `themes/desert-rose.md` | Created or preserved in canonical package |
+| `theme-factory` | `themes/forest-canopy.md` | Created or preserved in canonical package |
+| `theme-factory` | `themes/golden-hour.md` | Created or preserved in canonical package |
+| `theme-factory` | `themes/midnight-galaxy.md` | Created or preserved in canonical package |
+| `theme-factory` | `themes/modern-minimalist.md` | Created or preserved in canonical package |
+| `theme-factory` | `themes/ocean-depths.md` | Created or preserved in canonical package |
+| `theme-factory` | `themes/sunset-boulevard.md` | Created or preserved in canonical package |
+| `theme-factory` | `themes/tech-innovation.md` | Created or preserved in canonical package |
+| `transilience-report-style` | `fonts/Carlito-Bold.ttf` | Created or preserved in canonical package |
+| `transilience-report-style` | `fonts/Carlito-BoldItalic.ttf` | Created or preserved in canonical package |
+| `transilience-report-style` | `fonts/Carlito-Italic.ttf` | Created or preserved in canonical package |
+| `transilience-report-style` | `fonts/Carlito-Regular.ttf` | Created or preserved in canonical package |
+| `transilience-report-style` | `fonts/Poppins-Bold.ttf` | Created or preserved in canonical package |
+| `transilience-report-style` | `fonts/Poppins-Italic.ttf` | Created or preserved in canonical package |
+| `transilience-report-style` | `fonts/Poppins-Light.ttf` | Created or preserved in canonical package |
+| `transilience-report-style` | `fonts/Poppins-Medium.ttf` | Created or preserved in canonical package |
+| `transilience-report-style` | `fonts/Poppins-Regular.ttf` | Created or preserved in canonical package |
+| `transilience-report-style` | `pentest-report.md` | Created or preserved in canonical package |
+| `writing-skills` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `writing-skills` | `anthropic-best-practices.md` | Created or preserved in canonical package |
+| `writing-skills` | `assets/icon.svg` | Created or preserved in canonical package |
+| `writing-skills` | `examples.md` | Created or preserved in canonical package |
+| `writing-skills` | `gotchas.md` | Created or preserved in canonical package |
+| `writing-skills` | `graphviz-conventions.dot` | Created or preserved in canonical package |
+| `writing-skills` | `persuasion-principles.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/anti-rationalization/README.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/cso/README.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/standards/README.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/standards/metadata-standard.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/templates/discipline.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/templates/pattern.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/templates/reference.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/templates/technique.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/templates/tier-3-platform.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/testing/README.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/tier-1-simple/README.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/tier-2-expanded/README.md` | Created or preserved in canonical package |
+| `writing-skills` | `references/tier-3-platform/README.md` | Created or preserved in canonical package |
+| `writing-skills` | `render-graphs.js` | Created or preserved in canonical package |
+| `writing-skills` | `testing-skills-with-subagents.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

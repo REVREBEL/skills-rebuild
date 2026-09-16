@@ -58,7 +58,22 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `email-validator` | `scripts/main.py` | Created or preserved in canonical package |
+| `email-validator` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `emerging-channels` | `ai-marketing-tools.md` | Created or preserved in canonical package |
+| `emerging-channels` | `community-building.md` | Created or preserved in canonical package |
+| `emerging-channels` | `conversational-commerce.md` | Created or preserved in canonical package |
+| `emerging-channels` | `podcast-marketing.md` | Created or preserved in canonical package |
+| `emerging-channels` | `social-commerce.md` | Created or preserved in canonical package |
+| `emerging-channels` | `video-marketing.md` | Created or preserved in canonical package |
+| `emerging-channels` | `visual-search.md` | Created or preserved in canonical package |
+| `emerging-channels` | `voice-search.md` | Created or preserved in canonical package |
+| `emerging-channels` | `web3-decentralized.md` | Created or preserved in canonical package |
+| `energy-procurement` | `references/communication-templates.md` | Created or preserved in canonical package |
+| `energy-procurement` | `references/decision-frameworks.md` | Created or preserved in canonical package |
+| `energy-procurement` | `references/edge-cases.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -58,7 +58,19 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `push-notifications` | `evals/smart-opt-in-timing-and-flash-sale-broad/criteria.json` | Created or preserved in canonical package |
+| `push-notifications` | `evals/smart-opt-in-timing-and-flash-sale-broad/task.md` | Created or preserved in canonical package |
+| `push-notifications` | `evals/subscription-storage-and-notification-se/criteria.json` | Created or preserved in canonical package |
+| `push-notifications` | `evals/subscription-storage-and-notification-se/task.md` | Created or preserved in canonical package |
+| `push-notifications` | `evals/vapid-setup-and-service-worker-implement/criteria.json` | Created or preserved in canonical package |
+| `push-notifications` | `evals/vapid-setup-and-service-worker-implement/task.md` | Created or preserved in canonical package |
+| `push-notifications` | `tile.json` | Created or preserved in canonical package |
+| `pushing` | `scripts/smart_commit.sh` | Created or preserved in canonical package |
+| `quality-nonconformance` | `references/communication-templates.md` | Created or preserved in canonical package |
+| `quality-nonconformance` | `references/decision-frameworks.md` | Created or preserved in canonical package |
+| `quality-nonconformance` | `references/edge-cases.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

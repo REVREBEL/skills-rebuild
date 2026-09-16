@@ -50,7 +50,21 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `programmatic-seo` | `evals/evals.json` | Created or preserved in canonical package |
+| `programmatic-seo` | `references/playbooks.md` | Created or preserved in canonical package |
+| `prospecting` | `evals/evals.json` | Created or preserved in canonical package |
+| `prospecting` | `references/b2b-prospecting.md` | Created or preserved in canonical package |
+| `prospecting` | `references/compliance.md` | Created or preserved in canonical package |
+| `prospecting` | `references/data-sources.md` | Created or preserved in canonical package |
+| `prospecting` | `references/local-prospecting.md` | Created or preserved in canonical package |
+| `prospecting` | `references/saas-prospecting.md` | Created or preserved in canonical package |
+| `seo-hreflang` | `LICENSE.txt` | Created or preserved in canonical package |
+| `seo-hreflang` | `references/content-parity.md` | Created or preserved in canonical package |
+| `seo-hreflang` | `references/cultural-profiles.md` | Created or preserved in canonical package |
+| `seo-hreflang` | `references/locale-formats.md` | Created or preserved in canonical package |
+| `seo-hreflang` | `references/machine-translation-qa.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

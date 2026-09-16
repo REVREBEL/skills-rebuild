@@ -58,7 +58,13 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `funnel-architect` | `attribution-models.md` | Created or preserved in canonical package |
+| `funnel-architect` | `funnel-templates.md` | Created or preserved in canonical package |
+| `funnel-architect` | `gap-analysis.md` | Created or preserved in canonical package |
+| `funnel-architect` | `journey-mapping.md` | Created or preserved in canonical package |
+| `funnel-architect` | `sales-marketing-alignment.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

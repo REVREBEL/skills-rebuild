@@ -58,7 +58,18 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `image-to-code-skill` | `LICENSE` | Created or preserved in canonical package |
+| `imagegen-frontend-mobile` | `LICENSE` | Created or preserved in canonical package |
+| `imagegen-frontend-web` | `LICENSE` | Created or preserved in canonical package |
+| `influencer-marketplace-integration` | `evals/campaign-brief-utm-tracking-and-discount/criteria.json` | Created or preserved in canonical package |
+| `influencer-marketplace-integration` | `evals/campaign-brief-utm-tracking-and-discount/task.md` | Created or preserved in canonical package |
+| `influencer-marketplace-integration` | `evals/influencer-data-model-and-tier-classific/criteria.json` | Created or preserved in canonical package |
+| `influencer-marketplace-integration` | `evals/influencer-data-model-and-tier-classific/task.md` | Created or preserved in canonical package |
+| `influencer-marketplace-integration` | `evals/roi-measurement-benchmark-kpis-and-micro/criteria.json` | Created or preserved in canonical package |
+| `influencer-marketplace-integration` | `evals/roi-measurement-benchmark-kpis-and-micro/task.md` | Created or preserved in canonical package |
+| `influencer-marketplace-integration` | `tile.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

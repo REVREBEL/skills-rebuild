@@ -36,7 +36,11 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `devrel-content` | `README.md` | Created or preserved in canonical package |
+| `professional-proofreader` | `references/file-processing-mode.md` | Created or preserved in canonical package |
+| `professional-proofreader` | `references/inline-text-mode.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

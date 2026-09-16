@@ -52,7 +52,11 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `auth-implementation-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `cqrs-implementation` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `event-store-design` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

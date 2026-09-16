@@ -32,7 +32,9 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `project-skill-audit` | `agents/openai.yaml` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

@@ -54,7 +54,10 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `review-animations` | `STANDARDS.md` | Created or preserved in canonical package |
+| `stitch-design-taste` | `DESIGN.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

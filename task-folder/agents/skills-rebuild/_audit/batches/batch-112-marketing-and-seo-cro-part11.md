@@ -58,7 +58,11 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `popups` | `evals/evals.json` | Created or preserved in canonical package |
+| `product-marketing-context` | `evals/evals.json` | Created or preserved in canonical package |
+| `product-marketing_02` | `evals/evals.json` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

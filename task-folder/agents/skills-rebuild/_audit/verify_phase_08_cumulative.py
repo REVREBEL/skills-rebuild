@@ -99,6 +99,26 @@ def compute_batch_manifest_hash(batch_id, cat, subcat, members):
     canonical_json = json.dumps(payload, sort_keys=True, separators=(',', ':'))
     return hashlib.sha256(canonical_json.encode('utf-8')).hexdigest()
 
+def get_observed_resources(checkpoint_sha, batch_skills, base_dir):
+    out = subprocess.check_output(["git", "diff-tree", "--no-commit-id", "--name-status", "-r", checkpoint_sha], cwd=base_dir).decode()
+    batch_dests = {s["phase08_final_destination"]: s["canonical_skill_name"] for s in batch_skills}
+    
+    observed = []
+    for line in out.strip().splitlines():
+        if not line:
+            continue
+        parts = line.split("\t")
+        filepath = parts[-1]
+        
+        for dest, sname in batch_dests.items():
+            if filepath.startswith(dest + "/"):
+                rel_p = os.path.relpath(filepath, dest)
+                if rel_p != "SKILL.md":
+                    observed.append((sname, rel_p))
+                    break
+    observed.sort()
+    return observed
+
 def run_cumulative_verification(base_dir=None):
     if base_dir is None:
         base_dir = os.path.abspath(os.getcwd())
@@ -418,7 +438,7 @@ def run_cumulative_verification(base_dir=None):
         print(f"{PASS} Gate 11: Final Path Uniqueness verified ({len(seen_dests)} unique destinations).")
 
     # -------------------------------------------------------------
-    # Gate 12: Complete 7-Section Batch Record Schema & Trigger Boundary Evidence
+    # Gate 12: Complete 7-Section Batch Record Schema, Resource Reconciliation & Trigger Evidence
     # -------------------------------------------------------------
     if not os.path.exists(batches_dir):
         errors.append("Gate 12: Missing batches directory")
@@ -447,8 +467,16 @@ def run_cumulative_verification(base_dir=None):
                 r"general inquiries regarding",
             ]
             schema_errors = []
+            
+            skills_by_batch = {}
+            for r in reg_rows:
+                skills_by_batch.setdefault(r["phase08_batch"], []).append(r)
+                
+            plan_by_batch = {p["batch_id"]: p for p in plan_rows}
+            
             for bf in batch_records:
                 b_path = os.path.join(batches_dir, bf)
+                b_id = bf[:-3]
                 with open(b_path, "r", encoding="utf-8") as fp:
                     b_text = fp.read()
                     
@@ -456,6 +484,7 @@ def run_cumulative_verification(base_dir=None):
                     if sec not in b_text:
                         schema_errors.append(f"{bf}: Missing required section '{sec}'")
                         
+                # 1. Check Section 3: Trigger Evidence
                 table_match = re.search(r'## 3\. Trigger Boundary Evaluation Evidence\s*\n\n\|[^\n]+\|\n\|[^\n]+\|\n([\s\S]*?)(?:\n##|\Z)', b_text)
                 if not table_match:
                     schema_errors.append(f"{bf}: Missing Section 3 Trigger Evidence table")
@@ -480,11 +509,37 @@ def run_cumulative_verification(base_dir=None):
                         schema_errors.append(f"{bf}: Row for {sname} has duplicate Ambiguous Query text")
                     seen_shts.add(sht)
                     seen_ambs.add(amb)
+                    
+                # 2. Check Section 5: Reconcile Declared Resources vs Git Commit
+                p_entry = plan_by_batch.get(b_id)
+                if p_entry:
+                    sha = p_entry["checkpoint_commit"]
+                    batch_skills = skills_by_batch.get(b_id, [])
+                    observed_res = get_observed_resources(sha, batch_skills, base_dir)
+                    
+                    sec5_match = re.search(r'## 5\. Resources Created or Moved\s*\n\n([\s\S]*?)(?=\n## 6\. Retired Paths)', b_text)
+                    if not sec5_match:
+                        schema_errors.append(f"{bf}: Malformed Section 5")
+                        continue
+                    sec5_content = sec5_match.group(1).strip()
+                    if not observed_res:
+                        if sec5_content != "- None":
+                            schema_errors.append(f"{bf}: Section 5 declared resources when 0 exist in commit")
+                    else:
+                        declared_res = []
+                        for line in sec5_content.splitlines():
+                            if line.startswith("|") and not line.startswith("| Skill") and not line.startswith("|---"):
+                                parts = [c.strip("` \t") for c in line.split("|")[1:-1]]
+                                if len(parts) >= 2:
+                                    declared_res.append((parts[0], parts[1]))
+                        declared_res.sort()
+                        if declared_res != observed_res:
+                            schema_errors.append(f"{bf}: Section 5 declared resources ({len(declared_res)}) != observed in commit ({len(observed_res)})")
                             
             if schema_errors:
-                errors.append(f"Gate 12: Batch schema or trigger boundary errors in {len(schema_errors)} entries: {schema_errors[:5]}")
+                errors.append(f"Gate 12: Batch schema, resource reconciliation, or trigger errors in {len(schema_errors)} entries: {schema_errors[:5]}")
             else:
-                print(f"{PASS} Gate 12: Complete 7-Section Batch Record Schema & Substantive Trigger Evidence verified across exactly 160 batch records.")
+                print(f"{PASS} Gate 12: Complete 7-Section Batch Schema, Resource Reconciliation & Trigger Evidence verified across exactly 160 batch records (100% declared resources match Git commits).")
 
     # -------------------------------------------------------------
     # Gate 13: Exact Source-to-Registry Attribution Join

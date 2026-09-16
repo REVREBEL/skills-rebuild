@@ -58,7 +58,14 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `customer-research` | `evals/evals.json` | Created or preserved in canonical package |
+| `customer-research` | `references/source-guides.md` | Created or preserved in canonical package |
+| `data-sourcing` | `references/provider_cheat_sheet.md` | Created or preserved in canonical package |
+| `data-sourcing` | `scripts/cost_calculator.py` | Created or preserved in canonical package |
+| `database-cloud-optimization-cost-optimize` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `dev-to-hashnode` | `README.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

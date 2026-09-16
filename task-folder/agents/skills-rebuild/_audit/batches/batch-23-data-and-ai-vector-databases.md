@@ -38,7 +38,35 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `similarity-search-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `weaviate` | `references/ask.md` | Created or preserved in canonical package |
+| `weaviate` | `references/create_collection.md` | Created or preserved in canonical package |
+| `weaviate` | `references/environment_requirements.md` | Created or preserved in canonical package |
+| `weaviate` | `references/example_data.md` | Created or preserved in canonical package |
+| `weaviate` | `references/explore_collection.md` | Created or preserved in canonical package |
+| `weaviate` | `references/fetch_filter.md` | Created or preserved in canonical package |
+| `weaviate` | `references/get_collection.md` | Created or preserved in canonical package |
+| `weaviate` | `references/hybrid_search.md` | Created or preserved in canonical package |
+| `weaviate` | `references/import_data.md` | Created or preserved in canonical package |
+| `weaviate` | `references/keyword_search.md` | Created or preserved in canonical package |
+| `weaviate` | `references/list_collections.md` | Created or preserved in canonical package |
+| `weaviate` | `references/query_search.md` | Created or preserved in canonical package |
+| `weaviate` | `references/semantic_search.md` | Created or preserved in canonical package |
+| `weaviate` | `scripts/ask.py` | Created or preserved in canonical package |
+| `weaviate` | `scripts/create_collection.py` | Created or preserved in canonical package |
+| `weaviate` | `scripts/example_data.py` | Created or preserved in canonical package |
+| `weaviate` | `scripts/explore_collection.py` | Created or preserved in canonical package |
+| `weaviate` | `scripts/fetch_filter.py` | Created or preserved in canonical package |
+| `weaviate` | `scripts/get_collection.py` | Created or preserved in canonical package |
+| `weaviate` | `scripts/hybrid_search.py` | Created or preserved in canonical package |
+| `weaviate` | `scripts/import.py` | Created or preserved in canonical package |
+| `weaviate` | `scripts/keyword_search.py` | Created or preserved in canonical package |
+| `weaviate` | `scripts/list_collections.py` | Created or preserved in canonical package |
+| `weaviate` | `scripts/query_search.py` | Created or preserved in canonical package |
+| `weaviate` | `scripts/semantic_search.py` | Created or preserved in canonical package |
+| `weaviate` | `scripts/weaviate_conn.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

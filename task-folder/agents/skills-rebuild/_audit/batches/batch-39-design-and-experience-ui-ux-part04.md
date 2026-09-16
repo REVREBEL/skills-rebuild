@@ -58,7 +58,9 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `frontend-design` | `LICENSE.txt` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

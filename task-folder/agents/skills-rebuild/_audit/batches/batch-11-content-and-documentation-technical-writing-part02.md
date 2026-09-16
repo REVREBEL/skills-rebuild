@@ -56,7 +56,23 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `developer-onboarding` | `README.md` | Created or preserved in canonical package |
+| `docs-as-marketing` | `README.md` | Created or preserved in canonical package |
+| `docs-guard` | `references/code-samples.md` | Created or preserved in canonical package |
+| `docs-guard` | `references/docstrings.md` | Created or preserved in canonical package |
+| `docs-guard` | `references/review-checklist.md` | Created or preserved in canonical package |
+| `docs-guard` | `references/sources.md` | Created or preserved in canonical package |
+| `docs-guard` | `references/verification.md` | Created or preserved in canonical package |
+| `documentation-generation-doc-generate` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `hugo-to-markdown` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `hugo-to-markdown` | `references/conversion-workflow.md` | Created or preserved in canonical package |
+| `hugo-to-markdown` | `references/front-matter-and-content.md` | Created or preserved in canonical package |
+| `hugo-to-markdown` | `references/links-assets-and-validation.md` | Created or preserved in canonical package |
+| `hugo-to-markdown` | `references/shortcodes-and-render-hooks.md` | Created or preserved in canonical package |
+| `hugo-to-markdown` | `scripts/check_standard_markdown.py` | Created or preserved in canonical package |
+| `hugo-to-markdown` | `scripts/inventory_hugo_rules.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

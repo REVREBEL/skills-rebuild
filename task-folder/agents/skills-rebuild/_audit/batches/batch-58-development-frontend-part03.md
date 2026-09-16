@@ -56,7 +56,15 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `onboarding` | `evals/evals.json` | Created or preserved in canonical package |
+| `onboarding` | `references/experiments.md` | Created or preserved in canonical package |
+| `prototype` | `LOGIC.md` | Created or preserved in canonical package |
+| `prototype` | `UI.md` | Created or preserved in canonical package |
+| `react-component-performance` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `react-component-performance` | `references/examples.md` | Created or preserved in canonical package |
+| `react-modernization` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

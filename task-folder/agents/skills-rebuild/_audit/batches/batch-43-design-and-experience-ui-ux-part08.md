@@ -58,7 +58,40 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `travel-planner` | `index.js` | Created or preserved in canonical package |
+| `travel-planner` | `package.json` | Created or preserved in canonical package |
+| `travel-planner` | `references/cultural_etiquette.md` | Created or preserved in canonical package |
+| `travel-planner` | `references/travel_guidelines.md` | Created or preserved in canonical package |
+| `travel-planner` | `scripts/plan_generator.py` | Created or preserved in canonical package |
+| `travel-planner` | `scripts/travel_db.py` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/charts.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/colors.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/icons.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/landing.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/products.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/prompts.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/react-performance.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/stacks/flutter.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/stacks/html-tailwind.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/stacks/nextjs.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/stacks/nuxt-ui.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/stacks/nuxtjs.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/stacks/react-native.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/stacks/react.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/stacks/shadcn.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/stacks/svelte.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/stacks/swiftui.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/stacks/vue.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/styles.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/typography.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/ui-reasoning.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/ux-guidelines.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `data/web-interface.csv` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `scripts/core.py` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `scripts/design_system.py` | Created or preserved in canonical package |
+| `ui-ux-pro-max` | `scripts/search.py` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

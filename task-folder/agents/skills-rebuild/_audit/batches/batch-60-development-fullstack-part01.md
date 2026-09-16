@@ -58,7 +58,21 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `agent-orchestrator` | `references/capability-taxonomy.md` | Created or preserved in canonical package |
+| `agent-orchestrator` | `references/orchestration-patterns.md` | Created or preserved in canonical package |
+| `agent-orchestrator` | `scripts/match_skills.py` | Created or preserved in canonical package |
+| `agent-orchestrator` | `scripts/orchestrate.py` | Created or preserved in canonical package |
+| `agent-orchestrator` | `scripts/requirements.txt` | Created or preserved in canonical package |
+| `agent-orchestrator` | `scripts/scan_registry.py` | Created or preserved in canonical package |
+| `agent-squad` | `alex/SKILL.md` | Created or preserved in canonical package |
+| `agent-squad` | `aria/SKILL.md` | Created or preserved in canonical package |
+| `agent-squad` | `luna/SKILL.md` | Created or preserved in canonical package |
+| `agent-squad` | `mason/SKILL.md` | Created or preserved in canonical package |
+| `agent-squad` | `max/SKILL.md` | Created or preserved in canonical package |
+| `agent-squad` | `quinn/SKILL.md` | Created or preserved in canonical package |
+| `agent-squad` | `rex/SKILL.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

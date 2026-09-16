@@ -58,7 +58,69 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `generate-project-plan` | `references/blocks/diagram-section.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/blocks/intro-callout.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/blocks/metadata-strip.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/blocks/multi-column-text.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/blocks/nested-section.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/blocks/section.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/blocks/sticky-column.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/blocks/table.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/blocks/text-primitives.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/foundation/codebase-grounding.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/foundation/layout.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/foundation/palette.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/foundation/plugin-api-traps.md` | Created or preserved in canonical package |
+| `generate-project-plan` | `references/section-catalog.md` | Created or preserved in canonical package |
+| `intent` | `references/accessibility-foundations.md` | Created or preserved in canonical package |
+| `intent` | `references/content-strategy.md` | Created or preserved in canonical package |
+| `intent` | `references/ethical-design.md` | Created or preserved in canonical package |
+| `intent` | `references/information-architecture.md` | Created or preserved in canonical package |
+| `intent` | `references/interaction-patterns.md` | Created or preserved in canonical package |
+| `intent` | `references/measurement-frameworks.md` | Created or preserved in canonical package |
+| `intent` | `references/research-methods.md` | Created or preserved in canonical package |
+| `intent` | `references/service-design.md` | Created or preserved in canonical package |
+| `intent` | `storyboard-manager/SKILL.md` | Created or preserved in canonical package |
+| `intent` | `storyboard-manager/index.js` | Created or preserved in canonical package |
+| `intent` | `storyboard-manager/package.json` | Created or preserved in canonical package |
+| `intent` | `storyboard-manager/references/character_development.md` | Created or preserved in canonical package |
+| `intent` | `storyboard-manager/references/story_structures.md` | Created or preserved in canonical package |
+| `intent` | `storyboard-manager/scripts/consistency_checker.py` | Created or preserved in canonical package |
+| `intent` | `storyboard-manager/scripts/timeline_tracker.py` | Created or preserved in canonical package |
+| `radix-ui-design-system` | `examples/README.md` | Created or preserved in canonical package |
+| `radix-ui-design-system` | `examples/dialog-example.tsx` | Created or preserved in canonical package |
+| `radix-ui-design-system` | `examples/dropdown-example.tsx` | Created or preserved in canonical package |
+| `radix-ui-design-system` | `templates/component-template.tsx.template` | Created or preserved in canonical package |
+| `senior-frontend` | `references/frontend_best_practices.md` | Created or preserved in canonical package |
+| `senior-frontend` | `references/nextjs_optimization_guide.md` | Created or preserved in canonical package |
+| `senior-frontend` | `references/react_patterns.md` | Created or preserved in canonical package |
+| `senior-frontend` | `scripts/bundle_analyzer.py` | Created or preserved in canonical package |
+| `senior-frontend` | `scripts/component_generator.py` | Created or preserved in canonical package |
+| `senior-frontend` | `scripts/frontend_scaffolder.py` | Created or preserved in canonical package |
+| `shadcn` | `agents/openai.yml` | Created or preserved in canonical package |
+| `shadcn` | `assets/shadcn-small.png` | Created or preserved in canonical package |
+| `shadcn` | `assets/shadcn.png` | Created or preserved in canonical package |
+| `shadcn` | `cli.md` | Created or preserved in canonical package |
+| `shadcn` | `customization.md` | Created or preserved in canonical package |
+| `shadcn` | `evals/evals.json` | Created or preserved in canonical package |
+| `shadcn` | `mcp.md` | Created or preserved in canonical package |
+| `shadcn` | `rules/base-vs-radix.md` | Created or preserved in canonical package |
+| `shadcn` | `rules/composition.md` | Created or preserved in canonical package |
+| `shadcn` | `rules/forms.md` | Created or preserved in canonical package |
+| `shadcn` | `rules/icons.md` | Created or preserved in canonical package |
+| `shadcn` | `rules/styling.md` | Created or preserved in canonical package |
+| `shadcn-ui` | `README.md` | Created or preserved in canonical package |
+| `shadcn-ui` | `examples/auth-layout.tsx` | Created or preserved in canonical package |
+| `shadcn-ui` | `examples/data-table.tsx` | Created or preserved in canonical package |
+| `shadcn-ui` | `examples/form-pattern.tsx` | Created or preserved in canonical package |
+| `shadcn-ui` | `resources/component-catalog.md` | Created or preserved in canonical package |
+| `shadcn-ui` | `resources/customization-guide.md` | Created or preserved in canonical package |
+| `shadcn-ui` | `resources/migration-guide.md` | Created or preserved in canonical package |
+| `shadcn-ui` | `resources/setup-guide.md` | Created or preserved in canonical package |
+| `shadcn-ui` | `scripts/verify-setup.sh` | Created or preserved in canonical package |
+| `tailwind-design-system` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

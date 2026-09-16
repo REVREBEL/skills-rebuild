@@ -58,7 +58,54 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `postgres-best-practices` | `AGENTS.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `README.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `metadata.json` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/_contributing.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/_sections.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/_template.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/advanced-full-text-search.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/advanced-jsonb-indexing.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/conn-idle-timeout.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/conn-limits.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/conn-pooling.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/conn-prepared-statements.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/data-batch-inserts.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/data-n-plus-one.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/data-pagination.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/data-upsert.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/lock-advisory.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/lock-deadlock-prevention.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/lock-short-transactions.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/lock-skip-locked.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/monitor-explain-analyze.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/monitor-pg-stat-statements.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/monitor-vacuum-analyze.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/query-composite-indexes.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/query-covering-indexes.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/query-index-types.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/query-missing-indexes.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/query-partial-indexes.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/schema-data-types.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/schema-foreign-key-indexes.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/schema-lowercase-identifiers.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/schema-partitioning.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/schema-primary-keys.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/security-privileges.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/security-rls-basics.md` | Created or preserved in canonical package |
+| `postgres-best-practices` | `rules/security-rls-performance.md` | Created or preserved in canonical package |
+| `postgres-readonly-queries` | `README.md` | Created or preserved in canonical package |
+| `postgres-readonly-queries` | `connections.example.json` | Created or preserved in canonical package |
+| `postgres-readonly-queries` | `requirements.txt` | Created or preserved in canonical package |
+| `postgres-readonly-queries` | `scripts/query.py` | Created or preserved in canonical package |
+| `postgresql-cli` | `references/cli-options-and-variables.md` | Created or preserved in canonical package |
+| `postgresql-cli` | `references/meta-commands-core.md` | Created or preserved in canonical package |
+| `postgresql-cli` | `references/meta-commands-formatting.md` | Created or preserved in canonical package |
+| `postgresql-cli` | `references/meta-commands-inspection.md` | Created or preserved in canonical package |
+| `postgresql-cli` | `references/tips-advanced.md` | Created or preserved in canonical package |
+| `postgresql-cli` | `references/tips-workflows.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

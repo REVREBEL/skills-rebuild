@@ -58,7 +58,25 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `champion-engagement-system` | `references/champion_tiering.md` | Created or preserved in canonical package |
+| `cold-email` | `evals/evals.json` | Created or preserved in canonical package |
+| `cold-email` | `references/benchmarks.md` | Created or preserved in canonical package |
+| `cold-email` | `references/follow-up-sequences.md` | Created or preserved in canonical package |
+| `cold-email` | `references/frameworks.md` | Created or preserved in canonical package |
+| `cold-email` | `references/personalization.md` | Created or preserved in canonical package |
+| `cold-email` | `references/subject-lines.md` | Created or preserved in canonical package |
+| `cold-email-personalization` | `assets/campaign-types.md` | Created or preserved in canonical package |
+| `cold-email-personalization` | `assets/creative-ideas.md` | Created or preserved in canonical package |
+| `cold-email-personalization` | `assets/email-structure.md` | Created or preserved in canonical package |
+| `cold-email-personalization` | `assets/examples.md` | Created or preserved in canonical package |
+| `cold-email-personalization` | `assets/follow-up-strategy.md` | Created or preserved in canonical package |
+| `cold-email-personalization` | `assets/icp-objection-mapping.md` | Created or preserved in canonical package |
+| `cold-email-personalization` | `assets/qa-checklist.md` | Created or preserved in canonical package |
+| `cold-email-personalization` | `assets/research-playbook.md` | Created or preserved in canonical package |
+| `cold-email-personalization` | `assets/scoring-rubric.md` | Created or preserved in canonical package |
+| `cold-email-personalization` | `assets/variable-schema.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

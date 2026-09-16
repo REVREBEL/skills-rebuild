@@ -50,7 +50,18 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `orchestrate-batch-refactor` | `agents/openai.yaml` | Created or preserved in canonical package |
+| `orchestrate-batch-refactor` | `references/agent-prompt-templates.md` | Created or preserved in canonical package |
+| `orchestrate-batch-refactor` | `references/work-packet-template.md` | Created or preserved in canonical package |
+| `projection-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
+| `task-intelligence` | `references/problem-catalog.md` | Created or preserved in canonical package |
+| `task-intelligence` | `references/time-patterns.md` | Created or preserved in canonical package |
+| `unreal-engine-cpp-pro` | `examples/ExampleActor.cpp` | Created or preserved in canonical package |
+| `unreal-engine-cpp-pro` | `examples/ExampleActor.h` | Created or preserved in canonical package |
+| `web-interface-architect` | `LICENSE.txt` | Created or preserved in canonical package |
+| `workflow-patterns` | `resources/implementation-playbook.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

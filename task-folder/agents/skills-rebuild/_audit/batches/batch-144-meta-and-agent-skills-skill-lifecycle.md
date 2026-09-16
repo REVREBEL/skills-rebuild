@@ -36,7 +36,9 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `orchestrate` | `agents/openai.yaml` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 

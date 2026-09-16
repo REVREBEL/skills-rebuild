@@ -58,7 +58,14 @@
 
 ## 5. Resources Created or Moved
 
-- None
+| Skill | Resource | Disposition |
+|---|---|---|
+| `accessibility` | `references/A11Y-PATTERNS.md` | Created or preserved in canonical package |
+| `accessibility` | `references/WCAG.md` | Created or preserved in canonical package |
+| `account-health-framework` | `assets/health_scorecard.md` | Created or preserved in canonical package |
+| `account-tiering` | `assets/tiering_matrix.md` | Created or preserved in canonical package |
+| `alert-manager` | `references/alert-configuration-templates.md` | Created or preserved in canonical package |
+| `alert-manager` | `references/alert-threshold-guide.md` | Created or preserved in canonical package |
 
 ## 6. Retired Paths
 
